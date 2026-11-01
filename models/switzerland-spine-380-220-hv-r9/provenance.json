@@ -1,0 +1,10453 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Swiss 380/220/150/132/110 kV transmission grid winter peak 2026-01-06 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "energy-charts public net generation by type and cross-border physical flows (snapshot hour)",
+   "publisher": "Fraunhofer ISE (ENTSO-E based)",
+   "url": "https://energy-charts.info",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "eurostat_pop",
+   "title": "Population on 1 January 2024 by NUTS 3 region (demo_r_pjanaggr3) and GISCO NUTS 2024 label points",
+   "publisher": "Eurostat / GISCO (EuroGeographics boundaries)",
+   "url": "https://ec.europa.eu/eurostat",
+   "licence": "CC BY 4.0 (Eurostat); GISCO points (c) EuroGeographics",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  },
+  {
+   "id": "inference",
+   "title": "the build pipeline inference round: physics-inferred generic feeds, compensation and tap positions, each listed in inferred_elements.json and MODEL_CARD.md",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "pypsa_osm"
+  ],
+  "42": [
+   "pypsa_osm"
+  ],
+  "43": [
+   "pypsa_osm"
+  ],
+  "44": [
+   "pypsa_osm"
+  ],
+  "45": [
+   "pypsa_osm"
+  ],
+  "46": [
+   "pypsa_osm"
+  ],
+  "47": [
+   "pypsa_osm"
+  ],
+  "48": [
+   "pypsa_osm"
+  ],
+  "49": [
+   "pypsa_osm"
+  ],
+  "50": [
+   "pypsa_osm"
+  ],
+  "51": [
+   "pypsa_osm"
+  ],
+  "52": [
+   "pypsa_osm"
+  ],
+  "53": [
+   "pypsa_osm"
+  ],
+  "54": [
+   "pypsa_osm"
+  ],
+  "55": [
+   "pypsa_osm"
+  ],
+  "56": [
+   "pypsa_osm"
+  ],
+  "57": [
+   "pypsa_osm"
+  ],
+  "58": [
+   "pypsa_osm"
+  ],
+  "59": [
+   "pypsa_osm"
+  ],
+  "60": [
+   "pypsa_osm"
+  ],
+  "61": [
+   "pypsa_osm"
+  ],
+  "62": [
+   "pypsa_osm"
+  ],
+  "63": [
+   "pypsa_osm"
+  ],
+  "64": [
+   "pypsa_osm"
+  ],
+  "65": [
+   "pypsa_osm"
+  ],
+  "66": [
+   "pypsa_osm"
+  ],
+  "67": [
+   "pypsa_osm"
+  ],
+  "68": [
+   "pypsa_osm"
+  ],
+  "69": [
+   "pypsa_osm"
+  ],
+  "70": [
+   "pypsa_osm"
+  ],
+  "71": [
+   "pypsa_osm"
+  ],
+  "72": [
+   "pypsa_osm"
+  ],
+  "73": [
+   "pypsa_osm"
+  ],
+  "74": [
+   "pypsa_osm"
+  ],
+  "75": [
+   "pypsa_osm"
+  ],
+  "76": [
+   "pypsa_osm"
+  ],
+  "77": [
+   "pypsa_osm"
+  ],
+  "78": [
+   "pypsa_osm"
+  ],
+  "79": [
+   "pypsa_osm"
+  ],
+  "80": [
+   "pypsa_osm"
+  ],
+  "81": [
+   "pypsa_osm"
+  ],
+  "82": [
+   "pypsa_osm"
+  ],
+  "83": [
+   "pypsa_osm"
+  ],
+  "84": [
+   "pypsa_osm"
+  ],
+  "85": [
+   "pypsa_osm"
+  ],
+  "86": [
+   "pypsa_osm"
+  ],
+  "87": [
+   "pypsa_osm"
+  ],
+  "88": [
+   "pypsa_osm"
+  ],
+  "89": [
+   "pypsa_osm"
+  ],
+  "90": [
+   "pypsa_osm"
+  ],
+  "91": [
+   "pypsa_osm"
+  ],
+  "92": [
+   "pypsa_osm"
+  ],
+  "93": [
+   "pypsa_osm"
+  ],
+  "94": [
+   "pypsa_osm"
+  ],
+  "95": [
+   "pypsa_osm"
+  ],
+  "96": [
+   "pypsa_osm"
+  ],
+  "97": [
+   "pypsa_osm"
+  ],
+  "98": [
+   "pypsa_osm"
+  ],
+  "99": [
+   "pypsa_osm"
+  ],
+  "100": [
+   "pypsa_osm"
+  ],
+  "101": [
+   "pypsa_osm"
+  ],
+  "102": [
+   "pypsa_osm"
+  ],
+  "103": [
+   "pypsa_osm"
+  ],
+  "104": [
+   "pypsa_osm"
+  ],
+  "105": [
+   "pypsa_osm"
+  ],
+  "106": [
+   "pypsa_osm"
+  ],
+  "107": [
+   "pypsa_osm"
+  ],
+  "108": [
+   "pypsa_osm"
+  ],
+  "109": [
+   "pypsa_osm"
+  ],
+  "110": [
+   "pypsa_osm"
+  ],
+  "111": [
+   "pypsa_osm"
+  ],
+  "112": [
+   "pypsa_osm"
+  ],
+  "113": [
+   "pypsa_osm"
+  ],
+  "114": [
+   "pypsa_osm"
+  ],
+  "115": [
+   "pypsa_osm"
+  ],
+  "116": [
+   "pypsa_osm"
+  ],
+  "117": [
+   "pypsa_osm"
+  ],
+  "118": [
+   "pypsa_osm"
+  ],
+  "119": [
+   "pypsa_osm"
+  ],
+  "120": [
+   "pypsa_osm"
+  ],
+  "121": [
+   "pypsa_osm"
+  ],
+  "122": [
+   "pypsa_osm"
+  ],
+  "123": [
+   "pypsa_osm"
+  ],
+  "124": [
+   "pypsa_osm"
+  ],
+  "125": [
+   "pypsa_osm"
+  ],
+  "126": [
+   "pypsa_osm"
+  ],
+  "127": [
+   "pypsa_osm"
+  ],
+  "128": [
+   "pypsa_osm"
+  ],
+  "129": [
+   "pypsa_osm"
+  ],
+  "130": [
+   "pypsa_osm"
+  ],
+  "131": [
+   "pypsa_osm"
+  ],
+  "132": [
+   "pypsa_osm"
+  ],
+  "133": [
+   "pypsa_osm"
+  ],
+  "134": [
+   "pypsa_osm"
+  ],
+  "135": [
+   "pypsa_osm"
+  ],
+  "136": [
+   "pypsa_osm"
+  ],
+  "137": [
+   "pypsa_osm"
+  ],
+  "138": [
+   "pypsa_osm"
+  ],
+  "139": [
+   "pypsa_osm"
+  ],
+  "140": [
+   "pypsa_osm"
+  ],
+  "141": [
+   "pypsa_osm"
+  ],
+  "142": [
+   "pypsa_osm"
+  ],
+  "143": [
+   "pypsa_osm"
+  ],
+  "144": [
+   "pypsa_osm"
+  ],
+  "145": [
+   "pypsa_osm"
+  ],
+  "146": [
+   "pypsa_osm"
+  ],
+  "147": [
+   "pypsa_osm"
+  ],
+  "148": [
+   "pypsa_osm"
+  ],
+  "149": [
+   "pypsa_osm"
+  ],
+  "150": [
+   "pypsa_osm"
+  ],
+  "151": [
+   "pypsa_osm"
+  ],
+  "152": [
+   "pypsa_osm"
+  ],
+  "153": [
+   "pypsa_osm"
+  ],
+  "154": [
+   "pypsa_osm"
+  ],
+  "155": [
+   "pypsa_osm"
+  ],
+  "156": [
+   "pypsa_osm"
+  ],
+  "157": [
+   "pypsa_osm"
+  ],
+  "158": [
+   "pypsa_osm"
+  ],
+  "159": [
+   "pypsa_osm"
+  ],
+  "160": [
+   "pypsa_osm"
+  ],
+  "161": [
+   "pypsa_osm"
+  ],
+  "162": [
+   "pypsa_osm"
+  ],
+  "163": [
+   "pypsa_osm"
+  ],
+  "164": [
+   "pypsa_osm"
+  ],
+  "165": [
+   "pypsa_osm"
+  ],
+  "166": [
+   "pypsa_osm"
+  ],
+  "167": [
+   "pypsa_osm"
+  ],
+  "168": [
+   "pypsa_osm"
+  ],
+  "169": [
+   "pypsa_osm"
+  ],
+  "170": [
+   "pypsa_osm"
+  ],
+  "171": [
+   "pypsa_osm"
+  ],
+  "172": [
+   "pypsa_osm"
+  ],
+  "173": [
+   "pypsa_osm"
+  ],
+  "174": [
+   "pypsa_osm"
+  ],
+  "175": [
+   "pypsa_osm"
+  ],
+  "176": [
+   "pypsa_osm"
+  ],
+  "177": [
+   "pypsa_osm"
+  ],
+  "178": [
+   "pypsa_osm"
+  ],
+  "179": [
+   "pypsa_osm"
+  ],
+  "180": [
+   "pypsa_osm"
+  ],
+  "181": [
+   "pypsa_osm"
+  ],
+  "182": [
+   "pypsa_osm"
+  ],
+  "183": [
+   "pypsa_osm"
+  ],
+  "184": [
+   "pypsa_osm"
+  ],
+  "185": [
+   "pypsa_osm"
+  ],
+  "186": [
+   "osm"
+  ],
+  "187": [
+   "osm"
+  ],
+  "188": [
+   "osm"
+  ],
+  "189": [
+   "osm"
+  ],
+  "190": [
+   "osm"
+  ],
+  "191": [
+   "osm"
+  ],
+  "192": [
+   "osm"
+  ],
+  "193": [
+   "osm"
+  ],
+  "194": [
+   "osm"
+  ],
+  "195": [
+   "osm"
+  ],
+  "196": [
+   "osm"
+  ],
+  "197": [
+   "osm"
+  ],
+  "198": [
+   "osm"
+  ],
+  "199": [
+   "osm"
+  ],
+  "200": [
+   "osm"
+  ],
+  "201": [
+   "osm"
+  ],
+  "202": [
+   "osm"
+  ],
+  "203": [
+   "osm"
+  ],
+  "204": [
+   "osm"
+  ],
+  "205": [
+   "osm"
+  ],
+  "206": [
+   "osm"
+  ],
+  "207": [
+   "osm"
+  ],
+  "208": [
+   "osm"
+  ],
+  "209": [
+   "osm"
+  ],
+  "210": [
+   "osm"
+  ],
+  "211": [
+   "osm"
+  ],
+  "212": [
+   "osm"
+  ],
+  "213": [
+   "osm"
+  ],
+  "214": [
+   "osm"
+  ],
+  "215": [
+   "osm"
+  ],
+  "216": [
+   "osm"
+  ],
+  "217": [
+   "osm"
+  ],
+  "218": [
+   "osm"
+  ],
+  "219": [
+   "osm"
+  ],
+  "220": [
+   "osm"
+  ],
+  "221": [
+   "osm"
+  ],
+  "222": [
+   "osm"
+  ],
+  "223": [
+   "osm"
+  ],
+  "224": [
+   "osm"
+  ],
+  "225": [
+   "osm"
+  ],
+  "226": [
+   "osm"
+  ],
+  "227": [
+   "osm"
+  ],
+  "228": [
+   "osm"
+  ],
+  "229": [
+   "osm"
+  ],
+  "230": [
+   "osm"
+  ],
+  "231": [
+   "osm"
+  ],
+  "232": [
+   "osm"
+  ],
+  "233": [
+   "osm"
+  ],
+  "234": [
+   "osm"
+  ],
+  "235": [
+   "osm"
+  ],
+  "236": [
+   "osm"
+  ],
+  "237": [
+   "osm"
+  ],
+  "238": [
+   "osm"
+  ],
+  "239": [
+   "osm"
+  ],
+  "240": [
+   "osm"
+  ],
+  "241": [
+   "osm"
+  ],
+  "242": [
+   "osm"
+  ],
+  "243": [
+   "osm"
+  ],
+  "244": [
+   "osm"
+  ],
+  "245": [
+   "osm"
+  ],
+  "246": [
+   "osm"
+  ],
+  "247": [
+   "osm"
+  ],
+  "248": [
+   "osm"
+  ],
+  "249": [
+   "osm"
+  ],
+  "250": [
+   "osm"
+  ],
+  "251": [
+   "osm"
+  ],
+  "252": [
+   "osm"
+  ],
+  "253": [
+   "osm"
+  ],
+  "254": [
+   "osm"
+  ],
+  "255": [
+   "osm"
+  ],
+  "256": [
+   "osm"
+  ],
+  "257": [
+   "osm"
+  ],
+  "258": [
+   "osm"
+  ],
+  "259": [
+   "osm"
+  ],
+  "260": [
+   "osm"
+  ],
+  "261": [
+   "osm"
+  ],
+  "262": [
+   "osm"
+  ],
+  "263": [
+   "osm"
+  ],
+  "264": [
+   "osm"
+  ],
+  "265": [
+   "osm"
+  ],
+  "266": [
+   "osm"
+  ],
+  "267": [
+   "osm"
+  ],
+  "268": [
+   "osm"
+  ],
+  "269": [
+   "osm"
+  ],
+  "270": [
+   "osm"
+  ],
+  "271": [
+   "osm"
+  ],
+  "272": [
+   "osm"
+  ],
+  "273": [
+   "osm"
+  ],
+  "274": [
+   "osm"
+  ],
+  "275": [
+   "osm"
+  ],
+  "276": [
+   "osm"
+  ],
+  "277": [
+   "osm"
+  ],
+  "278": [
+   "osm"
+  ],
+  "279": [
+   "osm"
+  ],
+  "280": [
+   "osm"
+  ],
+  "281": [
+   "osm"
+  ],
+  "282": [
+   "osm"
+  ],
+  "283": [
+   "osm"
+  ],
+  "284": [
+   "osm"
+  ],
+  "285": [
+   "osm"
+  ],
+  "286": [
+   "osm"
+  ],
+  "287": [
+   "osm"
+  ],
+  "288": [
+   "osm"
+  ],
+  "289": [
+   "osm"
+  ],
+  "290": [
+   "osm"
+  ],
+  "291": [
+   "osm"
+  ],
+  "292": [
+   "osm"
+  ],
+  "293": [
+   "osm"
+  ],
+  "294": [
+   "osm"
+  ],
+  "295": [
+   "osm"
+  ],
+  "296": [
+   "osm"
+  ],
+  "297": [
+   "osm"
+  ],
+  "298": [
+   "osm"
+  ],
+  "299": [
+   "osm"
+  ],
+  "300": [
+   "osm"
+  ],
+  "301": [
+   "osm"
+  ],
+  "302": [
+   "osm"
+  ],
+  "303": [
+   "osm"
+  ],
+  "304": [
+   "osm"
+  ],
+  "305": [
+   "osm"
+  ],
+  "306": [
+   "osm"
+  ],
+  "307": [
+   "osm"
+  ],
+  "308": [
+   "osm"
+  ],
+  "309": [
+   "osm"
+  ],
+  "310": [
+   "osm"
+  ],
+  "311": [
+   "osm"
+  ],
+  "312": [
+   "osm"
+  ],
+  "313": [
+   "osm"
+  ],
+  "314": [
+   "osm"
+  ],
+  "315": [
+   "osm"
+  ],
+  "316": [
+   "osm"
+  ],
+  "317": [
+   "osm"
+  ],
+  "318": [
+   "osm"
+  ],
+  "319": [
+   "osm"
+  ],
+  "320": [
+   "osm"
+  ],
+  "321": [
+   "osm"
+  ],
+  "322": [
+   "osm"
+  ],
+  "323": [
+   "osm"
+  ],
+  "324": [
+   "osm"
+  ],
+  "325": [
+   "osm"
+  ],
+  "326": [
+   "osm"
+  ],
+  "327": [
+   "osm"
+  ],
+  "328": [
+   "osm"
+  ],
+  "329": [
+   "osm"
+  ],
+  "330": [
+   "osm"
+  ],
+  "331": [
+   "osm"
+  ],
+  "332": [
+   "osm"
+  ],
+  "333": [
+   "osm"
+  ],
+  "334": [
+   "osm"
+  ],
+  "335": [
+   "osm"
+  ],
+  "336": [
+   "osm"
+  ],
+  "337": [
+   "osm"
+  ],
+  "338": [
+   "osm"
+  ],
+  "339": [
+   "osm"
+  ],
+  "340": [
+   "osm"
+  ],
+  "341": [
+   "osm"
+  ],
+  "342": [
+   "osm"
+  ],
+  "343": [
+   "osm"
+  ],
+  "344": [
+   "osm"
+  ],
+  "345": [
+   "osm"
+  ],
+  "346": [
+   "osm"
+  ],
+  "347": [
+   "osm"
+  ],
+  "348": [
+   "osm"
+  ],
+  "349": [
+   "osm"
+  ],
+  "350": [
+   "osm"
+  ],
+  "351": [
+   "osm"
+  ],
+  "352": [
+   "osm"
+  ],
+  "353": [
+   "osm"
+  ],
+  "354": [
+   "osm"
+  ],
+  "355": [
+   "osm"
+  ],
+  "356": [
+   "osm"
+  ],
+  "357": [
+   "osm"
+  ],
+  "358": [
+   "osm"
+  ],
+  "359": [
+   "osm"
+  ],
+  "360": [
+   "osm"
+  ],
+  "361": [
+   "osm"
+  ],
+  "362": [
+   "osm"
+  ],
+  "363": [
+   "osm"
+  ],
+  "364": [
+   "osm"
+  ],
+  "365": [
+   "osm"
+  ],
+  "366": [
+   "osm"
+  ],
+  "367": [
+   "osm"
+  ],
+  "368": [
+   "osm"
+  ],
+  "369": [
+   "osm"
+  ],
+  "370": [
+   "osm"
+  ],
+  "371": [
+   "osm"
+  ],
+  "372": [
+   "osm"
+  ],
+  "373": [
+   "osm"
+  ],
+  "374": [
+   "osm"
+  ],
+  "375": [
+   "osm"
+  ],
+  "376": [
+   "osm"
+  ],
+  "377": [
+   "osm"
+  ],
+  "378": [
+   "osm"
+  ],
+  "379": [
+   "osm"
+  ],
+  "380": [
+   "osm"
+  ],
+  "381": [
+   "osm"
+  ],
+  "382": [
+   "osm"
+  ],
+  "383": [
+   "osm"
+  ],
+  "384": [
+   "osm"
+  ],
+  "385": [
+   "osm"
+  ],
+  "386": [
+   "osm"
+  ],
+  "387": [
+   "osm"
+  ],
+  "388": [
+   "osm"
+  ],
+  "389": [
+   "osm"
+  ],
+  "390": [
+   "osm"
+  ],
+  "391": [
+   "osm"
+  ],
+  "392": [
+   "osm"
+  ],
+  "393": [
+   "osm"
+  ],
+  "394": [
+   "osm"
+  ],
+  "395": [
+   "osm"
+  ],
+  "396": [
+   "osm"
+  ],
+  "397": [
+   "osm"
+  ],
+  "398": [
+   "osm"
+  ],
+  "399": [
+   "osm"
+  ],
+  "400": [
+   "osm"
+  ],
+  "401": [
+   "osm"
+  ],
+  "402": [
+   "osm"
+  ],
+  "403": [
+   "osm"
+  ],
+  "404": [
+   "osm"
+  ],
+  "405": [
+   "osm"
+  ],
+  "406": [
+   "osm"
+  ],
+  "407": [
+   "osm"
+  ],
+  "408": [
+   "osm"
+  ],
+  "409": [
+   "osm"
+  ],
+  "410": [
+   "osm"
+  ],
+  "411": [
+   "osm"
+  ],
+  "412": [
+   "osm"
+  ],
+  "413": [
+   "osm"
+  ],
+  "414": [
+   "osm"
+  ],
+  "415": [
+   "osm"
+  ],
+  "416": [
+   "osm"
+  ],
+  "417": [
+   "osm"
+  ],
+  "418": [
+   "osm"
+  ],
+  "419": [
+   "osm"
+  ],
+  "420": [
+   "osm"
+  ],
+  "421": [
+   "osm"
+  ],
+  "422": [
+   "osm"
+  ],
+  "423": [
+   "osm"
+  ],
+  "424": [
+   "osm"
+  ],
+  "425": [
+   "osm"
+  ],
+  "426": [
+   "osm"
+  ],
+  "427": [
+   "osm"
+  ],
+  "428": [
+   "osm"
+  ],
+  "429": [
+   "osm"
+  ],
+  "430": [
+   "osm"
+  ],
+  "431": [
+   "osm"
+  ],
+  "432": [
+   "osm"
+  ],
+  "433": [
+   "osm"
+  ],
+  "434": [
+   "osm"
+  ],
+  "435": [
+   "osm"
+  ],
+  "436": [
+   "osm"
+  ],
+  "437": [
+   "osm"
+  ],
+  "438": [
+   "osm"
+  ],
+  "439": [
+   "osm"
+  ],
+  "440": [
+   "osm"
+  ],
+  "441": [
+   "osm"
+  ],
+  "442": [
+   "osm"
+  ],
+  "443": [
+   "osm"
+  ],
+  "444": [
+   "osm"
+  ],
+  "445": [
+   "osm"
+  ],
+  "446": [
+   "osm"
+  ],
+  "447": [
+   "osm"
+  ],
+  "448": [
+   "osm"
+  ],
+  "449": [
+   "osm"
+  ],
+  "450": [
+   "osm"
+  ],
+  "451": [
+   "osm"
+  ],
+  "452": [
+   "osm"
+  ],
+  "453": [
+   "osm"
+  ],
+  "454": [
+   "osm"
+  ],
+  "455": [
+   "osm"
+  ],
+  "456": [
+   "osm"
+  ],
+  "457": [
+   "osm"
+  ],
+  "458": [
+   "osm"
+  ],
+  "459": [
+   "osm"
+  ],
+  "460": [
+   "osm"
+  ],
+  "461": [
+   "osm"
+  ],
+  "462": [
+   "osm"
+  ],
+  "463": [
+   "osm"
+  ],
+  "464": [
+   "osm"
+  ],
+  "465": [
+   "osm"
+  ],
+  "466": [
+   "osm"
+  ],
+  "467": [
+   "osm"
+  ],
+  "468": [
+   "osm"
+  ],
+  "469": [
+   "osm"
+  ],
+  "470": [
+   "osm"
+  ],
+  "471": [
+   "osm"
+  ],
+  "472": [
+   "osm"
+  ],
+  "473": [
+   "osm"
+  ],
+  "474": [
+   "osm"
+  ],
+  "475": [
+   "osm"
+  ],
+  "476": [
+   "osm"
+  ],
+  "477": [
+   "osm"
+  ],
+  "478": [
+   "osm"
+  ],
+  "479": [
+   "osm"
+  ],
+  "480": [
+   "osm"
+  ],
+  "481": [
+   "osm"
+  ],
+  "482": [
+   "osm"
+  ],
+  "483": [
+   "osm"
+  ],
+  "484": [
+   "osm"
+  ],
+  "485": [
+   "osm"
+  ],
+  "486": [
+   "osm"
+  ],
+  "487": [
+   "osm"
+  ],
+  "488": [
+   "osm"
+  ],
+  "489": [
+   "osm"
+  ],
+  "490": [
+   "osm"
+  ],
+  "491": [
+   "osm"
+  ],
+  "492": [
+   "osm"
+  ],
+  "493": [
+   "osm"
+  ],
+  "494": [
+   "osm"
+  ],
+  "495": [
+   "osm"
+  ],
+  "496": [
+   "osm"
+  ],
+  "497": [
+   "osm"
+  ],
+  "498": [
+   "osm"
+  ],
+  "499": [
+   "osm"
+  ],
+  "500": [
+   "osm"
+  ],
+  "501": [
+   "osm"
+  ],
+  "502": [
+   "osm"
+  ],
+  "503": [
+   "osm"
+  ],
+  "504": [
+   "osm"
+  ],
+  "505": [
+   "osm"
+  ],
+  "506": [
+   "osm"
+  ],
+  "507": [
+   "osm"
+  ],
+  "508": [
+   "osm"
+  ],
+  "509": [
+   "osm"
+  ],
+  "510": [
+   "osm"
+  ],
+  "511": [
+   "osm"
+  ],
+  "512": [
+   "osm"
+  ],
+  "513": [
+   "osm"
+  ],
+  "514": [
+   "osm"
+  ],
+  "515": [
+   "osm"
+  ],
+  "516": [
+   "osm"
+  ],
+  "517": [
+   "osm"
+  ],
+  "518": [
+   "osm"
+  ],
+  "519": [
+   "osm"
+  ],
+  "520": [
+   "osm"
+  ],
+  "521": [
+   "osm"
+  ],
+  "522": [
+   "osm"
+  ],
+  "523": [
+   "osm"
+  ],
+  "524": [
+   "osm"
+  ],
+  "525": [
+   "osm"
+  ],
+  "526": [
+   "osm"
+  ],
+  "527": [
+   "osm"
+  ],
+  "528": [
+   "osm"
+  ],
+  "529": [
+   "osm"
+  ],
+  "530": [
+   "osm"
+  ],
+  "531": [
+   "osm"
+  ],
+  "532": [
+   "osm"
+  ],
+  "533": [
+   "osm"
+  ],
+  "534": [
+   "osm"
+  ],
+  "535": [
+   "osm"
+  ],
+  "536": [
+   "osm"
+  ],
+  "537": [
+   "osm"
+  ],
+  "538": [
+   "osm"
+  ],
+  "539": [
+   "osm"
+  ],
+  "540": [
+   "osm"
+  ],
+  "541": [
+   "osm"
+  ],
+  "542": [
+   "osm"
+  ],
+  "543": [
+   "osm"
+  ],
+  "544": [
+   "osm"
+  ],
+  "545": [
+   "osm"
+  ],
+  "546": [
+   "osm"
+  ],
+  "547": [
+   "osm"
+  ],
+  "548": [
+   "osm"
+  ],
+  "549": [
+   "osm"
+  ],
+  "550": [
+   "osm"
+  ],
+  "551": [
+   "osm"
+  ],
+  "552": [
+   "osm"
+  ],
+  "553": [
+   "osm"
+  ],
+  "554": [
+   "osm"
+  ],
+  "555": [
+   "osm"
+  ],
+  "556": [
+   "osm"
+  ],
+  "557": [
+   "osm"
+  ],
+  "558": [
+   "osm"
+  ],
+  "559": [
+   "osm"
+  ],
+  "560": [
+   "osm"
+  ],
+  "561": [
+   "osm"
+  ],
+  "562": [
+   "osm"
+  ],
+  "563": [
+   "osm"
+  ],
+  "564": [
+   "osm"
+  ],
+  "565": [
+   "osm"
+  ],
+  "566": [
+   "osm"
+  ],
+  "567": [
+   "osm"
+  ],
+  "568": [
+   "osm"
+  ],
+  "569": [
+   "osm"
+  ],
+  "570": [
+   "osm"
+  ],
+  "571": [
+   "osm"
+  ],
+  "572": [
+   "osm"
+  ],
+  "573": [
+   "osm"
+  ],
+  "574": [
+   "osm"
+  ],
+  "575": [
+   "osm"
+  ],
+  "576": [
+   "osm"
+  ],
+  "577": [
+   "osm"
+  ],
+  "578": [
+   "osm"
+  ],
+  "579": [
+   "osm"
+  ],
+  "580": [
+   "osm"
+  ],
+  "581": [
+   "osm"
+  ],
+  "582": [
+   "osm"
+  ],
+  "583": [
+   "osm"
+  ],
+  "584": [
+   "osm"
+  ],
+  "585": [
+   "osm"
+  ],
+  "586": [
+   "osm"
+  ],
+  "587": [
+   "osm"
+  ],
+  "588": [
+   "osm"
+  ],
+  "589": [
+   "osm"
+  ],
+  "590": [
+   "osm"
+  ],
+  "591": [
+   "osm"
+  ],
+  "592": [
+   "osm"
+  ],
+  "593": [
+   "osm"
+  ],
+  "594": [
+   "osm"
+  ],
+  "595": [
+   "osm"
+  ],
+  "596": [
+   "model_assembly"
+  ],
+  "597": [
+   "model_assembly"
+  ],
+  "598": [
+   "model_assembly"
+  ],
+  "599": [
+   "model_assembly"
+  ],
+  "600": [
+   "model_assembly"
+  ],
+  "601": [
+   "model_assembly"
+  ],
+  "602": [
+   "model_assembly"
+  ],
+  "603": [
+   "model_assembly"
+  ],
+  "604": [
+   "model_assembly"
+  ],
+  "605": [
+   "model_assembly"
+  ],
+  "606": [
+   "model_assembly"
+  ],
+  "607": [
+   "model_assembly"
+  ],
+  "608": [
+   "model_assembly"
+  ],
+  "609": [
+   "model_assembly"
+  ],
+  "610": [
+   "model_assembly"
+  ],
+  "611": [
+   "model_assembly"
+  ],
+  "612": [
+   "model_assembly"
+  ],
+  "613": [
+   "model_assembly"
+  ],
+  "614": [
+   "model_assembly"
+  ],
+  "615": [
+   "model_assembly"
+  ],
+  "616": [
+   "model_assembly"
+  ],
+  "617": [
+   "model_assembly"
+  ],
+  "618": [
+   "model_assembly"
+  ],
+  "619": [
+   "model_assembly"
+  ],
+  "620": [
+   "model_assembly"
+  ],
+  "621": [
+   "model_assembly"
+  ],
+  "622": [
+   "model_assembly"
+  ],
+  "623": [
+   "model_assembly"
+  ],
+  "624": [
+   "model_assembly"
+  ],
+  "625": [
+   "model_assembly"
+  ],
+  "626": [
+   "model_assembly"
+  ],
+  "627": [
+   "model_assembly"
+  ],
+  "628": [
+   "model_assembly"
+  ],
+  "629": [
+   "model_assembly"
+  ],
+  "630": [
+   "model_assembly"
+  ],
+  "631": [
+   "model_assembly"
+  ],
+  "632": [
+   "model_assembly"
+  ],
+  "633": [
+   "model_assembly"
+  ],
+  "634": [
+   "model_assembly"
+  ],
+  "635": [
+   "model_assembly"
+  ],
+  "636": [
+   "model_assembly"
+  ],
+  "637": [
+   "model_assembly"
+  ],
+  "638": [
+   "model_assembly"
+  ],
+  "639": [
+   "model_assembly"
+  ],
+  "640": [
+   "model_assembly"
+  ],
+  "641": [
+   "model_assembly"
+  ],
+  "642": [
+   "model_assembly"
+  ],
+  "643": [
+   "model_assembly"
+  ],
+  "644": [
+   "model_assembly"
+  ],
+  "645": [
+   "model_assembly"
+  ],
+  "646": [
+   "model_assembly"
+  ],
+  "647": [
+   "model_assembly"
+  ],
+  "648": [
+   "model_assembly"
+  ],
+  "649": [
+   "model_assembly"
+  ],
+  "650": [
+   "model_assembly"
+  ],
+  "651": [
+   "model_assembly"
+  ],
+  "652": [
+   "model_assembly"
+  ],
+  "653": [
+   "model_assembly"
+  ],
+  "654": [
+   "model_assembly"
+  ],
+  "655": [
+   "model_assembly"
+  ],
+  "656": [
+   "model_assembly"
+  ],
+  "657": [
+   "model_assembly"
+  ],
+  "658": [
+   "model_assembly"
+  ],
+  "659": [
+   "model_assembly"
+  ],
+  "660": [
+   "model_assembly"
+  ],
+  "661": [
+   "model_assembly"
+  ],
+  "662": [
+   "model_assembly"
+  ],
+  "663": [
+   "model_assembly"
+  ],
+  "664": [
+   "model_assembly"
+  ],
+  "665": [
+   "model_assembly"
+  ],
+  "666": [
+   "model_assembly"
+  ],
+  "667": [
+   "model_assembly"
+  ],
+  "668": [
+   "model_assembly"
+  ],
+  "669": [
+   "model_assembly"
+  ],
+  "670": [
+   "model_assembly"
+  ],
+  "671": [
+   "model_assembly"
+  ],
+  "672": [
+   "model_assembly"
+  ],
+  "673": [
+   "model_assembly"
+  ],
+  "674": [
+   "model_assembly"
+  ],
+  "675": [
+   "model_assembly"
+  ],
+  "676": [
+   "model_assembly"
+  ],
+  "677": [
+   "model_assembly"
+  ],
+  "678": [
+   "model_assembly"
+  ],
+  "679": [
+   "model_assembly"
+  ],
+  "680": [
+   "model_assembly"
+  ],
+  "681": [
+   "model_assembly"
+  ],
+  "682": [
+   "model_assembly"
+  ],
+  "683": [
+   "model_assembly"
+  ],
+  "684": [
+   "model_assembly"
+  ],
+  "685": [
+   "model_assembly"
+  ],
+  "686": [
+   "model_assembly"
+  ],
+  "687": [
+   "model_assembly"
+  ],
+  "688": [
+   "model_assembly"
+  ],
+  "689": [
+   "model_assembly"
+  ],
+  "690": [
+   "model_assembly"
+  ],
+  "691": [
+   "model_assembly"
+  ],
+  "692": [
+   "model_assembly"
+  ],
+  "693": [
+   "model_assembly"
+  ],
+  "694": [
+   "model_assembly"
+  ],
+  "695": [
+   "model_assembly"
+  ],
+  "696": [
+   "model_assembly"
+  ],
+  "697": [
+   "model_assembly"
+  ],
+  "698": [
+   "model_assembly"
+  ],
+  "699": [
+   "model_assembly"
+  ],
+  "700": [
+   "model_assembly"
+  ],
+  "701": [
+   "model_assembly"
+  ],
+  "702": [
+   "model_assembly"
+  ],
+  "703": [
+   "model_assembly"
+  ],
+  "704": [
+   "model_assembly"
+  ],
+  "705": [
+   "model_assembly"
+  ],
+  "706": [
+   "model_assembly"
+  ],
+  "707": [
+   "model_assembly"
+  ],
+  "708": [
+   "model_assembly"
+  ],
+  "709": [
+   "model_assembly"
+  ],
+  "710": [
+   "model_assembly"
+  ],
+  "711": [
+   "model_assembly"
+  ],
+  "712": [
+   "model_assembly"
+  ],
+  "713": [
+   "model_assembly"
+  ],
+  "714": [
+   "model_assembly"
+  ],
+  "715": [
+   "model_assembly"
+  ],
+  "716": [
+   "model_assembly"
+  ],
+  "717": [
+   "model_assembly"
+  ],
+  "718": [
+   "model_assembly"
+  ],
+  "719": [
+   "model_assembly"
+  ],
+  "720": [
+   "model_assembly"
+  ],
+  "721": [
+   "model_assembly"
+  ],
+  "722": [
+   "model_assembly"
+  ],
+  "723": [
+   "model_assembly"
+  ],
+  "724": [
+   "model_assembly"
+  ],
+  "725": [
+   "model_assembly"
+  ],
+  "726": [
+   "model_assembly"
+  ],
+  "727": [
+   "model_assembly"
+  ],
+  "728": [
+   "model_assembly"
+  ],
+  "729": [
+   "model_assembly"
+  ],
+  "730": [
+   "model_assembly"
+  ],
+  "731": [
+   "model_assembly"
+  ],
+  "732": [
+   "model_assembly"
+  ],
+  "733": [
+   "model_assembly"
+  ],
+  "734": [
+   "model_assembly"
+  ],
+  "735": [
+   "model_assembly"
+  ],
+  "736": [
+   "model_assembly"
+  ],
+  "737": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_relation/14096017:b-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_relation/14096018:b-380+5": [
+   "pypsa_osm"
+  ],
+  "merged_relation/5318396-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_relation/5978223:a-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/102885058-220+7": [
+   "pypsa_osm"
+  ],
+  "merged_way/1106689555-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/1106689555-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/1178282955-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/1178282960-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1284913431-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/140575361-380+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/141442913-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/148773314-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/148773314-380+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/156348853-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/156348853-380+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/163857038:a-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/167451086-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/174548757-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/194801349:a-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/194801349:a-380+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/198215266-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/198215266-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/206017074-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/206017880-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/207991756-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/208221717-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/208487760-380+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/208555946-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/208865704-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/208919501-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/209411609-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/240692413-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/240692416-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/240692416-380+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/253385905-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/253385905-380+6": [
+   "pypsa_osm"
+  ],
+  "merged_way/255353869-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/286668849-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/286668849-380+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/320500928-380+10": [
+   "pypsa_osm"
+  ],
+  "merged_way/365524938-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/365524939-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/365556103-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/365556103-380+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/365562192-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/365587460-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/365587953-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/365592859-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/366078109-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/367428574-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/398384919-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/398695887-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/398700018-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/40818537-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/40818537-380+9": [
+   "pypsa_osm"
+  ],
+  "merged_way/50902489-380+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/637257404-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/63803752-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/71400903-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/720907970:b-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/773893744-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/773893744-380+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/773893747-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/773893747-380+1": [
+   "pypsa_osm"
+  ],
+  "relation/18851097-380": [
+   "pypsa_osm"
+  ],
+  "relation/18851098-380": [
+   "pypsa_osm"
+  ],
+  "relation/18851099-380": [
+   "pypsa_osm"
+  ],
+  "relation/5318398-220": [
+   "pypsa_osm"
+  ],
+  "relation/5327531:a-220": [
+   "pypsa_osm"
+  ],
+  "relation/5343865-220": [
+   "pypsa_osm"
+  ],
+  "relation/5434510-220": [
+   "pypsa_osm"
+  ],
+  "relation/5434511-220": [
+   "pypsa_osm"
+  ],
+  "relation/5435443:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/5435444:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/5462443-220": [
+   "pypsa_osm"
+  ],
+  "relation/5552980-220": [
+   "pypsa_osm"
+  ],
+  "relation/5602271-220": [
+   "pypsa_osm"
+  ],
+  "relation/5602272-220": [
+   "pypsa_osm"
+  ],
+  "relation/5602273-220": [
+   "pypsa_osm"
+  ],
+  "relation/5610121-220": [
+   "pypsa_osm"
+  ],
+  "relation/5610122-220": [
+   "pypsa_osm"
+  ],
+  "relation/5610123-220": [
+   "pypsa_osm"
+  ],
+  "relation/5610136-220": [
+   "pypsa_osm"
+  ],
+  "relation/5615993:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/5616249-220": [
+   "pypsa_osm"
+  ],
+  "relation/5616265-220": [
+   "pypsa_osm"
+  ],
+  "relation/5616266-220": [
+   "pypsa_osm"
+  ],
+  "relation/5645820-220": [
+   "pypsa_osm"
+  ],
+  "relation/5645821-220": [
+   "pypsa_osm"
+  ],
+  "relation/5645841-220": [
+   "pypsa_osm"
+  ],
+  "relation/5716084-380": [
+   "pypsa_osm"
+  ],
+  "relation/5716119-380": [
+   "pypsa_osm"
+  ],
+  "relation/5716121-220": [
+   "pypsa_osm"
+  ],
+  "relation/5986624:b-380": [
+   "pypsa_osm"
+  ],
+  "relation/5986625-380": [
+   "pypsa_osm"
+  ],
+  "relation/5986626-380": [
+   "pypsa_osm"
+  ],
+  "relation/6031720:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031720:c-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031721:a-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031721:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031722:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031723-380": [
+   "pypsa_osm"
+  ],
+  "relation/6031724-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031725-220": [
+   "pypsa_osm"
+  ],
+  "relation/6031726-220": [
+   "pypsa_osm"
+  ],
+  "relation/9071152-380": [
+   "pypsa_osm"
+  ],
+  "relation/9071155-380": [
+   "pypsa_osm"
+  ],
+  "way/104906943-380": [
+   "pypsa_osm"
+  ],
+  "way/1092089945-220": [
+   "pypsa_osm"
+  ],
+  "way/1092089948-220": [
+   "pypsa_osm"
+  ],
+  "way/109814042-220": [
+   "pypsa_osm"
+  ],
+  "way/109814252-220": [
+   "pypsa_osm"
+  ],
+  "way/1119943056-220": [
+   "pypsa_osm"
+  ],
+  "way/1119943059-220": [
+   "pypsa_osm"
+  ],
+  "way/113340277-220": [
+   "pypsa_osm"
+  ],
+  "way/114822159-220": [
+   "pypsa_osm"
+  ],
+  "way/1200670020-380": [
+   "pypsa_osm"
+  ],
+  "way/129977069-220": [
+   "pypsa_osm"
+  ],
+  "way/1344085839-220": [
+   "pypsa_osm"
+  ],
+  "way/136073265-220": [
+   "pypsa_osm"
+  ],
+  "way/136073350:a-220": [
+   "pypsa_osm"
+  ],
+  "way/136073350:b-220": [
+   "pypsa_osm"
+  ],
+  "way/1386688453-380": [
+   "pypsa_osm"
+  ],
+  "way/13870192-220": [
+   "pypsa_osm"
+  ],
+  "way/14005228-220": [
+   "pypsa_osm"
+  ],
+  "way/141333193-220": [
+   "pypsa_osm"
+  ],
+  "way/141333198-220": [
+   "pypsa_osm"
+  ],
+  "way/141442916-220": [
+   "pypsa_osm"
+  ],
+  "way/145349208-380": [
+   "pypsa_osm"
+  ],
+  "way/148642941-220": [
+   "pypsa_osm"
+  ],
+  "way/163857038:a-380": [
+   "pypsa_osm"
+  ],
+  "way/167401432-220": [
+   "pypsa_osm"
+  ],
+  "way/193576911-220": [
+   "pypsa_osm"
+  ],
+  "way/194524721-220": [
+   "pypsa_osm"
+  ],
+  "way/194683262-220": [
+   "pypsa_osm"
+  ],
+  "way/194801349:b-220": [
+   "pypsa_osm"
+  ],
+  "way/195667272-220": [
+   "pypsa_osm"
+  ],
+  "way/195667530-220": [
+   "pypsa_osm"
+  ],
+  "way/207876772-220": [
+   "pypsa_osm"
+  ],
+  "way/207895374-380": [
+   "pypsa_osm"
+  ],
+  "way/207989067-220": [
+   "pypsa_osm"
+  ],
+  "way/207993341:a-380": [
+   "pypsa_osm"
+  ],
+  "way/207993341:b-380": [
+   "pypsa_osm"
+  ],
+  "way/208243244-220": [
+   "pypsa_osm"
+  ],
+  "way/208345690-220": [
+   "pypsa_osm"
+  ],
+  "way/208346331-220": [
+   "pypsa_osm"
+  ],
+  "way/208346332-220": [
+   "pypsa_osm"
+  ],
+  "way/208417352-220": [
+   "pypsa_osm"
+  ],
+  "way/208420809-220": [
+   "pypsa_osm"
+  ],
+  "way/208488180-380": [
+   "pypsa_osm"
+  ],
+  "way/208551457-220": [
+   "pypsa_osm"
+  ],
+  "way/208560300-220": [
+   "pypsa_osm"
+  ],
+  "way/208560302-220": [
+   "pypsa_osm"
+  ],
+  "way/208625022-380": [
+   "pypsa_osm"
+  ],
+  "way/209111685-220": [
+   "pypsa_osm"
+  ],
+  "way/209111686-220": [
+   "pypsa_osm"
+  ],
+  "way/209112348-220": [
+   "pypsa_osm"
+  ],
+  "way/209112349-220": [
+   "pypsa_osm"
+  ],
+  "way/209112350-220": [
+   "pypsa_osm"
+  ],
+  "way/209112351-220": [
+   "pypsa_osm"
+  ],
+  "way/209130227-220": [
+   "pypsa_osm"
+  ],
+  "way/209181215-380": [
+   "pypsa_osm"
+  ],
+  "way/209288137-220": [
+   "pypsa_osm"
+  ],
+  "way/209288141-220": [
+   "pypsa_osm"
+  ],
+  "way/209288142-220": [
+   "pypsa_osm"
+  ],
+  "way/209288143-220": [
+   "pypsa_osm"
+  ],
+  "way/209288144-220": [
+   "pypsa_osm"
+  ],
+  "way/209288146-220": [
+   "pypsa_osm"
+  ],
+  "way/209288147-220": [
+   "pypsa_osm"
+  ],
+  "way/209288148-220": [
+   "pypsa_osm"
+  ],
+  "way/209387338:a-220": [
+   "pypsa_osm"
+  ],
+  "way/209387338:b-220": [
+   "pypsa_osm"
+  ],
+  "way/212498549-220": [
+   "pypsa_osm"
+  ],
+  "way/235907481-220": [
+   "pypsa_osm"
+  ],
+  "way/253361586-220": [
+   "pypsa_osm"
+  ],
+  "way/255353868-220": [
+   "pypsa_osm"
+  ],
+  "way/255353913-220": [
+   "pypsa_osm"
+  ],
+  "way/255353918-220": [
+   "pypsa_osm"
+  ],
+  "way/263493512:a-220": [
+   "pypsa_osm"
+  ],
+  "way/263493512:b-220": [
+   "pypsa_osm"
+  ],
+  "way/263493512:c-220": [
+   "pypsa_osm"
+  ],
+  "way/27016533:a-220": [
+   "pypsa_osm"
+  ],
+  "way/27016533:b-220": [
+   "pypsa_osm"
+  ],
+  "way/288004322-220": [
+   "pypsa_osm"
+  ],
+  "way/288004323-220": [
+   "pypsa_osm"
+  ],
+  "way/356292100:a-220": [
+   "pypsa_osm"
+  ],
+  "way/356292100:b-220": [
+   "pypsa_osm"
+  ],
+  "way/356313610-220": [
+   "pypsa_osm"
+  ],
+  "way/365557144-220": [
+   "pypsa_osm"
+  ],
+  "way/365559547-220": [
+   "pypsa_osm"
+  ],
+  "way/365565792-220": [
+   "pypsa_osm"
+  ],
+  "way/365565793-220": [
+   "pypsa_osm"
+  ],
+  "way/365565794-220": [
+   "pypsa_osm"
+  ],
+  "way/365565795-220": [
+   "pypsa_osm"
+  ],
+  "way/365580703-220": [
+   "pypsa_osm"
+  ],
+  "way/366127317:a-220": [
+   "pypsa_osm"
+  ],
+  "way/366129087-220": [
+   "pypsa_osm"
+  ],
+  "way/373413954-220": [
+   "pypsa_osm"
+  ],
+  "way/373422666-220": [
+   "pypsa_osm"
+  ],
+  "way/376977462-220": [
+   "pypsa_osm"
+  ],
+  "way/38263967-220": [
+   "pypsa_osm"
+  ],
+  "way/384105729-220": [
+   "pypsa_osm"
+  ],
+  "way/397966971-220": [
+   "pypsa_osm"
+  ],
+  "way/398700016-220": [
+   "pypsa_osm"
+  ],
+  "way/406403401-380": [
+   "pypsa_osm"
+  ],
+  "way/43125412-220": [
+   "pypsa_osm"
+  ],
+  "way/461199931-220": [
+   "pypsa_osm"
+  ],
+  "way/567897594-380": [
+   "pypsa_osm"
+  ],
+  "way/640126754-220": [
+   "pypsa_osm"
+  ],
+  "way/758992184-220": [
+   "pypsa_osm"
+  ],
+  "way/759133044-220": [
+   "pypsa_osm"
+  ],
+  "way/759143386-220": [
+   "pypsa_osm"
+  ],
+  "way/759166638-220": [
+   "pypsa_osm"
+  ],
+  "way/76706345-220": [
+   "pypsa_osm"
+  ],
+  "way/81247299:a-220": [
+   "pypsa_osm"
+  ],
+  "way/850821932-220": [
+   "pypsa_osm"
+  ],
+  "way/856834935:a-220": [
+   "pypsa_osm"
+  ],
+  "way/856834935:b-220": [
+   "pypsa_osm"
+  ],
+  "way/927740824-220": [
+   "pypsa_osm"
+  ],
+  "way/93377768-220": [
+   "pypsa_osm"
+  ],
+  "way/95726659-220": [
+   "pypsa_osm"
+  ],
+  "way/969811242-220": [
+   "pypsa_osm"
+  ],
+  "way/969819288-220": [
+   "pypsa_osm"
+  ],
+  "hv:way/22367696+1": [
+   "osm"
+  ],
+  "hv:way/24775741+1": [
+   "osm"
+  ],
+  "hv:way/27365436+1": [
+   "osm"
+  ],
+  "hv:way/27819178": [
+   "osm"
+  ],
+  "hv:way/28657604+1": [
+   "osm"
+  ],
+  "hv:way/29312381": [
+   "osm"
+  ],
+  "hv:way/30063323": [
+   "osm"
+  ],
+  "hv:way/30716133": [
+   "osm"
+  ],
+  "hv:way/32791746": [
+   "osm"
+  ],
+  "hv:way/35912671": [
+   "osm"
+  ],
+  "hv:way/37279527": [
+   "osm"
+  ],
+  "hv:way/37279543+1": [
+   "osm"
+  ],
+  "hv:way/38082289": [
+   "osm"
+  ],
+  "hv:way/38082351:0+1": [
+   "osm"
+  ],
+  "hv:way/38082351:1+4": [
+   "osm"
+  ],
+  "hv:way/38625360": [
+   "osm"
+  ],
+  "hv:way/38871492": [
+   "osm"
+  ],
+  "hv:way/40315322": [
+   "osm"
+  ],
+  "hv:way/41987410": [
+   "osm"
+  ],
+  "hv:way/42278881+1": [
+   "osm"
+  ],
+  "hv:way/43922750": [
+   "osm"
+  ],
+  "hv:way/43922751+1": [
+   "osm"
+  ],
+  "hv:way/44001715": [
+   "osm"
+  ],
+  "hv:way/46751722": [
+   "osm"
+  ],
+  "hv:way/46972872": [
+   "osm"
+  ],
+  "hv:way/47976883+2": [
+   "osm"
+  ],
+  "hv:way/49111492": [
+   "osm"
+  ],
+  "hv:way/49128928": [
+   "osm"
+  ],
+  "hv:way/49157187+1": [
+   "osm"
+  ],
+  "hv:way/49157188+1": [
+   "osm"
+  ],
+  "hv:way/49744747": [
+   "osm"
+  ],
+  "hv:way/50293111": [
+   "osm"
+  ],
+  "hv:way/50408639": [
+   "osm"
+  ],
+  "hv:way/50561324+1": [
+   "osm"
+  ],
+  "hv:way/50561352+1": [
+   "osm"
+  ],
+  "hv:way/50561353+1": [
+   "osm"
+  ],
+  "hv:way/51287497+2": [
+   "osm"
+  ],
+  "hv:way/51397948+1": [
+   "osm"
+  ],
+  "hv:way/51397949+1": [
+   "osm"
+  ],
+  "hv:way/51682518+5": [
+   "osm"
+  ],
+  "hv:way/54894007": [
+   "osm"
+  ],
+  "hv:way/57776560": [
+   "osm"
+  ],
+  "hv:way/59064407": [
+   "osm"
+  ],
+  "hv:way/63803752+2": [
+   "osm"
+  ],
+  "hv:way/65057393": [
+   "osm"
+  ],
+  "hv:way/69708899+3": [
+   "osm"
+  ],
+  "hv:way/77926960+2": [
+   "osm"
+  ],
+  "hv:way/79655485": [
+   "osm"
+  ],
+  "hv:way/79655581+1": [
+   "osm"
+  ],
+  "hv:way/83813421": [
+   "osm"
+  ],
+  "hv:way/86379580": [
+   "osm"
+  ],
+  "hv:way/86446282": [
+   "osm"
+  ],
+  "hv:way/86446442": [
+   "osm"
+  ],
+  "hv:way/87236111+1": [
+   "osm"
+  ],
+  "hv:way/89076657+1": [
+   "osm"
+  ],
+  "hv:way/89796804": [
+   "osm"
+  ],
+  "hv:way/90019806": [
+   "osm"
+  ],
+  "hv:way/90420299": [
+   "osm"
+  ],
+  "hv:way/90421577+1": [
+   "osm"
+  ],
+  "hv:way/91898899": [
+   "osm"
+  ],
+  "hv:way/93213364+2": [
+   "osm"
+  ],
+  "hv:way/93678314+1": [
+   "osm"
+  ],
+  "hv:way/93678772+1": [
+   "osm"
+  ],
+  "hv:way/96150233+1": [
+   "osm"
+  ],
+  "hv:way/97405907": [
+   "osm"
+  ],
+  "hv:way/103190355:0": [
+   "osm"
+  ],
+  "hv:way/103190355:1": [
+   "osm"
+  ],
+  "hv:way/104373932+1": [
+   "osm"
+  ],
+  "hv:way/104373939+1": [
+   "osm"
+  ],
+  "hv:way/104373943+1": [
+   "osm"
+  ],
+  "hv:way/104373946+1": [
+   "osm"
+  ],
+  "hv:way/107682682": [
+   "osm"
+  ],
+  "hv:way/107682685": [
+   "osm"
+  ],
+  "hv:way/112631666": [
+   "osm"
+  ],
+  "hv:way/112631669+1": [
+   "osm"
+  ],
+  "hv:way/112631691": [
+   "osm"
+  ],
+  "hv:way/114239307+1": [
+   "osm"
+  ],
+  "hv:way/114239324+1": [
+   "osm"
+  ],
+  "hv:way/118111547": [
+   "osm"
+  ],
+  "hv:way/118111579+4": [
+   "osm"
+  ],
+  "hv:way/119098392+3": [
+   "osm"
+  ],
+  "hv:way/119098397+2": [
+   "osm"
+  ],
+  "hv:way/119761165+1": [
+   "osm"
+  ],
+  "hv:way/119761166+5": [
+   "osm"
+  ],
+  "hv:way/119761167": [
+   "osm"
+  ],
+  "hv:way/119761174+2": [
+   "osm"
+  ],
+  "hv:way/122217813": [
+   "osm"
+  ],
+  "hv:way/122217814+1": [
+   "osm"
+  ],
+  "hv:way/122307381+3": [
+   "osm"
+  ],
+  "hv:way/122307382+1": [
+   "osm"
+  ],
+  "hv:way/122307383": [
+   "osm"
+  ],
+  "hv:way/122307384": [
+   "osm"
+  ],
+  "hv:way/122559690": [
+   "osm"
+  ],
+  "hv:way/124991671+1": [
+   "osm"
+  ],
+  "hv:way/131881083": [
+   "osm"
+  ],
+  "hv:way/131881094:0": [
+   "osm"
+  ],
+  "hv:way/131881094:1": [
+   "osm"
+  ],
+  "hv:way/132376256:0": [
+   "osm"
+  ],
+  "hv:way/132376256:1": [
+   "osm"
+  ],
+  "hv:way/134063922": [
+   "osm"
+  ],
+  "hv:way/142882714": [
+   "osm"
+  ],
+  "hv:way/142882723": [
+   "osm"
+  ],
+  "hv:way/142882763": [
+   "osm"
+  ],
+  "hv:way/142882770": [
+   "osm"
+  ],
+  "hv:way/147557675+1": [
+   "osm"
+  ],
+  "hv:way/147557676+2": [
+   "osm"
+  ],
+  "hv:way/147557679": [
+   "osm"
+  ],
+  "hv:way/148349755": [
+   "osm"
+  ],
+  "hv:way/148773310": [
+   "osm"
+  ],
+  "hv:way/148773311": [
+   "osm"
+  ],
+  "hv:way/148773324": [
+   "osm"
+  ],
+  "hv:way/148773325": [
+   "osm"
+  ],
+  "hv:way/148773326": [
+   "osm"
+  ],
+  "hv:way/148773333": [
+   "osm"
+  ],
+  "hv:way/148773335": [
+   "osm"
+  ],
+  "hv:way/148773338": [
+   "osm"
+  ],
+  "hv:way/152261879": [
+   "osm"
+  ],
+  "hv:way/152261880": [
+   "osm"
+  ],
+  "hv:way/152261882+1": [
+   "osm"
+  ],
+  "hv:way/152723580": [
+   "osm"
+  ],
+  "hv:way/152883665+1": [
+   "osm"
+  ],
+  "hv:way/155021539": [
+   "osm"
+  ],
+  "hv:way/156831918": [
+   "osm"
+  ],
+  "hv:way/156985990+9": [
+   "osm"
+  ],
+  "hv:way/157087438": [
+   "osm"
+  ],
+  "hv:way/158228407": [
+   "osm"
+  ],
+  "hv:way/159740250+4": [
+   "osm"
+  ],
+  "hv:way/164095387+2": [
+   "osm"
+  ],
+  "hv:way/164758117+1": [
+   "osm"
+  ],
+  "hv:way/164850035": [
+   "osm"
+  ],
+  "hv:way/166149108": [
+   "osm"
+  ],
+  "hv:way/166149113": [
+   "osm"
+  ],
+  "hv:way/166162998+1": [
+   "osm"
+  ],
+  "hv:way/166389285": [
+   "osm"
+  ],
+  "hv:way/166389286": [
+   "osm"
+  ],
+  "hv:way/167036918": [
+   "osm"
+  ],
+  "hv:way/167036919": [
+   "osm"
+  ],
+  "hv:way/167036920+2": [
+   "osm"
+  ],
+  "hv:way/167451082+2": [
+   "osm"
+  ],
+  "hv:way/170482280": [
+   "osm"
+  ],
+  "hv:way/170482287+1": [
+   "osm"
+  ],
+  "hv:way/170482296+1": [
+   "osm"
+  ],
+  "hv:way/170482298": [
+   "osm"
+  ],
+  "hv:way/173220575+1": [
+   "osm"
+  ],
+  "hv:way/174548748+1": [
+   "osm"
+  ],
+  "hv:way/174548750+1": [
+   "osm"
+  ],
+  "hv:way/174548751+1": [
+   "osm"
+  ],
+  "hv:way/174548752": [
+   "osm"
+  ],
+  "hv:way/174548753+1": [
+   "osm"
+  ],
+  "hv:way/174548754+1": [
+   "osm"
+  ],
+  "hv:way/174548755": [
+   "osm"
+  ],
+  "hv:way/174548756+1": [
+   "osm"
+  ],
+  "hv:way/175820869+1": [
+   "osm"
+  ],
+  "hv:way/176700208": [
+   "osm"
+  ],
+  "hv:way/176700212": [
+   "osm"
+  ],
+  "hv:way/176700213": [
+   "osm"
+  ],
+  "hv:way/176700214": [
+   "osm"
+  ],
+  "hv:way/176700215": [
+   "osm"
+  ],
+  "hv:way/176700217": [
+   "osm"
+  ],
+  "hv:way/176700218": [
+   "osm"
+  ],
+  "hv:way/176700219": [
+   "osm"
+  ],
+  "hv:way/176700221": [
+   "osm"
+  ],
+  "hv:way/176700227": [
+   "osm"
+  ],
+  "hv:way/176700228": [
+   "osm"
+  ],
+  "hv:way/176700229": [
+   "osm"
+  ],
+  "hv:way/176700230": [
+   "osm"
+  ],
+  "hv:way/176700233": [
+   "osm"
+  ],
+  "hv:way/176700234": [
+   "osm"
+  ],
+  "hv:way/176700235": [
+   "osm"
+  ],
+  "hv:way/176700236": [
+   "osm"
+  ],
+  "hv:way/176700237": [
+   "osm"
+  ],
+  "hv:way/176700238": [
+   "osm"
+  ],
+  "hv:way/176700239": [
+   "osm"
+  ],
+  "hv:way/176700241": [
+   "osm"
+  ],
+  "hv:way/176700242": [
+   "osm"
+  ],
+  "hv:way/176700243": [
+   "osm"
+  ],
+  "hv:way/176700246": [
+   "osm"
+  ],
+  "hv:way/176700248": [
+   "osm"
+  ],
+  "hv:way/176700250+1": [
+   "osm"
+  ],
+  "hv:way/176700273": [
+   "osm"
+  ],
+  "hv:way/177242509+2": [
+   "osm"
+  ],
+  "hv:way/177760344+4": [
+   "osm"
+  ],
+  "hv:way/191975858": [
+   "osm"
+  ],
+  "hv:way/193309095+2": [
+   "osm"
+  ],
+  "hv:way/193854421": [
+   "osm"
+  ],
+  "hv:way/194296186": [
+   "osm"
+  ],
+  "hv:way/194683256": [
+   "osm"
+  ],
+  "hv:way/194683260": [
+   "osm"
+  ],
+  "hv:way/194799466+1": [
+   "osm"
+  ],
+  "hv:way/194819243+1": [
+   "osm"
+  ],
+  "hv:way/195458361": [
+   "osm"
+  ],
+  "hv:way/195649425": [
+   "osm"
+  ],
+  "hv:way/195649426+2": [
+   "osm"
+  ],
+  "hv:way/195655583+2": [
+   "osm"
+  ],
+  "hv:way/195667094": [
+   "osm"
+  ],
+  "hv:way/195715553+4": [
+   "osm"
+  ],
+  "hv:way/195821292+1": [
+   "osm"
+  ],
+  "hv:way/195821293:1": [
+   "osm"
+  ],
+  "hv:way/195821293:2+2": [
+   "osm"
+  ],
+  "hv:way/195822660+1": [
+   "osm"
+  ],
+  "hv:way/196001149+7": [
+   "osm"
+  ],
+  "hv:way/196018432+1": [
+   "osm"
+  ],
+  "hv:way/196018433": [
+   "osm"
+  ],
+  "hv:way/196520466": [
+   "osm"
+  ],
+  "hv:way/196520476": [
+   "osm"
+  ],
+  "hv:way/196520485": [
+   "osm"
+  ],
+  "hv:way/196520516": [
+   "osm"
+  ],
+  "hv:way/196520563": [
+   "osm"
+  ],
+  "hv:way/196520575": [
+   "osm"
+  ],
+  "hv:way/196520576": [
+   "osm"
+  ],
+  "hv:way/196520579": [
+   "osm"
+  ],
+  "hv:way/196520580": [
+   "osm"
+  ],
+  "hv:way/196520584": [
+   "osm"
+  ],
+  "hv:way/196520588": [
+   "osm"
+  ],
+  "hv:way/196520589": [
+   "osm"
+  ],
+  "hv:way/196520592": [
+   "osm"
+  ],
+  "hv:way/196520593": [
+   "osm"
+  ],
+  "hv:way/196520594": [
+   "osm"
+  ],
+  "hv:way/196766765+6": [
+   "osm"
+  ],
+  "hv:way/196849100": [
+   "osm"
+  ],
+  "hv:way/196887950+1": [
+   "osm"
+  ],
+  "hv:way/196895590": [
+   "osm"
+  ],
+  "hv:way/197031839": [
+   "osm"
+  ],
+  "hv:way/197051399+2": [
+   "osm"
+  ],
+  "hv:way/198216906": [
+   "osm"
+  ],
+  "hv:way/198308585": [
+   "osm"
+  ],
+  "hv:way/198308587": [
+   "osm"
+  ],
+  "hv:way/198308601+2": [
+   "osm"
+  ],
+  "hv:way/198308604+1": [
+   "osm"
+  ],
+  "hv:way/198485326": [
+   "osm"
+  ],
+  "hv:way/198485328": [
+   "osm"
+  ],
+  "hv:way/198485329+1": [
+   "osm"
+  ],
+  "hv:way/198485862": [
+   "osm"
+  ],
+  "hv:way/198862280+1": [
+   "osm"
+  ],
+  "hv:way/198862282+1": [
+   "osm"
+  ],
+  "hv:way/202830463": [
+   "osm"
+  ],
+  "hv:way/204107145": [
+   "osm"
+  ],
+  "hv:way/204107387": [
+   "osm"
+  ],
+  "hv:way/204107388": [
+   "osm"
+  ],
+  "hv:way/204672384": [
+   "osm"
+  ],
+  "hv:way/204672385": [
+   "osm"
+  ],
+  "hv:way/204672387+1": [
+   "osm"
+  ],
+  "hv:way/205409604": [
+   "osm"
+  ],
+  "hv:way/205410754": [
+   "osm"
+  ],
+  "hv:way/205411208+2": [
+   "osm"
+  ],
+  "hv:way/205453325+2": [
+   "osm"
+  ],
+  "hv:way/205453326": [
+   "osm"
+  ],
+  "hv:way/205503744": [
+   "osm"
+  ],
+  "hv:way/205630028+1": [
+   "osm"
+  ],
+  "hv:way/205630030+1": [
+   "osm"
+  ],
+  "hv:way/205630032+2": [
+   "osm"
+  ],
+  "hv:way/205817720+2": [
+   "osm"
+  ],
+  "hv:way/206011589+1": [
+   "osm"
+  ],
+  "hv:way/206016100": [
+   "osm"
+  ],
+  "hv:way/206017074": [
+   "osm"
+  ],
+  "hv:way/207949648+4": [
+   "osm"
+  ],
+  "hv:way/207982984+1": [
+   "osm"
+  ],
+  "hv:way/207991756:0+1": [
+   "osm"
+  ],
+  "hv:way/207991756:1+1": [
+   "osm"
+  ],
+  "hv:way/208042398": [
+   "osm"
+  ],
+  "hv:way/208159266": [
+   "osm"
+  ],
+  "hv:way/208215586+2": [
+   "osm"
+  ],
+  "hv:way/208224745+1": [
+   "osm"
+  ],
+  "hv:way/208560300+3": [
+   "osm"
+  ],
+  "hv:way/208884466": [
+   "osm"
+  ],
+  "hv:way/208921119:0+2": [
+   "osm"
+  ],
+  "hv:way/208921119:1": [
+   "osm"
+  ],
+  "hv:way/209329695+1": [
+   "osm"
+  ],
+  "hv:way/209338466": [
+   "osm"
+  ],
+  "hv:way/209613142": [
+   "osm"
+  ],
+  "hv:way/225009831+1": [
+   "osm"
+  ],
+  "hv:way/236955234+1": [
+   "osm"
+  ],
+  "hv:way/239572644": [
+   "osm"
+  ],
+  "hv:way/239574399+1": [
+   "osm"
+  ],
+  "hv:way/239575415": [
+   "osm"
+  ],
+  "hv:way/239577613+2": [
+   "osm"
+  ],
+  "hv:way/239585709": [
+   "osm"
+  ],
+  "hv:way/239758425": [
+   "osm"
+  ],
+  "hv:way/239758426": [
+   "osm"
+  ],
+  "hv:way/239760280": [
+   "osm"
+  ],
+  "hv:way/240537362": [
+   "osm"
+  ],
+  "hv:way/241142905+1": [
+   "osm"
+  ],
+  "hv:way/241162125+1": [
+   "osm"
+  ],
+  "hv:way/243708872": [
+   "osm"
+  ],
+  "hv:way/254743052": [
+   "osm"
+  ],
+  "hv:way/306063328": [
+   "osm"
+  ],
+  "hv:way/313568703": [
+   "osm"
+  ],
+  "hv:way/320500927+2": [
+   "osm"
+  ],
+  "hv:way/329659207": [
+   "osm"
+  ],
+  "hv:way/356297740": [
+   "osm"
+  ],
+  "hv:way/356297746": [
+   "osm"
+  ],
+  "hv:way/356304606": [
+   "osm"
+  ],
+  "hv:way/356304608": [
+   "osm"
+  ],
+  "hv:way/359082105": [
+   "osm"
+  ],
+  "hv:way/359082106": [
+   "osm"
+  ],
+  "hv:way/365584827": [
+   "osm"
+  ],
+  "hv:way/365894220": [
+   "osm"
+  ],
+  "hv:way/365894225+1": [
+   "osm"
+  ],
+  "hv:way/366079751": [
+   "osm"
+  ],
+  "hv:way/366083457": [
+   "osm"
+  ],
+  "hv:way/366083458": [
+   "osm"
+  ],
+  "hv:way/366119097": [
+   "osm"
+  ],
+  "hv:way/366119098": [
+   "osm"
+  ],
+  "hv:way/367428311": [
+   "osm"
+  ],
+  "hv:way/367428312": [
+   "osm"
+  ],
+  "hv:way/367428313": [
+   "osm"
+  ],
+  "hv:way/367429362": [
+   "osm"
+  ],
+  "hv:way/367429991": [
+   "osm"
+  ],
+  "hv:way/367429992": [
+   "osm"
+  ],
+  "hv:way/376092073:0": [
+   "osm"
+  ],
+  "hv:way/376092073:1+1": [
+   "osm"
+  ],
+  "hv:way/376092083:0": [
+   "osm"
+  ],
+  "hv:way/376092086": [
+   "osm"
+  ],
+  "hv:way/376092087": [
+   "osm"
+  ],
+  "hv:way/376092088": [
+   "osm"
+  ],
+  "hv:way/376092093": [
+   "osm"
+  ],
+  "hv:way/376534296": [
+   "osm"
+  ],
+  "hv:way/376534297": [
+   "osm"
+  ],
+  "hv:way/376534299": [
+   "osm"
+  ],
+  "hv:way/376534300": [
+   "osm"
+  ],
+  "hv:way/376534301": [
+   "osm"
+  ],
+  "hv:way/376534302": [
+   "osm"
+  ],
+  "hv:way/378947341": [
+   "osm"
+  ],
+  "hv:way/384581962": [
+   "osm"
+  ],
+  "hv:way/384581965": [
+   "osm"
+  ],
+  "hv:way/384581968": [
+   "osm"
+  ],
+  "hv:way/384581971": [
+   "osm"
+  ],
+  "hv:way/386663518": [
+   "osm"
+  ],
+  "hv:way/387679594": [
+   "osm"
+  ],
+  "hv:way/387679596": [
+   "osm"
+  ],
+  "hv:way/395125722": [
+   "osm"
+  ],
+  "hv:way/398320320": [
+   "osm"
+  ],
+  "hv:way/398320330": [
+   "osm"
+  ],
+  "hv:way/398393730": [
+   "osm"
+  ],
+  "hv:way/398393731": [
+   "osm"
+  ],
+  "hv:way/398393732": [
+   "osm"
+  ],
+  "hv:way/398475758": [
+   "osm"
+  ],
+  "hv:way/398475795": [
+   "osm"
+  ],
+  "hv:way/398476261": [
+   "osm"
+  ],
+  "hv:way/398476262": [
+   "osm"
+  ],
+  "hv:way/398701521+1": [
+   "osm"
+  ],
+  "hv:way/398701522+1": [
+   "osm"
+  ],
+  "hv:way/398712873+1": [
+   "osm"
+  ],
+  "hv:way/398712876+1": [
+   "osm"
+  ],
+  "hv:way/398712878": [
+   "osm"
+  ],
+  "hv:way/398712879": [
+   "osm"
+  ],
+  "hv:way/398712881": [
+   "osm"
+  ],
+  "hv:way/398712884": [
+   "osm"
+  ],
+  "hv:way/398712886": [
+   "osm"
+  ],
+  "hv:way/398712887": [
+   "osm"
+  ],
+  "hv:way/437750269+1": [
+   "osm"
+  ],
+  "hv:way/437750270": [
+   "osm"
+  ],
+  "hv:way/449413541": [
+   "osm"
+  ],
+  "hv:way/449413549": [
+   "osm"
+  ],
+  "hv:way/449413558": [
+   "osm"
+  ],
+  "hv:way/580448564+1": [
+   "osm"
+  ],
+  "hv:way/616947444+1": [
+   "osm"
+  ],
+  "hv:way/616947446+1": [
+   "osm"
+  ],
+  "hv:way/637257404": [
+   "osm"
+  ],
+  "hv:way/638315808:0": [
+   "osm"
+  ],
+  "hv:way/638315808:1": [
+   "osm"
+  ],
+  "hv:way/638315808:2": [
+   "osm"
+  ],
+  "hv:way/638315811": [
+   "osm"
+  ],
+  "hv:way/638315812": [
+   "osm"
+  ],
+  "hv:way/638315814:0": [
+   "osm"
+  ],
+  "hv:way/638315815": [
+   "osm"
+  ],
+  "hv:way/638315816": [
+   "osm"
+  ],
+  "hv:way/638319531": [
+   "osm"
+  ],
+  "hv:way/638319532": [
+   "osm"
+  ],
+  "hv:way/638325879": [
+   "osm"
+  ],
+  "hv:way/638325886": [
+   "osm"
+  ],
+  "hv:way/638325888": [
+   "osm"
+  ],
+  "hv:way/638325890": [
+   "osm"
+  ],
+  "hv:way/638325891": [
+   "osm"
+  ],
+  "hv:way/640137239": [
+   "osm"
+  ],
+  "hv:way/640139193+1": [
+   "osm"
+  ],
+  "hv:way/640139196": [
+   "osm"
+  ],
+  "hv:way/640144228": [
+   "osm"
+  ],
+  "hv:way/651503865": [
+   "osm"
+  ],
+  "hv:way/651503866+1": [
+   "osm"
+  ],
+  "hv:way/651503867+2": [
+   "osm"
+  ],
+  "hv:way/651596988": [
+   "osm"
+  ],
+  "hv:way/651736293": [
+   "osm"
+  ],
+  "hv:way/651736296": [
+   "osm"
+  ],
+  "hv:way/651736298": [
+   "osm"
+  ],
+  "hv:way/651736300": [
+   "osm"
+  ],
+  "hv:way/657425891+1": [
+   "osm"
+  ],
+  "hv:way/682301040": [
+   "osm"
+  ],
+  "hv:way/695840771": [
+   "osm"
+  ],
+  "hv:way/695840774": [
+   "osm"
+  ],
+  "hv:way/695878039": [
+   "osm"
+  ],
+  "hv:way/695878161": [
+   "osm"
+  ],
+  "hv:way/695878165+1": [
+   "osm"
+  ],
+  "hv:way/695878166": [
+   "osm"
+  ],
+  "hv:way/696124323": [
+   "osm"
+  ],
+  "hv:way/698349252+1": [
+   "osm"
+  ],
+  "hv:way/699080630": [
+   "osm"
+  ],
+  "hv:way/699080631": [
+   "osm"
+  ],
+  "hv:way/699080632+3": [
+   "osm"
+  ],
+  "hv:way/699080633": [
+   "osm"
+  ],
+  "hv:way/699080643+4": [
+   "osm"
+  ],
+  "hv:way/699082211": [
+   "osm"
+  ],
+  "hv:way/699082212": [
+   "osm"
+  ],
+  "hv:way/699082213": [
+   "osm"
+  ],
+  "hv:way/699101242": [
+   "osm"
+  ],
+  "hv:way/699101255": [
+   "osm"
+  ],
+  "hv:way/699104346": [
+   "osm"
+  ],
+  "hv:way/699104355": [
+   "osm"
+  ],
+  "hv:way/702071644": [
+   "osm"
+  ],
+  "hv:way/702071651": [
+   "osm"
+  ],
+  "hv:way/702071653": [
+   "osm"
+  ],
+  "hv:way/702071654": [
+   "osm"
+  ],
+  "hv:way/702071655": [
+   "osm"
+  ],
+  "hv:way/702071657": [
+   "osm"
+  ],
+  "hv:way/702071658": [
+   "osm"
+  ],
+  "hv:way/702071659": [
+   "osm"
+  ],
+  "hv:way/702071660": [
+   "osm"
+  ],
+  "hv:way/702071666+1": [
+   "osm"
+  ],
+  "hv:way/702071669": [
+   "osm"
+  ],
+  "hv:way/702071673": [
+   "osm"
+  ],
+  "hv:way/702102429": [
+   "osm"
+  ],
+  "hv:way/702102430": [
+   "osm"
+  ],
+  "hv:way/702102432:0+1": [
+   "osm"
+  ],
+  "hv:way/702102432:1": [
+   "osm"
+  ],
+  "hv:way/702102433:0": [
+   "osm"
+  ],
+  "hv:way/702102438+1": [
+   "osm"
+  ],
+  "hv:way/702102443": [
+   "osm"
+  ],
+  "hv:way/702102450": [
+   "osm"
+  ],
+  "hv:way/702102469+1": [
+   "osm"
+  ],
+  "hv:way/702102470+1": [
+   "osm"
+  ],
+  "hv:way/702102471": [
+   "osm"
+  ],
+  "hv:way/702102488": [
+   "osm"
+  ],
+  "hv:way/702152068+1": [
+   "osm"
+  ],
+  "hv:way/702152069+1": [
+   "osm"
+  ],
+  "hv:way/702152070": [
+   "osm"
+  ],
+  "hv:way/702277941": [
+   "osm"
+  ],
+  "hv:way/702277942": [
+   "osm"
+  ],
+  "hv:way/706666064": [
+   "osm"
+  ],
+  "hv:way/706666065": [
+   "osm"
+  ],
+  "hv:way/709259841": [
+   "osm"
+  ],
+  "hv:way/709259843": [
+   "osm"
+  ],
+  "hv:way/709259849": [
+   "osm"
+  ],
+  "hv:way/709259851:0": [
+   "osm"
+  ],
+  "hv:way/709259851:1": [
+   "osm"
+  ],
+  "hv:way/709818641": [
+   "osm"
+  ],
+  "hv:way/713960774+1": [
+   "osm"
+  ],
+  "hv:way/713960775+1": [
+   "osm"
+  ],
+  "hv:way/713960776+1": [
+   "osm"
+  ],
+  "hv:way/713960779": [
+   "osm"
+  ],
+  "hv:way/743807675": [
+   "osm"
+  ],
+  "hv:way/743807680": [
+   "osm"
+  ],
+  "hv:way/758992178": [
+   "osm"
+  ],
+  "hv:way/759220626": [
+   "osm"
+  ],
+  "hv:way/759220627": [
+   "osm"
+  ],
+  "hv:way/759512925+2": [
+   "osm"
+  ],
+  "hv:way/759512927": [
+   "osm"
+  ],
+  "hv:way/759563995": [
+   "osm"
+  ],
+  "hv:way/761731445": [
+   "osm"
+  ],
+  "hv:way/762694966+1": [
+   "osm"
+  ],
+  "hv:way/762694967+1": [
+   "osm"
+  ],
+  "hv:way/762694968": [
+   "osm"
+  ],
+  "hv:way/762694972": [
+   "osm"
+  ],
+  "hv:way/762694975": [
+   "osm"
+  ],
+  "hv:way/762971945": [
+   "osm"
+  ],
+  "hv:way/762971946+1": [
+   "osm"
+  ],
+  "hv:way/762971947+1": [
+   "osm"
+  ],
+  "hv:way/762971948": [
+   "osm"
+  ],
+  "hv:way/762971958+1": [
+   "osm"
+  ],
+  "hv:way/762971959+1": [
+   "osm"
+  ],
+  "hv:way/762971960": [
+   "osm"
+  ],
+  "hv:way/764287461": [
+   "osm"
+  ],
+  "hv:way/764287471": [
+   "osm"
+  ],
+  "hv:way/764287472": [
+   "osm"
+  ],
+  "hv:way/764287473": [
+   "osm"
+  ],
+  "hv:way/764287474": [
+   "osm"
+  ],
+  "hv:way/764287475": [
+   "osm"
+  ],
+  "hv:way/764287476": [
+   "osm"
+  ],
+  "hv:way/764388428": [
+   "osm"
+  ],
+  "hv:way/764388434": [
+   "osm"
+  ],
+  "hv:way/764388435": [
+   "osm"
+  ],
+  "hv:way/764388436": [
+   "osm"
+  ],
+  "hv:way/764388437": [
+   "osm"
+  ],
+  "hv:way/764388439+1": [
+   "osm"
+  ],
+  "hv:way/764388444+1": [
+   "osm"
+  ],
+  "hv:way/764388456": [
+   "osm"
+  ],
+  "hv:way/764388458": [
+   "osm"
+  ],
+  "hv:way/764388463+2": [
+   "osm"
+  ],
+  "hv:way/764444786+1": [
+   "osm"
+  ],
+  "hv:way/764444787": [
+   "osm"
+  ],
+  "hv:way/764444792": [
+   "osm"
+  ],
+  "hv:way/764444793+2": [
+   "osm"
+  ],
+  "hv:way/764444795": [
+   "osm"
+  ],
+  "hv:way/764444797": [
+   "osm"
+  ],
+  "hv:way/764473848": [
+   "osm"
+  ],
+  "hv:way/764550510": [
+   "osm"
+  ],
+  "hv:way/764569566+1": [
+   "osm"
+  ],
+  "hv:way/764569567+1": [
+   "osm"
+  ],
+  "hv:way/764569568": [
+   "osm"
+  ],
+  "hv:way/772773293+2": [
+   "osm"
+  ],
+  "hv:way/772773315": [
+   "osm"
+  ],
+  "hv:way/772773316": [
+   "osm"
+  ],
+  "hv:way/772773324": [
+   "osm"
+  ],
+  "hv:way/772780337+1": [
+   "osm"
+  ],
+  "hv:way/772882678+1": [
+   "osm"
+  ],
+  "hv:way/772882682": [
+   "osm"
+  ],
+  "hv:way/802058320": [
+   "osm"
+  ],
+  "hv:way/802058322": [
+   "osm"
+  ],
+  "hv:way/802058325": [
+   "osm"
+  ],
+  "hv:way/803903330": [
+   "osm"
+  ],
+  "hv:way/850640959": [
+   "osm"
+  ],
+  "hv:way/850640960": [
+   "osm"
+  ],
+  "hv:way/856834935+2": [
+   "osm"
+  ],
+  "hv:way/863412209": [
+   "osm"
+  ],
+  "hv:way/863412210": [
+   "osm"
+  ],
+  "hv:way/912161401+1": [
+   "osm"
+  ],
+  "hv:way/912161403+1": [
+   "osm"
+  ],
+  "hv:way/912161404": [
+   "osm"
+  ],
+  "hv:way/912162372": [
+   "osm"
+  ],
+  "hv:way/912391265": [
+   "osm"
+  ],
+  "hv:way/912391266": [
+   "osm"
+  ],
+  "hv:way/912391267": [
+   "osm"
+  ],
+  "hv:way/912545946": [
+   "osm"
+  ],
+  "hv:way/912545947": [
+   "osm"
+  ],
+  "hv:way/913615096": [
+   "osm"
+  ],
+  "hv:way/913615097": [
+   "osm"
+  ],
+  "hv:way/913615099": [
+   "osm"
+  ],
+  "hv:way/926866079+1": [
+   "osm"
+  ],
+  "hv:way/928312506": [
+   "osm"
+  ],
+  "hv:way/967815011": [
+   "osm"
+  ],
+  "hv:way/967815012": [
+   "osm"
+  ],
+  "hv:way/1030780586": [
+   "osm"
+  ],
+  "hv:way/1030780587": [
+   "osm"
+  ],
+  "hv:way/1030780588": [
+   "osm"
+  ],
+  "hv:way/1030780589": [
+   "osm"
+  ],
+  "hv:way/1031144077+1": [
+   "osm"
+  ],
+  "hv:way/1031144078+1": [
+   "osm"
+  ],
+  "hv:way/1031144080": [
+   "osm"
+  ],
+  "hv:way/1056459687": [
+   "osm"
+  ],
+  "hv:way/1056459688": [
+   "osm"
+  ],
+  "hv:way/1056459689": [
+   "osm"
+  ],
+  "hv:way/1056459690": [
+   "osm"
+  ],
+  "hv:way/1056459691": [
+   "osm"
+  ],
+  "hv:way/1056459692": [
+   "osm"
+  ],
+  "hv:way/1097804891": [
+   "osm"
+  ],
+  "hv:way/1105034143": [
+   "osm"
+  ],
+  "hv:way/1105034144": [
+   "osm"
+  ],
+  "hv:way/1105061665": [
+   "osm"
+  ],
+  "hv:way/1105061666": [
+   "osm"
+  ],
+  "hv:way/1105061685": [
+   "osm"
+  ],
+  "hv:way/1105061686": [
+   "osm"
+  ],
+  "hv:way/1105516776": [
+   "osm"
+  ],
+  "hv:way/1105516777": [
+   "osm"
+  ],
+  "hv:way/1105516778": [
+   "osm"
+  ],
+  "hv:way/1105516779": [
+   "osm"
+  ],
+  "hv:way/1105516786": [
+   "osm"
+  ],
+  "hv:way/1105516798": [
+   "osm"
+  ],
+  "hv:way/1105625985": [
+   "osm"
+  ],
+  "hv:way/1105625986": [
+   "osm"
+  ],
+  "hv:way/1105625989": [
+   "osm"
+  ],
+  "hv:way/1136546477:0+1": [
+   "osm"
+  ],
+  "hv:way/1200739709": [
+   "osm"
+  ],
+  "hv:way/1201429037": [
+   "osm"
+  ],
+  "hv:way/1202969332+1": [
+   "osm"
+  ],
+  "hv:way/1566297169:0": [
+   "osm"
+  ],
+  "virtual_way/1104719998:1-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "virtual_way/209181215:1-380-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/461199931:1-225-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/76706345:1-380-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/912545951:1-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/1105061707-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/111162936-380-220": [
+   "pypsa_osm"
+  ],
+  "way/111162936-400-220": [
+   "pypsa_osm"
+  ],
+  "way/111162936-400-380": [
+   "pypsa_osm"
+  ],
+  "way/127004407-400-380": [
+   "pypsa_osm"
+  ],
+  "way/147714395-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/165513396-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/177392130-400-220": [
+   "pypsa_osm"
+  ],
+  "way/192677427-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/207993342-380-220": [
+   "pypsa_osm"
+  ],
+  "way/210568055-380-220": [
+   "pypsa_osm"
+  ],
+  "way/212722603-380-220": [
+   "pypsa_osm"
+  ],
+  "way/234983117-380-220": [
+   "pypsa_osm"
+  ],
+  "way/281804158-380-220": [
+   "pypsa_osm"
+  ],
+  "way/30350721-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/35002638-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/356292116-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/365590455-380-220": [
+   "pypsa_osm"
+  ],
+  "way/397960460-400-380": [
+   "pypsa_osm"
+  ],
+  "way/50319857-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/52738225-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/55698557-225-220": [
+   "pypsa_osm"
+  ],
+  "way/71500123-380-220": [
+   "pypsa_osm"
+  ],
+  "way/773893754-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/802058337-225-220": [
+   "pypsa_osm"
+  ],
+  "way/803903329-380-220": [
+   "pypsa_osm"
+  ],
+  "way/969811258-380-220": [
+   "pypsa_osm"
+  ],
+  "way/98648381-380-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "cpl:relation/9310861-220>osmhv:relation/9310861-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5552944:1-225>osmhv:way/802058337-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5609696:d:1-380>osmhv:way/305192122-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5610123:0-220>osmhv:way/68186251-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5986626:1-380>osmhv:relation/8499675-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/6031725:0-220>osmhv:way/1105061707-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/6668144:1-400>osmhv:way/127004407-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/148773308:1-380>osmhv:way/52738225-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/163857038:a:0-380>osmhv:way/192677427-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/773893747:1-380>osmhv:way/165513396-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/773893747:1-380>osmhv:way/165513396-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/773893750:0-380>osmhv:way/183427868-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/912545951:1-220>osmhv:relation/8499675-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/927740824:0-220>osmhv:way/366510380-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/969811243:1-220>osmhv:way/305192122-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/108257952-220>osmhv:way/108257952-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/108257952-220>osmhv:way/108257952-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/109037817-220>osmhv:way/109037817-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1105061707-380>osmhv:way/1105061707-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/11762422:b:1-400>osmhv:way/111162936-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/11282314-220>osmhv:way/11282314-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/127004407-380>osmhv:way/127004407-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/132373704-220>osmhv:way/132373704-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/147557680-220>osmhv:way/147557680-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/161853746-220>osmhv:way/161853746-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/165254212-220>osmhv:way/165215826-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/165513396-220>osmhv:way/165513396-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/165513396-220>osmhv:way/165513396-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5318397:a:0-400>osmhv:way/177392130-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5318397:a:0-400>osmhv:way/467032970-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/190819048-220>osmhv:way/190819048-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/192677427-220>osmhv:way/192677427-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/207991759-380>osmhv:way/207991761-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/211907009-220>osmhv:way/211907009-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/22899676-220>osmhv:way/22899676-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/232662311-220>osmhv:way/232662311-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/234983117-380>osmhv:way/234983117-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/236819191-220>osmhv:way/236819191-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/240575085-220>osmhv:way/240575085-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/26166640-220>osmhv:way/26166640-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/26843160-220>osmhv:way/26843160-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/27107779-220>osmhv:way/27107779-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/27435934-220>osmhv:way/27435934-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/281799252-220>osmhv:way/281799252-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/281803398-220>osmhv:way/281812360-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/281809991-220>osmhv:way/281809991-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5610122:1-220>osmhv:way/281815404-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/31308888-220>osmhv:way/31308888-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/35002638-380>osmhv:way/35002638-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/356292116-380>osmhv:way/40639427-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/36348118-220>osmhv:way/36348118-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/431234146-220>osmhv:way/431234146-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/194683262:1-220>osmhv:way/44496892-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/455120191-220>osmhv:way/455120191-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/50319857-380>osmhv:way/50319857-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/50561341-220>osmhv:way/50561341-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/52738225-220>osmhv:way/52738225-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/55695765-220>osmhv:way/55695765-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5552942:1-225>osmhv:way/55698557-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/758315582-220>osmhv:way/758315582-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/773893754-220>osmhv:way/183427868-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/802058337-220>osmhv:way/802058337-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/803903329-380>osmhv:way/803903329-132": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/83861269-220>osmhv:way/83861269-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/87281514-220>osmhv:way/87281514-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/93377768:1-220>osmhv:way/89977424-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/92798668-220>osmhv:way/92798668-132": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/92798668-220>osmhv:way/92798668-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/92873516-220>osmhv:way/92873516-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/98648381-380>osmhv:way/98648381-110": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:osmhv:way/467032970-150>osmhv:way/467032970-132": [
+   "model_assembly",
+   "osm"
+  ],
+  "cpl:osmhv:way/92798668-132>osmhv:way/92798668-110": [
+   "model_assembly",
+   "inference",
+   "osm"
+  ],
+  "cpl:osmhv:way/409178727-132>osmhv:way/409178727-110": [
+   "model_assembly",
+   "inference",
+   "osm"
+  ],
+  "cpl:osmhv:way/108257952-150>osmhv:way/108257952-110": [
+   "model_assembly",
+   "inference",
+   "osm"
+  ],
+  "cpl:osmhv:way/165513396-132>osmhv:way/165513396-110": [
+   "model_assembly",
+   "inference",
+   "osm"
+  ],
+  "gsu:relation/7933294-380": [
+   "model_assembly"
+  ],
+  "gsu:virtual_relation/3717716:b:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_relation/5609696:d:1-380": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/406403398:1-380": [
+   "model_assembly"
+  ],
+  "gsu:way/111162936-380": [
+   "model_assembly"
+  ],
+  "gsu:way/1386688450-380": [
+   "model_assembly"
+  ],
+  "gsu:way/210568055-380": [
+   "model_assembly"
+  ],
+  "gsu:way/212722603-380": [
+   "model_assembly"
+  ],
+  "gsu:way/234983117-380": [
+   "model_assembly"
+  ],
+  "gsu:way/238138373-380": [
+   "model_assembly"
+  ],
+  "gsu:way/356292116-380": [
+   "model_assembly"
+  ],
+  "gsu:way/35840165-380": [
+   "model_assembly"
+  ],
+  "gsu:way/365590455-380": [
+   "model_assembly"
+  ],
+  "gsu:way/936521586-380": [
+   "model_assembly"
+  ],
+  "gsu:way/98648381-380": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:virtual_relation/5434510:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_relation/5610136:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/148642941:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/208555946:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/208865704:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/209288137:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/76706345:1-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1086214433-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1092884227-220": [
+   "model_assembly"
+  ],
+  "gsu:way/130198336-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1327084723-220": [
+   "model_assembly"
+  ],
+  "gsu:way/140873735-220": [
+   "model_assembly"
+  ],
+  "gsu:way/207993342-220": [
+   "model_assembly"
+  ],
+  "gsu:way/211907009-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/212498548-220": [
+   "model_assembly"
+  ],
+  "gsu:way/240959264-220": [
+   "model_assembly"
+  ],
+  "gsu:way/365590455-220": [
+   "model_assembly"
+  ],
+  "gsu:way/758943072-220": [
+   "model_assembly"
+  ],
+  "gsu:way/759036692-220": [
+   "model_assembly"
+  ],
+  "gsu:way/803903329-220": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:relation/9310861-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.19418,8.85022-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.67772,9.31674-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.76401,9.42031-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:47.18584,8.68721-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/1092884223-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/207991761-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/208644594-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/211910344-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/281812360-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/281815404-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/305192122-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/36348118-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/530012504-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/68186251-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/71275227-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/917150807-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:relation/12567833-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:relation/14709157-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:relation/15069838-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:relation/20997489-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:relation/21003223-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.00556,7.71127-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.19288,6.02585-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.29630,6.95773-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.44217,6.92902-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.49069,6.88225-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.52550,8.59736-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.55551,6.61645-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.72908,6.51162-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.93501,6.67662-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.94719,7.15046-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:46.96572,6.82634-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:46.99574,6.90217-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.06894,7.28968-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.33569,7.25733-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.41936,7.53836-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/1081863966-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/1105061707-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/1105061709-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/119057969-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/130098463-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/147557680-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/159737975-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/163881972-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/177392130-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/197031131-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/214795416-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/215461745-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/217868305-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/227387183-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/234983117-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/236819191-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/26166640-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/265878227-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/27435934-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/317228517-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/356301254-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/366510380-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/40639427-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/409178727-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/431234146-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/44847773-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/455120191-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/55696872-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/55698557-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/59064406-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/616947459-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/68868228-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/758315582-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/759220630-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/803903329-132": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/92798668-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/97405910-132": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:node/6564909212-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.03919,9.45407-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.08229,8.31753-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.30376,8.36378-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.42171,8.40285-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.44829,8.27605-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.45822,8.32383-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.49474,8.75070-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.49804,9.42381-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.50486,9.23898-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.51426,9.22549-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.51889,7.67196-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.63941,8.63154-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:tee:47.64046,8.63318-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/104533755-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/109037817-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/1107290765-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/117136191-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/183427868-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/192582209-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/211907009-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/27107779-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/276909642-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/281799252-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/282301584-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/31318082-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/318323446-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/50319857-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/534251210-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/54894008-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/736230168-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/772780336-110": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/98648381-110": [
+   "model_assembly",
+   "inference"
+  ]
+ },
+ "generators": {
+  "Pradella Dotierzentrale": [
+   "ppm"
+  ],
+  "Schergenbach": [
+   "ppm"
+  ],
+  "Tarasp Ischla": [
+   "ppm"
+  ],
+  "Chasura": [
+   "ppm"
+  ],
+  "Pradella": [
+   "ppm"
+  ],
+  "Martina": [
+   "ppm"
+  ],
+  "Tasnan": [
+   "ppm"
+  ],
+  "Clemgia": [
+   "ppm"
+  ],
+  "Chasseras": [
+   "ppm"
+  ],
+  "Ryburg Schworstadt": [
+   "ppm"
+  ],
+  "import Italy at virtual_relation/5609696:d:1-380": [
+   "energy_charts"
+  ],
+  "Biasca": [
+   "ppm"
+  ],
+  "Mapragg": [
+   "ppm"
+  ],
+  "Veytaux": [
+   "ppm"
+  ],
+  "Limmern": [
+   "ppm"
+  ],
+  "import Italy at way/207991759-380": [
+   "energy_charts"
+  ],
+  "import Italy at way/207991759-380 #2": [
+   "energy_charts"
+  ],
+  "Tavanasa": [
+   "ppm"
+  ],
+  "Tavanasa Kvr": [
+   "ppm"
+  ],
+  "Bitsch": [
+   "ppm"
+  ],
+  "Bieudron": [
+   "ppm"
+  ],
+  "Nendaz": [
+   "ppm"
+  ],
+  "Fionnay Dixence": [
+   "ppm"
+  ],
+  "Riddes": [
+   "ppm"
+  ],
+  "Nant De Drance": [
+   "ppm"
+  ],
+  "import Italy at way/281804158-380": [
+   "energy_charts"
+  ],
+  "Goesgen": [
+   "ppm"
+  ],
+  "Leibstadt": [
+   "ppm"
+  ],
+  "Linthal": [
+   "ppm"
+  ],
+  "La Batiaz": [
+   "ppm"
+  ],
+  "Beznau 1": [
+   "ppm"
+  ],
+  "Beznau 2": [
+   "ppm"
+  ],
+  "embedded other at relation/9310861-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at relation/9310": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sedrun": [
+   "ppm"
+  ],
+  "Verbano": [
+   "ppm"
+  ],
+  "import Italy at virtual_way/104450944:1-220": [
+   "energy_charts"
+  ],
+  "embedded other at virtual_way/109814042:0-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/109814042:1-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/1178282957:0-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/141333193:0-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/141333193:1-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #5": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/141442913:1-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #6": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at virtual_way/141442914:0-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at virtual_way/1 #7": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Lotschen": [
+   "ppm"
+  ],
+  "Castasegna": [
+   "ppm"
+  ],
+  "Olivone": [
+   "ppm"
+  ],
+  "Handeck": [
+   "ppm"
+  ],
+  "Mittelbunden": [
+   "ppm"
+  ],
+  "Grimsel": [
+   "ppm"
+  ],
+  "Robiei": [
+   "ppm"
+  ],
+  "Bavona": [
+   "ppm"
+  ],
+  "embedded other at way/122720993-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/122720993": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at way/130198336-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/130198336": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Goscheneralp": [
+   "ppm"
+  ],
+  "Cavergno": [
+   "ppm"
+  ],
+  "embedded other at way/140873735-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/140873735": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Amsteg": [
+   "ppm"
+  ],
+  "embedded other at way/159527493-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/159527493": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at way/194258388-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/194258388": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sils": [
+   "ppm"
+  ],
+  "embedded other at way/211907009-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/211907009": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sarelli": [
+   "ppm"
+  ],
+  "Ferrera": [
+   "ppm"
+  ],
+  "Innertkirchen": [
+   "ppm"
+  ],
+  "embedded other at way/242269161-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/242269161": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at way/281804158-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/281804158": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at way/35487135-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/35487135-": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Tierfehd Umwaelzwerk": [
+   "ppm"
+  ],
+  "import Italy at way/391576135-220": [
+   "energy_charts"
+  ],
+  "embedded other at way/44496892-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/44496892-": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at way/55698557-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/55698557-": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Fionnay Mauvoisin": [
+   "ppm"
+  ],
+  "Barenburg": [
+   "ppm"
+  ],
+  "embedded other at way/802058337-220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at way/802058337": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "import Italy at way/802058337-220": [
+   "energy_charts"
+  ],
+  "import Italy at way/802058337-220 #2": [
+   "energy_charts"
+  ],
+  "Le Chatelard": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/9310861-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Hagenholz Waste To Energy": [
+   "ppm"
+  ],
+  "Aubrugg": [
+   "ppm"
+  ],
+  "Verzasca Tenero": [
+   "ppm"
+  ],
+  "Morteratsch": [
+   "ppm"
+  ],
+  "Nufenen": [
+   "ppm"
+  ],
+  "Safien": [
+   "ppm"
+  ],
+  "Nandro": [
+   "ppm"
+  ],
+  "Frauenkirch": [
+   "ppm"
+  ],
+  "Tinizong": [
+   "ppm"
+  ],
+  "Filisur": [
+   "ppm"
+  ],
+  "Tiefencastel Ost": [
+   "ppm"
+  ],
+  "Tiefencastel West": [
+   "ppm"
+  ],
+  "Solis": [
+   "ppm"
+  ],
+  "Molinis Luen": [
+   "ppm"
+  ],
+  "Arosa Litziruti": [
+   "ppm"
+  ],
+  "Thusis": [
+   "ppm"
+  ],
+  "Feusisberg": [
+   "ppm"
+  ],
+  "Ibach": [
+   "ppm"
+  ],
+  "Bach": [
+   "ppm"
+  ],
+  "Wernisberg": [
+   "ppm"
+  ],
+  "Muota": [
+   "ppm"
+  ],
+  "Huribach": [
+   "ppm"
+  ],
+  "Schachental": [
+   "ppm"
+  ],
+  "Kleinwasserkraftwerk Steineraa": [
+   "ppm"
+  ],
+  "Sihl Hofe": [
+   "ppm"
+  ],
+  "Psp Real Estate Ag Urdorf Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/108257952-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/108": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/1092884223-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/109": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Nuova Biaschina": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/11282314-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/112": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Pedecosta": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/207991761-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/207": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Campocologno": [
+   "ppm"
+  ],
+  "Robbia": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/208644594-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/208": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Palu": [
+   "ppm"
+  ],
+  "Cavaglia": [
+   "ppm"
+  ],
+  "Lunschania": [
+   "ppm"
+  ],
+  "Trun": [
+   "ppm"
+  ],
+  "Dardin Casut": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/211910344-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/211": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Ilanz": [
+   "ppm"
+  ],
+  "Ilanz Stufe Tavanasa": [
+   "ppm"
+  ],
+  "Seekraftwerk Zervreila": [
+   "ppm"
+  ],
+  "Ladral": [
+   "ppm"
+  ],
+  "Ferrera #2": [
+   "ppm"
+  ],
+  "Mesocco Nan Ros": [
+   "ppm"
+  ],
+  "Tecnicama": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/281812360-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/281": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Soazza": [
+   "ppm"
+  ],
+  "Grono": [
+   "ppm"
+  ],
+  "Lostallo": [
+   "ppm"
+  ],
+  "Spina Isola": [
+   "ppm"
+  ],
+  "Calancasca": [
+   "ppm"
+  ],
+  "Spina Valbella": [
+   "ppm"
+  ],
+  "Agere Sa Bioggio Soldini Sudacciai Sa Solar": [
+   "ppm"
+  ],
+  "Valmara": [
+   "ppm"
+  ],
+  "Sigirino Monteceneri": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/281815404-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/281 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Cassarate Franscinone": [
+   "ppm"
+  ],
+  "Morobbia": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/305192122-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/305": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Piottino": [
+   "ppm"
+  ],
+  "Luzzone": [
+   "ppm"
+  ],
+  "Ticinetto": [
+   "ppm"
+  ],
+  "Ceresa": [
+   "ppm"
+  ],
+  "Piumogna Dalpe": [
+   "ppm"
+  ],
+  "Punt Gronda Platt Alva": [
+   "ppm"
+  ],
+  "Rabiusawerk": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/36348118-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/363": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rothenbrunnen": [
+   "ppm"
+  ],
+  "Reichenau": [
+   "ppm"
+  ],
+  "Plessurwerk": [
+   "ppm"
+  ],
+  "Pintrun": [
+   "ppm"
+  ],
+  "Punt Gronda Segnas": [
+   "ppm"
+  ],
+  "Stenna Flims Flembach": [
+   "ppm"
+  ],
+  "Mulin": [
+   "ppm"
+  ],
+  "Flims Felsbach Bergwasser": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/376534298-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/376": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/467032970-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/467": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/520515580-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/520": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/52738225-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/527": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Post Immobilien Management Und Services Ag Zurich Mulligen S": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/530012504-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/530": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Letten": [
+   "ppm"
+  ],
+  "Hongg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/68186251-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/681": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Gordola": [
+   "ppm"
+  ],
+  "Giumaglio": [
+   "ppm"
+  ],
+  "Ponte Brolla": [
+   "ppm"
+  ],
+  "Chancy Pougny Dot Passe Pois": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/71275227-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/712": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Chancy Pougny": [
+   "ppm"
+  ],
+  "Stalvedro Julia": [
+   "ppm"
+  ],
+  "Plancanin": [
+   "ppm"
+  ],
+  "Ova Spin Dotieranlage": [
+   "ppm"
+  ],
+  "Champagna": [
+   "ppm"
+  ],
+  "Guarda Ara": [
+   "ppm"
+  ],
+  "Roseg Samedan": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/917150807-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/917": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Lobbia Albigna": [
+   "ppm"
+  ],
+  "Ova Spin": [
+   "ppm"
+  ],
+  "Fornowerk Lobbia": [
+   "ppm"
+  ],
+  "Bondo": [
+   "ppm"
+  ],
+  "Lizun": [
+   "ppm"
+  ],
+  "Susasca": [
+   "ppm"
+  ],
+  "Islas": [
+   "ppm"
+  ],
+  "Ouvra Electrica Lavinuoz Lavin": [
+   "ppm"
+  ],
+  "Madulain": [
+   "ppm"
+  ],
+  "Silvaplana": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/91790241-150": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/917 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:node/3294271498-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:node/32": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Croseau Saint Gingolph": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/12567833-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Vouvry": [
+   "ppm"
+  ],
+  "Boudry Les Essert": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/14709157-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Usine Du Chanet": [
+   "ppm"
+  ],
+  "Moulinets Sur Orbe": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/15069838-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Montcherand": [
+   "ppm"
+  ],
+  "Le Chalet": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/17682031-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #5": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:relation/18475537-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #6": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "La Rasse": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/20997489-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #7": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Lavey": [
+   "ppm"
+  ],
+  "Aboyeu": [
+   "ppm"
+  ],
+  "Valisun Ag Hergiswil Solar": [
+   "ppm"
+  ],
+  "Wannenfluh": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/21003223-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #8": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Unteraa Melchaa": [
+   "ppm"
+  ],
+  "embedded other at osmhv:relation/8499675-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:relatio #9": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Mossjesee": [
+   "ppm"
+  ],
+  "Mutt": [
+   "ppm"
+  ],
+  "Wiesti": [
+   "ppm"
+  ],
+  "Taschbach": [
+   "ppm"
+  ],
+  "Turbinage Jora Afforets": [
+   "ppm"
+  ],
+  "Les Pontets Com De Riddes": [
+   "ppm"
+  ],
+  "Er Palier Iserables Arcay": [
+   "ppm"
+  ],
+  "Riddes Eau Potable": [
+   "ppm"
+  ],
+  "Cheneviers": [
+   "ppm"
+  ],
+  "Champery Etrivouez": [
+   "ppm"
+  ],
+  "Torrent De Soi": [
+   "ppm"
+  ],
+  "Sgi Ag Vernier Solar": [
+   "ppm"
+  ],
+  "La Douve Aigle": [
+   "ppm"
+  ],
+  "Pont De La Tine Coussy Loudze": [
+   "ppm"
+  ],
+  "Micro Centrale De Fontanney": [
+   "ppm"
+  ],
+  "Pont Tine Coussy Loudze": [
+   "ppm"
+  ],
+  "Diablerets": [
+   "ppm"
+  ],
+  "Gerignoz La Pontia": [
+   "ppm"
+  ],
+  "Montbovon": [
+   "ppm"
+  ],
+  "Lessoc": [
+   "ppm"
+  ],
+  "Sainte Anne": [
+   "ppm"
+  ],
+  "Groupe Greenwatt Sa Chatel St Denis Solar": [
+   "ppm"
+  ],
+  "Broc": [
+   "ppm"
+  ],
+  "Aegina": [
+   "ppm"
+  ],
+  "Calcaccia": [
+   "ppm"
+  ],
+  "Cerentino": [
+   "ppm"
+  ],
+  "Ossasco": [
+   "ppm"
+  ],
+  "Bobst Mex Sa Solar": [
+   "ppm"
+  ],
+  "Lausanne Waste To Energy": [
+   "ppm"
+  ],
+  "Post Immobilien Management Und Services Ag Daillens Solar": [
+   "ppm"
+  ],
+  "Les Clees": [
+   "ppm"
+  ],
+  "Dernier": [
+   "ppm"
+  ],
+  "Sainte Croix Wind Farm": [
+   "ppm"
+  ],
+  "Ekz Contracting Ag Payerne Solar": [
+   "ppm"
+  ],
+  "St Sulpice": [
+   "ppm"
+  ],
+  "Le Furcil": [
+   "ppm"
+  ],
+  "Schiffenen": [
+   "ppm"
+  ],
+  "Combe Garot": [
+   "ppm"
+  ],
+  "Les Moyats": [
+   "ppm"
+  ],
+  "La Serriere": [
+   "ppm"
+  ],
+  "Hagneck": [
+   "ppm"
+  ],
+  "Untere Emmengasse": [
+   "ppm"
+  ],
+  "Emmenhof": [
+   "ppm"
+  ],
+  "Choindez": [
+   "ppm"
+  ],
+  "Blanches Fontaines Undervelier": [
+   "ppm"
+  ],
+  "Bassecourt": [
+   "ppm"
+  ],
+  "Bellerive": [
+   "ppm"
+  ],
+  "Laufen Wasserfall": [
+   "ppm"
+  ],
+  "Juramill": [
+   "ppm"
+  ],
+  "Moos": [
+   "ppm"
+  ],
+  "Zwingen Obermatt": [
+   "ppm"
+  ],
+  "Nenzlingen": [
+   "ppm"
+  ],
+  "Buttenen": [
+   "ppm"
+  ],
+  "Sunnysun Sa Domdidier Solar": [
+   "ppm"
+  ],
+  "Charmey La Tzintre": [
+   "ppm"
+  ],
+  "Am De Dotation Hauterive": [
+   "ppm"
+  ],
+  "Am De Dotation Oelberg": [
+   "ppm"
+  ],
+  "Jaun": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/1081863966-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/108 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Hauterive": [
+   "ppm"
+  ],
+  "Oelberg": [
+   "ppm"
+  ],
+  "Charmey Perre": [
+   "ppm"
+  ],
+  "Vessy": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/109901534-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/109 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Moutier": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/1105061649-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/1105061707-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/110 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Muhleberg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/1105061709-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/110 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Niederried Radelfingen Niederried Radelfingen": [
+   "ppm"
+  ],
+  "Kallnach": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/111162936-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/111": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Buchs Vorderberg": [
+   "ppm"
+  ],
+  "Buchs Tobelackerli": [
+   "ppm"
+  ],
+  "Tobeli": [
+   "ppm"
+  ],
+  "Grabs Bannwald": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/119057969-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/119": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Buchs Altendorf": [
+   "ppm"
+  ],
+  "Grabs Lochli": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/1191360463-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/119 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sfs Pensionskasse Heerbrugg Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/124416725-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/124": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sous Les Roches": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/124991682-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/124 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/127004407-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/127": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/129086978-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/129": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/129118944-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/129 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/130098463-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/130": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Seujet": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/131881097-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/131": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/132373704-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/147557677-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/147": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/147557680-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/147 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Flumenthal": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/152387771-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/152": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rivaz Le Forestay": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/152387774-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/152 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swiss Prime Anlagestiftung Zuchwil Solar": [
+   "ppm"
+  ],
+  "Luterbach": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/159737975-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/159": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kebag Enova Emmenspitz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/161853746-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/161": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/163881972-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/163": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Aarberg": [
+   "ppm"
+  ],
+  "Biberist": [
+   "ppm"
+  ],
+  "Gerlafingen": [
+   "ppm"
+  ],
+  "Hagerhusli": [
+   "ppm"
+  ],
+  "Batterkinden": [
+   "ppm"
+  ],
+  "Utzenstorf": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/165215826-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/165": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/165513396-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/165 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/166389287-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/166": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/177392130-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/177": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Verbois": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/178260576-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/178": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/190819048-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/190": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Courgenay Solar": [
+   "ppm"
+  ],
+  "Flasa Alle Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/196539748-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/196": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sungate Investment Ag Basel Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/197031131-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/197": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kembs": [
+   "ppm"
+  ],
+  "Basel Wood": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/205630031-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/205": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Airsolaire Sa Evionnaz Solar": [
+   "ppm"
+  ],
+  "Turbinage Salvan Et Vernayaz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/214795416-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/214": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Vernayaz": [
+   "ppm"
+  ],
+  "Salanfe": [
+   "ppm"
+  ],
+  "Vernayaz Pissevache": [
+   "ppm"
+  ],
+  "Alp Sun Sa Martigny Solar": [
+   "ppm"
+  ],
+  "Pont Neuf": [
+   "ppm"
+  ],
+  "Volleges Cries": [
+   "ppm"
+  ],
+  "Pas Du Lein": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/215461745-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/215": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Martigny Bourg": [
+   "ppm"
+  ],
+  "Sembrancher": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/217868305-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/217": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Bannwil": [
+   "ppm"
+  ],
+  "Step Vallee Bagnes": [
+   "ppm"
+  ],
+  "Niollet": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/227387183-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/227": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Pallazuit": [
+   "ppm"
+  ],
+  "Chanrion": [
+   "ppm"
+  ],
+  "Orsieres": [
+   "ppm"
+  ],
+  "Champsec": [
+   "ppm"
+  ],
+  "Hospitalet": [
+   "ppm"
+  ],
+  "Niollet #2": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/232662311-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/232": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Oiken Sa Solar": [
+   "ppm"
+  ],
+  "Groupe Greenwatt Sa Conthey Solar": [
+   "ppm"
+  ],
+  "Lauenen Louibach": [
+   "ppm"
+  ],
+  "Reserv De Peteille Vetroz": [
+   "ppm"
+  ],
+  "Beulet": [
+   "ppm"
+  ],
+  "Gsteig": [
+   "ppm"
+  ],
+  "Sauterot Heremence Fmdb": [
+   "ppm"
+  ],
+  "Arbaz Sionne Energie": [
+   "ppm"
+  ],
+  "Balavaud": [
+   "ppm"
+  ],
+  "La Zour": [
+   "ppm"
+  ],
+  "Rochers": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/234983117-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/234": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Croix": [
+   "ppm"
+  ],
+  "Ardon": [
+   "ppm"
+  ],
+  "Chippis Rhone": [
+   "ppm"
+  ],
+  "Saint Leonard": [
+   "ppm"
+  ],
+  "Bramois": [
+   "ppm"
+  ],
+  "Sanetsch": [
+   "ppm"
+  ],
+  "Sauterot Heremence Lysa": [
+   "ppm"
+  ],
+  "Chamarin": [
+   "ppm"
+  ],
+  "Kwkw Dornbach": [
+   "ppm"
+  ],
+  "Kwkw Bachtoli": [
+   "ppm"
+  ],
+  "Niedergesteln": [
+   "ppm"
+  ],
+  "Unterbach": [
+   "ppm"
+  ],
+  "Oberems Borterbach": [
+   "ppm"
+  ],
+  "Vissoie Groupe Auxiliaire": [
+   "ppm"
+  ],
+  "Chriz": [
+   "ppm"
+  ],
+  "Twkw Nessel Mittubach": [
+   "ppm"
+  ],
+  "Kalter Brunnen": [
+   "ppm"
+  ],
+  "Torbel Gappil": [
+   "ppm"
+  ],
+  "Blatten": [
+   "ppm"
+  ],
+  "Baltschieder": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/236819191-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/236": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Stalden": [
+   "ppm"
+  ],
+  "Ackersand": [
+   "ppm"
+  ],
+  "Zermeiggern": [
+   "ppm"
+  ],
+  "Navizence": [
+   "ppm"
+  ],
+  "Gondo": [
+   "ppm"
+  ],
+  "Vissoie": [
+   "ppm"
+  ],
+  "Turtmann": [
+   "ppm"
+  ],
+  "Dala": [
+   "ppm"
+  ],
+  "Gabi": [
+   "ppm"
+  ],
+  "Illsee": [
+   "ppm"
+  ],
+  "Ganterbach Saltina": [
+   "ppm"
+  ],
+  "Tannuwald": [
+   "ppm"
+  ],
+  "Wasserwasserkraftwerk Mund": [
+   "ppm"
+  ],
+  "Gipuzkoako Urak": [
+   "ppm"
+  ],
+  "Turtig": [
+   "ppm"
+  ],
+  "Chasseral Solar Ag Onnens Solar": [
+   "ppm"
+  ],
+  "Romande Energie Sa Yvonand Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/245733045-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/245": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/254367258-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/254": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Blumenstein": [
+   "ppm"
+  ],
+  "Berner Green Gmbh": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/26166640-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/261": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Ranconniere": [
+   "ppm"
+  ],
+  "Aargau Bess": [
+   "ppm"
+  ],
+  "Adev Solarstrom Ag Wohlen Solar": [
+   "ppm"
+  ],
+  "Niederlenz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/265878227-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/265": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rupperswil Auenstein": [
+   "ppm"
+  ],
+  "Buchs Aargau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/27435934-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/274": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Dornachbrugg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/300707860-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/300": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/309688480-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/309": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Migros Verteilbetrieb Neuendorf Ag Solar": [
+   "ppm"
+  ],
+  "Migros Verteilbetrieb Neuendorf Ag Solar #2": [
+   "ppm"
+  ],
+  "Trend Verde Sa Wolfwil Solar": [
+   "ppm"
+  ],
+  "Coop Genossenschaft Olten Solar": [
+   "ppm"
+  ],
+  "Aarburg": [
+   "ppm"
+  ],
+  "Dunnern Olten": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/317228517-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/317": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Ruppoldingen": [
+   "ppm"
+  ],
+  "Wynau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/329659200-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/329": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/34639159-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/346": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Corgello Peccia": [
+   "ppm"
+  ],
+  "Sedrun #2": [
+   "ppm"
+  ],
+  "Ri Di Foch Prato Leventina": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/356301254-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/356": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Ritom": [
+   "ppm"
+  ],
+  "Peccia": [
+   "ppm"
+  ],
+  "Aet Leventina": [
+   "ppm"
+  ],
+  "Russein": [
+   "ppm"
+  ],
+  "Stalvedro Aet": [
+   "ppm"
+  ],
+  "Tremorgio": [
+   "ppm"
+  ],
+  "Bristen": [
+   "ppm"
+  ],
+  "Val Giuf": [
+   "ppm"
+  ],
+  "Mt Crosin Wind Farm": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/35915755-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/359": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/35995052-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/359 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rosswald Garsterna": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/366510380-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/366": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Fieschertal": [
+   "ppm"
+  ],
+  "Morel": [
+   "ppm"
+  ],
+  "Reckingen": [
+   "ppm"
+  ],
+  "Heiligkreuz": [
+   "ppm"
+  ],
+  "Aletsch": [
+   "ppm"
+  ],
+  "Ernen": [
+   "ppm"
+  ],
+  "Neubrigg": [
+   "ppm"
+  ],
+  "Schattenhalb": [
+   "ppm"
+  ],
+  "Massaboden": [
+   "ppm"
+  ],
+  "Bortel Mittelstufe": [
+   "ppm"
+  ],
+  "Walibach": [
+   "ppm"
+  ],
+  "Ulrichen": [
+   "ppm"
+  ],
+  "Bortel Oberstufe": [
+   "ppm"
+  ],
+  "Blinne": [
+   "ppm"
+  ],
+  "Grido": [
+   "ppm"
+  ],
+  "Saflisch": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/39529529-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/395": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/40639427-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/406": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Gosgen": [
+   "ppm"
+  ],
+  "Aarau Stadt": [
+   "ppm"
+  ],
+  "Ruchlig Dotierzentrale": [
+   "ppm"
+  ],
+  "Flums Pravizin Auli": [
+   "ppm"
+  ],
+  "Rollbach Flums": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/409178727-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/409": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Flums Pravizin Auli #2": [
+   "ppm"
+  ],
+  "Flums Neues Sagenguetli": [
+   "ppm"
+  ],
+  "San Gottardo Wind Farm": [
+   "ppm"
+  ],
+  "Realp": [
+   "ppm"
+  ],
+  "Amsteg #2": [
+   "ppm"
+  ],
+  "Staubenwald": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/431234146-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/431": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Hopflauenen Trift": [
+   "ppm"
+  ],
+  "Lucendro": [
+   "ppm"
+  ],
+  "Wassen": [
+   "ppm"
+  ],
+  "Arniberg": [
+   "ppm"
+  ],
+  "Gurtnellen": [
+   "ppm"
+  ],
+  "Gental Fuhren": [
+   "ppm"
+  ],
+  "Bocki": [
+   "ppm"
+  ],
+  "Oberalp": [
+   "ppm"
+  ],
+  "Realp #2": [
+   "ppm"
+  ],
+  "Hospental": [
+   "ppm"
+  ],
+  "Sella": [
+   "ppm"
+  ],
+  "Goschenen Unterdorf": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/44496892-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/444": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/44847773-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/448": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Refrain": [
+   "ppm"
+  ],
+  "La Goule": [
+   "ppm"
+  ],
+  "Am Dotation Du Chatelot": [
+   "ppm"
+  ],
+  "Blatten Sak": [
+   "ppm"
+  ],
+  "Lienz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/455120191-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/455": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Seealp Wasserauen": [
+   "ppm"
+  ],
+  "Sennwald": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/467032970-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/467 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/477085493-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/477": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/48414444-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/484": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/525132661-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/525": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/55695765-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/556": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/55696866-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/556 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Ikea Ag Allaman Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/55696872-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/556 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Plan Dessous": [
+   "ppm"
+  ],
+  "Petite Vaux": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/55696873-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/556 #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Monthey Commune": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/55698557-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/556 #5": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Monthey": [
+   "ppm"
+  ],
+  "Peuffeyre": [
+   "ppm"
+  ],
+  "Monthey Vieze": [
+   "ppm"
+  ],
+  "Sublin": [
+   "ppm"
+  ],
+  "Bevieux": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/59064406-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/590": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Mottec": [
+   "ppm"
+  ],
+  "Energie Service Biel Bienne Solar": [
+   "ppm"
+  ],
+  "Frinvillier": [
+   "ppm"
+  ],
+  "Taubenloch": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/616947459-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/616": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Bozingen": [
+   "ppm"
+  ],
+  "Rondchatel": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/644572826-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/644": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/680492156-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/680": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Olwo Ladrach Otto Ag Worb Solar": [
+   "ppm"
+  ],
+  "Wk Paletten Ag Schupbach Solar": [
+   "ppm"
+  ],
+  "Bosiger Gemusekulturen Ag Niederbipp Solar": [
+   "ppm"
+  ],
+  "Felsenau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/68868228-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/688": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Forsthaus West": [
+   "ppm"
+  ],
+  "Felsenau #2": [
+   "ppm"
+  ],
+  "Matte": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/736589083-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/736": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Engstlige": [
+   "ppm"
+  ],
+  "Giessbach": [
+   "ppm"
+  ],
+  "Saxettal Kammri": [
+   "ppm"
+  ],
+  "Engstligenalp": [
+   "ppm"
+  ],
+  "Saxettal Geissbrunnen": [
+   "ppm"
+  ],
+  "Moosweid": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/758315582-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/758": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kandergrund": [
+   "ppm"
+  ],
+  "Spiez": [
+   "ppm"
+  ],
+  "Erlenbach": [
+   "ppm"
+  ],
+  "Simmenfluh": [
+   "ppm"
+  ],
+  "Stechelberg": [
+   "ppm"
+  ],
+  "Kandersteg Dorf": [
+   "ppm"
+  ],
+  "Klusi": [
+   "ppm"
+  ],
+  "Interlaken": [
+   "ppm"
+  ],
+  "Kandersteg Zilfuri": [
+   "ppm"
+  ],
+  "Terralog Ag Rudtligen Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/759042780-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/759": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Thun Eidg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/759220630-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/759 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Thun Waste To Energy": [
+   "ppm"
+  ],
+  "Aarewerk Thun": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/761731446-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/761": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Genedis Sa Saxon Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/802058337-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/802": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Services Industriels De Geneve Sig Grand Saconnex Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/80323449-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/803": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/803903329-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/803 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Trigemer Sa": [
+   "ppm"
+  ],
+  "Montlingen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/83861269-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/838": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sittertal": [
+   "ppm"
+  ],
+  "Ew Zurchersmuhle": [
+   "ppm"
+  ],
+  "Burentobel": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/92798668-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/927": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kubel": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/97405910-132": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/974": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sonzier": [
+   "ppm"
+  ],
+  "Taulan": [
+   "ppm"
+  ],
+  "embedded other at osmhv:node/6564909212-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:node/65": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Etzelwerk Altendorf": [
+   "ppm"
+  ],
+  "Ragaz": [
+   "ppm"
+  ],
+  "Mels Tobel": [
+   "ppm"
+  ],
+  "Grossbach": [
+   "ppm"
+  ],
+  "Mels Halde": [
+   "ppm"
+  ],
+  "Plons": [
+   "ppm"
+  ],
+  "Mels Stoffel": [
+   "ppm"
+  ],
+  "Valeis": [
+   "ppm"
+  ],
+  "Stadion Luzern Ag Horw Solar": [
+   "ppm"
+  ],
+  "Muhlenplatz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:tee:47.05813,8.27567-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47.": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:tee:47.08229,8.31753-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47. #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rathausen": [
+   "ppm"
+  ],
+  "Ikea Ag Rothenburg Solar": [
+   "ppm"
+  ],
+  "Untermuhle": [
+   "ppm"
+  ],
+  "Hagendorn": [
+   "ppm"
+  ],
+  "Hanspeter Muller Muri Solar": [
+   "ppm"
+  ],
+  "Im Roos": [
+   "ppm"
+  ],
+  "Bruggmuhle": [
+   "ppm"
+  ],
+  "Bremgarten Zufikon": [
+   "ppm"
+  ],
+  "Trumpler": [
+   "ppm"
+  ],
+  "Volketswil": [
+   "ppm"
+  ],
+  "Dietikon": [
+   "ppm"
+  ],
+  "Dietikon #2": [
+   "ppm"
+  ],
+  "Ikea Ag Spreitenbach Solar": [
+   "ppm"
+  ],
+  "Schiffmuhle Dotierzentrale": [
+   "ppm"
+  ],
+  "Schiffmuhle": [
+   "ppm"
+  ],
+  "Aue Dotierzentrale": [
+   "ppm"
+  ],
+  "Kappelerhof": [
+   "ppm"
+  ],
+  "Aue Dotierzentrale #2": [
+   "ppm"
+  ],
+  "Lochmuhle": [
+   "ppm"
+  ],
+  "embedded other at osmhv:tee:47.48035,9.43068-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47. #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Erlenholz": [
+   "ppm"
+  ],
+  "Sennhof": [
+   "ppm"
+  ],
+  "Winterthur Waste To Energy": [
+   "ppm"
+  ],
+  "Rieser Vetter Lagerhaus Ag Frauenfeld Solar": [
+   "ppm"
+  ],
+  "Murkart": [
+   "ppm"
+  ],
+  "Schlossmuhle Frauenfeld": [
+   "ppm"
+  ],
+  "Morgental Abwasser": [
+   "ppm"
+  ],
+  "Bischofszell": [
+   "ppm"
+  ],
+  "Au Schonenberg": [
+   "ppm"
+  ],
+  "Thurfeld": [
+   "ppm"
+  ],
+  "Neuewelt": [
+   "ppm"
+  ],
+  "Freienstein": [
+   "ppm"
+  ],
+  "Pfungen": [
+   "ppm"
+  ],
+  "Swiss Photovoltaik Gmbh Affeltrangen Solar": [
+   "ppm"
+  ],
+  "Thur": [
+   "ppm"
+  ],
+  "Burglen Sage": [
+   "ppm"
+  ],
+  "August Bruhwiler Ag Bissegg Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:tee:47.63941,8.63154-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47. #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rheinau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:tee:47.63988,8.63183-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47. #5": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:tee:47.64046,8.63318-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:tee:47. #6": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Schaffhausen": [
+   "ppm"
+  ],
+  "Neuhausen": [
+   "ppm"
+  ],
+  "Engeweiher": [
+   "ppm"
+  ],
+  "Pilatus Aircraft Ltd Stans Solar": [
+   "ppm"
+  ],
+  "Malters Ettisbuhl": [
+   "ppm"
+  ],
+  "Thorenberg": [
+   "ppm"
+  ],
+  "Stollen": [
+   "ppm"
+  ],
+  "Obflue Sachseln": [
+   "ppm"
+  ],
+  "Rotzloch": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/104533755-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/104": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Unteraa Lungerersee": [
+   "ppm"
+  ],
+  "Obermatt": [
+   "ppm"
+  ],
+  "Dallenwil": [
+   "ppm"
+  ],
+  "Bannalp": [
+   "ppm"
+  ],
+  "Melchsee Frutt": [
+   "ppm"
+  ],
+  "Buoholzbach Wolfenschiessen": [
+   "ppm"
+  ],
+  "Schild": [
+   "ppm"
+  ],
+  "Meiringen": [
+   "ppm"
+  ],
+  "Eichi": [
+   "ppm"
+  ],
+  "Tagenstal": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/108257952-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/108 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Birseck Solar Ag Rheinfelden Solar": [
+   "ppm"
+  ],
+  "Ryburg Schworstadt Lockstromz": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/109037817-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/109 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Birsfelden": [
+   "ppm"
+  ],
+  "Rheinfelden": [
+   "ppm"
+  ],
+  "Augst": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/1107290765-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/110 #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Laufenburg": [
+   "ppm"
+  ],
+  "Sackingen": [
+   "ppm"
+  ],
+  "Wyhlen": [
+   "ppm"
+  ],
+  "Albbruck Dogern": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/112631655-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/112 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Brunnen Bess": [
+   "ppm"
+  ],
+  "Bannwald": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/117136191-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/117": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Burglen Unterschachen": [
+   "ppm"
+  ],
+  "Isenthal Bolzbach": [
+   "ppm"
+  ],
+  "Sustli": [
+   "ppm"
+  ],
+  "Burglen Loreto": [
+   "ppm"
+  ],
+  "Kleintal Isenthal": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/120403433-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/120": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/1446285614-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/144": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/154562678-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/154": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Elektrizitatswerke Des Kantons Zurich Nec": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/154562770-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/154 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/157944847-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/157": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/159362717-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/159 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/165513396-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/165 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/178224384-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/178 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Bag Turgi": [
+   "ppm"
+  ],
+  "Wildegg Brugg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/183427868-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/183": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Wildegg Brugg #2": [
+   "ppm"
+  ],
+  "Windisch": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/191975861-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/191": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Brummbach Braunwald": [
+   "ppm"
+  ],
+  "Diesbach Linth": [
+   "ppm"
+  ],
+  "Haslen": [
+   "ppm"
+  ],
+  "Schwanden Blumer": [
+   "ppm"
+  ],
+  "Rutiberg Obersee": [
+   "ppm"
+  ],
+  "Rutiberg Brandbach": [
+   "ppm"
+  ],
+  "Muhlefuhr": [
+   "ppm"
+  ],
+  "Elggiskraft Netstal": [
+   "ppm"
+  ],
+  "Krauchbachwerk": [
+   "ppm"
+  ],
+  "Ziegelbrucke": [
+   "ppm"
+  ],
+  "Engi Hinterdorf Sernf": [
+   "ppm"
+  ],
+  "Asch": [
+   "ppm"
+  ],
+  "Linthkraft Stiftung": [
+   "ppm"
+  ],
+  "Schwanden Sne": [
+   "ppm"
+  ],
+  "Empachli": [
+   "ppm"
+  ],
+  "Walzmuhle": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/192582209-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/192": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Lontsch": [
+   "ppm"
+  ],
+  "Tierfehd Hintersand": [
+   "ppm"
+  ],
+  "Schwanden Niederenbach": [
+   "ppm"
+  ],
+  "Linthal #2": [
+   "ppm"
+  ],
+  "Bisisthal": [
+   "ppm"
+  ],
+  "Sernf": [
+   "ppm"
+  ],
+  "Fatschbach": [
+   "ppm"
+  ],
+  "Linth Waste To Energy": [
+   "ppm"
+  ],
+  "Glattalp": [
+   "ppm"
+  ],
+  "Rumblar": [
+   "ppm"
+  ],
+  "Murg Platz": [
+   "ppm"
+  ],
+  "Risi": [
+   "ppm"
+  ],
+  "Engi": [
+   "ppm"
+  ],
+  "Luchsingen": [
+   "ppm"
+  ],
+  "Murg Godis": [
+   "ppm"
+  ],
+  "Cotlan": [
+   "ppm"
+  ],
+  "Murg Sage": [
+   "ppm"
+  ],
+  "Niederurnen": [
+   "ppm"
+  ],
+  "Schwanden Gemeinde": [
+   "ppm"
+  ],
+  "Linthwerk": [
+   "ppm"
+  ],
+  "Linthkraft Netstal": [
+   "ppm"
+  ],
+  "Rufi Hatzingen": [
+   "ppm"
+  ],
+  "Hefti": [
+   "ppm"
+  ],
+  "Leuggelbach": [
+   "ppm"
+  ],
+  "Uznaberg Uznach": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/192677427-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/192 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Niederglatt Gossau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/196363729-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/196 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Thurplus Powerbank": [
+   "ppm"
+  ],
+  "Weinfelden Model": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/196520438-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/196 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kollbrunn": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/196788818-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/196 #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/199259620-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/199": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/202056255-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/202": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/204718519-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/204": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Die Sonnenstrom Ag Landquart Solar": [
+   "ppm"
+  ],
+  "Manuela Mehli Solarstrom Chur Solar": [
+   "ppm"
+  ],
+  "Jenins": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/211907009-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/211 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Kublis": [
+   "ppm"
+  ],
+  "Klosters": [
+   "ppm"
+  ],
+  "Taschinas": [
+   "ppm"
+  ],
+  "Schlappin": [
+   "ppm"
+  ],
+  "Igiser Mulbach Landquart": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/219723145-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/219": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/22899676-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/228": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/240575085-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/240": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/243691157-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/243": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/26014096-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/260": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Widen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/26843160-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/268": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Wunderklingen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/27107779-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/271": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Eglisau": [
+   "ppm"
+  ],
+  "Herrentobeli": [
+   "ppm"
+  ],
+  "Talbach": [
+   "ppm"
+  ],
+  "Rossfall": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/276909642-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/276": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Giessen": [
+   "ppm"
+  ],
+  "Trempel": [
+   "ppm"
+  ],
+  "Nesslau Ijentalerbach": [
+   "ppm"
+  ],
+  "Oberterzen": [
+   "ppm"
+  ],
+  "Innere Spinnerei": [
+   "ppm"
+  ],
+  "Wkw Neuageri Gmde Menzingen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/281799252-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/281 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Lorzentobel": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/281809991-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/281 #4": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/282301584-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/282": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Wettingen Dotieranlage": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/311366012-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/311": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/31308888-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/313": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/31318082-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/313 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Horgen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/314630185-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/314": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Spreitenbach Galgenen Kistler": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/318323446-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/318": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Rempen": [
+   "ppm"
+  ],
+  "Siebnen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/326623749-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/326": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/33118067-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/331": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/35002638-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/350": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Krieger Ag Ruswil Solar": [
+   "ppm"
+  ],
+  "Wolhusen Geistlich": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/366083462-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/366 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/37940162-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/379": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Grobau Wattwil Ag Solar": [
+   "ppm"
+  ],
+  "Dietfurt": [
+   "ppm"
+  ],
+  "Soor": [
+   "ppm"
+  ],
+  "Stadtbrucke Lichtensteig": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/382864842-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/382": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/38432555-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/384": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/385140959-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/385": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/409178727-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/409 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/419921848-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/419": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/43056833-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/430": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/431346670-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/431 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/50319857-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/503": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Sisslerfeld": [
+   "ppm"
+  ],
+  "Hard Wulflingen": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/50418089-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/504": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/50561341-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/505": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/53369767-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/533": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/534251210-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/534": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Renergia": [
+   "ppm"
+  ],
+  "Perlen Wta Hf": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/54894008-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/548": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Waldhalde": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/627334830-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/627": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/640139199-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/640": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Pilgersteg": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/695840779-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/695": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/695878041-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/695 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/699080639-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/699": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/699082203-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/699 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/704143919-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/704": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/709259846-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/709": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/713960773-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/713": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Stroppel Untersiggenthal": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/736230168-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/736 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Turgi": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/762971961-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/762": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/764388452-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/764": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/764444790-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/764 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/764473845-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/764 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/772773298-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/772": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/772773322-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/772 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Energie Deg Ag Schwarzenbach Solar": [
+   "ppm"
+  ],
+  "Fuchs Immo Concept Gmbh Wil Solar": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/772780336-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/772 #3": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Mulau": [
+   "ppm"
+  ],
+  "embedded other at osmhv:way/87281514-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/872": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/89977424-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/899": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/92798668-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/927 #2": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/92873516-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/928": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "embedded other at osmhv:way/98648381-110": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Swissgrid production not in ENTSO-E by type at osmhv:way/986": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "Klingnau": [
+   "ppm"
+  ],
+  "Beznau": [
+   "ppm"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts"
+  ],
+  "2": [
+   "energy_charts"
+  ],
+  "3": [
+   "energy_charts"
+  ],
+  "4": [
+   "energy_charts"
+  ],
+  "7": [
+   "energy_charts"
+  ],
+  "24": [
+   "energy_charts"
+  ],
+  "39": [
+   "energy_charts"
+  ],
+  "40": [
+   "energy_charts"
+  ],
+  "44": [
+   "energy_charts"
+  ],
+  "46": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "48": [
+   "energy_charts"
+  ],
+  "49": [
+   "energy_charts"
+  ],
+  "57": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "58": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "59": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "62": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "63": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "64": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "65": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "67": [
+   "energy_charts"
+  ],
+  "104": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "106": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "109": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "114": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "121": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "125": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "137": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "145": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "153": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "163": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "164": [
+   "energy_charts"
+  ],
+  "165": [
+   "energy_charts"
+  ],
+  "169": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "175": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "176": [
+   "energy_charts"
+  ],
+  "185": [
+   "energy_charts"
+  ],
+  "186": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "201": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "202": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "203": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "204": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "205": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "206": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "207": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "208": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "209": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "210": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "211": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "212": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "213": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "214": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "215": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "216": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "217": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "218": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "219": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "220": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "221": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "222": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "223": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "224": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "225": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "226": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "227": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "228": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "298": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "299": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "300": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "301": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "302": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "303": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "304": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "305": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "306": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "307": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "308": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "309": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "310": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "311": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "312": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "313": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "314": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "315": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "316": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "317": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "318": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "319": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "320": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "321": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "322": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "323": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "324": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "325": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "326": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "327": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "328": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "329": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "330": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "331": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "332": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "333": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "334": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "335": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "336": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "337": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "338": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "339": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "340": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "341": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "342": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "343": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "344": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "345": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "346": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "347": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "348": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "349": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "350": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "351": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "352": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "353": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "354": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "355": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "356": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "357": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "358": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "359": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "360": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "361": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "362": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "363": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "364": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "365": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "366": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "367": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "368": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "369": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "370": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "371": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "372": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "373": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "374": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "375": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "376": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "377": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "378": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "379": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "380": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "381": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "382": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "383": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "386": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "387": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "446": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "509": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "510": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "511": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "515": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "516": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "517": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "518": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "519": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "520": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "521": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "522": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "523": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "524": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "525": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "526": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "527": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "528": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "529": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "530": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "531": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "532": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "533": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "534": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "535": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "536": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "537": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "538": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "539": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "540": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "541": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "542": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "543": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "544": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "545": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "546": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "547": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "548": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "549": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "550": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "551": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "552": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "553": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "554": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "555": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "556": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "557": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "558": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "559": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "560": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "561": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "562": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "563": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "564": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "565": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "566": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "567": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "568": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "569": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "570": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "571": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "572": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "573": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "574": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "575": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "576": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "577": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "578": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "579": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "580": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "581": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "582": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "583": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "584": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "585": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "586": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "587": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "588": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "589": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "590": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "591": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "592": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "593": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "594": [
+   "energy_charts",
+   "eurostat_pop"
+  ],
+  "595": [
+   "energy_charts",
+   "eurostat_pop"
+  ]
+ },
+ "shunts": {
+  "4": [
+   "inference"
+  ],
+  "118": [
+   "inference"
+  ],
+  "134": [
+   "inference"
+  ],
+  "212": [
+   "inference"
+  ],
+  "217": [
+   "inference"
+  ],
+  "222": [
+   "inference"
+  ],
+  "224": [
+   "inference"
+  ],
+  "227": [
+   "inference"
+  ],
+  "231": [
+   "model_assembly"
+  ],
+  "232": [
+   "model_assembly"
+  ],
+  "233": [
+   "model_assembly"
+  ],
+  "298": [
+   "inference"
+  ],
+  "299": [
+   "inference"
+  ],
+  "302": [
+   "inference"
+  ],
+  "304": [
+   "inference"
+  ],
+  "306": [
+   "inference"
+  ],
+  "310": [
+   "inference"
+  ],
+  "311": [
+   "inference"
+  ],
+  "312": [
+   "inference"
+  ],
+  "313": [
+   "inference"
+  ],
+  "316": [
+   "inference"
+  ],
+  "317": [
+   "inference"
+  ],
+  "319": [
+   "inference"
+  ],
+  "320": [
+   "inference"
+  ],
+  "324": [
+   "inference"
+  ],
+  "325": [
+   "inference"
+  ],
+  "329": [
+   "inference"
+  ],
+  "332": [
+   "inference"
+  ],
+  "341": [
+   "inference"
+  ],
+  "348": [
+   "inference"
+  ],
+  "349": [
+   "inference"
+  ],
+  "351": [
+   "inference"
+  ],
+  "353": [
+   "inference"
+  ],
+  "356": [
+   "inference"
+  ],
+  "358": [
+   "model_assembly"
+  ],
+  "359": [
+   "inference"
+  ],
+  "361": [
+   "inference"
+  ],
+  "363": [
+   "inference"
+  ],
+  "368": [
+   "inference"
+  ],
+  "369": [
+   "inference"
+  ],
+  "370": [
+   "inference"
+  ],
+  "372": [
+   "inference"
+  ],
+  "374": [
+   "inference"
+  ],
+  "378": [
+   "inference"
+  ],
+  "515": [
+   "inference"
+  ],
+  "523": [
+   "inference"
+  ],
+  "524": [
+   "inference"
+  ],
+  "531": [
+   "inference"
+  ],
+  "533": [
+   "inference"
+  ],
+  "536": [
+   "inference"
+  ],
+  "538": [
+   "inference"
+  ],
+  "544": [
+   "inference"
+  ],
+  "559": [
+   "inference"
+  ],
+  "585": [
+   "inference"
+  ],
+  "586": [
+   "inference"
+  ],
+  "22": [
+   "inference"
+  ],
+  "570": [
+   "inference"
+  ],
+  "225": [
+   "inference"
+  ],
+  "309": [
+   "inference"
+  ]
+ }
+}

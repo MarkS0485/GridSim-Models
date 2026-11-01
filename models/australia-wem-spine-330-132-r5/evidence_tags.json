@@ -1,0 +1,3465 @@
+{
+ "format": "australia-evidence-tags/1",
+ "mapping": {
+  "attested": "Recorded",
+  "derived": "DerivedFromRecorded",
+  "estimated": "CuratedPlaceholder",
+  "synthetic": "Synthetic"
+ },
+ "rule": "CuratedPlaceholder notes carry [VERIFY]; UnvalidatedAtScale is never an element tag",
+ "buses": {
+  "1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J10:330 (WA): line-end junction of GA power lines"
+  },
+  "2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J14:330 (WA): line-end junction of GA power lines"
+  },
+  "3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J3:330 (WA): line-end junction of GA power lines"
+  },
+  "4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S172:330 (WA): GA substation(s) [172, 263] (Alinta-Wagerup; Wagerup)"
+  },
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S173:330 (WA): GA substation(s) [173] (Karara Mine)"
+  },
+  "6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S174:330 (WA): GA substation(s) [174] (Three Springs Terminal)"
+  },
+  "7": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1838:330 (WA): GA substation(s) [1838] (Yandin Wind Farm)"
+  },
+  "8": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1839:330 (WA): GA substation(s) [1839] (Warradarge)"
+  },
+  "9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1840:330 (WA): GA substation(s) [1840] (Eneabba Terminal)"
+  },
+  "10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S192:330 (WA): GA substation(s) [192] (Muja)"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S221:330 (WA): GA substation(s) [221] (Wells Terminal)"
+  },
+  "12": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S226:330 (WA): GA substation(s) [226] (Bluewaters)"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S264:330 (WA): GA substation(s) [264] (Oakley)"
+  },
+  "14": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S270:330 (WA): GA substation(s) [270, 812] (Guildford; Hazelmere)"
+  },
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S275:330 (WA): GA substation(s) [275, 745] (Northern Terminal)"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S277:330 (WA): GA substation(s) [219, 277] (Neerabup Terminal)"
+  },
+  "17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S421:330 (WA): GA substation(s) [47, 421] (Kemerton; Kemerton 132)"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S451:330 (WA): GA substation(s) [451] (Kenwick Link)"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S45:330 (WA): GA substation(s) [45] (Yandin Terminal)"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S506:330 (WA): GA substation(s) [506] (Landwehr)"
+  },
+  "21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S50:330 (WA): GA substation(s) [49, 50, 171, 267, 268, 712] (Alcoa-Kwinana; Cockburn Power Station Terminal; Kwinana Bess; Kwinana Desalination Plant; Kwinana Terminal)"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S641:330 (WA): GA substation(s) [641] (Muja)"
+  },
+  "23": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S643:330 (WA): GA substation(s) [643] (Shotts)"
+  },
+  "24": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S694:330 (WA): GA substation(s) [694] (Alcoa-Pinjarra)"
+  },
+  "25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S721:330 (WA): GA substation(s) [721] (Southern Terminal)"
+  },
+  "26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S744:330 (WA): GA substation(s) [744] (Pinjar)"
+  },
+  "27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S809:330 (WA): GA substation(s) [809] (Collie)"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S422:220 (WA): GA substation(s) [422] (Narrogin South)"
+  },
+  "29": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S43:220 (WA): GA substation(s) [43, 44, 620] (Merredin PS; Merredin Solar Farm; Merredin Terminal)"
+  },
+  "30": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S641:220 (WA): GA substation(s) [641] (Muja)"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S644:220 (WA): GA substation(s) [644] (Collgar)"
+  },
+  "32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S701:220 (WA): GA substation(s) [701] (West Kalgoorlie)"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S704:220 (WA): GA substation(s) [704] (Yilgarn)"
+  },
+  "34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S708:220 (WA): GA substation(s) [708] (Kondinin)"
+  },
+  "35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J11:132 (WA): line-end junction of GA power lines"
+  },
+  "36": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J12:132 (WA): line-end junction of GA power lines"
+  },
+  "37": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J13:132 (WA): line-end junction of GA power lines"
+  },
+  "38": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J16:132 (WA): line-end junction of GA power lines"
+  },
+  "39": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J17:132 (WA): line-end junction of GA power lines"
+  },
+  "40": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J18:132 (WA): line-end junction of GA power lines"
+  },
+  "41": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J19:132 (WA): line-end junction of GA power lines"
+  },
+  "42": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J1:132 (WA): line-end junction of GA power lines"
+  },
+  "43": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J20:132 (WA): line-end junction of GA power lines"
+  },
+  "44": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J23:132 (WA): line-end junction of GA power lines"
+  },
+  "45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J24:132 (WA): line-end junction of GA power lines"
+  },
+  "46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J25:132 (WA): line-end junction of GA power lines"
+  },
+  "47": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J4:132 (WA): line-end junction of GA power lines"
+  },
+  "48": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] junction J8:132 (WA): line-end junction of GA power lines"
+  },
+  "49": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1344:132 (WA): GA substation(s) [1344] (Walkaway Wind Farm)"
+  },
+  "50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S168:132 (WA): GA substation(s) [168, 747] (Edgewater; Mullaloo)"
+  },
+  "51": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S169:132 (WA): GA substation(s) [169] (Kewdale)"
+  },
+  "52": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S170:132 (WA): GA substation(s) [170, 470] (Cockburn Cement; Cockburn Cement Limited)"
+  },
+  "53": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S172:132 (WA): GA substation(s) [172, 263] (Alinta-Wagerup; Wagerup)"
+  },
+  "54": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S174:132 (WA): GA substation(s) [174] (Three Springs Terminal)"
+  },
+  "55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1830:132 (WA): GA substation(s) [1830] (Maddington)"
+  },
+  "56": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1831:132 (WA): GA substation(s) [1831] (Bentley)"
+  },
+  "57": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S1832:132 (WA): GA substation(s) [1832] (Badgingarra)"
+  },
+  "58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S213:132 (WA): GA substation(s) [213] (Ellenbrook)"
+  },
+  "59": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S214:132 (WA): GA substation(s) [214] (Rangeway)"
+  },
+  "60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S216:132 (WA): GA substation(s) [216] (Wangara)"
+  },
+  "61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S217:132 (WA): GA substation(s) [217] (Joondalup)"
+  },
+  "62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S218:132 (WA): GA substation(s) [218] (Clarkson)"
+  },
+  "63": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S221:132 (WA): GA substation(s) [221] (Wells Terminal)"
+  },
+  "64": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S224:132 (WA): GA substation(s) [224] (Binningup Desalination Plant)"
+  },
+  "65": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S225:132 (WA): GA substation(s) [225] (Meadow Springs)"
+  },
+  "66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S227:132 (WA): GA substation(s) [227] (Murdoch)"
+  },
+  "67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S265:132 (WA): GA substation(s) [265] (Australian Fused Metals)"
+  },
+  "68": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S266:132 (WA): GA substation(s) [266, 457] (British Petroleum Refinery; Kwinana Power Partnership)"
+  },
+  "69": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S269:132 (WA): GA substation(s) [269] (Waikiki)"
+  },
+  "70": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S270:132 (WA): GA substation(s) [270, 812] (Guildford; Hazelmere)"
+  },
+  "71": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S271:132 (WA): GA substation(s) [271] (Bibra Lake)"
+  },
+  "72": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S272:132 (WA): GA substation(s) [272] (Jan)"
+  },
+  "73": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S273:132 (WA): GA substation(s) [273] (Western Mining Kambalda)"
+  },
+  "74": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S275:132 (WA): GA substation(s) [275, 745] (Northern Terminal)"
+  },
+  "75": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S276:132 (WA): GA substation(s) [276] (Padbury)"
+  },
+  "76": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S277:132 (WA): GA substation(s) [219, 277] (Neerabup Terminal)"
+  },
+  "77": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S392:132 (WA): GA substation(s) [392] (Golden Grove)"
+  },
+  "78": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S393:132 (WA): GA substation(s) [393] (Regans)"
+  },
+  "79": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S412:132 (WA): GA substation(s) [412] (Manjimup)"
+  },
+  "80": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S413:132 (WA): GA substation(s) [413] (Bridgetown)"
+  },
+  "81": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S417:132 (WA): GA substation(s) [417] (Picton)"
+  },
+  "82": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S418:132 (WA): GA substation(s) [418] (Bunbury Harbour)"
+  },
+  "83": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S419:132 (WA): GA substation(s) [419] (Marriot Road)"
+  },
+  "84": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S420:132 (WA): GA substation(s) [420] (Barrack Silicon)"
+  },
+  "85": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S421:132 (WA): GA substation(s) [47, 421] (Kemerton; Kemerton 132)"
+  },
+  "86": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S424:132 (WA): GA substation(s) [424, 1166] (Boddington; Boddington Gold Mine)"
+  },
+  "87": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S425:132 (WA): GA substation(s) [425] (North Perth)"
+  },
+  "88": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S426:132 (WA): GA substation(s) [426] (James Street)"
+  },
+  "89": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S427:132 (WA): GA substation(s) [427] (Cook Street)"
+  },
+  "90": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S428:132 (WA): GA substation(s) [428] (Milligan Street)"
+  },
+  "91": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S430:132 (WA): GA substation(s) [429, 430] (Hay Street; Wellington Street)"
+  },
+  "92": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S432:132 (WA): GA substation(s) [432] (Darlington)"
+  },
+  "93": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S433:132 (WA): GA substation(s) [433] (Midland Junction)"
+  },
+  "94": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S435:132 (WA): GA substation(s) [435] (Sawyers Valley)"
+  },
+  "95": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S43:132 (WA): GA substation(s) [43, 44, 620] (Merredin PS; Merredin Solar Farm; Merredin Terminal)"
+  },
+  "96": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S449:132 (WA): GA substation(s) [449] (Medina)"
+  },
+  "97": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S450:132 (WA): GA substation(s) [450] (CSBP)"
+  },
+  "98": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S451:132 (WA): GA substation(s) [451] (Kenwick Link)"
+  },
+  "99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S452:132 (WA): GA substation(s) [452] (Canningvale)"
+  },
+  "100": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S453:132 (WA): GA substation(s) [453] (Beenup)"
+  },
+  "101": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S454:132 (WA): GA substation(s) [454] (Western Mining)"
+  },
+  "102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S459:132 (WA): GA substation(s) [459] (Beckenham)"
+  },
+  "103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S460:132 (WA): GA substation(s) [460] (Rivervale 132)"
+  },
+  "104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S461:132 (WA): GA substation(s) [461] (Belmont)"
+  },
+  "105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S463:132 (WA): GA substation(s) [463] (Hadfields)"
+  },
+  "106": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S464:132 (WA): GA substation(s) [464] (Morley)"
+  },
+  "107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S465:132 (WA): GA substation(s) [465] (Yokine)"
+  },
+  "108": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S466:132 (WA): GA substation(s) [466] (Osborne Park)"
+  },
+  "109": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S467:132 (WA): GA substation(s) [467] (South Fremantle)"
+  },
+  "110": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S468:132 (WA): GA substation(s) [468] (Kalamunda)"
+  },
+  "111": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S469:132 (WA): GA substation(s) [469] (Mount Lawley)"
+  },
+  "112": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S471:132 (WA): GA substation(s) [471] (Rockingham)"
+  },
+  "113": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S505:132 (WA): GA substation(s) [505] (Worsley)"
+  },
+  "114": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S507:132 (WA): GA substation(s) [507] (Mount Barker)"
+  },
+  "115": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S50:132 (WA): GA substation(s) [49, 50, 171, 267, 268, 712] (Alcoa-Kwinana; Cockburn Power Station Terminal; Kwinana Bess; Kwinana Desalination Plant; Kwinana Terminal)"
+  },
+  "116": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S52:132 (WA): GA substation(s) [52, 86, 455, 456, 1829] (British Petroleum; Kwinana Swift; Mason Road; Mason Road North; Tiwest Pigment Plant)"
+  },
+  "117": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S53:132 (WA): GA substation(s) [53, 458, 711] (Broken Hill-Kwinana; Hismelt; Leath RD)"
+  },
+  "118": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S54:132 (WA): GA substation(s) [54] (Willetton)"
+  },
+  "119": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S552:132 (WA): GA substation(s) [552] (Three Springs)"
+  },
+  "120": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S556:132 (WA): GA substation(s) [556] (Cataby)"
+  },
+  "121": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S557:132 (WA): GA substation(s) [557] (Chapman)"
+  },
+  "122": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S558:132 (WA): GA substation(s) [558] (Geraldton)"
+  },
+  "123": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S559:132 (WA): GA substation(s) [559] (Mungarra)"
+  },
+  "124": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S55:132 (WA): GA substation(s) [55, 462] (Forrestfield; Munday)"
+  },
+  "125": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S560:132 (WA): GA substation(s) [560] (Busselton)"
+  },
+  "126": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S56:132 (WA): GA substation(s) [56, 274, 733, 861] (East Perth Terminal; Joel Terrace; Joel Terrace 132; Summers Street)"
+  },
+  "127": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S57:132 (WA): GA substation(s) [57, 58] (Marshall Road; Whiteman Park)"
+  },
+  "128": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S618:132 (WA): GA substation(s) [618] (Northam)"
+  },
+  "129": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S641:132 (WA): GA substation(s) [641] (Muja)"
+  },
+  "130": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S642:132 (WA): GA substation(s) [642] (West Collieries)"
+  },
+  "131": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S645:132 (WA): GA substation(s) [645] (Albany)"
+  },
+  "132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S646:132 (WA): GA substation(s) [646] (Kojonup)"
+  },
+  "133": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S694:132 (WA): GA substation(s) [694] (Alcoa-Pinjarra)"
+  },
+  "134": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S695:132 (WA): GA substation(s) [695] (Mandurah)"
+  },
+  "135": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S696:132 (WA): GA substation(s) [696] (Pinjarra)"
+  },
+  "136": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S697:132 (WA): GA substation(s) [697] (Western Mining Smelter)"
+  },
+  "137": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S698:132 (WA): GA substation(s) [698] (Boulder)"
+  },
+  "138": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S699:132 (WA): GA substation(s) [699] (Piccadilly)"
+  },
+  "139": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S701:132 (WA): GA substation(s) [701] (West Kalgoorlie)"
+  },
+  "140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S702:132 (WA): GA substation(s) [702] (Black Flag)"
+  },
+  "141": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S703:132 (WA): GA substation(s) [703] (Bounty Gold Mine)"
+  },
+  "142": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S708:132 (WA): GA substation(s) [708] (Kondinin)"
+  },
+  "143": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S713:132 (WA): GA substation(s) [713] (Byford)"
+  },
+  "144": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S714:132 (WA): GA substation(s) [714] (Cottesloe)"
+  },
+  "145": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S715:132 (WA): GA substation(s) [715] (Gosnells)"
+  },
+  "146": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S717:132 (WA): GA substation(s) [717, 718] (Amherst; Edmund Street)"
+  },
+  "147": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S720:132 (WA): GA substation(s) [720] (Glen Iris)"
+  },
+  "148": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S721:132 (WA): GA substation(s) [721] (Southern Terminal)"
+  },
+  "149": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S724:132 (WA): GA substation(s) [724] (Southern River)"
+  },
+  "150": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S725:132 (WA): GA substation(s) [725] (Riverton)"
+  },
+  "151": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S726:132 (WA): GA substation(s) [726] (Cannington Terminal)"
+  },
+  "152": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S727:132 (WA): GA substation(s) [727] (Welshpool)"
+  },
+  "153": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S734:132 (WA): GA substation(s) [734] (Western Terminal)"
+  },
+  "154": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S735:132 (WA): GA substation(s) [735] (Shenton Park)"
+  },
+  "155": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S739:132 (WA): GA substation(s) [739] (Muchea)"
+  },
+  "156": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S740:132 (WA): GA substation(s) [740] (Kerr-McGee Muchea)"
+  },
+  "157": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S741:132 (WA): GA substation(s) [741] (Landsdale)"
+  },
+  "158": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S742:132 (WA): GA substation(s) [742] (Yanchep)"
+  },
+  "159": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S743:132 (WA): GA substation(s) [743] (Wanneroo)"
+  },
+  "160": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S744:132 (WA): GA substation(s) [744] (Pinjar)"
+  },
+  "161": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S746:132 (WA): GA substation(s) [746] (North Beach)"
+  },
+  "162": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S748:132 (WA): GA substation(s) [748] (Manning Street)"
+  },
+  "163": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S749:132 (WA): GA substation(s) [749] (Beechboro)"
+  },
+  "164": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S750:132 (WA): GA substation(s) [750] (Arkana)"
+  },
+  "165": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S751:132 (WA): GA substation(s) [751] (Moora)"
+  },
+  "166": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S752:132 (WA): GA substation(s) [752] (Eneabba)"
+  },
+  "167": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S811:132 (WA): GA substation(s) [811] (Merredin 66/22kV)"
+  },
+  "168": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] site S93:132 (WA): GA substation(s) [93] (Mumbida Wind Farm)"
+  },
+  "169": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at J10:330"
+  },
+  "170": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S172:330"
+  },
+  "171": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S226:330"
+  },
+  "172": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S277:330"
+  },
+  "173": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S50:330"
+  },
+  "174": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S643:330"
+  },
+  "175": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S744:330"
+  },
+  "176": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S701:220"
+  },
+  "177": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S704:220"
+  },
+  "178": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at J16:132"
+  },
+  "179": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S1344:132"
+  },
+  "180": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S417:132"
+  },
+  "181": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S43:132"
+  },
+  "182": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S471:132"
+  },
+  "183": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S52:132"
+  },
+  "184": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S558:132"
+  },
+  "185": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S559:132"
+  },
+  "186": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S618:132"
+  },
+  "187": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S641:132"
+  },
+  "188": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at S696:132"
+  }
+ },
+ "branches": {
+  "L1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Neerabup to Neerabup Power Station; 330 kV overhead, 2.67 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Terminal to Tee; 330 kV overhead, 57.10 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Landwehr Terminal to Alinta-Wagerup; 330 kV cable, 12.80 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag)"
+  },
+  "L4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Karara Iron Ore Mine to Three Springs Terminal; 330 kV overhead, 106.00 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Yandin Wind Farm to Yandin; 330 kV overhead, 10.38 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Warradarge Wind Farm to Eneabba; 330 kV overhead, 9.82 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L7": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Eneabba Terminal to Three Springs Terminal; 330 kV overhead, 58.87 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L8": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja to Muja; 330 kV overhead, 1.07 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wells Terminal to Shotts Terminal; 330 kV overhead, 71.57 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja Terminal to Bluewaters Terminal; 330 kV overhead, 16.45 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Bluewaters Terminal to Shotts Terminal; 330 kV overhead, 4.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L12": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Oakley Terminal to Tee; 330 kV overhead, 5.99 km (GA drawing; ends: exact/tee); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Guildford Terminal to Northern Terminal; 330 kV overhead, 13.74 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L14": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Pinjar Terminal; 330 kV overhead, 37.74 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Neerabup Terminal; 330 kV overhead, 29.87 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Neerabup Terminal to Eneabba; 330 kV overhead, 115.76 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton Power Station to Kemerton; 330 kV overhead, 2.27 km (GA drawing; ends: exact/reopened); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton Terminal Station to Tee; 330 kV overhead, 61.89 km (GA drawing; ends: exact/tee); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Kemerton Terminal; 330 kV overhead, 30.85 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Cannington Terminal; 330 kV overhead, 13.25 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Yandin Terminal to Eneabba Terminal; 330 kV overhead, 105.93 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Terminal to Northern Terminal; 330 kV overhead, 78.47 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L23": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Kwinana Terminal; 330 kV overhead, 18.77 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L24": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Kwinana Terminal; 330 kV overhead, 18.77 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja Terminal to Northern Terminal; 330 kV overhead, 227.70 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton Terminal to Muja Terminal; 330 kV overhead, 72.05 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton Terminal to Shotts Terminal; 330 kV overhead, 60.12 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Shotts Terminal; 330 kV overhead, 174.28 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L29": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Oakley to Alcoa-Pinjarra; 330 kV overhead, 6.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L30": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Guildford Terminal; 330 kV overhead, 43.68 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal Station to Kemerton; 330 kV overhead, 94.30 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Collie Power Station to Shotts Terminal; 330 kV overhead, 3.55 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja Terminal to Narrogin South; 220 kV overhead, 108.74 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Merredin Terminal to Collgar Terminal; 220 kV overhead, 22.11 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Collgar Terminal to Yilgarn; 220 kV overhead, 95.72 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L36": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Yilgarn to West Kalgoorlie Terminal; 220 kV overhead, 208.48 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L37": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Narrogin South to Kondinin; 220 kV overhead, 117.81 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L38": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Merredin Terminal to Kondinin; 220 kV overhead, 103.02 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L39": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Meadow Springs to Lake Rd Tee; 132 kV overhead, 3.32 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L40": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Terminal to Tee; 132 kV overhead, 2.57 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L41": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Medina to Tee; 132 kV overhead, 3.22 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L43": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Piccadilly to Tee; 132 kV overhead, 3.29 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L44": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal; 132 kV overhead, 1.54 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton 132 to Tee; 132 kV overhead, 4.46 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Manjimup to Bridgetown Tee; 132 kV overhead, 47.60 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L47": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja to Bridgetown Tee; 132 kV overhead, 56.37 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L49": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Terminal to Amherst (North); 132 kV overhead, 3.23 km (GA drawing; ends: reopened/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Picton to Tee; 132 kV overhead, 11.42 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L51": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Busselton to Tee; 132 kV overhead, 85.76 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L53": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mungarra to Three Springs; 132 kV overhead, 22.16 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L54": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mumbida Wind Farm to Three Springs; 132 kV overhead, 6.32 km (GA drawing; ends: tee/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mungarra Terminal to Walkaway Wind Farm; 132 kV overhead, 25.60 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L57": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mullaloo to Wangara; 132 kV overhead, 5.64 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mullaloo to Joondalup; 132 kV overhead, 4.65 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L59": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mullaloo to Padbury; 132 kV overhead, 5.01 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Belmont to Kewdale; 132 kV overhead, 3.68 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cockburn Cement to Tee; 132 kV overhead, 6.71 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Cockburn Cement; 132 kV overhead, 10.71 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L63": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wagerup to Worsley; 132 kV overhead, 42.00 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L64": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wagerup to Alcoa Pinjarra Tee; 132 kV overhead, 29.93 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L65": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Three Springs to Three Springs Terminal; 132 kV overhead, 3.40 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Gosnells to Maddington; 132 kV overhead, 4.75 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Bentley; 132 kV overhead, 11.90 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L68": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Badgingbarra to Cataby; 132 kV overhead, 32.90 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L69": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muchea to Ellenbrook; 132 kV overhead, 32.59 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L70": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Geraldton to Rangeway; 132 kV overhead, 7.16 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L71": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Joondalup to Wanneroo; 132 kV overhead, 5.33 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L72": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wells Terminal to Guildford; 132 kV overhead, 104.04 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L73": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wells Terminal to Bodington Gold Mine; 132 kV overhead, 5.22 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L74": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton to Binningup Desalination Plant; 132 kV cable, 1.91 km (GA drawing; ends: exact/reopened); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L75": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton to Binningup Desalination Plant; 132 kV overhead, 7.04 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L76": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mandurah to Tee; 132 kV overhead, 5.41 km (GA drawing; ends: tee-to-site/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L77": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Meadown Springs to Tee; 132 kV overhead, 14.45 km (GA drawing; ends: exact/far); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L78": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Mining to Australian Fused Metals Tee; 132 kV overhead, 1.43 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L79": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Rockingham to Australian Fused Metals Tee; 132 kV overhead, 4.27 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L80": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Power Partnership to Mason Road (North); 132 kV overhead, 1.37 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L81": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Power Partnership to Mason Road; 132 kV overhead, 1.35 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L82": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Waikiki to Tee; 132 kV overhead, 27.53 km (GA drawing; ends: name/tee-to-site); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L83": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Bibra Lake to South Fremantle; 132 kV overhead, 6.21 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L84": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Mining Kambalda to Jan; 132 kV overhead, 24.26 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L85": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Ellenbrook; 132 kV overhead, 13.55 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L86": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Guilford Terminal; 132 kV overhead, 14.14 km (GA drawing; ends: exact/near); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L87": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Whiteman Park; 132 kV overhead, 3.04 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L88": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Northam; 132 kV overhead, 90.88 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L89": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Terminal to Northern Terminal; 132 kV overhead, 19.06 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L90": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Beechboro; 132 kV overhead, 5.10 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L91": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Arkana; 132 kV overhead, 6.45 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L92": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mullaloo to North Beach; 132 kV overhead, 8.00 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L93": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Neerabup Terminal to Wanneroo; 132 kV overhead, 11.04 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L94": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Neerabup Terminal to Pinjar; 132 kV overhead, 19.35 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L95": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cataby to Regans; 132 kV overhead, 48.33 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L96": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Manjimup to Beenup; 132 kV overhead, 88.33 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L97": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Manjimup to Yornup Tee + Muja to Manjimup; 132 kV overhead, 117.49 km (GA drawing; ends: exact/tee+tee/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L98": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Bridgetown to Tee; 132 kV overhead, 10.24 km (GA drawing; ends: exact/tee); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Piction to Marriott Road; 132 kV overhead, 21.64 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L100": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Worsley to Picton; 132 kV overhead, 40.54 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L101": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Picton to Bunbury Harbour; 132 kV overhead, 5.65 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kemerton 132 to Marriot Road; 132 kV overhead, 7.20 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Marriot Road to Barrack Silicon Smelter; 132 kV overhead, 1.72 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] James Street to Cook Street; 132 kV cable, 1.88 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] James Street to Milligan Street; 132 kV cable, 0.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L106": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mount Lawley Terminal to James Street (East); 132 kV overhead, 4.16 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mount Lawley Terminal to James Street; 132 kV overhead, 4.19 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L108": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] East Perth to James Street; 132 kV cable, 3.09 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L109": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] West Terminal to Cook Street; 132 kV cable, 2.41 km (GA drawing; ends: exact/reopened); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L110": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] North Perth to Cook Street; 132 kV overhead, 2.60 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L111": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] West Terminal to Cook Street; 132 kV overhead, 3.56 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L112": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Joel Terrace to Wellington Street (Underground); 132 kV cable, 0.45 km (GA drawing; ends: name/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L113": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Darlington to Kalamunda; 132 kV overhead, 8.59 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L114": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Midland Junction (East); 132 kV overhead, 2.10 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L115": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Midland Junction to Darlington; 132 kV overhead, 9.71 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L116": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Darlington to Sawyers Valley; 132 kV overhead, 15.21 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L117": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northam to Merredin Terminal; 132 kV overhead, 151.27 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L118": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kenwick Link to Cannington; 132 kV overhead, 3.48 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L119": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Canningvale to Gosnells; 132 kV overhead, 8.68 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L120": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cannington Terminal to Beckenham; 132 kV cable, 0.72 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L121": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Belmont Tee to Rivervale 132; 132 kV overhead, 4.14 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L122": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Belmont (South); 132 kV overhead, 6.44 km (GA drawing; ends: exact/far); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L123": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Welshpool to Belmont Tee; 132 kV overhead, 7.81 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L124": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Hadleys to Morley; 132 kV overhead, 7.36 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L125": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Morley to Mount Lawley Terminal; 132 kV overhead, 4.03 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L126": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Yokine to Osbourne Park; 132 kV overhead, 5.25 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L127": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Manning Street to Osbourne Park; 132 kV overhead, 3.91 km (GA drawing; ends: near/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L128": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Arkana to Osbourne Park; 132 kV overhead, 7.74 km (GA drawing; ends: near/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L129": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] South Fremantle Terminal to Kwinana Terminal; 132 kV overhead, 17.92 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L130": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] South Fremantle to Amherst; 132 kV overhead, 6.54 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L131": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Unknown to Kalamunda; 132 kV overhead, 15.03 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Mount Lawley Terminal; 132 kV overhead, 8.51 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L133": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mount Lawley Terminal to Yokine; 132 kV overhead, 3.11 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L134": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Waikiki to Rockingham; 132 kV overhead, 5.44 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L135": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Medina to Rockingham; 132 kV overhead, 16.09 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L136": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] West Collieries to Worsley; 132 kV overhead, 27.27 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L137": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Albany to Mount Barker; 132 kV overhead, 49.00 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L138": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Bibra Lake to Kwinana Terminal; 132 kV overhead, 11.85 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L139": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Terminal to Mason Road (South East); 132 kV overhead, 4.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Kwinana Terminal; 132 kV overhead, 18.67 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L141": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mason Road to Csbp; 132 kV overhead, 1.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L142": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mason Road to Western Mining; 132 kV overhead, 3.89 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L143": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kwinana Terminal to Mason Road; 132 kV overhead, 4.71 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L144": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mason Road North to Leath Rd; 132 kV overhead, 1.70 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L145": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Willetton to Canning Vale; 132 kV overhead, 2.94 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L146": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mungarra to Three Springs (South); 132 kV overhead, 103.71 km (GA drawing; ends: exact/tee); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L147": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Three Springs to Golden Grove; 132 kV overhead, 143.62 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L148": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Moora to Three Springs; 132 kV overhead, 134.72 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L149": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Three Springs to Eneabba; 132 kV overhead, 73.21 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L150": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cataby to Eneabba; 132 kV overhead, 79.61 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L151": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Geraldton to Chapman; 132 kV overhead, 8.58 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L152": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Geraldton to Walkaway Wind Farm; 132 kV overhead, 37.47 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L153": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Geraldton to Chapman (East); 132 kV overhead, 7.08 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L154": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Mungarra Terminal to Three Springs; 132 kV overhead, 97.29 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L155": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Geraldton to Mungarra Terminal; 132 kV overhead, 54.70 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L156": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Forrestfield; 132 kV overhead, 9.04 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L157": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Joel Terrace to Southern Terminal; 132 kV cable, 2.25 km (GA drawing; ends: exact/reopened); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L158": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Joel Terrace 132; 132 kV overhead, 14.12 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L159": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] North Perth L to Joel Terrace; 132 kV cable, 3.84 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature)"
+  },
+  "L160": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Joel Terrace 132 to Southern Terminal; 132 kV overhead, 19.33 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L161": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Whiteman Park to Midland Junction; 132 kV overhead, 14.02 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L162": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Sawyers Valley to Northam; 132 kV overhead, 67.69 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L163": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja to Bunbury Harbour; 132 kV overhead, 65.91 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L164": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja to West Collieries; 132 kV overhead, 7.47 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L165": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja Terminal to Kojonup (North East); 132 kV overhead, 88.88 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L166": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kojonup to Mount Barker; 132 kV overhead, 103.14 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L167": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muja Terminal to Kojonup; 132 kV overhead, 87.70 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L168": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kojonup to Albany; 132 kV overhead, 157.54 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L169": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cannington Terminal to Alcoa Pinjarra; 132 kV overhead, 71.34 km (GA drawing; ends: name/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L170": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjarra to Mandurah; 132 kV overhead, 17.68 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L171": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Tee to Pijarra; 132 kV overhead, 85.12 km (GA drawing; ends: exact/tee); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L172": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjarra to Alcoa-Pinjarra; 132 kV overhead, 14.25 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L173": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Mining Smelter to Western Mining Kambalda; 132 kV overhead, 43.17 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L174": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Boulder to Western Mining Smelter; 132 kV overhead, 15.59 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L175": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Boulder to Tee; 132 kV overhead, 3.47 km (GA drawing; ends: tee-to-site/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L176": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Boulder to West Kalgoorlie Terminal; 132 kV overhead, 11.37 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L177": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] West Kalgoorlie to Picadilly; 132 kV overhead, 6.15 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L178": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] West Kalgoorlie Terminal to Black Flag; 132 kV overhead, 35.37 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L179": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kondinin to Bounty Gold Mine; 132 kV overhead, 154.41 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L180": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cockburn Cement to Byford; 132 kV overhead, 23.49 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L181": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Byford to Southern River; 132 kV overhead, 15.82 km (GA drawing; ends: name/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L182": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Terminal to Amherst (North); 132 kV overhead, 3.16 km (GA drawing; ends: exact/name); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L183": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Terminal to Amherst; 132 kV overhead, 7.84 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L184": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Glen Iris; 132 kV cable, 0.60 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag)"
+  },
+  "L185": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Murdoch; 132 kV overhead, 3.48 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L186": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] South Fremantle Terminal to Southern Terminal; 132 kV overhead, 10.15 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L187": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Willetton; 132 kV overhead, 7.17 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L188": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern River to Tee; 132 kV overhead, 2.32 km (GA drawing; ends: exact/reopened); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L189": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern River to Gosnells; 132 kV overhead, 5.37 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L190": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Riverton to Murdoch; 132 kV overhead, 4.97 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L191": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Canning Vale to Riverton; 132 kV overhead, 14.40 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L192": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Kewdale to Cannington Terminal; 132 kV overhead, 8.11 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L193": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cannington to Maddington; 132 kV overhead, 5.24 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L194": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Rivervale 132 to Cannington Terminal; 132 kV overhead, 9.16 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L195": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cannington Terminal to Pinjarra; 132 kV overhead, 65.39 km (GA drawing; ends: tee/exact+exact/tee+tee/tee); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L196": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Southern Terminal to Cannington Terminal 132; 132 kV overhead, 13.11 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L197": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Cannington Terminal to Welshpool; 132 kV overhead, 3.49 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L198": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Western Terminal to Northern Terminal; 132 kV overhead, 1.69 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L199": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Muchea; 132 kV overhead, 13.10 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L200": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muchea to Moora; 132 kV overhead, 105.09 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L201": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Muchea to Kerr-Mcgee Muchea; 132 kV overhead, 2.93 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L202": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Wangara to Landsdale; 132 kV overhead, 6.93 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L203": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to Landsdale; 132 kV overhead, 8.48 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L204": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Yanchep to Clarkson; 132 kV overhead, 7.51 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L205": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Clarkson to Wanneroo; 132 kV overhead, 9.08 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L206": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Regans; 132 kV overhead, 63.65 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L207": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Cataby; 132 kV overhead, 125.64 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L208": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Muchea (North); 132 kV overhead, 13.28 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L209": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Yanchep; 132 kV overhead, 15.75 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L210": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Pinjar Terminal to Eneabba; 132 kV overhead, 204.96 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L211": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Northern Terminal to North Beach; 132 kV overhead, 13.16 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L212": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] North Beach to Manning Street; 132 kV overhead, 5.44 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L213": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Beechboro to Hadfields; 132 kV overhead, 6.14 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L214": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Eneabba to Badgingarra; 132 kV overhead, 47.43 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 2 (OpenStreetMap circuits tag); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "L215": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] Merredin Terminal to Merredin 66; 132 kV overhead, 5.82 km (GA drawing; ends: exact/exact); typical per-km R/X/B and rating per circuit; circuits 1 (one per GA feature); rung 2 Ausgrid 132 kV winter/summer median 1.0595"
+  },
+  "T1": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Alinta-Wagerup 330/132 kV: coupling 220 MVA, x 12 % own rating (synthetic: GA lists no transformers)"
+  },
+  "T2": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Three Springs Terminal 330/132 kV: coupling 200 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T3": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Wells Terminal 330/132 kV: coupling 320 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T4": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Guildford 330/132 kV: coupling 650 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T5": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Northern Terminal 330/132 kV: coupling 1510 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T6": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Neerabup Terminal 330/132 kV: coupling 220 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T7": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Kemerton 330/132 kV: coupling 540 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T8": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Merredin Solar Farm 220/132 kV: coupling 220 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T9": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Kenwick Link 330/132 kV: coupling 220 MVA, x 12 % own rating (synthetic: GA lists no transformers)"
+  },
+  "T10": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Kwinana Bess 330/132 kV: coupling 1080 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T11": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Muja 330/220 kV: coupling 270 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T12": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Muja 220/132 kV: coupling 270 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T13": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Alcoa-Pinjarra 330/132 kV: coupling 320 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T14": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "West Kalgoorlie 220/132 kV: coupling 270 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T15": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Kondinin 220/132 kV: coupling 200 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "T16": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Southern Terminal 330/132 kV: coupling 1640 MVA, x 12 % own rating (synthetic: GA lists no transformers)"
+  },
+  "T17": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "Pinjar 330/132 kV: coupling 1190 MVA, x 12 % own rating (synthetic: GA lists no transformers); tap 1.0125 inferred (tap-changer loop, nr_check rule, round australia-wem-spine-330-132-r5)"
+  },
+  "gsu:J10:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 390 MVA, x 14.5 % own rating, 3 plant row(s)"
+  },
+  "gsu:S172:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 520 MVA, x 14.5 % own rating, 3 plant row(s)"
+  },
+  "gsu:S226:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 511 MVA, x 14.5 % own rating, 2 plant row(s)"
+  },
+  "gsu:S277:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 402 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S50:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 1021 MVA, x 14.5 % own rating, 6 plant row(s)"
+  },
+  "gsu:S643:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 374 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S744:330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 722 MVA, x 14.5 % own rating, 9 plant row(s)"
+  },
+  "gsu:S701:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 79 MVA, x 14.5 % own rating, 2 plant row(s)"
+  },
+  "gsu:S704:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 27 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:J16:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 80 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S1344:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 105 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S417:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 12 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S43:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 96 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S471:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 7 MVA, x 14.5 % own rating, 2 plant row(s)"
+  },
+  "gsu:S52:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 128 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S558:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 12 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S559:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 96 MVA, x 14.5 % own rating, 2 plant row(s)"
+  },
+  "gsu:S618:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 12 MVA, x 14.5 % own rating, 1 plant row(s)"
+  },
+  "gsu:S641:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 500 MVA, x 14.5 % own rating, 2 plant row(s)"
+  },
+  "gsu:S696:132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 336 MVA, x 14.5 % own rating, 2 plant row(s)"
+  }
+ },
+ "generators": {
+  "KEMERTON_GT11 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "160.7 MW gas_ocgt (registered); dispatch 160.7 MW (estimated merit rule); placement: GA power station 'Kemerton' via search name 'Kemerton'"
+  },
+  "KEMERTON_GT12 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "160.8 MW gas_ocgt (registered); dispatch 160.8 MW (estimated merit rule); placement: GA power station 'Kemerton' via search name 'Kemerton'"
+  },
+  "TESLA_KEMERTON_G1 (other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW other (registered); dispatch 0.1 MW (estimated merit rule); placement: GA power station 'Kemerton' via search name 'Kemerton'"
+  },
+  "ALCOA_WGP (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "26.0 MW gas_other (registered); dispatch 16.9 MW (estimated merit rule); placement: GA power station 'Wagerup' via search name 'Wagerup'"
+  },
+  "ALINTA_WGP_GT (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "208.0 MW gas_ocgt (registered); dispatch 191.2 MW (estimated merit rule); placement: GA power station 'Wagerup' via search name 'Wagerup'"
+  },
+  "ALINTA_WGP_U2 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "208.0 MW gas_other (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Wagerup' via search name 'Wagerup'"
+  },
+  "YANDIN_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "211.7 MW wind (registered); dispatch 32.0 MW (estimated merit rule); placement: GA power station 'Yandin Wind Farm' via search name 'Yandin Wind Farm'"
+  },
+  "WARRADARGE_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "283.0 MW wind (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Warradarge Wind Farm' via search name 'Warradarge Wind Farm'"
+  },
+  "BW1_BLUEWATERS_G2 (coal)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "217.0 MW coal (registered); dispatch 216.9 MW (estimated merit rule); placement: GA power station 'Collie (Bluewaters)' via search name 'Collie (Bluewaters)'"
+  },
+  "BW2_BLUEWATERS_G1 (coal)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "217.0 MW coal (registered); dispatch 210.1 MW (estimated merit rule); placement: GA power station 'Collie (Bluewaters)' via search name 'Collie (Bluewaters)'"
+  },
+  "NEWGEN_NEERABUP_GT1 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "342.0 MW gas_ocgt (registered); dispatch 171.2 MW (estimated merit rule); placement: GA power station 'Neerabup' via search name 'Neerabup'"
+  },
+  "KWINANA_ESR1 (battery)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "200.0 MW battery (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Kwinana' via search name 'Kwinana'"
+  },
+  "KWINANA_ESR2 (battery)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "450.0 MW battery (registered); dispatch 104.2 MW (estimated merit rule); placement: GA power station 'Kwinana' via search name 'Kwinana'"
+  },
+  "COCKBURN_CCG1 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "240.0 MW gas_other (registered); dispatch 239.6 MW (estimated merit rule); placement: GA power station 'Cockburn' via search name 'Cockburn'"
+  },
+  "KWINANA_GT2 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "103.9 MW gas_ocgt (registered); dispatch 83.6 MW (estimated merit rule); placement: GA power station 'Kwinana High Efficiency Gas Turbine Plant' via search name 'Kwinana High Efficiency Gas Turbine Plant'"
+  },
+  "KWINANA_GT3 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "103.9 MW gas_ocgt (registered); dispatch 102.8 MW (estimated merit rule); placement: GA power station 'Kwinana High Efficiency Gas Turbine Plant' via search name 'Kwinana High Efficiency Gas Turbine Plant'"
+  },
+  "NEWGEN_KWINANA_CCG1 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "334.8 MW gas_other (registered); dispatch 327.9 MW (estimated merit rule); placement: GA power station 'Kwinana Newgen' via search name 'Kwinana Newgen'"
+  },
+  "PHOENIX_KWINANA_WTE_G1 (biomass)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "43.0 MW biomass (registered); dispatch 9.9 MW (estimated merit rule); placement: GA power station 'Kwinana' via search name 'Kwinana'"
+  },
+  "TIWEST_COG1 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "42.1 MW gas_other (registered); dispatch 39.6 MW (estimated merit rule); placement: GA power station 'Kwinana' via search name 'Kwinana'"
+  },
+  "COLLIE_BESS2 (battery)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "600.0 MW battery (registered); dispatch 249.9 MW (estimated merit rule); placement: GA power station 'Collie A' via search name 'Collie A'"
+  },
+  "COLLIE_ESR1 (battery)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400.0 MW battery (registered); dispatch 40.5 MW (estimated merit rule); placement: GA power station 'Collie A' via search name 'Collie A'"
+  },
+  "COLLIE_G1 (coal)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "318.3 MW coal (registered); dispatch 250.3 MW (estimated merit rule); placement: GA power station 'Collie A' via search name 'Collie A'"
+  },
+  "PINJAR_GT1 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.4 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT10 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "118.2 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT11 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "128.2 MW gas_ocgt (registered); dispatch 122.9 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT2 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.4 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT3 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "42.0 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT4 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "42.0 MW gas_ocgt (registered); dispatch 35.3 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT5 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "42.0 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT7 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "42.0 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "PINJAR_GT9 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "118.2 MW gas_ocgt (registered); dispatch 93.1 MW (estimated merit rule); placement: GA power station 'Pinjar' via search name 'Pinjar'"
+  },
+  "INVESTEC_COLLGAR_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "218.5 MW wind (registered); dispatch 181.7 MW (estimated merit rule); placement: GA power station 'Collgar Wind Farm' via search name 'Collgar Wind Farm'"
+  },
+  "WEST_KALGOORLIE_GT2 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "43.4 MW gas_ocgt (registered); dispatch 0.1 MW (estimated merit rule); placement: GA power station 'West Kalgoorlie' via search name 'West Kalgoorlie'"
+  },
+  "WEST_KALGOORLIE_GT3 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "23.8 MW gas_ocgt (registered); dispatch 0.4 MW (estimated merit rule); placement: GA power station 'West Kalgoorlie' via search name 'West Kalgoorlie'"
+  },
+  "STHRNCRS_EG (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "23.0 MW gas_other (registered); dispatch 23.0 MW (estimated merit rule); placement: GA substation 'Southern Cross' via search name 'Southern Cross'"
+  },
+  "PRK_AG (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "68.0 MW gas_other (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Kalgoorlie (Parkeston)' via search name 'Kalgoorlie (Parkeston)'"
+  },
+  "ALINTA_WWF (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "89.1 MW gas_other (registered); dispatch 15.9 MW (estimated merit rule); placement: GA power station 'Walkaway Wind Farm' via search name 'Walkaway Wind Farm'"
+  },
+  "BADGINGARRA_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "130.0 MW wind (registered); dispatch 7.8 MW (estimated merit rule); placement: GA substation 'Badgingarra' via search name 'Badgingarra'"
+  },
+  "EDWFMAN_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "80.0 MW wind (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Emu Downs Wind Farm' via search name 'Emu Downs Wind Farm'"
+  },
+  "TESLA_PICTON_G1 (other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW other (registered); dispatch 0.0 MW (estimated merit rule); placement: GA substation 'Picton' via search name 'Picton'"
+  },
+  "MERSOLAR_PV1 (solar)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "100.0 MW solar (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Merredin Solar Farm' via search name 'Merredin Solar Farm'"
+  },
+  "NAMKKN_MERR_SG1 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "82.0 MW gas_other (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Merredin' via search name 'Merredin'"
+  },
+  "BIOGAS01 (biomass)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW biomass (registered); dispatch 0.0 MW (estimated merit rule); placement: GA substation 'Rockingham' via search name 'Rockingham'"
+  },
+  "ROCKINGHAM (biomass)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.2 MW biomass (registered); dispatch 1.6 MW (estimated merit rule); placement: GA substation 'Rockingham' via search name 'Rockingham'"
+  },
+  "SKYFRM_MTBARKER_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW wind (registered); dispatch 2.3 MW (estimated merit rule); placement: GA substation 'Mount Barker' via search name 'Mount Barker'"
+  },
+  "PERTHENERGY_KWINANA_GT1 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "109.0 MW gas_ocgt (registered); dispatch 54.1 MW (estimated merit rule); placement: GA power station 'Kwinana Swift' via search name 'Kwinana Swift'"
+  },
+  "TESLA_GERALDTON_G1 (other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW other (registered); dispatch 9.4 MW (estimated merit rule); placement: GA power station 'Geraldton' via search name 'Geraldton'"
+  },
+  "GREENOUGH_RIVER_PV1 (solar)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.0 MW solar (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Greenough River Solar Farm' via search name 'Greenough River Solar Farm'"
+  },
+  "MUNGARRA_GT1 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.4 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Mungarra' via search name 'Mungarra'"
+  },
+  "MUNGARRA_GT3 (gas_ocgt)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.9 MW gas_ocgt (registered); dispatch 0.0 MW (estimated merit rule); placement: GA power station 'Mungarra' via search name 'Mungarra'"
+  },
+  "NORTHAM_SF_PV1 (solar)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.8 MW solar (registered); dispatch 0.0 MW (estimated merit rule); placement: GA substation 'Northam' via search name 'Northam'"
+  },
+  "SBSOLAR1_CUNDERDIN_PV1 (solar)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "100.0 MW solar (registered); dispatch 45.9 MW (estimated merit rule); placement: GA substation 'Cunderdin' via search name 'Cunderdin'"
+  },
+  "TESLA_NORTHAM_G1 (other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW other (registered); dispatch 0.0 MW (estimated merit rule); placement: GA substation 'Northam' via search name 'Northam'"
+  },
+  "MUJA_G7 (coal)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "212.6 MW coal (registered); dispatch 210.2 MW (estimated merit rule); placement: GA power station 'Muja D' via search name 'Muja D'"
+  },
+  "MUJA_G8 (coal)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "212.6 MW coal (registered); dispatch 211.2 MW (estimated merit rule); placement: GA power station 'Muja D' via search name 'Muja D'"
+  },
+  "ALBANY_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.6 MW wind (registered); dispatch 15.8 MW (estimated merit rule); placement: GA power station 'Albany Wind Farm' via search name 'Albany Wind Farm'"
+  },
+  "GRASMERE_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.8 MW wind (registered); dispatch 5.2 MW (estimated merit rule); placement: GA power station 'Grasmere Wind Farm (Albany Stage Ii)' via search name 'Grasmere Wind Farm'"
+  },
+  "FLATROCKS_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "75.6 MW wind (registered); dispatch 73.3 MW (estimated merit rule); placement: GA substation 'Kojonup' via search name 'Kojonup'"
+  },
+  "ALINTA_PNJ_U1 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "143.0 MW gas_other (registered); dispatch 134.5 MW (estimated merit rule); placement: GA substation 'Pinjarra' via search name 'Pinjarra'"
+  },
+  "ALINTA_PNJ_U2 (gas_other)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "143.0 MW gas_other (registered); dispatch 142.7 MW (estimated merit rule); placement: GA substation 'Pinjarra' via search name 'Pinjarra'"
+  },
+  "MWF_MUMBIDA_WF1 (wind)": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "55.0 MW wind (registered); dispatch 9.2 MW (estimated merit rule); placement: GA power station 'Mumbida Wind Farm' via search name 'Mumbida Wind Farm'"
+  }
+ },
+ "demand": {
+  "112": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA BIOGAS01: -0.288 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01231 by GeoNames population"
+  },
+  "57": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA EDWFMAN_WF1: -0.048 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00076 by GeoNames population"
+  },
+  "21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA KWINANA_ESR1: -71.316 MW (charging) at 28/07/2025 18:50:00"
+  },
+  "123": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA MUNGARRA_GT1: -0.192 MW (charging) at 28/07/2025 18:50:00; storage_charging: AEMO WA facility SCADA MUNGARRA_GT3: -0.312 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00037 by GeoNames population"
+  },
+  "95": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA NAMKKN_MERR_SG1: -0.120 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00073 by GeoNames population"
+  },
+  "26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA PINJAR_GT1: -0.120 MW (charging) at 28/07/2025 18:50:00; storage_charging: AEMO WA facility SCADA PINJAR_GT10: -0.444 MW (charging) at 28/07/2025 18:50:00; storage_charging: AEMO WA facility SCADA PINJAR_GT5: -0.336 MW (charging) at 28/07/2025 18:50:00; storage_charging: AEMO WA facility SCADA PINJAR_GT7: -0.120 MW (charging) at 28/07/2025 18:50:00"
+  },
+  "128": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA TESLA_NORTHAM_G1: -0.096 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00614 by GeoNames population"
+  },
+  "8": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] storage_charging: AEMO WA facility SCADA WARRADARGE_WF1: -1.752 MW (charging) at 28/07/2025 18:50:00; population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "36": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00137 by GeoNames population"
+  },
+  "37": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00003 by GeoNames population"
+  },
+  "38": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00004 by GeoNames population"
+  },
+  "41": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00127 by GeoNames population"
+  },
+  "42": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00045 by GeoNames population"
+  },
+  "43": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01015 by GeoNames population"
+  },
+  "45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01393 by GeoNames population"
+  },
+  "46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01125 by GeoNames population"
+  },
+  "47": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00055 by GeoNames population"
+  },
+  "48": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00004 by GeoNames population"
+  },
+  "49": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00019 by GeoNames population"
+  },
+  "50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02112 by GeoNames population"
+  },
+  "51": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00329 by GeoNames population"
+  },
+  "52": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01604 by GeoNames population"
+  },
+  "53": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00135 by GeoNames population"
+  },
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00015 by GeoNames population"
+  },
+  "54": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00057 by GeoNames population"
+  },
+  "55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00632 by GeoNames population"
+  },
+  "56": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02633 by GeoNames population"
+  },
+  "58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02380 by GeoNames population"
+  },
+  "59": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01246 by GeoNames population"
+  },
+  "60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00824 by GeoNames population"
+  },
+  "61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01835 by GeoNames population"
+  },
+  "62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01443 by GeoNames population"
+  },
+  "63": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "64": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00050 by GeoNames population"
+  },
+  "66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01760 by GeoNames population"
+  },
+  "67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00583 by GeoNames population"
+  },
+  "70": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00098 by GeoNames population"
+  },
+  "71": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00356 by GeoNames population"
+  },
+  "72": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "73": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00094 by GeoNames population"
+  },
+  "74": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01286 by GeoNames population"
+  },
+  "75": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02625 by GeoNames population"
+  },
+  "76": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00491 by GeoNames population"
+  },
+  "77": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00022 by GeoNames population"
+  },
+  "78": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00057 by GeoNames population"
+  },
+  "79": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00273 by GeoNames population"
+  },
+  "80": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00204 by GeoNames population"
+  },
+  "81": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00332 by GeoNames population"
+  },
+  "82": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02504 by GeoNames population"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00229 by GeoNames population"
+  },
+  "86": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00103 by GeoNames population"
+  },
+  "87": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00952 by GeoNames population"
+  },
+  "88": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00070 by GeoNames population"
+  },
+  "89": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00471 by GeoNames population"
+  },
+  "90": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00666 by GeoNames population"
+  },
+  "91": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01183 by GeoNames population"
+  },
+  "92": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00722 by GeoNames population"
+  },
+  "93": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01434 by GeoNames population"
+  },
+  "94": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00804 by GeoNames population"
+  },
+  "96": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01554 by GeoNames population"
+  },
+  "97": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00983 by GeoNames population"
+  },
+  "98": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01700 by GeoNames population"
+  },
+  "99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02337 by GeoNames population"
+  },
+  "100": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00344 by GeoNames population"
+  },
+  "101": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00620 by GeoNames population"
+  },
+  "103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01501 by GeoNames population"
+  },
+  "104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00931 by GeoNames population"
+  },
+  "105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01265 by GeoNames population"
+  },
+  "106": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01106 by GeoNames population"
+  },
+  "107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02441 by GeoNames population"
+  },
+  "108": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01333 by GeoNames population"
+  },
+  "109": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01328 by GeoNames population"
+  },
+  "110": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00782 by GeoNames population"
+  },
+  "111": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00393 by GeoNames population"
+  },
+  "113": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00026 by GeoNames population"
+  },
+  "114": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00198 by GeoNames population"
+  },
+  "115": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00002 by GeoNames population"
+  },
+  "119": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00020 by GeoNames population"
+  },
+  "120": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00023 by GeoNames population"
+  },
+  "121": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00075 by GeoNames population"
+  },
+  "122": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00014 by GeoNames population"
+  },
+  "124": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01439 by GeoNames population"
+  },
+  "125": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01659 by GeoNames population"
+  },
+  "126": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01085 by GeoNames population"
+  },
+  "127": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00304 by GeoNames population"
+  },
+  "129": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00026 by GeoNames population"
+  },
+  "130": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00252 by GeoNames population"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00002 by GeoNames population"
+  },
+  "131": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01761 by GeoNames population"
+  },
+  "132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00286 by GeoNames population"
+  },
+  "133": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00060 by GeoNames population"
+  },
+  "134": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.03478 by GeoNames population"
+  },
+  "135": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00175 by GeoNames population"
+  },
+  "138": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00989 by GeoNames population"
+  },
+  "139": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00032 by GeoNames population"
+  },
+  "140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "141": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00001 by GeoNames population"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00049 by GeoNames population"
+  },
+  "142": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00101 by GeoNames population"
+  },
+  "143": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01692 by GeoNames population"
+  },
+  "144": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00906 by GeoNames population"
+  },
+  "145": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02581 by GeoNames population"
+  },
+  "146": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02781 by GeoNames population"
+  },
+  "147": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00125 by GeoNames population"
+  },
+  "148": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01055 by GeoNames population"
+  },
+  "149": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01975 by GeoNames population"
+  },
+  "150": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.03207 by GeoNames population"
+  },
+  "151": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00556 by GeoNames population"
+  },
+  "152": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00606 by GeoNames population"
+  },
+  "153": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01130 by GeoNames population"
+  },
+  "154": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00069 by GeoNames population"
+  },
+  "155": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00360 by GeoNames population"
+  },
+  "156": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00183 by GeoNames population"
+  },
+  "157": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02599 by GeoNames population"
+  },
+  "158": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01092 by GeoNames population"
+  },
+  "159": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01041 by GeoNames population"
+  },
+  "160": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00012 by GeoNames population"
+  },
+  "161": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02581 by GeoNames population"
+  },
+  "162": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01555 by GeoNames population"
+  },
+  "163": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.01784 by GeoNames population"
+  },
+  "164": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.02514 by GeoNames population"
+  },
+  "165": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00089 by GeoNames population"
+  },
+  "166": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00031 by GeoNames population"
+  },
+  "167": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00126 by GeoNames population"
+  },
+  "168": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] population: AEMO WA operational demand WEM x (1 - 0.03), share 0.00102 by GeoNames population"
+  }
+ },
+ "shunts": {
+  "131": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 38, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 26, -30 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 18, -40 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 5, -60 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 2, -70 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 59, -10 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 6, -60 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 1, -110 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 27, -30 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 39, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 28, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 40, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 19, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "52": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 29, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 60, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "56": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 20, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 13, +50 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 41, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 21, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 42, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 43, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 61, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "70": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 44, -20 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "74": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 3, -70 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "75": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 14, +50 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "82": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 7, +60 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "87": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 45, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "90": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 62, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "91": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 46, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "92": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 63, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "93": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 30, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "94": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 64, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "96": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 31, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "97": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 47, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 22, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 65, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 32, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 48, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 33, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "106": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 49, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 15, +50 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "108": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 34, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "109": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 50, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "110": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 51, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "115": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 8, -60 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "124": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 35, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "125": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 52, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "126": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 53, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "134": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 23, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "143": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 36, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "144": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 54, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "145": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 16, +50 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "146": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 9, +60 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "148": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 4, -70 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "150": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 10, +60 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "151": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 55, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "152": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 66, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "153": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 56, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "157": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 11, +60 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "158": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 57, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "159": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 58, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "160": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 24, -40 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "161": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 12, +60 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "162": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 37, +30 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "163": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 25, +40 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "164": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 17, +50 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  }
+ }
+}

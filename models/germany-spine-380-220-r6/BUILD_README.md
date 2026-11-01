@@ -52,11 +52,22 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
   geoBoundaries gbOpen DEU ADM1 (build 2023-12-12, commit 9469f09), source BKG NUTS250; licence Datenlizenz
  Deutschland Namensnennung 2.0 (gb_meta.json). States drawn in geography.json and assigned to buses.
 
+#### Germany / geofabrik
+
+- Extract: germany-261031.osm.pbf from https://download.geofabrik.de/europe/germany-261031.osm.pbf (downloaded 2026-11-01T09:45:01Z), 4873293791 bytes,
+  md5 86ec40ed0c6b67344757c9a7e11d9040 (matches Geofabrik's .md5), SHA-256 222a05d46bb704deb48fc809cdc33e15ffef23b4dd5c593e390f0a69e90419f7.
+- OSM replication timestamp: 2026-10-31T21:23:06Z.
+- Filtered by the shared the build pipeline filter Ingest/osm/the build rules (min_kv 100, imported, not edited) into
+ filtered/germany-261031.power100.json.gz (121986 elements, SHA-256 bf522227da140aec6163604b5c829bbd1542169e6b71a5691190ca8b4840b338).
+- Used by a build step: 110 kV lines / cables and substations (ways and
+ multipolygon relations); frequency=0 and 16.7 Hz ways dropped.
+
 #### Germany / jao
 
 - File: sgm9.zip (2,495,860 bytes), SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39.
  x/ is the same zip extracted, untouched.
 - From: https://www.jao.eu/static-grid-model (9th release, dated 2026-03-01; publication map 2026-03-16).
+  Copied 2026-10-31 from the survey notes (germany-grid-public-data/source-files/jao/sgm9.zip). Latest release held;
   JAO publishes six-monthly (a 10th release, if any, was not fetched).
 - LICENCE: JAO General Terms and Conditions. Research, education and internal analysis with attribution
   ("Source: JAO"); selling, commercialising or making the data available to third parties needs JAO's prior written
@@ -275,6 +286,21 @@ park >= 36 MW; 113.8 MW without coordinates kept on the state-aggregate rule). a
 
 Best case: r6. Open: Niederlangen 380 kV 157.2 %, Wechold - Landesbergen 220 kV 143.7 %, Bayer - Opladen 146.4 %,
 380 kV spread 94 deg (Oberbrunn -56.5 / Klixbuell +44.1), Rhineland fault levels (no busbar data in OSM), 110 kV layer.
+#### Round 7 repair diagnosis (2026-11-01, )
+
+- What stopped B3's r7 build: stage 0.55 STALLED at pass 1 (the r1r3 rule's 10 MVAr minimum step at the weakest of its
+  40 buses pushed Vmax to 1.2822 pu on every retry, so nothing was placed), then stage 0.60 failed from a cold start.
+ The stop message now lists the stalls.
+- Opt-in repair a build switch (only with a build switch; default off, rounds 1-6 never read it): the JAO
+  batch repair rule (shunt_place profile g38_f62_n88) and, after the last stage that solves, a warm-started
+  continuation in 0.01 x steps halved down to 0.0025 x. On the pickled r7 inputs: 0.50 (8 passes), 0.55 (6 passes),
+  then 0.56 ... 0.6125 x; no solution above 0.6125 x. Procedure only; no network value changes.
+- a build step (big machine): replays the repair, finds the highest load scale that solves, and ranks the buses
+  of the collapse mode (smallest Jacobian singular value 5.971e-03 at 0.6125 x). The mode is one 1542-bus 110 kV
+  pocket north-east of Munich (Isarau, Moosburg, Erding; 0.83 pu at 0.6125 x; 5654 MW demand and 2614 MW generation
+  at that scale, 30 EHV couplings, 14500 MVA). The pocket's coupling MVA is ample in total, so the gap is inside it:
+  check the EHV / 110 kV couplings OSM lacks near those stations (topology110 found 49 EHV sites with no 110 kV yard
+  within 1 km) before any inference-round feed.
 
 ### Repairs (every change made so the case solves)
 

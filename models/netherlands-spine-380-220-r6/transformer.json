@@ -1,0 +1,942 @@
+[
+ {
+  "name": "jao:49T000000000184P",
+  "from": 15,
+  "to": 46,
+  "rPu": 6.301939058171746e-05,
+  "xPu": 0.021834487534626038,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "jao:49T000000000183R",
+  "from": 15,
+  "to": 46,
+  "rPu": 6.301939058171746e-05,
+  "xPu": 0.021834487534626038,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "jao:49T000000000181V",
+  "from": 15,
+  "to": 46,
+  "rPu": 6.31578947368421e-05,
+  "xPu": 0.021180747922437675,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "jao:49T000000000182T",
+  "from": 15,
+  "to": 46,
+  "rPu": 6.301939058171746e-05,
+  "xPu": 0.021931440443213296,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "jao:49T000000000187J",
+  "from": 17,
+  "to": 47,
+  "rPu": 7.728531855955679e-05,
+  "xPu": 0.029725069252077563,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "jao:49T000000000185N",
+  "from": 17,
+  "to": 47,
+  "rPu": 6.31578947368421e-05,
+  "xPu": 0.02178808864265928,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 526.5434455009387
+ },
+ {
+  "name": "jao:49T000000000186L",
+  "from": 17,
+  "to": 47,
+  "rPu": 0.000146606648199446,
+  "xPu": 0.02987257617728532,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 526.5434455009387
+ },
+ {
+  "name": "jao:49T000000000188H",
+  "from": 27,
+  "to": 50,
+  "rPu": 4.3351800554016625e-05,
+  "xPu": 0.021227839335180056,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "synth:coupling:vierverlaten",
+  "from": 35,
+  "to": 53,
+  "rPu": 5.6084894065780734e-05,
+  "xPu": 0.019431875000000005,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "synth:coupling:vierverlaten#2",
+  "from": 35,
+  "to": 53,
+  "rPu": 5.6084894065780734e-05,
+  "xPu": 0.019431875000000005,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "synth:coupling:zwolle~hessenweg",
+  "from": 42,
+  "to": 48,
+  "rPu": 5.6084894065780734e-05,
+  "xPu": 0.019431875000000005,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 789.8151682514081
+ },
+ {
+  "name": "embtx:NL:beverwijk:380",
+  "from": 1,
+  "to": 57,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:beverwijk:380",
+  "from": 56,
+  "to": 57,
+  "rPu": 0.0012864602631571765,
+  "xPu": 0.02572920526314353,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 777.3267691501346
+ },
+ {
+  "name": "embtx:NL:bleiswijk:380",
+  "from": 2,
+  "to": 59,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:bleiswijk:380",
+  "from": 58,
+  "to": 59,
+  "rPu": 0.002462771468523481,
+  "xPu": 0.049255429370469624,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 406.04660756425585
+ },
+ {
+  "name": "embtx:NL:borssele:380",
+  "from": 3,
+  "to": 61,
+  "rPu": 0.0002,
+  "xPu": 0.008,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "emb:NL:borssele:380",
+  "from": 60,
+  "to": 61,
+  "rPu": 0.0009227496645856689,
+  "xPu": 0.01845499329171338,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1083.7175437490057
+ },
+ {
+  "name": "gsu:NL:borssele:380",
+  "from": 62,
+  "to": 3,
+  "rPu": 0.00016700542005420053,
+  "xPu": 0.006680216802168021,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2170.5882352941176
+ },
+ {
+  "name": "embtx:NL:boxmeer:380",
+  "from": 4,
+  "to": 64,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:boxmeer:380",
+  "from": 63,
+  "to": 64,
+  "rPu": 0.0019996482729436344,
+  "xPu": 0.03999296545887269,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 500.0879472308017
+ },
+ {
+  "name": "embtx:NL:breukelen kortrijk:380",
+  "from": 5,
+  "to": 66,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:breukelen kortrijk:380",
+  "from": 65,
+  "to": 66,
+  "rPu": 0.0010310194481150364,
+  "xPu": 0.02062038896230073,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 969.9138089279036
+ },
+ {
+  "name": "embtx:NL:crayestein:380",
+  "from": 7,
+  "to": 68,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:crayestein:380",
+  "from": 67,
+  "to": 68,
+  "rPu": 0.005464168821009259,
+  "xPu": 0.10928337642018518,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 183.01045095003033
+ },
+ {
+  "name": "embtx:NL:diemen:380",
+  "from": 9,
+  "to": 70,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:diemen:380",
+  "from": 69,
+  "to": 70,
+  "rPu": 0.0017571542875649622,
+  "xPu": 0.03514308575129924,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 569.1019889811639
+ },
+ {
+  "name": "gsu:NL:diemen:380",
+  "from": 71,
+  "to": 9,
+  "rPu": 0.0004504751461988303,
+  "xPu": 0.018019005847953212,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 804.7058823529412
+ },
+ {
+  "name": "embtx:NL:dodewaard:380",
+  "from": 10,
+  "to": 73,
+  "rPu": 0.0002,
+  "xPu": 0.008,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "emb:NL:dodewaard:380",
+  "from": 72,
+  "to": 73,
+  "rPu": 0.0008611011075594571,
+  "xPu": 0.01722202215118914,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1161.3038134792462
+ },
+ {
+  "name": "embtx:NL:doetinchem:380",
+  "from": 11,
+  "to": 75,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:doetinchem:380",
+  "from": 74,
+  "to": 75,
+  "rPu": 0.0013511704616776094,
+  "xPu": 0.02702340923355219,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 740.0990684464807
+ },
+ {
+  "name": "embtx:NL:eemshaven oudeschip:380",
+  "from": 13,
+  "to": 77,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:eemshaven oudeschip:380",
+  "from": 76,
+  "to": 77,
+  "rPu": 0.0020623449599735545,
+  "xPu": 0.04124689919947109,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 484.88493409600255
+ },
+ {
+  "name": "gsu:NL:eemshaven oudeschip:380",
+  "from": 78,
+  "to": 13,
+  "rPu": 6.338716313515735e-05,
+  "xPu": 0.0025354865254062944,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 5718.823529411765
+ },
+ {
+  "name": "embtx:NL:eindhoven:380",
+  "from": 16,
+  "to": 80,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:eindhoven:380",
+  "from": 79,
+  "to": 80,
+  "rPu": 0.001276252416480699,
+  "xPu": 0.02552504832961398,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 783.5440600046246
+ },
+ {
+  "name": "embtx:NL:geertruidenberg:380",
+  "from": 18,
+  "to": 82,
+  "rPu": 0.0002,
+  "xPu": 0.008,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "emb:NL:geertruidenberg:380",
+  "from": 81,
+  "to": 82,
+  "rPu": 0.0008366805824552822,
+  "xPu": 0.016733611649105643,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1195.1992444541363
+ },
+ {
+  "name": "gsu:NL:geertruidenberg:380",
+  "from": 83,
+  "to": 18,
+  "rPu": 0.0003356481481481481,
+  "xPu": 0.013425925925925924,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1080.0
+ },
+ {
+  "name": "embtx:NL:hengelo:380",
+  "from": 20,
+  "to": 85,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:hengelo:380",
+  "from": 84,
+  "to": 85,
+  "rPu": 0.0013286278423675101,
+  "xPu": 0.026572556847350205,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 752.6562127571244
+ },
+ {
+  "name": "embtx:NL:krimpen aan den ijssel:380",
+  "from": 23,
+  "to": 87,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:krimpen aan den ijssel:380",
+  "from": 86,
+  "to": 87,
+  "rPu": 0.0011836409934628857,
+  "xPu": 0.023672819869257712,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 844.8507660032781
+ },
+ {
+  "name": "embtx:NL:lelystad:380",
+  "from": 24,
+  "to": 89,
+  "rPu": 0.00015000000000000001,
+  "xPu": 0.006,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2000.0
+ },
+ {
+  "name": "emb:NL:lelystad:380",
+  "from": 88,
+  "to": 89,
+  "rPu": 0.0006093418782340849,
+  "xPu": 0.012186837564681696,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1641.1148416354865
+ },
+ {
+  "name": "embtx:NL:maasbracht:380",
+  "from": 25,
+  "to": 91,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:maasbracht:380",
+  "from": 90,
+  "to": 91,
+  "rPu": 0.0013554798968431825,
+  "xPu": 0.027109597936863652,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 737.7460944488588
+ },
+ {
+  "name": "gsu:NL:maasbracht:380",
+  "from": 92,
+  "to": 25,
+  "rPu": 0.00023629217791411037,
+  "xPu": 0.009451687116564415,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1534.1176470588236
+ },
+ {
+  "name": "embtx:NL:maasvlakte:380",
+  "from": 26,
+  "to": 94,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:maasvlakte:380",
+  "from": 93,
+  "to": 94,
+  "rPu": 0.0023739259156964686,
+  "xPu": 0.04747851831392937,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 421.24313711222845
+ },
+ {
+  "name": "gsu:NL:maasvlakte:380",
+  "from": 95,
+  "to": 26,
+  "rPu": 0.00011245437956204377,
+  "xPu": 0.004498175182481751,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3223.529411764706
+ },
+ {
+  "name": "embtx:NL:oostzaan:380",
+  "from": 30,
+  "to": 97,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:oostzaan:380",
+  "from": 96,
+  "to": 97,
+  "rPu": 0.0013798872179969367,
+  "xPu": 0.027597744359938736,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 724.6969078035332
+ },
+ {
+  "name": "embtx:NL:rilland:380",
+  "from": 31,
+  "to": 99,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:rilland:380",
+  "from": 98,
+  "to": 99,
+  "rPu": 0.0019644057983526685,
+  "xPu": 0.03928811596705337,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 509.05978837905593
+ },
+ {
+  "name": "embtx:NL:simonshaven:380",
+  "from": 33,
+  "to": 101,
+  "rPu": 0.0002,
+  "xPu": 0.008,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "emb:NL:simonshaven:380",
+  "from": 100,
+  "to": 101,
+  "rPu": 0.0009107210711697952,
+  "xPu": 0.018214421423395903,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1098.0310345905675
+ },
+ {
+  "name": "gsu:NL:simonshaven:380",
+  "from": 102,
+  "to": 33,
+  "rPu": 0.00019956282383419688,
+  "xPu": 0.007982512953367875,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1816.4705882352941
+ },
+ {
+  "name": "embtx:NL:vijfhuizen:380",
+  "from": 36,
+  "to": 104,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:vijfhuizen:380",
+  "from": 103,
+  "to": 104,
+  "rPu": 0.00334905080380994,
+  "xPu": 0.0669810160761988,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 298.5920664035261
+ },
+ {
+  "name": "embtx:NL:wateringen:380",
+  "from": 37,
+  "to": 106,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:wateringen:380",
+  "from": 105,
+  "to": 106,
+  "rPu": 0.0032494070603866047,
+  "xPu": 0.0649881412077321,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 307.74845423060754
+ },
+ {
+  "name": "embtx:NL:westerlee:380",
+  "from": 38,
+  "to": 108,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:westerlee:380",
+  "from": 107,
+  "to": 108,
+  "rPu": 0.0063451058038805006,
+  "xPu": 0.12690211607761,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 157.60178488882346
+ },
+ {
+  "name": "embtx:NL:wijk aan zee:380",
+  "from": 39,
+  "to": 110,
+  "rPu": 0.00015000000000000001,
+  "xPu": 0.006,
+  "tapRatio": 0.975,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2000.0
+ },
+ {
+  "name": "emb:NL:wijk aan zee:380",
+  "from": 109,
+  "to": 110,
+  "rPu": 0.0005613353388121513,
+  "xPu": 0.011226706776243026,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1781.4663194305786
+ },
+ {
+  "name": "gsu:NL:wijk aan zee:380",
+  "from": 111,
+  "to": 39,
+  "rPu": 0.00036681547619047615,
+  "xPu": 0.014672619047619045,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 988.2352941176471
+ },
+ {
+  "name": "embtx:NL:zwolle:380",
+  "from": 42,
+  "to": 113,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:zwolle:380",
+  "from": 112,
+  "to": 113,
+  "rPu": 0.0017196218179982136,
+  "xPu": 0.03439243635996427,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 581.52321023938
+ },
+ {
+  "name": "embtx:NL:bergum:220",
+  "from": 43,
+  "to": 115,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:bergum:220",
+  "from": 114,
+  "to": 115,
+  "rPu": 0.006166608779385761,
+  "xPu": 0.12333217558771523,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 162.16368441320307
+ },
+ {
+  "name": "embtx:NL:delesto:220",
+  "from": 44,
+  "to": 117,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:delesto:220",
+  "from": 116,
+  "to": 117,
+  "rPu": 0.008946251391373627,
+  "xPu": 0.17892502782747252,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 111.77866083265272
+ },
+ {
+  "name": "gsu:NL:delesto:220",
+  "from": 118,
+  "to": 44,
+  "rPu": 0.0005891491395793499,
+  "xPu": 0.023565965583173996,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 615.2941176470588
+ },
+ {
+  "name": "embtx:NL:eemshaven oost:220",
+  "from": 45,
+  "to": 120,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:eemshaven oost:220",
+  "from": 119,
+  "to": 120,
+  "rPu": 0.21794871794871798,
+  "xPu": 4.3589743589743595,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4.588235294117647
+ },
+ {
+  "name": "embtx:NL:ens:220",
+  "from": 47,
+  "to": 122,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:ens:220",
+  "from": 121,
+  "to": 122,
+  "rPu": 0.0014667783533892777,
+  "xPu": 0.029335567067785555,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 681.7662652910747
+ },
+ {
+  "name": "embtx:NL:hessenweg:220",
+  "from": 48,
+  "to": 124,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:hessenweg:220",
+  "from": 123,
+  "to": 124,
+  "rPu": 0.0028149002057604702,
+  "xPu": 0.0562980041152094,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 355.25238086720776
+ },
+ {
+  "name": "embtx:NL:louwsmeer:220",
+  "from": 49,
+  "to": 126,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:louwsmeer:220",
+  "from": 125,
+  "to": 126,
+  "rPu": 0.0035442793520656943,
+  "xPu": 0.07088558704131388,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 282.1448031225798
+ },
+ {
+  "name": "embtx:NL:meeden:220",
+  "from": 50,
+  "to": 128,
+  "rPu": 0.00015000000000000001,
+  "xPu": 0.006,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2000.0
+ },
+ {
+  "name": "emb:NL:meeden:220",
+  "from": 127,
+  "to": 128,
+  "rPu": 0.0005320051506975249,
+  "xPu": 0.010640103013950498,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1879.6810494952456
+ },
+ {
+  "name": "embtx:NL:oudehaske:220",
+  "from": 51,
+  "to": 130,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:oudehaske:220",
+  "from": 129,
+  "to": 130,
+  "rPu": 0.0013142227173267614,
+  "xPu": 0.02628445434653523,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 760.906037322261
+ },
+ {
+  "name": "embtx:NL:robbenplaat:220",
+  "from": 52,
+  "to": 132,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:robbenplaat:220",
+  "from": 131,
+  "to": 132,
+  "rPu": 0.014235912008641568,
+  "xPu": 0.28471824017283137,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 70.2448848653303
+ },
+ {
+  "name": "embtx:NL:vierverlaten:220",
+  "from": 53,
+  "to": 134,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:vierverlaten:220",
+  "from": 133,
+  "to": 134,
+  "rPu": 0.0020648795321672997,
+  "xPu": 0.041297590643346,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 484.2897536741036
+ },
+ {
+  "name": "embtx:NL:weiwerd:220",
+  "from": 54,
+  "to": 136,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:weiwerd:220",
+  "from": 135,
+  "to": 136,
+  "rPu": 0.001599579718444575,
+  "xPu": 0.0319915943688915,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 625.164215618085
+ },
+ {
+  "name": "embtx:NL:zeyerveen:220",
+  "from": 55,
+  "to": 138,
+  "rPu": 0.00030000000000000003,
+  "xPu": 0.012,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "emb:NL:zeyerveen:220",
+  "from": 137,
+  "to": 138,
+  "rPu": 0.0012412198333868964,
+  "xPu": 0.02482439666773793,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 805.6590566002448
+ }
+]

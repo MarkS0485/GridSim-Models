@@ -1,0 +1,5426 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Swedish 400/220 kV transmission grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "eurostat_pop",
+   "title": "Population on 1 January 2024 by NUTS 3 region (demo_r_pjanaggr3) and GISCO NUTS 2024 label points",
+   "publisher": "Eurostat / GISCO (EuroGeographics boundaries)",
+   "url": "https://ec.europa.eu/eurostat",
+   "licence": "CC BY 4.0 (Eurostat); GISCO points (c) EuroGeographics",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  },
+  {
+   "id": "inference",
+   "title": "the build pipeline inference round: physics-inferred generic feeds, compensation and tap positions, each listed in inferred_elements.json and MODEL_CARD.md",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "pypsa_osm"
+  ],
+  "42": [
+   "pypsa_osm"
+  ],
+  "43": [
+   "pypsa_osm"
+  ],
+  "44": [
+   "pypsa_osm"
+  ],
+  "45": [
+   "pypsa_osm"
+  ],
+  "46": [
+   "pypsa_osm"
+  ],
+  "47": [
+   "pypsa_osm"
+  ],
+  "48": [
+   "pypsa_osm"
+  ],
+  "49": [
+   "pypsa_osm"
+  ],
+  "50": [
+   "pypsa_osm"
+  ],
+  "51": [
+   "pypsa_osm"
+  ],
+  "52": [
+   "pypsa_osm"
+  ],
+  "53": [
+   "pypsa_osm"
+  ],
+  "54": [
+   "pypsa_osm"
+  ],
+  "55": [
+   "pypsa_osm"
+  ],
+  "56": [
+   "pypsa_osm"
+  ],
+  "57": [
+   "pypsa_osm"
+  ],
+  "58": [
+   "pypsa_osm"
+  ],
+  "59": [
+   "pypsa_osm"
+  ],
+  "60": [
+   "pypsa_osm"
+  ],
+  "61": [
+   "pypsa_osm"
+  ],
+  "62": [
+   "pypsa_osm"
+  ],
+  "63": [
+   "pypsa_osm"
+  ],
+  "64": [
+   "pypsa_osm"
+  ],
+  "65": [
+   "pypsa_osm"
+  ],
+  "66": [
+   "pypsa_osm"
+  ],
+  "67": [
+   "pypsa_osm"
+  ],
+  "68": [
+   "pypsa_osm"
+  ],
+  "69": [
+   "pypsa_osm"
+  ],
+  "70": [
+   "pypsa_osm"
+  ],
+  "71": [
+   "pypsa_osm"
+  ],
+  "72": [
+   "pypsa_osm"
+  ],
+  "73": [
+   "pypsa_osm"
+  ],
+  "74": [
+   "pypsa_osm"
+  ],
+  "75": [
+   "pypsa_osm"
+  ],
+  "76": [
+   "pypsa_osm"
+  ],
+  "77": [
+   "pypsa_osm"
+  ],
+  "78": [
+   "pypsa_osm"
+  ],
+  "79": [
+   "pypsa_osm"
+  ],
+  "80": [
+   "pypsa_osm"
+  ],
+  "81": [
+   "pypsa_osm"
+  ],
+  "82": [
+   "pypsa_osm"
+  ],
+  "83": [
+   "pypsa_osm"
+  ],
+  "84": [
+   "pypsa_osm"
+  ],
+  "85": [
+   "pypsa_osm"
+  ],
+  "86": [
+   "pypsa_osm"
+  ],
+  "87": [
+   "pypsa_osm"
+  ],
+  "88": [
+   "pypsa_osm"
+  ],
+  "89": [
+   "pypsa_osm"
+  ],
+  "90": [
+   "pypsa_osm"
+  ],
+  "91": [
+   "pypsa_osm"
+  ],
+  "92": [
+   "pypsa_osm"
+  ],
+  "93": [
+   "pypsa_osm"
+  ],
+  "94": [
+   "pypsa_osm"
+  ],
+  "95": [
+   "pypsa_osm"
+  ],
+  "96": [
+   "pypsa_osm"
+  ],
+  "97": [
+   "pypsa_osm"
+  ],
+  "98": [
+   "pypsa_osm"
+  ],
+  "99": [
+   "pypsa_osm"
+  ],
+  "100": [
+   "pypsa_osm"
+  ],
+  "101": [
+   "pypsa_osm"
+  ],
+  "102": [
+   "pypsa_osm"
+  ],
+  "103": [
+   "pypsa_osm"
+  ],
+  "104": [
+   "pypsa_osm"
+  ],
+  "105": [
+   "pypsa_osm"
+  ],
+  "106": [
+   "pypsa_osm"
+  ],
+  "107": [
+   "pypsa_osm"
+  ],
+  "108": [
+   "pypsa_osm"
+  ],
+  "109": [
+   "pypsa_osm"
+  ],
+  "110": [
+   "pypsa_osm"
+  ],
+  "111": [
+   "pypsa_osm"
+  ],
+  "112": [
+   "pypsa_osm"
+  ],
+  "113": [
+   "pypsa_osm"
+  ],
+  "114": [
+   "pypsa_osm"
+  ],
+  "115": [
+   "pypsa_osm"
+  ],
+  "116": [
+   "pypsa_osm"
+  ],
+  "117": [
+   "pypsa_osm"
+  ],
+  "118": [
+   "pypsa_osm"
+  ],
+  "119": [
+   "pypsa_osm"
+  ],
+  "120": [
+   "pypsa_osm"
+  ],
+  "121": [
+   "pypsa_osm"
+  ],
+  "122": [
+   "pypsa_osm"
+  ],
+  "123": [
+   "pypsa_osm"
+  ],
+  "124": [
+   "pypsa_osm"
+  ],
+  "125": [
+   "pypsa_osm"
+  ],
+  "126": [
+   "pypsa_osm"
+  ],
+  "127": [
+   "pypsa_osm"
+  ],
+  "128": [
+   "pypsa_osm"
+  ],
+  "129": [
+   "pypsa_osm"
+  ],
+  "130": [
+   "pypsa_osm"
+  ],
+  "131": [
+   "pypsa_osm"
+  ],
+  "132": [
+   "pypsa_osm"
+  ],
+  "133": [
+   "pypsa_osm"
+  ],
+  "134": [
+   "pypsa_osm"
+  ],
+  "135": [
+   "pypsa_osm"
+  ],
+  "136": [
+   "pypsa_osm"
+  ],
+  "137": [
+   "pypsa_osm"
+  ],
+  "138": [
+   "pypsa_osm"
+  ],
+  "139": [
+   "pypsa_osm"
+  ],
+  "140": [
+   "pypsa_osm"
+  ],
+  "141": [
+   "pypsa_osm"
+  ],
+  "142": [
+   "pypsa_osm"
+  ],
+  "143": [
+   "pypsa_osm"
+  ],
+  "144": [
+   "pypsa_osm"
+  ],
+  "145": [
+   "pypsa_osm"
+  ],
+  "146": [
+   "pypsa_osm"
+  ],
+  "147": [
+   "pypsa_osm"
+  ],
+  "148": [
+   "pypsa_osm"
+  ],
+  "149": [
+   "pypsa_osm"
+  ],
+  "150": [
+   "pypsa_osm"
+  ],
+  "151": [
+   "pypsa_osm"
+  ],
+  "152": [
+   "pypsa_osm"
+  ],
+  "153": [
+   "pypsa_osm"
+  ],
+  "154": [
+   "pypsa_osm"
+  ],
+  "155": [
+   "pypsa_osm"
+  ],
+  "156": [
+   "pypsa_osm"
+  ],
+  "157": [
+   "pypsa_osm"
+  ],
+  "158": [
+   "pypsa_osm"
+  ],
+  "159": [
+   "pypsa_osm"
+  ],
+  "160": [
+   "pypsa_osm"
+  ],
+  "161": [
+   "pypsa_osm"
+  ],
+  "162": [
+   "pypsa_osm"
+  ],
+  "163": [
+   "pypsa_osm"
+  ],
+  "164": [
+   "pypsa_osm"
+  ],
+  "165": [
+   "pypsa_osm"
+  ],
+  "166": [
+   "pypsa_osm"
+  ],
+  "167": [
+   "pypsa_osm"
+  ],
+  "168": [
+   "pypsa_osm"
+  ],
+  "169": [
+   "pypsa_osm"
+  ],
+  "170": [
+   "pypsa_osm"
+  ],
+  "171": [
+   "pypsa_osm"
+  ],
+  "172": [
+   "pypsa_osm"
+  ],
+  "173": [
+   "pypsa_osm"
+  ],
+  "174": [
+   "pypsa_osm"
+  ],
+  "175": [
+   "pypsa_osm"
+  ],
+  "176": [
+   "pypsa_osm"
+  ],
+  "177": [
+   "pypsa_osm"
+  ],
+  "178": [
+   "pypsa_osm"
+  ],
+  "179": [
+   "pypsa_osm"
+  ],
+  "180": [
+   "pypsa_osm"
+  ],
+  "181": [
+   "pypsa_osm"
+  ],
+  "182": [
+   "pypsa_osm"
+  ],
+  "183": [
+   "pypsa_osm"
+  ],
+  "184": [
+   "pypsa_osm"
+  ],
+  "185": [
+   "pypsa_osm"
+  ],
+  "186": [
+   "pypsa_osm"
+  ],
+  "187": [
+   "pypsa_osm"
+  ],
+  "188": [
+   "pypsa_osm"
+  ],
+  "189": [
+   "pypsa_osm"
+  ],
+  "190": [
+   "pypsa_osm"
+  ],
+  "191": [
+   "pypsa_osm"
+  ],
+  "192": [
+   "pypsa_osm"
+  ],
+  "193": [
+   "pypsa_osm"
+  ],
+  "194": [
+   "pypsa_osm"
+  ],
+  "195": [
+   "pypsa_osm"
+  ],
+  "196": [
+   "pypsa_osm"
+  ],
+  "197": [
+   "pypsa_osm"
+  ],
+  "198": [
+   "pypsa_osm"
+  ],
+  "199": [
+   "pypsa_osm"
+  ],
+  "200": [
+   "pypsa_osm"
+  ],
+  "201": [
+   "pypsa_osm"
+  ],
+  "202": [
+   "pypsa_osm"
+  ],
+  "203": [
+   "pypsa_osm"
+  ],
+  "204": [
+   "pypsa_osm"
+  ],
+  "205": [
+   "pypsa_osm"
+  ],
+  "206": [
+   "pypsa_osm"
+  ],
+  "207": [
+   "pypsa_osm"
+  ],
+  "208": [
+   "pypsa_osm"
+  ],
+  "209": [
+   "pypsa_osm"
+  ],
+  "210": [
+   "model_assembly"
+  ],
+  "211": [
+   "model_assembly"
+  ],
+  "212": [
+   "model_assembly"
+  ],
+  "213": [
+   "model_assembly"
+  ],
+  "214": [
+   "model_assembly"
+  ],
+  "215": [
+   "model_assembly"
+  ],
+  "216": [
+   "model_assembly"
+  ],
+  "217": [
+   "model_assembly"
+  ],
+  "218": [
+   "model_assembly"
+  ],
+  "219": [
+   "model_assembly"
+  ],
+  "220": [
+   "model_assembly"
+  ],
+  "221": [
+   "model_assembly"
+  ],
+  "222": [
+   "model_assembly"
+  ],
+  "223": [
+   "model_assembly"
+  ],
+  "224": [
+   "model_assembly"
+  ],
+  "225": [
+   "model_assembly"
+  ],
+  "226": [
+   "model_assembly"
+  ],
+  "227": [
+   "model_assembly"
+  ],
+  "228": [
+   "model_assembly"
+  ],
+  "229": [
+   "model_assembly"
+  ],
+  "230": [
+   "model_assembly"
+  ],
+  "231": [
+   "model_assembly"
+  ],
+  "232": [
+   "model_assembly"
+  ],
+  "233": [
+   "model_assembly"
+  ],
+  "234": [
+   "model_assembly"
+  ],
+  "235": [
+   "model_assembly"
+  ],
+  "236": [
+   "model_assembly"
+  ],
+  "237": [
+   "model_assembly"
+  ],
+  "238": [
+   "model_assembly"
+  ],
+  "239": [
+   "model_assembly"
+  ],
+  "240": [
+   "model_assembly"
+  ],
+  "241": [
+   "model_assembly"
+  ],
+  "242": [
+   "model_assembly"
+  ],
+  "243": [
+   "model_assembly"
+  ],
+  "244": [
+   "model_assembly"
+  ],
+  "245": [
+   "model_assembly"
+  ],
+  "246": [
+   "model_assembly"
+  ],
+  "247": [
+   "model_assembly"
+  ],
+  "248": [
+   "model_assembly"
+  ],
+  "249": [
+   "model_assembly"
+  ],
+  "250": [
+   "model_assembly"
+  ],
+  "251": [
+   "model_assembly"
+  ],
+  "252": [
+   "model_assembly"
+  ],
+  "253": [
+   "model_assembly"
+  ],
+  "254": [
+   "model_assembly"
+  ],
+  "255": [
+   "model_assembly"
+  ],
+  "256": [
+   "model_assembly"
+  ],
+  "257": [
+   "model_assembly"
+  ],
+  "258": [
+   "model_assembly"
+  ],
+  "259": [
+   "model_assembly"
+  ],
+  "260": [
+   "model_assembly"
+  ],
+  "261": [
+   "model_assembly"
+  ],
+  "262": [
+   "model_assembly"
+  ],
+  "263": [
+   "model_assembly"
+  ],
+  "264": [
+   "model_assembly"
+  ],
+  "265": [
+   "model_assembly"
+  ],
+  "266": [
+   "model_assembly"
+  ],
+  "267": [
+   "model_assembly"
+  ],
+  "268": [
+   "model_assembly"
+  ],
+  "269": [
+   "model_assembly"
+  ],
+  "270": [
+   "model_assembly"
+  ],
+  "271": [
+   "model_assembly"
+  ],
+  "272": [
+   "model_assembly"
+  ],
+  "273": [
+   "model_assembly"
+  ],
+  "274": [
+   "model_assembly"
+  ],
+  "275": [
+   "model_assembly"
+  ],
+  "276": [
+   "model_assembly"
+  ],
+  "277": [
+   "model_assembly"
+  ],
+  "278": [
+   "model_assembly"
+  ],
+  "279": [
+   "model_assembly"
+  ],
+  "280": [
+   "model_assembly"
+  ],
+  "281": [
+   "model_assembly"
+  ],
+  "282": [
+   "model_assembly"
+  ],
+  "283": [
+   "model_assembly"
+  ],
+  "284": [
+   "model_assembly"
+  ],
+  "285": [
+   "model_assembly"
+  ],
+  "286": [
+   "model_assembly"
+  ],
+  "287": [
+   "model_assembly"
+  ],
+  "288": [
+   "model_assembly"
+  ],
+  "289": [
+   "model_assembly"
+  ],
+  "290": [
+   "model_assembly"
+  ],
+  "291": [
+   "model_assembly"
+  ],
+  "292": [
+   "model_assembly"
+  ],
+  "293": [
+   "model_assembly"
+  ],
+  "294": [
+   "model_assembly"
+  ],
+  "295": [
+   "model_assembly"
+  ],
+  "296": [
+   "model_assembly"
+  ],
+  "297": [
+   "model_assembly"
+  ],
+  "298": [
+   "model_assembly"
+  ],
+  "299": [
+   "model_assembly"
+  ],
+  "300": [
+   "model_assembly"
+  ],
+  "301": [
+   "model_assembly"
+  ],
+  "302": [
+   "model_assembly"
+  ],
+  "303": [
+   "model_assembly"
+  ],
+  "304": [
+   "model_assembly"
+  ],
+  "305": [
+   "model_assembly"
+  ],
+  "306": [
+   "model_assembly"
+  ],
+  "307": [
+   "model_assembly"
+  ],
+  "308": [
+   "model_assembly"
+  ],
+  "309": [
+   "model_assembly"
+  ],
+  "310": [
+   "model_assembly"
+  ],
+  "311": [
+   "model_assembly"
+  ],
+  "312": [
+   "model_assembly"
+  ],
+  "313": [
+   "model_assembly"
+  ],
+  "314": [
+   "model_assembly"
+  ],
+  "315": [
+   "model_assembly"
+  ],
+  "316": [
+   "model_assembly"
+  ],
+  "317": [
+   "model_assembly"
+  ],
+  "318": [
+   "model_assembly"
+  ],
+  "319": [
+   "model_assembly"
+  ],
+  "320": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_relation/5463480-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1022235518-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1025505727-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1025659387-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/103495907-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/104230659-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/106510792-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/1069933724-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/107053661-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/109438332-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/12005913-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/12376344-400+13": [
+   "pypsa_osm"
+  ],
+  "merged_way/136762585-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1452323397-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/14888802:b-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/14889930-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/150243327-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/150294375-400+6": [
+   "pypsa_osm"
+  ],
+  "merged_way/150307850-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/150690587-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/154390131-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/164280373-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/164494617-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/164494619-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/169164972-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/173455279-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/187832588-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/187832597-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/200339426-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/200362063-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/206480715-400+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/232425198-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/23813223-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/24340449-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/254056244-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/254213575-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/255727209-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/256149775-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/260833745-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/260991892-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/26190015-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/261954130:a-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/261954163-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/262142527-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/263725481-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/27806756-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/278968694-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/279204000-400+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/279382375-400+7": [
+   "pypsa_osm"
+  ],
+  "merged_way/280838472-220+7": [
+   "pypsa_osm"
+  ],
+  "merged_way/280838476-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/284130263-400+8": [
+   "pypsa_osm"
+  ],
+  "merged_way/284130270-400+8": [
+   "pypsa_osm"
+  ],
+  "merged_way/284895404-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/284895405-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/286907267-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/286960340-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/307345334-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/344151650-400+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/384310565-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/389538690-400+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/403362978-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/43037492-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/469402328-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/469893635-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/471732539-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/471738467-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/49417257-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/495724633-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/50236509-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/50246174-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/50257545-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/50257549-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/50257552-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/50257557-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/50761422-400+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/50761423-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/50835261-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/50835777-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/50978749-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/50979508-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/51043332-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/51045624-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/537712269-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/58210894-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/58228319-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/58413158-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/58571030-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/59195490-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/610534380-220+15": [
+   "pypsa_osm"
+  ],
+  "merged_way/785582956-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/83239259-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/83239274-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/83239283-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/859432683-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/93405865-220+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/98383929-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/98431379-220+3": [
+   "pypsa_osm"
+  ],
+  "relation/11636419-400": [
+   "pypsa_osm"
+  ],
+  "relation/13688717:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/13688717:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/5328632-400": [
+   "pypsa_osm"
+  ],
+  "relation/5328757-400": [
+   "pypsa_osm"
+  ],
+  "relation/5332714-400": [
+   "pypsa_osm"
+  ],
+  "relation/5463475-400": [
+   "pypsa_osm"
+  ],
+  "relation/5463476-400": [
+   "pypsa_osm"
+  ],
+  "relation/5464654-400": [
+   "pypsa_osm"
+  ],
+  "relation/5470036-400": [
+   "pypsa_osm"
+  ],
+  "relation/5470037-400": [
+   "pypsa_osm"
+  ],
+  "relation/5470038-400": [
+   "pypsa_osm"
+  ],
+  "relation/5480030-400": [
+   "pypsa_osm"
+  ],
+  "relation/5480031-400": [
+   "pypsa_osm"
+  ],
+  "relation/5480049-400": [
+   "pypsa_osm"
+  ],
+  "relation/5528378-400": [
+   "pypsa_osm"
+  ],
+  "relation/5528379-400": [
+   "pypsa_osm"
+  ],
+  "relation/5528380-400": [
+   "pypsa_osm"
+  ],
+  "relation/5528431-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641035-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641036-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641040-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641041-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641460:c-400": [
+   "pypsa_osm"
+  ],
+  "relation/5762961-400": [
+   "pypsa_osm"
+  ],
+  "relation/5762965-400": [
+   "pypsa_osm"
+  ],
+  "relation/5763685-400": [
+   "pypsa_osm"
+  ],
+  "relation/5963403-400": [
+   "pypsa_osm"
+  ],
+  "relation/5963404-400": [
+   "pypsa_osm"
+  ],
+  "relation/8614154-220": [
+   "pypsa_osm"
+  ],
+  "way/1013436483-400": [
+   "pypsa_osm"
+  ],
+  "way/1023201064-220": [
+   "pypsa_osm"
+  ],
+  "way/1028201097-400": [
+   "pypsa_osm"
+  ],
+  "way/106510802-220": [
+   "pypsa_osm"
+  ],
+  "way/1102998697-220": [
+   "pypsa_osm"
+  ],
+  "way/120036559-400": [
+   "pypsa_osm"
+  ],
+  "way/12004715-220": [
+   "pypsa_osm"
+  ],
+  "way/12017732-400": [
+   "pypsa_osm"
+  ],
+  "way/1260407422-220": [
+   "pypsa_osm"
+  ],
+  "way/1324444437-400": [
+   "pypsa_osm"
+  ],
+  "way/135871060-220": [
+   "pypsa_osm"
+  ],
+  "way/14888377-400": [
+   "pypsa_osm"
+  ],
+  "way/14888802:a-400": [
+   "pypsa_osm"
+  ],
+  "way/150243322-220": [
+   "pypsa_osm"
+  ],
+  "way/150243325-236": [
+   "pypsa_osm"
+  ],
+  "way/150331994-220": [
+   "pypsa_osm"
+  ],
+  "way/150621095-400": [
+   "pypsa_osm"
+  ],
+  "way/150650949-220": [
+   "pypsa_osm"
+  ],
+  "way/150681642-400": [
+   "pypsa_osm"
+  ],
+  "way/150766234-400": [
+   "pypsa_osm"
+  ],
+  "way/160474490-400": [
+   "pypsa_osm"
+  ],
+  "way/164494605-400": [
+   "pypsa_osm"
+  ],
+  "way/168908160-220": [
+   "pypsa_osm"
+  ],
+  "way/168928861-220": [
+   "pypsa_osm"
+  ],
+  "way/168935345-220": [
+   "pypsa_osm"
+  ],
+  "way/168935346:a-220": [
+   "pypsa_osm"
+  ],
+  "way/168935348-220": [
+   "pypsa_osm"
+  ],
+  "way/169024909-220": [
+   "pypsa_osm"
+  ],
+  "way/170730104-220": [
+   "pypsa_osm"
+  ],
+  "way/171073032-220": [
+   "pypsa_osm"
+  ],
+  "way/172201472-400": [
+   "pypsa_osm"
+  ],
+  "way/173449552-400": [
+   "pypsa_osm"
+  ],
+  "way/175711700-220": [
+   "pypsa_osm"
+  ],
+  "way/187978399-220": [
+   "pypsa_osm"
+  ],
+  "way/187978408-400": [
+   "pypsa_osm"
+  ],
+  "way/199911843-400": [
+   "pypsa_osm"
+  ],
+  "way/200507300-400": [
+   "pypsa_osm"
+  ],
+  "way/202066158-400": [
+   "pypsa_osm"
+  ],
+  "way/206523974-220": [
+   "pypsa_osm"
+  ],
+  "way/206523975-220": [
+   "pypsa_osm"
+  ],
+  "way/208965527-400": [
+   "pypsa_osm"
+  ],
+  "way/209175126-220": [
+   "pypsa_osm"
+  ],
+  "way/209175127-220": [
+   "pypsa_osm"
+  ],
+  "way/209175131-220": [
+   "pypsa_osm"
+  ],
+  "way/235315249-220": [
+   "pypsa_osm"
+  ],
+  "way/23813112-400": [
+   "pypsa_osm"
+  ],
+  "way/249228397-400": [
+   "pypsa_osm"
+  ],
+  "way/249228398-400": [
+   "pypsa_osm"
+  ],
+  "way/254133936-400": [
+   "pypsa_osm"
+  ],
+  "way/260616868-220": [
+   "pypsa_osm"
+  ],
+  "way/260676990-400": [
+   "pypsa_osm"
+  ],
+  "way/260762449-400": [
+   "pypsa_osm"
+  ],
+  "way/260762451-400": [
+   "pypsa_osm"
+  ],
+  "way/260770705-400": [
+   "pypsa_osm"
+  ],
+  "way/261138782-400": [
+   "pypsa_osm"
+  ],
+  "way/261150077-400": [
+   "pypsa_osm"
+  ],
+  "way/261279835-400": [
+   "pypsa_osm"
+  ],
+  "way/261279870-220": [
+   "pypsa_osm"
+  ],
+  "way/261447477-220": [
+   "pypsa_osm"
+  ],
+  "way/261456640-400": [
+   "pypsa_osm"
+  ],
+  "way/261834446-400": [
+   "pypsa_osm"
+  ],
+  "way/261930434-400": [
+   "pypsa_osm"
+  ],
+  "way/261930438-400": [
+   "pypsa_osm"
+  ],
+  "way/262140150-220": [
+   "pypsa_osm"
+  ],
+  "way/263705490-400": [
+   "pypsa_osm"
+  ],
+  "way/263705491-400": [
+   "pypsa_osm"
+  ],
+  "way/263708229-400": [
+   "pypsa_osm"
+  ],
+  "way/263708233-400": [
+   "pypsa_osm"
+  ],
+  "way/263708237-400": [
+   "pypsa_osm"
+  ],
+  "way/263708242-400": [
+   "pypsa_osm"
+  ],
+  "way/263708249-400": [
+   "pypsa_osm"
+  ],
+  "way/263708252-400": [
+   "pypsa_osm"
+  ],
+  "way/263710354-400": [
+   "pypsa_osm"
+  ],
+  "way/263710356-400": [
+   "pypsa_osm"
+  ],
+  "way/263725480-400": [
+   "pypsa_osm"
+  ],
+  "way/264006775-220": [
+   "pypsa_osm"
+  ],
+  "way/266084256-220": [
+   "pypsa_osm"
+  ],
+  "way/27062468-220": [
+   "pypsa_osm"
+  ],
+  "way/278497533-400": [
+   "pypsa_osm"
+  ],
+  "way/278505921-400": [
+   "pypsa_osm"
+  ],
+  "way/278968674-400": [
+   "pypsa_osm"
+  ],
+  "way/278968686-400": [
+   "pypsa_osm"
+  ],
+  "way/278968687-400": [
+   "pypsa_osm"
+  ],
+  "way/278968691-220": [
+   "pypsa_osm"
+  ],
+  "way/278968692-400": [
+   "pypsa_osm"
+  ],
+  "way/278968693-400": [
+   "pypsa_osm"
+  ],
+  "way/278968696-400": [
+   "pypsa_osm"
+  ],
+  "way/279194474-400": [
+   "pypsa_osm"
+  ],
+  "way/279203985-400": [
+   "pypsa_osm"
+  ],
+  "way/279203996-400": [
+   "pypsa_osm"
+  ],
+  "way/28523742-220": [
+   "pypsa_osm"
+  ],
+  "way/286857166-400": [
+   "pypsa_osm"
+  ],
+  "way/286912086-400": [
+   "pypsa_osm"
+  ],
+  "way/292602822-400": [
+   "pypsa_osm"
+  ],
+  "way/308159336-220": [
+   "pypsa_osm"
+  ],
+  "way/37614416-220": [
+   "pypsa_osm"
+  ],
+  "way/38087816-400": [
+   "pypsa_osm"
+  ],
+  "way/38105001-400": [
+   "pypsa_osm"
+  ],
+  "way/401299544:a-220": [
+   "pypsa_osm"
+  ],
+  "way/41182851-400": [
+   "pypsa_osm"
+  ],
+  "way/41983392-400": [
+   "pypsa_osm"
+  ],
+  "way/43104751-400": [
+   "pypsa_osm"
+  ],
+  "way/469037961-220": [
+   "pypsa_osm"
+  ],
+  "way/469897923:a-220": [
+   "pypsa_osm"
+  ],
+  "way/469898467-220": [
+   "pypsa_osm"
+  ],
+  "way/471002830-220": [
+   "pypsa_osm"
+  ],
+  "way/471015842-220": [
+   "pypsa_osm"
+  ],
+  "way/471039269-220": [
+   "pypsa_osm"
+  ],
+  "way/471397694-220": [
+   "pypsa_osm"
+  ],
+  "way/471732547-220": [
+   "pypsa_osm"
+  ],
+  "way/493642082-400": [
+   "pypsa_osm"
+  ],
+  "way/495725231-220": [
+   "pypsa_osm"
+  ],
+  "way/497608941:a-220": [
+   "pypsa_osm"
+  ],
+  "way/50769064-400": [
+   "pypsa_osm"
+  ],
+  "way/51043034-220": [
+   "pypsa_osm"
+  ],
+  "way/51096317-220": [
+   "pypsa_osm"
+  ],
+  "way/51121138-400": [
+   "pypsa_osm"
+  ],
+  "way/58212453-400": [
+   "pypsa_osm"
+  ],
+  "way/58545737-220": [
+   "pypsa_osm"
+  ],
+  "way/58555126-400": [
+   "pypsa_osm"
+  ],
+  "way/640253314-400": [
+   "pypsa_osm"
+  ],
+  "way/666467623-400": [
+   "pypsa_osm"
+  ],
+  "way/71892564-400": [
+   "pypsa_osm"
+  ],
+  "way/763346033-400": [
+   "pypsa_osm"
+  ],
+  "way/763346034-220": [
+   "pypsa_osm"
+  ],
+  "way/771385506-220": [
+   "pypsa_osm"
+  ],
+  "way/83510242-220": [
+   "pypsa_osm"
+  ],
+  "relation/11097406-420-400": [
+   "pypsa_osm"
+  ],
+  "relation/13889505-400-220": [
+   "pypsa_osm"
+  ],
+  "relation/15657011-400-220": [
+   "pypsa_osm"
+  ],
+  "relation/7313829-400-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/188965945:1-420-400": [
+   "pypsa_osm"
+  ],
+  "virtual_way/287684721:1-420-400": [
+   "pypsa_osm"
+  ],
+  "way/1022235514-400-220": [
+   "pypsa_osm"
+  ],
+  "way/160474491-400-220": [
+   "pypsa_osm"
+  ],
+  "way/168351799-400-220": [
+   "pypsa_osm"
+  ],
+  "way/187832596-400-220": [
+   "pypsa_osm"
+  ],
+  "way/200772307-236-220": [
+   "pypsa_osm"
+  ],
+  "way/200772307-400-220": [
+   "pypsa_osm"
+  ],
+  "way/200772307-400-236": [
+   "pypsa_osm"
+  ],
+  "way/209175136-400-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/223383886-400-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/260986936-400-220": [
+   "pypsa_osm"
+  ],
+  "way/261447466-400-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/278968688-400-220": [
+   "pypsa_osm"
+  ],
+  "way/279194469-400-220": [
+   "pypsa_osm"
+  ],
+  "way/28276448-400-220": [
+   "inference",
+   "pypsa_osm"
+  ],
+  "way/299750661-400-220": [
+   "pypsa_osm"
+  ],
+  "way/38105008-400-220": [
+   "pypsa_osm"
+  ],
+  "way/471732548-236-220": [
+   "pypsa_osm"
+  ],
+  "way/5174038-400-220": [
+   "pypsa_osm"
+  ],
+  "gsu:relation/10153505-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/10629005-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/11097406-420": [
+   "model_assembly"
+  ],
+  "gsu:relation/11964241-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/11971282-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/13889505-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/14939275-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/18160532-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/6081310-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/14888802:a:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/172201472:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/263710358:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/38105001:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/50257553:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/58561795:0-400": [
+   "model_assembly"
+  ],
+  "gsu:way/101320612-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1025505726-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1025530508-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1028201096-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1237755672-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1302595553-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1451345383-400": [
+   "model_assembly"
+  ],
+  "gsu:way/160474491-400": [
+   "model_assembly"
+  ],
+  "gsu:way/172201471-400": [
+   "model_assembly"
+  ],
+  "gsu:way/187832596-400": [
+   "model_assembly"
+  ],
+  "gsu:way/200052139-400": [
+   "model_assembly"
+  ],
+  "gsu:way/200222142-400": [
+   "model_assembly"
+  ],
+  "gsu:way/207159887-400": [
+   "model_assembly"
+  ],
+  "gsu:way/220076858-400": [
+   "model_assembly"
+  ],
+  "gsu:way/236759846-400": [
+   "model_assembly"
+  ],
+  "gsu:way/241937764-400": [
+   "model_assembly"
+  ],
+  "gsu:way/252824769-400": [
+   "model_assembly"
+  ],
+  "gsu:way/252965920-400": [
+   "model_assembly"
+  ],
+  "gsu:way/254135216-400": [
+   "model_assembly"
+  ],
+  "gsu:way/255820193-400": [
+   "model_assembly"
+  ],
+  "gsu:way/257920140-400": [
+   "model_assembly"
+  ],
+  "gsu:way/260770703-400": [
+   "model_assembly"
+  ],
+  "gsu:way/262859794-400": [
+   "model_assembly"
+  ],
+  "gsu:way/263688590-400": [
+   "model_assembly"
+  ],
+  "gsu:way/263701163-400": [
+   "model_assembly"
+  ],
+  "gsu:way/278497532-400": [
+   "model_assembly"
+  ],
+  "gsu:way/278505918-400": [
+   "model_assembly"
+  ],
+  "gsu:way/278968690-400": [
+   "model_assembly"
+  ],
+  "gsu:way/278968695-400": [
+   "model_assembly"
+  ],
+  "gsu:way/279194469-400": [
+   "model_assembly"
+  ],
+  "gsu:way/279842937-400": [
+   "model_assembly"
+  ],
+  "gsu:way/284182193-400": [
+   "model_assembly"
+  ],
+  "gsu:way/284896192-400": [
+   "model_assembly"
+  ],
+  "gsu:way/286857165-400": [
+   "model_assembly"
+  ],
+  "gsu:way/287756074-400": [
+   "model_assembly"
+  ],
+  "gsu:way/292593503-400": [
+   "model_assembly"
+  ],
+  "gsu:way/294897999-400": [
+   "model_assembly"
+  ],
+  "gsu:way/44636668-400": [
+   "model_assembly"
+  ],
+  "gsu:way/51252509-400": [
+   "model_assembly"
+  ],
+  "gsu:way/52956134-400": [
+   "model_assembly"
+  ],
+  "gsu:way/551500880-400": [
+   "model_assembly"
+  ],
+  "gsu:way/718209950-400": [
+   "model_assembly"
+  ],
+  "gsu:way/77696816-400": [
+   "model_assembly"
+  ],
+  "gsu:way/80702333-400": [
+   "model_assembly"
+  ],
+  "gsu:way/934908818-400": [
+   "model_assembly"
+  ],
+  "gsu:relation/12606773-220": [
+   "model_assembly"
+  ],
+  "gsu:relation/13889505-220": [
+   "model_assembly"
+  ],
+  "gsu:relation/15657011-220": [
+   "model_assembly"
+  ],
+  "gsu:relation/7107330-220": [
+   "model_assembly"
+  ],
+  "gsu:relation/7108546-220": [
+   "model_assembly"
+  ],
+  "gsu:relation/8488753-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1010701629:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/12004715:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/136762585:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/206523974:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/209175126:1-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:virtual_way/24415566:1-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:virtual_way/278968694:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/280838476:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/401299544:b:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/471397694:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/494975757:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/771385506:1-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/1024243178-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1241429776-220": [
+   "model_assembly"
+  ],
+  "gsu:way/138622087-220": [
+   "model_assembly"
+  ],
+  "gsu:way/144381726-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/187832596-220": [
+   "model_assembly"
+  ],
+  "gsu:way/200772307-220": [
+   "model_assembly"
+  ],
+  "gsu:way/255570234-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/256147227-220": [
+   "model_assembly"
+  ],
+  "gsu:way/261447466-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/278982557-220": [
+   "model_assembly"
+  ],
+  "gsu:way/279212108-220": [
+   "model_assembly"
+  ],
+  "gsu:way/281018405-220": [
+   "model_assembly"
+  ],
+  "gsu:way/283006765-220": [
+   "model_assembly"
+  ],
+  "gsu:way/283078113-220": [
+   "model_assembly"
+  ],
+  "gsu:way/284869911-220": [
+   "model_assembly"
+  ],
+  "gsu:way/299750661-220": [
+   "model_assembly"
+  ],
+  "gsu:way/357241243-220": [
+   "model_assembly"
+  ],
+  "gsu:way/375751481-220": [
+   "model_assembly"
+  ],
+  "gsu:way/401299546-220": [
+   "model_assembly"
+  ],
+  "gsu:way/469360939-220": [
+   "model_assembly"
+  ],
+  "gsu:way/469402329-220": [
+   "model_assembly"
+  ],
+  "gsu:way/471015841-220": [
+   "model_assembly"
+  ],
+  "gsu:way/471044150-220": [
+   "model_assembly"
+  ],
+  "gsu:way/471397693-220": [
+   "model_assembly"
+  ],
+  "gsu:way/471720387-220": [
+   "model_assembly"
+  ],
+  "gsu:way/471732548-220": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:way/490596608-220": [
+   "model_assembly"
+  ],
+  "gsu:way/495724636-220": [
+   "model_assembly"
+  ],
+  "gsu:way/495725229-220": [
+   "model_assembly"
+  ],
+  "gsu:way/495727767-220": [
+   "model_assembly"
+  ],
+  "gsu:way/497608943-220": [
+   "model_assembly"
+  ],
+  "gsu:way/497608968-220": [
+   "model_assembly"
+  ],
+  "gsu:way/514042409-220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Hajsberget Och Sodra Lansmansberget Wind Farm": [
+   "ppm"
+  ],
+  "Fryksdalshojden Wind Farm": [
+   "ppm"
+  ],
+  "Knostad Wind Farm": [
+   "ppm"
+  ],
+  "Vanern Wind Farm": [
+   "ppm"
+  ],
+  "Grums Bess": [
+   "ppm"
+  ],
+  "Megasol Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/10153505-400": [
+   "eurostat_pop"
+  ],
+  "Skoghalls Mill": [
+   "ppm"
+  ],
+  "Gruvons Bruk": [
+   "ppm"
+  ],
+  "Kymmens": [
+   "ppm"
+  ],
+  "Hedenverket": [
+   "ppm"
+  ],
+  "Frykfors Fryken": [
+   "ppm"
+  ],
+  "Munkfors": [
+   "ppm"
+  ],
+  "Krakerud": [
+   "ppm"
+  ],
+  "Dejefors": [
+   "ppm"
+  ],
+  "Glava": [
+   "ppm"
+  ],
+  "Forshaga": [
+   "ppm"
+  ],
+  "Kroppstadfors": [
+   "ppm"
+  ],
+  "Tvinnesheda Badeboda Wind Farm": [
+   "ppm"
+  ],
+  "Karskruv Wind Farm": [
+   "ppm"
+  ],
+  "Ljungbyholm Wind Farm": [
+   "ppm"
+  ],
+  "Brotorp Wind Farm": [
+   "ppm"
+  ],
+  "Karskruv Karma": [
+   "ppm"
+  ],
+  "Marhult Wind Farm": [
+   "ppm"
+  ],
+  "Villkol Wind Farm": [
+   "ppm"
+  ],
+  "Egby Wind Farm": [
+   "ppm"
+  ],
+  "Stengardsholma Wind Farm": [
+   "ppm"
+  ],
+  "Nybro Bess": [
+   "ppm"
+  ],
+  "Mortorp Wind Farm": [
+   "ppm"
+  ],
+  "Idhult Wind Farm": [
+   "ppm"
+  ],
+  "Osterhultsmala Wind Farm": [
+   "ppm"
+  ],
+  "Brunsmo Wind Farm": [
+   "ppm"
+  ],
+  "Gettnabo Wind Farm": [
+   "ppm"
+  ],
+  "Kvilla Wind Farm": [
+   "ppm"
+  ],
+  "Gardslosa Wind Farm": [
+   "ppm"
+  ],
+  "Lerkaka Wind Farm": [
+   "ppm"
+  ],
+  "Kalmar Bess": [
+   "ppm"
+  ],
+  "Torneby Solpark Solar": [
+   "ppm"
+  ],
+  "Johansfors Solpark Solar": [
+   "ppm"
+  ],
+  "Lintex Ab Solcellsanlaggning Solar": [
+   "ppm"
+  ],
+  "Gata Solar": [
+   "ppm"
+  ],
+  "Eurosteel Solar": [
+   "ppm"
+  ],
+  "Norra Barby Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at relation/10629005-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at relation/10629005-400": [
+   "eurostat_pop"
+  ],
+  "Moskogen Cogeneration": [
+   "ppm"
+  ],
+  "Toftedalsfjallet Wind Farm": [
+   "ppm"
+  ],
+  "Froskog Wind Farm": [
+   "ppm"
+  ],
+  "Kingebol Wind Farm": [
+   "ppm"
+  ],
+  "Ransliden Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/11097406-420": [
+   "eurostat_pop"
+  ],
+  "import Norway at relation/11097406-420": [
+   "model_assembly"
+  ],
+  "Langed": [
+   "ppm"
+  ],
+  "Rodene Wind Farm": [
+   "ppm"
+  ],
+  "Balinge Solcellsanlaggning Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/11334274-400": [
+   "eurostat_pop"
+  ],
+  "Gunnarby Wind Farm": [
+   "ppm"
+  ],
+  "Hogen Wind Farm": [
+   "ppm"
+  ],
+  "Nal Solceller Solar": [
+   "ppm"
+  ],
+  "Stora Kallerasen Solcellsanlaggning Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/11964241-400": [
+   "eurostat_pop"
+  ],
+  "Stallbacka": [
+   "ppm"
+  ],
+  "Hojum": [
+   "ppm"
+  ],
+  "Olidan": [
+   "ppm"
+  ],
+  "Lilla Edet": [
+   "ppm"
+  ],
+  "Vargon": [
+   "ppm"
+  ],
+  "Nederede": [
+   "ppm"
+  ],
+  "Rammeldalsberget Wind Farm": [
+   "ppm"
+  ],
+  "Hjalta": [
+   "ppm"
+  ],
+  "Solleftea": [
+   "ppm"
+  ],
+  "Horby Solar": [
+   "ppm"
+  ],
+  "Hakarp Wind Farm": [
+   "ppm"
+  ],
+  "Karlskrona Energy Storages": [
+   "ppm"
+  ],
+  "Rabelov Wind Farm": [
+   "ppm"
+  ],
+  "Nattraby Nembus Solpark Solar": [
+   "ppm"
+  ],
+  "Karlskrona Solpark Solar": [
+   "ppm"
+  ],
+  "Kallinge Solar": [
+   "ppm"
+  ],
+  "Hoby Sol Nr Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at relation/14939275-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at relation/14939275-400": [
+   "eurostat_pop"
+  ],
+  "Karlshamn": [
+   "ppm"
+  ],
+  "Sodra Cell Morrum Pulp Mill": [
+   "ppm"
+  ],
+  "Digerberget Wind Farm": [
+   "ppm"
+  ],
+  "Sidensjo Wind Farm": [
+   "ppm"
+  ],
+  "Gabrielsberget Wind Farm": [
+   "ppm"
+  ],
+  "Brattmyrliden Wind Farm": [
+   "ppm"
+  ],
+  "Aliden Wind Farm": [
+   "ppm"
+  ],
+  "Stigshojden Wind Farm": [
+   "ppm"
+  ],
+  "Metsa Husum": [
+   "ppm"
+  ],
+  "Horneborgsverket": [
+   "ppm"
+  ],
+  "Gidea": [
+   "ppm"
+  ],
+  "Bjorna": [
+   "ppm"
+  ],
+  "Gideabacka": [
+   "ppm"
+  ],
+  "Gidbole": [
+   "ppm"
+  ],
+  "Brynge": [
+   "ppm"
+  ],
+  "Orrberget Wind Farm": [
+   "ppm"
+  ],
+  "Robergsfjallet Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/6081310-400": [
+   "eurostat_pop"
+  ],
+  "Mockfjard": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/7313829-400": [
+   "eurostat_pop"
+  ],
+  "Tolvmanstegen Wind Farm": [
+   "ppm"
+  ],
+  "Mungserod Gurserod Skaverod Wind Farm": [
+   "ppm"
+  ],
+  "Femstenaberg Wind Farm": [
+   "ppm"
+  ],
+  "Lursang Wind Farm": [
+   "ppm"
+  ],
+  "Femstenaberg": [
+   "ppm"
+  ],
+  "Bratton Wind Farm": [
+   "ppm"
+  ],
+  "Hud Wind Farm": [
+   "ppm"
+  ],
+  "Svarteborgs Skogen Wind Farm": [
+   "ppm"
+  ],
+  "As Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_relation/5963403:0-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/12017732:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/14888802:a:1-400": [
+   "eurostat_pop"
+  ],
+  "Stenungsund": [
+   "ppm"
+  ],
+  "Kronoberget Wind Farm": [
+   "ppm"
+  ],
+  "Sattravallen Wind Farm": [
+   "ppm"
+  ],
+  "Langmarken Wind Farm": [
+   "ppm"
+  ],
+  "Ensto Fortum": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/160474490:0-400": [
+   "eurostat_pop"
+  ],
+  "Orken Wind Farm": [
+   "ppm"
+  ],
+  "Oringe Solpark Solar": [
+   "ppm"
+  ],
+  "Susegarden Solpark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at virtual_way/172201472:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at virtual_way/172201472:1-400": [
+   "eurostat_pop"
+  ],
+  "Nissastrom": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/188965945:1-400": [
+   "eurostat_pop"
+  ],
+  "Froslida Wind Farm": [
+   "ppm"
+  ],
+  "Ryssbol Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at virtual_way/200507299:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at virtual_way/200507299:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/23813112:0-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/263705490:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/263708229:0-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/263708237:0-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/263708237:1-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/263708249:1-400": [
+   "eurostat_pop"
+  ],
+  "Varberg Tvaaker Bess": [
+   "ppm"
+  ],
+  "Gummarasen Wind Farm": [
+   "ppm"
+  ],
+  "Sotared Wind Farm": [
+   "ppm"
+  ],
+  "Solsidan Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/263710358:1-400": [
+   "eurostat_pop"
+  ],
+  "Yngeredsfors": [
+   "ppm"
+  ],
+  "Stor Blaliden Wind Farm": [
+   "ppm"
+  ],
+  "import Norway at virtual_way/287684721:1-420": [
+   "model_assembly"
+  ],
+  "embedded other (SE3) at virtual_way/38105001:0-400": [
+   "eurostat_pop"
+  ],
+  "Igelsta Chp": [
+   "ppm"
+  ],
+  "Turinge": [
+   "ppm"
+  ],
+  "Ranasjo Wind Farm": [
+   "ppm"
+  ],
+  "Edsele": [
+   "ppm"
+  ],
+  "Edsele #2": [
+   "ppm"
+  ],
+  "Arjang Nv Wind Farm": [
+   "ppm"
+  ],
+  "Arjang Sv Wind Farm": [
+   "ppm"
+  ],
+  "Han Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/585198893:1-420": [
+   "eurostat_pop"
+  ],
+  "import Norway at virtual_way/585198893:1-420": [
+   "model_assembly"
+  ],
+  "embedded other (SE3) at virtual_way/58561795:0-400": [
+   "eurostat_pop"
+  ],
+  "Vartaverket": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/71892564:0-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/763346033:0-400": [
+   "eurostat_pop"
+  ],
+  "Rogle Wind Farm": [
+   "ppm"
+  ],
+  "Vastraby Wind Farm": [
+   "ppm"
+  ],
+  "Ossjo Skog Wind Farm": [
+   "ppm"
+  ],
+  "Ekeby Solar": [
+   "ppm"
+  ],
+  "Forsby Solpark Solar": [
+   "ppm"
+  ],
+  "Bjorkerod Solar": [
+   "ppm"
+  ],
+  "Magnihill Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/101320612-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/101320612-400": [
+   "eurostat_pop"
+  ],
+  "import Denmark at way/101320612-400": [
+   "model_assembly"
+  ],
+  "import Denmark at way/101320612-400 #2": [
+   "model_assembly"
+  ],
+  "Vasthamnsverket": [
+   "ppm"
+  ],
+  "Klippen": [
+   "ppm"
+  ],
+  "Ellevio Orebro Bess": [
+   "ppm"
+  ],
+  "Lindesberg Solar Farm": [
+   "ppm"
+  ],
+  "Munkhyttan Wind Farm": [
+   "ppm"
+  ],
+  "Solangen Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/1022235514-400": [
+   "eurostat_pop"
+  ],
+  "Alered Wind Farm": [
+   "ppm"
+  ],
+  "Hogabjar Karsas Wind Farm": [
+   "ppm"
+  ],
+  "Hjuleberg Wind Farm": [
+   "ppm"
+  ],
+  "Hjuleberg Wind Plus": [
+   "ppm"
+  ],
+  "Bohult Wind Farm": [
+   "ppm"
+  ],
+  "Lovstaviken Wind Farm": [
+   "ppm"
+  ],
+  "Vaby Wind Farm": [
+   "ppm"
+  ],
+  "Falkenberg Bess": [
+   "ppm"
+  ],
+  "Ramsjoholm Solpark Solar": [
+   "ppm"
+  ],
+  "Murarlyckan Solar": [
+   "ppm"
+  ],
+  "Ringsas Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/1025505726-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/1025505726-400": [
+   "eurostat_pop"
+  ],
+  "Elenora": [
+   "ppm"
+  ],
+  "Karlsborg Mill": [
+   "ppm"
+  ],
+  "Blabergsliden Wind Farm": [
+   "ppm"
+  ],
+  "Hogaliden Wind Farm": [
+   "ppm"
+  ],
+  "Blisterliden Wind Farm": [
+   "ppm"
+  ],
+  "Fjallboheden Wind Farm": [
+   "ppm"
+  ],
+  "Kvistforsen": [
+   "ppm"
+  ],
+  "Finnfors": [
+   "ppm"
+  ],
+  "Krangfors": [
+   "ppm"
+  ],
+  "Batfors": [
+   "ppm"
+  ],
+  "Granfors": [
+   "ppm"
+  ],
+  "Hedensbyn": [
+   "ppm"
+  ],
+  "Bjornberget Wind Farm": [
+   "ppm"
+  ],
+  "Gubbaberget Wind Farm": [
+   "ppm"
+  ],
+  "Riberget Wind Farm": [
+   "ppm"
+  ],
+  "Vasberget Wind Farm": [
+   "ppm"
+  ],
+  "Kolvallen Wind Farm": [
+   "ppm"
+  ],
+  "Hogkolen Wind Farm": [
+   "ppm"
+  ],
+  "Krokstrommen": [
+   "ppm"
+  ],
+  "Laforsen": [
+   "ppm"
+  ],
+  "Langstrommen": [
+   "ppm"
+  ],
+  "Noppikoski": [
+   "ppm"
+  ],
+  "Bruzaholm Wind Farm": [
+   "ppm"
+  ],
+  "Norra Vedbo Wind Farm": [
+   "ppm"
+  ],
+  "Grevekulla Wind Farm": [
+   "ppm"
+  ],
+  "Fredriksdal Wind Farm": [
+   "ppm"
+  ],
+  "Froreda Wind Farm": [
+   "ppm"
+  ],
+  "Brahehus Wind Farm": [
+   "ppm"
+  ],
+  "Stensasa Wind Farm": [
+   "ppm"
+  ],
+  "Mossbrasa Solpark Solar": [
+   "ppm"
+  ],
+  "Skalleberg Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/1265541077-400": [
+   "eurostat_pop"
+  ],
+  "Hoge Vag Wind Farm": [
+   "ppm"
+  ],
+  "Ostra Herrestad Wind Farm": [
+   "ppm"
+  ],
+  "Sjobo Solpark Solar": [
+   "ppm"
+  ],
+  "Skarhult Wind Farm": [
+   "ppm"
+  ],
+  "Skarhults Wind Farm": [
+   "ppm"
+  ],
+  "Buna Solcellspark Solar": [
+   "ppm"
+  ],
+  "Solpunkten Kristianstad Solar": [
+   "ppm"
+  ],
+  "Araskoga Solpark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/1265541078-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/1265541078-400": [
+   "eurostat_pop"
+  ],
+  "Landskrona Bess": [
+   "ppm"
+  ],
+  "Dsv Landskrona Solar": [
+   "ppm"
+  ],
+  "Fjelie Laxmans Akarp Wind Farm": [
+   "ppm"
+  ],
+  "Sodra Moinge Solpark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/1302595553-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/1302595553-400": [
+   "eurostat_pop"
+  ],
+  "Barseback": [
+   "ppm"
+  ],
+  "Ortofta": [
+   "ppm"
+  ],
+  "Kungsbacka Bess": [
+   "ppm"
+  ],
+  "Lindome Bess": [
+   "ppm"
+  ],
+  "Claro Energy Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/1451345383-400": [
+   "eurostat_pop"
+  ],
+  "import Denmark at way/1451345383-400": [
+   "model_assembly"
+  ],
+  "Riskullaverket": [
+   "ppm"
+  ],
+  "Hylte": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/160474491-400": [
+   "eurostat_pop"
+  ],
+  "Abyverket": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/168351799-400": [
+   "eurostat_pop"
+  ],
+  "Kaphult Wind Farm": [
+   "ppm"
+  ],
+  "Grytsjon Wind Farm": [
+   "ppm"
+  ],
+  "Uddared Wind Farm": [
+   "ppm"
+  ],
+  "Knared Wind Farm": [
+   "ppm"
+  ],
+  "Tommared Wind Farm": [
+   "ppm"
+  ],
+  "Spica Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/172201471-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/172201471-400": [
+   "eurostat_pop"
+  ],
+  "Halmstad": [
+   "ppm"
+  ],
+  "Karsefors": [
+   "ppm"
+  ],
+  "Traryd": [
+   "ppm"
+  ],
+  "Skogaby": [
+   "ppm"
+  ],
+  "Laholm": [
+   "ppm"
+  ],
+  "Bassalt": [
+   "ppm"
+  ],
+  "Askalen Wind Farm": [
+   "ppm"
+  ],
+  "Midskog": [
+   "ppm"
+  ],
+  "Naverede": [
+   "ppm"
+  ],
+  "Stugun": [
+   "ppm"
+  ],
+  "Velinga Wind Farm": [
+   "ppm"
+  ],
+  "Hornamossen Wind Farm": [
+   "ppm"
+  ],
+  "Lyckas Krafto Ab Wind Farm": [
+   "ppm"
+  ],
+  "Sotterfallan Wind Farm": [
+   "ppm"
+  ],
+  "Boarp Wind Farm": [
+   "ppm"
+  ],
+  "Rammarehemmet Wind Farm": [
+   "ppm"
+  ],
+  "Vaggeryd Energy": [
+   "ppm"
+  ],
+  "Lundby Tradet Wind Farm": [
+   "ppm"
+  ],
+  "Jonkoping Bess": [
+   "ppm"
+  ],
+  "Srs Vaggeryd Solar": [
+   "ppm"
+  ],
+  "Stigamo Kingspan Solar": [
+   "ppm"
+  ],
+  "Solcellspark Carlfors Bruk Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/200052139-400": [
+   "eurostat_pop"
+  ],
+  "Torsvik": [
+   "ppm"
+  ],
+  "Torsvik #2": [
+   "ppm"
+  ],
+  "Lemnhult Wind Farm": [
+   "ppm"
+  ],
+  "Lyngsasa Wind Farm": [
+   "ppm"
+  ],
+  "Horshaga Wind Farm": [
+   "ppm"
+  ],
+  "Furuby Wind Farm": [
+   "ppm"
+  ],
+  "Milletorp Wind Farm": [
+   "ppm"
+  ],
+  "Rosenholm Wind Farm": [
+   "ppm"
+  ],
+  "Slageryd Wind Farm": [
+   "ppm"
+  ],
+  "Varnamo Energy": [
+   "ppm"
+  ],
+  "Malajord Wind Farm": [
+   "ppm"
+  ],
+  "Hullevik Solcellspark Solar": [
+   "ppm"
+  ],
+  "Solpark Ekalund Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/200222142-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/200222142-400": [
+   "eurostat_pop"
+  ],
+  "Sandviksverket": [
+   "ppm"
+  ],
+  "Rottnen": [
+   "ppm"
+  ],
+  "Skaramala Wind Farm": [
+   "ppm"
+  ],
+  "Skaramala Pv Solar Farm": [
+   "ppm"
+  ],
+  "Mittelstattan Wind Farm": [
+   "ppm"
+  ],
+  "Olofstrom Solpark Solar": [
+   "ppm"
+  ],
+  "Marklunda Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/200224266-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/200224266-400": [
+   "eurostat_pop"
+  ],
+  "Hedbodberget Wind Farm": [
+   "ppm"
+  ],
+  "Rattvik Bess": [
+   "ppm"
+  ],
+  "Solcellspark Lindan Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/207159887-400": [
+   "eurostat_pop"
+  ],
+  "Lindbyn": [
+   "ppm"
+  ],
+  "Hsb Sodermanlands Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/208965529-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/209175136-400": [
+   "eurostat_pop"
+  ],
+  "Vietas": [
+   "ppm"
+  ],
+  "Studsvik Solar Park": [
+   "ppm"
+  ],
+  "Studsvik Solpark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/23470015-400": [
+   "eurostat_pop"
+  ],
+  "Eskilstuna Bess": [
+   "ppm"
+  ],
+  "Katrineholm Energy": [
+   "ppm"
+  ],
+  "Chara Solar": [
+   "ppm"
+  ],
+  "Solparken Katrineholm Solar": [
+   "ppm"
+  ],
+  "Solcellspark Vastergarden Solar": [
+   "ppm"
+  ],
+  "Jagarstugan Solkraft Inmatning Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/236759846-400": [
+   "eurostat_pop"
+  ],
+  "Idbacksverket": [
+   "ppm"
+  ],
+  "Lehtirova Wind Farm": [
+   "ppm"
+  ],
+  "Messaure": [
+   "ppm"
+  ],
+  "Markbygden Wind Farm": [
+   "ppm"
+  ],
+  "Markbygden Wind Farm #2": [
+   "ppm"
+  ],
+  "Markbygden Wind Farm #3": [
+   "ppm"
+  ],
+  "Markbygden Wind Farm #4": [
+   "ppm"
+  ],
+  "Erstrask South Ers": [
+   "ppm"
+  ],
+  "Markbygden Wind Farm #5": [
+   "ppm"
+  ],
+  "Bondon Wind Farm": [
+   "ppm"
+  ],
+  "Dragaliden Wind Farm": [
+   "ppm"
+  ],
+  "Lindbacks Bygg Superfabriken Solar": [
+   "ppm"
+  ],
+  "Sikfors": [
+   "ppm"
+  ],
+  "Seitevare": [
+   "ppm"
+  ],
+  "Rebnisjaure Rebnis Krv": [
+   "ppm"
+  ],
+  "Sadva": [
+   "ppm"
+  ],
+  "Parki": [
+   "ppm"
+  ],
+  "Nya Solevi Solar": [
+   "ppm"
+  ],
+  "Solinavium Solar": [
+   "ppm"
+  ],
+  "Hisingen Logistikpark Solar": [
+   "ppm"
+  ],
+  "Tjorn Solpark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/254135216-400": [
+   "eurostat_pop"
+  ],
+  "Rya Goteborg": [
+   "ppm"
+  ],
+  "Savenas Waste To Energy": [
+   "ppm"
+  ],
+  "Goteborg": [
+   "ppm"
+  ],
+  "Sjisjka Wind Farm": [
+   "ppm"
+  ],
+  "Harspranget": [
+   "ppm"
+  ],
+  "Porjus": [
+   "ppm"
+  ],
+  "Eken Solcellspark Solar": [
+   "ppm"
+  ],
+  "Linkoping Solar Plus": [
+   "ppm"
+  ],
+  "Solpark Raberga Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/257920140-400": [
+   "eurostat_pop"
+  ],
+  "Kimstad": [
+   "ppm"
+  ],
+  "Handelo": [
+   "ppm"
+  ],
+  "Garstad": [
+   "ppm"
+  ],
+  "Kv Linkoping": [
+   "ppm"
+  ],
+  "Skarblacka Bruk": [
+   "ppm"
+  ],
+  "Lejonpannan": [
+   "ppm"
+  ],
+  "Bjorkhojden Wind Farm": [
+   "ppm"
+  ],
+  "Bjorkvattnet Wind Farm": [
+   "ppm"
+  ],
+  "Ogonfagnaden Wind Farm": [
+   "ppm"
+  ],
+  "Storhojden Wind Farm": [
+   "ppm"
+  ],
+  "Hocksjon Wind Farm": [
+   "ppm"
+  ],
+  "Havsnas Wind Farm": [
+   "ppm"
+  ],
+  "Stamasen Wind Farm": [
+   "ppm"
+  ],
+  "Storbrannkullen Storbrankullen": [
+   "ppm"
+  ],
+  "Lovon": [
+   "ppm"
+  ],
+  "Bodum": [
+   "ppm"
+  ],
+  "Storfinnforsen": [
+   "ppm"
+  ],
+  "Lovons Krv": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/260986936-400": [
+   "eurostat_pop"
+  ],
+  "Haninge Bess": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/261447466-400": [
+   "eurostat_pop"
+  ],
+  "Lulea": [
+   "ppm"
+  ],
+  "Boden": [
+   "ppm"
+  ],
+  "Vittjarv": [
+   "ppm"
+  ],
+  "Almedal Wind Farm": [
+   "ppm"
+  ],
+  "Iglasjon Wind Farm": [
+   "ppm"
+  ],
+  "Varberg Bess": [
+   "ppm"
+  ],
+  "Vastra Derome Wind Farm": [
+   "ppm"
+  ],
+  "Lindberg Solcellspark Solar": [
+   "ppm"
+  ],
+  "Hunnestad Solcellspark Solar": [
+   "ppm"
+  ],
+  "Frillesas Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/263688590-400": [
+   "eurostat_pop"
+  ],
+  "Ringhals 4": [
+   "ppm"
+  ],
+  "Ringhals 3": [
+   "ppm"
+  ],
+  "Lahall": [
+   "ppm"
+  ],
+  "Varo Pulp Mill": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/263697062-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/263701163-400": [
+   "eurostat_pop"
+  ],
+  "Kinna": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/265416362-400": [
+   "eurostat_pop"
+  ],
+  "Fabodberget Wind Farm": [
+   "ppm"
+  ],
+  "Stor Rotliden Wind Farm": [
+   "ppm"
+  ],
+  "Tuggen": [
+   "ppm"
+  ],
+  "Balforsen": [
+   "ppm"
+  ],
+  "Rusfors": [
+   "ppm"
+  ],
+  "Hallforsens": [
+   "ppm"
+  ],
+  "Aldermyrberget Wind Farm": [
+   "ppm"
+  ],
+  "Tomasliden Wind Farm": [
+   "ppm"
+  ],
+  "Amliden Wind Farm": [
+   "ppm"
+  ],
+  "Ytterberg Wind Farm": [
+   "ppm"
+  ],
+  "Brannliden Wind Farm": [
+   "ppm"
+  ],
+  "Jokkmokksliden Wind Farm": [
+   "ppm"
+  ],
+  "Storliden Wind Farm": [
+   "ppm"
+  ],
+  "Gallejuar": [
+   "ppm"
+  ],
+  "Vargfors": [
+   "ppm"
+  ],
+  "Bastusel": [
+   "ppm"
+  ],
+  "Rengard": [
+   "ppm"
+  ],
+  "Grytfors": [
+   "ppm"
+  ],
+  "Kilforsen": [
+   "ppm"
+  ],
+  "Fjallsjo": [
+   "ppm"
+  ],
+  "Ramsele": [
+   "ppm"
+  ],
+  "Langbjorn": [
+   "ppm"
+  ],
+  "Edensforsen": [
+   "ppm"
+  ],
+  "Aby Alebo Wind Farm": [
+   "ppm"
+  ],
+  "Hultsfred Solar Farm": [
+   "ppm"
+  ],
+  "Gronhult Wind Farm": [
+   "ppm"
+  ],
+  "Karehamn Wind Farm": [
+   "ppm"
+  ],
+  "Lervik Wind Farm": [
+   "ppm"
+  ],
+  "Lebo Wind Farm": [
+   "ppm"
+  ],
+  "Vimmerby Bess Ingrid": [
+   "ppm"
+  ],
+  "Em Wind Farm": [
+   "ppm"
+  ],
+  "Morghult Solkraftverk Solar": [
+   "ppm"
+  ],
+  "Blekhem Wind Farm": [
+   "ppm"
+  ],
+  "Stora Istad Wind Farm": [
+   "ppm"
+  ],
+  "Abro Bryggeri Solcellspark Solar": [
+   "ppm"
+  ],
+  "Hultsfred Solcellspark Solar": [
+   "ppm"
+  ],
+  "Boda Sand Solpark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/279842937-400": [
+   "eurostat_pop"
+  ],
+  "Oskarshamn 3": [
+   "ppm"
+  ],
+  "Sodra Cell Monsteras Pulp Mill": [
+   "ppm"
+  ],
+  "Oskarshamn": [
+   "ppm"
+  ],
+  "Fagelas Wind Farm": [
+   "ppm"
+  ],
+  "Lidkoping Solar Park": [
+   "ppm"
+  ],
+  "Rosenskog Wind Farm": [
+   "ppm"
+  ],
+  "Solpark Lidkoping Solar": [
+   "ppm"
+  ],
+  "Falkoping Energy": [
+   "ppm"
+  ],
+  "Jung Asa Wind Farm": [
+   "ppm"
+  ],
+  "Anneberg Wind Farm": [
+   "ppm"
+  ],
+  "Kalleberg Wind Farm": [
+   "ppm"
+  ],
+  "Batteryloop": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/281023714-400": [
+   "eurostat_pop"
+  ],
+  "Hultema Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/281390335-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/28276448-400": [
+   "eurostat_pop"
+  ],
+  "Lillgrund Wind Farm": [
+   "ppm"
+  ],
+  "Skurup Star Solar": [
+   "ppm"
+  ],
+  "Skabersjo Wind Farm": [
+   "ppm"
+  ],
+  "Solenergiparken Tagarpsdalen Solar": [
+   "ppm"
+  ],
+  "embedded hydro (SE4) at way/28390455-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/28390455-400": [
+   "eurostat_pop"
+  ],
+  "import Germany at way/28390455-400": [
+   "model_assembly"
+  ],
+  "Bergvind Lingbo Wind Farm": [
+   "ppm"
+  ],
+  "Vettasen Finnberget Wind Farm": [
+   "ppm"
+  ],
+  "Grimsas Wind Farm": [
+   "ppm"
+  ],
+  "Dallebo Wind Farm": [
+   "ppm"
+  ],
+  "Henja Solpark Solar": [
+   "ppm"
+  ],
+  "Kulltorp Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/284182193-400": [
+   "eurostat_pop"
+  ],
+  "Sobacken Cogeneration": [
+   "ppm"
+  ],
+  "Rya Boras": [
+   "ppm"
+  ],
+  "Nysater Wind Farm": [
+   "ppm"
+  ],
+  "Bjornlandshojden": [
+   "ppm"
+  ],
+  "Stormon Wind Farm": [
+   "ppm"
+  ],
+  "Mockelsjoberget Wind Farm": [
+   "ppm"
+  ],
+  "Bergeforsen": [
+   "ppm"
+  ],
+  "Ostrand Pulp Mill": [
+   "ppm"
+  ],
+  "Fabodliden Wind Farm": [
+   "ppm"
+  ],
+  "Hornefors Wind Farm": [
+   "ppm"
+  ],
+  "Granberget Wind Farm": [
+   "ppm"
+  ],
+  "Stornorrfors": [
+   "ppm"
+  ],
+  "Harrsele": [
+   "ppm"
+  ],
+  "Bjurfors Nedre": [
+   "ppm"
+  ],
+  "Dava": [
+   "ppm"
+  ],
+  "Pengfors": [
+   "ppm"
+  ],
+  "Selsfors": [
+   "ppm"
+  ],
+  "Bjurfors Ovre": [
+   "ppm"
+  ],
+  "Ligga": [
+   "ppm"
+  ],
+  "Akkats": [
+   "ppm"
+  ],
+  "Randi": [
+   "ppm"
+  ],
+  "import Norway at way/292593503-400": [
+   "model_assembly"
+  ],
+  "Ritsem": [
+   "ppm"
+  ],
+  "Stollsaterberget Wind Farm": [
+   "ppm"
+  ],
+  "Kyrkberget Wind Farm": [
+   "ppm"
+  ],
+  "Granberget Wind Farm #2": [
+   "ppm"
+  ],
+  "Krusmon Solar": [
+   "ppm"
+  ],
+  "Nackans Solel Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/294897999-400": [
+   "eurostat_pop"
+  ],
+  "Holjes": [
+   "ppm"
+  ],
+  "Tasan": [
+   "ppm"
+  ],
+  "Letten": [
+   "ppm"
+  ],
+  "Rojdafors": [
+   "ppm"
+  ],
+  "Forshult": [
+   "ppm"
+  ],
+  "Horrmundsvalla": [
+   "ppm"
+  ],
+  "Hornberget Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/38105008-400": [
+   "eurostat_pop"
+  ],
+  "Maevaara Wind Farm": [
+   "ppm"
+  ],
+  "Maevaara Wind Farm #2": [
+   "ppm"
+  ],
+  "Aapua Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/41906390-400": [
+   "eurostat_pop"
+  ],
+  "Nasby Overberg Wind Farm": [
+   "ppm"
+  ],
+  "Mjolby Energy": [
+   "ppm"
+  ],
+  "Solpark Skrivargarden Solar": [
+   "ppm"
+  ],
+  "Solpark Skorteby Solar": [
+   "ppm"
+  ],
+  "Bredstorp Solpark Solar": [
+   "ppm"
+  ],
+  "Linkoping Universitet Solcellsanlaggning Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/44636668-400": [
+   "eurostat_pop"
+  ],
+  "Motala": [
+   "ppm"
+  ],
+  "Svartafors": [
+   "ppm"
+  ],
+  "Algkullen Wind Farm": [
+   "ppm"
+  ],
+  "Saxberget Wind Farm": [
+   "ppm"
+  ],
+  "Saxberget Wind Farm #2": [
+   "ppm"
+  ],
+  "Svea Utility Skakelbacken Solar": [
+   "ppm"
+  ],
+  "Smedjebacken Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/51252509-400": [
+   "eurostat_pop"
+  ],
+  "Flasjon": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/5174038-400": [
+   "eurostat_pop"
+  ],
+  "Letsi": [
+   "ppm"
+  ],
+  "Porsi": [
+   "ppm"
+  ],
+  "Laxede": [
+   "ppm"
+  ],
+  "Blaiken Wind Farm": [
+   "ppm"
+  ],
+  "Blaiken Wind Farm #2": [
+   "ppm"
+  ],
+  "Blaiken Wind Farm #3": [
+   "ppm"
+  ],
+  "Uljabuoda Wind Farm": [
+   "ppm"
+  ],
+  "Juktan Wind Farm": [
+   "ppm"
+  ],
+  "Umluspen": [
+   "ppm"
+  ],
+  "Storavan Bergnas Krv": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/57675923-400": [
+   "eurostat_pop"
+  ],
+  "embedded hydro (SE4) at way/718209950-400": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE4) at way/718209950-400": [
+   "eurostat_pop"
+  ],
+  "Oresundsverket Malmo": [
+   "ppm"
+  ],
+  "Oresundsverket": [
+   "ppm"
+  ],
+  "Sysav South Scania Waste": [
+   "ppm"
+  ],
+  "Borlange": [
+   "ppm"
+  ],
+  "Borlange Gagnbro Solar": [
+   "ppm"
+  ],
+  "Arctic Paper Grycksbo Ab Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/77696816-400": [
+   "eurostat_pop"
+  ],
+  "Kvarnsveden": [
+   "ppm"
+  ],
+  "Langhag": [
+   "ppm"
+  ],
+  "Bullerforsen": [
+   "ppm"
+  ],
+  "Forshuvud": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/80702333-400": [
+   "eurostat_pop"
+  ],
+  "Forsmark 3": [
+   "ppm"
+  ],
+  "Forsmark 2": [
+   "ppm"
+  ],
+  "Forsmark 1": [
+   "ppm"
+  ],
+  "Forsmark": [
+   "ppm"
+  ],
+  "Stor Skalsjon Wind Farm": [
+   "ppm"
+  ],
+  "Jenasen Wind Farm": [
+   "ppm"
+  ],
+  "Nylandsbergen Wind Farm": [
+   "ppm"
+  ],
+  "Holms Vastbyn Wind Farm": [
+   "ppm"
+  ],
+  "Ellevio Mora Bess": [
+   "ppm"
+  ],
+  "Bosjovarden Wind Farm": [
+   "ppm"
+  ],
+  "Massingberget Wind Farm": [
+   "ppm"
+  ],
+  "Ramsberget Wind Farm": [
+   "ppm"
+  ],
+  "Korpfjallet Wind Farm": [
+   "ppm"
+  ],
+  "Salitradberget Wind Farm": [
+   "ppm"
+  ],
+  "Granberg Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/934908818-400": [
+   "eurostat_pop"
+  ],
+  "Trangslet": [
+   "ppm"
+  ],
+  "Spjutmo": [
+   "ppm"
+  ],
+  "Blybergs Kraftverk": [
+   "ppm"
+  ],
+  "Eldforsen": [
+   "ppm"
+  ],
+  "Furudal": [
+   "ppm"
+  ],
+  "Hastkullen Norra": [
+   "ppm"
+  ],
+  "Holleforsen": [
+   "ppm"
+  ],
+  "Jarkvissle": [
+   "ppm"
+  ],
+  "Vitberget Wind Farm": [
+   "ppm"
+  ],
+  "Sorlidberget Wind Farm": [
+   "ppm"
+  ],
+  "Knasjoberget Wind Farm": [
+   "ppm"
+  ],
+  "Rodstahojden Wind Farm": [
+   "ppm"
+  ],
+  "Forsse": [
+   "ppm"
+  ],
+  "Storflotten Och Lasterhojden": [
+   "ppm"
+  ],
+  "Overturingen Wind Farm": [
+   "ppm"
+  ],
+  "Overturingen Wind Farm #2": [
+   "ppm"
+  ],
+  "Mullbergs Wind Farm": [
+   "ppm"
+  ],
+  "Ratan": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/15900216-220": [
+   "eurostat_pop"
+  ],
+  "Riskebo Wind Farm": [
+   "ppm"
+  ],
+  "Mombyasen Wind Farm": [
+   "ppm"
+  ],
+  "Tjarnas Wind Farm": [
+   "ppm"
+  ],
+  "Tavelberget Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/7107330-220": [
+   "eurostat_pop"
+  ],
+  "Skedvi": [
+   "ppm"
+  ],
+  "Skallberget Utterberget Wind Farm": [
+   "ppm"
+  ],
+  "Hogtjarnsklack Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/7108546-220": [
+   "eurostat_pop"
+  ],
+  "Nas": [
+   "ppm"
+  ],
+  "Amot Lingbo": [
+   "ppm"
+  ],
+  "Jadraas Wind Farm": [
+   "ppm"
+  ],
+  "Tonsen Wind Farm": [
+   "ppm"
+  ],
+  "Anglarna Wind Farm": [
+   "ppm"
+  ],
+  "Svartnas Wind Farm": [
+   "ppm"
+  ],
+  "Enviksberget Wind Farm": [
+   "ppm"
+  ],
+  "Fallasberget Wind Farm": [
+   "ppm"
+  ],
+  "Bjorkvallen Solenergi Solar": [
+   "ppm"
+  ],
+  "Sandviken Energy": [
+   "ppm"
+  ],
+  "embedded other (SE3) at relation/7313829-220": [
+   "eurostat_pop"
+  ],
+  "Bjorke Solcellspark Solar": [
+   "ppm"
+  ],
+  "Linnvasselv": [
+   "ppm"
+  ],
+  "Osterasen Wind Farm": [
+   "ppm"
+  ],
+  "Gaxsjo Raftsjohojden Wind Farm": [
+   "ppm"
+  ],
+  "Ollebacken Wind Farm": [
+   "ppm"
+  ],
+  "Munkflohogen Wind Farm": [
+   "ppm"
+  ],
+  "Hissmofors": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/1026326337:1-220": [
+   "eurostat_pop"
+  ],
+  "Srs Vasteras Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/1056446756:1-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/117364892:0-220": [
+   "eurostat_pop"
+  ],
+  "Gavle Ingrid Bess": [
+   "ppm"
+  ],
+  "Skutskar Wind Farm": [
+   "ppm"
+  ],
+  "Bomhus Energi": [
+   "ppm"
+  ],
+  "Skutskar Mill": [
+   "ppm"
+  ],
+  "Johannes": [
+   "ppm"
+  ],
+  "Prastforsens Krv": [
+   "ppm"
+  ],
+  "Langavalen Wind Farm": [
+   "ppm"
+  ],
+  "Stentjarnasen Wind Farm": [
+   "ppm"
+  ],
+  "Langa": [
+   "ppm"
+  ],
+  "Grundsjoarna": [
+   "ppm"
+  ],
+  "Rashon Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/150650949:0-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/150650949:1-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/168935346:a:1-220": [
+   "eurostat_pop"
+  ],
+  "Hoting": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/209175126:1-220": [
+   "eurostat_pop"
+  ],
+  "Enkoping": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/24415566:1-220": [
+   "eurostat_pop"
+  ],
+  "Hogdalenverket": [
+   "model_assembly",
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/261279870:1-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at virtual_way/266084256:0-220": [
+   "eurostat_pop"
+  ],
+  "Salsjo Wind Farm": [
+   "ppm"
+  ],
+  "Moforsen": [
+   "ppm"
+  ],
+  "Namforsen": [
+   "ppm"
+  ],
+  "Kafjarden Wind Farm": [
+   "ppm"
+  ],
+  "Kings Roar Solar Farm": [
+   "ppm"
+  ],
+  "Vasteras Energy": [
+   "ppm"
+  ],
+  "Stavstorp Solcellspark Solar": [
+   "ppm"
+  ],
+  "Lilla Nyby Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/280838476:1-220": [
+   "eurostat_pop"
+  ],
+  "Aroskraft": [
+   "ppm"
+  ],
+  "Aroskraft #2": [
+   "ppm"
+  ],
+  "Aroskraft #3": [
+   "ppm"
+  ],
+  "Eskilstuna": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/284529642:1-220": [
+   "eurostat_pop"
+  ],
+  "Olden": [
+   "ppm"
+  ],
+  "Klevberget Wind Farm": [
+   "ppm"
+  ],
+  "Ojeforsen": [
+   "ppm"
+  ],
+  "Sbb Solcellspark Hallstahammar Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/494975757:1-220": [
+   "eurostat_pop"
+  ],
+  "Trangfors": [
+   "ppm"
+  ],
+  "embedded other (SE3) at virtual_way/771385506:1-220": [
+   "eurostat_pop"
+  ],
+  "Hasselby": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/1022235514-220": [
+   "eurostat_pop"
+  ],
+  "Andberg Wind Farm": [
+   "ppm"
+  ],
+  "Skaftasen Wind Farm": [
+   "ppm"
+  ],
+  "Glotesvalen Wind Farm": [
+   "ppm"
+  ],
+  "Sveg": [
+   "ppm"
+  ],
+  "Solparken Vasteras Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/106607138-220": [
+   "eurostat_pop"
+  ],
+  "Sallsjo": [
+   "ppm"
+  ],
+  "Hackren": [
+   "ppm"
+  ],
+  "Forschuvud": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/138622087-220": [
+   "eurostat_pop"
+  ],
+  "Alvkarleby": [
+   "ppm"
+  ],
+  "Lanforsen": [
+   "ppm"
+  ],
+  "Untra": [
+   "ppm"
+  ],
+  "Soderfors": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/144381726-220": [
+   "eurostat_pop"
+  ],
+  "Bristaverket": [
+   "ppm"
+  ],
+  "Bristaverket #2": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/160474491-220": [
+   "eurostat_pop"
+  ],
+  "Vasterlisa Wind Farm": [
+   "ppm"
+  ],
+  "Fagelsangens Solelpark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/168056174-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/168351799-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/168908158-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/168935344-220": [
+   "eurostat_pop"
+  ],
+  "Ostersund": [
+   "ppm"
+  ],
+  "Kattstrupeforsen": [
+   "ppm"
+  ],
+  "Granboforsen": [
+   "ppm"
+  ],
+  "Skymnas": [
+   "ppm"
+  ],
+  "Sils": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/188393971-220": [
+   "eurostat_pop"
+  ],
+  "Jarpstrommen": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/209175136-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/223383886-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/23064675-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/24354951-220": [
+   "eurostat_pop"
+  ],
+  "Brodtorget Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/255570234-220": [
+   "eurostat_pop"
+  ],
+  "Uppsala": [
+   "ppm"
+  ],
+  "Uppsala #2": [
+   "ppm"
+  ],
+  "Korstaverket": [
+   "ppm"
+  ],
+  "Matfors": [
+   "ppm"
+  ],
+  "Sillre": [
+   "ppm"
+  ],
+  "Viforsens": [
+   "ppm"
+  ],
+  "Backhammar Wind Farm": [
+   "ppm"
+  ],
+  "Zinkgruvan Wind Farm": [
+   "ppm"
+  ],
+  "Krontorp Wind Farm": [
+   "ppm"
+  ],
+  "Gardshyttan Wind Farm": [
+   "ppm"
+  ],
+  "Laxaskogen Wind Farm": [
+   "ppm"
+  ],
+  "Norra Hunna Wind Farm": [
+   "ppm"
+  ],
+  "Ramsnas Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/260986936-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/261447465-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/261447466-220": [
+   "eurostat_pop"
+  ],
+  "Jordbro": [
+   "ppm"
+  ],
+  "Sala Bess": [
+   "ppm"
+  ],
+  "Norrby Boda Solproduktion Solar": [
+   "ppm"
+  ],
+  "Ljusback Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/262140927-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/26755070-220": [
+   "eurostat_pop"
+  ],
+  "Lasele": [
+   "ppm"
+  ],
+  "Forsmo": [
+   "ppm"
+  ],
+  "Lyrestad Wind Farm": [
+   "ppm"
+  ],
+  "Slottsbol Wind Farm": [
+   "ppm"
+  ],
+  "Hova Solcellspark Solar": [
+   "ppm"
+  ],
+  "Boda Nat Solar": [
+   "ppm"
+  ],
+  "Toreboda Kilen Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/281018405-220": [
+   "eurostat_pop"
+  ],
+  "Gullspang": [
+   "ppm"
+  ],
+  "Malarberget Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/283006765-220": [
+   "eurostat_pop"
+  ],
+  "Avesta": [
+   "ppm"
+  ],
+  "Ellevio Soderala Bess": [
+   "ppm"
+  ],
+  "Hacksta Wind Farm": [
+   "ppm"
+  ],
+  "Landafors": [
+   "ppm"
+  ],
+  "Landafors #2": [
+   "ppm"
+  ],
+  "Iggesund Mill": [
+   "ppm"
+  ],
+  "Donje": [
+   "ppm"
+  ],
+  "Norrange": [
+   "ppm"
+  ],
+  "Holjebro": [
+   "ppm"
+  ],
+  "Ljusne Strommar": [
+   "ppm"
+  ],
+  "Alfta": [
+   "ppm"
+  ],
+  "Vallvik": [
+   "ppm"
+  ],
+  "Bergvik": [
+   "ppm"
+  ],
+  "Landafors #3": [
+   "ppm"
+  ],
+  "Lottefors": [
+   "ppm"
+  ],
+  "Skallbole": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/294798805-220": [
+   "eurostat_pop"
+  ],
+  "import Norway at way/299750661-220": [
+   "model_assembly"
+  ],
+  "Grundfors": [
+   "ppm"
+  ],
+  "Stensele": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/35070814-220": [
+   "eurostat_pop"
+  ],
+  "Stensjofallet": [
+   "ppm"
+  ],
+  "Fasikan Wind Farm": [
+   "ppm"
+  ],
+  "Jarnvagsforsen": [
+   "ppm"
+  ],
+  "Ljunga": [
+   "ppm"
+  ],
+  "Parteboda": [
+   "ppm"
+  ],
+  "Hermansboda": [
+   "ppm"
+  ],
+  "Sodertalje Bess": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/38105008-220": [
+   "eurostat_pop"
+  ],
+  "Storrun Wind Farm": [
+   "ppm"
+  ],
+  "Anjan": [
+   "ppm"
+  ],
+  "Juveln": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/41222142-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/41947005-220": [
+   "eurostat_pop"
+  ],
+  "Hallstavik Solar Farm": [
+   "ppm"
+  ],
+  "Varsvik Wind Farm": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/469037951-220": [
+   "eurostat_pop"
+  ],
+  "Svarthalsforsen": [
+   "ppm"
+  ],
+  "Stadsforsen": [
+   "ppm"
+  ],
+  "Sorby Wind Farm": [
+   "ppm"
+  ],
+  "Svartvallsberget Wind Farm": [
+   "ppm"
+  ],
+  "Brocklingsberget Wind Farm": [
+   "ppm"
+  ],
+  "Morttjarnberget Wind Farm": [
+   "ppm"
+  ],
+  "Krangede": [
+   "ppm"
+  ],
+  "Storen Reserve": [
+   "ppm"
+  ],
+  "Hammarforsen": [
+   "ppm"
+  ],
+  "Gammelange": [
+   "ppm"
+  ],
+  "Kraktorpet Wind Farm": [
+   "ppm"
+  ],
+  "Torpshammar": [
+   "ppm"
+  ],
+  "Leringsforsen": [
+   "ppm"
+  ],
+  "Halvfari": [
+   "ppm"
+  ],
+  "Morsil": [
+   "ppm"
+  ],
+  "Stalon": [
+   "ppm"
+  ],
+  "Ajaure": [
+   "ppm"
+  ],
+  "Gejman": [
+   "ppm"
+  ],
+  "Gardikfors": [
+   "ppm"
+  ],
+  "Malgomaj": [
+   "ppm"
+  ],
+  "Abelvattnet": [
+   "ppm"
+  ],
+  "Stora Sundby Solcellspark Solar": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/494975756-220": [
+   "eurostat_pop"
+  ],
+  "Degerforsen": [
+   "ppm"
+  ],
+  "Gulsele": [
+   "ppm"
+  ],
+  "Blodrotberget Wind Farm": [
+   "ppm"
+  ],
+  "Blackfjallet Wind Farm": [
+   "ppm"
+  ],
+  "Solberg Wind Farm": [
+   "ppm"
+  ],
+  "Trattberget Skallberget Wind Farm": [
+   "ppm"
+  ],
+  "Hallby": [
+   "ppm"
+  ],
+  "Stenkullafors": [
+   "ppm"
+  ],
+  "Bliekevare Wind Farm": [
+   "ppm"
+  ],
+  "Korsselbranna": [
+   "ppm"
+  ],
+  "Dabbsjo": [
+   "ppm"
+  ],
+  "Bergvattnet": [
+   "ppm"
+  ],
+  "Volgsjofors": [
+   "ppm"
+  ],
+  "Tasjo": [
+   "ppm"
+  ],
+  "Blakliden Fabodberget Wind Farm": [
+   "ppm"
+  ],
+  "Asele": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/51149972-220": [
+   "eurostat_pop"
+  ],
+  "Blasjons": [
+   "ppm"
+  ],
+  "Junsterforsen": [
+   "ppm"
+  ],
+  "Gaddede": [
+   "ppm"
+  ],
+  "embedded other (SE3) at way/58536441-220": [
+   "eurostat_pop"
+  ],
+  "embedded other (SE3) at way/84403744-220": [
+   "eurostat_pop"
+  ]
+ },
+ "demand": {
+  "1": [
+   "eurostat_pop"
+  ],
+  "2": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "3": [
+   "eurostat_pop"
+  ],
+  "4": [
+   "eurostat_pop"
+  ],
+  "5": [
+   "eurostat_pop"
+  ],
+  "6": [
+   "eurostat_pop"
+  ],
+  "7": [
+   "eurostat_pop"
+  ],
+  "8": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "9": [
+   "eurostat_pop"
+  ],
+  "10": [
+   "eurostat_pop"
+  ],
+  "11": [
+   "eurostat_pop"
+  ],
+  "12": [
+   "eurostat_pop"
+  ],
+  "13": [
+   "eurostat_pop"
+  ],
+  "14": [
+   "eurostat_pop"
+  ],
+  "15": [
+   "eurostat_pop"
+  ],
+  "16": [
+   "eurostat_pop"
+  ],
+  "17": [
+   "eurostat_pop"
+  ],
+  "18": [
+   "eurostat_pop"
+  ],
+  "19": [
+   "eurostat_pop"
+  ],
+  "20": [
+   "eurostat_pop"
+  ],
+  "21": [
+   "eurostat_pop"
+  ],
+  "22": [
+   "eurostat_pop"
+  ],
+  "23": [
+   "eurostat_pop"
+  ],
+  "24": [
+   "eurostat_pop"
+  ],
+  "25": [
+   "eurostat_pop"
+  ],
+  "26": [
+   "eurostat_pop"
+  ],
+  "27": [
+   "eurostat_pop"
+  ],
+  "28": [
+   "eurostat_pop"
+  ],
+  "29": [
+   "eurostat_pop"
+  ],
+  "30": [
+   "eurostat_pop"
+  ],
+  "31": [
+   "eurostat_pop"
+  ],
+  "32": [
+   "eurostat_pop"
+  ],
+  "33": [
+   "eurostat_pop"
+  ],
+  "34": [
+   "eurostat_pop"
+  ],
+  "35": [
+   "eurostat_pop"
+  ],
+  "36": [
+   "eurostat_pop"
+  ],
+  "37": [
+   "eurostat_pop"
+  ],
+  "38": [
+   "eurostat_pop"
+  ],
+  "39": [
+   "eurostat_pop"
+  ],
+  "40": [
+   "eurostat_pop"
+  ],
+  "41": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "42": [
+   "eurostat_pop"
+  ],
+  "43": [
+   "eurostat_pop"
+  ],
+  "44": [
+   "eurostat_pop"
+  ],
+  "45": [
+   "eurostat_pop"
+  ],
+  "46": [
+   "eurostat_pop"
+  ],
+  "47": [
+   "eurostat_pop"
+  ],
+  "48": [
+   "eurostat_pop"
+  ],
+  "49": [
+   "eurostat_pop"
+  ],
+  "50": [
+   "eurostat_pop"
+  ],
+  "51": [
+   "eurostat_pop"
+  ],
+  "52": [
+   "eurostat_pop"
+  ],
+  "53": [
+   "eurostat_pop"
+  ],
+  "54": [
+   "eurostat_pop"
+  ],
+  "55": [
+   "eurostat_pop"
+  ],
+  "56": [
+   "eurostat_pop"
+  ],
+  "57": [
+   "eurostat_pop"
+  ],
+  "58": [
+   "eurostat_pop"
+  ],
+  "59": [
+   "eurostat_pop"
+  ],
+  "60": [
+   "eurostat_pop"
+  ],
+  "61": [
+   "eurostat_pop"
+  ],
+  "62": [
+   "eurostat_pop"
+  ],
+  "63": [
+   "eurostat_pop"
+  ],
+  "64": [
+   "eurostat_pop"
+  ],
+  "65": [
+   "eurostat_pop"
+  ],
+  "66": [
+   "eurostat_pop"
+  ],
+  "67": [
+   "eurostat_pop"
+  ],
+  "68": [
+   "eurostat_pop"
+  ],
+  "69": [
+   "eurostat_pop"
+  ],
+  "70": [
+   "eurostat_pop"
+  ],
+  "71": [
+   "eurostat_pop"
+  ],
+  "72": [
+   "eurostat_pop"
+  ],
+  "73": [
+   "eurostat_pop"
+  ],
+  "74": [
+   "eurostat_pop"
+  ],
+  "75": [
+   "eurostat_pop"
+  ],
+  "76": [
+   "eurostat_pop"
+  ],
+  "77": [
+   "eurostat_pop"
+  ],
+  "78": [
+   "eurostat_pop"
+  ],
+  "79": [
+   "eurostat_pop"
+  ],
+  "80": [
+   "eurostat_pop"
+  ],
+  "81": [
+   "eurostat_pop"
+  ],
+  "82": [
+   "eurostat_pop"
+  ],
+  "83": [
+   "eurostat_pop"
+  ],
+  "84": [
+   "eurostat_pop"
+  ],
+  "85": [
+   "eurostat_pop"
+  ],
+  "86": [
+   "eurostat_pop"
+  ],
+  "87": [
+   "eurostat_pop"
+  ],
+  "88": [
+   "eurostat_pop"
+  ],
+  "89": [
+   "eurostat_pop"
+  ],
+  "90": [
+   "eurostat_pop"
+  ],
+  "91": [
+   "eurostat_pop"
+  ],
+  "92": [
+   "eurostat_pop"
+  ],
+  "93": [
+   "eurostat_pop"
+  ],
+  "94": [
+   "eurostat_pop"
+  ],
+  "95": [
+   "eurostat_pop"
+  ],
+  "96": [
+   "eurostat_pop"
+  ],
+  "97": [
+   "eurostat_pop"
+  ],
+  "98": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "99": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "100": [
+   "eurostat_pop"
+  ],
+  "101": [
+   "eurostat_pop"
+  ],
+  "102": [
+   "eurostat_pop"
+  ],
+  "103": [
+   "eurostat_pop"
+  ],
+  "104": [
+   "eurostat_pop"
+  ],
+  "105": [
+   "eurostat_pop"
+  ],
+  "106": [
+   "eurostat_pop"
+  ],
+  "107": [
+   "eurostat_pop"
+  ],
+  "108": [
+   "eurostat_pop",
+   "model_assembly"
+  ],
+  "109": [
+   "eurostat_pop"
+  ],
+  "110": [
+   "eurostat_pop"
+  ],
+  "111": [
+   "eurostat_pop"
+  ],
+  "112": [
+   "eurostat_pop"
+  ],
+  "113": [
+   "eurostat_pop"
+  ],
+  "114": [
+   "eurostat_pop"
+  ],
+  "115": [
+   "eurostat_pop"
+  ],
+  "116": [
+   "eurostat_pop"
+  ],
+  "117": [
+   "eurostat_pop"
+  ],
+  "118": [
+   "eurostat_pop"
+  ],
+  "119": [
+   "eurostat_pop"
+  ],
+  "120": [
+   "eurostat_pop"
+  ],
+  "121": [
+   "eurostat_pop"
+  ],
+  "122": [
+   "eurostat_pop"
+  ],
+  "123": [
+   "eurostat_pop"
+  ],
+  "124": [
+   "eurostat_pop"
+  ],
+  "125": [
+   "eurostat_pop"
+  ],
+  "126": [
+   "eurostat_pop"
+  ],
+  "127": [
+   "eurostat_pop"
+  ],
+  "128": [
+   "eurostat_pop"
+  ],
+  "129": [
+   "eurostat_pop"
+  ],
+  "130": [
+   "eurostat_pop"
+  ],
+  "131": [
+   "eurostat_pop"
+  ],
+  "132": [
+   "eurostat_pop"
+  ],
+  "133": [
+   "eurostat_pop"
+  ],
+  "134": [
+   "eurostat_pop"
+  ],
+  "135": [
+   "eurostat_pop"
+  ],
+  "136": [
+   "eurostat_pop"
+  ],
+  "137": [
+   "eurostat_pop"
+  ],
+  "138": [
+   "eurostat_pop"
+  ],
+  "139": [
+   "eurostat_pop"
+  ],
+  "140": [
+   "eurostat_pop"
+  ],
+  "141": [
+   "eurostat_pop"
+  ],
+  "142": [
+   "eurostat_pop"
+  ],
+  "143": [
+   "eurostat_pop"
+  ],
+  "144": [
+   "eurostat_pop"
+  ],
+  "145": [
+   "eurostat_pop"
+  ],
+  "146": [
+   "eurostat_pop"
+  ],
+  "147": [
+   "eurostat_pop"
+  ],
+  "148": [
+   "eurostat_pop"
+  ],
+  "149": [
+   "eurostat_pop"
+  ],
+  "150": [
+   "eurostat_pop"
+  ],
+  "151": [
+   "eurostat_pop"
+  ],
+  "152": [
+   "eurostat_pop"
+  ],
+  "153": [
+   "eurostat_pop"
+  ],
+  "154": [
+   "eurostat_pop"
+  ],
+  "155": [
+   "eurostat_pop"
+  ],
+  "156": [
+   "eurostat_pop"
+  ],
+  "157": [
+   "eurostat_pop"
+  ],
+  "158": [
+   "eurostat_pop"
+  ],
+  "159": [
+   "eurostat_pop"
+  ],
+  "160": [
+   "eurostat_pop"
+  ],
+  "161": [
+   "eurostat_pop"
+  ],
+  "162": [
+   "eurostat_pop"
+  ],
+  "163": [
+   "eurostat_pop"
+  ],
+  "164": [
+   "eurostat_pop"
+  ],
+  "165": [
+   "eurostat_pop"
+  ],
+  "166": [
+   "eurostat_pop"
+  ],
+  "167": [
+   "eurostat_pop"
+  ],
+  "168": [
+   "eurostat_pop"
+  ],
+  "169": [
+   "eurostat_pop"
+  ],
+  "170": [
+   "eurostat_pop"
+  ],
+  "171": [
+   "eurostat_pop"
+  ],
+  "172": [
+   "eurostat_pop"
+  ],
+  "173": [
+   "eurostat_pop"
+  ],
+  "174": [
+   "eurostat_pop"
+  ],
+  "175": [
+   "eurostat_pop"
+  ],
+  "176": [
+   "eurostat_pop"
+  ],
+  "177": [
+   "eurostat_pop"
+  ],
+  "178": [
+   "eurostat_pop"
+  ],
+  "179": [
+   "eurostat_pop"
+  ],
+  "180": [
+   "eurostat_pop"
+  ],
+  "181": [
+   "eurostat_pop"
+  ],
+  "182": [
+   "eurostat_pop"
+  ],
+  "183": [
+   "eurostat_pop"
+  ],
+  "184": [
+   "eurostat_pop"
+  ],
+  "185": [
+   "eurostat_pop"
+  ],
+  "186": [
+   "eurostat_pop"
+  ],
+  "187": [
+   "eurostat_pop"
+  ],
+  "188": [
+   "eurostat_pop"
+  ],
+  "189": [
+   "eurostat_pop"
+  ],
+  "190": [
+   "eurostat_pop"
+  ],
+  "191": [
+   "eurostat_pop"
+  ],
+  "192": [
+   "eurostat_pop"
+  ],
+  "193": [
+   "eurostat_pop"
+  ],
+  "194": [
+   "eurostat_pop"
+  ],
+  "195": [
+   "eurostat_pop"
+  ],
+  "196": [
+   "eurostat_pop"
+  ],
+  "197": [
+   "eurostat_pop"
+  ],
+  "198": [
+   "eurostat_pop"
+  ],
+  "199": [
+   "eurostat_pop"
+  ],
+  "200": [
+   "eurostat_pop"
+  ],
+  "201": [
+   "eurostat_pop"
+  ],
+  "202": [
+   "eurostat_pop"
+  ],
+  "203": [
+   "eurostat_pop"
+  ],
+  "204": [
+   "eurostat_pop"
+  ],
+  "205": [
+   "eurostat_pop"
+  ],
+  "206": [
+   "eurostat_pop"
+  ],
+  "207": [
+   "eurostat_pop"
+  ],
+  "208": [
+   "eurostat_pop"
+  ],
+  "209": [
+   "eurostat_pop"
+  ]
+ },
+ "shunts": {
+  "1": [
+   "inference"
+  ],
+  "2": [
+   "inference"
+  ],
+  "4": [
+   "inference"
+  ],
+  "5": [
+   "inference"
+  ],
+  "7": [
+   "inference"
+  ],
+  "8": [
+   "inference"
+  ],
+  "12": [
+   "inference"
+  ],
+  "37": [
+   "inference"
+  ],
+  "39": [
+   "inference"
+  ],
+  "44": [
+   "inference"
+  ],
+  "46": [
+   "inference"
+  ],
+  "47": [
+   "inference"
+  ],
+  "53": [
+   "inference"
+  ],
+  "57": [
+   "inference"
+  ],
+  "67": [
+   "inference"
+  ],
+  "71": [
+   "inference"
+  ],
+  "73": [
+   "inference"
+  ],
+  "83": [
+   "inference"
+  ],
+  "84": [
+   "inference"
+  ],
+  "85": [
+   "inference"
+  ],
+  "87": [
+   "inference"
+  ],
+  "88": [
+   "inference"
+  ],
+  "89": [
+   "inference"
+  ],
+  "95": [
+   "inference"
+  ],
+  "97": [
+   "inference"
+  ],
+  "100": [
+   "inference"
+  ],
+  "101": [
+   "inference"
+  ],
+  "115": [
+   "inference"
+  ],
+  "116": [
+   "inference"
+  ],
+  "117": [
+   "inference"
+  ],
+  "154": [
+   "inference"
+  ],
+  "159": [
+   "inference"
+  ],
+  "163": [
+   "inference"
+  ],
+  "164": [
+   "inference"
+  ],
+  "168": [
+   "inference"
+  ],
+  "171": [
+   "inference"
+  ],
+  "175": [
+   "inference"
+  ],
+  "177": [
+   "inference"
+  ],
+  "181": [
+   "inference"
+  ],
+  "185": [
+   "inference"
+  ],
+  "186": [
+   "inference"
+  ],
+  "187": [
+   "inference"
+  ],
+  "188": [
+   "inference"
+  ],
+  "191": [
+   "inference"
+  ],
+  "192": [
+   "inference"
+  ],
+  "204": [
+   "inference"
+  ],
+  "206": [
+   "inference"
+  ],
+  "208": [
+   "inference"
+  ],
+  "209": [
+   "inference"
+  ],
+  "119": [
+   "inference"
+  ],
+  "40": [
+   "inference"
+  ],
+  "200": [
+   "inference"
+  ],
+  "49": [
+   "inference"
+  ],
+  "198": [
+   "inference"
+  ],
+  "51": [
+   "inference"
+  ],
+  "102": [
+   "inference"
+  ],
+  "162": [
+   "inference"
+  ]
+ }
+}

@@ -1,0 +1,3109 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Danish DK1 (Jutland and Funen, Continental Europe synchronous area) 400/220/150 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energidataservice",
+   "title": "Energi Data Service: production, consumption and exchange per price area (DK1, DK2), 5-minute (snapshot hour)",
+   "publisher": "Energinet",
+   "url": "https://www.energidataservice.dk",
+   "licence": "Energi Data Service terms (free reuse with source attribution) [VERIFY]",
+   "published": true
+  },
+  {
+   "id": "eurostat_pop",
+   "title": "Population on 1 January 2024 by NUTS 3 region (demo_r_pjanaggr3) and GISCO NUTS 2024 label points",
+   "publisher": "Eurostat / GISCO (EuroGeographics boundaries)",
+   "url": "https://ec.europa.eu/eurostat",
+   "licence": "CC BY 4.0 (Eurostat); GISCO points (c) EuroGeographics",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  },
+  {
+   "id": "inference",
+   "title": "the build pipeline inference round: physics-inferred generic feeds, compensation and tap positions, each listed in inferred_elements.json and MODEL_CARD.md",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "osm"
+  ],
+  "35": [
+   "osm"
+  ],
+  "36": [
+   "osm"
+  ],
+  "37": [
+   "osm"
+  ],
+  "38": [
+   "osm"
+  ],
+  "39": [
+   "osm"
+  ],
+  "40": [
+   "osm"
+  ],
+  "41": [
+   "osm"
+  ],
+  "42": [
+   "osm"
+  ],
+  "43": [
+   "osm"
+  ],
+  "44": [
+   "osm"
+  ],
+  "45": [
+   "osm"
+  ],
+  "46": [
+   "osm"
+  ],
+  "47": [
+   "osm"
+  ],
+  "48": [
+   "osm"
+  ],
+  "49": [
+   "osm"
+  ],
+  "50": [
+   "osm"
+  ],
+  "51": [
+   "osm"
+  ],
+  "52": [
+   "osm"
+  ],
+  "53": [
+   "osm"
+  ],
+  "54": [
+   "osm"
+  ],
+  "55": [
+   "osm"
+  ],
+  "56": [
+   "osm"
+  ],
+  "57": [
+   "osm"
+  ],
+  "58": [
+   "osm"
+  ],
+  "59": [
+   "osm"
+  ],
+  "60": [
+   "osm"
+  ],
+  "61": [
+   "osm"
+  ],
+  "62": [
+   "osm"
+  ],
+  "63": [
+   "osm"
+  ],
+  "64": [
+   "osm"
+  ],
+  "65": [
+   "osm"
+  ],
+  "66": [
+   "osm"
+  ],
+  "67": [
+   "osm"
+  ],
+  "68": [
+   "osm"
+  ],
+  "69": [
+   "osm"
+  ],
+  "70": [
+   "osm"
+  ],
+  "71": [
+   "osm"
+  ],
+  "72": [
+   "osm"
+  ],
+  "73": [
+   "osm"
+  ],
+  "74": [
+   "osm"
+  ],
+  "75": [
+   "osm"
+  ],
+  "76": [
+   "osm"
+  ],
+  "77": [
+   "osm"
+  ],
+  "78": [
+   "osm"
+  ],
+  "79": [
+   "osm"
+  ],
+  "80": [
+   "osm"
+  ],
+  "81": [
+   "osm"
+  ],
+  "82": [
+   "osm"
+  ],
+  "83": [
+   "osm"
+  ],
+  "84": [
+   "osm"
+  ],
+  "85": [
+   "osm"
+  ],
+  "86": [
+   "osm"
+  ],
+  "87": [
+   "osm"
+  ],
+  "88": [
+   "osm"
+  ],
+  "89": [
+   "osm"
+  ],
+  "90": [
+   "osm"
+  ],
+  "91": [
+   "osm"
+  ],
+  "92": [
+   "osm"
+  ],
+  "93": [
+   "osm"
+  ],
+  "94": [
+   "osm"
+  ],
+  "95": [
+   "osm"
+  ],
+  "96": [
+   "osm"
+  ],
+  "97": [
+   "osm"
+  ],
+  "98": [
+   "osm"
+  ],
+  "99": [
+   "osm"
+  ],
+  "100": [
+   "osm"
+  ],
+  "101": [
+   "osm"
+  ],
+  "102": [
+   "osm"
+  ],
+  "103": [
+   "osm"
+  ],
+  "104": [
+   "osm"
+  ],
+  "105": [
+   "osm"
+  ],
+  "106": [
+   "osm"
+  ],
+  "107": [
+   "osm"
+  ],
+  "108": [
+   "osm"
+  ],
+  "109": [
+   "osm"
+  ],
+  "110": [
+   "osm"
+  ],
+  "111": [
+   "osm"
+  ],
+  "112": [
+   "osm"
+  ],
+  "113": [
+   "osm"
+  ],
+  "114": [
+   "osm"
+  ],
+  "115": [
+   "osm"
+  ],
+  "116": [
+   "osm"
+  ],
+  "117": [
+   "osm"
+  ],
+  "118": [
+   "osm"
+  ],
+  "119": [
+   "osm"
+  ],
+  "120": [
+   "osm"
+  ],
+  "121": [
+   "osm"
+  ],
+  "122": [
+   "osm"
+  ],
+  "123": [
+   "osm"
+  ],
+  "124": [
+   "osm"
+  ],
+  "125": [
+   "osm"
+  ],
+  "126": [
+   "osm"
+  ],
+  "127": [
+   "osm"
+  ],
+  "128": [
+   "osm"
+  ],
+  "129": [
+   "osm"
+  ],
+  "130": [
+   "osm"
+  ],
+  "131": [
+   "osm"
+  ],
+  "132": [
+   "osm"
+  ],
+  "133": [
+   "osm"
+  ],
+  "134": [
+   "osm"
+  ],
+  "135": [
+   "osm"
+  ],
+  "136": [
+   "osm"
+  ],
+  "137": [
+   "osm"
+  ],
+  "138": [
+   "osm"
+  ],
+  "139": [
+   "osm"
+  ],
+  "140": [
+   "osm"
+  ],
+  "141": [
+   "osm"
+  ],
+  "142": [
+   "osm"
+  ],
+  "143": [
+   "osm"
+  ],
+  "144": [
+   "osm"
+  ],
+  "145": [
+   "osm"
+  ],
+  "146": [
+   "osm"
+  ],
+  "147": [
+   "osm"
+  ],
+  "148": [
+   "osm"
+  ],
+  "149": [
+   "osm"
+  ],
+  "150": [
+   "osm"
+  ],
+  "151": [
+   "osm"
+  ],
+  "152": [
+   "osm"
+  ],
+  "153": [
+   "osm"
+  ],
+  "154": [
+   "osm"
+  ],
+  "155": [
+   "osm"
+  ],
+  "156": [
+   "osm"
+  ],
+  "157": [
+   "osm"
+  ],
+  "158": [
+   "osm"
+  ],
+  "159": [
+   "osm"
+  ],
+  "160": [
+   "osm"
+  ],
+  "161": [
+   "osm"
+  ],
+  "162": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "165": [
+   "model_assembly"
+  ],
+  "166": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "168": [
+   "model_assembly"
+  ],
+  "169": [
+   "model_assembly"
+  ],
+  "170": [
+   "model_assembly"
+  ],
+  "171": [
+   "model_assembly"
+  ],
+  "172": [
+   "model_assembly"
+  ],
+  "173": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "176": [
+   "model_assembly"
+  ],
+  "177": [
+   "model_assembly"
+  ],
+  "178": [
+   "model_assembly"
+  ],
+  "179": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_way/108831032-400+7": [
+   "pypsa_osm"
+  ],
+  "merged_way/134153236-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/244671282-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/250212216-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/252095611-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/385384752-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/385384757-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/386668488-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/465828525-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/69437656-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/841787388-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/92030253:a-400+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/98521950-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/98524304-400+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/98524867-400+4": [
+   "pypsa_osm"
+  ],
+  "merged_way/98527117-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/99063006-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/99238800-400+3": [
+   "pypsa_osm"
+  ],
+  "relation/5207262-400": [
+   "pypsa_osm"
+  ],
+  "relation/5207265-400": [
+   "pypsa_osm"
+  ],
+  "relation/5207534:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/5641561:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/5648270-400": [
+   "pypsa_osm"
+  ],
+  "relation/5648272-400": [
+   "pypsa_osm"
+  ],
+  "relation/6698729:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/6698730-400": [
+   "pypsa_osm"
+  ],
+  "relation/6698731:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/6790841:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/6790846:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/6964284:a-400": [
+   "pypsa_osm"
+  ],
+  "way/1417648448-400": [
+   "pypsa_osm"
+  ],
+  "way/202011153-220": [
+   "pypsa_osm"
+  ],
+  "way/202011154-220": [
+   "pypsa_osm"
+  ],
+  "way/69408906-400": [
+   "pypsa_osm"
+  ],
+  "way/69408913-400": [
+   "pypsa_osm"
+  ],
+  "way/96114408-400": [
+   "pypsa_osm"
+  ],
+  "way/98041229-400": [
+   "pypsa_osm"
+  ],
+  "way/98214735-400": [
+   "pypsa_osm"
+  ],
+  "hv:way/32961401": [
+   "osm"
+  ],
+  "hv:way/34631412+1": [
+   "osm"
+  ],
+  "hv:way/35964759": [
+   "osm"
+  ],
+  "hv:way/36230536+7": [
+   "osm"
+  ],
+  "hv:way/44802060+1": [
+   "osm"
+  ],
+  "hv:way/44809016+1": [
+   "osm"
+  ],
+  "hv:way/44809018": [
+   "osm"
+  ],
+  "hv:way/58507313": [
+   "osm"
+  ],
+  "hv:way/69408907": [
+   "osm"
+  ],
+  "hv:way/69408915": [
+   "osm"
+  ],
+  "hv:way/69412924": [
+   "osm"
+  ],
+  "hv:way/69412926": [
+   "osm"
+  ],
+  "hv:way/69468787": [
+   "osm"
+  ],
+  "hv:way/69475465+2": [
+   "osm"
+  ],
+  "hv:way/88294708+5": [
+   "osm"
+  ],
+  "hv:way/92030253:0+1": [
+   "osm"
+  ],
+  "hv:way/92030253:1+1": [
+   "osm"
+  ],
+  "hv:way/95694418+2": [
+   "osm"
+  ],
+  "hv:way/95841934+3": [
+   "osm"
+  ],
+  "hv:way/95846371+2": [
+   "osm"
+  ],
+  "hv:way/95868395": [
+   "osm"
+  ],
+  "hv:way/95868397+5": [
+   "osm"
+  ],
+  "hv:way/96398420+1": [
+   "osm"
+  ],
+  "hv:way/96618923+1": [
+   "osm"
+  ],
+  "hv:way/96877247+4": [
+   "osm"
+  ],
+  "hv:way/97758979+2": [
+   "osm"
+  ],
+  "hv:way/97758980+2": [
+   "osm"
+  ],
+  "hv:way/98030041+2": [
+   "osm"
+  ],
+  "hv:way/98033209+2": [
+   "osm"
+  ],
+  "hv:way/98216476": [
+   "osm"
+  ],
+  "hv:way/98216485": [
+   "osm"
+  ],
+  "hv:way/98216492": [
+   "osm"
+  ],
+  "hv:way/98216803": [
+   "osm"
+  ],
+  "hv:way/98216948": [
+   "osm"
+  ],
+  "hv:way/98216976": [
+   "osm"
+  ],
+  "hv:way/98333745": [
+   "osm"
+  ],
+  "hv:way/98348070": [
+   "osm"
+  ],
+  "hv:way/98349588": [
+   "osm"
+  ],
+  "hv:way/98524300+2": [
+   "osm"
+  ],
+  "hv:way/98524865+1": [
+   "osm"
+  ],
+  "hv:way/98756439": [
+   "osm"
+  ],
+  "hv:way/98756442": [
+   "osm"
+  ],
+  "hv:way/98756445": [
+   "osm"
+  ],
+  "hv:way/98756461": [
+   "osm"
+  ],
+  "hv:way/98756462": [
+   "osm"
+  ],
+  "hv:way/98756470": [
+   "osm"
+  ],
+  "hv:way/98756473": [
+   "osm"
+  ],
+  "hv:way/98756479": [
+   "osm"
+  ],
+  "hv:way/98756483": [
+   "osm"
+  ],
+  "hv:way/98756490": [
+   "osm"
+  ],
+  "hv:way/98756494+1": [
+   "osm"
+  ],
+  "hv:way/98767202": [
+   "osm"
+  ],
+  "hv:way/98767205": [
+   "osm"
+  ],
+  "hv:way/99063006+1": [
+   "osm"
+  ],
+  "hv:way/99079496": [
+   "osm"
+  ],
+  "hv:way/99079514": [
+   "osm"
+  ],
+  "hv:way/99231515+1": [
+   "osm"
+  ],
+  "hv:way/99238784+3": [
+   "osm"
+  ],
+  "hv:way/100369073": [
+   "osm"
+  ],
+  "hv:way/100420672+1": [
+   "osm"
+  ],
+  "hv:way/100528747+2": [
+   "osm"
+  ],
+  "hv:way/100534125+1": [
+   "osm"
+  ],
+  "hv:way/103575518+3": [
+   "osm"
+  ],
+  "hv:way/114423217": [
+   "osm"
+  ],
+  "hv:way/116042218": [
+   "osm"
+  ],
+  "hv:way/116042951": [
+   "osm"
+  ],
+  "hv:way/116253925": [
+   "osm"
+  ],
+  "hv:way/116253928": [
+   "osm"
+  ],
+  "hv:way/118241382": [
+   "osm"
+  ],
+  "hv:way/118241384": [
+   "osm"
+  ],
+  "hv:way/118243834": [
+   "osm"
+  ],
+  "hv:way/118498915": [
+   "osm"
+  ],
+  "hv:way/118990864": [
+   "osm"
+  ],
+  "hv:way/119637477": [
+   "osm"
+  ],
+  "hv:way/119637484": [
+   "osm"
+  ],
+  "hv:way/119637487": [
+   "osm"
+  ],
+  "hv:way/119637489": [
+   "osm"
+  ],
+  "hv:way/119647248": [
+   "osm"
+  ],
+  "hv:way/119647257": [
+   "osm"
+  ],
+  "hv:way/119756856": [
+   "osm"
+  ],
+  "hv:way/119926861": [
+   "osm"
+  ],
+  "hv:way/125669092": [
+   "osm"
+  ],
+  "hv:way/126108746": [
+   "osm"
+  ],
+  "hv:way/127265810+1": [
+   "osm"
+  ],
+  "hv:way/127266151": [
+   "osm"
+  ],
+  "hv:way/127677554": [
+   "osm"
+  ],
+  "hv:way/128932924": [
+   "osm"
+  ],
+  "hv:way/129719527": [
+   "osm"
+  ],
+  "hv:way/134152068": [
+   "osm"
+  ],
+  "hv:way/134152069": [
+   "osm"
+  ],
+  "hv:way/134153231": [
+   "osm"
+  ],
+  "hv:way/134153234": [
+   "osm"
+  ],
+  "hv:way/134156590": [
+   "osm"
+  ],
+  "hv:way/134265143": [
+   "osm"
+  ],
+  "hv:way/134943587": [
+   "osm"
+  ],
+  "hv:way/151073922": [
+   "osm"
+  ],
+  "hv:way/159412568": [
+   "osm"
+  ],
+  "hv:way/163625362": [
+   "osm"
+  ],
+  "hv:way/163743530": [
+   "osm"
+  ],
+  "hv:way/178714718": [
+   "osm"
+  ],
+  "hv:way/198193230": [
+   "osm"
+  ],
+  "hv:way/202017019": [
+   "osm"
+  ],
+  "hv:way/207637460": [
+   "osm"
+  ],
+  "hv:way/207637461": [
+   "osm"
+  ],
+  "hv:way/207779811+2": [
+   "osm"
+  ],
+  "hv:way/210385573": [
+   "osm"
+  ],
+  "hv:way/210385585": [
+   "osm"
+  ],
+  "hv:way/210385604": [
+   "osm"
+  ],
+  "hv:way/210654316": [
+   "osm"
+  ],
+  "hv:way/212468184": [
+   "osm"
+  ],
+  "hv:way/212468192": [
+   "osm"
+  ],
+  "hv:way/212468246+1": [
+   "osm"
+  ],
+  "hv:way/213578637": [
+   "osm"
+  ],
+  "hv:way/214635333": [
+   "osm"
+  ],
+  "hv:way/215307218": [
+   "osm"
+  ],
+  "hv:way/215307220": [
+   "osm"
+  ],
+  "hv:way/215836094": [
+   "osm"
+  ],
+  "hv:way/215836103": [
+   "osm"
+  ],
+  "hv:way/216518414": [
+   "osm"
+  ],
+  "hv:way/216521601": [
+   "osm"
+  ],
+  "hv:way/236000937": [
+   "osm"
+  ],
+  "hv:way/236000941": [
+   "osm"
+  ],
+  "hv:way/236000948": [
+   "osm"
+  ],
+  "hv:way/236000955": [
+   "osm"
+  ],
+  "hv:way/253817661": [
+   "osm"
+  ],
+  "hv:way/297265891": [
+   "osm"
+  ],
+  "hv:way/297265893": [
+   "osm"
+  ],
+  "hv:way/319073798:4": [
+   "osm"
+  ],
+  "hv:way/319097914": [
+   "osm"
+  ],
+  "hv:way/382136795": [
+   "osm"
+  ],
+  "hv:way/398470326": [
+   "osm"
+  ],
+  "hv:way/399008274": [
+   "osm"
+  ],
+  "hv:way/452515975": [
+   "osm"
+  ],
+  "hv:way/452515977": [
+   "osm"
+  ],
+  "hv:way/454021697": [
+   "osm"
+  ],
+  "hv:way/457491976": [
+   "osm"
+  ],
+  "hv:way/460136113": [
+   "osm"
+  ],
+  "hv:way/461310915+4": [
+   "osm"
+  ],
+  "hv:way/461310916+2": [
+   "osm"
+  ],
+  "hv:way/461310924": [
+   "osm"
+  ],
+  "hv:way/461312284": [
+   "osm"
+  ],
+  "hv:way/468723712": [
+   "osm"
+  ],
+  "hv:way/468723713+1": [
+   "osm"
+  ],
+  "hv:way/468729126": [
+   "osm"
+  ],
+  "hv:way/473779154+2": [
+   "osm"
+  ],
+  "hv:way/474112105+4": [
+   "osm"
+  ],
+  "hv:way/543187224": [
+   "osm"
+  ],
+  "hv:way/544749286+1": [
+   "osm"
+  ],
+  "hv:way/544749290": [
+   "osm"
+  ],
+  "hv:way/544749293": [
+   "osm"
+  ],
+  "hv:way/841787388": [
+   "osm"
+  ],
+  "hv:way/981147608": [
+   "osm"
+  ],
+  "hv:way/981150731": [
+   "osm"
+  ],
+  "hv:way/983135007": [
+   "osm"
+  ],
+  "hv:way/1131812894": [
+   "osm"
+  ],
+  "hv:way/1132284884": [
+   "osm"
+  ],
+  "hv:way/1208383017": [
+   "osm"
+  ],
+  "hv:way/1208383018": [
+   "osm"
+  ],
+  "hv:way/1208383019": [
+   "osm"
+  ],
+  "hv:way/1208383020": [
+   "osm"
+  ],
+  "hv:way/1208383023": [
+   "osm"
+  ],
+  "hv:way/1208383024": [
+   "osm"
+  ],
+  "hv:way/1266282017": [
+   "osm"
+  ],
+  "hv:way/1266282027": [
+   "osm"
+  ],
+  "hv:way/1266282040": [
+   "osm"
+  ],
+  "hv:way/1303891342": [
+   "osm"
+  ],
+  "hv:way/1380932076": [
+   "osm"
+  ],
+  "hv:way/1388755575": [
+   "osm"
+  ],
+  "hv:way/1394580823": [
+   "osm"
+  ],
+  "way/1284726676-400-220": [
+   "pypsa_osm"
+  ],
+  "way/98526640-400-220": [
+   "pypsa_osm"
+  ],
+  "cpl:virtual_relation/5207534:b:1-400>osmhv:way/99216726-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/166885671:0-400>osmhv:way/98524299-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/399008275:0-400>osmhv:way/399008276-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/69408906:1-400>osmhv:way/45393856-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/98214734:0-400>osmhv:way/98214736-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1271587272-400>osmhv:way/1271587272-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1284726676-400>osmhv:way/1284726677-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/133555503-400>osmhv:way/133555504-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1384028957-400>osmhv:relation/19092930-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/42128776-400>osmhv:way/42128776-150": [
+   "model_assembly",
+   "inference",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/69424173-400>osmhv:way/1379134205-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/93624851-400>osmhv:way/93624851-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/95713495-400>osmhv:way/95713495-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/95840891-400>osmhv:way/95840891-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/95868396-400>osmhv:way/95868396-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/97010538-400>osmhv:way/97010538-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/98033206-400>osmhv:way/98033206-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/385384761:0-400>osmhv:way/98212652-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/98216482-400>osmhv:way/98216482-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/98524305-400>osmhv:way/98524305-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/98526640-400>osmhv:way/98526640-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "gsu:virtual_way/69408906:1-400": [
+   "model_assembly"
+  ],
+  "gsu:way/133555503-400": [
+   "model_assembly"
+  ],
+  "gsu:way/93624851-400": [
+   "model_assembly"
+  ],
+  "gsu:way/98212652-400": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:55.46052,8.46299-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/103575499-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/126108744-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/133555504-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/151073920-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/202017024-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/205340733-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/32235977-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/45393856-150": [
+   "model_assembly",
+   "inference"
+  ],
+  "gsu:osmhv:way/87313244-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/95694419-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/97010538-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/98041227-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/98524864-150": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Holsted Solar Farm": [
+   "ppm"
+  ],
+  "Vandel Solar Farm": [
+   "ppm"
+  ],
+  "Fyns": [
+   "ppm"
+  ],
+  "import United Kingdom at way/1101832649-400": [
+   "energidataservice"
+  ],
+  "import Norway at way/1271587272-400": [
+   "energidataservice"
+  ],
+  "import Norway at way/1271587272-400 #2": [
+   "energidataservice"
+  ],
+  "import Netherlands at way/1284726676-400": [
+   "energidataservice"
+  ],
+  "Skaerbaekvaerket": [
+   "ppm"
+  ],
+  "Studstrup": [
+   "ppm"
+  ],
+  "embedded hydro at way/95713495-400": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Kasso Solar Farm": [
+   "ppm"
+  ],
+  "Heartland Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/97010538-400": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Nordjylland": [
+   "ppm"
+  ],
+  "embedded hydro at way/98524305-400": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Horns Rev Offshore Wind Farm": [
+   "ppm"
+  ],
+  "Anholt Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/214266451-220": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Fraugde Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:relation/19092930-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Aabenraa Solar": [
+   "ppm"
+  ],
+  "Aabenraa Solar #2": [
+   "ppm"
+  ],
+  "Odense Ny Havneterminal Wind Farm": [
+   "ppm"
+  ],
+  "Draeby Fed": [
+   "ppm"
+  ],
+  "Esbjerg Reserve": [
+   "ppm"
+  ],
+  "Made Esbjerg Wind Farm": [
+   "ppm"
+  ],
+  "Tjaereborg Enge Wind Farm": [
+   "ppm"
+  ],
+  "Ovnbol Wind Farm": [
+   "ppm"
+  ],
+  "Denmark Solar Xxi": [
+   "ppm"
+  ],
+  "Denmark Solar Xviii": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar": [
+   "ppm"
+  ],
+  "Varde Solar": [
+   "ppm"
+  ],
+  "Vejle Solar": [
+   "ppm"
+  ],
+  "Tuno Knob": [
+   "ppm"
+  ],
+  "Aarhus Solar": [
+   "ppm"
+  ],
+  "Aarhus Solar #2": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar": [
+   "ppm"
+  ],
+  "Svoldrup Kaer Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar": [
+   "ppm"
+  ],
+  "Krogstrup Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xiv": [
+   "ppm"
+  ],
+  "Aalborg Solar": [
+   "ppm"
+  ],
+  "Thorup Sletten Wind Farm": [
+   "ppm"
+  ],
+  "Oslev Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/100256304-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/100369106-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Syddjurs Solar": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xvi": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/100528749-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Vollerup Solar Farm": [
+   "ppm"
+  ],
+  "Denmark Solar Xix": [
+   "ppm"
+  ],
+  "Denmark Solar": [
+   "ppm"
+  ],
+  "Denmark Solar Xxiii": [
+   "ppm"
+  ],
+  "Sonderborg Solar": [
+   "ppm"
+  ],
+  "Sonderborg Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/103575499-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Sonderborg Kraftvarmevaerk Chp": [
+   "ppm"
+  ],
+  "Rejsby Hede Wind Farm": [
+   "ppm"
+  ],
+  "Vindtved Wind Farm": [
+   "ppm"
+  ],
+  "Toftlund": [
+   "ppm"
+  ],
+  "Denmark Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/108831038-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "North Denmark Region Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/109068855-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/114423216-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Denmark Solar Xvi": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/115666576-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Suduroy Bess": [
+   "ppm"
+  ],
+  "Nordfyns Solar": [
+   "ppm"
+  ],
+  "Odense Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/116253927-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Vester Barde Wind Farm": [
+   "ppm"
+  ],
+  "Videbaek Mose Wind Farm": [
+   "ppm"
+  ],
+  "Abilda Wind Farm": [
+   "ppm"
+  ],
+  "Herning Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/1171502182-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Lem Kaer Wind Farm": [
+   "ppm"
+  ],
+  "Bindesbol Wind Farm": [
+   "ppm"
+  ],
+  "Hejmdal Wind Farm": [
+   "ppm"
+  ],
+  "Urup Hede Wind Farm": [
+   "ppm"
+  ],
+  "Troldhede Wind Farm": [
+   "ppm"
+  ],
+  "Stakroge Wind Farm": [
+   "ppm"
+  ],
+  "Ringkobing Skjern Solar": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xiv": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xviii": [
+   "ppm"
+  ],
+  "Lem Kaer Wind Plus": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xiii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/118245408-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Norhede Hjortmose Aura Energi Wind Farm": [
+   "ppm"
+  ],
+  "Hogager Wind Farm": [
+   "ppm"
+  ],
+  "Tim Wind Farm": [
+   "ppm"
+  ],
+  "Ringkobing Skjern Solar #2": [
+   "ppm"
+  ],
+  "Vognkaer Wind Farm": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #2": [
+   "ppm"
+  ],
+  "Ringkobing Skjern Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/1183878324-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/119648633-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Varde Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/119786181-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "North Denmark Region Solar #4": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/125669085-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Norre Okse So Wind Farm": [
+   "ppm"
+  ],
+  "Ostrup Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xxv": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/125669089-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Egebjerg Wind Farm": [
+   "ppm"
+  ],
+  "Hogsted Wind Farm": [
+   "ppm"
+  ],
+  "Hirtshals Havn Wind Farm": [
+   "ppm"
+  ],
+  "Garestrup Wind Farm": [
+   "ppm"
+  ],
+  "Hjorring Solar": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xxii": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xiii": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #5": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/126108744-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Hjorring Cogeneration": [
+   "ppm"
+  ],
+  "Nejst Wind Farm": [
+   "ppm"
+  ],
+  "Agersted Solar Farm": [
+   "ppm"
+  ],
+  "Gammel Vra Enge Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xvi": [
+   "ppm"
+  ],
+  "Aalborg Csp Bronderslev Csp With Orc Solar": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xvii": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/126108747-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Central Denmark Region Solar #3": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xxii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/1271587263-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/1271587268-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/1271587272-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Middelfart Solar": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar Xii": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/127264718-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/1284726677-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Gettrup Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #6": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/128931694-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/133555504-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Skaerbaek": [
+   "ppm"
+  ],
+  "Dostrup Vest Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xviii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/134152066-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Assens Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/1379134205-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/1384028953-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/1423053888-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Region Of Southern Denmark Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/1432089357-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Ingerslev Solar Farm": [
+   "ppm"
+  ],
+  "Veddum Wind Farm": [
+   "ppm"
+  ],
+  "Mariagerfjord Solar": [
+   "ppm"
+  ],
+  "Ilshoj Wind Farm": [
+   "ppm"
+  ],
+  "Allestrupgard Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #7": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xxiii": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #8": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/151073920-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Akzo Mariager": [
+   "ppm"
+  ],
+  "Norddjurs Solar": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #4": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/202017024-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Grenaa Reserve": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/205340733-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Lisbjerg": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/213578644-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Ulvemose Baekhede Plantage Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/216518428-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Ramme Solar Farm": [
+   "ppm"
+  ],
+  "Nees Solar Farm": [
+   "ppm"
+  ],
+  "Bovling Wind Farm": [
+   "ppm"
+  ],
+  "Southeast Nees Wind Farm": [
+   "ppm"
+  ],
+  "Gronkaer Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/216521602-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/227022908-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Horns Rev Offshore Wind Farm #2": [
+   "ppm"
+  ],
+  "Vesterhav Offshore Wind Farm": [
+   "ppm"
+  ],
+  "Holmen Solar Farm": [
+   "ppm"
+  ],
+  "Lonborg Hede Wind Farm": [
+   "ppm"
+  ],
+  "Holmen Wind Farm": [
+   "ppm"
+  ],
+  "Venner Wind Farm": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #4": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/253457669-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Horns Rev Offshore Wind Farm #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/253817668-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/253817669-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/256367411-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Vildbjerg Solar Farm": [
+   "ppm"
+  ],
+  "Herning Solar #2": [
+   "ppm"
+  ],
+  "Krusbjerg Wind Farm": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #5": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xix": [
+   "ppm"
+  ],
+  "Viborg Solar": [
+   "ppm"
+  ],
+  "Herning Solar #3": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #6": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/32235977-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Herning": [
+   "ppm"
+  ],
+  "Kolding Solar": [
+   "ppm"
+  ],
+  "Kolding Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/38687913-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Vejle Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/399008276-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/42128776-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/45393856-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Fyns #2": [
+   "ppm"
+  ],
+  "Fyns #3": [
+   "ppm"
+  ],
+  "Vejle Solar #3": [
+   "ppm"
+  ],
+  "Billund Solar": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xv": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #5": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/454021698-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/456610517-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "North Denmark Region Solar Xx": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/457491977-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Greenlab Skive Solar Farm": [
+   "ppm"
+  ],
+  "Bajlum Wind Farm": [
+   "ppm"
+  ],
+  "Asted Wind Farm": [
+   "ppm"
+  ],
+  "Lindum Wind Farm": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xxi": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xx": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/461310925-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Naessundvej Solar Farm": [
+   "ppm"
+  ],
+  "Sonder Herreds Wind Farm": [
+   "ppm"
+  ],
+  "Thyholm Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #9": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/461310926-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/47360911-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Hojby Solar Farm": [
+   "ppm"
+  ],
+  "Denmark Solar #3": [
+   "ppm"
+  ],
+  "Odense Solar #2": [
+   "ppm"
+  ],
+  "Odense Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/648731564-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/69413930-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Denmark Solar #4": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #6": [
+   "ppm"
+  ],
+  "Svendborg Solar": [
+   "ppm"
+  ],
+  "Denmark Solar #5": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #7": [
+   "ppm"
+  ],
+  "Svendborg Solar #2": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #8": [
+   "ppm"
+  ],
+  "Denmark Solar Xiii": [
+   "ppm"
+  ],
+  "Denmark Solar Xxiv": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/69421685-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Denmark Solar #6": [
+   "ppm"
+  ],
+  "Assens Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/69475464-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Fjerritslev Solar Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar #10": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/790172587-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Silkeborg Solar": [
+   "ppm"
+  ],
+  "Thorsminde Wind Farm": [
+   "ppm"
+  ],
+  "Ikast Brande Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/87313244-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Silkeborgvaerket": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/87572083-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/88294700-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/93624851-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/93790303-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Horsens Solar": [
+   "ppm"
+  ],
+  "Horsens Solar #2": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #7": [
+   "ppm"
+  ],
+  "Horsens Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95694419-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Horsens": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95713495-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Bola Wind Farm": [
+   "ppm"
+  ],
+  "Rens Hedegard Plantage Wind Farm": [
+   "ppm"
+  ],
+  "Denmark Solar Xii": [
+   "ppm"
+  ],
+  "Denmark Solar #7": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95840891-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Denmark Solar Xx": [
+   "ppm"
+  ],
+  "Denmark Solar #8": [
+   "ppm"
+  ],
+  "Tonder Solar": [
+   "ppm"
+  ],
+  "Kolding Solar #3": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #9": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95841929-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Urup Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95868394-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Svindbaek Wind Farm": [
+   "ppm"
+  ],
+  "Brande Wind Farm": [
+   "ppm"
+  ],
+  "Ikast Brande Solar #2": [
+   "ppm"
+  ],
+  "Vejle Solar #4": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/95868396-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Kolding Solar #4": [
+   "ppm"
+  ],
+  "Denmark Solar Xvii": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/96556117-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Ausumgaard Wind Farm": [
+   "ppm"
+  ],
+  "Quistrup Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/96614312-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Denmark Solar #9": [
+   "ppm"
+  ],
+  "Region Of Southern Denmark Solar #10": [
+   "ppm"
+  ],
+  "Aabenraa Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/96632017-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Vemb Wind Farm": [
+   "ppm"
+  ],
+  "St Soels Wind Farm": [
+   "ppm"
+  ],
+  "St Soels Solar Farm": [
+   "ppm"
+  ],
+  "Herning Solar #4": [
+   "ppm"
+  ],
+  "Vederso Wind Farm": [
+   "ppm"
+  ],
+  "Kikkenborg Wind Farm": [
+   "ppm"
+  ],
+  "Lemvig Solar": [
+   "ppm"
+  ],
+  "Blaesbjerg Wind Farm": [
+   "ppm"
+  ],
+  "Gedmose Wind Farm": [
+   "ppm"
+  ],
+  "Tvis Wind Farm": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar Xvii": [
+   "ppm"
+  ],
+  "Kyttrup Wind Farm": [
+   "ppm"
+  ],
+  "Lemvig Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/97010538-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Maabjerg": [
+   "ppm"
+  ],
+  "Aalestrup Wind Farm": [
+   "ppm"
+  ],
+  "Brorstrup Wind Farm": [
+   "ppm"
+  ],
+  "Rebild Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98030043-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/98033206-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Kvosted Solcellepark": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #8": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #9": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98041227-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Viborg": [
+   "ppm"
+  ],
+  "Vesterhav Offshore Wind Farm #2": [
+   "ppm"
+  ],
+  "Vesterhav Nord": [
+   "ppm"
+  ],
+  "Nissum Bredning Offshore Wind Farm": [
+   "ppm"
+  ],
+  "Ronland": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/981151624-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Alborg Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98212650-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/98212652-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/98214736-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Lyngdrup Wind Farm": [
+   "ppm"
+  ],
+  "Dronninglund Solar": [
+   "ppm"
+  ],
+  "Aalborg Solar #2": [
+   "ppm"
+  ],
+  "Aalborg Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98216482-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Pulsen Wind Farm": [
+   "ppm"
+  ],
+  "Skovengen Wind Farm": [
+   "ppm"
+  ],
+  "Hojstrup Wind Farm": [
+   "ppm"
+  ],
+  "Laeso Solar": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xv": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xxi": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98344883-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Aalbaek Solar Farm": [
+   "ppm"
+  ],
+  "Frederikshavn Offshore Wind Farm": [
+   "ppm"
+  ],
+  "North Denmark Region Solar Xix": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98348071-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/98521948-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Handest Hede Wind Farm": [
+   "ppm"
+  ],
+  "Hejring Laug Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98524299-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Rejstrup Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98524305-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Central Denmark Region Solar #10": [
+   "ppm"
+  ],
+  "Randers Solar": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98524864-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Randers": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/98526640-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "embedded hydro at osmhv:way/98763876-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Udbyneder Wind Farm": [
+   "ppm"
+  ],
+  "Randers Solar #2": [
+   "ppm"
+  ],
+  "Hollandsbjerg Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99079504-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Glejbjerg Solar Farm": [
+   "ppm"
+  ],
+  "Gilbjergvej Wind Farm": [
+   "ppm"
+  ],
+  "Denmark Solar #10": [
+   "ppm"
+  ],
+  "Denmark Solar #11": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99216726-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Silkeborg Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99379392-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Viborg Solar Farm": [
+   "ppm"
+  ],
+  "Hillerslev Wind Farm": [
+   "ppm"
+  ],
+  "Hanstholm Havn Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99416527-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Osterild Testing Center Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99420087-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "Harre Solar Farm": [
+   "ppm"
+  ],
+  "Mogelvang Wind Farm": [
+   "ppm"
+  ],
+  "Central Denmark Region Solar #11": [
+   "ppm"
+  ],
+  "embedded hydro at osmhv:way/99935739-150": [
+   "energidataservice",
+   "eurostat_pop"
+  ]
+ },
+ "demand": {
+  "15": [
+   "energidataservice"
+  ],
+  "20": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "21": [
+   "energidataservice"
+  ],
+  "23": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "26": [
+   "energidataservice"
+  ],
+  "27": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "32": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "34": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "68": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "69": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "70": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "71": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "72": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "73": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "74": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "75": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "76": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "77": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "78": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "79": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "80": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "81": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "82": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "83": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "84": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "85": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "86": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "87": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "88": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "89": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "90": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "91": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "92": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "93": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "94": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "95": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "96": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "97": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "98": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "99": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "100": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "101": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "102": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "103": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "104": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "105": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "106": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "107": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "108": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "109": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "110": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "111": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "112": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "113": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "114": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "115": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "116": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "117": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "118": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "119": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "120": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "121": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "122": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "123": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "124": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "125": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "126": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "127": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "128": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "129": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "130": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "131": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "132": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "133": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "134": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "135": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "136": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "137": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "138": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "139": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "140": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "141": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "142": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "143": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "144": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "145": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "146": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "147": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "148": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "149": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "150": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "151": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "152": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "153": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "154": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "155": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "156": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "157": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "158": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "159": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "160": [
+   "energidataservice",
+   "eurostat_pop"
+  ],
+  "161": [
+   "energidataservice",
+   "eurostat_pop"
+  ]
+ },
+ "shunts": {
+  "32": [
+   "inference"
+  ],
+  "72": [
+   "inference"
+  ],
+  "84": [
+   "inference"
+  ],
+  "91": [
+   "inference"
+  ],
+  "93": [
+   "inference"
+  ],
+  "103": [
+   "inference"
+  ],
+  "105": [
+   "inference"
+  ],
+  "109": [
+   "inference"
+  ],
+  "117": [
+   "inference"
+  ],
+  "118": [
+   "inference"
+  ],
+  "125": [
+   "inference"
+  ],
+  "135": [
+   "inference"
+  ],
+  "137": [
+   "inference"
+  ],
+  "143": [
+   "inference"
+  ],
+  "144": [
+   "inference"
+  ],
+  "147": [
+   "inference"
+  ],
+  "149": [
+   "inference"
+  ],
+  "151": [
+   "inference"
+  ],
+  "159": [
+   "inference"
+  ],
+  "161": [
+   "inference"
+  ],
+  "31": [
+   "inference"
+  ],
+  "130": [
+   "inference"
+  ],
+  "34": [
+   "inference"
+  ],
+  "107": [
+   "inference"
+  ],
+  "90": [
+   "inference"
+  ]
+ }
+}

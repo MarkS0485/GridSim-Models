@@ -1,0 +1,2810 @@
+{
+ "format": "eu-osm-batch-evidence-tags/1",
+ "mapping": {
+  "attested": "Recorded",
+  "derived": "DerivedFromRecorded",
+  "estimated": "CuratedPlaceholder",
+  "synthetic": "Synthetic"
+ },
+ "rule": "CuratedPlaceholder notes carry [VERIFY]; UnvalidatedAtScale is never an element tag",
+ "buses": {
+  "1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station (boundary point) way/131339683-400 OSM way/131339683 (Hovedstaden (DK01)); position from OSM"
+  },
+  "2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/133082281-400 Gorlosegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) way/142321228-400 HVDC Kontek - Bjaeverskov Static Inverter Hall (Sjaelland (DK02)); position from OSM"
+  },
+  "4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) way/160792651-400 Omformerstation Herslev (Sjaelland (DK02)); position from OSM"
+  },
+  "5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/199713891-400 Avedorevaerket Koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/25637523-400 Glentegard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/26452107-400 400/132 kV Hovegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/26931725-400 400/132 kV Ishoj (Hovedstaden (DK01)); position from OSM"
+  },
+  "9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station way/301369285-400 OSM way/301369285 (Hovedstaden (DK01)); position from OSM"
+  },
+  "10": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/94092312-400 400kV Asnaesvaerket (Sjaelland (DK02)); position from OSM"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/542553909:0-220 OSM virtual_way/542553909:0 (Sjaelland (DK02)); position from OSM"
+  },
+  "12": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/542553909:1-220 OSM virtual_way/542553909:1 (Sjaelland (DK02)); position from OSM"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/865474891:0-220 OSM virtual_way/865474891:0 (); position from OSM"
+  },
+  "14": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/26931725-220 400/132 kV Ishoj (Hovedstaden (DK01)); position from OSM"
+  },
+  "15": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/889061694-220 KFA (); position from OSM"
+  },
+  "16": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/889061695-150 KFB (); position from OSM"
+  },
+  "17": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:node/9485130035-132 Kastrup koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:54.78515,11.69263-132 tee 54.7852,11.6926 (Sjaelland (DK02)); position from OSM"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:54.85125,11.73996-132 tee 54.8512,11.7400 (Sjaelland (DK02)); position from OSM"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:54.85957,11.75963-132 tee 54.8596,11.7596 (Sjaelland (DK02)); position from OSM"
+  },
+  "21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:54.95198,11.84347-132 tee 54.9520,11.8435 (Sjaelland (DK02)); position from OSM"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.00848,11.88596-132 tee 55.0085,11.8860 (Sjaelland (DK02)); position from OSM"
+  },
+  "23": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.16639,11.90128-132 tee 55.1664,11.9013 (Sjaelland (DK02)); position from OSM"
+  },
+  "24": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.16881,11.89991-132 tee 55.1688,11.8999 (Sjaelland (DK02)); position from OSM"
+  },
+  "25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.21739,11.31147-132 tee 55.2174,11.3115 (Sjaelland (DK02)); position from OSM"
+  },
+  "26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.21813,11.31497-132 tee 55.2181,11.3150 (Sjaelland (DK02)); position from OSM"
+  },
+  "27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.22801,11.87300-132 tee 55.2280,11.8730 (Sjaelland (DK02)); position from OSM"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.23001,11.36339-132 tee 55.2300,11.3634 (Sjaelland (DK02)); position from OSM"
+  },
+  "29": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.26486,11.78923-132 tee 55.2649,11.7892 (Sjaelland (DK02)); position from OSM"
+  },
+  "30": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.28003,11.72247-132 tee 55.2800,11.7225 (Sjaelland (DK02)); position from OSM"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.28049,11.72760-132 tee 55.2805,11.7276 (Sjaelland (DK02)); position from OSM"
+  },
+  "32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.28393,11.72563-132 tee 55.2839,11.7256 (Sjaelland (DK02)); position from OSM"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.34431,11.96793-132 tee 55.3443,11.9679 (Sjaelland (DK02)); position from OSM"
+  },
+  "34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.47458,12.04552-132 tee 55.4746,12.0455 (Sjaelland (DK02)); position from OSM"
+  },
+  "35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.47992,12.04610-132 tee 55.4799,12.0461 (Sjaelland (DK02)); position from OSM"
+  },
+  "36": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.53770,11.63608-132 tee 55.5377,11.6361 (Sjaelland (DK02)); position from OSM"
+  },
+  "37": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.54306,11.64100-132 tee 55.5431,11.6410 (Sjaelland (DK02)); position from OSM"
+  },
+  "38": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.60217,12.08381-132 tee 55.6022,12.0838 (Sjaelland (DK02)); position from OSM"
+  },
+  "39": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.61158,12.07432-132 tee 55.6116,12.0743 (Sjaelland (DK02)); position from OSM"
+  },
+  "40": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.61346,12.07902-132 tee 55.6135,12.0790 (Sjaelland (DK02)); position from OSM"
+  },
+  "41": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.61354,12.30287-132 tee 55.6135,12.3029 (Hovedstaden (DK01)); position from OSM"
+  },
+  "42": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.61358,12.07400-132 tee 55.6136,12.0740 (Sjaelland (DK02)); position from OSM"
+  },
+  "43": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.62321,11.87700-132 tee 55.6232,11.8770 (Sjaelland (DK02)); position from OSM"
+  },
+  "44": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.62328,11.88112-132 tee 55.6233,11.8811 (Sjaelland (DK02)); position from OSM"
+  },
+  "45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.63041,12.32232-132 tee 55.6304,12.3223 (Hovedstaden (DK01)); position from OSM"
+  },
+  "46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.63107,12.40481-132 tee 55.6311,12.4048 (Hovedstaden (DK01)); position from OSM"
+  },
+  "47": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.64823,11.09371-132 tee 55.6482,11.0937 (Sjaelland (DK02)); position from OSM"
+  },
+  "48": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.64950,12.15835-132 tee 55.6495,12.1583 (Sjaelland (DK02)); position from OSM"
+  },
+  "49": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.66202,12.31626-132 tee 55.6620,12.3163 (Hovedstaden (DK01)); position from OSM"
+  },
+  "50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.66222,12.31932-132 tee 55.6622,12.3193 (Hovedstaden (DK01)); position from OSM"
+  },
+  "51": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.68280,12.36943-132 tee 55.6828,12.3694 (Hovedstaden (DK01)); position from OSM"
+  },
+  "52": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.70927,11.46293-132 tee 55.7093,11.4629 (Sjaelland (DK02)); position from OSM"
+  },
+  "53": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.70951,11.50240-132 tee 55.7095,11.5024 (Sjaelland (DK02)); position from OSM"
+  },
+  "54": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.73260,12.22954-132 tee 55.7326,12.2295 (Hovedstaden (DK01)); position from OSM"
+  },
+  "55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.74319,12.21442-132 tee 55.7432,12.2144 (Hovedstaden (DK01)); position from OSM"
+  },
+  "56": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.74358,12.21261-132 tee 55.7436,12.2126 (Hovedstaden (DK01)); position from OSM"
+  },
+  "57": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.74392,12.21425-132 tee 55.7439,12.2143 (Hovedstaden (DK01)); position from OSM"
+  },
+  "58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.76317,12.14399-132 tee 55.7632,12.1440 (Hovedstaden (DK01)); position from OSM"
+  },
+  "59": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.76518,12.13775-132 tee 55.7652,12.1377 (Hovedstaden (DK01)); position from OSM"
+  },
+  "60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.78962,12.19270-132 tee 55.7896,12.1927 (Hovedstaden (DK01)); position from OSM"
+  },
+  "61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.80126,11.98434-132 tee 55.8013,11.9843 (Hovedstaden (DK01)); position from OSM"
+  },
+  "62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.81077,11.88202-132 tee 55.8108,11.8820 (Hovedstaden (DK01)); position from OSM"
+  },
+  "63": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.81161,11.88326-132 tee 55.8116,11.8833 (Hovedstaden (DK01)); position from OSM"
+  },
+  "64": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.88560,12.33586-132 tee 55.8856,12.3359 (Hovedstaden (DK01)); position from OSM"
+  },
+  "65": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.88700,12.33871-132 tee 55.8870,12.3387 (Hovedstaden (DK01)); position from OSM"
+  },
+  "66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.88903,12.46776-132 tee 55.8890,12.4678 (Hovedstaden (DK01)); position from OSM"
+  },
+  "67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.89576,12.21068-132 tee 55.8958,12.2107 (Hovedstaden (DK01)); position from OSM"
+  },
+  "68": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.90082,12.19479-132 tee 55.9008,12.1948 (Hovedstaden (DK01)); position from OSM"
+  },
+  "69": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.90676,12.17851-132 tee 55.9068,12.1785 (Hovedstaden (DK01)); position from OSM"
+  },
+  "70": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:55.90856,12.18195-132 tee 55.9086,12.1819 (Hovedstaden (DK01)); position from OSM"
+  },
+  "71": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:56.03021,12.56031-132 tee 56.0302,12.5603 (Hovedstaden (DK01)); position from OSM"
+  },
+  "72": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] tee junction osmhv:tee:56.03146,12.55832-132 tee 56.0315,12.5583 (Hovedstaden (DK01)); position from OSM"
+  },
+  "73": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/105082490-132 Amagervaerkets Koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "74": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/105589971-132 Bellahoj Koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "75": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/116717437-132 Transformerplatform Nysted Havmollepark (Sjaelland (DK02)); position from OSM"
+  },
+  "76": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/119669982-132 132 kV Vestlolland (Sjaelland (DK02)); position from OSM"
+  },
+  "77": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/119677395-132 132kV Radsted (Sjaelland (DK02)); position from OSM"
+  },
+  "78": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/119682338-132 132 kV Eskilstrup (Sjaelland (DK02)); position from OSM"
+  },
+  "79": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/120813464-132 Svanemollen Koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "80": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131339681-132 132/50 kV Teglstrupgard (Hovedstaden (DK01)); position from OSM"
+  },
+  "81": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131443963-132 132kV Masnedo (Sjaelland (DK02)); position from OSM"
+  },
+  "82": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131443969-132 132 kV Idestrup (Sjaelland (DK02)); position from OSM"
+  },
+  "83": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131443981-132 132 kV Orehoved (Sjaelland (DK02)); position from OSM"
+  },
+  "84": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131547091-132 132 kV Blangslev (Sjaelland (DK02)); position from OSM"
+  },
+  "85": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131549492-132 132/50/10 kV Fensmark (Sjaelland (DK02)); position from OSM"
+  },
+  "86": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131620627-132 132/50 kV Naestved (Sjaelland (DK02)); position from OSM"
+  },
+  "87": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131621963-132 132/50 kV Osterholm (Sjaelland (DK02)); position from OSM"
+  },
+  "88": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/131818435-132 132kV Stigsnaesvaerket (Sjaelland (DK02)); position from OSM"
+  },
+  "89": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132152046-132 132 kV Hejninge (Sjaelland (DK02)); position from OSM"
+  },
+  "90": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132259984-132 132/50 kV Nyrup (Sjaelland (DK02)); position from OSM"
+  },
+  "91": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132260795-132 132 kV Ringsted (Sjaelland (DK02)); position from OSM"
+  },
+  "92": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132263892-132 132 kV Herlufsmagle (Sjaelland (DK02)); position from OSM"
+  },
+  "93": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132620453-132 132kV Norre Asmindrup (Sjaelland (DK02)); position from OSM"
+  },
+  "94": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132653860-132 132kV Kirkeskovgard (Sjaelland (DK02)); position from OSM"
+  },
+  "95": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132655852-132 132kV Ostedgard (Sjaelland (DK02)); position from OSM"
+  },
+  "96": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132865713-132 132 kV Jersie (Sjaelland (DK02)); position from OSM"
+  },
+  "97": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/132871261-132 Brondbygard (Hovedstaden (DK01)); position from OSM"
+  },
+  "98": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/133082281-132 Gorlosegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station osmhv:way/133082317-132 OSM way/133082317 (Hovedstaden (DK01)); position from OSM"
+  },
+  "100": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/133082318-132 Frederiksvaerk Syd (Hovedstaden (DK01)); position from OSM"
+  },
+  "101": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/133082320-132 Sperrestrupgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "102": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/133097661-132 132 kV Kyndbyvaerket (Hovedstaden (DK01)); position from OSM"
+  },
+  "103": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/133097675-132 132 kV Lyngerup (Hovedstaden (DK01)); position from OSM"
+  },
+  "104": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/134265134-132 132 kV Rodby (Sjaelland (DK02)); position from OSM"
+  },
+  "105": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/145558225-132 Vigerslev koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "106": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/147072133-132 Dyregard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station osmhv:way/1568739627-132 OSM way/1568739627 (Hovedstaden (DK01)); position from OSM"
+  },
+  "108": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/158934824-132 Herstedgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "109": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/165635531-132 132 kV Karlstrup (Sjaelland (DK02)); position from OSM"
+  },
+  "110": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/177555837-132 132kV Statoil Syd (Sjaelland (DK02)); position from OSM"
+  },
+  "111": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/198032046-132 132kV Sostremosegard (Sjaelland (DK02)); position from OSM"
+  },
+  "112": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/198038556-132 132/50kV Kalundborg (Sjaelland (DK02)); position from OSM"
+  },
+  "113": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/198038558-132 132kV Rendsborgparken (Sjaelland (DK02)); position from OSM"
+  },
+  "114": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/198614550-132 132 kV Hedegard (Sjaelland (DK02)); position from OSM"
+  },
+  "115": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/199399847-132 132/50 kV Skibbygard (Hovedstaden (DK01)); position from OSM"
+  },
+  "116": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/199713891-132 Avedorevaerket Koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "117": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/25637523-132 Glentegard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "118": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26314408-132 132kV Ejbygard (Hovedstaden (DK01)); position from OSM"
+  },
+  "119": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26348584-132 Vejlea transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "120": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26452107-132 400/132 kV Hovegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "121": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26589938-132 132/50 kV Valsevaerket (Hovedstaden (DK01)); position from OSM"
+  },
+  "122": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26931696-132 132kV Flaskegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "123": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26931725-132 400/132 kV Ishoj (Hovedstaden (DK01)); position from OSM"
+  },
+  "124": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/26953215-132 Bjaeverskov HVDC Kontek (Sjaelland (DK02)); position from OSM"
+  },
+  "125": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27363450-132 132 kV Spanager (Sjaelland (DK02)); position from OSM"
+  },
+  "126": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27363746-132 132/50 kV Kamstrup (Sjaelland (DK02)); position from OSM"
+  },
+  "127": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27534623-132 Stasevang transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "128": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27535037-132 Transformerstation Allerodgard (Hovedstaden (DK01)); position from OSM"
+  },
+  "129": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27605372-132 132/50 kV Borup (Hovedstaden (DK01)); position from OSM"
+  },
+  "130": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27688585-132 Olstykkegard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "131": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/27730861-132 Transformerstation Gronnegard (Hovedstaden (DK01)); position from OSM"
+  },
+  "132": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/28012651-132 Hareskovgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "133": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/28101547-132 Vindingegard transformerstation (Sjaelland (DK02)); position from OSM"
+  },
+  "134": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/29456947-132 132kV Mosedegard (Sjaelland (DK02)); position from OSM"
+  },
+  "135": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/30653149-132 Malovgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "136": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/316459619-132 Amager koblingsstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "137": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/316553131-132 Nymollegard transformerstation (Sjaelland (DK02)); position from OSM"
+  },
+  "138": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/316584037-132 Lindevang transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "139": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/399011051-132 Bagsvaerdgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station osmhv:way/516107851-132 OSM way/516107851 (Sjaelland (DK02)); position from OSM"
+  },
+  "141": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/94092311-132 132kV Asnaesvaerket (Sjaelland (DK02)); position from OSM"
+  },
+  "142": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/94167590-132 132kV Torslunde (Sjaelland (DK02)); position from OSM"
+  },
+  "143": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/98327565-132 132 kV Rislev (Sjaelland (DK02)); position from OSM"
+  },
+  "144": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/98335963-132 132 kV Haslev (Sjaelland (DK02)); position from OSM"
+  },
+  "145": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station osmhv:way/98662856-132 Ballerupgard transformerstation (Hovedstaden (DK01)); position from OSM"
+  },
+  "146": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/199713891-400"
+  },
+  "147": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/301369285-400"
+  },
+  "148": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/105082490-132"
+  },
+  "149": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/131443963-132"
+  },
+  "150": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/133097661-132"
+  },
+  "151": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/25637523-132"
+  },
+  "152": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/26314408-132"
+  },
+  "153": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at osmhv:way/94092311-132"
+  }
+ },
+ "branches": {
+  "relation/5485851-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 46.7 km x 1: PyPSA-Eur OSM line relation/5485851-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5485853-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 46.7 km x 1: PyPSA-Eur OSM line relation/5485853-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5528438:a-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 35.8 km x 1: PyPSA-Eur OSM line relation/5528438:a-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5528440:a-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 56.5 km x 1: PyPSA-Eur OSM line relation/5528440:a-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5528441-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 20.7 km x 1: PyPSA-Eur OSM line relation/5528441-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5528568-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 18.2 km x 1: PyPSA-Eur OSM line relation/5528568-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5532805-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 37.6 km x 1: PyPSA-Eur OSM line relation/5532805-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5532806-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 32.0 km x 1: PyPSA-Eur OSM line relation/5532806-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5532807-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 17.0 km x 1: PyPSA-Eur OSM line relation/5532807-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/5535910:b-400": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "400 kV overhead 21.8 km x 1: PyPSA-Eur OSM line relation/5535910:b-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/6743201-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 400 kV cable 12.0 km x 1: PyPSA-Eur OSM line relation/6743201-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "relation/6743265-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 400 kV cable 9.2 km x 1: PyPSA-Eur OSM line relation/6743265-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "way/542553909-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 220 kV cable 35.1 km x 2: PyPSA-Eur OSM line way/542553909-220, type Al/St 240/40 2-bundle 220.0, 2 circuit(s)"
+  },
+  "way/654901842-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 400 kV cable 17.0 km x 1: PyPSA-Eur OSM line way/654901842-400, type Al/St 240/40 4-bundle 380.0, 1 circuit(s)"
+  },
+  "way/654901844-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 220 kV cable 33.5 km x 1: PyPSA-Eur OSM line way/654901844-220, type Al/St 240/40 2-bundle 220.0, 1 circuit(s)"
+  },
+  "way/865474858-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 220 kV cable 41.5 km x 1: PyPSA-Eur OSM line way/865474858-220, type Al/St 240/40 2-bundle 220.0, 1 circuit(s)"
+  },
+  "way/865474886-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 220 kV cable 8.9 km x 1: PyPSA-Eur OSM line way/865474886-220, type Al/St 240/40 2-bundle 220.0, 1 circuit(s)"
+  },
+  "way/865474891-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 220 kV cable 43.9 km x 1: PyPSA-Eur OSM line way/865474891-220, type Al/St 240/40 2-bundle 220.0, 1 circuit(s)"
+  },
+  "hv:way/26929797": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 14.7 km x 1: OSM hv ways way/26929797 (1 ways, 14.74 km, 1 circuit(s))"
+  },
+  "hv:way/26931643": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 5.8 km x 2: OSM hv ways way/26931643 (1 ways, 5.84 km, 2 circuit(s))"
+  },
+  "hv:way/26931644": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/26931644 (1 ways, 0.18 km, 1 circuit(s))"
+  },
+  "hv:way/26931874": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 9.9 km x 2: OSM hv ways way/26931874 (1 ways, 9.91 km, 2 circuit(s))"
+  },
+  "hv:way/26931939": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/26931939 (1 ways, 0.18 km, 1 circuit(s))"
+  },
+  "hv:way/27117457": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.9 km x 1: OSM hv ways way/27117457 (1 ways, 6.86 km, 1 circuit(s))"
+  },
+  "hv:way/27117463": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/27117463 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/27290138": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 14.7 km x 2: OSM hv ways way/27290138 (1 ways, 14.66 km, 2 circuit(s))"
+  },
+  "hv:way/27290192": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/27290192 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/27363494+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 16.4 km x 1: OSM hv ways way/27363494;way/253511856 (2 ways, 16.40 km, 1 circuit(s))"
+  },
+  "hv:way/27363499": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 33.7 km x 2: OSM hv ways way/27363499 (1 ways, 33.72 km, 2 circuit(s))"
+  },
+  "hv:way/27534631+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 18.3 km x 1: OSM hv ways way/27534631;way/131339677 (2 ways, 18.34 km, 1 circuit(s))"
+  },
+  "hv:way/27535024": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/27535024 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/27583196+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.9 km x 1: OSM hv ways way/27583196;way/133082309;way/133188143 (3 ways, 6.89 km, 1 circuit(s))"
+  },
+  "hv:way/27605255+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 12.3 km x 1: OSM hv ways way/27605255;way/199399842 (2 ways, 12.33 km, 1 circuit(s))"
+  },
+  "hv:way/27688289": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 4.8 km x 2: OSM hv ways way/27688289 (1 ways, 4.82 km, 2 circuit(s))"
+  },
+  "hv:way/28694236": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.4 km x 1: OSM hv ways way/28694236 (1 ways, 0.36 km, 1 circuit(s))"
+  },
+  "hv:way/34106790": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 1.6 km x 2: OSM hv ways way/34106790 (1 ways, 1.55 km, 2 circuit(s))"
+  },
+  "hv:way/37563486": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/37563486 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/94167555": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 26.5 km x 2: OSM hv ways way/94167555 (1 ways, 26.47 km, 2 circuit(s))"
+  },
+  "hv:way/94167646": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 2.1 km x 1: OSM hv ways way/94167646 (1 ways, 2.06 km, 1 circuit(s))"
+  },
+  "hv:way/98335967+3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 13.7 km x 1: OSM hv ways way/98335967;way/131619932;way/131549493;way/253505962 (4 ways, 13.73 km, 1 circuit(s))"
+  },
+  "hv:way/119669972": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 34.1 km x 1: OSM hv ways way/119669972 (1 ways, 34.07 km, 1 circuit(s))"
+  },
+  "hv:way/119677392+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 15.7 km x 1: OSM hv ways way/119677392;way/119682342;way/119682344 (3 ways, 15.75 km, 1 circuit(s))"
+  },
+  "hv:way/131339675": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 2: OSM hv ways way/131339675 (1 ways, 0.19 km, 2 circuit(s))"
+  },
+  "hv:way/131339676+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 19.7 km x 1: OSM hv ways way/131339676;way/131339687 (2 ways, 19.71 km, 1 circuit(s))"
+  },
+  "hv:way/131339678": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131339678 (1 ways, 0.21 km, 1 circuit(s))"
+  },
+  "hv:way/131339679": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131339679 (1 ways, 0.19 km, 1 circuit(s))"
+  },
+  "hv:way/131339684": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131339684 (1 ways, 0.20 km, 1 circuit(s))"
+  },
+  "hv:way/131339690": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 8.3 km x 2: OSM hv ways way/131339690 (1 ways, 8.32 km, 2 circuit(s))"
+  },
+  "hv:way/131443952+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 17.9 km x 1: OSM hv ways way/131443952;way/131443955;way/131443975 (3 ways, 17.88 km, 1 circuit(s))"
+  },
+  "hv:way/131443954+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.3 km x 1: OSM hv ways way/131443954;way/131443978;way/466033861 (3 ways, 5.30 km, 1 circuit(s))"
+  },
+  "hv:way/131443956+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.6 km x 1: OSM hv ways way/131443956;way/260540093;way/260540098 (3 ways, 1.62 km, 1 circuit(s))"
+  },
+  "hv:way/131443958+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.6 km x 1: OSM hv ways way/131443958;way/134158306 (2 ways, 1.63 km, 1 circuit(s))"
+  },
+  "hv:way/131443959": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/131443959 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/131443961": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 8.2 km x 2: OSM hv ways way/131443961 (1 ways, 8.20 km, 2 circuit(s))"
+  },
+  "hv:way/131443970": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/131443970 (1 ways, 0.13 km, 1 circuit(s))"
+  },
+  "hv:way/131443972": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 11.8 km x 2: OSM hv ways way/131443972 (1 ways, 11.85 km, 2 circuit(s))"
+  },
+  "hv:way/131443973": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 12.1 km x 1: OSM hv ways way/131443973 (1 ways, 12.15 km, 1 circuit(s))"
+  },
+  "hv:way/131547086": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.8 km x 2: OSM hv ways way/131547086 (1 ways, 6.84 km, 2 circuit(s))"
+  },
+  "hv:way/131547088": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/131547088 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/131547089": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/131547089 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/131547090": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/131547090 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/131547092+3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 34.0 km x 1: OSM hv ways way/131547092;way/466033860;way/466033859;way/466033862 (4 ways, 34.03 km, 1 circuit(s))"
+  },
+  "hv:way/131547093+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 18.9 km x 2: OSM hv ways way/131547093;way/367615944 (2 ways, 18.90 km, 2 circuit(s))"
+  },
+  "hv:way/131549488": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 2.2 km x 1: OSM hv ways way/131549488 (1 ways, 2.24 km, 1 circuit(s))"
+  },
+  "hv:way/131549489": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 4.4 km x 2: OSM hv ways way/131549489 (1 ways, 4.36 km, 2 circuit(s))"
+  },
+  "hv:way/131549490": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.7 km x 1: OSM hv ways way/131549490 (1 ways, 6.75 km, 1 circuit(s))"
+  },
+  "hv:way/131549491": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.2 km x 1: OSM hv ways way/131549491 (1 ways, 6.21 km, 1 circuit(s))"
+  },
+  "hv:way/131619924": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619924 (1 ways, 0.16 km, 1 circuit(s))"
+  },
+  "hv:way/131619925": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619925 (1 ways, 0.21 km, 1 circuit(s))"
+  },
+  "hv:way/131619926": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 3.7 km x 2: OSM hv ways way/131619926 (1 ways, 3.68 km, 2 circuit(s))"
+  },
+  "hv:way/131619927": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619927 (1 ways, 0.21 km, 1 circuit(s))"
+  },
+  "hv:way/131619928": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619928 (1 ways, 0.16 km, 1 circuit(s))"
+  },
+  "hv:way/131619929": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619929 (1 ways, 0.20 km, 1 circuit(s))"
+  },
+  "hv:way/131619931": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131619931 (1 ways, 0.19 km, 1 circuit(s))"
+  },
+  "hv:way/131620628": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 23.1 km x 1: OSM hv ways way/131620628 (1 ways, 23.09 km, 1 circuit(s))"
+  },
+  "hv:way/131622429": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 5.6 km x 1: OSM hv ways way/131622429 (1 ways, 5.62 km, 1 circuit(s))"
+  },
+  "hv:way/131818428": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 3.3 km x 2: OSM hv ways way/131818428 (1 ways, 3.34 km, 2 circuit(s))"
+  },
+  "hv:way/131818429": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/131818429 (1 ways, 0.24 km, 1 circuit(s))"
+  },
+  "hv:way/131818430": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 3.8 km x 2: OSM hv ways way/131818430 (1 ways, 3.78 km, 2 circuit(s))"
+  },
+  "hv:way/131818431": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 4.1 km x 1: OSM hv ways way/131818431 (1 ways, 4.12 km, 1 circuit(s))"
+  },
+  "hv:way/131818434": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 21.9 km x 1: OSM hv ways way/131818434 (1 ways, 21.92 km, 1 circuit(s))"
+  },
+  "hv:way/132259980": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 27.4 km x 1: OSM hv ways way/132259980 (1 ways, 27.40 km, 1 circuit(s))"
+  },
+  "hv:way/132259981": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/132259981 (1 ways, 0.16 km, 1 circuit(s))"
+  },
+  "hv:way/132259982": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/132259982 (1 ways, 0.16 km, 1 circuit(s))"
+  },
+  "hv:way/132259983": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.7 km x 2: OSM hv ways way/132259983 (1 ways, 0.67 km, 2 circuit(s))"
+  },
+  "hv:way/132260796": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 15.4 km x 1: OSM hv ways way/132260796 (1 ways, 15.44 km, 1 circuit(s))"
+  },
+  "hv:way/132263887": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 11.5 km x 1: OSM hv ways way/132263887 (1 ways, 11.55 km, 1 circuit(s))"
+  },
+  "hv:way/132265340": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.1 km x 1: OSM hv ways way/132265340 (1 ways, 6.09 km, 1 circuit(s))"
+  },
+  "hv:way/132271750+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 35.7 km x 1: OSM hv ways way/132271750;way/132271751;way/198032043 (3 ways, 35.69 km, 1 circuit(s))"
+  },
+  "hv:way/132618978": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 2.5 km x 1: OSM hv ways way/132618978 (1 ways, 2.47 km, 1 circuit(s))"
+  },
+  "hv:way/132618979": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 24.9 km x 2: OSM hv ways way/132618979 (1 ways, 24.87 km, 2 circuit(s))"
+  },
+  "hv:way/132618982": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 1.1 km x 1: OSM hv ways way/132618982 (1 ways, 1.13 km, 1 circuit(s))"
+  },
+  "hv:way/132619351+3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 19.2 km x 1: OSM hv ways way/132619351;way/132620445;way/132620450;way/132620448 (4 ways, 19.15 km, 1 circuit(s))"
+  },
+  "hv:way/132653846": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/132653846 (1 ways, 0.22 km, 1 circuit(s))"
+  },
+  "hv:way/132653848": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.3 km x 1: OSM hv ways way/132653848 (1 ways, 0.33 km, 1 circuit(s))"
+  },
+  "hv:way/132653849": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132653849 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/132653850": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132653850 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/132653852": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.3 km x 2: OSM hv ways way/132653852 (1 ways, 0.27 km, 2 circuit(s))"
+  },
+  "hv:way/132653854": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132653854 (1 ways, 0.10 km, 1 circuit(s))"
+  },
+  "hv:way/132653857": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 12.8 km x 2: OSM hv ways way/132653857 (1 ways, 12.80 km, 2 circuit(s))"
+  },
+  "hv:way/132655844": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 22.9 km x 1: OSM hv ways way/132655844 (1 ways, 22.92 km, 1 circuit(s))"
+  },
+  "hv:way/132865689": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132865689 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/132865690": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132865690 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/132865692": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132865692 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/132865696": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.7 km x 1: OSM hv ways way/132865696 (1 ways, 3.66 km, 1 circuit(s))"
+  },
+  "hv:way/132865700+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 10.7 km x 1: OSM hv ways way/132865700;way/486387827;way/132865704 (3 ways, 10.73 km, 1 circuit(s))"
+  },
+  "hv:way/132865706": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.4 km x 1: OSM hv ways way/132865706 (1 ways, 0.44 km, 1 circuit(s))"
+  },
+  "hv:way/132865708": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.4 km x 1: OSM hv ways way/132865708 (1 ways, 0.44 km, 1 circuit(s))"
+  },
+  "hv:way/132865709": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 14.0 km x 2: OSM hv ways way/132865709 (1 ways, 13.95 km, 2 circuit(s))"
+  },
+  "hv:way/132865714": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.9 km x 1: OSM hv ways way/132865714 (1 ways, 0.94 km, 1 circuit(s))"
+  },
+  "hv:way/132871230": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/132871230 (1 ways, 0.17 km, 1 circuit(s))"
+  },
+  "hv:way/132871248": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/132871248 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/132871250": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/132871250 (1 ways, 0.23 km, 1 circuit(s))"
+  },
+  "hv:way/133082284+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.9 km x 1: OSM hv ways way/133082284;way/133082305 (2 ways, 0.91 km, 1 circuit(s))"
+  },
+  "hv:way/133082287+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.9 km x 1: OSM hv ways way/133082287;way/133082301 (2 ways, 0.88 km, 1 circuit(s))"
+  },
+  "hv:way/133082290": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.3 km x 1: OSM hv ways way/133082290 (1 ways, 0.30 km, 1 circuit(s))"
+  },
+  "hv:way/133082294+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.8 km x 1: OSM hv ways way/133082294;way/133082304 (2 ways, 0.77 km, 1 circuit(s))"
+  },
+  "hv:way/133082296": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082296 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/133082297": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133082297 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/133082298+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.8 km x 1: OSM hv ways way/133082298;way/133082302 (2 ways, 0.79 km, 1 circuit(s))"
+  },
+  "hv:way/133082299": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133082299 (1 ways, 0.08 km, 1 circuit(s))"
+  },
+  "hv:way/133082306": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133082306 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/133082307": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 5.4 km x 2: OSM hv ways way/133082307 (1 ways, 5.41 km, 2 circuit(s))"
+  },
+  "hv:way/133082308": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133082308 (1 ways, 0.10 km, 1 circuit(s))"
+  },
+  "hv:way/133082316": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 9.2 km x 2: OSM hv ways way/133082316 (1 ways, 9.20 km, 2 circuit(s))"
+  },
+  "hv:way/133082319": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082319 (1 ways, 0.22 km, 1 circuit(s))"
+  },
+  "hv:way/133082324:0": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082324:0 (1 ways, 0.20 km, 1 circuit(s))"
+  },
+  "hv:way/133082325": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082325 (1 ways, 0.17 km, 1 circuit(s))"
+  },
+  "hv:way/133082327": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 13.6 km x 2: OSM hv ways way/133082327 (1 ways, 13.62 km, 2 circuit(s))"
+  },
+  "hv:way/133082328": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 1.2 km x 2: OSM hv ways way/133082328 (1 ways, 1.19 km, 2 circuit(s))"
+  },
+  "hv:way/133082797": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082797 (1 ways, 0.24 km, 1 circuit(s))"
+  },
+  "hv:way/133082798": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 8.2 km x 2: OSM hv ways way/133082798 (1 ways, 8.20 km, 2 circuit(s))"
+  },
+  "hv:way/133082800": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133082800 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/133082802": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133082802 (1 ways, 0.18 km, 1 circuit(s))"
+  },
+  "hv:way/133097662": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133097662 (1 ways, 0.20 km, 1 circuit(s))"
+  },
+  "hv:way/133097663": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133097663 (1 ways, 0.20 km, 1 circuit(s))"
+  },
+  "hv:way/133097664": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.6 km x 2: OSM hv ways way/133097664 (1 ways, 6.62 km, 2 circuit(s))"
+  },
+  "hv:way/133097665": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133097665 (1 ways, 0.18 km, 1 circuit(s))"
+  },
+  "hv:way/133097666": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133097666 (1 ways, 0.14 km, 1 circuit(s))"
+  },
+  "hv:way/133097667": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133097667 (1 ways, 0.18 km, 1 circuit(s))"
+  },
+  "hv:way/133097668": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133097668 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/133097670": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.5 km x 1: OSM hv ways way/133097670 (1 ways, 0.45 km, 1 circuit(s))"
+  },
+  "hv:way/133097671+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 17.2 km x 2: OSM hv ways way/133097671;way/133097676 (2 ways, 17.18 km, 2 circuit(s))"
+  },
+  "hv:way/133097672": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133097672 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/133097673": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 17.7 km x 2: OSM hv ways way/133097673 (1 ways, 17.72 km, 2 circuit(s))"
+  },
+  "hv:way/133097674": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133097674 (1 ways, 0.10 km, 1 circuit(s))"
+  },
+  "hv:way/133188156": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/133188156 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/133188161": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133188161 (1 ways, 0.13 km, 1 circuit(s))"
+  },
+  "hv:way/133188163": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 6.3 km x 2: OSM hv ways way/133188163 (1 ways, 6.26 km, 2 circuit(s))"
+  },
+  "hv:way/133188164": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/133188164 (1 ways, 0.13 km, 1 circuit(s))"
+  },
+  "hv:way/134265138+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 32.0 km x 1: OSM hv ways way/134265138;way/134265142 (2 ways, 32.02 km, 1 circuit(s))"
+  },
+  "hv:way/134265140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 21.4 km x 1: OSM hv ways way/134265140 (1 ways, 21.35 km, 1 circuit(s))"
+  },
+  "hv:way/134265146+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 46.8 km x 1: OSM hv ways way/134265146;way/197799527;way/197799525 (3 ways, 46.83 km, 1 circuit(s))"
+  },
+  "hv:way/198038553": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.1 km x 1: OSM hv ways way/198038553 (1 ways, 3.05 km, 1 circuit(s))"
+  },
+  "hv:way/198043369": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.4 km x 1: OSM hv ways way/198043369 (1 ways, 2.44 km, 1 circuit(s))"
+  },
+  "hv:way/198043375": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.2 km x 1: OSM hv ways way/198043375 (1 ways, 1.24 km, 1 circuit(s))"
+  },
+  "hv:way/198043378": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.4 km x 1: OSM hv ways way/198043378 (1 ways, 2.41 km, 1 circuit(s))"
+  },
+  "hv:way/199309640": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.9 km x 1: OSM hv ways way/199309640 (1 ways, 2.91 km, 1 circuit(s))"
+  },
+  "hv:way/199719419": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 15.1 km x 1: OSM hv ways way/199719419 (1 ways, 15.14 km, 1 circuit(s))"
+  },
+  "hv:way/202105287+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 24.8 km x 1: OSM hv ways way/202105287;way/202105288 (2 ways, 24.81 km, 1 circuit(s))"
+  },
+  "hv:way/202107871": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.2 km x 2: OSM hv ways way/202107871 (1 ways, 1.21 km, 2 circuit(s))"
+  },
+  "hv:way/211035866": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.7 km x 1: OSM hv ways way/211035866 (1 ways, 3.67 km, 1 circuit(s))"
+  },
+  "hv:way/211043392+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.6 km x 1: OSM hv ways way/211043392;way/367615942 (2 ways, 1.65 km, 1 circuit(s))"
+  },
+  "hv:way/220277531": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/220277531 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/220277546": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/220277546 (1 ways, 0.11 km, 1 circuit(s))"
+  },
+  "hv:way/220277563": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.3 km x 1: OSM hv ways way/220277563 (1 ways, 1.27 km, 1 circuit(s))"
+  },
+  "hv:way/243968871": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 23.8 km x 1: OSM hv ways way/243968871 (1 ways, 23.81 km, 1 circuit(s))"
+  },
+  "hv:way/253763100": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.6 km x 1: OSM hv ways way/253763100 (1 ways, 4.56 km, 1 circuit(s))"
+  },
+  "hv:way/253763101": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.0 km x 1: OSM hv ways way/253763101 (1 ways, 2.03 km, 1 circuit(s))"
+  },
+  "hv:way/253763102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.0 km x 1: OSM hv ways way/253763102 (1 ways, 1.99 km, 1 circuit(s))"
+  },
+  "hv:way/253763103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.8 km x 1: OSM hv ways way/253763103 (1 ways, 0.80 km, 1 circuit(s))"
+  },
+  "hv:way/253763104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.8 km x 1: OSM hv ways way/253763104 (1 ways, 4.79 km, 1 circuit(s))"
+  },
+  "hv:way/253763105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 8.9 km x 1: OSM hv ways way/253763105 (1 ways, 8.89 km, 1 circuit(s))"
+  },
+  "hv:way/253764944": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/253764944 (1 ways, 0.12 km, 1 circuit(s))"
+  },
+  "hv:way/253776757": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/253776757 (1 ways, 0.10 km, 1 circuit(s))"
+  },
+  "hv:way/253782545": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/253782545 (1 ways, 0.16 km, 1 circuit(s))"
+  },
+  "hv:way/260536289:0": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/260536289:0 (1 ways, 0.13 km, 1 circuit(s))"
+  },
+  "hv:way/260536296:0": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.1 km x 1: OSM hv ways way/260536296:0 (1 ways, 0.15 km, 1 circuit(s))"
+  },
+  "hv:way/260540096+2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.6 km x 1: OSM hv ways way/260540096;way/260540099;way/260540101 (3 ways, 1.61 km, 1 circuit(s))"
+  },
+  "hv:way/291975873": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.5 km x 1: OSM hv ways way/291975873 (1 ways, 2.45 km, 1 circuit(s))"
+  },
+  "hv:way/291975874": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 8.3 km x 1: OSM hv ways way/291975874 (1 ways, 8.32 km, 1 circuit(s))"
+  },
+  "hv:way/316459614": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.2 km x 1: OSM hv ways way/316459614 (1 ways, 5.22 km, 1 circuit(s))"
+  },
+  "hv:way/316459615": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.0 km x 2: OSM hv ways way/316459615 (1 ways, 4.97 km, 2 circuit(s))"
+  },
+  "hv:way/316459616": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.3 km x 2: OSM hv ways way/316459616 (1 ways, 4.26 km, 2 circuit(s))"
+  },
+  "hv:way/316584010": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.9 km x 2: OSM hv ways way/316584010 (1 ways, 3.85 km, 2 circuit(s))"
+  },
+  "hv:way/316584011": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 10.8 km x 1: OSM hv ways way/316584011 (1 ways, 10.76 km, 1 circuit(s))"
+  },
+  "hv:way/316584015": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.7 km x 1: OSM hv ways way/316584015 (1 ways, 4.70 km, 1 circuit(s))"
+  },
+  "hv:way/316584016": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.7 km x 1: OSM hv ways way/316584016 (1 ways, 6.74 km, 1 circuit(s))"
+  },
+  "hv:way/316584020": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.4 km x 1: OSM hv ways way/316584020 (1 ways, 5.45 km, 1 circuit(s))"
+  },
+  "hv:way/316584021": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.9 km x 1: OSM hv ways way/316584021 (1 ways, 6.88 km, 1 circuit(s))"
+  },
+  "hv:way/316589508": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.3 km x 1: OSM hv ways way/316589508 (1 ways, 6.26 km, 1 circuit(s))"
+  },
+  "hv:way/316589509": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.5 km x 1: OSM hv ways way/316589509 (1 ways, 4.46 km, 1 circuit(s))"
+  },
+  "hv:way/346533921": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/346533921 (1 ways, 0.21 km, 1 circuit(s))"
+  },
+  "hv:way/346533925": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/346533925 (1 ways, 0.19 km, 1 circuit(s))"
+  },
+  "hv:way/363014881": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.5 km x 1: OSM hv ways way/363014881 (1 ways, 2.52 km, 1 circuit(s))"
+  },
+  "hv:way/363014882": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 0.6 km x 2: OSM hv ways way/363014882 (1 ways, 0.60 km, 2 circuit(s))"
+  },
+  "hv:way/363014883": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.5 km x 1: OSM hv ways way/363014883 (1 ways, 6.53 km, 1 circuit(s))"
+  },
+  "hv:way/363019718": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.7 km x 2: OSM hv ways way/363019718 (1 ways, 2.67 km, 2 circuit(s))"
+  },
+  "hv:way/363019719": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.5 km x 1: OSM hv ways way/363019719 (1 ways, 5.53 km, 1 circuit(s))"
+  },
+  "hv:way/369310607": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 7.6 km x 1: OSM hv ways way/369310607 (1 ways, 7.58 km, 1 circuit(s))"
+  },
+  "hv:way/372303445": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV overhead 0.2 km x 1: OSM hv ways way/372303445 (1 ways, 0.17 km, 1 circuit(s))"
+  },
+  "hv:way/395061129": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.4 km x 2: OSM hv ways way/395061129 (1 ways, 6.40 km, 2 circuit(s))"
+  },
+  "hv:way/395061130": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.5 km x 2: OSM hv ways way/395061130 (1 ways, 6.51 km, 2 circuit(s))"
+  },
+  "hv:way/399011049": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.1 km x 2: OSM hv ways way/399011049 (1 ways, 3.11 km, 2 circuit(s))"
+  },
+  "hv:way/399011050": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.5 km x 1: OSM hv ways way/399011050 (1 ways, 2.53 km, 1 circuit(s))"
+  },
+  "hv:way/468727825": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.8 km x 1: OSM hv ways way/468727825 (1 ways, 5.78 km, 1 circuit(s))"
+  },
+  "hv:way/468727826": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 4.2 km x 1: OSM hv ways way/468727826 (1 ways, 4.22 km, 1 circuit(s))"
+  },
+  "hv:way/468727828": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 6.9 km x 1: OSM hv ways way/468727828 (1 ways, 6.91 km, 1 circuit(s))"
+  },
+  "hv:way/468727830": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.6 km x 1: OSM hv ways way/468727830 (1 ways, 2.61 km, 1 circuit(s))"
+  },
+  "hv:way/468727831": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.7 km x 1: OSM hv ways way/468727831 (1 ways, 3.70 km, 1 circuit(s))"
+  },
+  "hv:way/542559623+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 2.1 km x 1: OSM hv ways way/542559623;way/542559625:1 (2 ways, 2.13 km, 1 circuit(s))"
+  },
+  "hv:way/542559624": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 1.4 km x 2: OSM hv ways way/542559624 (1 ways, 1.42 km, 2 circuit(s))"
+  },
+  "hv:way/542559625:0": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 5.1 km x 1: OSM hv ways way/542559625:0 (1 ways, 5.10 km, 1 circuit(s))"
+  },
+  "hv:way/543273568": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 3.4 km x 1: OSM hv ways way/543273568 (1 ways, 3.39 km, 1 circuit(s))"
+  },
+  "hv:way/727485464": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 7.0 km x 1: OSM hv ways way/727485464 (1 ways, 7.02 km, 1 circuit(s))"
+  },
+  "hv:way/727492477+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 9.4 km x 1: OSM hv ways way/727492477;way/1068999505 (2 ways, 9.40 km, 1 circuit(s))"
+  },
+  "hv:way/727496028": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 132 kV cable 10.8 km x 1: OSM hv ways way/727496028 (1 ways, 10.77 km, 1 circuit(s))"
+  },
+  "way/142321228-400-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] PyPSA-Eur OSM transformer way/142321228-400-220 (existence; PyPSA s_nom 7150 not used); 2 x 400 MVA, x 12 % typical"
+  },
+  "way/26931725-400-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] PyPSA-Eur OSM transformer way/26931725-400-220 (existence; PyPSA s_nom 7150 not used); 2 x 400 MVA, x 12 % typical"
+  },
+  "cpl:virtual_way/542553909:0-220>osmhv:way/26953215-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 220/132 kV (nearest HV substation, 0.02 km from the PyPSA site); 2 x 250 MVA, x 12 % typical (the build pipeline estimate); tap 1.0250 inferred (tap-changer loop, nr_check rule, round denmark-dk2-spine-400-220-132-r6)"
+  },
+  "cpl:virtual_way/865474891:0-220>osmhv:way/889061695-150": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 220/150 kV (nearest HV substation, 0.02 km from the PyPSA site); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/133082281-400>osmhv:way/133082281-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (same OSM substation as the PyPSA bus); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/142321228-400>osmhv:way/26953215-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (nearest HV substation, 0.01 km from the PyPSA site); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/199713891-400>osmhv:way/199713891-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (same OSM substation as the PyPSA bus); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/25637523-400>osmhv:way/25637523-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (same OSM substation as the PyPSA bus); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/26452107-400>osmhv:way/26452107-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (same OSM substation as the PyPSA bus); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/26931725-400>osmhv:way/26931725-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (same OSM substation as the PyPSA bus); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/301369285-400>osmhv:way/1568739627-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (nearest HV substation, 0.16 km from the PyPSA site); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "cpl:way/94092312-400>osmhv:way/94092311-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] OSM hv coupling 400/132 kV (nearest HV substation, 0.64 km from the PyPSA site); 2 x 250 MVA, x 12 % typical (the build pipeline estimate)"
+  },
+  "gsu:way/199713891-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 982 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/301369285-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 256 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:osmhv:way/105082490-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 74 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:osmhv:way/131443963-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 82 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:osmhv:way/133097661-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 148 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:osmhv:way/25637523-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 45 MVA, x 14.5 % own rating, 1 unit row(s); tap 0.9875 inferred (tap-changer loop, nr_check rule, round denmark-dk2-spine-400-220-132-r6)"
+  },
+  "gsu:osmhv:way/26314408-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 46 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:osmhv:way/94092311-132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 35 MVA, x 14.5 % own rating, 1 unit row(s)"
+  }
+ },
+ "generators": {
+  "import Germany at way/142321228-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 435.7 MW interconnector; dispatch 435.7 MW; placement: hvdc relation/2505320-400-DC, share 1.00 by rating"
+  },
+  "import internal at way/160792651-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 470.2 MW interconnector; dispatch 470.2 MW; placement: hvdc relation/5487095-400-DC, share 1.00 by rating"
+  },
+  "Avedore Offshore Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.0 MW wind_offshore; dispatch 7.6 MW; placement: nearest 400 kV bus (offshore wind: export class of its OSM platform way/199713891, 1.2 km), 1.2 km"
+  },
+  "Avedore": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "835.0 MW biomass; dispatch 661.9 MW; placement: nearest 400 kV bus (220 kV if none within 40 km), 0.2 km"
+  },
+  "Amager": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "218.0 MW biomass; dispatch 172.8 MW; placement: nearest EHV bus (unit above one HV circuit, 192 MW), 5.5 km"
+  },
+  "Samso Offshore Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_offshore; dispatch 14.5 MW; placement: nearest bus of any class (offshore wind: its own export platform), 31.7 km"
+  },
+  "Lidso Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "215.0 MW solar; dispatch 0.0 MW; placement: nearest EHV bus (unit above one HV circuit, 192 MW), 89.6 km"
+  },
+  "Kriegers Flak Offshore Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "605.0 MW wind_offshore; dispatch 418.5 MW; placement: nearest 220 kV bus (offshore wind: export class of its OSM platform way/889061695, 7.7 km), 7.7 km"
+  },
+  "Tarnby Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.1 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 0.6 km"
+  },
+  "Barmosen Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "137.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 4.6 km"
+  },
+  "Region Zealand Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.4 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 5.1 km"
+  },
+  "Region Zealand Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.3 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 25.9 km"
+  },
+  "Naestved Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "51.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 0.1 km"
+  },
+  "Store Rottinge Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW wind_onshore; dispatch 10.0 MW; placement: nearest HV bus, 4.2 km"
+  },
+  "Region Zealand Solar Xiii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 10.8 km"
+  },
+  "Region Zealand Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.5 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 12.1 km"
+  },
+  "Tryggevaelde Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "55.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 16.0 km"
+  },
+  "Turebylille Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "17.0 MW wind_onshore; dispatch 17.0 MW; placement: nearest HV bus, 8.5 km"
+  },
+  "Faxe Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 7.4 km"
+  },
+  "Region Zealand Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.3 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 20.4 km"
+  },
+  "Borup Bess": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.0 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 4.7 km"
+  },
+  "Nyrup": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 3.8 km"
+  },
+  "Soro Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 9.1 km"
+  },
+  "Svinningegarden Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "34.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 13.0 km"
+  },
+  "Ishoj Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 0.7 km"
+  },
+  "Region Zealand Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 6.5 km"
+  },
+  "Region Zealand Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 6.9 km"
+  },
+  "Capital Region Of Denmark Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 3.3 km"
+  },
+  "Capital Region Of Denmark Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 5.2 km"
+  },
+  "Capital Region Of Denmark Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 11.3 km"
+  },
+  "Middelgrunden Offshore Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.0 MW wind_offshore; dispatch 27.7 MW; placement: nearest 132 kV bus (offshore wind: export class of its OSM platform way/105082490, 3.0 km), 3.0 km"
+  },
+  "Amager Bakke": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "63.0 MW biomass; dispatch 0.0 MW; placement: nearest HV bus, 0.3 km"
+  },
+  "Rodsand Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "166.0 MW wind_offshore; dispatch 114.8 MW; placement: nearest 132 kV bus (offshore wind: export class of its OSM platform way/116717437, 5.2 km), 5.2 km"
+  },
+  "Guldborgsund Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 11.6 km"
+  },
+  "Region Zealand Solar Xviii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 11.4 km"
+  },
+  "Rodby Fjord Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "71.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 2.8 km"
+  },
+  "Kappel Aquila Capital Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "25.0 MW wind_onshore; dispatch 24.9 MW; placement: nearest HV bus, 13.0 km"
+  },
+  "Korsnakke Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_onshore; dispatch 20.9 MW; placement: nearest HV bus, 12.6 km"
+  },
+  "Tjorneby Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "15.0 MW wind_onshore; dispatch 15.0 MW; placement: nearest HV bus, 10.5 km"
+  },
+  "Skodsebolle Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.0 MW wind_onshore; dispatch 11.0 MW; placement: nearest HV bus, 6.9 km"
+  },
+  "Lolland Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 1.6 km"
+  },
+  "Lolland Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 7.7 km"
+  },
+  "Guldborgsund Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 9.5 km"
+  },
+  "Vordingborg Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 24.9 km"
+  },
+  "Masnedo": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "70.0 MW oil; dispatch 0.0 MW; placement: nearest HV bus, 0.2 km"
+  },
+  "Guldborg Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "34.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 8.1 km"
+  },
+  "Salto Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.0 MW wind_onshore; dispatch 11.0 MW; placement: nearest HV bus, 5.7 km"
+  },
+  "Region Zealand Solar Xii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 1.7 km"
+  },
+  "Slagelse Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "26.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 9.9 km"
+  },
+  "Sprogo Offshore Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_offshore; dispatch 14.5 MW; placement: nearest bus of any class (offshore wind: its own export platform), 23.5 km"
+  },
+  "Kragerup Estate Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.0 MW wind_onshore; dispatch 18.0 MW; placement: nearest HV bus, 12.8 km"
+  },
+  "Region Zealand Solar Xv": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.6 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 11.6 km"
+  },
+  "Kragerup": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 13.2 km"
+  },
+  "Region Zealand Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 11.6 km"
+  },
+  "Region Zealand Solar Xvi": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.2 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 5.9 km"
+  },
+  "Capital Region Of Denmark Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 3.3 km"
+  },
+  "Sperrestrupgaard": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 3.3 km"
+  },
+  "Frederikssund Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.2 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 6.1 km"
+  },
+  "Kyndby": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "126.0 MW oil; dispatch 0.0 MW; placement: nearest bus, 0.1 km"
+  },
+  "Rodby Fjord Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "65.0 MW wind_onshore; dispatch 64.8 MW; placement: nearest HV bus, 7.7 km"
+  },
+  "Hoby Solar Park": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 8.1 km"
+  },
+  "Lolland Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 6.6 km"
+  },
+  "Lolland Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 5.7 km"
+  },
+  "Hvidovre Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 2.1 km"
+  },
+  "Copenhagen Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 2.5 km"
+  },
+  "Capital Region Of Denmark Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 1.6 km"
+  },
+  "Lerchenborg Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "61.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 1.3 km"
+  },
+  "Region Zealand Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 6.5 km"
+  },
+  "Region Zealand Solar #9": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 9.8 km"
+  },
+  "Riso Syslab Redox Flow": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "0.0 MW battery; dispatch 0.0 MW; placement: nearest HV bus, 3.6 km"
+  },
+  "Dtu Cogeneration": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "38.0 MW gas; dispatch 0.0 MW; placement: nearest HV bus, 3.9 km"
+  },
+  "Vestforbraending": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "39.0 MW biomass; dispatch 0.0 MW; placement: nearest HV bus, 2.7 km"
+  },
+  "Capital Region Of Denmark Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.7 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 8.7 km"
+  },
+  "Capital Region Of Denmark Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 14.7 km"
+  },
+  "Region Zealand Solar #10": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 0.3 km"
+  },
+  "Capital Region Of Denmark Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 4.8 km"
+  },
+  "Rodsand Wind Farm #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "207.0 MW wind_offshore; dispatch 143.2 MW; placement: nearest 132 kV bus (offshore wind: export class of its OSM platform way/116717437, 8.0 km), 6.3 km"
+  },
+  "Lerchenborg Estate Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.0 MW wind_onshore; dispatch 18.0 MW; placement: nearest HV bus, 1.6 km"
+  },
+  "Asnaes": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "30.0 MW biomass; dispatch 0.0 MW; placement: nearest HV bus, 0.3 km"
+  },
+  "Hagesholm Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "23.0 MW wind_onshore; dispatch 22.9 MW; placement: nearest HV bus, 8.0 km"
+  },
+  "Holbaek Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 5.2 km"
+  },
+  "Region Zealand Solar #11": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "19.5 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 2.3 km"
+  },
+  "Faxe Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 12.0 km"
+  },
+  "Ballerup Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest HV bus, 1.1 km"
+  }
+ },
+ "demand": {
+  "17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "73": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "74": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "75": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "76": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "77": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "78": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "79": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "80": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "81": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "82": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "83": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "84": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "85": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "86": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "87": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "88": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "89": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "90": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "91": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "92": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "93": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "94": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "95": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "96": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "97": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "98": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "99": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "100": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "101": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "102": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "103": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "104": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "105": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "106": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "107": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "108": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "109": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "110": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "111": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "112": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "113": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "114": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "115": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "116": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "117": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "118": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "119": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "120": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "121": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "122": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "123": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "124": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "125": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "126": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "127": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "128": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "129": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "130": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "131": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "132": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "133": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "134": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "135": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Nordsjaelland (DK013) 1.1650 % (1/15 of the region)"
+  },
+  "136": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "137": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Ostsjaelland (DK021) 0.8671 % (1/11 of the region)"
+  },
+  "138": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "139": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "140": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Byen Kobenhavn (DK011) 3.7746 % (1/8 of the region)"
+  },
+  "141": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "142": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "143": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "144": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Vest- og Sydsjaelland (DK022) 0.8062 % (1/27 of the region)"
+  },
+  "145": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energidataservice balance dk2 2662 MW x (1 - 0.015) by Eurostat population: Kobenhavns omegn (DK012) 1.4015 % (1/15 of the region)"
+  },
+  "1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] boundary_export: energidataservice 2026-01-12T16:00:00+00:00, Sweden: ac relation/5528438:b-400, share 0.50 by rating; boundary_export: energidataservice 2026-01-12T16:00:00+00:00, Sweden: ac relation/5528440:b-400, share 0.50 by rating"
+  }
+ },
+ "shunts": {
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 1, -430 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "73": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 3, +170 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 4, -110 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "76": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 5, -40 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "86": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 7, +10 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "142": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 6, +20 MVAr capacitor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  },
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] inferred: inferred compensation 2, -310 MVAr reactor at existing substation bus; smallest (10 MVAr steps) that keeps every bus in the band 0.95-1.05 pu in GridSim pf with reactive limits (consolidated repair cluster, grow / trim); replaces the generic repair; real data replaces it"
+  }
+ }
+}

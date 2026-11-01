@@ -1,0 +1,830 @@
+[
+ {
+  "transformer": "ict:w100470285:765/400",
+  "controlsBus": 1201,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w105373531:765/400",
+  "controlsBus": 1162,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1077819664:765/400",
+  "controlsBus": 731,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1127651311:765/400",
+  "controlsBus": 374,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1206014676:765/400",
+  "controlsBus": 1099,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1207477934:765/400",
+  "controlsBus": 1043,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1329604155:765/400",
+  "controlsBus": 719,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1329624553:765/400",
+  "controlsBus": 1149,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1336628403:765/400",
+  "controlsBus": 361,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1341291951:765/400",
+  "controlsBus": 1165,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1415199647:765/400",
+  "controlsBus": 1182,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1435996566:765/400",
+  "controlsBus": 331,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1458303562:765/400",
+  "controlsBus": 745,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1462041663:765/400",
+  "controlsBus": 703,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1467603760:765/400",
+  "controlsBus": 363,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1474314617:765/400",
+  "controlsBus": 716,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1474325002:765/400",
+  "controlsBus": 324,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1554759712:765/400",
+  "controlsBus": 267,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1561263133:765/400",
+  "controlsBus": 491,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w1567591812:765/400",
+  "controlsBus": 350,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w192782338:765/400",
+  "controlsBus": 627,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w193216698:765/400",
+  "controlsBus": 591,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w196377947:765/400",
+  "controlsBus": 1203,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w196933682:765/400",
+  "controlsBus": 1204,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w201845280:765/400",
+  "controlsBus": 578,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w202980838:765/400",
+  "controlsBus": 265,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w209806624:765/400",
+  "controlsBus": 241,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w209826798:765/400",
+  "controlsBus": 597,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w245128370:765/400",
+  "controlsBus": 175,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w247861059:765/400",
+  "controlsBus": 321,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w248385304:765/400",
+  "controlsBus": 455,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w274106872:765/400",
+  "controlsBus": 1120,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w311118424:765/400",
+  "controlsBus": 1138,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w311176519:765/400",
+  "controlsBus": 417,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w311571096:765/400",
+  "controlsBus": 692,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w311933111:765/400",
+  "controlsBus": 282,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w311954709:765/400",
+  "controlsBus": 277,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w315477169:765/400",
+  "controlsBus": 518,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w315823978:765/400",
+  "controlsBus": 192,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w318050929:765/400",
+  "controlsBus": 536,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w318090288:765/400",
+  "controlsBus": 535,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w319423421:765/400",
+  "controlsBus": 602,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w323266562:765/400",
+  "controlsBus": 639,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w328548895:765/400",
+  "controlsBus": 624,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w331275940:765/400",
+  "controlsBus": 380,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w342204888:765/400",
+  "controlsBus": 1091,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w352619220:765/400",
+  "controlsBus": 1132,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w353914761:765/400",
+  "controlsBus": 286,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w353914865:765/400",
+  "controlsBus": 268,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w354062412:765/400",
+  "controlsBus": 663,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w355560316:765/400",
+  "controlsBus": 504,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w357515226:765/400",
+  "controlsBus": 1152,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w360424761:765/400",
+  "controlsBus": 588,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w369866141:765/400",
+  "controlsBus": 724,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w372701897:765/400",
+  "controlsBus": 678,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w377052289:765/400",
+  "controlsBus": 1109,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w386153973:765/400",
+  "controlsBus": 1054,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w408924420:765/400",
+  "controlsBus": 549,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w408924427:765/400",
+  "controlsBus": 576,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w409112085:765/400",
+  "controlsBus": 209,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w409158116:765/400",
+  "controlsBus": 214,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w409798382:765/400",
+  "controlsBus": 1202,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w417569420:765/400",
+  "controlsBus": 1145,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w420797421:765/400",
+  "controlsBus": 1143,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w422204218:765/400",
+  "controlsBus": 1181,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w423166766:765/400",
+  "controlsBus": 284,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w425101516:765/400",
+  "controlsBus": 1117,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w425401901:765/400",
+  "controlsBus": 1092,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w429459345:765/400",
+  "controlsBus": 547,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w453513742:765/400",
+  "controlsBus": 568,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w466424134:765/400",
+  "controlsBus": 1029,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w466424159:765/400",
+  "controlsBus": 1022,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w473902678:765/400",
+  "controlsBus": 563,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w477691456:765/400",
+  "controlsBus": 630,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w50885643:765/400",
+  "controlsBus": 1128,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w545571850:765/400",
+  "controlsBus": 1069,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w551402699:765/400",
+  "controlsBus": 1153,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w607439318:765/400",
+  "controlsBus": 1178,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w608461884:765/400",
+  "controlsBus": 560,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w631917408:765/400",
+  "controlsBus": 689,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w655683221:765/400",
+  "controlsBus": 713,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w688672711:765/400",
+  "controlsBus": 338,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w688672798:765/400",
+  "controlsBus": 334,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w698045832:765/400",
+  "controlsBus": 609,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w751947947:765/400",
+  "controlsBus": 1051,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w759521252:765/400",
+  "controlsBus": 1223,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w781425567:765/400",
+  "controlsBus": 1159,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w793144832:765/400",
+  "controlsBus": 1225,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w840600239:765/400",
+  "controlsBus": 580,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w910151268:765/400",
+  "controlsBus": 1070,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w923365745:765/400",
+  "controlsBus": 174,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ },
+ {
+  "transformer": "ict:w97392607:765/400",
+  "controlsBus": 254,
+  "targetVpu": 1.0,
+  "minTap": 0.945,
+  "maxTap": 1.055,
+  "stepPu": 0.005,
+  "deadbandPu": 0.03
+ }
+]

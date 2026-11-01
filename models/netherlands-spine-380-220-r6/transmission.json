@@ -1,0 +1,1142 @@
+[
+ {
+  "name": "jao:Borssele-Rilland380 G",
+  "from": 3,
+  "to": 31,
+  "rPu": 0.0004016620498614958,
+  "xPu": 0.006668975069252078,
+  "bPu": 0.25395628000000003,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Rilland380 O",
+  "from": 3,
+  "to": 31,
+  "rPu": 0.00039473684210526315,
+  "xPu": 0.0069459833795013845,
+  "bPu": 0.26191272,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Rilland380 P",
+  "from": 3,
+  "to": 31,
+  "rPu": 0.00039473684210526315,
+  "xPu": 0.006939058171745152,
+  "bPu": 0.26420868,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Rilland380 Z",
+  "from": 3,
+  "to": 31,
+  "rPu": 0.00039473684210526315,
+  "xPu": 0.006675900277008311,
+  "bPu": 0.25166032,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Zeeuwse Kust Landstation380 O",
+  "from": 3,
+  "to": 41,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 0.010050239999999998,
+  "ratingMva": 381.7439979881805,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Zeeuwse Kust Landstation380 P",
+  "from": 3,
+  "to": 41,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.015306399999999998,
+  "ratingMva": 381.7439979881805,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Zeeuwse Kust Landstation380 W",
+  "from": 3,
+  "to": 41,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.02639632,
+  "ratingMva": 381.7439979881805,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Borssele-Zeeuwse Kust Landstation380 Z",
+  "from": 3,
+  "to": 41,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.03178244,
+  "ratingMva": 381.7439979881805,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Breukelen Kortrijk-Diemen380 W",
+  "from": 5,
+  "to": 9,
+  "rPu": 0.0003185595567867036,
+  "xPu": 0.0037603878116343487,
+  "bPu": 0.11775819999999998,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Compensatie Filterstation Eemshaven-Eemshaven Oudeschip380 W",
+  "from": 6,
+  "to": 13,
+  "rPu": 1.3850415512465375e-05,
+  "xPu": 0.0001,
+  "bPu": 0.07663307999999999,
+  "ratingMva": 591.7031968816798,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Compensatie Filterstation Eemshaven-Eemshaven Oudeschip380 Z",
+  "from": 6,
+  "to": 13,
+  "rPu": 1.3850415512465375e-05,
+  "xPu": 0.0001,
+  "bPu": 0.07663307999999999,
+  "ratingMva": 591.7031968816798,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Crayestein-Krimpen aan den IJssel380 W",
+  "from": 7,
+  "to": 23,
+  "rPu": 0.0001592797783933518,
+  "xPu": 0.002493074792243767,
+  "bPu": 0.1035348,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Crayestein-Krimpen aan den IJssel380 Z",
+  "from": 7,
+  "to": 23,
+  "rPu": 0.0001592797783933518,
+  "xPu": 0.002493074792243767,
+  "bPu": 0.1035348,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Delesto-Weiwerd220 W",
+  "from": 44,
+  "to": 54,
+  "rPu": 0.00024793388429752067,
+  "xPu": 0.0009090909090909091,
+  "bPu": 0.020908799999999998,
+  "ratingMva": 200.0518682742053,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Delesto-Weiwerd220 Z",
+  "from": 44,
+  "to": 54,
+  "rPu": 0.00024793388429752067,
+  "xPu": 0.0009090909090909091,
+  "bPu": 0.020908799999999998,
+  "ratingMva": 200.0518682742053,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Diemen-Lelystad380 W",
+  "from": 9,
+  "to": 24,
+  "rPu": 0.0006994459833795013,
+  "xPu": 0.009522160664819944,
+  "bPu": 0.30946364,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Diemen-Lelystad380 Z",
+  "from": 9,
+  "to": 24,
+  "rPu": 0.0006994459833795013,
+  "xPu": 0.009522160664819944,
+  "bPu": 0.30946364,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Dodewaard-Doetinchem380 W",
+  "from": 10,
+  "to": 11,
+  "rPu": 0.0008033240997229916,
+  "xPu": 0.008566481994459833,
+  "bPu": 0.27848984,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Dodewaard-Doetinchem380 Z",
+  "from": 10,
+  "to": 11,
+  "rPu": 0.0008033240997229916,
+  "xPu": 0.008566481994459833,
+  "bPu": 0.27848984,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Doetinchem-Hengelo380 W",
+  "from": 11,
+  "to": 20,
+  "rPu": 0.0010318559556786705,
+  "xPu": 0.011108033240997229,
+  "bPu": 0.35779432,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Doetinchem-Hengelo380 Z",
+  "from": 11,
+  "to": 20,
+  "rPu": 0.0010318559556786705,
+  "xPu": 0.011108033240997229,
+  "bPu": 0.35779432,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven Oudeschip-Eemshaven380 W",
+  "from": 13,
+  "to": 15,
+  "rPu": 1.3850415512465375e-05,
+  "xPu": 0.0002631578947368421,
+  "bPu": 0.01072892,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven Oudeschip-Eemshaven380 Z",
+  "from": 13,
+  "to": 15,
+  "rPu": 1.3850415512465375e-05,
+  "xPu": 0.0002631578947368421,
+  "bPu": 0.01072892,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven Synergieweg-Eemshaven Oudeschip380 W",
+  "from": 14,
+  "to": 13,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.0027869199999999996,
+  "ratingMva": 1184.7227523771119,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven Synergieweg-Eemshaven Oudeschip380 Z",
+  "from": 14,
+  "to": 13,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.0033789599999999994,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Eemshaven Converterstation380 Z",
+  "from": 15,
+  "to": 12,
+  "rPu": 2.770083102493075e-05,
+  "xPu": 0.0001,
+  "bPu": 0.1547968,
+  "ratingMva": 937.9055122985469,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Eemshaven Oost220 W",
+  "from": 46,
+  "to": 45,
+  "rPu": 0.00016528925619834712,
+  "xPu": 0.00024793388429752067,
+  "bPu": 0.0263538,
+  "ratingMva": 228.63070659909178,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Eemshaven Oost220 Z",
+  "from": 46,
+  "to": 45,
+  "rPu": 0.00016528925619834712,
+  "xPu": 0.00022727272727272727,
+  "bPu": 0.02574396,
+  "ratingMva": 228.63070659909178,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Meeden380 W",
+  "from": 15,
+  "to": 27,
+  "rPu": 0.00035318559556786705,
+  "xPu": 0.00613573407202216,
+  "bPu": 0.26318344,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Meeden380 Z",
+  "from": 15,
+  "to": 27,
+  "rPu": 0.00036011080332409975,
+  "xPu": 0.0061080332409972305,
+  "bPu": 0.26334228,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Robbenplaat220 W",
+  "from": 46,
+  "to": 52,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 6.292e-05,
+  "ratingMva": 1524.204710660612,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Eemshaven-Robbenplaat220 Z",
+  "from": 46,
+  "to": 52,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 6.292e-05,
+  "ratingMva": 1524.204710660612,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Ens-Zwolle380 W",
+  "from": 17,
+  "to": 42,
+  "rPu": 0.0005609418282548476,
+  "xPu": 0.006059556786703601,
+  "bPu": 0.19537320000000002,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Ens-Zwolle380 Z",
+  "from": 17,
+  "to": 42,
+  "rPu": 0.0005609418282548476,
+  "xPu": 0.006059556786703601,
+  "bPu": 0.19537320000000002,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Geertruidenberg-Eindhoven380 G",
+  "from": 18,
+  "to": 16,
+  "rPu": 0.001018005540166205,
+  "xPu": 0.013178670360110804,
+  "bPu": 0.35373668,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Geertruidenberg-Eindhoven380 W",
+  "from": 18,
+  "to": 16,
+  "rPu": 0.001038781163434903,
+  "xPu": 0.013178670360110804,
+  "bPu": 0.35281252,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Geertruidenberg-Eindhoven380 Z",
+  "from": 18,
+  "to": 16,
+  "rPu": 0.0010457063711911358,
+  "xPu": 0.01324792243767313,
+  "bPu": 0.35468972,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Geertruidenberg-Rilland380 W",
+  "from": 18,
+  "to": 31,
+  "rPu": 0.0010872576177285318,
+  "xPu": 0.011945983379501385,
+  "bPu": 0.3740393199999999,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Geertruidenberg-Rilland380 Z",
+  "from": 18,
+  "to": 31,
+  "rPu": 0.0010872576177285318,
+  "xPu": 0.011945983379501385,
+  "bPu": 0.3740393199999999,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hessenweg-Ens220 W",
+  "from": 48,
+  "to": 47,
+  "rPu": 0.0015495867768595042,
+  "xPu": 0.01706611570247934,
+  "bPu": 0.06688396,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hessenweg-Ens220 Z",
+  "from": 48,
+  "to": 47,
+  "rPu": 0.0015495867768595042,
+  "xPu": 0.01706611570247934,
+  "bPu": 0.06688396,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 B",
+  "from": 21,
+  "to": 39,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.07077043999999999,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 O",
+  "from": 21,
+  "to": 39,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.055521799999999996,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 P",
+  "from": 21,
+  "to": 39,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 0.04246804,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 R",
+  "from": 21,
+  "to": 39,
+  "rPu": 6.9252077562326875e-06,
+  "xPu": 0.0001,
+  "bPu": 0.07839476,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 W",
+  "from": 21,
+  "to": 39,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 0.01851208,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 Z",
+  "from": 21,
+  "to": 39,
+  "rPu": 0.0,
+  "xPu": 0.0001,
+  "bPu": 0.031580279999999995,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Bleiswijk380 W",
+  "from": 23,
+  "to": 2,
+  "rPu": 0.00019390581717451525,
+  "xPu": 0.003130193905817174,
+  "bPu": 0.12848712,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Bleiswijk380 Z",
+  "from": 23,
+  "to": 2,
+  "rPu": 0.00019390581717451525,
+  "xPu": 0.003130193905817174,
+  "bPu": 0.12848712,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Breukelen Kortrijk380 W",
+  "from": 23,
+  "to": 5,
+  "rPu": 0.0006094182825484765,
+  "xPu": 0.007098337950138504,
+  "bPu": 0.2224482,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Diemen380 Z",
+  "from": 23,
+  "to": 9,
+  "rPu": 0.0009279778393351801,
+  "xPu": 0.010872576177285318,
+  "bPu": 0.34066847999999994,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Geertruidenberg380 W",
+  "from": 23,
+  "to": 18,
+  "rPu": 0.00045706371191135735,
+  "xPu": 0.006828254847645429,
+  "bPu": 0.19387143999999998,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Krimpen aan den IJssel-Geertruidenberg380 Z",
+  "from": 23,
+  "to": 18,
+  "rPu": 0.00045706371191135735,
+  "xPu": 0.006828254847645429,
+  "bPu": 0.19387143999999998,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Lelystad-Ens380 W",
+  "from": 24,
+  "to": 17,
+  "rPu": 0.00029085872576177285,
+  "xPu": 0.003975069252077562,
+  "bPu": 0.12840047999999998,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Lelystad-Ens380 Z",
+  "from": 24,
+  "to": 17,
+  "rPu": 0.00029085872576177285,
+  "xPu": 0.003975069252077562,
+  "bPu": 0.12840047999999998,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Louwsmeer-Bergum220 W",
+  "from": 49,
+  "to": 43,
+  "rPu": 0.0005371900826446281,
+  "xPu": 0.005888429752066116,
+  "bPu": 0.0230868,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Louwsmeer-Bergum220 Z",
+  "from": 49,
+  "to": 43,
+  "rPu": 0.0005371900826446281,
+  "xPu": 0.005888429752066116,
+  "bPu": 0.0230868,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Louwsmeer-Oudehaske220 W",
+  "from": 49,
+  "to": 51,
+  "rPu": 0.0014049586776859505,
+  "xPu": 0.015475206611570248,
+  "bPu": 0.06062584,
+  "ratingMva": 1047.8907385791706,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Louwsmeer-Oudehaske220 Z",
+  "from": 49,
+  "to": 51,
+  "rPu": 0.0014049586776859505,
+  "xPu": 0.015475206611570248,
+  "bPu": 0.06062584,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Dodewaard380 W",
+  "from": 25,
+  "to": 10,
+  "rPu": 0.0016066481994459832,
+  "xPu": 0.01889196675900277,
+  "bPu": 0.59179452,
+  "ratingMva": 1645.4482671904334,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Eindhoven380 W",
+  "from": 25,
+  "to": 16,
+  "rPu": 0.0006578947368421052,
+  "xPu": 0.009279778393351801,
+  "bPu": 0.29122592,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Eindhoven380 Z",
+  "from": 25,
+  "to": 16,
+  "rPu": 0.0006578947368421052,
+  "xPu": 0.009279778393351801,
+  "bPu": 0.29122592,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasvlakte-Hollandse Kust Zuid Landstation380 W",
+  "from": 26,
+  "to": 22,
+  "rPu": 3.462603878116344e-05,
+  "xPu": 0.0003116343490304709,
+  "bPu": 0.45727148,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasvlakte-Hollandse Kust Zuid Landstation380 Z",
+  "from": 26,
+  "to": 22,
+  "rPu": 3.462603878116344e-05,
+  "xPu": 0.0003116343490304709,
+  "bPu": 0.45727148,
+  "ratingMva": 770.0697890451228,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasvlakte-Simonshaven380 W",
+  "from": 26,
+  "to": 33,
+  "rPu": 0.0002770083102493075,
+  "xPu": 0.004362880886426592,
+  "bPu": 0.18145303999999998,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasvlakte-Simonshaven380 Z",
+  "from": 26,
+  "to": 33,
+  "rPu": 0.0002770083102493075,
+  "xPu": 0.004362880886426592,
+  "bPu": 0.18145303999999998,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Oostzaan-Diemen380 G",
+  "from": 30,
+  "to": 9,
+  "rPu": 0.0002493074792243767,
+  "xPu": 0.002915512465373961,
+  "bPu": 0.09127524,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Oostzaan-Diemen380 Z",
+  "from": 30,
+  "to": 9,
+  "rPu": 0.0002493074792243767,
+  "xPu": 0.002915512465373961,
+  "bPu": 0.09127524,
+  "ratingMva": 1974.53792062852,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Oudehaske-Ens220 W",
+  "from": 51,
+  "to": 47,
+  "rPu": 0.0021694214876033058,
+  "xPu": 0.023801652892561982,
+  "bPu": 0.09321356,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Oudehaske-Ens220 Z",
+  "from": 51,
+  "to": 47,
+  "rPu": 0.0021694214876033058,
+  "xPu": 0.023801652892561982,
+  "bPu": 0.09321356,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Robbenplaat-Weiwerd220 G",
+  "from": 52,
+  "to": 54,
+  "rPu": 0.0008677685950413223,
+  "xPu": 0.012334710743801653,
+  "bPu": 0.05410636,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Robbenplaat-Weiwerd220 P",
+  "from": 52,
+  "to": 54,
+  "rPu": 0.0008677685950413223,
+  "xPu": 0.01225206611570248,
+  "bPu": 0.05427091999999999,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Simonshaven-Crayestein380 W",
+  "from": 33,
+  "to": 7,
+  "rPu": 0.0004293628808864266,
+  "xPu": 0.006786703601108034,
+  "bPu": 0.2821576,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Simonshaven-Crayestein380 Z",
+  "from": 33,
+  "to": 7,
+  "rPu": 0.0004293628808864266,
+  "xPu": 0.006786703601108034,
+  "bPu": 0.2821576,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Vierverlaten-Eemshaven Oudeschip380 P",
+  "from": 35,
+  "to": 13,
+  "rPu": 0.00045013850415512465,
+  "xPu": 0.006862880886426593,
+  "bPu": 0.37034268000000004,
+  "ratingMva": 1645.4482671904334,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Vierverlaten-Eemshaven Oudeschip380 W",
+  "from": 35,
+  "to": 13,
+  "rPu": 0.00045013850415512465,
+  "xPu": 0.006897506925207757,
+  "bPu": 0.37034268000000004,
+  "ratingMva": 1645.4482671904334,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Vierverlaten-Zeyerveen220 W",
+  "from": 53,
+  "to": 55,
+  "rPu": 0.0011363636363636365,
+  "xPu": 0.012499999999999999,
+  "bPu": 0.05270276,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Vierverlaten-Zeyerveen220 Z",
+  "from": 53,
+  "to": 55,
+  "rPu": 0.0011363636363636365,
+  "xPu": 0.012499999999999999,
+  "bPu": 0.05270276,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Wateringen-Bleiswijk380 W",
+  "from": 37,
+  "to": 2,
+  "rPu": 0.0003116343490304709,
+  "xPu": 0.0025277008310249306,
+  "bPu": 2.31442876,
+  "ratingMva": 1625.702887984148,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Wateringen-Bleiswijk380 Z",
+  "from": 37,
+  "to": 2,
+  "rPu": 0.0003116343490304709,
+  "xPu": 0.0025277008310249306,
+  "bPu": 2.31188732,
+  "ratingMva": 1625.702887984148,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Wateringen-Westerlee380 W",
+  "from": 37,
+  "to": 38,
+  "rPu": 6.925207756232688e-05,
+  "xPu": 0.0011495844875346259,
+  "bPu": 0.04691556,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Wateringen-Westerlee380 Z",
+  "from": 37,
+  "to": 38,
+  "rPu": 6.925207756232688e-05,
+  "xPu": 0.0011495844875346259,
+  "bPu": 0.04691556,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Weiwerd-Meeden220 B",
+  "from": 54,
+  "to": 50,
+  "rPu": 0.001012396694214876,
+  "xPu": 0.014979338842975207,
+  "bPu": 0.06762448,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Weiwerd-Meeden220 O",
+  "from": 54,
+  "to": 50,
+  "rPu": 0.001012396694214876,
+  "xPu": 0.014896694214876032,
+  "bPu": 0.06794875999999998,
+  "ratingMva": 952.6279441628824,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Westerlee-Maasvlakte380 W",
+  "from": 38,
+  "to": 26,
+  "rPu": 0.00019390581717451525,
+  "xPu": 0.009037396121883657,
+  "bPu": 0.48753772,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Westerlee-Maasvlakte380 Z",
+  "from": 38,
+  "to": 26,
+  "rPu": 0.00019390581717451525,
+  "xPu": 0.009016620498614958,
+  "bPu": 0.48753772,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zeyerveen-Hessenweg220 W",
+  "from": 55,
+  "to": 48,
+  "rPu": 0.0026859504132231405,
+  "xPu": 0.038677685950413224,
+  "bPu": 0.11176044,
+  "ratingMva": 1047.8907385791706,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zeyerveen-Hessenweg220 Z",
+  "from": 55,
+  "to": 48,
+  "rPu": 0.0026859504132231405,
+  "xPu": 0.038677685950413224,
+  "bPu": 0.11176044,
+  "ratingMva": 1047.8907385791706,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zwolle-Hengelo380 W",
+  "from": 42,
+  "to": 20,
+  "rPu": 0.001059556786703601,
+  "xPu": 0.011447368421052633,
+  "bPu": 0.36654496,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zwolle-Hengelo380 Z",
+  "from": 42,
+  "to": 20,
+  "rPu": 0.001059556786703601,
+  "xPu": 0.011447368421052633,
+  "bPu": 0.36654496,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zwolle-Meeden380 W",
+  "from": 42,
+  "to": 27,
+  "rPu": 0.001038781163434903,
+  "xPu": 0.017749307479224374,
+  "bPu": 0.75062008,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Zwolle-Meeden380 Z",
+  "from": 42,
+  "to": 27,
+  "rPu": 0.001038781163434903,
+  "xPu": 0.017749307479224374,
+  "bPu": 0.7505911999999999,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Rilland-Zandvliet 380 G",
+  "from": 31,
+  "to": 40,
+  "rPu": 6.54432132963989e-05,
+  "xPu": 0.0006761080332409972,
+  "bPu": 0.009610490016,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Rilland-Zandvliet 380 W",
+  "from": 31,
+  "to": 40,
+  "rPu": 6.135734072022161e-05,
+  "xPu": 0.0006761080332409972,
+  "bPu": 0.009726922624,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Van Eyck 380 W",
+  "from": 25,
+  "to": 34,
+  "rPu": 9.598337950138505e-05,
+  "xPu": 0.001092797783933518,
+  "bPu": 0.033149908,
+  "ratingMva": 1892.2655072689984,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Van Eyck 380 Z",
+  "from": 25,
+  "to": 34,
+  "rPu": 9.445983379501385e-05,
+  "xPu": 0.0010912049861495847,
+  "bPu": 0.0329767724,
+  "ratingMva": 1892.2655072689984,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Gronau-Hengelo 380 W",
+  "from": 20,
+  "to": 19,
+  "rPu": 0.0002077562326869806,
+  "xPu": 0.002008379501385042,
+  "bPu": 0.06573288715999999,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Gronau-Hengelo 380 Z",
+  "from": 20,
+  "to": 19,
+  "rPu": 0.0002077562326869806,
+  "xPu": 0.002008379501385042,
+  "bPu": 0.06573288715999999,
+  "ratingMva": 2040.3558513161372,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Oberzier 380 W",
+  "from": 25,
+  "to": 29,
+  "rPu": 0.0005027008310249307,
+  "xPu": 0.004950415512465374,
+  "bPu": 0.1739126164,
+  "ratingMva": 1892.2655072689984,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Maasbracht-Siersdorf 380 Z",
+  "from": 25,
+  "to": 32,
+  "rPu": 0.00034522160664819944,
+  "xPu": 0.0033816481994459833,
+  "bPu": 0.11812054291999999,
+  "ratingMva": 1892.2655072689984,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Diele-Meeden 380 W",
+  "from": 27,
+  "to": 8,
+  "rPu": 0.00022603878116343493,
+  "xPu": 0.0025675207756232685,
+  "bPu": 0.07649194344,
+  "ratingMva": 1000.4325464517834,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Diele-Meeden 380 Z",
+  "from": 27,
+  "to": 8,
+  "rPu": 0.00022603878116343493,
+  "xPu": 0.0025675207756232685,
+  "bPu": 0.07649194344,
+  "ratingMva": 1000.4325464517834,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Doetinchem-Niederrhein 380 W",
+  "from": 11,
+  "to": 28,
+  "rPu": 0.00033164819944598336,
+  "xPu": 0.005000831024930747,
+  "bPu": 0.1897714908,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "jao:Doetinchem-Niederrhein 380 Z",
+  "from": 11,
+  "to": 28,
+  "rPu": 0.0003260387811634349,
+  "xPu": 0.004984487534626039,
+  "bPu": 0.1888505076,
+  "ratingMva": 2632.7172275046933,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Oostzaan - Beverwijk 380 (OSM 1)",
+  "from": 30,
+  "to": 1,
+  "rPu": 0.0002235983379501385,
+  "xPu": 0.003055843951985226,
+  "bPu": 0.09870817471542855,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Oostzaan - Beverwijk 380 (OSM 2)",
+  "from": 30,
+  "to": 1,
+  "rPu": 0.0002235983379501385,
+  "xPu": 0.003055843951985226,
+  "bPu": 0.09870817471542855,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Beverwijk - Vijfhuizen 380 (OSM 1)",
+  "from": 1,
+  "to": 36,
+  "rPu": 0.00017140941828254846,
+  "xPu": 0.002342595383194829,
+  "bPu": 0.07566921544594285,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Beverwijk - Vijfhuizen 380 (OSM 2)",
+  "from": 1,
+  "to": 36,
+  "rPu": 0.00017140941828254846,
+  "xPu": 0.002342595383194829,
+  "bPu": 0.07566921544594285,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Vijfhuizen - Bleiswijk 380 (OSM 1)",
+  "from": 36,
+  "to": 2,
+  "rPu": 0.0006316761772853185,
+  "xPu": 0.008632907756232686,
+  "bPu": 0.27885539330331427,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Vijfhuizen - Bleiswijk 380 (OSM 2)",
+  "from": 36,
+  "to": 2,
+  "rPu": 0.0006316761772853185,
+  "xPu": 0.008632907756232686,
+  "bPu": 0.27885539330331427,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Wijk Aan Zee - Beverwijk 380 (OSM 1)",
+  "from": 39,
+  "to": 1,
+  "rPu": 6.963530058534445e-05,
+  "xPu": 0.0009516824413330408,
+  "bPu": 0.030740717840542903,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Wijk Aan Zee - Beverwijk 380 (OSM 2)",
+  "from": 39,
+  "to": 1,
+  "rPu": 6.963530058534445e-05,
+  "xPu": 0.0009516824413330408,
+  "bPu": 0.030740717840542903,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Maasbracht - Boxmeer 380 (OSM 1)",
+  "from": 25,
+  "to": 4,
+  "rPu": 0.0008070695290858725,
+  "xPu": 0.011029950230840259,
+  "bPu": 0.3562833284667429,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ },
+ {
+  "name": "osm:Boxmeer - Dodewaard 380 (OSM 1)",
+  "from": 4,
+  "to": 10,
+  "rPu": 0.0005799493074792243,
+  "xPu": 0.007925973868882732,
+  "bPu": 0.2560204073677714,
+  "ratingMva": 2171.991712691372,
+  "circuits": 1
+ }
+]

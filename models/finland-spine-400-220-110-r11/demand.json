@@ -1,0 +1,4418 @@
+[
+ {
+  "name": "Anttilan sahkoasema 400kV",
+  "bus": 55,
+  "pMw": 666.2500000000002,
+  "qMvar": 0.0
+ },
+ {
+  "name": "Espoon sahkoasema 400kV",
+  "bus": 56,
+  "pMw": 358.75000000000006,
+  "qMvar": 0.0
+ },
+ {
+  "name": "Isokangas sahkoasema 400kV",
+  "bus": 72,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Utsjoki sahkoasema 220kV",
+  "bus": 105,
+  "pMw": 3.290742926028299,
+  "qMvar": 0.8247379189367503
+ },
+ {
+  "name": "Keulakkopaa sahkoasema 220kV",
+  "bus": 108,
+  "pMw": 5.8402541533720065,
+  "qMvar": 1.4637056630634901
+ },
+ {
+  "name": "Salmisaaren sahkoasema 110kV",
+  "bus": 110,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Aijanpellon kytkinkentta 110kV",
+  "bus": 111,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "OSM relation/13667018 110kV",
+  "bus": 112,
+  "pMw": 38.98018764222505,
+  "qMvar": 9.769355904872725
+ },
+ {
+  "name": "Pateniemen sahkoasema 110kV",
+  "bus": 113,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Seitenoikea sahkoasema 110kV",
+  "bus": 114,
+  "pMw": 3.860566815211213,
+  "qMvar": 0.9675492472869615
+ },
+ {
+  "name": "Heinolan sahkoasema 110kV",
+  "bus": 115,
+  "pMw": 25.26034351557359,
+  "qMvar": 6.33083884428669
+ },
+ {
+  "name": "OSM way/100185433 110kV",
+  "bus": 519,
+  "pMw": 19.49791887530234,
+  "qMvar": 4.886639095878177
+ },
+ {
+  "name": "OSM way/100547600 110kV",
+  "bus": 520,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Kivivaara sahkoasema 110kV",
+  "bus": 521,
+  "pMw": 6.892568582818134,
+  "qMvar": 1.727440519330731
+ },
+ {
+  "name": "OSM way/101507440 110kV",
+  "bus": 522,
+  "pMw": 8.8114298138052,
+  "qMvar": 2.2083524756720676
+ },
+ {
+  "name": "OSM way/102167332 110kV",
+  "bus": 523,
+  "pMw": 17.55340633308134,
+  "qMvar": 4.399298314945973
+ },
+ {
+  "name": "OSM way/1031978712 110kV",
+  "bus": 524,
+  "pMw": 23.665971037636144,
+  "qMvar": 5.931251435296587
+ },
+ {
+  "name": "Pieksamaki sahkoasema 110kV",
+  "bus": 525,
+  "pMw": 23.665971037636144,
+  "qMvar": 5.931251435296587
+ },
+ {
+  "name": "Ventusneva 110kV",
+  "bus": 526,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "Katterno elstation 110kV",
+  "bus": 527,
+  "pMw": 30.379419342493907,
+  "qMvar": 7.6138001813696885
+ },
+ {
+  "name": "Jussilan sahkoasema 110kV",
+  "bus": 528,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "OSM way/104410725 110kV",
+  "bus": 529,
+  "pMw": 15.003789800108438,
+  "qMvar": 3.7603041787407796
+ },
+ {
+  "name": "OSM way/104794773 110kV",
+  "bus": 530,
+  "pMw": 5.757889797755383,
+  "qMvar": 1.443063209741314
+ },
+ {
+  "name": "OSM way/1049119287 110kV",
+  "bus": 531,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "OSM way/1049119292 110kV",
+  "bus": 532,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "Wisaforest sahkoasema 110kV",
+  "bus": 533,
+  "pMw": 32.404531193499125,
+  "qMvar": 8.121341053189777
+ },
+ {
+  "name": "Palkaneen sahkoasema 110kV",
+  "bus": 534,
+  "pMw": 9.157979906539609,
+  "qMvar": 2.295206115933196
+ },
+ {
+  "name": "Rautpohja sahkoasema 110kV",
+  "bus": 535,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Tarastenjarven jatevoimala 110kV",
+  "bus": 536,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "Peraseinajoen sahkoasema 110kV",
+  "bus": 537,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Sakyla sahkoasema 110kV",
+  "bus": 538,
+  "pMw": 44.7218916528826,
+  "qMvar": 11.208362573988568
+ },
+ {
+  "name": "Euraniitty sahkoasema 110kV",
+  "bus": 539,
+  "pMw": 7.757307541102451,
+  "qMvar": 1.9441645311755893
+ },
+ {
+  "name": "Kiukainen sahkoasema 110kV",
+  "bus": 540,
+  "pMw": 7.757307541102451,
+  "qMvar": 1.9441645311755893
+ },
+ {
+  "name": "Torttila sahkoasema 110kV",
+  "bus": 541,
+  "pMw": 9.244480496454797,
+  "qMvar": 2.316885207286453
+ },
+ {
+  "name": "Uuloo sahkoasema 110kV",
+  "bus": 542,
+  "pMw": 4.738502050267648,
+  "qMvar": 1.1875805578444194
+ },
+ {
+  "name": "Nakkila sahkoasema 110kV",
+  "bus": 543,
+  "pMw": 4.738502050267648,
+  "qMvar": 1.1875805578444194
+ },
+ {
+  "name": "Keljonlahden voimalaitos 110kV",
+  "bus": 544,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "OSM way/108869005 110kV",
+  "bus": 545,
+  "pMw": 24.376303632538953,
+  "qMvar": 6.109277564727533
+ },
+ {
+  "name": "Sahkoasema Perttula 110kV",
+  "bus": 546,
+  "pMw": 24.376303632538953,
+  "qMvar": 6.109277564727533
+ },
+ {
+  "name": "Vahanummen sahkoasema 110kV",
+  "bus": 547,
+  "pMw": 61.958493713041086,
+  "qMvar": 15.52826225384395
+ },
+ {
+  "name": "OSM way/1095661818 110kV",
+  "bus": 548,
+  "pMw": 10.699977449923843,
+  "qMvar": 2.681667129000297
+ },
+ {
+  "name": "Kurhila sahkoasema 110kV",
+  "bus": 549,
+  "pMw": 29.713752767716556,
+  "qMvar": 7.4469684117880295
+ },
+ {
+  "name": "Rouvankangas 110kV",
+  "bus": 550,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "Kiviniemen sahkoasema 110kV",
+  "bus": 551,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "Pysayspera sahkoasema 110kV",
+  "bus": 552,
+  "pMw": 6.392797871190971,
+  "qMvar": 1.6021861722370192
+ },
+ {
+  "name": "Koivulahti sahkoasema 110kV",
+  "bus": 553,
+  "pMw": 13.329549394748252,
+  "qMvar": 3.3406999803103896
+ },
+ {
+  "name": "OSM way/1111828681 110kV",
+  "bus": 554,
+  "pMw": 11.669136000041636,
+  "qMvar": 2.9245611574039714
+ },
+ {
+  "name": "Lapaskankaan sahkoasema 110kV",
+  "bus": 555,
+  "pMw": 4.77905745494775,
+  "qMvar": 1.1977447003524682
+ },
+ {
+  "name": "OSM way/1115177087 110kV",
+  "bus": 556,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Piiparinmaen sahkoasema 110kV",
+  "bus": 557,
+  "pMw": 2.158595229830104,
+  "qMvar": 0.540994960012129
+ },
+ {
+  "name": "OSM way/1117790639 110kV",
+  "bus": 558,
+  "pMw": 12.553845420125679,
+  "qMvar": 3.1462902387650895
+ },
+ {
+  "name": "Riikinnevan sahkoasema 110kV",
+  "bus": 559,
+  "pMw": 25.266307796103753,
+  "qMvar": 6.33233363388982
+ },
+ {
+  "name": "Leppiniemi sahkoasema 110kV",
+  "bus": 560,
+  "pMw": 4.87421199171776,
+  "qMvar": 1.2215926752314437
+ },
+ {
+  "name": "Rautaruukki sahkoasema 110kV",
+  "bus": 561,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "Pitkajanka sahkoasema 110kV",
+  "bus": 562,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "Tarttila sahkoasema 110kV",
+  "bus": 563,
+  "pMw": 15.630947315228187,
+  "qMvar": 3.9174846682206064
+ },
+ {
+  "name": "Kylmakoski sahkoasema 110kV",
+  "bus": 564,
+  "pMw": 15.630947315228187,
+  "qMvar": 3.9174846682206064
+ },
+ {
+  "name": "Nuojuankankaan sahkoasema 110kV",
+  "bus": 565,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "Laurilan sahkoasema 110kV",
+  "bus": 566,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "OSM way/1153431784 110kV",
+  "bus": 567,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "OSM way/1154143309 110kV",
+  "bus": 568,
+  "pMw": 1.9166524994092544,
+  "qMvar": 0.4803583960280815
+ },
+ {
+  "name": "Kankarintie sahkoasema 110kV",
+  "bus": 569,
+  "pMw": 11.384263237354961,
+  "qMvar": 2.853165313139851
+ },
+ {
+  "name": "Karppio sahkoasema 110kV",
+  "bus": 570,
+  "pMw": 3.43477079037807,
+  "qMvar": 0.8608347043079796
+ },
+ {
+  "name": "Paskoonharjun sahkoasema 110kV",
+  "bus": 571,
+  "pMw": 3.43477079037807,
+  "qMvar": 0.8608347043079796
+ },
+ {
+  "name": "Perala sahkoasema 110kV",
+  "bus": 572,
+  "pMw": 3.43477079037807,
+  "qMvar": 0.8608347043079796
+ },
+ {
+  "name": "Ribacken elstation 110kV",
+  "bus": 573,
+  "pMw": 5.00337878350793,
+  "qMvar": 1.2539649247360058
+ },
+ {
+  "name": "Kellarijanka sahkoasema 110kV",
+  "bus": 574,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "OSM way/1160853998 110kV",
+  "bus": 575,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "Matas elstation 110kV",
+  "bus": 576,
+  "pMw": 6.82104461006451,
+  "qMvar": 1.7095149220510588
+ },
+ {
+  "name": "Savikylan sahkoasema 110kV",
+  "bus": 577,
+  "pMw": 11.894935145874568,
+  "qMvar": 2.981151757708538
+ },
+ {
+  "name": "Tyngan sahkoasema 110kV",
+  "bus": 578,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "OSM way/1174872613 110kV",
+  "bus": 579,
+  "pMw": 2.028205417279818,
+  "qMvar": 0.508316192612007
+ },
+ {
+  "name": "Simojoki sahkoasema 110kV",
+  "bus": 580,
+  "pMw": 2.028205417279818,
+  "qMvar": 0.508316192612007
+ },
+ {
+  "name": "Iisalmi sahkoasema 110kV",
+  "bus": 581,
+  "pMw": 38.96848254442446,
+  "qMvar": 9.766422330838532
+ },
+ {
+  "name": "Viemero sahkoasema 110kV",
+  "bus": 582,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Hepokorven sahkoasema 110kV",
+  "bus": 583,
+  "pMw": 90.9554259700858,
+  "qMvar": 22.7955785112365
+ },
+ {
+  "name": "Isohaara sahkoasema 110kV",
+  "bus": 584,
+  "pMw": 7.311857013031526,
+  "qMvar": 1.8325241053602876
+ },
+ {
+  "name": "Pikkuhaka 110kV",
+  "bus": 585,
+  "pMw": 20.84003015182941,
+  "qMvar": 5.223003888287051
+ },
+ {
+  "name": "Orivesi sahkoasema 110kV",
+  "bus": 586,
+  "pMw": 31.315025619813138,
+  "qMvar": 7.84828521755929
+ },
+ {
+  "name": "Kivenlahden sahkoasema 110kV",
+  "bus": 587,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Vermon sahkoasema 110kV",
+  "bus": 588,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Artukainen 110kV",
+  "bus": 589,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/120285277 110kV",
+  "bus": 590,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Nurmi 110kV",
+  "bus": 591,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "OSM way/1215357737 110kV",
+  "bus": 592,
+  "pMw": 3.519002679808582,
+  "qMvar": 0.8819452057231951
+ },
+ {
+  "name": "Ekokemin sahkoasema 110kV",
+  "bus": 593,
+  "pMw": 19.49791887530234,
+  "qMvar": 4.886639095878177
+ },
+ {
+  "name": "Urjala sahkoasema 110kV",
+  "bus": 594,
+  "pMw": 6.67173423494292,
+  "qMvar": 1.6720942146845101
+ },
+ {
+  "name": "OSM way/122958010 110kV",
+  "bus": 595,
+  "pMw": 14.721079122493508,
+  "qMvar": 3.689450204073501
+ },
+ {
+  "name": "Heinola 1 sahkoasema 110kV",
+  "bus": 596,
+  "pMw": 25.26034351557359,
+  "qMvar": 6.33083884428669
+ },
+ {
+  "name": "Seinajoen sahkoasema 110kV",
+  "bus": 597,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Lapinlahden sahkoasema 110kV",
+  "bus": 598,
+  "pMw": 8.44971897066653,
+  "qMvar": 2.117699193196705
+ },
+ {
+  "name": "Paroinen sahkoasema 110kV",
+  "bus": 599,
+  "pMw": 45.87669490780877,
+  "qMvar": 11.497783551153347
+ },
+ {
+  "name": "OSM way/1259716059 110kV",
+  "bus": 600,
+  "pMw": 27.881171086436744,
+  "qMvar": 6.9876801489019105
+ },
+ {
+  "name": "Lapuan sahkoasema 110kV",
+  "bus": 601,
+  "pMw": 12.881969357766767,
+  "qMvar": 3.2285258492538302
+ },
+ {
+  "name": "Iso-Henna SA 110kV",
+  "bus": 602,
+  "pMw": 14.436930671942436,
+  "qMvar": 3.618235889541969
+ },
+ {
+  "name": "Koivisto Sahkoasema 110kV",
+  "bus": 603,
+  "pMw": 50.525266669668575,
+  "qMvar": 12.66282545417784
+ },
+ {
+  "name": "Alapitka sahkoasema 110kV",
+  "bus": 604,
+  "pMw": 8.44971897066653,
+  "qMvar": 2.117699193196705
+ },
+ {
+  "name": "Ahvenkoski sahkoasema 110kV",
+  "bus": 605,
+  "pMw": 7.2857326001471305,
+  "qMvar": 1.8259767103190938
+ },
+ {
+  "name": "Arkkukallio sahkoasema 110kV",
+  "bus": 606,
+  "pMw": 2.674408768938074,
+  "qMvar": 0.6702700186739581
+ },
+ {
+  "name": "Tupaneva 110kV",
+  "bus": 607,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Pjelax-Bole/Kristinestad Norr 110kV",
+  "bus": 608,
+  "pMw": 5.197482464533882,
+  "qMvar": 1.3026118927750796
+ },
+ {
+  "name": "Halmepuronsuo SA 110kV",
+  "bus": 609,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "Siilinjarven sahkoasema 110kV",
+  "bus": 610,
+  "pMw": 11.450816837654553,
+  "qMvar": 2.869845217660707
+ },
+ {
+  "name": "Evijarvi sahkoasema 110kV",
+  "bus": 611,
+  "pMw": 6.563687286577478,
+  "qMvar": 1.645015096884831
+ },
+ {
+  "name": "Suvilahden sahkoasema 110kV",
+  "bus": 612,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Lieksankoski 110kV",
+  "bus": 613,
+  "pMw": 5.866736207947417,
+  "qMvar": 1.4703426915615059
+ },
+ {
+  "name": "Saava sahkoasema 110kV",
+  "bus": 614,
+  "pMw": 5.866736207947417,
+  "qMvar": 1.4703426915615059
+ },
+ {
+  "name": "Varesneva 110kV",
+  "bus": 615,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "Raakkyla sahkoasema 110kV",
+  "bus": 616,
+  "pMw": 5.729824135472348,
+  "qMvar": 1.4360292917400592
+ },
+ {
+  "name": "OSM way/1300067709 110kV",
+  "bus": 617,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Siihtala sahkoasema 110kV",
+  "bus": 618,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Vimpeli sahkoasema 110kV",
+  "bus": 619,
+  "pMw": 7.651770704805993,
+  "qMvar": 1.9177145067601722
+ },
+ {
+  "name": "Lappajarvi sahkoasema 110kV",
+  "bus": 620,
+  "pMw": 8.109198808489124,
+  "qMvar": 2.032356795986373
+ },
+ {
+  "name": "Hoiskon sahkoasema 110kV",
+  "bus": 621,
+  "pMw": 5.176245594577637,
+  "qMvar": 1.2972894314567218
+ },
+ {
+  "name": "Sankiahon sahkoasema 110kV",
+  "bus": 622,
+  "pMw": 5.176245594577637,
+  "qMvar": 1.2972894314567218
+ },
+ {
+  "name": "Ankila sahkoasema 110kV",
+  "bus": 623,
+  "pMw": 2.157590260061534,
+  "qMvar": 0.5407430908463643
+ },
+ {
+  "name": "Valkeus sahkoasema 110kV",
+  "bus": 624,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "Silovuori 110kV",
+  "bus": 625,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "Nevasaari SA 110kV",
+  "bus": 626,
+  "pMw": 6.646321096325221,
+  "qMvar": 1.6657250817779452
+ },
+ {
+  "name": "Julmala sahkoasema 110kV",
+  "bus": 627,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Haukineva sahkoasema 110kV",
+  "bus": 628,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Matkussaari sahkoasema 110kV",
+  "bus": 629,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "OSM way/1315690108 110kV",
+  "bus": 630,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Riskula sahkoasema 110kV",
+  "bus": 631,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Eltoneva sahkoasema 110kV",
+  "bus": 632,
+  "pMw": 11.997077828151301,
+  "qMvar": 3.006751126941918
+ },
+ {
+  "name": "Hittisenneva 110kV",
+  "bus": 633,
+  "pMw": 0.48780743982586583,
+  "qMvar": 0.122256068555745
+ },
+ {
+  "name": "Kosolankangas 110kV",
+  "bus": 634,
+  "pMw": 0.48780743982586583,
+  "qMvar": 0.122256068555745
+ },
+ {
+  "name": "Isokorteneva 110kV",
+  "bus": 635,
+  "pMw": 0.48780743982586583,
+  "qMvar": 0.122256068555745
+ },
+ {
+  "name": "OSM way/1323924900 110kV",
+  "bus": 636,
+  "pMw": 18.23215060133487,
+  "qMvar": 4.5694076634648155
+ },
+ {
+  "name": "Louhukangas sahkoasema 110kV",
+  "bus": 637,
+  "pMw": 5.176245594577637,
+  "qMvar": 1.2972894314567218
+ },
+ {
+  "name": "Martimo sahkoasema 110kV",
+  "bus": 638,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Munsala elstation 110kV",
+  "bus": 639,
+  "pMw": 6.82104461006451,
+  "qMvar": 1.7095149220510588
+ },
+ {
+  "name": "Kuortti sahkoasema 110kV",
+  "bus": 640,
+  "pMw": 2.261932533288377,
+  "qMvar": 0.5668937295357556
+ },
+ {
+  "name": "Pertunmaa sahkoasema 110kV",
+  "bus": 641,
+  "pMw": 2.261932533288377,
+  "qMvar": 0.5668937295357556
+ },
+ {
+  "name": "OSM way/1339135364 110kV",
+  "bus": 642,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "Vaarinmaja sahkoasema 110kV",
+  "bus": 643,
+  "pMw": 6.095357877188679,
+  "qMvar": 1.5276406829124909
+ },
+ {
+  "name": "OSM way/1340364298 110kV",
+  "bus": 644,
+  "pMw": 79.34923506900115,
+  "qMvar": 19.886792882668416
+ },
+ {
+  "name": "Lattiasaari sahkoasema 110kV",
+  "bus": 645,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Pajuperankangas sahkoasema 110kV",
+  "bus": 646,
+  "pMw": 7.4360733012398255,
+  "qMvar": 1.8636556417147865
+ },
+ {
+  "name": "OSM way/134870496 110kV",
+  "bus": 647,
+  "pMw": 55.85300379363691,
+  "qMvar": 13.998082241789309
+ },
+ {
+  "name": "OSM way/1351187936 110kV",
+  "bus": 648,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/1352202998 110kV",
+  "bus": 649,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "OSM way/1354465241 110kV",
+  "bus": 650,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Alakylan sahkoasema 110kV",
+  "bus": 651,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Kuusniemen sahkoasema 110kV",
+  "bus": 652,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "Savonlinnan sahkoasema 110kV",
+  "bus": 653,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "OSM way/136025716 110kV",
+  "bus": 654,
+  "pMw": 17.728891076785846,
+  "qMvar": 4.443278937431936
+ },
+ {
+  "name": "Sinetan sahkoasema 110kV",
+  "bus": 655,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "Alajarven sahkoasema 110kV",
+  "bus": 656,
+  "pMw": 5.176245594577637,
+  "qMvar": 1.2972894314567218
+ },
+ {
+  "name": "Yliharma sahkoasema 110kV",
+  "bus": 657,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Kauhava sahkoasema 110kV",
+  "bus": 658,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "OSM way/136363036 110kV",
+  "bus": 659,
+  "pMw": 9.611403527685207,
+  "qMvar": 2.4088447872321797
+ },
+ {
+  "name": "OSM way/136370546 110kV",
+  "bus": 660,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "OSM way/136370548 110kV",
+  "bus": 661,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "OSM way/136453899 110kV",
+  "bus": 662,
+  "pMw": 17.55340633308134,
+  "qMvar": 4.399298314945973
+ },
+ {
+  "name": "Ahtari sahkoasema 110kV",
+  "bus": 663,
+  "pMw": 7.600343876581261,
+  "qMvar": 1.9048257286814867
+ },
+ {
+  "name": "Kojolan sahkoasema 110kV",
+  "bus": 664,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Voltti SA 110kV",
+  "bus": 665,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Hikiansuon sahkoasema 110kV",
+  "bus": 666,
+  "pMw": 11.186941958809248,
+  "qMvar": 2.8037119391486645
+ },
+ {
+  "name": "Honkalanmaki 110kV",
+  "bus": 667,
+  "pMw": 19.49791887530234,
+  "qMvar": 4.886639095878177
+ },
+ {
+  "name": "OSM way/1375256722 110kV",
+  "bus": 668,
+  "pMw": 27.356224964307305,
+  "qMvar": 6.856116249183532
+ },
+ {
+  "name": "Alajoen sahkoasema 110kV",
+  "bus": 669,
+  "pMw": 3.743701603559288,
+  "qMvar": 0.9382600643819208
+ },
+ {
+  "name": "Gerby sahkoasema 110kV",
+  "bus": 670,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "Lantisnevan sahkoasema 110kV",
+  "bus": 671,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "OSM way/1395583577 110kV",
+  "bus": 672,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "Toijala sahkoasema 110kV",
+  "bus": 673,
+  "pMw": 15.630947315228187,
+  "qMvar": 3.9174846682206064
+ },
+ {
+  "name": "Virrat sahkoasema 110kV",
+  "bus": 674,
+  "pMw": 9.313103420108035,
+  "qMvar": 2.334083733126159
+ },
+ {
+  "name": "OSM way/140677655 110kV",
+  "bus": 675,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/140834620 110kV",
+  "bus": 676,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Kummatin sahkoasema 110kV",
+  "bus": 677,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "OSM way/1415961052 110kV",
+  "bus": 678,
+  "pMw": 11.450816837654553,
+  "qMvar": 2.869845217660707
+ },
+ {
+  "name": "Karungin sahkoasema 110kV",
+  "bus": 679,
+  "pMw": 19.550777967014117,
+  "qMvar": 4.899886833023015
+ },
+ {
+  "name": "Kitkiaisvaaran sahkoasema 110kV",
+  "bus": 680,
+  "pMw": 19.550777967014117,
+  "qMvar": 4.899886833023015
+ },
+ {
+  "name": "OSM way/142035550 110kV",
+  "bus": 681,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Perhon sahkoasema 110kV",
+  "bus": 682,
+  "pMw": 3.743701603559288,
+  "qMvar": 0.9382600643819208
+ },
+ {
+  "name": "Pinsion sahkoasema 110kV",
+  "bus": 683,
+  "pMw": 5.922587285012469,
+  "qMvar": 1.484340290919594
+ },
+ {
+  "name": "Ylojarvi sahkoasema 110kV",
+  "bus": 684,
+  "pMw": 94.6509600037508,
+  "qMvar": 23.721766644675213
+ },
+ {
+  "name": "Sisatto SA 110kV",
+  "bus": 685,
+  "pMw": 9.879517717357881,
+  "qMvar": 2.4760405371885383
+ },
+ {
+  "name": "OSM way/142846914 110kV",
+  "bus": 686,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "OSM way/143511169 110kV",
+  "bus": 687,
+  "pMw": 7.731693299569301,
+  "qMvar": 1.937744997127486
+ },
+ {
+  "name": "OSM way/143511171 110kV",
+  "bus": 688,
+  "pMw": 6.619911615289719,
+  "qMvar": 1.6591062419235336
+ },
+ {
+  "name": "OSM way/143778041 110kV",
+  "bus": 689,
+  "pMw": 9.184249138121208,
+  "qMvar": 2.301789805961157
+ },
+ {
+  "name": "OSM way/143932526 110kV",
+  "bus": 690,
+  "pMw": 2.157590260061534,
+  "qMvar": 0.5407430908463643
+ },
+ {
+  "name": "Pattijarvi sahkoasema 110kV",
+  "bus": 691,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "OSM way/144197312 110kV",
+  "bus": 692,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "Soidinrameen sahkoasema 110kV",
+  "bus": 693,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Kuivaniemen sahkoasema 110kV",
+  "bus": 694,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "OSM way/1443808242 110kV",
+  "bus": 695,
+  "pMw": 21.82840355544235,
+  "qMvar": 5.4707136129151
+ },
+ {
+  "name": "Uusnivalan sahkoasema 110kV",
+  "bus": 696,
+  "pMw": 14.55341866296735,
+  "qMvar": 3.647430532046287
+ },
+ {
+  "name": "Kymin sahkoasema 110kV",
+  "bus": 697,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "Heinaaho sahkoasema 110kV",
+  "bus": 698,
+  "pMw": 9.313103420108035,
+  "qMvar": 2.334083733126159
+ },
+ {
+  "name": "Porttila SA 110kV",
+  "bus": 699,
+  "pMw": 10.68753595056261,
+  "qMvar": 2.678548995337994
+ },
+ {
+  "name": "Tonttila SA 110kV",
+  "bus": 700,
+  "pMw": 6.392797871190971,
+  "qMvar": 1.6021861722370192
+ },
+ {
+  "name": "Kemijarvi SA 110kV",
+  "bus": 701,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "Konttipuro sahkoasema 110kV",
+  "bus": 702,
+  "pMw": 10.730343042848558,
+  "qMvar": 2.689277463954731
+ },
+ {
+  "name": "Heininevan sahkoasema 110kV",
+  "bus": 703,
+  "pMw": 12.881969357766767,
+  "qMvar": 3.2285258492538302
+ },
+ {
+  "name": "OSM way/1473372701 110kV",
+  "bus": 704,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "OSM way/147699112 110kV",
+  "bus": 705,
+  "pMw": 15.612446138338628,
+  "qMvar": 3.9128478362137407
+ },
+ {
+  "name": "OSM way/147699118 110kV",
+  "bus": 706,
+  "pMw": 15.612446138338628,
+  "qMvar": 3.9128478362137407
+ },
+ {
+  "name": "Metsalamminkankaan sahkoasema 110kV",
+  "bus": 707,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "Porvoo sahkoasema 110kV",
+  "bus": 708,
+  "pMw": 42.57759452202714,
+  "qMvar": 10.67095105536283
+ },
+ {
+  "name": "Ohenneva SA 110kV",
+  "bus": 709,
+  "pMw": 18.97767692184857,
+  "qMvar": 4.756254171962865
+ },
+ {
+  "name": "OSM way/148596527 110kV",
+  "bus": 710,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "Manniston sahkoasema 110kV",
+  "bus": 711,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "Saarijarvi sahkoasema 110kV",
+  "bus": 712,
+  "pMw": 12.5323663050345,
+  "qMvar": 3.140907065093033
+ },
+ {
+  "name": "OSM way/149818659 110kV",
+  "bus": 713,
+  "pMw": 12.5323663050345,
+  "qMvar": 3.140907065093033
+ },
+ {
+  "name": "OSM way/149954884 110kV",
+  "bus": 714,
+  "pMw": 6.370027991539381,
+  "qMvar": 1.5964795024726453
+ },
+ {
+  "name": "Pyhanselan sahkoasema 110kV",
+  "bus": 715,
+  "pMw": 4.87421199171776,
+  "qMvar": 1.2215926752314437
+ },
+ {
+  "name": "Pyhakoski sahkoasema 110kV",
+  "bus": 716,
+  "pMw": 4.87421199171776,
+  "qMvar": 1.2215926752314437
+ },
+ {
+  "name": "Pikkaralan sahkoasema 110kV",
+  "bus": 717,
+  "pMw": 79.80567464543111,
+  "qMvar": 20.001187423611654
+ },
+ {
+  "name": "Konkapelto sahkoasema 110kV",
+  "bus": 718,
+  "pMw": 2.157590260061534,
+  "qMvar": 0.5407430908463643
+ },
+ {
+  "name": "Tuovila 110kV",
+  "bus": 719,
+  "pMw": 13.329549394748252,
+  "qMvar": 3.3406999803103896
+ },
+ {
+  "name": "Maalismaa sahkoasema 110kV",
+  "bus": 720,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Sorosenpera sahkoasema 110kV",
+  "bus": 721,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Otanmaki 110kV",
+  "bus": 722,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "OSM way/1507129707 110kV",
+  "bus": 723,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "Karsamaen sahkoasema 110kV",
+  "bus": 724,
+  "pMw": 7.047580877113241,
+  "qMvar": 1.766290262346317
+ },
+ {
+  "name": "Paasivuoren sahkoasema 110kV",
+  "bus": 725,
+  "pMw": 5.473368616365695,
+  "qMvar": 1.3717554800560998
+ },
+ {
+  "name": "Pahaneva SA 110kV",
+  "bus": 726,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "OSM way/1514431569 110kV",
+  "bus": 727,
+  "pMw": 10.855941494676678,
+  "qMvar": 2.720755403165079
+ },
+ {
+  "name": "Hovinpaikan sahkoasema 110kV",
+  "bus": 728,
+  "pMw": 19.625860467784403,
+  "qMvar": 4.9187042814915864
+ },
+ {
+  "name": "OSM way/151571228 110kV",
+  "bus": 729,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Lieto 110kV",
+  "bus": 730,
+  "pMw": 27.95079032320059,
+  "qMvar": 7.0051283743443875
+ },
+ {
+  "name": "OSM way/151818564 110kV",
+  "bus": 731,
+  "pMw": 66.97341516474411,
+  "qMvar": 16.78512004391772
+ },
+ {
+  "name": "OSM way/151818569 110kV",
+  "bus": 732,
+  "pMw": 15.16785410656829,
+  "qMvar": 3.801422569852786
+ },
+ {
+  "name": "OSM way/151998558 110kV",
+  "bus": 733,
+  "pMw": 16.37157322318546,
+  "qMvar": 4.103103017562937
+ },
+ {
+  "name": "OSM way/152181013 110kV",
+  "bus": 734,
+  "pMw": 23.401832050133933,
+  "qMvar": 5.865051964915727
+ },
+ {
+  "name": "Eerolan sahkoasema 110kV",
+  "bus": 735,
+  "pMw": 29.8463332711653,
+  "qMvar": 7.480196218080962
+ },
+ {
+  "name": "Alavuden sahkoasema 110kV",
+  "bus": 736,
+  "pMw": 31.0401508463796,
+  "qMvar": 7.779395105598039
+ },
+ {
+  "name": "Karhunnevankankaan sahkoasema 110kV",
+  "bus": 737,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "Karstula sahkoasema 110kV",
+  "bus": 738,
+  "pMw": 17.119085823914354,
+  "qMvar": 4.290447334807499
+ },
+ {
+  "name": "Nilsia sahkoasema 110kV",
+  "bus": 739,
+  "pMw": 44.12984883712865,
+  "qMvar": 11.05998265773188
+ },
+ {
+  "name": "Mantyla SA 110kV",
+  "bus": 740,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Multian sahkoasema 110kV",
+  "bus": 741,
+  "pMw": 4.216497074591047,
+  "qMvar": 1.0567537789098054
+ },
+ {
+  "name": "Viitasaari sahkoasema 110kV",
+  "bus": 742,
+  "pMw": 35.45250126509598,
+  "qMvar": 8.885234359454284
+ },
+ {
+  "name": "OSM way/1546290063 110kV",
+  "bus": 743,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Kurikan sahkoasema 110kV",
+  "bus": 744,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "OSM way/154784124 110kV",
+  "bus": 745,
+  "pMw": 3.335346670387358,
+  "qMvar": 0.8359166710077532
+ },
+ {
+  "name": "OSM way/154863393 110kV",
+  "bus": 746,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/154863454 110kV",
+  "bus": 747,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Kala sahkoasema 110kV",
+  "bus": 748,
+  "pMw": 5.892595049644002,
+  "qMvar": 1.4768235281890865
+ },
+ {
+  "name": "Joutsa sahkoasema 110kV",
+  "bus": 749,
+  "pMw": 5.892595049644002,
+  "qMvar": 1.4768235281890865
+ },
+ {
+  "name": "Nivala sahkoasema 110kV",
+  "bus": 750,
+  "pMw": 33.04237501682266,
+  "qMvar": 8.281199783962595
+ },
+ {
+  "name": "OSM way/155554509 110kV",
+  "bus": 751,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Myyrmaen sahkoasema 110kV",
+  "bus": 752,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/155899286 110kV",
+  "bus": 753,
+  "pMw": 8.44971897066653,
+  "qMvar": 2.117699193196705
+ },
+ {
+  "name": "Rustarin sahkoasema 110kV",
+  "bus": 754,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "Ristiina sahkoasema 110kV",
+  "bus": 755,
+  "pMw": 35.55784710761675,
+  "qMvar": 8.911636516317408
+ },
+ {
+  "name": "Melo sahkoasema 110kV",
+  "bus": 756,
+  "pMw": 48.28610726479912,
+  "qMvar": 12.101639208624302
+ },
+ {
+  "name": "Niiniston sahkoasema 110kV",
+  "bus": 757,
+  "pMw": 43.912839679486005,
+  "qMvar": 11.005595036125587
+ },
+ {
+  "name": "OSM way/1570681928 110kV",
+  "bus": 758,
+  "pMw": 6.646321096325221,
+  "qMvar": 1.6657250817779452
+ },
+ {
+  "name": "Malax elstation 110kV",
+  "bus": 759,
+  "pMw": 5.00337878350793,
+  "qMvar": 1.2539649247360058
+ },
+ {
+  "name": "Hankasalmi sahkoasema 110kV",
+  "bus": 760,
+  "pMw": 13.126068479330364,
+  "qMvar": 3.289702855801597
+ },
+ {
+  "name": "Kauppilan Sahkoasema 110kV",
+  "bus": 761,
+  "pMw": 4.807057967541431,
+  "qMvar": 1.2047622903024515
+ },
+ {
+  "name": "Varkauden sahkoasema 110kV",
+  "bus": 762,
+  "pMw": 18.23215060133487,
+  "qMvar": 4.5694076634648155
+ },
+ {
+  "name": "Kinnari sahkoasema 110kV",
+  "bus": 763,
+  "pMw": 18.23215060133487,
+  "qMvar": 4.5694076634648155
+ },
+ {
+  "name": "Kangasniemi sahkoasema 110kV",
+  "bus": 764,
+  "pMw": 4.77905745494775,
+  "qMvar": 1.1977447003524682
+ },
+ {
+  "name": "Ylivieska sahkoasema 110kV",
+  "bus": 765,
+  "pMw": 13.911858990730137,
+  "qMvar": 3.4866405217511733
+ },
+ {
+  "name": "Olmala sahkoasema 110kV",
+  "bus": 766,
+  "pMw": 20.8034957257644,
+  "qMvar": 5.2138474980129645
+ },
+ {
+  "name": "OSM way/159093497 110kV",
+  "bus": 767,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/159153724 110kV",
+  "bus": 768,
+  "pMw": 3.335346670387358,
+  "qMvar": 0.8359166710077532
+ },
+ {
+  "name": "Kallislahden sahkoasema 110kV",
+  "bus": 769,
+  "pMw": 16.252644902331244,
+  "qMvar": 4.073296770752181
+ },
+ {
+  "name": "Soukkajoen sahkoasema 110kV",
+  "bus": 770,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Pohjan sahkoasema 110kV",
+  "bus": 771,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Nurmijarvi sahkoasema 110kV",
+  "bus": 772,
+  "pMw": 24.376303632538953,
+  "qMvar": 6.109277564727533
+ },
+ {
+  "name": "Taivalmaa sahkoasema 110kV",
+  "bus": 773,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "OSM way/159825638 110kV",
+  "bus": 774,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Juankoski Sahkoasema 110kV",
+  "bus": 775,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "OSM way/161022271 110kV",
+  "bus": 776,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/161490134 110kV",
+  "bus": 777,
+  "pMw": 6.278944420769659,
+  "qMvar": 1.573651807847282
+ },
+ {
+  "name": "OSM way/162050752 110kV",
+  "bus": 778,
+  "pMw": 23.032129026422954,
+  "qMvar": 5.772395653178845
+ },
+ {
+  "name": "Rieskaneva sahkoasema 110kV",
+  "bus": 779,
+  "pMw": 6.716541557963124,
+  "qMvar": 1.6833239883774103
+ },
+ {
+  "name": "OSM way/162690719 110kV",
+  "bus": 780,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/162864815 110kV",
+  "bus": 781,
+  "pMw": 5.473368616365695,
+  "qMvar": 1.3717554800560998
+ },
+ {
+  "name": "OSM way/162950429 110kV",
+  "bus": 782,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/162965477 110kV",
+  "bus": 783,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/165373253 110kV",
+  "bus": 784,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/166777693 110kV",
+  "bus": 785,
+  "pMw": 12.195379083004653,
+  "qMvar": 3.0564501061471057
+ },
+ {
+  "name": "OSM way/166909843 110kV",
+  "bus": 786,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Pieskanranta sahkoasema 110kV",
+  "bus": 787,
+  "pMw": 7.012579019343266,
+  "qMvar": 1.7575179698929013
+ },
+ {
+  "name": "Pattiniemi sahkoasema 110kV",
+  "bus": 788,
+  "pMw": 7.012579019343266,
+  "qMvar": 1.7575179698929013
+ },
+ {
+  "name": "Kittila sahkoasema 110kV",
+  "bus": 789,
+  "pMw": 5.8402541533720065,
+  "qMvar": 1.4637056630634901
+ },
+ {
+  "name": "OSM way/167455825 110kV",
+  "bus": 790,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/167455829 110kV",
+  "bus": 791,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Itikka sahkoasema 110kV",
+  "bus": 792,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Petajaveden sahkoasema 110kV",
+  "bus": 793,
+  "pMw": 10.34199569827855,
+  "qMvar": 2.591948444950551
+ },
+ {
+  "name": "OSM way/168877874 110kV",
+  "bus": 794,
+  "pMw": 10.699977449923843,
+  "qMvar": 2.681667129000297
+ },
+ {
+  "name": "OSM way/168963100 110kV",
+  "bus": 795,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/168975142 110kV",
+  "bus": 796,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/169018002 110kV",
+  "bus": 797,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Nuojuan sahkoasema 110kV",
+  "bus": 798,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "Mantyharju sahkoasema 110kV",
+  "bus": 799,
+  "pMw": 15.501599171920697,
+  "qMvar": 3.8850669677414915
+ },
+ {
+  "name": "Kesalahti sahkoasema 110kV",
+  "bus": 800,
+  "pMw": 9.105910542042603,
+  "qMvar": 2.2821563030851744
+ },
+ {
+  "name": "Taivalkosken sahkoasema 110kV",
+  "bus": 801,
+  "pMw": 15.459975429707207,
+  "qMvar": 3.874635074608792
+ },
+ {
+  "name": "Vaisalanmaki sahkoasema 110kV",
+  "bus": 802,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "Marttilanmaki sahkoasema 110kV",
+  "bus": 803,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "Toivilan sahkoasema 110kV",
+  "bus": 804,
+  "pMw": 13.585144310248483,
+  "qMvar": 3.404758104399376
+ },
+ {
+  "name": "OSM way/174266079 110kV",
+  "bus": 805,
+  "pMw": 27.000178268595384,
+  "qMvar": 6.766882535865133
+ },
+ {
+  "name": "Ruotsinkylan sahkoasema 110kV",
+  "bus": 806,
+  "pMw": 27.356224964307305,
+  "qMvar": 6.856116249183532
+ },
+ {
+  "name": "Tolkinkylan sahkoasema 110kV",
+  "bus": 807,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/178181385 110kV",
+  "bus": 808,
+  "pMw": 15.003789800108438,
+  "qMvar": 3.7603041787407796
+ },
+ {
+  "name": "OSM way/178181897 110kV",
+  "bus": 809,
+  "pMw": 15.003789800108438,
+  "qMvar": 3.7603041787407796
+ },
+ {
+  "name": "OSM way/178234889 110kV",
+  "bus": 810,
+  "pMw": 28.56460765723054,
+  "qMvar": 7.158965499289957
+ },
+ {
+  "name": "OSM way/178234890 110kV",
+  "bus": 811,
+  "pMw": 28.56460765723054,
+  "qMvar": 7.158965499289957
+ },
+ {
+  "name": "OSM way/178307639 110kV",
+  "bus": 812,
+  "pMw": 19.580760727321493,
+  "qMvar": 4.907401221079371
+ },
+ {
+  "name": "OSM way/178370665 110kV",
+  "bus": 813,
+  "pMw": 24.376303632538953,
+  "qMvar": 6.109277564727533
+ },
+ {
+  "name": "OSM way/178404322 110kV",
+  "bus": 814,
+  "pMw": 19.580760727321493,
+  "qMvar": 4.907401221079371
+ },
+ {
+  "name": "OSM way/178632134 110kV",
+  "bus": 815,
+  "pMw": 5.910814832379356,
+  "qMvar": 1.4813898361731537
+ },
+ {
+  "name": "OSM way/178632140 110kV",
+  "bus": 816,
+  "pMw": 31.678611544414085,
+  "qMvar": 7.939408439746687
+ },
+ {
+  "name": "OSM way/178639425 110kV",
+  "bus": 817,
+  "pMw": 14.436930671942436,
+  "qMvar": 3.618235889541969
+ },
+ {
+  "name": "Myrskyla sahkoasema 110kV",
+  "bus": 818,
+  "pMw": 10.60825345904691,
+  "qMvar": 2.658678929966556
+ },
+ {
+  "name": "OSM way/178708097 110kV",
+  "bus": 819,
+  "pMw": 83.02096679127115,
+  "qMvar": 20.807015594557324
+ },
+ {
+  "name": "Oulainen 110kV",
+  "bus": 820,
+  "pMw": 6.646321096325221,
+  "qMvar": 1.6657250817779452
+ },
+ {
+  "name": "OSM way/186886932 110kV",
+  "bus": 821,
+  "pMw": 39.40471647176394,
+  "qMvar": 9.8757528587743
+ },
+ {
+  "name": "Torkkola sahkoasema 110kV",
+  "bus": 822,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "OSM way/191556468 110kV",
+  "bus": 823,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/192143731 110kV",
+  "bus": 824,
+  "pMw": 56.11148068276737,
+  "qMvar": 14.062862656554795
+ },
+ {
+  "name": "OSM way/193840745 110kV",
+  "bus": 825,
+  "pMw": 56.11148068276737,
+  "qMvar": 14.062862656554795
+ },
+ {
+  "name": "OSM way/197245741 110kV",
+  "bus": 826,
+  "pMw": 7.2857326001471305,
+  "qMvar": 1.8259767103190938
+ },
+ {
+  "name": "OSM way/198362738 110kV",
+  "bus": 827,
+  "pMw": 6.188298080959352,
+  "qMvar": 1.5509336936296467
+ },
+ {
+  "name": "OSM way/198362740 110kV",
+  "bus": 828,
+  "pMw": 6.188298080959352,
+  "qMvar": 1.5509336936296467
+ },
+ {
+  "name": "OSM way/198362741 110kV",
+  "bus": 829,
+  "pMw": 6.188298080959352,
+  "qMvar": 1.5509336936296467
+ },
+ {
+  "name": "OSM way/198993286 110kV",
+  "bus": 830,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "Vilppula sahkoasema 110kV",
+  "bus": 831,
+  "pMw": 7.012579019343266,
+  "qMvar": 1.7575179698929013
+ },
+ {
+  "name": "Keuruun sahkoasema 110kV",
+  "bus": 832,
+  "pMw": 25.861720562865262,
+  "qMvar": 6.4815581394819155
+ },
+ {
+  "name": "Jamsankoski sahkoasema 110kV",
+  "bus": 833,
+  "pMw": 13.585144310248483,
+  "qMvar": 3.404758104399376
+ },
+ {
+  "name": "OSM way/200166363 110kV",
+  "bus": 834,
+  "pMw": 13.585144310248483,
+  "qMvar": 3.404758104399376
+ },
+ {
+  "name": "OSM way/200407399 110kV",
+  "bus": 835,
+  "pMw": 17.620136164555962,
+  "qMvar": 4.416022387162639
+ },
+ {
+  "name": "Karttula sahkoasema 110kV",
+  "bus": 836,
+  "pMw": 43.91069956282354,
+  "qMvar": 11.005058672331101
+ },
+ {
+  "name": "OSM way/205064975 110kV",
+  "bus": 837,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Leppikoski sahkoasema 110kV",
+  "bus": 838,
+  "pMw": 9.933675460838288,
+  "qMvar": 2.4896137471464033
+ },
+ {
+  "name": "OSM way/207549109 110kV",
+  "bus": 839,
+  "pMw": 5.922587285012469,
+  "qMvar": 1.484340290919594
+ },
+ {
+  "name": "OSM way/207549112 110kV",
+  "bus": 840,
+  "pMw": 5.922587285012469,
+  "qMvar": 1.484340290919594
+ },
+ {
+  "name": "Vuolijoen sahkoasema 110kV",
+  "bus": 841,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "Isosannan Sahkoasema 110kV",
+  "bus": 842,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Nurmon sahkoasema 110kV",
+  "bus": 843,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Tornio sahkoasema 110kV",
+  "bus": 844,
+  "pMw": 19.550777967014117,
+  "qMvar": 4.899886833023015
+ },
+ {
+  "name": "Gruotilan sahkoasema 110kV",
+  "bus": 845,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "OSM way/218386340 110kV",
+  "bus": 846,
+  "pMw": 13.585144310248483,
+  "qMvar": 3.404758104399376
+ },
+ {
+  "name": "Saynatsalon sahkoasema 110kV",
+  "bus": 847,
+  "pMw": 35.923279232015396,
+  "qMvar": 9.003222439789385
+ },
+ {
+  "name": "Virkkala sahkoasema 110kV",
+  "bus": 848,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "Isosyote sahkoasema 110kV",
+  "bus": 849,
+  "pMw": 10.76972132094576,
+  "qMvar": 2.699146590732251
+ },
+ {
+  "name": "Kallioinen sahkoasema 110kV",
+  "bus": 850,
+  "pMw": 15.68507020519776,
+  "qMvar": 3.9310491430652648
+ },
+ {
+  "name": "Kuhmo sahkoasema 110kV",
+  "bus": 851,
+  "pMw": 12.428475714064401,
+  "qMvar": 3.1148696286478827
+ },
+ {
+  "name": "Sahalahden sahkoasema 110kV",
+  "bus": 852,
+  "pMw": 22.676496011002662,
+  "qMvar": 5.683265617914459
+ },
+ {
+  "name": "Muonio sahkoasema 110kV",
+  "bus": 853,
+  "pMw": 11.256947336067103,
+  "qMvar": 2.82125694052126
+ },
+ {
+  "name": "Tihisenniemi sahkoasema 110kV",
+  "bus": 854,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "OSM way/220230350 110kV",
+  "bus": 855,
+  "pMw": 13.926645756641946,
+  "qMvar": 3.4903464346164577
+ },
+ {
+  "name": "Viipusjarvi sahkoasema 110kV",
+  "bus": 856,
+  "pMw": 10.351134413260073,
+  "qMvar": 2.5942388228211533
+ },
+ {
+  "name": "OSM way/222296387 110kV",
+  "bus": 857,
+  "pMw": 22.676496011002662,
+  "qMvar": 5.683265617914459
+ },
+ {
+  "name": "OSM way/226203506 110kV",
+  "bus": 858,
+  "pMw": 17.728891076785846,
+  "qMvar": 4.443278937431936
+ },
+ {
+  "name": "Honkanummen sahkoasema 110kV",
+  "bus": 859,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/22969391 110kV",
+  "bus": 860,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "OSM way/23038270 110kV",
+  "bus": 861,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "OSM way/232208451 110kV",
+  "bus": 862,
+  "pMw": 15.68507020519776,
+  "qMvar": 3.9310491430652648
+ },
+ {
+  "name": "Kumpyolin sahkoasema 110kV",
+  "bus": 863,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Suurmiehikkala sahkoasema 110kV",
+  "bus": 864,
+  "pMw": 5.04999906018873,
+  "qMvar": 1.2656490674461094
+ },
+ {
+  "name": "Aholahden sahkoasema 110kV",
+  "bus": 865,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "Kopulan muuntoasema 110kV",
+  "bus": 866,
+  "pMw": 17.420555185954907,
+  "qMvar": 4.36600267895363
+ },
+ {
+  "name": "OSM way/239028153 110kV",
+  "bus": 867,
+  "pMw": 15.612446138338628,
+  "qMvar": 3.9128478362137407
+ },
+ {
+  "name": "Tohmajarvi sahkoasema 110kV",
+  "bus": 868,
+  "pMw": 5.876708150233987,
+  "qMvar": 1.4728418958792096
+ },
+ {
+  "name": "OSM way/239545044 110kV",
+  "bus": 869,
+  "pMw": 13.36020552851494,
+  "qMvar": 3.348383131663662
+ },
+ {
+  "name": "Jaala saahkoasema 110kV",
+  "bus": 870,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Atria sahkoasema 110kV",
+  "bus": 871,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Latikan sahkoasema 110kV",
+  "bus": 872,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Haapajarvi sahkoasema 110kV",
+  "bus": 873,
+  "pMw": 6.392797871190971,
+  "qMvar": 1.6021861722370192
+ },
+ {
+  "name": "Narpes elstation 110kV",
+  "bus": 874,
+  "pMw": 5.197482464533882,
+  "qMvar": 1.3026118927750796
+ },
+ {
+  "name": "Virojoen sahkoasema 110kV",
+  "bus": 875,
+  "pMw": 8.45473725262615,
+  "qMvar": 2.118956893209453
+ },
+ {
+  "name": "Pyhannan sahkoasema 110kV",
+  "bus": 876,
+  "pMw": 2.158595229830104,
+  "qMvar": 0.540994960012129
+ },
+ {
+  "name": "OSM way/252609822 110kV",
+  "bus": 877,
+  "pMw": 2.157590260061534,
+  "qMvar": 0.5407430908463643
+ },
+ {
+  "name": "Meltauksen sahkoasema 110kV",
+  "bus": 878,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "Viikinmaen sahkoasema 110kV",
+  "bus": 879,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Tammiston sahkoasema 110kV",
+  "bus": 880,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Kannelmaen sahkoasema 110kV",
+  "bus": 881,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Sirkka sahkoasema 110kV",
+  "bus": 882,
+  "pMw": 5.8402541533720065,
+  "qMvar": 1.4637056630634901
+ },
+ {
+  "name": "Lelkola SA 110kV",
+  "bus": 883,
+  "pMw": 5.717737149235471,
+  "qMvar": 1.4330000074418625
+ },
+ {
+  "name": "Ruskeasannan sahkoasema 110kV",
+  "bus": 884,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Multisilta sahkoasema 110kV",
+  "bus": 885,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "Vesanto sahkoasema 110kV",
+  "bus": 886,
+  "pMw": 5.382519981103551,
+  "qMvar": 1.3489866658191347
+ },
+ {
+  "name": "OSM way/26330814 110kV",
+  "bus": 887,
+  "pMw": 28.326474762906663,
+  "qMvar": 7.099283770236726
+ },
+ {
+  "name": "Mellunkylan sahkoasema 110kV",
+  "bus": 888,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "OSM way/26358836 110kV",
+  "bus": 889,
+  "pMw": 24.376303632538953,
+  "qMvar": 6.109277564727533
+ },
+ {
+  "name": "Pitajanmaen sahkoasema 110kV",
+  "bus": 890,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Rauma sahkoasema 110kV",
+  "bus": 891,
+  "pMw": 26.145567585017332,
+  "qMvar": 6.552696908935607
+ },
+ {
+  "name": "Anttilan sahkoasema 110kV",
+  "bus": 892,
+  "pMw": 28.56460765723054,
+  "qMvar": 7.158965499289957
+ },
+ {
+  "name": "OSM way/266230186 110kV",
+  "bus": 893,
+  "pMw": 10.271353538915063,
+  "qMvar": 2.574243850938718
+ },
+ {
+  "name": "Hakkilan sahkoasema 110kV",
+  "bus": 894,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Rekolan sahkoasema 110kV",
+  "bus": 895,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Matari SA 110kV",
+  "bus": 896,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/27175012 110kV",
+  "bus": 897,
+  "pMw": 61.958493713041086,
+  "qMvar": 15.52826225384395
+ },
+ {
+  "name": "Espoon sahkoasema 110kV",
+  "bus": 898,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Finnoon sahkoasema 110kV",
+  "bus": 899,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "OSM way/28486821 110kV",
+  "bus": 900,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "OSM way/28502182 110kV",
+  "bus": 901,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Vaaralan sahkoasema 110kV",
+  "bus": 902,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Lansisalmen sahkoasema 110kV",
+  "bus": 903,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/289601196 110kV",
+  "bus": 904,
+  "pMw": 24.70345287069342,
+  "qMvar": 6.1912688924982815
+ },
+ {
+  "name": "Sarkisalmi sahkoasema 110kV",
+  "bus": 905,
+  "pMw": 12.664640162593056,
+  "qMvar": 3.1740580186815723
+ },
+ {
+  "name": "OSM way/296479108 110kV",
+  "bus": 906,
+  "pMw": 43.912839679486005,
+  "qMvar": 11.005595036125587
+ },
+ {
+  "name": "Posan sahkoasema 110kV",
+  "bus": 907,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "OSM way/299874537 110kV",
+  "bus": 908,
+  "pMw": 26.145567585017332,
+  "qMvar": 6.552696908935607
+ },
+ {
+  "name": "OSM way/300522112 110kV",
+  "bus": 909,
+  "pMw": 9.115107799269031,
+  "qMvar": 2.284461353025373
+ },
+ {
+  "name": "Vaskiluoto sahkoasema 110kV",
+  "bus": 910,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "OSM way/30483473 110kV",
+  "bus": 911,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Suurmetsan sahkoasema 110kV",
+  "bus": 912,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "OSM way/30674477 110kV",
+  "bus": 913,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Pulp 110kV",
+  "bus": 914,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Koivuhaan sahkoasema 110kV",
+  "bus": 915,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Alasjarven sahkoasema 110kV",
+  "bus": 916,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "Honkavaara sahkoasema 110kV",
+  "bus": 917,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Kisko sahkoasema 110kV",
+  "bus": 918,
+  "pMw": 24.153467954093834,
+  "qMvar": 6.053429679360353
+ },
+ {
+  "name": "Fortum 110kV",
+  "bus": 919,
+  "pMw": 24.153467954093834,
+  "qMvar": 6.053429679360353
+ },
+ {
+  "name": "Tiirantie SA 110kV",
+  "bus": 920,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Rannari SA 110kV",
+  "bus": 921,
+  "pMw": 6.075908140013431,
+  "qMvar": 1.5227661192889077
+ },
+ {
+  "name": "OSM way/322082677 110kV",
+  "bus": 922,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Lavianvuoren sahkoasema 110kV",
+  "bus": 923,
+  "pMw": 22.676496011002662,
+  "qMvar": 5.683265617914459
+ },
+ {
+  "name": "Merikosken sahkoasema 110kV",
+  "bus": 924,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Keljon sahkoasema 110kV",
+  "bus": 925,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Myllylammen sahkoasema 110kV",
+  "bus": 926,
+  "pMw": 41.33023174223541,
+  "qMvar": 10.358332474607808
+ },
+ {
+  "name": "OSM way/334053540 110kV",
+  "bus": 927,
+  "pMw": 19.580760727321493,
+  "qMvar": 4.907401221079371
+ },
+ {
+  "name": "OSM way/345672928 110kV",
+  "bus": 928,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "OSM way/345672987 110kV",
+  "bus": 929,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Kangasalan sahkoasema 110kV",
+  "bus": 930,
+  "pMw": 22.676496011002662,
+  "qMvar": 5.683265617914459
+ },
+ {
+  "name": "Inkoon sahkoasema 110kV",
+  "bus": 931,
+  "pMw": 15.268854390814182,
+  "qMvar": 3.826735627151222
+ },
+ {
+  "name": "Koivula sahkoasema 110kV",
+  "bus": 932,
+  "pMw": 43.912839679486005,
+  "qMvar": 11.005595036125587
+ },
+ {
+  "name": "OSM way/348251886 110kV",
+  "bus": 933,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/348349188 110kV",
+  "bus": 934,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "OSM way/348349190 110kV",
+  "bus": 935,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "OSM way/348349199 110kV",
+  "bus": 936,
+  "pMw": 17.728891076785846,
+  "qMvar": 4.443278937431936
+ },
+ {
+  "name": "Visulahti sahkoasema 110kV",
+  "bus": 937,
+  "pMw": 35.55784710761675,
+  "qMvar": 8.911636516317408
+ },
+ {
+  "name": "Lalby elstation 110kV",
+  "bus": 938,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Kristinestad sahkoasema 110kV",
+  "bus": 939,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "OSM way/352399506 110kV",
+  "bus": 940,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "Oulunsuun sahkoasema 110kV",
+  "bus": 941,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Korian sahkoasema 110kV",
+  "bus": 942,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "OSM way/355823296 110kV",
+  "bus": 943,
+  "pMw": 8.8114298138052,
+  "qMvar": 2.2083524756720676
+ },
+ {
+  "name": "Niinivaara sahkoasema 110kV",
+  "bus": 944,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Posio sahkoasema 110kV",
+  "bus": 945,
+  "pMw": 4.321136441232705,
+  "qMvar": 1.0829788762275891
+ },
+ {
+  "name": "Aittokoski sahkoasema 110kV",
+  "bus": 946,
+  "pMw": 5.862932346921589,
+  "qMvar": 1.4693893541246759
+ },
+ {
+  "name": "OSM way/363801887 110kV",
+  "bus": 947,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Kemppila 110kV",
+  "bus": 948,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/363802509 110kV",
+  "bus": 949,
+  "pMw": 94.88506263863744,
+  "qMvar": 23.7804382955012
+ },
+ {
+  "name": "OSM way/363802613 110kV",
+  "bus": 950,
+  "pMw": 8.679647242107022,
+  "qMvar": 2.1753246499264494
+ },
+ {
+  "name": "OSM way/367150733 110kV",
+  "bus": 951,
+  "pMw": 10.855941494676678,
+  "qMvar": 2.720755403165079
+ },
+ {
+  "name": "Kontiolahti sahkoasema 110kV",
+  "bus": 952,
+  "pMw": 39.944366656554884,
+  "qMvar": 10.011001943969625
+ },
+ {
+  "name": "OSM way/36977363 110kV",
+  "bus": 953,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Kiiminki sahkoasema 110kV",
+  "bus": 954,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "OSM way/371246420 110kV",
+  "bus": 955,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Pello sahkoasema 110kV",
+  "bus": 956,
+  "pMw": 9.158148423674467,
+  "qMvar": 2.2952483503082997
+ },
+ {
+  "name": "Taivalvaaran sahkoasema 110kV",
+  "bus": 957,
+  "pMw": 10.877787875544351,
+  "qMvar": 2.726230622317142
+ },
+ {
+  "name": "Keljonlahti sahkoasema 110kV",
+  "bus": 958,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Ivalo sahkoasema 110kV",
+  "bus": 959,
+  "pMw": 9.376716745081461,
+  "qMvar": 2.350026735188174
+ },
+ {
+  "name": "OSM way/382867631 110kV",
+  "bus": 960,
+  "pMw": 9.105910542042603,
+  "qMvar": 2.2821563030851744
+ },
+ {
+  "name": "OSM way/386458176 110kV",
+  "bus": 961,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "OSM way/387139781 110kV",
+  "bus": 962,
+  "pMw": 5.876708150233987,
+  "qMvar": 1.4728418958792096
+ },
+ {
+  "name": "Pirttikoski sahkoasema 110kV",
+  "bus": 963,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "Pelkosenniemi sahkoasema 110kV",
+  "bus": 964,
+  "pMw": 1.2747556136718536,
+  "qMvar": 0.31948387206336987
+ },
+ {
+  "name": "Kokkosniva sahkoasema 110kV",
+  "bus": 965,
+  "pMw": 1.2747556136718536,
+  "qMvar": 0.31948387206336987
+ },
+ {
+  "name": "Vajukoski sahkoasema 110kV",
+  "bus": 966,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "Honkakero sahkoasema 110kV",
+  "bus": 967,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "Sodankyla sahkoasema 110kV",
+  "bus": 968,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "Ylitornio sahkoasema 110kV",
+  "bus": 969,
+  "pMw": 10.637896686616237,
+  "qMvar": 2.6661082230975155
+ },
+ {
+  "name": "OSM way/39846266 110kV",
+  "bus": 970,
+  "pMw": 17.728891076785846,
+  "qMvar": 4.443278937431936
+ },
+ {
+  "name": "OSM way/399014185 110kV",
+  "bus": 971,
+  "pMw": 9.376716745081461,
+  "qMvar": 2.350026735188174
+ },
+ {
+  "name": "Isokeron sahkoasema 110kV",
+  "bus": 972,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "OSM way/399515537 110kV",
+  "bus": 973,
+  "pMw": 3.291647970837438,
+  "qMvar": 0.8249647445470191
+ },
+ {
+  "name": "Porttipahta sahkoasema 110kV",
+  "bus": 974,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "OSM way/400582573 110kV",
+  "bus": 975,
+  "pMw": 29.614361418759692,
+  "qMvar": 7.42205859168308
+ },
+ {
+  "name": "Kalanti sahkoasema 110kV",
+  "bus": 976,
+  "pMw": 8.679647242107022,
+  "qMvar": 2.1753246499264494
+ },
+ {
+  "name": "OSM way/400584163 110kV",
+  "bus": 977,
+  "pMw": 33.57897287002491,
+  "qMvar": 8.415683882752434
+ },
+ {
+  "name": "OSM way/400588213 110kV",
+  "bus": 978,
+  "pMw": 22.419532927041892,
+  "qMvar": 5.618864598487166
+ },
+ {
+  "name": "OSM way/400588215 110kV",
+  "bus": 979,
+  "pMw": 22.419532927041892,
+  "qMvar": 5.618864598487166
+ },
+ {
+  "name": "OSM way/400588216 110kV",
+  "bus": 980,
+  "pMw": 22.419532927041892,
+  "qMvar": 5.618864598487166
+ },
+ {
+  "name": "Kelukoski sahkoasema 110kV",
+  "bus": 981,
+  "pMw": 3.220537307262255,
+  "qMvar": 0.8071427323116264
+ },
+ {
+  "name": "Luukkala sahkoasema 110kV",
+  "bus": 982,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Permantokoski sahkoasema 110kV",
+  "bus": 983,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "Kestilan sahkoasema 110kV",
+  "bus": 984,
+  "pMw": 7.1556474317118335,
+  "qMvar": 1.7933742939312083
+ },
+ {
+  "name": "Koskenkorva sahkoasema 110kV",
+  "bus": 985,
+  "pMw": 16.60409882866373,
+  "qMvar": 4.161379427562886
+ },
+ {
+  "name": "Akaslompolo sahkoasema 110kV",
+  "bus": 986,
+  "pMw": 3.4808023359474256,
+  "qMvar": 0.8723712970931633
+ },
+ {
+  "name": "Kytomaa SA 110kV",
+  "bus": 987,
+  "pMw": 20.84003015182941,
+  "qMvar": 5.223003888287051
+ },
+ {
+  "name": "Raunistula 110kV",
+  "bus": 988,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Hiukkavaaran sahkoasema 110kV",
+  "bus": 989,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Kangasvuoren sahkoasema 110kV",
+  "bus": 990,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Vuosaaren sahkoasema 110kV",
+  "bus": 991,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Vihtavuori sahkoasema 110kV",
+  "bus": 992,
+  "pMw": 25.44841768869558,
+  "qMvar": 6.377974675201805
+ },
+ {
+  "name": "Karmeskyto sahkoasema 110kV",
+  "bus": 993,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "OSM way/43652983 110kV",
+  "bus": 994,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "OSM way/437318828 110kV",
+  "bus": 995,
+  "pMw": 28.56460765723054,
+  "qMvar": 7.158965499289957
+ },
+ {
+  "name": "Kuivasjarven sahkoasema 110kV",
+  "bus": 996,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Luopioisten sahkoasema 110kV",
+  "bus": 997,
+  "pMw": 9.157979906539609,
+  "qMvar": 2.295206115933196
+ },
+ {
+  "name": "Saynajavaara sahkoasema 110kV",
+  "bus": 998,
+  "pMw": 10.351134413260073,
+  "qMvar": 2.5942388228211533
+ },
+ {
+  "name": "OSM way/450595296 110kV",
+  "bus": 999,
+  "pMw": 15.612446138338628,
+  "qMvar": 3.9128478362137407
+ },
+ {
+  "name": "Salpakankaan sahkoasema 110kV",
+  "bus": 1000,
+  "pMw": 31.678611544414085,
+  "qMvar": 7.939408439746687
+ },
+ {
+  "name": "OSM way/46176715 110kV",
+  "bus": 1001,
+  "pMw": 64.85820198353403,
+  "qMvar": 16.25499765016262
+ },
+ {
+  "name": "Nikkila sahkoasema 110kV",
+  "bus": 1002,
+  "pMw": 64.85820198353403,
+  "qMvar": 16.25499765016262
+ },
+ {
+  "name": "Sopenkorpi sahkoasema 110kV",
+  "bus": 1003,
+  "pMw": 64.85820198353403,
+  "qMvar": 16.25499765016262
+ },
+ {
+  "name": "Keminmaa sahkoasema 110kV",
+  "bus": 1004,
+  "pMw": 7.311857013031526,
+  "qMvar": 1.8325241053602876
+ },
+ {
+  "name": "Moreeni sahkoasema 110kV",
+  "bus": 1005,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Ontojoki sahkoasema 110kV",
+  "bus": 1006,
+  "pMw": 12.428475714064401,
+  "qMvar": 3.1148696286478827
+ },
+ {
+  "name": "Koroinen 110kV",
+  "bus": 1007,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Munttismaki 110kV",
+  "bus": 1008,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Keilaniemen sahkoasema 110kV",
+  "bus": 1009,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "OSM way/491214443 110kV",
+  "bus": 1010,
+  "pMw": 21.203724371321737,
+  "qMvar": 5.314154251732624
+ },
+ {
+  "name": "Haapakoski sahkoasema 110kV",
+  "bus": 1011,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Pudasjarvi sahkoasema 110kV",
+  "bus": 1012,
+  "pMw": 10.76972132094576,
+  "qMvar": 2.699146590732251
+ },
+ {
+  "name": "OSM way/491733938 110kV",
+  "bus": 1013,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "OSM way/491875475 110kV",
+  "bus": 1014,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "OSM way/49363351 110kV",
+  "bus": 1015,
+  "pMw": 64.85820198353403,
+  "qMvar": 16.25499765016262
+ },
+ {
+  "name": "Ruohonpaa 110kV",
+  "bus": 1016,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/497956176 110kV",
+  "bus": 1017,
+  "pMw": 8.679647242107022,
+  "qMvar": 2.1753246499264494
+ },
+ {
+  "name": "OSM way/498825718 110kV",
+  "bus": 1018,
+  "pMw": 4.738502050267648,
+  "qMvar": 1.1875805578444194
+ },
+ {
+  "name": "Ilolan sahkoasema 110kV",
+  "bus": 1019,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/507737003 110kV",
+  "bus": 1020,
+  "pMw": 48.50870797664064,
+  "qMvar": 12.157428205809687
+ },
+ {
+  "name": "Hyvelan sahkoasema 110kV",
+  "bus": 1021,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/512739952 110kV",
+  "bus": 1022,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Paaskyvuori 110kV",
+  "bus": 1023,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Westenergy sahkoasema 110kV",
+  "bus": 1024,
+  "pMw": 13.329549394748252,
+  "qMvar": 3.3406999803103896
+ },
+ {
+  "name": "Leipio sahkoasema 110kV",
+  "bus": 1025,
+  "pMw": 2.028205417279818,
+  "qMvar": 0.508316192612007
+ },
+ {
+  "name": "OSM way/53047221 110kV",
+  "bus": 1026,
+  "pMw": 20.9386852080493,
+  "qMvar": 5.247729176037676
+ },
+ {
+  "name": "Pulkkila sahkoasema 110kV",
+  "bus": 1027,
+  "pMw": 7.1556474317118335,
+  "qMvar": 1.7933742939312083
+ },
+ {
+  "name": "Isokangas sahkoasema 110kV",
+  "bus": 1028,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Raasakka sahkoasema 110kV",
+  "bus": 1029,
+  "pMw": 3.8474038461791675,
+  "qMvar": 0.9642502962808976
+ },
+ {
+  "name": "Siikajoki sahkoasema 110kV",
+  "bus": 1030,
+  "pMw": 3.519002679808582,
+  "qMvar": 0.8819452057231951
+ },
+ {
+  "name": "Jylkan sahkoasema 110kV",
+  "bus": 1031,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "Ruhala sahkoasema 110kV",
+  "bus": 1032,
+  "pMw": 6.095357877188679,
+  "qMvar": 1.5276406829124909
+ },
+ {
+  "name": "OSM way/55275866 110kV",
+  "bus": 1033,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "OSM way/55275882 110kV",
+  "bus": 1034,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Valajaskoski sahkoasema 110kV",
+  "bus": 1035,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "OSM way/557774779 110kV",
+  "bus": 1036,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "Kulennoisten sahkoasema 110kV",
+  "bus": 1037,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "Kyronniemen sahkoasema 110kV",
+  "bus": 1038,
+  "pMw": 12.609461259957893,
+  "qMvar": 3.160228882115301
+ },
+ {
+  "name": "Etelakangas SA 110kV",
+  "bus": 1039,
+  "pMw": 28.527917428860842,
+  "qMvar": 7.149770061277588
+ },
+ {
+  "name": "Kurimo sahkoasema 110kV",
+  "bus": 1040,
+  "pMw": 5.862932346921589,
+  "qMvar": 1.4693893541246759
+ },
+ {
+  "name": "Suomussalmi sahkoasema 110kV",
+  "bus": 1041,
+  "pMw": 5.862932346921589,
+  "qMvar": 1.4693893541246759
+ },
+ {
+  "name": "Amma sahkoasema 110kV",
+  "bus": 1042,
+  "pMw": 5.862932346921589,
+  "qMvar": 1.4693893541246759
+ },
+ {
+  "name": "Nappa SA 110kV",
+  "bus": 1043,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Jylhama sahkoasema 110kV",
+  "bus": 1044,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "OSM way/572598982 110kV",
+  "bus": 1045,
+  "pMw": 44.45793665131626,
+  "qMvar": 11.142209214829787
+ },
+ {
+  "name": "Saraisniemen sahkoasema 110kV",
+  "bus": 1046,
+  "pMw": 1.2730878499547211,
+  "qMvar": 0.3190658910760169
+ },
+ {
+  "name": "Purola sahkoasema 110kV",
+  "bus": 1047,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "Vihanti sahkoasema 110kV",
+  "bus": 1048,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "Uimaharju Sahkoasema 110kV",
+  "bus": 1049,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Otavan sahkoasema 110kV",
+  "bus": 1050,
+  "pMw": 35.55784710761675,
+  "qMvar": 8.911636516317408
+ },
+ {
+  "name": "Hameenlahden sahkoasema 110kV",
+  "bus": 1051,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Hirvisuo 110kV",
+  "bus": 1052,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "Kiikanlahti sahkoasema 110kV",
+  "bus": 1053,
+  "pMw": 9.105910542042603,
+  "qMvar": 2.2821563030851744
+ },
+ {
+  "name": "Kursun sahkoasema 110kV",
+  "bus": 1054,
+  "pMw": 4.6157285266073504,
+  "qMvar": 1.1568106123700292
+ },
+ {
+  "name": "OSM way/59532423 110kV",
+  "bus": 1055,
+  "pMw": 27.21994339997004,
+  "qMvar": 6.821960869596767
+ },
+ {
+  "name": "Rautuvaara sahkoasema 110kV",
+  "bus": 1056,
+  "pMw": 3.4808023359474256,
+  "qMvar": 0.8723712970931633
+ },
+ {
+  "name": "Etelaportin sahkoasema 110kV",
+  "bus": 1057,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Rantakyla sahkoasema 110kV",
+  "bus": 1058,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Leppakorven sahkoasema 110kV",
+  "bus": 1059,
+  "pMw": 48.28610726479912,
+  "qMvar": 12.101639208624302
+ },
+ {
+  "name": "Mantan sahkoasema 110kV",
+  "bus": 1060,
+  "pMw": 6.6337130699385,
+  "qMvar": 1.662565212508961
+ },
+ {
+  "name": "Kankaanpaa sahkoasema 110kV",
+  "bus": 1061,
+  "pMw": 25.62205602898523,
+  "qMvar": 6.421492545371918
+ },
+ {
+  "name": "OSM way/613944567 110kV",
+  "bus": 1062,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/622105258 110kV",
+  "bus": 1064,
+  "pMw": 28.192264356307174,
+  "qMvar": 7.065647471708809
+ },
+ {
+  "name": "Vienolan sahkoasema 110kV",
+  "bus": 1065,
+  "pMw": 19.49791887530234,
+  "qMvar": 4.886639095878177
+ },
+ {
+  "name": "Syvakangas sahkoasema 110kV",
+  "bus": 1066,
+  "pMw": 56.222288588504945,
+  "qMvar": 14.090633735497763
+ },
+ {
+  "name": "Ahola sahkoasema 110kV",
+  "bus": 1067,
+  "pMw": 4.321136441232705,
+  "qMvar": 1.0829788762275891
+ },
+ {
+  "name": "Idanpaa sahkoasema 110kV",
+  "bus": 1068,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Kevitsa sahkoasema 110kV",
+  "bus": 1069,
+  "pMw": 5.949247406815423,
+  "qMvar": 1.4910219472715553
+ },
+ {
+  "name": "Savilahden sahkoasema 110kV",
+  "bus": 1070,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "Kuusamo sahkoasema 110kV",
+  "bus": 1071,
+  "pMw": 10.351134413260073,
+  "qMvar": 2.5942388228211533
+ },
+ {
+  "name": "Herttoniemen sahkoasema 110kV",
+  "bus": 1072,
+  "pMw": 142.5820704764202,
+  "qMvar": 35.73443527062211
+ },
+ {
+  "name": "Tammijarvi sahkoasema 110kV",
+  "bus": 1073,
+  "pMw": 1.8578435386129128,
+  "qMvar": 0.4656194811288414
+ },
+ {
+  "name": "Tervasaari sahkoasema 110kV",
+  "bus": 1074,
+  "pMw": 29.8463332711653,
+  "qMvar": 7.480196218080962
+ },
+ {
+  "name": "Sallan sahkoasema 110kV",
+  "bus": 1075,
+  "pMw": 4.6157285266073504,
+  "qMvar": 1.1568106123700292
+ },
+ {
+  "name": "Puolanka sahkoasema 110kV",
+  "bus": 1076,
+  "pMw": 7.672573041551846,
+  "qMvar": 1.9229280637904393
+ },
+ {
+  "name": "Haapoja SA 110kV",
+  "bus": 1077,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Halmekankaan sahkoasema 110kV",
+  "bus": 1078,
+  "pMw": 2.028205417279818,
+  "qMvar": 0.508316192612007
+ },
+ {
+  "name": "Ruukki sahkoasema 110kV",
+  "bus": 1079,
+  "pMw": 3.519002679808582,
+  "qMvar": 0.8819452057231951
+ },
+ {
+  "name": "Ruka sahkoasema 110kV",
+  "bus": 1080,
+  "pMw": 10.351134413260073,
+  "qMvar": 2.5942388228211533
+ },
+ {
+  "name": "Etelankyla sahkoasema 110kV",
+  "bus": 1081,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "Sysma sahkoasema 110kV",
+  "bus": 1082,
+  "pMw": 4.948683571889036,
+  "qMvar": 1.2402570125652985
+ },
+ {
+  "name": "Suosaari sahkoasema 110kV",
+  "bus": 1083,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Nuoramoinen sahkoasema 110kV",
+  "bus": 1084,
+  "pMw": 12.247890349786072,
+  "qMvar": 3.0696106701472567
+ },
+ {
+  "name": "OSM way/652034525 110kV",
+  "bus": 1085,
+  "pMw": 39.839032841380934,
+  "qMvar": 9.984602801443751
+ },
+ {
+  "name": "Pyhajarvi sahkoasema 110kV",
+  "bus": 1086,
+  "pMw": 7.018854324625009,
+  "qMvar": 1.7590907096465362
+ },
+ {
+  "name": "OSM way/659557841 110kV",
+  "bus": 1087,
+  "pMw": 7.073268081066845,
+  "qMvar": 1.7727280825006761
+ },
+ {
+  "name": "OSM way/660669482 110kV",
+  "bus": 1088,
+  "pMw": 6.411039532969786,
+  "qMvar": 1.606757963626256
+ },
+ {
+  "name": "Kustavi sahkoasema 110kV",
+  "bus": 1089,
+  "pMw": 2.6533259994715777,
+  "qMvar": 0.6649861785788561
+ },
+ {
+  "name": "Pyhasalmi sahkoasema 110kV",
+  "bus": 1090,
+  "pMw": 7.018854324625009,
+  "qMvar": 1.7590907096465362
+ },
+ {
+  "name": "Nurmes sahkoasema 110kV",
+  "bus": 1091,
+  "pMw": 38.157502403583024,
+  "qMvar": 9.563171548662163
+ },
+ {
+  "name": "Ilpoinen 110kV",
+  "bus": 1092,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/675282601 110kV",
+  "bus": 1093,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "OSM way/677290892 110kV",
+  "bus": 1094,
+  "pMw": 24.153467954093834,
+  "qMvar": 6.053429679360353
+ },
+ {
+  "name": "Mesila SA 110kV",
+  "bus": 1095,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "OSM way/682865053 110kV",
+  "bus": 1096,
+  "pMw": 27.356224964307305,
+  "qMvar": 6.856116249183532
+ },
+ {
+  "name": "Pjelax elstation 110kV",
+  "bus": 1097,
+  "pMw": 5.197482464533882,
+  "qMvar": 1.3026118927750796
+ },
+ {
+  "name": "OSM way/688213169 110kV",
+  "bus": 1098,
+  "pMw": 7.757307541102451,
+  "qMvar": 1.9441645311755893
+ },
+ {
+  "name": "Ylane sahkoasema 110kV",
+  "bus": 1099,
+  "pMw": 15.285282654490109,
+  "qMvar": 3.8308529381355174
+ },
+ {
+  "name": "OSM way/690148403 110kV",
+  "bus": 1100,
+  "pMw": 27.000178268595384,
+  "qMvar": 6.766882535865133
+ },
+ {
+  "name": "OSM way/692085241 110kV",
+  "bus": 1101,
+  "pMw": 15.612446138338628,
+  "qMvar": 3.9128478362137407
+ },
+ {
+  "name": "OSM way/692085242 110kV",
+  "bus": 1102,
+  "pMw": 11.62173571762769,
+  "qMvar": 2.91268152683001
+ },
+ {
+  "name": "OSM way/692085243 110kV",
+  "bus": 1103,
+  "pMw": 11.62173571762769,
+  "qMvar": 2.91268152683001
+ },
+ {
+  "name": "OSM way/692087942 110kV",
+  "bus": 1104,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "OSM way/697075758 110kV",
+  "bus": 1105,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Kettukallio sahkoasema 110kV",
+  "bus": 1106,
+  "pMw": 13.911858990730137,
+  "qMvar": 3.4866405217511733
+ },
+ {
+  "name": "Kiuruvesi sahkoasema 110kV",
+  "bus": 1107,
+  "pMw": 10.68753595056261,
+  "qMvar": 2.678548995337994
+ },
+ {
+  "name": "OSM way/702094450 110kV",
+  "bus": 1108,
+  "pMw": 28.5535469106804,
+  "qMvar": 7.156193414901506
+ },
+ {
+  "name": "Alaharma sahkoasema 110kV",
+  "bus": 1109,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Ylistaro sahkoasema 110kV",
+  "bus": 1110,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Tytyrin sahkoasema 110kV",
+  "bus": 1111,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "Kortesjarven sahkoasema 110kV",
+  "bus": 1112,
+  "pMw": 6.080739102722675,
+  "qMvar": 1.523976872672215
+ },
+ {
+  "name": "Traskbole elstation 110kV",
+  "bus": 1113,
+  "pMw": 5.197482464533882,
+  "qMvar": 1.3026118927750796
+ },
+ {
+  "name": "Korsnas elstation 110kV",
+  "bus": 1114,
+  "pMw": 5.6942562922443685,
+  "qMvar": 1.4271151499598271
+ },
+ {
+  "name": "OSM way/720513494 110kV",
+  "bus": 1115,
+  "pMw": 5.197482464533882,
+  "qMvar": 1.3026118927750796
+ },
+ {
+  "name": "Petalax elstation 110kV",
+  "bus": 1116,
+  "pMw": 5.00337878350793,
+  "qMvar": 1.2539649247360058
+ },
+ {
+  "name": "Huhdanneva SA 110kV",
+  "bus": 1117,
+  "pMw": 12.881969357766767,
+  "qMvar": 3.2285258492538302
+ },
+ {
+  "name": "Metsala etelainen sahkoasema 110kV",
+  "bus": 1118,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Lavia sahkoasema 110kV",
+  "bus": 1119,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Jussila sahkoasema 110kV",
+  "bus": 1120,
+  "pMw": 6.82104461006451,
+  "qMvar": 1.7095149220510588
+ },
+ {
+  "name": "OSM way/733738687 110kV",
+  "bus": 1121,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "Pernoonkoski sahkoasema 110kV",
+  "bus": 1122,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "Vihdin kirkonkylan sahkoasema 110kV",
+  "bus": 1123,
+  "pMw": 41.33023174223541,
+  "qMvar": 10.358332474607808
+ },
+ {
+  "name": "OSM way/758548963 110kV",
+  "bus": 1124,
+  "pMw": 30.606446254178554,
+  "qMvar": 7.67069848880187
+ },
+ {
+  "name": "Vuonoksen sahkoasema 110kV",
+  "bus": 1125,
+  "pMw": 29.468437016582627,
+  "qMvar": 7.38548648912785
+ },
+ {
+  "name": "OSM way/772262970 110kV",
+  "bus": 1126,
+  "pMw": 39.84842033180199,
+  "qMvar": 9.98695552831666
+ },
+ {
+  "name": "Alskat elstation 110kV",
+  "bus": 1127,
+  "pMw": 13.329549394748252,
+  "qMvar": 3.3406999803103896
+ },
+ {
+  "name": "OSM way/793402889 110kV",
+  "bus": 1128,
+  "pMw": 12.93971991006237,
+  "qMvar": 3.242999501978569
+ },
+ {
+  "name": "Matomaen syottoasema 110kV",
+  "bus": 1129,
+  "pMw": 11.450816837654553,
+  "qMvar": 2.869845217660707
+ },
+ {
+  "name": "OSM way/796503961 110kV",
+  "bus": 1130,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Muurame sahkoasema 110kV",
+  "bus": 1131,
+  "pMw": 5.473368616365695,
+  "qMvar": 1.3717554800560998
+ },
+ {
+  "name": "Roves sahkoasema 110kV",
+  "bus": 1132,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Vihtakangas sahkoasema 110kV",
+  "bus": 1133,
+  "pMw": 25.44841768869558,
+  "qMvar": 6.377974675201805
+ },
+ {
+  "name": "Kaikala sahkoasema 110kV",
+  "bus": 1134,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Oulunlammen 110kV kytkemo 110kV",
+  "bus": 1135,
+  "pMw": 11.450816837654553,
+  "qMvar": 2.869845217660707
+ },
+ {
+  "name": "Kinkomaan sahkoasema 110kV",
+  "bus": 1136,
+  "pMw": 5.473368616365695,
+  "qMvar": 1.3717554800560998
+ },
+ {
+  "name": "OSM way/823981377 110kV",
+  "bus": 1137,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "OSM way/829963982 110kV",
+  "bus": 1138,
+  "pMw": 29.277588882497856,
+  "qMvar": 7.337655438062429
+ },
+ {
+  "name": "Mankin syottoasema 110kV",
+  "bus": 1139,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Taivassalo sahkoasema 110kV",
+  "bus": 1140,
+  "pMw": 4.582509286758604,
+  "qMvar": 1.1484850860808695
+ },
+ {
+  "name": "Paunu sahkoasema 110kV",
+  "bus": 1141,
+  "pMw": 9.879517717357881,
+  "qMvar": 2.4760405371885383
+ },
+ {
+  "name": "OSM way/839815448 110kV",
+  "bus": 1142,
+  "pMw": 8.679647242107022,
+  "qMvar": 2.1753246499264494
+ },
+ {
+  "name": "OSM way/845152046 110kV",
+  "bus": 1143,
+  "pMw": 7.489216272917859,
+  "qMvar": 1.876974525885649
+ },
+ {
+  "name": "Parkanon sahkoasema 110kV",
+  "bus": 1144,
+  "pMw": 6.075908140013431,
+  "qMvar": 1.5227661192889077
+ },
+ {
+  "name": "Keimolan sahkoasema 110kV",
+  "bus": 1145,
+  "pMw": 38.98425586173942,
+  "qMvar": 9.770375496792084
+ },
+ {
+  "name": "Rautaharkon sahkoasema 110kV",
+  "bus": 1146,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "Tourulan sahkoasema 110kV",
+  "bus": 1147,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Rauhalahti sahkoasema 110kV",
+  "bus": 1148,
+  "pMw": 29.493525072294187,
+  "qMvar": 7.391774148578263
+ },
+ {
+  "name": "Saramaki 110kV",
+  "bus": 1149,
+  "pMw": 59.19022520001388,
+  "qMvar": 14.834468765925484
+ },
+ {
+  "name": "Huhkola 110kV",
+  "bus": 1150,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "OSM way/87961491 110kV",
+  "bus": 1151,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "Kyminlinna sahkoasema 110kV",
+  "bus": 1152,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "OSM way/880258288 110kV",
+  "bus": 1153,
+  "pMw": 25.889992051449315,
+  "qMvar": 6.488643642416719
+ },
+ {
+  "name": "Huutokosken sahkoasema 110kV",
+  "bus": 1154,
+  "pMw": 6.370027991539381,
+  "qMvar": 1.5964795024726453
+ },
+ {
+  "name": "Nuottasaaren sahkoasema 110kV",
+  "bus": 1155,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Levasuon sahkoasema 110kV",
+  "bus": 1156,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "OSM way/88738801 110kV",
+  "bus": 1157,
+  "pMw": 27.356224964307305,
+  "qMvar": 6.856116249183532
+ },
+ {
+  "name": "Valkolan sahkoasema 110kV",
+  "bus": 1158,
+  "pMw": 5.473368616365695,
+  "qMvar": 1.3717554800560998
+ },
+ {
+  "name": "Limingantullin sahkoasema 110kV",
+  "bus": 1159,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Vaharauman sahkoasema 110kV",
+  "bus": 1160,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/897279296 110kV",
+  "bus": 1161,
+  "pMw": 69.09969796148005,
+  "qMvar": 17.31801674483611
+ },
+ {
+  "name": "OSM way/899222997 110kV",
+  "bus": 1162,
+  "pMw": 11.450816837654553,
+  "qMvar": 2.869845217660707
+ },
+ {
+  "name": "OSM way/899289559 110kV",
+  "bus": 1163,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "OSM way/899299590 110kV",
+  "bus": 1164,
+  "pMw": 4.835831754243685,
+  "qMvar": 1.211973681012144
+ },
+ {
+  "name": "OSM way/899299592 110kV",
+  "bus": 1165,
+  "pMw": 1.4030413016872054,
+  "qMvar": 0.35163529614645567
+ },
+ {
+  "name": "OSM way/89956002 110kV",
+  "bus": 1166,
+  "pMw": 20.25050011627031,
+  "qMvar": 5.07525373411
+ },
+ {
+  "name": "Uusikaupunki sahkoasema 110kV",
+  "bus": 1167,
+  "pMw": 8.679647242107022,
+  "qMvar": 2.1753246499264494
+ },
+ {
+  "name": "Rantala sahkoasema 110kV",
+  "bus": 1168,
+  "pMw": 5.866736207947417,
+  "qMvar": 1.4703426915615059
+ },
+ {
+  "name": "Lieksa sahkoasema 110kV",
+  "bus": 1169,
+  "pMw": 5.866736207947417,
+  "qMvar": 1.4703426915615059
+ },
+ {
+  "name": "Pankakoski sahkoasema 110kV",
+  "bus": 1170,
+  "pMw": 5.866736207947417,
+  "qMvar": 1.4703426915615059
+ },
+ {
+  "name": "OSM way/907113523 110kV",
+  "bus": 1171,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "OSM way/90970431 110kV",
+  "bus": 1172,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Kaakkurin sahkoasema 110kV",
+  "bus": 1173,
+  "pMw": 29.58892503385753,
+  "qMvar": 7.4156836327084505
+ },
+ {
+  "name": "Hervannan sahkoasema 110kV",
+  "bus": 1174,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "OSM way/911006998 110kV",
+  "bus": 1175,
+  "pMw": 16.60409882866373,
+  "qMvar": 4.161379427562886
+ },
+ {
+  "name": "Korkiamaki sahkoasema 110kV",
+  "bus": 1176,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "Miettyla sahkoasema 110kV",
+  "bus": 1177,
+  "pMw": 7.326408713677275,
+  "qMvar": 1.8361711053166319
+ },
+ {
+  "name": "Hoysala sahkoasema 110kV",
+  "bus": 1178,
+  "pMw": 7.326408713677275,
+  "qMvar": 1.8361711053166319
+ },
+ {
+  "name": "Ratikyla sahkoasema 110kV",
+  "bus": 1179,
+  "pMw": 7.326408713677275,
+  "qMvar": 1.8361711053166319
+ },
+ {
+  "name": "Seinajoen VL 110kV",
+  "bus": 1180,
+  "pMw": 7.847020409094623,
+  "qMvar": 1.9666486953029316
+ },
+ {
+  "name": "Merijarvi sahkoasema 110kV",
+  "bus": 1181,
+  "pMw": 2.979353872351056,
+  "qMvar": 0.7466964657201629
+ },
+ {
+  "name": "OSM way/916837510 110kV",
+  "bus": 1182,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "Inha sahkoasema 110kV",
+  "bus": 1183,
+  "pMw": 7.600343876581261,
+  "qMvar": 1.9048257286814867
+ },
+ {
+  "name": "Rieskaneva SA 110kV",
+  "bus": 1184,
+  "pMw": 6.716541557963124,
+  "qMvar": 1.6833239883774103
+ },
+ {
+  "name": "Polvikoski sahkoasema 110kV",
+  "bus": 1185,
+  "pMw": 15.645117611104961,
+  "qMvar": 3.9210360791314045
+ },
+ {
+  "name": "Alikeravan sahkoasema 110kV",
+  "bus": 1186,
+  "pMw": 20.84003015182941,
+  "qMvar": 5.223003888287051
+ },
+ {
+  "name": "Akasjoki sahkoasema 110kV",
+  "bus": 1187,
+  "pMw": 3.4808023359474256,
+  "qMvar": 0.8723712970931633
+ },
+ {
+  "name": "OSM way/92313302 110kV",
+  "bus": 1188,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "Upalinko 110kV",
+  "bus": 1189,
+  "pMw": 41.50045323093415,
+  "qMvar": 10.400994001048328
+ },
+ {
+  "name": "Elovaara 110kV",
+  "bus": 1190,
+  "pMw": 5.922587285012469,
+  "qMvar": 1.484340290919594
+ },
+ {
+  "name": "Vilpee sahkoasema 110kV",
+  "bus": 1191,
+  "pMw": 5.922587285012469,
+  "qMvar": 1.484340290919594
+ },
+ {
+  "name": "Ylikeravan sahkoasema 110kV",
+  "bus": 1192,
+  "pMw": 20.84003015182941,
+  "qMvar": 5.223003888287051
+ },
+ {
+  "name": "Savion sahkoasema 110kV",
+  "bus": 1193,
+  "pMw": 20.84003015182941,
+  "qMvar": 5.223003888287051
+ },
+ {
+  "name": "OSM way/93402930 110kV",
+  "bus": 1194,
+  "pMw": 63.18175971185957,
+  "qMvar": 15.834841612016204
+ },
+ {
+  "name": "Kuutamolahti sahkoasema 110kV",
+  "bus": 1195,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "Eura sahkoasema 110kV",
+  "bus": 1196,
+  "pMw": 7.757307541102451,
+  "qMvar": 1.9441645311755893
+ },
+ {
+  "name": "Kalevan sahkoasema 110kV",
+  "bus": 1197,
+  "pMw": 84.72732458987345,
+  "qMvar": 21.23466917048684
+ },
+ {
+  "name": "OSM way/93582884 110kV",
+  "bus": 1198,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "Kiilapalsta sahkoasema 110kV",
+  "bus": 1199,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "OSM way/93670513 110kV",
+  "bus": 1200,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/94018261 110kV",
+  "bus": 1201,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Herralahden sahkoasema 110kV",
+  "bus": 1202,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Ristinummi sahkoasema 110kV",
+  "bus": 1203,
+  "pMw": 18.54293300829273,
+  "qMvar": 4.647297076681889
+ },
+ {
+  "name": "OSM way/94667682 110kV",
+  "bus": 1204,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Narvi sahkoasema 110kV",
+  "bus": 1205,
+  "pMw": 19.6920372312305,
+  "qMvar": 4.9352897417944295
+ },
+ {
+  "name": "Impolan sahkoasema 110kV",
+  "bus": 1206,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/95184260 110kV",
+  "bus": 1207,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Salo sahkoasema 110kV",
+  "bus": 1208,
+  "pMw": 24.153467954093834,
+  "qMvar": 6.053429679360353
+ },
+ {
+  "name": "Tynninharjun sahkoasema 110kV",
+  "bus": 1209,
+  "pMw": 14.478542973011796,
+  "qMvar": 3.6286649152536596
+ },
+ {
+  "name": "Raahen sahkoasema 110kV",
+  "bus": 1210,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "OSM way/96250574 110kV",
+  "bus": 1211,
+  "pMw": 35.55784710761675,
+  "qMvar": 8.911636516317408
+ },
+ {
+  "name": "OSM way/96398364 110kV",
+  "bus": 1212,
+  "pMw": 9.304222151078738,
+  "qMvar": 2.3318578772931784
+ },
+ {
+  "name": "Vahakyro sahkoasema 110kV",
+  "bus": 1213,
+  "pMw": 36.25626469061862,
+  "qMvar": 9.086676462281526
+ },
+ {
+  "name": "Suolainen sahkoasema 110kV",
+  "bus": 1214,
+  "pMw": 12.23958511748592,
+  "qMvar": 3.067529182727095
+ },
+ {
+  "name": "OSM way/96582896 110kV",
+  "bus": 1215,
+  "pMw": 5.910814832379356,
+  "qMvar": 1.4813898361731537
+ },
+ {
+  "name": "OSM way/966577670 110kV",
+  "bus": 1216,
+  "pMw": 42.307828265546796,
+  "qMvar": 10.603341258435458
+ },
+ {
+  "name": "Hikian sahkoasema 110kV",
+  "bus": 1217,
+  "pMw": 11.186941958809248,
+  "qMvar": 2.8037119391486645
+ },
+ {
+  "name": "OSM way/967977456 110kV",
+  "bus": 1218,
+  "pMw": 6.010172214369192,
+  "qMvar": 1.5062911433537183
+ },
+ {
+  "name": "Kaskisten tehtaat sahkoasema 110kV",
+  "bus": 1219,
+  "pMw": 3.416005459863497,
+  "qMvar": 0.8561316691622265
+ },
+ {
+  "name": "OSM way/97264035 110kV",
+  "bus": 1220,
+  "pMw": 13.879586480321446,
+  "qMvar": 3.4785522682255623
+ },
+ {
+  "name": "OSM way/97264036 110kV",
+  "bus": 1221,
+  "pMw": 26.375685804248814,
+  "qMvar": 6.610369971069167
+ },
+ {
+  "name": "Junnilanmaen sahkoasema 110kV",
+  "bus": 1222,
+  "pMw": 9.645477399416466,
+  "qMvar": 2.4173845044612228
+ },
+ {
+  "name": "Orimattilan sahkoasema 110kV",
+  "bus": 1223,
+  "pMw": 14.436930671942436,
+  "qMvar": 3.618235889541969
+ },
+ {
+  "name": "Luolaja sahkoasema 110kV",
+  "bus": 1224,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Vanaja sahkoasema 110kV",
+  "bus": 1225,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "OSM way/98393126 110kV",
+  "bus": 1226,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "Kukkola SA 110kV",
+  "bus": 1227,
+  "pMw": 20.35529850686429,
+  "qMvar": 5.101518686587075
+ },
+ {
+  "name": "OSM way/98522895 110kV",
+  "bus": 1228,
+  "pMw": 26.145567585017332,
+  "qMvar": 6.552696908935607
+ },
+ {
+  "name": "Kairakatu sahkoasema 110kV",
+  "bus": 1229,
+  "pMw": 26.145567585017332,
+  "qMvar": 6.552696908935607
+ },
+ {
+  "name": "Yllikkala sahkoasema 110kV",
+  "bus": 1230,
+  "pMw": 43.28059944755797,
+  "qMvar": 10.847140697737705
+ },
+ {
+  "name": "OSM way/98576761 110kV",
+  "bus": 1231,
+  "pMw": 25.08053834300043,
+  "qMvar": 6.285775420258903
+ },
+ {
+  "name": "Ulvila sahkoasema 110kV",
+  "bus": 1232,
+  "pMw": 34.334355351282554,
+  "qMvar": 8.605000577978341
+ },
+ {
+  "name": "OSM way/98663368 110kV",
+  "bus": 1233,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Kaanaan sahkoasema 110kV",
+  "bus": 1234,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/98665819 110kV",
+  "bus": 1235,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "OSM way/98669394 110kV",
+  "bus": 1236,
+  "pMw": 13.993763994903997,
+  "qMvar": 3.507167850749912
+ },
+ {
+  "name": "Forssa sahkoasema 110kV",
+  "bus": 1237,
+  "pMw": 88.23869763926635,
+  "qMvar": 22.114702210582777
+ },
+ {
+  "name": "Ylikyla sahkoasema 110kV",
+  "bus": 1238,
+  "pMw": 4.090725967771873,
+  "qMvar": 1.0252325682798369
+ },
+ {
+  "name": "Tuorila sahkoasema 110kV",
+  "bus": 1239,
+  "pMw": 4.090725967771873,
+  "qMvar": 1.0252325682798369
+ },
+ {
+  "name": "Dagsmark elstation 110kV",
+  "bus": 1240,
+  "pMw": 2.2227338897145503,
+  "qMvar": 0.5570696234135434
+ },
+ {
+  "name": "Kauhajoen sahkoasema 110kV",
+  "bus": 1241,
+  "pMw": 11.894935145874568,
+  "qMvar": 2.981151757708538
+ },
+ {
+  "name": "Jurva sahkoasema 110kV",
+  "bus": 1242,
+  "pMw": 9.3281048599209,
+  "qMvar": 2.33784344834258
+ },
+ {
+  "name": "Teollisuusaron sahkoasema 110kV",
+  "bus": 1243,
+  "pMw": 11.894935145874568,
+  "qMvar": 2.981151757708538
+ },
+ {
+  "name": "Nori sahkoasema 110kV",
+  "bus": 1244,
+  "pMw": 3.43477079037807,
+  "qMvar": 0.8608347043079796
+ }
+]

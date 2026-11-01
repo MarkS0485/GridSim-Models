@@ -1,0 +1,4707 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Netherlands transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): TenneT NL lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (TenneT TSO B.V. for the Netherlands)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap 220/380 kV substations (Overpass API, 2026-10-31): station and converter positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7 (lines): route length and circuits of the 380 kV corridors missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Netherlands units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "geonames",
+   "title": "GeoNames Netherlands populated places (population, position)",
+   "publisher": "GeoNames",
+   "url": "https://www.geonames.org/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Netherlands, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  },
+  {
+   "id": "inference",
+   "title": "the build pipeline inference round: physics-inferred generic feeds, compensation and tap positions, each listed in inferred_elements.json and MODEL_CARD.md",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "42": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "51": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "52": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "53": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "54": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "55": [
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "56": [
+   "model_assembly"
+  ],
+  "57": [
+   "model_assembly"
+  ],
+  "58": [
+   "model_assembly"
+  ],
+  "59": [
+   "model_assembly"
+  ],
+  "60": [
+   "model_assembly"
+  ],
+  "61": [
+   "model_assembly"
+  ],
+  "62": [
+   "model_assembly"
+  ],
+  "63": [
+   "model_assembly"
+  ],
+  "64": [
+   "model_assembly"
+  ],
+  "65": [
+   "model_assembly"
+  ],
+  "66": [
+   "model_assembly"
+  ],
+  "67": [
+   "model_assembly"
+  ],
+  "68": [
+   "model_assembly"
+  ],
+  "69": [
+   "model_assembly"
+  ],
+  "70": [
+   "model_assembly"
+  ],
+  "71": [
+   "model_assembly"
+  ],
+  "72": [
+   "model_assembly"
+  ],
+  "73": [
+   "model_assembly"
+  ],
+  "74": [
+   "model_assembly"
+  ],
+  "75": [
+   "model_assembly"
+  ],
+  "76": [
+   "model_assembly"
+  ],
+  "77": [
+   "model_assembly"
+  ],
+  "78": [
+   "model_assembly"
+  ],
+  "79": [
+   "model_assembly"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "82": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ],
+  "84": [
+   "model_assembly"
+  ],
+  "85": [
+   "model_assembly"
+  ],
+  "86": [
+   "model_assembly"
+  ],
+  "87": [
+   "model_assembly"
+  ],
+  "88": [
+   "model_assembly"
+  ],
+  "89": [
+   "model_assembly"
+  ],
+  "90": [
+   "model_assembly"
+  ],
+  "91": [
+   "model_assembly"
+  ],
+  "92": [
+   "model_assembly"
+  ],
+  "93": [
+   "model_assembly"
+  ],
+  "94": [
+   "model_assembly"
+  ],
+  "95": [
+   "model_assembly"
+  ],
+  "96": [
+   "model_assembly"
+  ],
+  "97": [
+   "model_assembly"
+  ],
+  "98": [
+   "model_assembly"
+  ],
+  "99": [
+   "model_assembly"
+  ],
+  "100": [
+   "model_assembly"
+  ],
+  "101": [
+   "model_assembly"
+  ],
+  "102": [
+   "model_assembly"
+  ],
+  "103": [
+   "model_assembly"
+  ],
+  "104": [
+   "model_assembly"
+  ],
+  "105": [
+   "model_assembly"
+  ],
+  "106": [
+   "model_assembly"
+  ],
+  "107": [
+   "model_assembly"
+  ],
+  "108": [
+   "model_assembly"
+  ],
+  "109": [
+   "model_assembly"
+  ],
+  "110": [
+   "model_assembly"
+  ],
+  "111": [
+   "model_assembly"
+  ],
+  "112": [
+   "model_assembly"
+  ],
+  "113": [
+   "model_assembly"
+  ],
+  "114": [
+   "model_assembly"
+  ],
+  "115": [
+   "model_assembly"
+  ],
+  "116": [
+   "model_assembly"
+  ],
+  "117": [
+   "model_assembly"
+  ],
+  "118": [
+   "model_assembly"
+  ],
+  "119": [
+   "model_assembly"
+  ],
+  "120": [
+   "model_assembly"
+  ],
+  "121": [
+   "model_assembly"
+  ],
+  "122": [
+   "model_assembly"
+  ],
+  "123": [
+   "model_assembly"
+  ],
+  "124": [
+   "model_assembly"
+  ],
+  "125": [
+   "model_assembly"
+  ],
+  "126": [
+   "model_assembly"
+  ],
+  "127": [
+   "model_assembly"
+  ],
+  "128": [
+   "model_assembly"
+  ],
+  "129": [
+   "model_assembly"
+  ],
+  "130": [
+   "model_assembly"
+  ],
+  "131": [
+   "model_assembly"
+  ],
+  "132": [
+   "model_assembly"
+  ],
+  "133": [
+   "model_assembly"
+  ],
+  "134": [
+   "model_assembly"
+  ],
+  "135": [
+   "model_assembly"
+  ],
+  "136": [
+   "model_assembly"
+  ],
+  "137": [
+   "model_assembly"
+  ],
+  "138": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Borssele-Rilland380 G": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Rilland380 O": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Rilland380 P": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Rilland380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Zeeuwse Kust Landstation380 O": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Zeeuwse Kust Landstation380 P": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Zeeuwse Kust Landstation380 W": [
+   "jao_sgm"
+  ],
+  "jao:Borssele-Zeeuwse Kust Landstation380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Breukelen Kortrijk-Diemen380 W": [
+   "jao_sgm"
+  ],
+  "jao:Compensatie Filterstation Eemshaven-Eemshaven Oudeschip380 W": [
+   "jao_sgm"
+  ],
+  "jao:Compensatie Filterstation Eemshaven-Eemshaven Oudeschip380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Crayestein-Krimpen aan den IJssel380 W": [
+   "jao_sgm"
+  ],
+  "jao:Crayestein-Krimpen aan den IJssel380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Delesto-Weiwerd220 W": [
+   "jao_sgm"
+  ],
+  "jao:Delesto-Weiwerd220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Diemen-Lelystad380 W": [
+   "jao_sgm"
+  ],
+  "jao:Diemen-Lelystad380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Dodewaard-Doetinchem380 W": [
+   "jao_sgm"
+  ],
+  "jao:Dodewaard-Doetinchem380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Doetinchem-Hengelo380 W": [
+   "jao_sgm"
+  ],
+  "jao:Doetinchem-Hengelo380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven Oudeschip-Eemshaven380 W": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven Oudeschip-Eemshaven380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven Synergieweg-Eemshaven Oudeschip380 W": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven Synergieweg-Eemshaven Oudeschip380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Eemshaven Converterstation380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Eemshaven Oost220 W": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Eemshaven Oost220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Meeden380 W": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Meeden380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Robbenplaat220 W": [
+   "jao_sgm"
+  ],
+  "jao:Eemshaven-Robbenplaat220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Ens-Zwolle380 W": [
+   "jao_sgm"
+  ],
+  "jao:Ens-Zwolle380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Geertruidenberg-Eindhoven380 G": [
+   "jao_sgm"
+  ],
+  "jao:Geertruidenberg-Eindhoven380 W": [
+   "jao_sgm"
+  ],
+  "jao:Geertruidenberg-Eindhoven380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Geertruidenberg-Rilland380 W": [
+   "jao_sgm"
+  ],
+  "jao:Geertruidenberg-Rilland380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Hessenweg-Ens220 W": [
+   "jao_sgm"
+  ],
+  "jao:Hessenweg-Ens220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 B": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 O": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 P": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 R": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 W": [
+   "jao_sgm"
+  ],
+  "jao:Hollandse Kust Noord Landstation-Wijk aan Zee380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Bleiswijk380 W": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Bleiswijk380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Breukelen Kortrijk380 W": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Diemen380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Geertruidenberg380 W": [
+   "jao_sgm"
+  ],
+  "jao:Krimpen aan den IJssel-Geertruidenberg380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Lelystad-Ens380 W": [
+   "jao_sgm"
+  ],
+  "jao:Lelystad-Ens380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Louwsmeer-Bergum220 W": [
+   "jao_sgm"
+  ],
+  "jao:Louwsmeer-Bergum220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Louwsmeer-Oudehaske220 W": [
+   "jao_sgm"
+  ],
+  "jao:Louwsmeer-Oudehaske220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Dodewaard380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Eindhoven380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Eindhoven380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Maasvlakte-Hollandse Kust Zuid Landstation380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasvlakte-Hollandse Kust Zuid Landstation380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Maasvlakte-Simonshaven380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasvlakte-Simonshaven380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Oostzaan-Diemen380 G": [
+   "jao_sgm"
+  ],
+  "jao:Oostzaan-Diemen380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Oudehaske-Ens220 W": [
+   "jao_sgm"
+  ],
+  "jao:Oudehaske-Ens220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Robbenplaat-Weiwerd220 G": [
+   "jao_sgm"
+  ],
+  "jao:Robbenplaat-Weiwerd220 P": [
+   "jao_sgm"
+  ],
+  "jao:Simonshaven-Crayestein380 W": [
+   "jao_sgm"
+  ],
+  "jao:Simonshaven-Crayestein380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Vierverlaten-Eemshaven Oudeschip380 P": [
+   "jao_sgm"
+  ],
+  "jao:Vierverlaten-Eemshaven Oudeschip380 W": [
+   "jao_sgm"
+  ],
+  "jao:Vierverlaten-Zeyerveen220 W": [
+   "jao_sgm"
+  ],
+  "jao:Vierverlaten-Zeyerveen220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Wateringen-Bleiswijk380 W": [
+   "jao_sgm"
+  ],
+  "jao:Wateringen-Bleiswijk380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Wateringen-Westerlee380 W": [
+   "jao_sgm"
+  ],
+  "jao:Wateringen-Westerlee380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Weiwerd-Meeden220 B": [
+   "jao_sgm"
+  ],
+  "jao:Weiwerd-Meeden220 O": [
+   "jao_sgm"
+  ],
+  "jao:Westerlee-Maasvlakte380 W": [
+   "jao_sgm"
+  ],
+  "jao:Westerlee-Maasvlakte380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Zeyerveen-Hessenweg220 W": [
+   "jao_sgm"
+  ],
+  "jao:Zeyerveen-Hessenweg220 Z": [
+   "jao_sgm"
+  ],
+  "jao:Zwolle-Hengelo380 W": [
+   "jao_sgm"
+  ],
+  "jao:Zwolle-Hengelo380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Zwolle-Meeden380 W": [
+   "jao_sgm"
+  ],
+  "jao:Zwolle-Meeden380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Rilland-Zandvliet 380 G": [
+   "jao_sgm"
+  ],
+  "jao:Rilland-Zandvliet 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Van Eyck 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Van Eyck 380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Gronau-Hengelo 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Gronau-Hengelo 380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Oberzier 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Maasbracht-Siersdorf 380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Diele-Meeden 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Diele-Meeden 380 Z": [
+   "jao_sgm"
+  ],
+  "jao:Doetinchem-Niederrhein 380 W": [
+   "jao_sgm"
+  ],
+  "jao:Doetinchem-Niederrhein 380 Z": [
+   "jao_sgm"
+  ],
+  "osm:Oostzaan - Beverwijk 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Oostzaan - Beverwijk 380 (OSM 2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Beverwijk - Vijfhuizen 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Beverwijk - Vijfhuizen 380 (OSM 2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Vijfhuizen - Bleiswijk 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Vijfhuizen - Bleiswijk 380 (OSM 2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Wijk Aan Zee - Beverwijk 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Wijk Aan Zee - Beverwijk 380 (OSM 2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Maasbracht - Boxmeer 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:Boxmeer - Dodewaard 380 (OSM 1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "jao:49T000000000184P": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000183R": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000181V": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000182T": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000187J": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000185N": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000186L": [
+   "jao_sgm"
+  ],
+  "jao:49T000000000188H": [
+   "jao_sgm"
+  ],
+  "synth:coupling:vierverlaten": [
+   "inference",
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:vierverlaten#2": [
+   "inference",
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:zwolle~hessenweg": [
+   "inference",
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "embtx:NL:beverwijk:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:beverwijk:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:bleiswijk:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:bleiswijk:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:borssele:380": [
+   "model_assembly"
+  ],
+  "emb:NL:borssele:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:borssele:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:boxmeer:380": [
+   "model_assembly"
+  ],
+  "emb:NL:boxmeer:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:breukelen kortrijk:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:breukelen kortrijk:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:crayestein:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:crayestein:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:diemen:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:diemen:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:diemen:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:dodewaard:380": [
+   "model_assembly"
+  ],
+  "emb:NL:dodewaard:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:doetinchem:380": [
+   "model_assembly"
+  ],
+  "emb:NL:doetinchem:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:eemshaven oudeschip:380": [
+   "model_assembly"
+  ],
+  "emb:NL:eemshaven oudeschip:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:eemshaven oudeschip:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:eindhoven:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:eindhoven:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:geertruidenberg:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:geertruidenberg:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:geertruidenberg:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:hengelo:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:hengelo:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:krimpen aan den ijssel:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:krimpen aan den ijssel:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:lelystad:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:lelystad:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:maasbracht:380": [
+   "model_assembly"
+  ],
+  "emb:NL:maasbracht:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:maasbracht:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:maasvlakte:380": [
+   "model_assembly"
+  ],
+  "emb:NL:maasvlakte:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:maasvlakte:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:oostzaan:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:oostzaan:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:rilland:380": [
+   "model_assembly"
+  ],
+  "emb:NL:rilland:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:simonshaven:380": [
+   "model_assembly"
+  ],
+  "emb:NL:simonshaven:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:simonshaven:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:vijfhuizen:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:vijfhuizen:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:wateringen:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:wateringen:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:westerlee:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:westerlee:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:wijk aan zee:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:wijk aan zee:380": [
+   "model_assembly"
+  ],
+  "gsu:NL:wijk aan zee:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:zwolle:380": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:zwolle:380": [
+   "model_assembly"
+  ],
+  "embtx:NL:bergum:220": [
+   "model_assembly"
+  ],
+  "emb:NL:bergum:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:delesto:220": [
+   "model_assembly"
+  ],
+  "emb:NL:delesto:220": [
+   "model_assembly"
+  ],
+  "gsu:NL:delesto:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:eemshaven oost:220": [
+   "model_assembly"
+  ],
+  "emb:NL:eemshaven oost:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:ens:220": [
+   "model_assembly"
+  ],
+  "emb:NL:ens:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:hessenweg:220": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:hessenweg:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:louwsmeer:220": [
+   "model_assembly"
+  ],
+  "emb:NL:louwsmeer:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:meeden:220": [
+   "model_assembly"
+  ],
+  "emb:NL:meeden:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:oudehaske:220": [
+   "model_assembly"
+  ],
+  "emb:NL:oudehaske:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:robbenplaat:220": [
+   "model_assembly"
+  ],
+  "emb:NL:robbenplaat:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:vierverlaten:220": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:vierverlaten:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:weiwerd:220": [
+   "model_assembly"
+  ],
+  "emb:NL:weiwerd:220": [
+   "model_assembly"
+  ],
+  "embtx:NL:zeyerveen:220": [
+   "inference",
+   "model_assembly"
+  ],
+  "emb:NL:zeyerveen:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Waardpolder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Windpark Wieringermeer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alkmaar Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerhugowaard Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hvc Alkmaar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hvc Alkmaar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prinses Ariane Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerhugowaard Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ beverwijk": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Leiden": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rijnwoude Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Barrepolder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bleiswijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Rtm Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zevenhuizen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zoeterwoude Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giessenwind Wind Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hartelkanaal Wind Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ bleiswijk": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Zierikzee Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neeltje Jans Binnenhaven Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koegorspolder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Epz Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oostzeedijk Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mortiere Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Windpark Hoofdplaatpolder Bv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vlissingen Oost Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zierikzee Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bouwdokken Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Scaldia": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borssele Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koegorspolder Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krammer Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mosselbanken Terneuzen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neeltje Jans Vluchtheuvel Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuwdorp Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ritthem Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sas Van Gent Zuid Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sluiskil Works": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aes Zeeland": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bontepolder Solar Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Castor Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pollux Vlissingen Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Star Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vlissingen Advancion Energy Aes": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ borssele": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Borssele 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sloe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Elsta": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Uden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cuijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Boxmeer Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gemert Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Greenport Venlo Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haps Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heijen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oostrum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sambeeksedijk Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Venlo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Venlo Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Venray Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bio Energy Cuijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ boxmeer": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Merwedekanaal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lage Weide": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuwegein Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lopik": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bunschoten Spakenburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemnes Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoogland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Houten Groenedijkje Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuwegein Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Roompotsluis Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vlowijker Solar Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Werkhoven Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lage Weide #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ breukelen kortrijk": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Alblasserdam Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dordrecht Dupont": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dordrecht Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dordrecht Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hvc Dordrecht": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwijndrecht Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ crayestein": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Prinses Alexia Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giga Buffalo Battery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almere Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almere Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almere Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almere Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amsterdam Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemmeerdijk Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flevoland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Graveland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Harderwold Zeewolde Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Johan Cruyff Arena The Mobility House": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neushoorntocht": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Princess Alexia Wind Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ diemen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Diemen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Deil Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bemmel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amersfoort Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arnhem Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arnhem Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Barneveld Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ede": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ede Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ewijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haarweg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hernen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Industriepark Kleefse Waard": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koningspleij Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lienden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nijmegen Betuwe Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nijmegen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oosterhout Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overbetuwe Solar Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Parenco Paper Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tiel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Uivermeertjes Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Utrecht Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zaltbommel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zevent Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eindhoven Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ dodewaard": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Haagen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Netterden Azewijn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eerbeek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Den Tol Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bijvanck Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Avr Duiven": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Apeldoorn Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borculo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Hoop Paper Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorssel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klarenbeek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lochem Ampsenseweg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lochem Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vethuizen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Voorst Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wilp Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zutphen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ doetinchem": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Westereems Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oostpolder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eem": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemshaven Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Growind Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemshaven Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ eemshaven oudeschip": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Eemshaven": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eem #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Magnum Centrale": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gemini Offshore Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Laarakkerdijk Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nrystar Budel Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Best Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Breugel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eindhoven Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eindhoven Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Helmond": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Helmond Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Helmond Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Larendeel Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lierop Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oirschot Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Someren Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ eindhoven": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Etten Leur Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moerdijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Laaksche Vaart Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoevensche Breemden Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moerdijk Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Van Gogh Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "St Antoinedijk Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spinderwind Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwartenbergseweg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Rietvelden Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aec Moerdijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Weststad Oosterhout": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ecopark Waalwijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Akzo Salinco": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bmc Moerdijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Breda Bavelse Berg Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Breda Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dongen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drunen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Energie Wind": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Energie Wind #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Energie Wind #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Etten Leur Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hertogenbosch Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hogezandse Polder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaatsheuvel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klundert Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lxxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tilburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tilburg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tilburg Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tilburg Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tilburg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Waalwijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Etten Leur Smart Enexis Charging": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moerdijk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ geertruidenberg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Moerdijk #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aadijk Almelo Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almelo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ambt Delden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Berkelcentrale": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Enschede": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Enschede Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Geesteren Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Goor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hengelo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leemslagen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lochem Armhoede Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Markelo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Twence Afval": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Twence Afval #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vriezenveen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Almelo Hybrid System": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ hengelo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Hollandse Kust Noord Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hollandse Kust Zuid Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hollandse Kust Zuid Wind Farm #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Capelle Roca": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Puttershoek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oude Maas Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasvlakte Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ridderkerk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spui Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ krimpen aan den ijssel": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lelystad Meeuwentocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mammoettocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vires Venti Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bosruitertocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Futenweg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flevo Ventum Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Andijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nop Agrowind Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ansjovisstroom Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Kleine Trap Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ecn Wind Energy Facilities": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ermelo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ewi Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flevoland Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lelystad Edelhertweg Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lelystad Flevokust Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lelystad Ijsselmeerdijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lelystad Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lelystad Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medemblik Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noordertocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ooievaarsweg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Royal Pride Agri Pv Middenmeer Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wervershoof Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Westfrisia Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Xy Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeebiestocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeewolde Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zuidwester Onshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwaagdijk Oost Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeewolde": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ lelystad": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Swentibold": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Egchelse Heide Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Kookepan Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beringe Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Born Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groensebos Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerlen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerlen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Herten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kerkrade Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Landgraaf Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Limburg Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasbree Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maastricht Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maastricht Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mariahoop Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Roermond Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Roermond Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Venlo Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Venlo Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Water Limburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ maasbracht": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Claus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasvlakte Ucml": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haliade Massvlakte Prototype Onshore Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hartel Canal Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Suurhoffbrug Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nerefco Oil Refinery Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haringvliet": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Luchterduinen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasvlakte Solar Rooftop": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Irp": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasvlakte": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ maasvlakte": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import GB @ maasvlakte": [
+   "energy_charts"
+  ],
+  "Maasvlakte Uniper": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasvlakte Onyx Timepoint": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Enecogen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuwe Hemweg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Afval Energie Bedrijf Amsterdam": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amsterdam Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amsterdam Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amsterdam Westpoort Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Purmerend Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giga Giraffe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ oostzaan": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rilland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wisse Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kabeljauwbeek Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tholen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Anna Vosdijk Polder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Halsteren": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kabeljauwbeek Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kreekraksluis Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prezero Reenergy Roosendal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Reimerswaal Krekragweg Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Roosendaal Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zeeland Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ rilland": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Van Pallandtpolder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Greenchoice Hartel Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hellegatsplein Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hartelbrug Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haringvliet South Energy Park Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oud Dintel Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuw Prinsenland Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Martina Cornelia Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Westerse Polder Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Blaakweg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Herkingen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Avr Rozenburg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Avr Rozenburg #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Battenoert Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Botlek": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haringvliet Zuid Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kroningswind Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Melissant Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Brabant Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ooltgensplaat Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pernis Refinery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rotterdam Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Suyderlandt Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haringvliet Solar Wind Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Piet De Wit": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ simonshaven": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rijnmond": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maasstroom": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pergen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Afrikahaven Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groene Hoek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aalsmeerderbrug Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haarlem Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schiphol": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ vijfhuizen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Den Haag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Delft Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "The Hague Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ wateringen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "New Waterway Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alco Energy Rotterdam": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Holland Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ westerlee": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ijmuiden Steel Works": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prinses Amalia Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Egmond Aan Zee Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eneco Luchterduinen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noordoostpolder Westermeerwind Windpark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spuisluis Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Burgervlotbrug": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alkmaar Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beaufort Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Burgerbrug Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Den Helder Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dronten Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Holland Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Warmenhuizen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Windplanblauw Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Dijken": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ wijk aan zee": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Velsen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borssele Offshore Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borssele Offshore Wind Farm #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borssele Offshore Wind Farm #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borssele Site Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Veenwieken Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Apeldoorn Beemte Broekland Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Coevorden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Daarle Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Deventer Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flierbelten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heemserveen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoogengraven Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Losser Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noordscheschut Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ritthem Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sekdoorn Flt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zunneveld Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwolle Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beemte Broekland": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ zwolle": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Buitenpost Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Garyp Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bergum": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Burgum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dokkum Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jumaheerd Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kollum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Libbe Gabrielsplas Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ bergum": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Delfzijl Zuid Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eneco Bio Golden Raand": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ delesto": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Delesto": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemshaven Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hanze Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoge Vaart Zuid Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Binnenjijks Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Hondtocht Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Emmeloord Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flevoland Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Flevoland Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ijsselmuiden Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Luttelgeest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Marknesse Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noordermeerdijk Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noordoostpolder Buitendijks Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Samen Voor De Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Walibi Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ ens": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bomhofsplas Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fluitenberg Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gelderland Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hattemerbroek Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mastenbroek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oosterveld Hoogeveen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wanneperveen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwolle Scania Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwolle Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zwolle Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Park Wanneperveen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ hessenweg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Nij Hiddum Houw Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Blitsaerd Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ameland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Bjirmen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Franeker Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leeuwarden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leeuwarden Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Water Friesland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Westeinde Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ louwsmeer": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lange Runde Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vlagtwedde Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sellingen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veendam Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alteveer Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Barger Compascuum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bellingwolde Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Drentse Monden En Oostermoer Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Duurkenakker Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Emmen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Exloermond Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Foxhol": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gasselternijveen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoogezand Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Landkreis Emsland Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mauve Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Midden Groningen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuw Buinen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nieuwe Pekela Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ommelanderwijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Onstwedde Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Onstwedde Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pottendijk Energiepark Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pottendijk Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Stadskanaal Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ter Apel Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ter Apelkanaal Siem": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vermeer Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vleddermond Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zuidbroek Energie Solar Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sde Zon": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sellingen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ meeden": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Beabuorren": [
+   "energy_charts",
+   "ppm"
+  ],
+  "De Knipe Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fryslan Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerenveen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heerenveen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lemsterhoek Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nij Beets Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oudehaske Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Overijssel Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rutten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vegelinsoord Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wolvega Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ oudehaske": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Delfzijl Midden Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eemshaven Zuidoost Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ robbenplaat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Roodehaan Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fledderbosch Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Foxhol Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Airport Eelde Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leek Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Marum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Waddenwind Dutch Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Woldjerspoor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ vierverlaten": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Eew Delfzijl Waste To Energy": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Geefsweer Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Delfzijl Noord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Delfzijl Zuid Wind Farm #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Farmsum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Groningen Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wagenborgen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ weiwerd": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Weijerswold Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Assen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nam Schoonebeek": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Appelscha Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Assen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Attero Wijster Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beilen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borger Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borger Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drenthe Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ellertshaar Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Emmen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Emmtec Industry Businesspark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frisia Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haulerwijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hijken Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hollandia Nieuw Buinen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leemdijk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Makkinga Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oosterwolde De Boer Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oranjedorp Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pesse Zwarte Water Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sleen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tynaarlo Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wachtum Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wijster": [
+   "energy_charts",
+   "ppm"
+  ],
+  "other aggregate @ zeyerveen": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "geonames"
+  ],
+  "2": [
+   "energy_charts",
+   "geonames"
+  ],
+  "3": [
+   "energy_charts",
+   "geonames"
+  ],
+  "4": [
+   "energy_charts",
+   "geonames"
+  ],
+  "5": [
+   "energy_charts",
+   "geonames"
+  ],
+  "7": [
+   "energy_charts",
+   "geonames"
+  ],
+  "8": [
+   "energy_charts"
+  ],
+  "9": [
+   "energy_charts",
+   "geonames"
+  ],
+  "10": [
+   "energy_charts",
+   "geonames"
+  ],
+  "11": [
+   "energy_charts",
+   "geonames"
+  ],
+  "12": [
+   "energy_charts"
+  ],
+  "13": [
+   "energy_charts",
+   "geonames"
+  ],
+  "15": [
+   "model_assembly"
+  ],
+  "16": [
+   "energy_charts",
+   "geonames"
+  ],
+  "18": [
+   "energy_charts",
+   "geonames"
+  ],
+  "19": [
+   "energy_charts"
+  ],
+  "20": [
+   "energy_charts",
+   "geonames"
+  ],
+  "23": [
+   "energy_charts",
+   "geonames"
+  ],
+  "24": [
+   "energy_charts",
+   "geonames"
+  ],
+  "25": [
+   "energy_charts",
+   "geonames"
+  ],
+  "26": [
+   "energy_charts",
+   "geonames"
+  ],
+  "28": [
+   "energy_charts"
+  ],
+  "29": [
+   "energy_charts"
+  ],
+  "30": [
+   "energy_charts",
+   "geonames"
+  ],
+  "31": [
+   "energy_charts",
+   "geonames"
+  ],
+  "32": [
+   "energy_charts"
+  ],
+  "33": [
+   "energy_charts",
+   "geonames"
+  ],
+  "34": [
+   "energy_charts"
+  ],
+  "36": [
+   "energy_charts",
+   "geonames"
+  ],
+  "37": [
+   "energy_charts",
+   "geonames"
+  ],
+  "38": [
+   "energy_charts",
+   "geonames"
+  ],
+  "39": [
+   "energy_charts",
+   "geonames"
+  ],
+  "40": [
+   "energy_charts"
+  ],
+  "42": [
+   "energy_charts",
+   "geonames"
+  ],
+  "43": [
+   "energy_charts",
+   "geonames"
+  ],
+  "44": [
+   "energy_charts",
+   "geonames"
+  ],
+  "47": [
+   "energy_charts",
+   "geonames"
+  ],
+  "48": [
+   "energy_charts",
+   "geonames"
+  ],
+  "49": [
+   "energy_charts",
+   "geonames"
+  ],
+  "50": [
+   "energy_charts",
+   "geonames"
+  ],
+  "51": [
+   "energy_charts",
+   "geonames"
+  ],
+  "52": [
+   "energy_charts",
+   "geonames"
+  ],
+  "53": [
+   "energy_charts",
+   "geonames"
+  ],
+  "54": [
+   "energy_charts",
+   "geonames"
+  ],
+  "55": [
+   "energy_charts",
+   "geonames"
+  ]
+ },
+ "shunts": {
+  "4": [
+   "inference"
+  ],
+  "5": [
+   "inference"
+  ],
+  "10": [
+   "inference"
+  ],
+  "11": [
+   "inference"
+  ],
+  "16": [
+   "inference"
+  ],
+  "17": [
+   "inference"
+  ],
+  "19": [
+   "inference"
+  ],
+  "20": [
+   "inference"
+  ],
+  "24": [
+   "inference"
+  ],
+  "25": [
+   "inference"
+  ],
+  "28": [
+   "inference"
+  ],
+  "29": [
+   "inference"
+  ],
+  "32": [
+   "inference"
+  ],
+  "34": [
+   "inference"
+  ],
+  "42": [
+   "inference"
+  ],
+  "115": [
+   "inference"
+  ],
+  "126": [
+   "inference"
+  ],
+  "129": [
+   "inference"
+  ],
+  "39": [
+   "inference"
+  ],
+  "9": [
+   "inference"
+  ],
+  "18": [
+   "inference"
+  ]
+ }
+}

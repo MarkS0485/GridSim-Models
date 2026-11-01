@@ -1,0 +1,5212 @@
+[
+ {
+  "name": "ict:w1001700959:765/400",
+  "from": 81,
+  "to": 718,
+  "rPu": 7.000000000000001e-05,
+  "xPu": 0.0014000000000000002,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 10000.0
+ },
+ {
+  "name": "ict:w100470285:765/400",
+  "from": 166,
+  "to": 1201,
+  "rPu": 0.0007000000000000001,
+  "xPu": 0.014000000000000002,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "ict:w105373531:765/400",
+  "from": 160,
+  "to": 1162,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.965,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1077819664:765/400",
+  "from": 84,
+  "to": 731,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1078426593:765/400",
+  "from": 28,
+  "to": 337,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w1127651311:765/400",
+  "from": 35,
+  "to": 374,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1143180503:765/400",
+  "from": 75,
+  "to": 698,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w1206014676:765/400",
+  "from": 145,
+  "to": 1099,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.945,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1207477934:765/400",
+  "from": 137,
+  "to": 1043,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w131484738:765/400",
+  "from": 61,
+  "to": 596,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1329604155:765/400",
+  "from": 82,
+  "to": 719,
+  "rPu": 7.777777777777778e-05,
+  "xPu": 0.0015555555555555557,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 9000.0
+ },
+ {
+  "name": "ict:w1329624553:765/400",
+  "from": 155,
+  "to": 1149,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1336628403:765/400",
+  "from": 31,
+  "to": 361,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1341291951:765/400",
+  "from": 161,
+  "to": 1165,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 0.965,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w1415199647:765/400",
+  "from": 165,
+  "to": 1182,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1435996566:765/400",
+  "from": 26,
+  "to": 331,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w1458303562:765/400",
+  "from": 85,
+  "to": 745,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1462041663:765/400",
+  "from": 77,
+  "to": 703,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.055,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1467603760:765/400",
+  "from": 34,
+  "to": 363,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1474314617:765/400",
+  "from": 80,
+  "to": 716,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1474325002:765/400",
+  "from": 25,
+  "to": 324,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.965,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1554759712:765/400",
+  "from": 10,
+  "to": 267,
+  "rPu": 9.333333333333334e-05,
+  "xPu": 0.0018666666666666669,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 7500.0
+ },
+ {
+  "name": "ict:w1561263133:765/400",
+  "from": 40,
+  "to": 491,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w1567591812:765/400",
+  "from": 30,
+  "to": 350,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w192782338:765/400",
+  "from": 67,
+  "to": 627,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.03,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w193216698:765/400",
+  "from": 59,
+  "to": 591,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w195459361:765/400",
+  "from": 66,
+  "to": 625,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w196377947:765/400",
+  "from": 168,
+  "to": 1203,
+  "rPu": 0.0007000000000000001,
+  "xPu": 0.014000000000000002,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "ict:w196933682:765/400",
+  "from": 169,
+  "to": 1204,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w201845280:765/400",
+  "from": 56,
+  "to": 578,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w202980838:765/400",
+  "from": 9,
+  "to": 265,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w209806624:765/400",
+  "from": 7,
+  "to": 241,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "ict:w209826798:765/400",
+  "from": 62,
+  "to": 597,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w245128370:765/400",
+  "from": 2,
+  "to": 175,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w247861059:765/400",
+  "from": 24,
+  "to": 321,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.965,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w248385304:765/400",
+  "from": 38,
+  "to": 455,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w274106872:765/400",
+  "from": 148,
+  "to": 1120,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w293597835:765/400",
+  "from": 53,
+  "to": 571,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w311118424:765/400",
+  "from": 151,
+  "to": 1138,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w311176519:765/400",
+  "from": 37,
+  "to": 417,
+  "rPu": 0.00028000000000000003,
+  "xPu": 0.005600000000000001,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2500.0
+ },
+ {
+  "name": "ict:w311571096:765/400",
+  "from": 74,
+  "to": 692,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w311933111:765/400",
+  "from": 13,
+  "to": 282,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "ict:w311954709:765/400",
+  "from": 12,
+  "to": 277,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "ict:w315477169:765/400",
+  "from": 44,
+  "to": 518,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w315823978:765/400",
+  "from": 3,
+  "to": 192,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w316463122:765/400",
+  "from": 45,
+  "to": 522,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "ict:w318050929:765/400",
+  "from": 47,
+  "to": 536,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w318090288:765/400",
+  "from": 46,
+  "to": 535,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w319423421:765/400",
+  "from": 63,
+  "to": 602,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w323266562:765/400",
+  "from": 69,
+  "to": 639,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w328548895:765/400",
+  "from": 65,
+  "to": 624,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w331275940:765/400",
+  "from": 36,
+  "to": 380,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w342204888:765/400",
+  "from": 143,
+  "to": 1091,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w352619220:765/400",
+  "from": 150,
+  "to": 1132,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.97,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w353914761:765/400",
+  "from": 16,
+  "to": 286,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w353914865:765/400",
+  "from": 11,
+  "to": 268,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w354062412:765/400",
+  "from": 71,
+  "to": 663,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w355560316:765/400",
+  "from": 43,
+  "to": 504,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w357515226:765/400",
+  "from": 156,
+  "to": 1152,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w360424761:765/400",
+  "from": 58,
+  "to": 588,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w369866141:765/400",
+  "from": 83,
+  "to": 724,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w372701897:765/400",
+  "from": 72,
+  "to": 678,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w377052289:765/400",
+  "from": 146,
+  "to": 1109,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w386153973:765/400",
+  "from": 139,
+  "to": 1054,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w408924420:765/400",
+  "from": 49,
+  "to": 549,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w408924427:765/400",
+  "from": 54,
+  "to": 576,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w409112085:765/400",
+  "from": 5,
+  "to": 209,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w409158116:765/400",
+  "from": 6,
+  "to": 214,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w409798382:765/400",
+  "from": 167,
+  "to": 1202,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w417569420:765/400",
+  "from": 154,
+  "to": 1145,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.955,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w420797421:765/400",
+  "from": 153,
+  "to": 1143,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.97,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w422204218:765/400",
+  "from": 164,
+  "to": 1181,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w423166766:765/400",
+  "from": 15,
+  "to": 284,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w425101516:765/400",
+  "from": 147,
+  "to": 1117,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w425401901:765/400",
+  "from": 144,
+  "to": 1092,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w429459345:765/400",
+  "from": 48,
+  "to": 547,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.95,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w453513742:765/400",
+  "from": 52,
+  "to": 568,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w466424134:765/400",
+  "from": 136,
+  "to": 1029,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w466424159:765/400",
+  "from": 135,
+  "to": 1022,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w473902678:765/400",
+  "from": 51,
+  "to": 563,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w477691456:765/400",
+  "from": 68,
+  "to": 630,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w50885643:765/400",
+  "from": 149,
+  "to": 1128,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w545571850:765/400",
+  "from": 140,
+  "to": 1069,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w551402699:765/400",
+  "from": 157,
+  "to": 1153,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w607439318:765/400",
+  "from": 163,
+  "to": 1178,
+  "rPu": 0.00035000000000000005,
+  "xPu": 0.007000000000000001,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2000.0
+ },
+ {
+  "name": "ict:w608461884:765/400",
+  "from": 50,
+  "to": 560,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w631917408:765/400",
+  "from": 73,
+  "to": 689,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w654736039:765/400",
+  "from": 78,
+  "to": 710,
+  "rPu": 0.00011666666666666668,
+  "xPu": 0.0023333333333333335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6000.0
+ },
+ {
+  "name": "ict:w655683221:765/400",
+  "from": 79,
+  "to": 713,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w686891085:765/400",
+  "from": 76,
+  "to": 700,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w688672711:765/400",
+  "from": 29,
+  "to": 338,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w688672798:765/400",
+  "from": 27,
+  "to": 334,
+  "rPu": 0.00015555555555555556,
+  "xPu": 0.0031111111111111114,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4500.0
+ },
+ {
+  "name": "ict:w698045832:765/400",
+  "from": 64,
+  "to": 609,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w751947947:765/400",
+  "from": 138,
+  "to": 1051,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w759521252:765/400",
+  "from": 171,
+  "to": 1223,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.97,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w781425567:765/400",
+  "from": 159,
+  "to": 1159,
+  "rPu": 0.0007000000000000001,
+  "xPu": 0.014000000000000002,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1000.0
+ },
+ {
+  "name": "ict:w793144832:765/400",
+  "from": 172,
+  "to": 1225,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.945,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w840600239:765/400",
+  "from": 57,
+  "to": 580,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w910151268:765/400",
+  "from": 141,
+  "to": 1070,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w923365745:765/400",
+  "from": 1,
+  "to": 174,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "ict:w97392607:765/400",
+  "from": 8,
+  "to": 254,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "gsu:AP:nellore:765",
+  "from": 1237,
+  "to": 4,
+  "rPu": 0.00018157041838538595,
+  "xPu": 0.007262816735415438,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1996.4705882352941
+ },
+ {
+  "name": "gsu:AP:srikakulam:765",
+  "from": 1238,
+  "to": 5,
+  "rPu": 0.012494563832510115,
+  "xPu": 0.4997825533004046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 29.012617395798678
+ },
+ {
+  "name": "gsu:BR:gaya:765",
+  "from": 1239,
+  "to": 7,
+  "rPu": 0.007229496656601919,
+  "xPu": 0.28917986626407677,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 50.14180339498018
+ },
+ {
+  "name": "gsu:BR:pusauli back2back hvdc:765",
+  "from": 1240,
+  "to": 8,
+  "rPu": 0.0003081249999999999,
+  "xPu": 0.012324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1176.4705882352941
+ },
+ {
+  "name": "gsu:CG:bilaspur:765",
+  "from": 1241,
+  "to": 9,
+  "rPu": 0.0001033976510067114,
+  "xPu": 0.004135906040268456,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3505.8823529411766
+ },
+ {
+  "name": "gsu:CG:champa converter:765",
+  "from": 1242,
+  "to": 10,
+  "rPu": 0.00019476927939317317,
+  "xPu": 0.007790771175726927,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1861.1764705882354
+ },
+ {
+  "name": "gsu:CG:raigarh converter:765",
+  "from": 1243,
+  "to": 12,
+  "rPu": 4.6930212014134276e-05,
+  "xPu": 0.001877208480565371,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 7724.235294117647
+ },
+ {
+  "name": "gsu:CG:raipur:765",
+  "from": 1244,
+  "to": 13,
+  "rPu": 6.438048474717926e-05,
+  "xPu": 0.0025752193898871704,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 5630.588235294118
+ },
+ {
+  "name": "gsu:GJ:bhuj:765",
+  "from": 1245,
+  "to": 28,
+  "rPu": 0.0005810769793787318,
+  "xPu": 0.02324307917514927,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 623.8416128403038
+ },
+ {
+  "name": "gsu:GJ:kps 1:765",
+  "from": 1246,
+  "to": 31,
+  "rPu": 0.00029070466342795073,
+  "xPu": 0.01162818653711803,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1246.9700201071705
+ },
+ {
+  "name": "gsu:GJ:kps 2:765",
+  "from": 1247,
+  "to": 32,
+  "rPu": 0.0004585640805029222,
+  "xPu": 0.01834256322011689,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 790.5111093795972
+ },
+ {
+  "name": "gsu:GJ:kps 3:765",
+  "from": 1248,
+  "to": 33,
+  "rPu": 0.0012643926832866647,
+  "xPu": 0.05057570733146659,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 286.6989067492203
+ },
+ {
+  "name": "gsu:GJ:new navsari:765",
+  "from": 1249,
+  "to": 34,
+  "rPu": 0.00011850961538461535,
+  "xPu": 0.004740384615384614,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3058.823529411765
+ },
+ {
+  "name": "gsu:GJ:shivlaka:765",
+  "from": 1250,
+  "to": 35,
+  "rPu": 0.007754476726849415,
+  "xPu": 0.3101790690739766,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 46.74719039969071
+ },
+ {
+  "name": "gsu:HR:bhiwani:765",
+  "from": 1251,
+  "to": 37,
+  "rPu": 0.005763114021725002,
+  "xPu": 0.23052456086900006,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 62.90002221602711
+ },
+ {
+  "name": "gsu:KA:kudgi:765",
+  "from": 1252,
+  "to": 41,
+  "rPu": 0.00013694444444444445,
+  "xPu": 0.005477777777777778,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2647.0588235294117
+ },
+ {
+  "name": "gsu:MH:aurangabad:765",
+  "from": 1253,
+  "to": 45,
+  "rPu": 0.004158374098951578,
+  "xPu": 0.16633496395806313,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 87.17349410467773
+ },
+ {
+  "name": "gsu:MH:dhule:765",
+  "from": 1254,
+  "to": 46,
+  "rPu": 0.0021324995379238864,
+  "xPu": 0.08529998151695545,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 169.98831350412158
+ },
+ {
+  "name": "gsu:MH:kolhapur:765",
+  "from": 1255,
+  "to": 48,
+  "rPu": 0.006654967602591792,
+  "xPu": 0.2661987041036717,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 54.470588235294116
+ },
+ {
+  "name": "gsu:MH:new parli:765",
+  "from": 1256,
+  "to": 50,
+  "rPu": 0.024649999999999995,
+  "xPu": 0.9859999999999998,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 14.705882352941178
+ },
+ {
+  "name": "gsu:MH:padghe:765",
+  "from": 1257,
+  "to": 51,
+  "rPu": 0.0011644455802011298,
+  "xPu": 0.046577823208045196,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 311.3069482709418
+ },
+ {
+  "name": "gsu:MH:south solapur:765",
+  "from": 1258,
+  "to": 53,
+  "rPu": 0.030812499999999993,
+  "xPu": 1.2324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 11.764705882352942
+ },
+ {
+  "name": "gsu:MH:tiroda tpp:765",
+  "from": 1259,
+  "to": 54,
+  "rPu": 0.00011487729071684531,
+  "xPu": 0.004595091628673813,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3155.5409928103736
+ },
+ {
+  "name": "gsu:MH:w1568993017:765",
+  "from": 1260,
+  "to": 55,
+  "rPu": 0.051354166666666666,
+  "xPu": 2.0541666666666667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 7.0588235294117645
+ },
+ {
+  "name": "gsu:MH:wardha:765",
+  "from": 1261,
+  "to": 56,
+  "rPu": 0.00030357142857142855,
+  "xPu": 0.012142857142857141,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1194.1176470588236
+ },
+ {
+  "name": "gsu:MP:bina:765",
+  "from": 1262,
+  "to": 59,
+  "rPu": 0.002244990892531876,
+  "xPu": 0.08979963570127504,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 161.47058823529412
+ },
+ {
+  "name": "gsu:MP:gadarwara tpp:765",
+  "from": 1263,
+  "to": 60,
+  "rPu": 0.030812499999999993,
+  "xPu": 1.2324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 11.764705882352942
+ },
+ {
+  "name": "gsu:MP:gwalior:765",
+  "from": 1264,
+  "to": 61,
+  "rPu": 0.005143421764235005,
+  "xPu": 0.20573687056940018,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 70.47837346737899
+ },
+ {
+  "name": "gsu:MP:jabalpur:765",
+  "from": 1265,
+  "to": 63,
+  "rPu": 7.184427309334332e-05,
+  "xPu": 0.002873770923733733,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 5045.635294117647
+ },
+ {
+  "name": "gsu:MP:khandwa:765",
+  "from": 1266,
+  "to": 64,
+  "rPu": 0.00017474430206035693,
+  "xPu": 0.006989772082414278,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2074.4596288741473
+ },
+ {
+  "name": "gsu:MP:satna:765",
+  "from": 1267,
+  "to": 66,
+  "rPu": 0.0002483276918117343,
+  "xPu": 0.009933107672469372,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1459.7647058823532
+ },
+ {
+  "name": "gsu:MP:vindhyachal:765",
+  "from": 1268,
+  "to": 68,
+  "rPu": 5.9027777777777766e-05,
+  "xPu": 0.0023611111111111107,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6141.176470588236
+ },
+ {
+  "name": "gsu:OD:angul:765",
+  "from": 1269,
+  "to": 69,
+  "rPu": 0.00022523757309941516,
+  "xPu": 0.009009502923976606,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1609.4117647058824
+ },
+ {
+  "name": "gsu:OD:sundargarh:765",
+  "from": 1270,
+  "to": 71,
+  "rPu": 0.00020569092122830435,
+  "xPu": 0.008227636849132174,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1762.3529411764707
+ },
+ {
+  "name": "gsu:RJ:badla 2:765",
+  "from": 1271,
+  "to": 75,
+  "rPu": 0.0012206670580853067,
+  "xPu": 0.048826682323412265,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 296.96877424430875
+ },
+ {
+  "name": "gsu:RJ:badla:765",
+  "from": 1272,
+  "to": 76,
+  "rPu": 0.0010901541003620048,
+  "xPu": 0.04360616401448019,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 332.52179657869056
+ },
+ {
+  "name": "gsu:RJ:bikaner:765",
+  "from": 1273,
+  "to": 78,
+  "rPu": 0.003372709225974287,
+  "xPu": 0.13490836903897147,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 107.48035947133368
+ },
+ {
+  "name": "gsu:RJ:fatehgarh 2:765",
+  "from": 1274,
+  "to": 81,
+  "rPu": 0.0014867590098978376,
+  "xPu": 0.0594703603959135,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 243.81893607956619
+ },
+ {
+  "name": "gsu:RJ:fatehgarh 3:765",
+  "from": 1275,
+  "to": 82,
+  "rPu": 0.003372709225974287,
+  "xPu": 0.13490836903897147,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 107.48035947133368
+ },
+ {
+  "name": "gsu:TG:nizamabad:765",
+  "from": 1276,
+  "to": 136,
+  "rPu": 0.005021231359133967,
+  "xPu": 0.20084925436535866,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 72.19344699992511
+ },
+ {
+  "name": "gsu:TN:nagapattinam:765",
+  "from": 1277,
+  "to": 140,
+  "rPu": 0.000345905043878092,
+  "xPu": 0.01383620175512368,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1047.9754673012417
+ },
+ {
+  "name": "gsu:TN:north chennai tps stage iii:765",
+  "from": 1278,
+  "to": 142,
+  "rPu": 0.00020715577014513087,
+  "xPu": 0.008286230805805235,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1749.8909141948434
+ },
+ {
+  "name": "gsu:TN:virudhunagar:765",
+  "from": 1279,
+  "to": 145,
+  "rPu": 0.0021059293129595,
+  "xPu": 0.08423717251838,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 172.1330330364091
+ },
+ {
+  "name": "gsu:UK:koteshwar:765",
+  "from": 1280,
+  "to": 146,
+  "rPu": 0.0003081249999999999,
+  "xPu": 0.012324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1176.4705882352941
+ },
+ {
+  "name": "gsu:UP:bareilly:765",
+  "from": 1281,
+  "to": 150,
+  "rPu": 0.0014764953187048,
+  "xPu": 0.059059812748192,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 245.51381599908456
+ },
+ {
+  "name": "gsu:UP:prayagraj super thermal power:765",
+  "from": 1282,
+  "to": 164,
+  "rPu": 0.00019146215119474218,
+  "xPu": 0.007658486047789687,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1893.3245956862243
+ },
+ {
+  "name": "gsu:UP:rampur:765",
+  "from": 1283,
+  "to": 165,
+  "rPu": 0.0006866183958918713,
+  "xPu": 0.027464735835674853,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 527.9497347709956
+ },
+ {
+  "name": "gsu:UP:varanasi:765",
+  "from": 1284,
+  "to": 167,
+  "rPu": 0.0027945881998492515,
+  "xPu": 0.11178352799397005,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 129.7149970144275
+ },
+ {
+  "name": "gsu:UP:w196377947:765",
+  "from": 1285,
+  "to": 168,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:UP:w423702239:765",
+  "from": 1286,
+  "to": 170,
+  "rPu": 0.00017211070138663145,
+  "xPu": 0.006884428055465258,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2106.202560790661
+ },
+ {
+  "name": "gsu:WB:new jeerat:765",
+  "from": 1287,
+  "to": 172,
+  "rPu": 0.0011316270428823568,
+  "xPu": 0.045265081715294274,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 320.3352219974167
+ },
+ {
+  "name": "gsu:AP:gauthami ccpp:400",
+  "from": 1288,
+  "to": 177,
+  "rPu": 0.0005878995034170455,
+  "xPu": 0.023515980136681817,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 616.6019836605457
+ },
+ {
+  "name": "gsu:AP:guddigudem:400",
+  "from": 1289,
+  "to": 182,
+  "rPu": 0.012324999999999997,
+  "xPu": 0.4929999999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 29.411764705882355
+ },
+ {
+  "name": "gsu:AP:konaseema ccpp:400",
+  "from": 1290,
+  "to": 188,
+  "rPu": 0.0011808324834813246,
+  "xPu": 0.047233299339252986,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 306.986812330297
+ },
+ {
+  "name": "gsu:AP:kondapalli ccpp:400",
+  "from": 1291,
+  "to": 189,
+  "rPu": 0.00036040497609683773,
+  "xPu": 0.014416199043873508,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1005.8129716349957
+ },
+ {
+  "name": "gsu:AP:krishnapatnam:400",
+  "from": 1292,
+  "to": 190,
+  "rPu": 0.00023693441210349348,
+  "xPu": 0.00947737648413974,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1529.959269241393
+ },
+ {
+  "name": "gsu:AP:kurnool ultra mega solar park:400",
+  "from": 1293,
+  "to": 191,
+  "rPu": 0.0013304749129565544,
+  "xPu": 0.053218996518262174,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 272.4591019867183
+ },
+ {
+  "name": "gsu:AP:n p kunta:400",
+  "from": 1294,
+  "to": 195,
+  "rPu": 0.0006858118108023476,
+  "xPu": 0.027432472432093905,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 528.5706578542334
+ },
+ {
+  "name": "gsu:AP:nagarjuna sagar:400",
+  "from": 1295,
+  "to": 196,
+  "rPu": 0.00031959952967491737,
+  "xPu": 0.012783981186996696,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1134.231957001686
+ },
+ {
+  "name": "gsu:AP:nellore:400:w315824842",
+  "from": 1296,
+  "to": 199,
+  "rPu": 0.0018124999999999999,
+  "xPu": 0.0725,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 200.0
+ },
+ {
+  "name": "gsu:AP:rayalaseema stg 5:400",
+  "from": 1297,
+  "to": 202,
+  "rPu": 0.00022975458143369062,
+  "xPu": 0.009190183257347625,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1577.7704964051868
+ },
+ {
+  "name": "gsu:AP:sattenapalle:400",
+  "from": 1298,
+  "to": 204,
+  "rPu": 0.0019909443361040735,
+  "xPu": 0.07963777344416294,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 182.07440229562042
+ },
+ {
+  "name": "gsu:AP:seil project 2:400",
+  "from": 1299,
+  "to": 206,
+  "rPu": 0.0002871932267921133,
+  "xPu": 0.011487729071684532,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1262.2163971241494
+ },
+ {
+  "name": "gsu:AP:simhadri super thermal power:400",
+  "from": 1300,
+  "to": 207,
+  "rPu": 0.00015406249999999996,
+  "xPu": 0.006162499999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2352.9411764705883
+ },
+ {
+  "name": "gsu:AP:talaricheruvu:400",
+  "from": 1301,
+  "to": 210,
+  "rPu": 0.006662609674688391,
+  "xPu": 0.26650438698753565,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 54.4081099898673
+ },
+ {
+  "name": "gsu:AP:uravakonda:400",
+  "from": 1302,
+  "to": 212,
+  "rPu": 0.009978561847174158,
+  "xPu": 0.39914247388696633,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 36.32788026489577
+ },
+ {
+  "name": "gsu:AP:vemagiri:400",
+  "from": 1303,
+  "to": 213,
+  "rPu": 0.0019297482745104279,
+  "xPu": 0.07718993098041711,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 187.8483348259323
+ },
+ {
+  "name": "gsu:AP:vijayawada tps:400",
+  "from": 1304,
+  "to": 215,
+  "rPu": 0.00021539492009408495,
+  "xPu": 0.008615796803763398,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1682.9551961655325
+ },
+ {
+  "name": "gsu:AP:vizag tpp:400",
+  "from": 1305,
+  "to": 218,
+  "rPu": 0.0003645144801592207,
+  "xPu": 0.014580579206368826,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 994.4735250069057
+ },
+ {
+  "name": "gsu:AP:w1182741672:400",
+  "from": 1306,
+  "to": 219,
+  "rPu": 0.0013525623041163175,
+  "xPu": 0.054102492164652696,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 268.0098350344279
+ },
+ {
+  "name": "gsu:AP:w201428299:400",
+  "from": 1307,
+  "to": 221,
+  "rPu": 0.0011790466914138797,
+  "xPu": 0.04716186765655519,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 307.45177662582654
+ },
+ {
+  "name": "gsu:AP:w241988345:400",
+  "from": 1308,
+  "to": 222,
+  "rPu": 0.0006842063218088403,
+  "xPu": 0.027368252872353612,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 529.8109480217262
+ },
+ {
+  "name": "gsu:AP:w315758524:400",
+  "from": 1309,
+  "to": 223,
+  "rPu": 0.0004212167326284329,
+  "xPu": 0.016848669305137315,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 860.6020889482836
+ },
+ {
+  "name": "gsu:AR:kameng hpp:400",
+  "from": 1310,
+  "to": 225,
+  "rPu": 0.0004970872733901305,
+  "xPu": 0.019883490935605222,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 729.2482012821478
+ },
+ {
+  "name": "gsu:AR:ranganadi:400",
+  "from": 1311,
+  "to": 226,
+  "rPu": 0.0005984999300854586,
+  "xPu": 0.023939997203418342,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 605.6809395921556
+ },
+ {
+  "name": "gsu:AR:subansiri lower hydroelectric plant:400",
+  "from": 1312,
+  "to": 227,
+  "rPu": 0.00015406249999999996,
+  "xPu": 0.006162499999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2352.9411764705883
+ },
+ {
+  "name": "gsu:AS:balipara:400",
+  "from": 1313,
+  "to": 228,
+  "rPu": 0.03287830650152365,
+  "xPu": 1.315132260060946,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 11.025507046209967
+ },
+ {
+  "name": "gsu:AS:bongaigaon:400",
+  "from": 1314,
+  "to": 231,
+  "rPu": 0.00041083333333333325,
+  "xPu": 0.01643333333333333,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 882.3529411764706
+ },
+ {
+  "name": "gsu:AS:mariani:400",
+  "from": 1315,
+  "to": 232,
+  "rPu": 0.0015194871003021253,
+  "xPu": 0.06077948401208501,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 238.56734284083277
+ },
+ {
+  "name": "gsu:AS:misa:400",
+  "from": 1316,
+  "to": 233,
+  "rPu": 0.0006923314820938528,
+  "xPu": 0.027693259283754112,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 523.5931188679634
+ },
+ {
+  "name": "gsu:AS:silchar:400",
+  "from": 1317,
+  "to": 234,
+  "rPu": 0.0015817554396420346,
+  "xPu": 0.06327021758568138,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 229.17575683004253
+ },
+ {
+  "name": "gsu:BR:bahr tps:400",
+  "from": 1318,
+  "to": 236,
+  "rPu": 7.930717926694136e-05,
+  "xPu": 0.003172287170677654,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4570.8346123350975
+ },
+ {
+  "name": "gsu:BR:banka:400",
+  "from": 1319,
+  "to": 237,
+  "rPu": 0.010797573711114724,
+  "xPu": 0.431902948444589,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 33.572357058961536
+ },
+ {
+  "name": "gsu:BR:kahalgaon:400",
+  "from": 1320,
+  "to": 242,
+  "rPu": 0.0001316773504273504,
+  "xPu": 0.005267094017094016,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2752.9411764705883
+ },
+ {
+  "name": "gsu:BR:muzaffarpur:400",
+  "from": 1321,
+  "to": 246,
+  "rPu": 0.0004955352170889404,
+  "xPu": 0.01982140868355762,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 731.5322655159282
+ },
+ {
+  "name": "gsu:BR:nabinagar npgcl:400",
+  "from": 1322,
+  "to": 248,
+  "rPu": 0.0005054600791541195,
+  "xPu": 0.02021840316616478,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 717.168407456903
+ },
+ {
+  "name": "gsu:BR:patna:400",
+  "from": 1323,
+  "to": 252,
+  "rPu": 0.00016599326599326595,
+  "xPu": 0.006639730639730638,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2183.823529411765
+ },
+ {
+  "name": "gsu:BR:saharsa:400",
+  "from": 1324,
+  "to": 255,
+  "rPu": 0.006946857100218512,
+  "xPu": 0.2778742840087405,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 52.18187084755171
+ },
+ {
+  "name": "gsu:CG:adani raigarh:400",
+  "from": 1325,
+  "to": 256,
+  "rPu": 0.0006318250989426492,
+  "xPu": 0.02527300395770597,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 573.7347259655224
+ },
+ {
+  "name": "gsu:CG:akaltara tpp:400",
+  "from": 1326,
+  "to": 257,
+  "rPu": 0.00021060836631421644,
+  "xPu": 0.008424334652568657,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1721.2041778965672
+ },
+ {
+  "name": "gsu:CG:balco:400",
+  "from": 1327,
+  "to": 259,
+  "rPu": 0.00042594950490515676,
+  "xPu": 0.01703798019620627,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 851.039843515525
+ },
+ {
+  "name": "gsu:CG:baradarha tpp:400",
+  "from": 1328,
+  "to": 260,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:CG:bhandhakhar tpp:400",
+  "from": 1329,
+  "to": 261,
+  "rPu": 0.001108465085864297,
+  "xPu": 0.044338603434571876,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 327.0287938003478
+ },
+ {
+  "name": "gsu:CG:bhilai:400",
+  "from": 1330,
+  "to": 264,
+  "rPu": 0.006761537867793019,
+  "xPu": 0.27046151471172075,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 53.612063865926515
+ },
+ {
+  "name": "gsu:CG:bilaspur:400",
+  "from": 1331,
+  "to": 265,
+  "rPu": 0.00023793436293436293,
+  "xPu": 0.009517374517374517,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1523.5294117647059
+ },
+ {
+  "name": "gsu:CG:binjkote tpp:400",
+  "from": 1332,
+  "to": 266,
+  "rPu": 0.0006318250989426492,
+  "xPu": 0.02527300395770597,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 573.7347259655224
+ },
+ {
+  "name": "gsu:CG:champa converter:400",
+  "from": 1333,
+  "to": 267,
+  "rPu": 0.0014134174311926603,
+  "xPu": 0.05653669724770641,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 256.47058823529414
+ },
+ {
+  "name": "gsu:CG:dharamjaygarh:400",
+  "from": 1334,
+  "to": 268,
+  "rPu": 0.0004740384615384614,
+  "xPu": 0.018961538461538457,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 764.7058823529412
+ },
+ {
+  "name": "gsu:CG:kasaipalli tpp:400",
+  "from": 1335,
+  "to": 270,
+  "rPu": 0.001118274511402919,
+  "xPu": 0.04473098045611676,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 324.1601201705202
+ },
+ {
+  "name": "gsu:CG:korba stps:400",
+  "from": 1336,
+  "to": 271,
+  "rPu": 0.00011850961538461535,
+  "xPu": 0.004740384615384614,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3058.823529411765
+ },
+ {
+  "name": "gsu:CG:korba west:400",
+  "from": 1337,
+  "to": 272,
+  "rPu": 0.0002829067607205892,
+  "xPu": 0.011316270428823568,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1281.3408879896667
+ },
+ {
+  "name": "gsu:CG:marwa tpp:400",
+  "from": 1338,
+  "to": 275,
+  "rPu": 0.00037909505936558957,
+  "xPu": 0.015163802374623583,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 956.2245432758707
+ },
+ {
+  "name": "gsu:CG:pathadi tpp:400",
+  "from": 1339,
+  "to": 276,
+  "rPu": 0.001050474703349944,
+  "xPu": 0.042018988133997764,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 345.0820841701321
+ },
+ {
+  "name": "gsu:CG:raigarh converter:400",
+  "from": 1340,
+  "to": 277,
+  "rPu": 0.0003578687572590011,
+  "xPu": 0.014314750290360044,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1012.9411764705883
+ },
+ {
+  "name": "gsu:CG:raigarh:400",
+  "from": 1341,
+  "to": 278,
+  "rPu": 5.093249217466939e-05,
+  "xPu": 0.0020372996869867754,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 7117.264137730229
+ },
+ {
+  "name": "gsu:CG:raikheda tpp:400",
+  "from": 1342,
+  "to": 279,
+  "rPu": 0.00027158203350934426,
+  "xPu": 0.01086328134037377,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1334.7716537645247
+ },
+ {
+  "name": "gsu:CG:raipur:400:w1251833469",
+  "from": 1343,
+  "to": 281,
+  "rPu": 0.04394999614065463,
+  "xPu": 1.7579998456261852,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 8.248009825527156
+ },
+ {
+  "name": "gsu:CG:raipur:400:w311933111",
+  "from": 1344,
+  "to": 282,
+  "rPu": 0.0004563718675337167,
+  "xPu": 0.018254874701348667,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 794.308382677025
+ },
+ {
+  "name": "gsu:CG:raita:400",
+  "from": 1345,
+  "to": 283,
+  "rPu": 0.008789999228130927,
+  "xPu": 0.3515999691252371,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 41.24004912763577
+ },
+ {
+  "name": "gsu:CG:tamnar:400:w396930541",
+  "from": 1346,
+  "to": 287,
+  "rPu": 0.0001579562747356623,
+  "xPu": 0.006318250989426492,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2294.93890386209
+ },
+ {
+  "name": "gsu:CG:uchpinda power:400",
+  "from": 1347,
+  "to": 289,
+  "rPu": 0.0002632604578927705,
+  "xPu": 0.01053041831571082,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1376.9633423172538
+ },
+ {
+  "name": "gsu:CG:w203168038:400",
+  "from": 1348,
+  "to": 291,
+  "rPu": 0.0013423586230791253,
+  "xPu": 0.05369434492316501,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 270.0470602770005
+ },
+ {
+  "name": "gsu:CG:w607682842:400",
+  "from": 1349,
+  "to": 292,
+  "rPu": 0.0006318250989426492,
+  "xPu": 0.02527300395770597,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 573.7347259655224
+ },
+ {
+  "name": "gsu:DH:magarwada:400",
+  "from": 1350,
+  "to": 317,
+  "rPu": 0.0009263568956080409,
+  "xPu": 0.037054275824321636,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 391.3178621745593
+ },
+ {
+  "name": "gsu:DL:bawana:400",
+  "from": 1351,
+  "to": 319,
+  "rPu": 0.0009181624610413921,
+  "xPu": 0.03672649844165568,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 394.8103036023142
+ },
+ {
+  "name": "gsu:DL:maharanibagh:400",
+  "from": 1352,
+  "to": 322,
+  "rPu": 0.001642095172341217,
+  "xPu": 0.06568380689364868,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 220.7545616757192
+ },
+ {
+  "name": "gsu:DL:w172302052:400",
+  "from": 1353,
+  "to": 326,
+  "rPu": 0.0003832194101146364,
+  "xPu": 0.015328776404585456,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 945.9332967804569
+ },
+ {
+  "name": "gsu:DL:w663490627:400",
+  "from": 1354,
+  "to": 328,
+  "rPu": 0.006188136699920086,
+  "xPu": 0.24752546799680344,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 58.5798306628684
+ },
+ {
+  "name": "gsu:GA:mapusa:400",
+  "from": 1355,
+  "to": 329,
+  "rPu": 0.0031579307592211835,
+  "xPu": 0.12631723036884734,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 114.79035724310833
+ },
+ {
+  "name": "gsu:GJ:adani power mundra tps:400",
+  "from": 1356,
+  "to": 330,
+  "rPu": 5.868942781346512e-05,
+  "xPu": 0.0023475771125386047,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6176.580919346287
+ },
+ {
+  "name": "gsu:GJ:amreli:400",
+  "from": 1357,
+  "to": 332,
+  "rPu": 0.000747617527173533,
+  "xPu": 0.02990470108694132,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 484.87359756061255
+ },
+ {
+  "name": "gsu:GJ:asoj:400",
+  "from": 1358,
+  "to": 333,
+  "rPu": 0.0016950659843522238,
+  "xPu": 0.06780263937408895,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 213.85598162335302
+ },
+ {
+  "name": "gsu:GJ:bhuj:400",
+  "from": 1359,
+  "to": 337,
+  "rPu": 0.0005783534304590007,
+  "xPu": 0.023134137218360027,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 626.7793721086911
+ },
+ {
+  "name": "gsu:GJ:charanka:400",
+  "from": 1360,
+  "to": 340,
+  "rPu": 0.001360467434654396,
+  "xPu": 0.054418697386175836,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 266.452537389906
+ },
+ {
+  "name": "gsu:GJ:dahejccpp:400",
+  "from": 1361,
+  "to": 342,
+  "rPu": 0.0002775774375019189,
+  "xPu": 0.011103097500076757,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1305.9418779218825
+ },
+ {
+  "name": "gsu:GJ:dehgam:400",
+  "from": 1362,
+  "to": 344,
+  "rPu": 0.0008655196629213482,
+  "xPu": 0.03462078651685393,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 418.8235294117647
+ },
+ {
+  "name": "gsu:GJ:essar:400",
+  "from": 1363,
+  "to": 345,
+  "rPu": 0.0002888086558502036,
+  "xPu": 0.011552346234008144,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1255.1562865484816
+ },
+ {
+  "name": "gsu:GJ:gandhar ccpp:400",
+  "from": 1364,
+  "to": 346,
+  "rPu": 0.00046870959400051716,
+  "xPu": 0.018748383760020686,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 773.4
+ },
+ {
+  "name": "gsu:GJ:gpec:400",
+  "from": 1365,
+  "to": 348,
+  "rPu": 0.00037390251145150367,
+  "xPu": 0.014956100458060147,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 969.5040522535172
+ },
+ {
+  "name": "gsu:GJ:hazira:400",
+  "from": 1366,
+  "to": 351,
+  "rPu": 0.000264653852515805,
+  "xPu": 0.010586154100632201,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1369.713671477167
+ },
+ {
+  "name": "gsu:GJ:jam khambaliya:400",
+  "from": 1367,
+  "to": 353,
+  "rPu": 0.0010652561063676342,
+  "xPu": 0.042610244254705366,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 340.29375455642435
+ },
+ {
+  "name": "gsu:GJ:jamnagar:400",
+  "from": 1368,
+  "to": 354,
+  "rPu": 0.0007581901187311791,
+  "xPu": 0.030327604749247165,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 478.11227163793535
+ },
+ {
+  "name": "gsu:GJ:kasor:400",
+  "from": 1369,
+  "to": 359,
+  "rPu": 0.0008828468668501165,
+  "xPu": 0.03531387467400466,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 410.6034847168378
+ },
+ {
+  "name": "gsu:GJ:nikol:400",
+  "from": 1370,
+  "to": 364,
+  "rPu": 0.0008983295245630083,
+  "xPu": 0.03593318098252033,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 403.5267572624175
+ },
+ {
+  "name": "gsu:GJ:pirana:400",
+  "from": 1371,
+  "to": 367,
+  "rPu": 0.0003491501416430595,
+  "xPu": 0.013966005665722378,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1038.235294117647
+ },
+ {
+  "name": "gsu:GJ:sardar sarovar:400",
+  "from": 1372,
+  "to": 372,
+  "rPu": 0.00018129149378058105,
+  "xPu": 0.007251659751223242,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1999.5422423885889
+ },
+ {
+  "name": "gsu:GJ:sugen:400",
+  "from": 1373,
+  "to": 376,
+  "rPu": 0.00012571113402880092,
+  "xPu": 0.0050284453611520365,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2883.595019649968
+ },
+ {
+  "name": "gsu:GJ:tata umpp:400",
+  "from": 1374,
+  "to": 377,
+  "rPu": 9.477376484139739e-05,
+  "xPu": 0.0037909505936558957,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3824.898173103483
+ },
+ {
+  "name": "gsu:GJ:ukai thermal:400",
+  "from": 1375,
+  "to": 378,
+  "rPu": 0.00025533860847666296,
+  "xPu": 0.01021354433906652,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1419.683463314288
+ },
+ {
+  "name": "gsu:GJ:vav:400:w1029571595",
+  "from": 1376,
+  "to": 384,
+  "rPu": 0.0014794725334120594,
+  "xPu": 0.059178901336482376,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 245.0197565776892
+ },
+ {
+  "name": "gsu:GJ:vav:400:w146235150",
+  "from": 1377,
+  "to": 385,
+  "rPu": 0.0014028594182389702,
+  "xPu": 0.05611437672955881,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 258.400802879487
+ },
+ {
+  "name": "gsu:GJ:wanakbori tps:400",
+  "from": 1378,
+  "to": 389,
+  "rPu": 0.00025788779548679557,
+  "xPu": 0.010315511819471823,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1405.65007861553
+ },
+ {
+  "name": "gsu:GJ:wanakbori:400",
+  "from": 1379,
+  "to": 390,
+  "rPu": 0.0012858554410587512,
+  "xPu": 0.051434217642350046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 281.91349386951595
+ },
+ {
+  "name": "gsu:HP:banala:400",
+  "from": 1380,
+  "to": 391,
+  "rPu": 0.002805502780491821,
+  "xPu": 0.11222011121967285,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 129.21035135686145
+ },
+ {
+  "name": "gsu:HP:baspa:400",
+  "from": 1381,
+  "to": 392,
+  "rPu": 0.0012858554410587512,
+  "xPu": 0.051434217642350046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 281.91349386951595
+ },
+ {
+  "name": "gsu:HP:chamba:400",
+  "from": 1382,
+  "to": 393,
+  "rPu": 0.007618564558121867,
+  "xPu": 0.30474258232487467,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 47.58114172748622
+ },
+ {
+  "name": "gsu:HP:chamera i:400",
+  "from": 1383,
+  "to": 394,
+  "rPu": 0.00021285241582412643,
+  "xPu": 0.008514096632965058,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1703.0579549518613
+ },
+ {
+  "name": "gsu:HP:chamera ii:400",
+  "from": 1384,
+  "to": 395,
+  "rPu": 0.00020293338146022813,
+  "xPu": 0.008117335258409126,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1786.3004962101047
+ },
+ {
+  "name": "gsu:HP:dehar:400",
+  "from": 1385,
+  "to": 396,
+  "rPu": 0.0003112373737373737,
+  "xPu": 0.012449494949494948,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1164.7058823529412
+ },
+ {
+  "name": "gsu:HP:gumma:400",
+  "from": 1386,
+  "to": 397,
+  "rPu": 0.013393137234004282,
+  "xPu": 0.5357254893601713,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 27.066100620520533
+ },
+ {
+  "name": "gsu:HP:hamirpur:400",
+  "from": 1387,
+  "to": 398,
+  "rPu": 0.0002126831954984201,
+  "xPu": 0.008507327819936805,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1704.4129845354555
+ },
+ {
+  "name": "gsu:HP:kala amp:400",
+  "from": 1388,
+  "to": 399,
+  "rPu": 0.005143421764235005,
+  "xPu": 0.20573687056940018,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 70.47837346737899
+ },
+ {
+  "name": "gsu:HP:karcham wangtoo hpp:400",
+  "from": 1389,
+  "to": 400,
+  "rPu": 0.0003386659613961527,
+  "xPu": 0.013546638455846109,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1070.3762447976503
+ },
+ {
+  "name": "gsu:HP:koldam:400",
+  "from": 1390,
+  "to": 401,
+  "rPu": 0.0003851562499999999,
+  "xPu": 0.015406249999999996,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 941.1764705882354
+ },
+ {
+  "name": "gsu:HP:nalagarh:400",
+  "from": 1391,
+  "to": 403,
+  "rPu": 0.0016048177083333333,
+  "xPu": 0.06419270833333333,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 225.88235294117646
+ },
+ {
+  "name": "gsu:HP:nathpa jhakri:400",
+  "from": 1392,
+  "to": 404,
+  "rPu": 0.00016628088742314624,
+  "xPu": 0.0066512354969258496,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2180.046099209957
+ },
+ {
+  "name": "gsu:HP:parbati 3:400",
+  "from": 1393,
+  "to": 405,
+  "rPu": 0.0003412838379667505,
+  "xPu": 0.013651353518670022,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1062.1657391092642
+ },
+ {
+  "name": "gsu:HP:parbati ii:400",
+  "from": 1394,
+  "to": 406,
+  "rPu": 0.0003851562499999999,
+  "xPu": 0.015406249999999996,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 941.1764705882354
+ },
+ {
+  "name": "gsu:HP:w1026769334:400",
+  "from": 1395,
+  "to": 408,
+  "rPu": 0.0007490056450029131,
+  "xPu": 0.029960225800116525,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 483.9749906004915
+ },
+ {
+  "name": "gsu:HP:w1026769335:400",
+  "from": 1396,
+  "to": 409,
+  "rPu": 0.01817846607669616,
+  "xPu": 0.7271386430678465,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 19.941176470588236
+ },
+ {
+  "name": "gsu:HP:w330412388:400",
+  "from": 1397,
+  "to": 410,
+  "rPu": 0.0002570519122745402,
+  "xPu": 0.010282076490981609,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1410.2209814056453
+ },
+ {
+  "name": "gsu:HR:abdullahpur:400",
+  "from": 1398,
+  "to": 411,
+  "rPu": 0.0006318250989426492,
+  "xPu": 0.02527300395770597,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 573.7347259655224
+ },
+ {
+  "name": "gsu:HR:badshahpur:400",
+  "from": 1399,
+  "to": 412,
+  "rPu": 0.01921038007241667,
+  "xPu": 0.7684152028966668,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 18.870006664808137
+ },
+ {
+  "name": "gsu:HR:ballabhgarh:400",
+  "from": 1400,
+  "to": 414,
+  "rPu": 0.011526228043450003,
+  "xPu": 0.4610491217380001,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 31.450011108013555
+ },
+ {
+  "name": "gsu:HR:bhiwani bbmb:400",
+  "from": 1401,
+  "to": 416,
+  "rPu": 0.009605190036208335,
+  "xPu": 0.3842076014483334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 37.740013329616275
+ },
+ {
+  "name": "gsu:HR:hisar:400",
+  "from": 1402,
+  "to": 422,
+  "rPu": 0.03842076014483334,
+  "xPu": 1.5368304057933335,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 9.435003332404069
+ },
+ {
+  "name": "gsu:HR:jhajjar clp:400",
+  "from": 1403,
+  "to": 424,
+  "rPu": 0.0002574393308588496,
+  "xPu": 0.010297573234353983,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1408.098750065326
+ },
+ {
+  "name": "gsu:HR:jhajjar tpp:400",
+  "from": 1404,
+  "to": 425,
+  "rPu": 0.00020541666666666663,
+  "xPu": 0.008216666666666666,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1764.7058823529412
+ },
+ {
+  "name": "gsu:HR:kaithal:400",
+  "from": 1405,
+  "to": 429,
+  "rPu": 0.06358958748957673,
+  "xPu": 2.543583499583069,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 5.700618832594551
+ },
+ {
+  "name": "gsu:HR:khedar tpp:400",
+  "from": 1406,
+  "to": 430,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:HR:nawada:400",
+  "from": 1407,
+  "to": 434,
+  "rPu": 0.00043348701327240014,
+  "xPu": 0.017339480530896005,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 836.2418916854783
+ },
+ {
+  "name": "gsu:HR:panipat:400",
+  "from": 1408,
+  "to": 437,
+  "rPu": 0.00036050760990229857,
+  "xPu": 0.014420304396091942,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1005.5266242458554
+ },
+ {
+  "name": "gsu:HR:sector:400",
+  "from": 1409,
+  "to": 439,
+  "rPu": 0.009079708751485794,
+  "xPu": 0.3631883500594318,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 39.924188090359266
+ },
+ {
+  "name": "gsu:JH:bokaro a:400",
+  "from": 1410,
+  "to": 443,
+  "rPu": 0.00020990102799822212,
+  "xPu": 0.008396041119928884,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1727.0044051574173
+ },
+ {
+  "name": "gsu:JH:jamshedpur:400:w150957299",
+  "from": 1411,
+  "to": 447,
+  "rPu": 0.00023885658914728683,
+  "xPu": 0.009554263565891473,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1517.6470588235293
+ },
+ {
+  "name": "gsu:JH:koderma thermal power:400",
+  "from": 1412,
+  "to": 449,
+  "rPu": 0.00022861613067718,
+  "xPu": 0.0091446452270872,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1585.6273961344932
+ },
+ {
+  "name": "gsu:JH:maithon power ltd:400",
+  "from": 1413,
+  "to": 451,
+  "rPu": 0.005900312208024739,
+  "xPu": 0.2360124883209896,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 61.437426905474695
+ },
+ {
+  "name": "gsu:JH:north karanpura tpp:400",
+  "from": 1414,
+  "to": 452,
+  "rPu": 0.00015561868686868685,
+  "xPu": 0.006224747474747474,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2329.4117647058824
+ },
+ {
+  "name": "gsu:JH:ranchi:400:w205783649",
+  "from": 1415,
+  "to": 454,
+  "rPu": 0.0023738869681084636,
+  "xPu": 0.09495547872433854,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 152.70314251265447
+ },
+ {
+  "name": "gsu:JH:ranchi:400:w248385304",
+  "from": 1416,
+  "to": 455,
+  "rPu": 0.00043553699149068484,
+  "xPu": 0.017421479659627395,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 832.3058823529412
+ },
+ {
+  "name": "gsu:JH:w522513658:400",
+  "from": 1417,
+  "to": 460,
+  "rPu": 0.0008867720686914375,
+  "xPu": 0.0354708827476575,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 408.78599225043473
+ },
+ {
+  "name": "gsu:JH:w664426043:400",
+  "from": 1418,
+  "to": 462,
+  "rPu": 0.0007020278877140546,
+  "xPu": 0.028081115508562186,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 516.3612533689702
+ },
+ {
+  "name": "gsu:JK:baglihar:400",
+  "from": 1419,
+  "to": 463,
+  "rPu": 0.0002704512418466144,
+  "xPu": 0.010818049673864577,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1340.3525068876952
+ },
+ {
+  "name": "gsu:JK:dul hasti hydroelectric plant:400",
+  "from": 1420,
+  "to": 464,
+  "rPu": 0.0007900641025641025,
+  "xPu": 0.0316025641025641,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 458.8235294117647
+ },
+ {
+  "name": "gsu:JK:samba:400",
+  "from": 1421,
+  "to": 466,
+  "rPu": 0.0029005624441350917,
+  "xPu": 0.11602249776540367,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 124.97576141929692
+ },
+ {
+  "name": "gsu:JK:uri i:400",
+  "from": 1422,
+  "to": 467,
+  "rPu": 0.0003212135061431192,
+  "xPu": 0.012848540245724769,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1128.532870091973
+ },
+ {
+  "name": "gsu:JK:uri ii:400",
+  "from": 1423,
+  "to": 468,
+  "rPu": 0.0012838541666666664,
+  "xPu": 0.05135416666666666,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 282.3529411764706
+ },
+ {
+  "name": "gsu:JK:w285484524:400",
+  "from": 1424,
+  "to": 469,
+  "rPu": 0.009408698349210374,
+  "xPu": 0.376347933968415,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 38.52817749550051
+ },
+ {
+  "name": "gsu:JK:wagoora:400",
+  "from": 1425,
+  "to": 471,
+  "rPu": 0.0005258392025210321,
+  "xPu": 0.021033568100841286,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 689.3742388586954
+ },
+ {
+  "name": "gsu:KA:bastipura:400",
+  "from": 1426,
+  "to": 473,
+  "rPu": 0.015030487804878048,
+  "xPu": 0.6012195121951219,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 24.11764705882353
+ },
+ {
+  "name": "gsu:KA:bellarytps:400",
+  "from": 1427,
+  "to": 475,
+  "rPu": 0.0002135300224533045,
+  "xPu": 0.00854120089813218,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1697.6535469585908
+ },
+ {
+  "name": "gsu:KA:beranahalli:400",
+  "from": 1428,
+  "to": 476,
+  "rPu": 0.0019801121066934674,
+  "xPu": 0.0792044842677387,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 183.0704427161593
+ },
+ {
+  "name": "gsu:KA:bidadi:400",
+  "from": 1429,
+  "to": 477,
+  "rPu": 0.002772538081641359,
+  "xPu": 0.11090152326565438,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 130.74662613304764
+ },
+ {
+  "name": "gsu:KA:guddadahalli:400",
+  "from": 1430,
+  "to": 481,
+  "rPu": 0.0028231079584457052,
+  "xPu": 0.1129243183378282,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 128.40458294041952
+ },
+ {
+  "name": "gsu:KA:hebbanahalli:400",
+  "from": 1431,
+  "to": 483,
+  "rPu": 0.011869434840542318,
+  "xPu": 0.47477739362169274,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 30.540628502530893
+ },
+ {
+  "name": "gsu:KA:jagaluru:400",
+  "from": 1432,
+  "to": 486,
+  "rPu": 0.007520057271000638,
+  "xPu": 0.3008022908400255,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 48.20442011763625
+ },
+ {
+  "name": "gsu:KA:jindal:400",
+  "from": 1433,
+  "to": 487,
+  "rPu": 0.000440808208564639,
+  "xPu": 0.01763232834258556,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 822.3531072172489
+ },
+ {
+  "name": "gsu:KA:k p t c l guttur:400",
+  "from": 1434,
+  "to": 488,
+  "rPu": 0.004814453124999999,
+  "xPu": 0.19257812499999996,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 75.29411764705883
+ },
+ {
+  "name": "gsu:KA:kaiga:400",
+  "from": 1435,
+  "to": 489,
+  "rPu": 0.00014651037096390419,
+  "xPu": 0.005860414838556168,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2474.2275759393797
+ },
+ {
+  "name": "gsu:KA:kalaburagi:400",
+  "from": 1436,
+  "to": 490,
+  "rPu": 0.012083333333333331,
+  "xPu": 0.4833333333333333,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 30.0
+ },
+ {
+  "name": "gsu:KA:koppal:400",
+  "from": 1437,
+  "to": 492,
+  "rPu": 0.0009297525353237154,
+  "xPu": 0.037190101412948616,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 389.88869212794026
+ },
+ {
+  "name": "gsu:KA:kudgi super thermal power project:400",
+  "from": 1438,
+  "to": 493,
+  "rPu": 0.0005559668227222184,
+  "xPu": 0.022238672908888736,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 652.0173240285569
+ },
+ {
+  "name": "gsu:KA:narendra:400",
+  "from": 1439,
+  "to": 496,
+  "rPu": 0.0092808734939759,
+  "xPu": 0.37123493975903604,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 39.05882352941177
+ },
+ {
+  "name": "gsu:KA:pavagada solar park:400",
+  "from": 1440,
+  "to": 498,
+  "rPu": 0.00014127595280456865,
+  "xPu": 0.005651038112182746,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2565.9002314531
+ },
+ {
+  "name": "gsu:KA:raichur thermal power:400",
+  "from": 1441,
+  "to": 499,
+  "rPu": 0.00021668420452650928,
+  "xPu": 0.008667368181060372,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1672.9415085521448
+ },
+ {
+  "name": "gsu:KA:somanahalli:400",
+  "from": 1442,
+  "to": 502,
+  "rPu": 0.028011363636363633,
+  "xPu": 1.1204545454545454,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 12.941176470588236
+ },
+ {
+  "name": "gsu:KA:talaguppa:400",
+  "from": 1443,
+  "to": 503,
+  "rPu": 0.0002087690278635982,
+  "xPu": 0.008350761114543928,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1736.368673598671
+ },
+ {
+  "name": "gsu:KA:upcl:400",
+  "from": 1444,
+  "to": 505,
+  "rPu": 0.00018652792437702623,
+  "xPu": 0.007461116975081049,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1943.4087481040312
+ },
+ {
+  "name": "gsu:KA:yelahanka:400",
+  "from": 1445,
+  "to": 507,
+  "rPu": 0.0008326577489528441,
+  "xPu": 0.03330630995811376,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 435.3529411764706
+ },
+ {
+  "name": "gsu:KA:yermarus thermal power:400",
+  "from": 1446,
+  "to": 508,
+  "rPu": 0.00023693441210349348,
+  "xPu": 0.00947737648413974,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1529.959269241393
+ },
+ {
+  "name": "gsu:KL:areekode:400",
+  "from": 1447,
+  "to": 509,
+  "rPu": 0.0012556596447617242,
+  "xPu": 0.050226385790468966,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 288.69288068008944
+ },
+ {
+  "name": "gsu:KL:edamon kseb:400",
+  "from": 1448,
+  "to": 510,
+  "rPu": 0.0007265108900214918,
+  "xPu": 0.029060435600859674,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 498.9601738650833
+ },
+ {
+  "name": "gsu:KL:kochi east:400",
+  "from": 1449,
+  "to": 511,
+  "rPu": 0.0009047059241668752,
+  "xPu": 0.03618823696667501,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 400.6826862925858
+ },
+ {
+  "name": "gsu:KL:kseb kottayam:400",
+  "from": 1450,
+  "to": 512,
+  "rPu": 0.0002549292670513577,
+  "xPu": 0.010197170682054307,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1421.963057411416
+ },
+ {
+  "name": "gsu:KL:palakkad:400",
+  "from": 1451,
+  "to": 514,
+  "rPu": 0.002930615884250439,
+  "xPu": 0.11722463537001757,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 123.69413608522642
+ },
+ {
+  "name": "gsu:MH:akola:400",
+  "from": 1452,
+  "to": 519,
+  "rPu": 0.0007581901187311791,
+  "xPu": 0.030327604749247165,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 478.11227163793535
+ },
+ {
+  "name": "gsu:MH:alkud:400",
+  "from": 1453,
+  "to": 520,
+  "rPu": 0.0014802949965272167,
+  "xPu": 0.05921179986108867,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 244.8836217446034
+ },
+ {
+  "name": "gsu:MH:aurangabad iv:400",
+  "from": 1454,
+  "to": 521,
+  "rPu": 0.023775077160493825,
+  "xPu": 0.951003086419753,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 15.247058823529413
+ },
+ {
+  "name": "gsu:MH:babhleshwar i msetcl:400",
+  "from": 1455,
+  "to": 523,
+  "rPu": 0.002124481705240702,
+  "xPu": 0.08497926820962808,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 170.62985249803742
+ },
+ {
+  "name": "gsu:MH:bhadravati b2b hvdc:400",
+  "from": 1456,
+  "to": 524,
+  "rPu": 0.00017607142857142854,
+  "xPu": 0.0070428571428571415,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2058.823529411765
+ },
+ {
+  "name": "gsu:MH:bhusawal:400:w221054236",
+  "from": 1457,
+  "to": 525,
+  "rPu": 0.0003133017019550327,
+  "xPu": 0.012532068078201309,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1157.0316973638035
+ },
+ {
+  "name": "gsu:MH:boisar:400",
+  "from": 1458,
+  "to": 527,
+  "rPu": 0.00028530092592592593,
+  "xPu": 0.011412037037037037,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1270.5882352941176
+ },
+ {
+  "name": "gsu:MH:chakan msetcl:400",
+  "from": 1459,
+  "to": 528,
+  "rPu": 0.019257812499999995,
+  "xPu": 0.7703124999999998,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 18.823529411764707
+ },
+ {
+  "name": "gsu:MH:chandrapur i:400",
+  "from": 1460,
+  "to": 530,
+  "rPu": 0.00012982707512520188,
+  "xPu": 0.005193083005008075,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2792.175666365543
+ },
+ {
+  "name": "gsu:MH:dhariwal tpp:400",
+  "from": 1461,
+  "to": 533,
+  "rPu": 0.003159125494713246,
+  "xPu": 0.12636501978852985,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 114.74694519310448
+ },
+ {
+  "name": "gsu:MH:girawali:400",
+  "from": 1462,
+  "to": 537,
+  "rPu": 0.00029204423314339834,
+  "xPu": 0.011681769325735933,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1241.2503273845052
+ },
+ {
+  "name": "gsu:MH:gmr warora tpp:400",
+  "from": 1463,
+  "to": 538,
+  "rPu": 0.0007020278877140546,
+  "xPu": 0.028081115508562186,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 516.3612533689702
+ },
+ {
+  "name": "gsu:MH:jaigad:400",
+  "from": 1464,
+  "to": 539,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:MH:jejuri ii:400",
+  "from": 1465,
+  "to": 540,
+  "rPu": 0.012324999999999997,
+  "xPu": 0.4929999999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 29.411764705882355
+ },
+ {
+  "name": "gsu:MH:kallamps:400",
+  "from": 1466,
+  "to": 541,
+  "rPu": 0.000997212014137069,
+  "xPu": 0.03988848056548276,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 363.51347041650615
+ },
+ {
+  "name": "gsu:MH:karad:400",
+  "from": 1467,
+  "to": 543,
+  "rPu": 0.001804331887671871,
+  "xPu": 0.07217327550687484,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 200.9053891231361
+ },
+ {
+  "name": "gsu:MH:karjat:400",
+  "from": 1468,
+  "to": 544,
+  "rPu": 0.004969758064516128,
+  "xPu": 0.19879032258064513,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 72.94117647058823
+ },
+ {
+  "name": "gsu:MH:khaparkheda:400",
+  "from": 1469,
+  "to": 545,
+  "rPu": 0.0002467189414182029,
+  "xPu": 0.009868757656728115,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1469.2832172360106
+ },
+ {
+  "name": "gsu:MH:kharghar:400",
+  "from": 1470,
+  "to": 546,
+  "rPu": 0.00023271456753091242,
+  "xPu": 0.009308582701236497,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1557.702226577834
+ },
+ {
+  "name": "gsu:MH:koradi ii:400",
+  "from": 1471,
+  "to": 548,
+  "rPu": 0.0015410368266893884,
+  "xPu": 0.06164147306757553,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 235.2312376458642
+ },
+ {
+  "name": "gsu:MH:koradi:400",
+  "from": 1472,
+  "to": 550,
+  "rPu": 0.0001579562747356623,
+  "xPu": 0.006318250989426492,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2294.93890386209
+ },
+ {
+  "name": "gsu:MH:koyna iv:400",
+  "from": 1473,
+  "to": 551,
+  "rPu": 0.00015745118577205716,
+  "xPu": 0.006298047430882286,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2302.300857389496
+ },
+ {
+  "name": "gsu:MH:kudus:400",
+  "from": 1474,
+  "to": 552,
+  "rPu": 0.005143421764235005,
+  "xPu": 0.20573687056940018,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 70.47837346737899
+ },
+ {
+  "name": "gsu:MH:kumbhargaon:400",
+  "from": 1475,
+  "to": 553,
+  "rPu": 0.01630291005291005,
+  "xPu": 0.6521164021164021,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 22.235294117647058
+ },
+ {
+  "name": "gsu:MH:mouda tpp:400",
+  "from": 1476,
+  "to": 555,
+  "rPu": 0.0002819375318930834,
+  "xPu": 0.011277501275723337,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1285.7458088888552
+ },
+ {
+  "name": "gsu:MH:nandgaonpeth:400",
+  "from": 1477,
+  "to": 556,
+  "rPu": 0.00028081115508562187,
+  "xPu": 0.011232446203424874,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1290.9031334224255
+ },
+ {
+  "name": "gsu:MH:nasik tpp:400",
+  "from": 1478,
+  "to": 557,
+  "rPu": 0.00018569879817240375,
+  "xPu": 0.0074279519268961505,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1952.0858700628369
+ },
+ {
+  "name": "gsu:MH:navi mumbai:400",
+  "from": 1479,
+  "to": 558,
+  "rPu": 0.0042861848035291705,
+  "xPu": 0.1714473921411668,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 84.57404816085479
+ },
+ {
+  "name": "gsu:MH:new koyna:400",
+  "from": 1480,
+  "to": 559,
+  "rPu": 0.000156640807694654,
+  "xPu": 0.0062656323077861596,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2314.211764705882
+ },
+ {
+  "name": "gsu:MH:new parli:400",
+  "from": 1481,
+  "to": 560,
+  "rPu": 0.0010270833333333332,
+  "xPu": 0.041083333333333326,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 352.94117647058823
+ },
+ {
+  "name": "gsu:MH:nogothane:400",
+  "from": 1482,
+  "to": 561,
+  "rPu": 0.0005076832161770736,
+  "xPu": 0.020307328647082946,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 714.0279379918765
+ },
+ {
+  "name": "gsu:MH:purti:400",
+  "from": 1483,
+  "to": 566,
+  "rPu": 0.00042439820349232486,
+  "xPu": 0.016975928139692995,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 854.1506467676546
+ },
+ {
+  "name": "gsu:MH:solapur iii lamboti:400",
+  "from": 1484,
+  "to": 569,
+  "rPu": 0.008151455026455026,
+  "xPu": 0.32605820105820105,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 44.470588235294116
+ },
+ {
+  "name": "gsu:MH:solapur stpp:400",
+  "from": 1485,
+  "to": 570,
+  "rPu": 0.00011610870900290022,
+  "xPu": 0.004644348360116009,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3122.0741588897113
+ },
+ {
+  "name": "gsu:MH:talandge:400",
+  "from": 1486,
+  "to": 572,
+  "rPu": 0.0017815822541773865,
+  "xPu": 0.07126329016709546,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 203.47081879044526
+ },
+ {
+  "name": "gsu:MH:talegaon:400",
+  "from": 1487,
+  "to": 573,
+  "rPu": 0.0017601309509941907,
+  "xPu": 0.07040523803976763,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 205.95058554890235
+ },
+ {
+  "name": "gsu:MH:taptitanda:400",
+  "from": 1488,
+  "to": 574,
+  "rPu": 0.025677083333333333,
+  "xPu": 1.0270833333333333,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 14.117647058823529
+ },
+ {
+  "name": "gsu:MH:tarapur:400",
+  "from": 1489,
+  "to": 575,
+  "rPu": 0.0007581901187311791,
+  "xPu": 0.030327604749247165,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 478.11227163793535
+ },
+ {
+  "name": "gsu:ML:byrnihat:400",
+  "from": 1490,
+  "to": 581,
+  "rPu": 0.001449657670786003,
+  "xPu": 0.05798630683144012,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 250.0590362160832
+ },
+ {
+  "name": "gsu:MN:imphal:400",
+  "from": 1491,
+  "to": 582,
+  "rPu": 0.002881253153868745,
+  "xPu": 0.11525012615474979,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 125.81331130631835
+ },
+ {
+  "name": "gsu:MP:annupur tpp:400",
+  "from": 1492,
+  "to": 584,
+  "rPu": 0.00026886174423091454,
+  "xPu": 0.010754469769236582,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1348.2766060189779
+ },
+ {
+  "name": "gsu:MP:badnawar:400",
+  "from": 1493,
+  "to": 586,
+  "rPu": 0.002204323613243573,
+  "xPu": 0.08817294452974292,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 164.449538090551
+ },
+ {
+  "name": "gsu:MP:betul:400",
+  "from": 1494,
+  "to": 587,
+  "rPu": 0.00023342803030303026,
+  "xPu": 0.00933712121212121,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1552.9411764705883
+ },
+ {
+  "name": "gsu:MP:bhopal:400:w666636903",
+  "from": 1495,
+  "to": 589,
+  "rPu": 0.001045058743943734,
+  "xPu": 0.041802349757749366,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 346.8704530733221
+ },
+ {
+  "name": "gsu:MP:birsingpur:400",
+  "from": 1496,
+  "to": 592,
+  "rPu": 0.0002829067607205892,
+  "xPu": 0.011316270428823568,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1281.3408879896667
+ },
+ {
+  "name": "gsu:MP:indira sagar:400",
+  "from": 1497,
+  "to": 598,
+  "rPu": 0.0003086053058541003,
+  "xPu": 0.012344212234164011,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1174.6395577896496
+ },
+ {
+  "name": "gsu:MP:indore:400",
+  "from": 1498,
+  "to": 599,
+  "rPu": 0.008324361726055544,
+  "xPu": 0.3329744690422218,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 43.54688226310039
+ },
+ {
+  "name": "gsu:MP:itarsi:400",
+  "from": 1499,
+  "to": 600,
+  "rPu": 0.022824074074074073,
+  "xPu": 0.9129629629629629,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 15.882352941176471
+ },
+ {
+  "name": "gsu:MP:jabalpur:400:w319423421",
+  "from": 1500,
+  "to": 602,
+  "rPu": 0.00036305098325694284,
+  "xPu": 0.014522039330277714,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 998.4823529411765
+ },
+ {
+  "name": "gsu:MP:jhabua tpp:400",
+  "from": 1501,
+  "to": 603,
+  "rPu": 0.0006896308103164693,
+  "xPu": 0.027585232412658773,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 525.6435683806671
+ },
+ {
+  "name": "gsu:MP:jp nigre tpp:400",
+  "from": 1502,
+  "to": 605,
+  "rPu": 0.004786553779868552,
+  "xPu": 0.19146215119474208,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 75.732983827449
+ },
+ {
+  "name": "gsu:MP:khandwa:400:w192715776",
+  "from": 1503,
+  "to": 608,
+  "rPu": 0.009001409813108062,
+  "xPu": 0.3600563925243225,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 40.27146941717052
+ },
+ {
+  "name": "gsu:MP:khandwa:400:w698045832",
+  "from": 1504,
+  "to": 609,
+  "rPu": 0.00405961791831357,
+  "xPu": 0.1623847167325428,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 89.29411764705883
+ },
+ {
+  "name": "gsu:MP:mahan:400",
+  "from": 1505,
+  "to": 612,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:MP:malwa:400:w394682310",
+  "from": 1506,
+  "to": 614,
+  "rPu": 0.00015043454736729742,
+  "xPu": 0.0060173818946918966,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2409.6858490551945
+ },
+ {
+  "name": "gsu:MP:mandsaur sitamau:400",
+  "from": 1507,
+  "to": 616,
+  "rPu": 0.005447696074102114,
+  "xPu": 0.21790784296408458,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 66.54189130030477
+ },
+ {
+  "name": "gsu:MP:neemuch:400",
+  "from": 1508,
+  "to": 619,
+  "rPu": 0.005400845887864836,
+  "xPu": 0.21603383551459343,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 67.11911569528422
+ },
+ {
+  "name": "gsu:MP:rajgarh:400",
+  "from": 1509,
+  "to": 621,
+  "rPu": 0.013119038787079377,
+  "xPu": 0.524761551483175,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 27.631597549434602
+ },
+ {
+  "name": "gsu:MP:rewa:400",
+  "from": 1510,
+  "to": 622,
+  "rPu": 0.0005154268724730288,
+  "xPu": 0.02061707489892115,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 703.300544383178
+ },
+ {
+  "name": "gsu:MP:satpura tpp:400",
+  "from": 1511,
+  "to": 626,
+  "rPu": 0.00028503387922224776,
+  "xPu": 0.011401355168889911,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1271.7786425569082
+ },
+ {
+  "name": "gsu:MP:vindhyachal:400",
+  "from": 1512,
+  "to": 630,
+  "rPu": 0.0006162499999999998,
+  "xPu": 0.024649999999999995,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 588.2352941176471
+ },
+ {
+  "name": "gsu:MP:vindhyanagar:400",
+  "from": 1513,
+  "to": 631,
+  "rPu": 5.2501459159752216e-05,
+  "xPu": 0.0021000583663900885,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6904.5700024637335
+ },
+ {
+  "name": "gsu:MP:vstps stg4:400",
+  "from": 1514,
+  "to": 632,
+  "rPu": 0.0003081249999999999,
+  "xPu": 0.012324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1176.4705882352941
+ },
+ {
+  "name": "gsu:MP:w195777864:400",
+  "from": 1515,
+  "to": 634,
+  "rPu": 0.015406249999999996,
+  "xPu": 0.6162499999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 23.529411764705884
+ },
+ {
+  "name": "gsu:MZ:w1072445901:400",
+  "from": 1516,
+  "to": 637,
+  "rPu": 0.04164671775559254,
+  "xPu": 1.6658687102237015,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 8.704167327839937
+ },
+ {
+  "name": "gsu:OD:angul:400",
+  "from": 1517,
+  "to": 639,
+  "rPu": 0.0005791823308270676,
+  "xPu": 0.023167293233082704,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 625.8823529411765
+ },
+ {
+  "name": "gsu:OD:balangir:400",
+  "from": 1518,
+  "to": 640,
+  "rPu": 0.011622850076753597,
+  "xPu": 0.46491400307014386,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 31.188563700483577
+ },
+ {
+  "name": "gsu:OD:duburi new:400",
+  "from": 1519,
+  "to": 642,
+  "rPu": 0.012494563832510115,
+  "xPu": 0.4997825533004046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 29.012617395798678
+ },
+ {
+  "name": "gsu:OD:ib valley tps:400",
+  "from": 1520,
+  "to": 645,
+  "rPu": 0.0009026072842037846,
+  "xPu": 0.03610429136815138,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 401.61430817586574
+ },
+ {
+  "name": "gsu:OD:ind bharath tpp:400",
+  "from": 1521,
+  "to": 646,
+  "rPu": 0.0008880728226017274,
+  "xPu": 0.035522912904069094,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 408.1872463319033
+ },
+ {
+  "name": "gsu:OD:indravati:400",
+  "from": 1522,
+  "to": 647,
+  "rPu": 0.0005143421764235004,
+  "xPu": 0.020573687056940015,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 704.7837346737899
+ },
+ {
+  "name": "gsu:OD:jeypore:400",
+  "from": 1523,
+  "to": 648,
+  "rPu": 0.0003266528773263829,
+  "xPu": 0.013066115093055317,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1109.7407222217716
+ },
+ {
+  "name": "gsu:OD:jitpl angul:400",
+  "from": 1524,
+  "to": 650,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:OD:kamalanga thermal power plant:400:w354062422",
+  "from": 1525,
+  "to": 651,
+  "rPu": 0.0004680185918093698,
+  "xPu": 0.018720743672374793,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 774.5418800534553
+ },
+ {
+  "name": "gsu:OD:mendhasal:400",
+  "from": 1526,
+  "to": 655,
+  "rPu": 0.19991302132016184,
+  "xPu": 7.996520852806474,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1.8132885872374174
+ },
+ {
+  "name": "gsu:OD:meramundali:400",
+  "from": 1527,
+  "to": 657,
+  "rPu": 0.012494563832510115,
+  "xPu": 0.4997825533004046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 29.012617395798678
+ },
+ {
+  "name": "gsu:OD:rengali:400",
+  "from": 1528,
+  "to": 660,
+  "rPu": 0.0012344212234164011,
+  "xPu": 0.049376848936656045,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 293.6598894474124
+ },
+ {
+  "name": "gsu:OD:sundargarh:400",
+  "from": 1529,
+  "to": 663,
+  "rPu": 0.0003841957605985037,
+  "xPu": 0.015367830423940148,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 943.5294117647059
+ },
+ {
+  "name": "gsu:OD:talcher:400",
+  "from": 1530,
+  "to": 664,
+  "rPu": 0.00010260290574912637,
+  "xPu": 0.0041041162299650545,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3533.038341880357
+ },
+ {
+  "name": "gsu:OD:w354062405:400",
+  "from": 1531,
+  "to": 666,
+  "rPu": 0.0006318250989426492,
+  "xPu": 0.02527300395770597,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 573.7347259655224
+ },
+ {
+  "name": "gsu:PB:balachak:400",
+  "from": 1532,
+  "to": 668,
+  "rPu": 0.0007020278877140546,
+  "xPu": 0.028081115508562186,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 516.3612533689702
+ },
+ {
+  "name": "gsu:PB:behman jassa singh:400",
+  "from": 1533,
+  "to": 669,
+  "rPu": 0.0003988077120597987,
+  "xPu": 0.015952308482391948,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 908.959353187346
+ },
+ {
+  "name": "gsu:PB:dhuri:400",
+  "from": 1534,
+  "to": 671,
+  "rPu": 0.09032611859314874,
+  "xPu": 3.613044743725949,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4.013235658146566
+ },
+ {
+  "name": "gsu:PB:hmel:400",
+  "from": 1535,
+  "to": 673,
+  "rPu": 0.05657436609392945,
+  "xPu": 2.262974643757178,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 6.4074955678362775
+ },
+ {
+  "name": "gsu:PB:jalandhar:400",
+  "from": 1536,
+  "to": 674,
+  "rPu": 0.001463938606694633,
+  "xPu": 0.058557544267785325,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 247.6196736272116
+ },
+ {
+  "name": "gsu:PB:muktsar:400",
+  "from": 1537,
+  "to": 679,
+  "rPu": 0.004428244254148796,
+  "xPu": 0.17712977016595186,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 81.86088643605777
+ },
+ {
+  "name": "gsu:PB:talwandi sabo:400",
+  "from": 1538,
+  "to": 684,
+  "rPu": 0.00018698521841240725,
+  "xPu": 0.00747940873649629,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1938.655916643016
+ },
+ {
+  "name": "gsu:PB:w1443578575:400",
+  "from": 1539,
+  "to": 685,
+  "rPu": 0.000317133473024912,
+  "xPu": 0.01268533892099648,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1143.0518404202771
+ },
+ {
+  "name": "gsu:PB:w428212210:400",
+  "from": 1540,
+  "to": 686,
+  "rPu": 0.0002707821852611354,
+  "xPu": 0.010831287410445416,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1338.714360586219
+ },
+ {
+  "name": "gsu:RJ:anta:400",
+  "from": 1541,
+  "to": 692,
+  "rPu": 0.0007353818615751788,
+  "xPu": 0.029415274463007155,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 492.94117647058823
+ },
+ {
+  "name": "gsu:RJ:badla 2:400",
+  "from": 1542,
+  "to": 698,
+  "rPu": 0.0014259874680542617,
+  "xPu": 0.05703949872217046,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 254.20980767427483
+ },
+ {
+  "name": "gsu:RJ:badla:400:w300053667",
+  "from": 1543,
+  "to": 699,
+  "rPu": 0.0017817582643461943,
+  "xPu": 0.07127033057384777,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 203.4507190194048
+ },
+ {
+  "name": "gsu:RJ:badla:400:w686891085",
+  "from": 1544,
+  "to": 700,
+  "rPu": 0.0017914520465211934,
+  "xPu": 0.07165808186084774,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 202.34982047325008
+ },
+ {
+  "name": "gsu:RJ:bhilwara:400",
+  "from": 1545,
+  "to": 704,
+  "rPu": 0.030812499999999993,
+  "xPu": 1.2324999999999997,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 11.764705882352942
+ },
+ {
+  "name": "gsu:RJ:bhinmal:400",
+  "from": 1546,
+  "to": 705,
+  "rPu": 0.0006017381894691897,
+  "xPu": 0.024069527578767586,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 602.4214622637986
+ },
+ {
+  "name": "gsu:RJ:bikaner 2:400",
+  "from": 1547,
+  "to": 708,
+  "rPu": 0.001492112832211099,
+  "xPu": 0.05968451328844396,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 242.94409388787744
+ },
+ {
+  "name": "gsu:RJ:bikaner:400:w193910485",
+  "from": 1548,
+  "to": 709,
+  "rPu": 0.0015163802374623583,
+  "xPu": 0.06065520949849433,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 239.05613581896768
+ },
+ {
+  "name": "gsu:RJ:bikaner:400:w654736039",
+  "from": 1549,
+  "to": 710,
+  "rPu": 0.0009853144479798272,
+  "xPu": 0.03941257791919309,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 367.90285653805984
+ },
+ {
+  "name": "gsu:RJ:chhabra thermal power:400",
+  "from": 1550,
+  "to": 711,
+  "rPu": 0.0001634030428299955,
+  "xPu": 0.00653612171319982,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2218.44094040002
+ },
+ {
+  "name": "gsu:RJ:fatehgarh 2:400",
+  "from": 1551,
+  "to": 718,
+  "rPu": 0.0010398094139343588,
+  "xPu": 0.041592376557374355,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 348.6215792453711
+ },
+ {
+  "name": "gsu:RJ:fatehgarh 3:400",
+  "from": 1552,
+  "to": 719,
+  "rPu": 0.004768217874566154,
+  "xPu": 0.19072871498264615,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 76.02421062460003
+ },
+ {
+  "name": "gsu:RJ:gtps:400",
+  "from": 1553,
+  "to": 720,
+  "rPu": 0.001592334712573301,
+  "xPu": 0.06369338850293205,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 227.65314172808544
+ },
+ {
+  "name": "gsu:RJ:kalisindh:400",
+  "from": 1554,
+  "to": 728,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:RJ:kawai:400",
+  "from": 1555,
+  "to": 730,
+  "rPu": 0.0002871932267921133,
+  "xPu": 0.011487729071684532,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1262.2163971241494
+ },
+ {
+  "name": "gsu:RJ:kota:400",
+  "from": 1556,
+  "to": 732,
+  "rPu": 0.00030391256859938875,
+  "xPu": 0.012156502743975551,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1192.7772571914916
+ },
+ {
+  "name": "gsu:RJ:raj west tpp:400",
+  "from": 1557,
+  "to": 737,
+  "rPu": 0.0003510139438570273,
+  "xPu": 0.014040557754281093,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1032.7225067379404
+ },
+ {
+  "name": "gsu:RJ:ramgarh:400",
+  "from": 1558,
+  "to": 738,
+  "rPu": 0.001942589482991458,
+  "xPu": 0.07770357931965832,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 186.6065904165064
+ },
+ {
+  "name": "gsu:RJ:rapp:400:w174528420",
+  "from": 1559,
+  "to": 739,
+  "rPu": 0.0031172253116575786,
+  "xPu": 0.12468901246630314,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 116.28931622117533
+ },
+ {
+  "name": "gsu:RJ:rapp:400:w174528425",
+  "from": 1560,
+  "to": 740,
+  "rPu": 0.00030215525706199785,
+  "xPu": 0.012086210282479914,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1199.7143571975655
+ },
+ {
+  "name": "gsu:RJ:shree cement:400",
+  "from": 1561,
+  "to": 744,
+  "rPu": 0.0008957122093023256,
+  "xPu": 0.03582848837209302,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 404.70588235294116
+ },
+ {
+  "name": "gsu:RJ:suratgarh sctps:400:w193910548",
+  "from": 1562,
+  "to": 747,
+  "rPu": 0.00025273003957705973,
+  "xPu": 0.01010920158308239,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1434.336814913806
+ },
+ {
+  "name": "gsu:SK:dikchu hpp:400",
+  "from": 1563,
+  "to": 757,
+  "rPu": 0.0016060675307155961,
+  "xPu": 0.06424270122862384,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 225.7065740183946
+ },
+ {
+  "name": "gsu:SK:rangpo:400",
+  "from": 1564,
+  "to": 758,
+  "rPu": 0.0002930162361732349,
+  "xPu": 0.011720649446929396,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1237.1328112537947
+ },
+ {
+  "name": "gsu:SK:teesta v:400:w1265809888",
+  "from": 1565,
+  "to": 759,
+  "rPu": 0.0006041666666666666,
+  "xPu": 0.024166666666666663,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 600.0
+ },
+ {
+  "name": "gsu:SK:teesta v:400:w1375582903",
+  "from": 1566,
+  "to": 760,
+  "rPu": 0.0008446282188073606,
+  "xPu": 0.033785128752294426,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 429.1829137698719
+ },
+ {
+  "name": "gsu:SK:w899915749:400",
+  "from": 1567,
+  "to": 761,
+  "rPu": 0.0002571710882117502,
+  "xPu": 0.010286843528470008,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1409.5674693475798
+ },
+ {
+  "name": "gsu:TG:asupaka:400",
+  "from": 1568,
+  "to": 1006,
+  "rPu": 0.0006708810996828268,
+  "xPu": 0.02683524398731307,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 540.3341965832388
+ },
+ {
+  "name": "gsu:TG:choutuppal:400",
+  "from": 1569,
+  "to": 1009,
+  "rPu": 0.011682949246276171,
+  "xPu": 0.46731796985104684,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 31.028124179820722
+ },
+ {
+  "name": "gsu:TG:dichpalli:400",
+  "from": 1570,
+  "to": 1010,
+  "rPu": 0.009248284092698183,
+  "xPu": 0.36993136370792734,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 39.19646026944667
+ },
+ {
+  "name": "gsu:TG:dindi:400",
+  "from": 1571,
+  "to": 1011,
+  "rPu": 0.016253508444650427,
+  "xPu": 0.6501403377860171,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 22.30287702094933
+ },
+ {
+  "name": "gsu:TG:kakatiya tpp:400",
+  "from": 1572,
+  "to": 1016,
+  "rPu": 0.00034463187215053596,
+  "xPu": 0.013785274886021439,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1051.8469976034578
+ },
+ {
+  "name": "gsu:TG:ktps stage vi:400",
+  "from": 1573,
+  "to": 1020,
+  "rPu": 0.00015043454736729745,
+  "xPu": 0.006017381894691898,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2409.685849055194
+ },
+ {
+  "name": "gsu:TG:narsapur:400",
+  "from": 1574,
+  "to": 1027,
+  "rPu": 0.009940162189290346,
+  "xPu": 0.3976064875716138,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 36.46821783155228
+ },
+ {
+  "name": "gsu:TG:nirmal:400",
+  "from": 1575,
+  "to": 1028,
+  "rPu": 0.008572369607058341,
+  "xPu": 0.3428947842823336,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 42.28702408042739
+ },
+ {
+  "name": "gsu:TG:ramagundam:400",
+  "from": 1576,
+  "to": 1031,
+  "rPu": 6.467703599111396e-05,
+  "xPu": 0.0025870814396445584,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 5604.771375883771
+ },
+ {
+  "name": "gsu:TG:shankarpalli:400",
+  "from": 1577,
+  "to": 1033,
+  "rPu": 0.0039167787544241986,
+  "xPu": 0.15667115017696795,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 92.5505428639639
+ },
+ {
+  "name": "gsu:TG:singaneri tpp:400",
+  "from": 1578,
+  "to": 1034,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:TG:srisailam left bank:400",
+  "from": 1579,
+  "to": 1035,
+  "rPu": 0.00018479359631982053,
+  "xPu": 0.007391743852792821,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1961.648061508715
+ },
+ {
+  "name": "gsu:TG:tgtransco damercherla:400",
+  "from": 1580,
+  "to": 1038,
+  "rPu": 0.006172106117082006,
+  "xPu": 0.2468842446832802,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 58.731977889482486
+ },
+ {
+  "name": "gsu:TG:veltoor:400",
+  "from": 1581,
+  "to": 1042,
+  "rPu": 0.000613787650809541,
+  "xPu": 0.02455150603238164,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 590.5951341997334
+ },
+ {
+  "name": "gsu:TN:alundur:400",
+  "from": 1582,
+  "to": 1048,
+  "rPu": 0.0034657579550419204,
+  "xPu": 0.13863031820167682,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 104.59472493531803
+ },
+ {
+  "name": "gsu:TN:anaikadavu:400",
+  "from": 1583,
+  "to": 1049,
+  "rPu": 0.005143421764235005,
+  "xPu": 0.20573687056940018,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 70.47837346737899
+ },
+ {
+  "name": "gsu:TN:coastal:400",
+  "from": 1584,
+  "to": 1052,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:TN:corporation of india ltd:400",
+  "from": 1585,
+  "to": 1053,
+  "rPu": 0.0014512561131709927,
+  "xPu": 0.05805024452683971,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 249.78361621363848
+ },
+ {
+  "name": "gsu:TN:ilfs tpp:400",
+  "from": 1586,
+  "to": 1057,
+  "rPu": 0.0003159125494713246,
+  "xPu": 0.012636501978852984,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1147.469451931045
+ },
+ {
+  "name": "gsu:TN:k r thoppur:400",
+  "from": 1587,
+  "to": 1058,
+  "rPu": 0.01028684352847001,
+  "xPu": 0.41147374113880036,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 35.23918673368949
+ },
+ {
+  "name": "gsu:TN:kalivanthapattu:400",
+  "from": 1588,
+  "to": 1059,
+  "rPu": 0.0002539356297007521,
+  "xPu": 0.010157425188030084,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1427.5271273557967
+ },
+ {
+  "name": "gsu:TN:kamudi:400",
+  "from": 1589,
+  "to": 1060,
+  "rPu": 0.0006556751448791062,
+  "xPu": 0.026227005795164248,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 552.8652455887099
+ },
+ {
+  "name": "gsu:TN:karamadai:400",
+  "from": 1590,
+  "to": 1063,
+  "rPu": 0.00037172404945085555,
+  "xPu": 0.014868961978034221,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 975.1857608769673
+ },
+ {
+  "name": "gsu:TN:kayathar:400",
+  "from": 1591,
+  "to": 1064,
+  "rPu": 0.00187512024155924,
+  "xPu": 0.0750048096623696,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 193.32093588759207
+ },
+ {
+  "name": "gsu:TN:kudankulam nuclear power plant:400:w323661902",
+  "from": 1592,
+  "to": 1065,
+  "rPu": 0.00015406249999999996,
+  "xPu": 0.006162499999999999,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2352.9411764705883
+ },
+ {
+  "name": "gsu:TN:mettur thermal power stage 3:400",
+  "from": 1593,
+  "to": 1068,
+  "rPu": 0.0002001015711490956,
+  "xPu": 0.008004062845963824,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1811.5799786994244
+ },
+ {
+  "name": "gsu:TN:new neyveli thermal power plant:400",
+  "from": 1594,
+  "to": 1071,
+  "rPu": 0.0009788271546110102,
+  "xPu": 0.03915308618444041,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 370.34117647058827
+ },
+ {
+  "name": "gsu:TN:neyveli thermal i expansion:400",
+  "from": 1595,
+  "to": 1072,
+  "rPu": 0.00023429941525249408,
+  "xPu": 0.009371976610099763,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1547.165619723591
+ },
+ {
+  "name": "gsu:TN:neyveli thermal ii:400",
+  "from": 1596,
+  "to": 1073,
+  "rPu": 0.00025788779548679557,
+  "xPu": 0.010315511819471823,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1405.65007861553
+ },
+ {
+  "name": "gsu:TN:neyveli2expansion:400",
+  "from": 1597,
+  "to": 1074,
+  "rPu": 0.00043817690705169507,
+  "xPu": 0.017527076282067802,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 827.2914299366148
+ },
+ {
+  "name": "gsu:TN:ntpl:400",
+  "from": 1598,
+  "to": 1076,
+  "rPu": 0.00016131704653854875,
+  "xPu": 0.00645268186154195,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2247.127676698296
+ },
+ {
+  "name": "gsu:TN:pulianthope:400",
+  "from": 1599,
+  "to": 1082,
+  "rPu": 0.004378920459576578,
+  "xPu": 0.17515681838306313,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 82.78296062839472
+ },
+ {
+  "name": "gsu:TN:thapagundu:400",
+  "from": 1600,
+  "to": 1087,
+  "rPu": 0.0008053770845494662,
+  "xPu": 0.03221508338197865,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 450.0997196894236
+ },
+ {
+  "name": "gsu:TN:thirunelveli:400",
+  "from": 1601,
+  "to": 1090,
+  "rPu": 0.002029881724880598,
+  "xPu": 0.08119526899522393,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 178.58183339293964
+ },
+ {
+  "name": "gsu:TN:tuticorin:400:w510513135",
+  "from": 1602,
+  "to": 1093,
+  "rPu": 0.0001836757009266329,
+  "xPu": 0.007347028037065316,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1973.5871330350676
+ },
+ {
+  "name": "gsu:TN:udumalpet:400",
+  "from": 1603,
+  "to": 1095,
+  "rPu": 0.0007715132646352507,
+  "xPu": 0.030860530585410027,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 469.8558231158599
+ },
+ {
+  "name": "gsu:TN:vallur thermal power:400",
+  "from": 1604,
+  "to": 1096,
+  "rPu": 0.00020541666666666663,
+  "xPu": 0.008216666666666666,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1764.7058823529412
+ },
+ {
+  "name": "gsu:TN:vellalaviduthi:400",
+  "from": 1605,
+  "to": 1098,
+  "rPu": 0.004870879265379954,
+  "xPu": 0.19483517061519817,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 74.42188160492684
+ },
+ {
+  "name": "gsu:TR:palatana ccpp:400",
+  "from": 1606,
+  "to": 1103,
+  "rPu": 0.0003830523594618067,
+  "xPu": 0.015322094378472269,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 946.3458220419708
+ },
+ {
+  "name": "gsu:TR:surjamani nagar:400",
+  "from": 1607,
+  "to": 1105,
+  "rPu": 0.0021894602297882894,
+  "xPu": 0.08757840919153158,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 165.5659212567894
+ },
+ {
+  "name": "gsu:UK:bagarihat:400",
+  "from": 1608,
+  "to": 1106,
+  "rPu": 0.0005506517248167758,
+  "xPu": 0.02202606899267103,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 658.3108408869844
+ },
+ {
+  "name": "gsu:UK:kashipur:400",
+  "from": 1609,
+  "to": 1107,
+  "rPu": 0.0009347681795924271,
+  "xPu": 0.037390727183697084,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 387.7966836205907
+ },
+ {
+  "name": "gsu:UK:koteshwar:400",
+  "from": 1610,
+  "to": 1109,
+  "rPu": 0.0007703124999999998,
+  "xPu": 0.030812499999999993,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 470.5882352941177
+ },
+ {
+  "name": "gsu:UK:rishikesh:400",
+  "from": 1611,
+  "to": 1110,
+  "rPu": 0.0021430924017645852,
+  "xPu": 0.0857236960705834,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 169.14809632170957
+ },
+ {
+  "name": "gsu:UK:roorkee:400",
+  "from": 1612,
+  "to": 1111,
+  "rPu": 0.0032715955255521283,
+  "xPu": 0.13086382102208513,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 110.8022055809674
+ },
+ {
+  "name": "gsu:UK:sherpur:400",
+  "from": 1613,
+  "to": 1112,
+  "rPu": 0.0005066162781812366,
+  "xPu": 0.020264651127249463,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 715.5316866275651
+ },
+ {
+  "name": "gsu:UK:srinagar:400:w377052270",
+  "from": 1614,
+  "to": 1113,
+  "rPu": 0.0009351675934972734,
+  "xPu": 0.03740670373989094,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 387.6310540705844
+ },
+ {
+  "name": "gsu:UK:tehri hpp:400",
+  "from": 1615,
+  "to": 1115,
+  "rPu": 0.00022113386080224788,
+  "xPu": 0.008845354432089916,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1639.278574004416
+ },
+ {
+  "name": "gsu:UK:vishnu prayag:400",
+  "from": 1616,
+  "to": 1116,
+  "rPu": 0.0007715132646352507,
+  "xPu": 0.030860530585410027,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 469.8558231158599
+ },
+ {
+  "name": "gsu:UP:aligarh:400",
+  "from": 1617,
+  "to": 1121,
+  "rPu": 0.0006617804982817869,
+  "xPu": 0.026471219931271474,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 547.7647058823529
+ },
+ {
+  "name": "gsu:UP:anpara tps:400",
+  "from": 1618,
+  "to": 1122,
+  "rPu": 0.0001441426081237983,
+  "xPu": 0.005765704324951932,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2514.87054881554
+ },
+ {
+  "name": "gsu:UP:auraiya:400",
+  "from": 1619,
+  "to": 1124,
+  "rPu": 0.0003984764472276266,
+  "xPu": 0.015939057889105063,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 909.7149970144275
+ },
+ {
+  "name": "gsu:UP:banda:400",
+  "from": 1620,
+  "to": 1129,
+  "rPu": 0.0023187420128619332,
+  "xPu": 0.09274968051447732,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 156.33477031477958
+ },
+ {
+  "name": "gsu:UP:bhaukhari:400",
+  "from": 1621,
+  "to": 1133,
+  "rPu": 0.004212167326284328,
+  "xPu": 0.16848669305137312,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 86.06020889482836
+ },
+ {
+  "name": "gsu:UP:dadri static inverter plant:400",
+  "from": 1622,
+  "to": 1134,
+  "rPu": 0.00011627358490566035,
+  "xPu": 0.004650943396226414,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3117.6470588235297
+ },
+ {
+  "name": "gsu:UP:harduaganj tps:400",
+  "from": 1623,
+  "to": 1146,
+  "rPu": 0.0006266034039100654,
+  "xPu": 0.025064136156402617,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 578.5158486819017
+ },
+ {
+  "name": "gsu:UP:meja thermal power:400",
+  "from": 1624,
+  "to": 1166,
+  "rPu": 0.00023342803030303026,
+  "xPu": 0.00933712121212121,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1552.9411764705883
+ },
+ {
+  "name": "gsu:UP:obra tps:400",
+  "from": 1625,
+  "to": 1176,
+  "rPu": 0.00031185506046278494,
+  "xPu": 0.012474202418511398,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1162.398966564978
+ },
+ {
+  "name": "gsu:UP:orai:400:w311901147",
+  "from": 1626,
+  "to": 1177,
+  "rPu": 0.0016068882149133192,
+  "xPu": 0.06427552859653277,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 225.59129915552612
+ },
+ {
+  "name": "gsu:UP:parichha:400",
+  "from": 1627,
+  "to": 1180,
+  "rPu": 0.00031556046943838573,
+  "xPu": 0.012622418777535428,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1148.7497171149296
+ },
+ {
+  "name": "gsu:UP:rewa road:400",
+  "from": 1628,
+  "to": 1185,
+  "rPu": 0.006427552859653278,
+  "xPu": 0.2571021143861311,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 56.39782478888152
+ },
+ {
+  "name": "gsu:UP:rihand stps:400",
+  "from": 1629,
+  "to": 1187,
+  "rPu": 0.00010270833333333331,
+  "xPu": 0.004108333333333333,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3529.4117647058824
+ },
+ {
+  "name": "gsu:UP:rosa:400",
+  "from": 1630,
+  "to": 1188,
+  "rPu": 0.0004212167326284329,
+  "xPu": 0.016848669305137315,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 860.6020889482836
+ },
+ {
+  "name": "gsu:UP:sambhal:400",
+  "from": 1631,
+  "to": 1190,
+  "rPu": 0.00043191174469243325,
+  "xPu": 0.01727646978769733,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 839.2918332381496
+ },
+ {
+  "name": "gsu:UP:shahjahanpur:400",
+  "from": 1632,
+  "to": 1193,
+  "rPu": 0.0008257377131014329,
+  "xPu": 0.03302950852405732,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 439.0013853654166
+ },
+ {
+  "name": "gsu:UP:singrauli stps:400",
+  "from": 1633,
+  "to": 1196,
+  "rPu": 0.00015344870517928284,
+  "xPu": 0.006137948207171314,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2362.3529411764707
+ },
+ {
+  "name": "gsu:UP:sohawal:400",
+  "from": 1634,
+  "to": 1197,
+  "rPu": 0.004212167326284328,
+  "xPu": 0.16848669305137312,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 86.06020889482836
+ },
+ {
+  "name": "gsu:UP:tanda tpp:400",
+  "from": 1635,
+  "to": 1199,
+  "rPu": 0.000725989984681938,
+  "xPu": 0.02903959938727752,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 499.3181829620062
+ },
+ {
+  "name": "gsu:UP:unchahar tps:400",
+  "from": 1636,
+  "to": 1200,
+  "rPu": 0.00019835139303055554,
+  "xPu": 0.007934055721222221,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1827.56467933733
+ },
+ {
+  "name": "gsu:UP:w196933682:400",
+  "from": 1637,
+  "to": 1204,
+  "rPu": 0.0010286843528470007,
+  "xPu": 0.04114737411388003,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 352.39186733689496
+ },
+ {
+  "name": "gsu:WB:bakreshwar tps:400",
+  "from": 1638,
+  "to": 1209,
+  "rPu": 0.00036104291368151386,
+  "xPu": 0.014441716547260555,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1004.0357704396642
+ },
+ {
+  "name": "gsu:WB:binaguri:400",
+  "from": 1639,
+  "to": 1211,
+  "rPu": 0.004015379225261525,
+  "xPu": 0.160615169010461,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 90.27789896392414
+ },
+ {
+  "name": "gsu:WB:chanditala new:400",
+  "from": 1640,
+  "to": 1212,
+  "rPu": 0.0003369733861027463,
+  "xPu": 0.013478935444109852,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1075.7526111853545
+ },
+ {
+  "name": "gsu:WB:durgapur projects limited power:400",
+  "from": 1641,
+  "to": 1213,
+  "rPu": 0.0005694286142915707,
+  "xPu": 0.022777144571662827,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 636.6030629686361
+ },
+ {
+  "name": "gsu:WB:durgapur steel tps:400",
+  "from": 1642,
+  "to": 1214,
+  "rPu": 0.00016108661231920696,
+  "xPu": 0.006443464492768279,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2250.3421903346944
+ },
+ {
+  "name": "gsu:WB:farakka stpp:400",
+  "from": 1643,
+  "to": 1215,
+  "rPu": 0.00014672619047619045,
+  "xPu": 0.0058690476190476175,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 2470.588235294118
+ },
+ {
+  "name": "gsu:WB:haldia tpp:400",
+  "from": 1644,
+  "to": 1217,
+  "rPu": 0.0007581901187311791,
+  "xPu": 0.030327604749247165,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 478.11227163793535
+ },
+ {
+  "name": "gsu:WB:kharagpur:400",
+  "from": 1645,
+  "to": 1219,
+  "rPu": 0.012935429541750743,
+  "xPu": 0.5174171816700297,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 28.023808473463145
+ },
+ {
+  "name": "gsu:WB:kolaghat tps:400",
+  "from": 1646,
+  "to": 1220,
+  "rPu": 0.00030086909473459484,
+  "xPu": 0.012034763789383793,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1204.8429245275972
+ },
+ {
+  "name": "gsu:WB:maithon:400",
+  "from": 1647,
+  "to": 1221,
+  "rPu": 0.0002932513247879552,
+  "xPu": 0.011730052991518209,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1236.1410481678718
+ },
+ {
+  "name": "gsu:WB:mejia tps:400",
+  "from": 1648,
+  "to": 1224,
+  "rPu": 8.560045159889717e-05,
+  "xPu": 0.003424018063955887,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 4234.790742677229
+ },
+ {
+  "name": "gsu:WB:purulia pumped storage project:400",
+  "from": 1649,
+  "to": 1228,
+  "rPu": 0.00034289478428233363,
+  "xPu": 0.013715791371293345,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1057.1756020106848
+ },
+ {
+  "name": "gsu:WB:raghunathpur tps:400",
+  "from": 1650,
+  "to": 1229,
+  "rPu": 0.00019594463970454916,
+  "xPu": 0.007837785588181967,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1850.0123328027123
+ },
+ {
+  "name": "gsu:WB:sagardighi tps:400",
+  "from": 1651,
+  "to": 1231,
+  "rPu": 0.00023693441210349348,
+  "xPu": 0.00947737648413974,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1529.959269241393
+ },
+ {
+  "name": "gsu:WB:subhasgram:400",
+  "from": 1652,
+  "to": 1232,
+  "rPu": 0.0007703124999999998,
+  "xPu": 0.030812499999999993,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 470.5882352941177
+ },
+ {
+  "name": "ict:w247861059:765/400:mundka section",
+  "from": 24,
+  "to": 1657,
+  "rPu": 0.00023333333333333336,
+  "xPu": 0.004666666666666667,
+  "tapRatio": 0.9875,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 3000.0
+ },
+ {
+  "name": "inferred feed 2 (unit 1)",
+  "from": 12,
+  "to": 277,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "inferred feed 2 (unit 2)",
+  "from": 12,
+  "to": 277,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ },
+ {
+  "name": "inferred feed 3 (unit 1)",
+  "from": 7,
+  "to": 241,
+  "rPu": 0.0004666666666666667,
+  "xPu": 0.009333333333333334,
+  "tapRatio": 1.0,
+  "phaseShiftDeg": 0.0,
+  "ratingMva": 1500.0
+ }
+]

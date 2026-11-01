@@ -1,0 +1,464 @@
+[
+ {
+  "name": "OSM way/131339683 400kV",
+  "bus": 1,
+  "pMw": 52.551,
+  "qMvar": 0.0
+ },
+ {
+  "name": "Glentegard transformerstation 400kV",
+  "bus": 6,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "KFB 150kV",
+  "bus": 16,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Kastrup koblingsstation 132kV",
+  "bus": 17,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Amagervaerkets Koblingsstation 132kV",
+  "bus": 73,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Bellahoj Koblingsstation 132kV",
+  "bus": 74,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Transformerplatform Nysted Havmollepark 132kV",
+  "bus": 75,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Vestlolland 132kV",
+  "bus": 76,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Radsted 132kV",
+  "bus": 77,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Eskilstrup 132kV",
+  "bus": 78,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "Svanemollen Koblingsstation 132kV",
+  "bus": 79,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "132/50 kV Teglstrupgard 132kV",
+  "bus": 80,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132kV Masnedo 132kV",
+  "bus": 81,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Idestrup 132kV",
+  "bus": 82,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Orehoved 132kV",
+  "bus": 83,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Blangslev 132kV",
+  "bus": 84,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132/50/10 kV Fensmark 132kV",
+  "bus": 85,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132/50 kV Naestved 132kV",
+  "bus": 86,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132/50 kV Osterholm 132kV",
+  "bus": 87,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Stigsnaesvaerket 132kV",
+  "bus": 88,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Hejninge 132kV",
+  "bus": 89,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132/50 kV Nyrup 132kV",
+  "bus": 90,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Ringsted 132kV",
+  "bus": 91,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Herlufsmagle 132kV",
+  "bus": 92,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Norre Asmindrup 132kV",
+  "bus": 93,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Kirkeskovgard 132kV",
+  "bus": 94,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132kV Ostedgard 132kV",
+  "bus": 95,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132 kV Jersie 132kV",
+  "bus": 96,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "Brondbygard 132kV",
+  "bus": 97,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Gorlosegard 132kV",
+  "bus": 98,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "OSM way/133082317 132kV",
+  "bus": 99,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Frederiksvaerk Syd 132kV",
+  "bus": 100,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Sperrestrupgard transformerstation 132kV",
+  "bus": 101,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132 kV Kyndbyvaerket 132kV",
+  "bus": 102,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132 kV Lyngerup 132kV",
+  "bus": 103,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132 kV Rodby 132kV",
+  "bus": 104,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "Vigerslev koblingsstation 132kV",
+  "bus": 105,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Dyregard transformerstation 132kV",
+  "bus": 106,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "OSM way/1568739627 132kV",
+  "bus": 107,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Herstedgard transformerstation 132kV",
+  "bus": 108,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "132 kV Karlstrup 132kV",
+  "bus": 109,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132kV Statoil Syd 132kV",
+  "bus": 110,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Sostremosegard 132kV",
+  "bus": 111,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132/50kV Kalundborg 132kV",
+  "bus": 112,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Rendsborgparken 132kV",
+  "bus": 113,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Hedegard 132kV",
+  "bus": 114,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132/50 kV Skibbygard 132kV",
+  "bus": 115,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Avedorevaerket Koblingsstation 132kV",
+  "bus": 116,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Glentegard transformerstation 132kV",
+  "bus": 117,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "132kV Ejbygard 132kV",
+  "bus": 118,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Vejlea transformerstation 132kV",
+  "bus": 119,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "400/132 kV Hovegard 132kV",
+  "bus": 120,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132/50 kV Valsevaerket 132kV",
+  "bus": 121,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132kV Flaskegard 132kV",
+  "bus": 122,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "400/132 kV Ishoj 132kV",
+  "bus": 123,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Bjaeverskov HVDC Kontek 132kV",
+  "bus": 124,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132 kV Spanager 132kV",
+  "bus": 125,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132/50 kV Kamstrup 132kV",
+  "bus": 126,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "Stasevang transformerstation 132kV",
+  "bus": 127,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Transformerstation Allerodgard 132kV",
+  "bus": 128,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "132/50 kV Borup 132kV",
+  "bus": 129,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Olstykkegard transformerstation 132kV",
+  "bus": 130,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Transformerstation Gronnegard 132kV",
+  "bus": 131,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Hareskovgard transformerstation 132kV",
+  "bus": 132,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "Vindingegard transformerstation 132kV",
+  "bus": 133,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "132kV Mosedegard 132kV",
+  "bus": 134,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "Malovgard transformerstation 132kV",
+  "bus": 135,
+  "pMw": 30.553543733839426,
+  "qMvar": 7.657439867417044
+ },
+ {
+  "name": "Amager koblingsstation 132kV",
+  "bus": 136,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Nymollegard transformerstation 132kV",
+  "bus": 137,
+  "pMw": 22.738981489942585,
+  "qMvar": 5.698925955115844
+ },
+ {
+  "name": "Lindevang transformerstation 132kV",
+  "bus": 138,
+  "pMw": 98.98966328272999,
+  "qMvar": 24.809148185447256
+ },
+ {
+  "name": "Bagsvaerdgard transformerstation 132kV",
+  "bus": 139,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ },
+ {
+  "name": "OSM way/516107851 132kV",
+  "bus": 140,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Asnaesvaerket 132kV",
+  "bus": 141,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132kV Torslunde 132kV",
+  "bus": 142,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Rislev 132kV",
+  "bus": 143,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "132 kV Haslev 132kV",
+  "bus": 144,
+  "pMw": 21.143578198252648,
+  "qMvar": 5.299080199847058
+ },
+ {
+  "name": "Ballerupgard transformerstation 132kV",
+  "bus": 145,
+  "pMw": 36.75470601655856,
+  "qMvar": 9.211597633916142
+ }
+]
