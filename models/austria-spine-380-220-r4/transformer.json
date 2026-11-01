@@ -1,0 +1,842 @@
+[
+  {
+    "name": "jao:14T-38220-EH0425:0",
+    "from": 5,
+    "to": 63,
+    "rPu": 0.00013725,
+    "xPu": 0.009920624999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-38220-EH0417:1",
+    "from": 5,
+    "to": 63,
+    "rPu": 0.00013725,
+    "xPu": 0.00986625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-38220-LI041Y:2",
+    "from": 13,
+    "to": 70,
+    "rPu": 0.00013725,
+    "xPu": 0.009645625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "jao:14T-38220-LI042W:3",
+    "from": 13,
+    "to": 70,
+    "rPu": 0.00013725,
+    "xPu": 0.009645625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "jao:14T-38220-OS0413:4",
+    "from": 17,
+    "to": 73,
+    "rPu": 0.00013725,
+    "xPu": 0.009645625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-RHU43-OS---K:5",
+    "from": 17,
+    "to": 73,
+    "rPu": 0.0001108125,
+    "xPu": 0.009755625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1060.7079145551804
+  },
+  {
+    "name": "jao:14T-38220-OS0421:6",
+    "from": 17,
+    "to": 73,
+    "rPu": 0.00013725,
+    "xPu": 0.009645625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-38220-SP041V:7",
+    "from": 48,
+    "to": 121,
+    "rPu": 0.00012137500000000001,
+    "xPu": 0.009436875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.6546009603151
+  },
+  {
+    "name": "jao:14T-38220-SP042T:8",
+    "from": 48,
+    "to": 121,
+    "rPu": 0.00012137500000000001,
+    "xPu": 0.009436875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.6546009603151
+  },
+  {
+    "name": "jao:14T-38220-SP043R:9",
+    "from": 48,
+    "to": 121,
+    "rPu": 0.00012137500000000001,
+    "xPu": 0.009436875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.6546009603151
+  },
+  {
+    "name": "jao:14T-38220-WT041O:10",
+    "from": 53,
+    "to": 127,
+    "rPu": 0.0001866875,
+    "xPu": 0.013500624999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 999.7397261287559
+  },
+  {
+    "name": "jao:14T-38221-SO041S:11",
+    "from": 54,
+    "to": 128,
+    "rPu": 0.00013725,
+    "xPu": 0.00986625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-38220-SO042Y:12",
+    "from": 54,
+    "to": 128,
+    "rPu": 0.00013725,
+    "xPu": 0.00986625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.028422630869
+  },
+  {
+    "name": "jao:14T-38220-ZZ041D:13",
+    "from": 56,
+    "to": 132,
+    "rPu": 0.00014106250000000002,
+    "xPu": 0.012335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1199.964799483718
+  },
+  {
+    "name": "jao:14T-38220-ZZ042B:14",
+    "from": 56,
+    "to": 132,
+    "rPu": 0.00014106250000000002,
+    "xPu": 0.012335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1199.964799483718
+  },
+  {
+    "name": "jao:14T-38220-RHU41V:15",
+    "from": 55,
+    "to": 131,
+    "rPu": 0.0001108625,
+    "xPu": 0.009755625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.6546009603151
+  },
+  {
+    "name": "jao:14T-38220-LI043U:16",
+    "from": 13,
+    "to": 70,
+    "rPu": 0.00013725,
+    "xPu": 0.009645625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:bisamberg~bisamberg",
+    "from": 1,
+    "to": 60,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:duernrohr~duernrohr",
+    "from": 4,
+    "to": 62,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:kledering~kledering",
+    "from": 10,
+    "to": 69,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:osm way/291703253~osm way/291703253",
+    "from": 39,
+    "to": 108,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:pongau~pongau",
+    "from": 41,
+    "to": 113,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "synth:coupling:salzburg~salzburg",
+    "from": 44,
+    "to": 115,
+    "rPu": 0.00013361717063068413,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1076.6427819848143
+  },
+  {
+    "name": "equiv:CZ:AT:slavetice [CZ]:hv~AT:sokolnice [CZ]:220",
+    "from": 47,
+    "to": 120,
+    "rPu": 0.0007018044460790462,
+    "xPu": 0.011354993737006238,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:DE:AT:buers [DE]:hv~AT:voehringen [DE]:220",
+    "from": 2,
+    "to": 124,
+    "rPu": 0.006136233756555307,
+    "xPu": 0.07619626892360207,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:DE:AT:leupolz [DE]:hv~AT:voehringen [DE]:220",
+    "from": 12,
+    "to": 124,
+    "rPu": 0.0012118664240154907,
+    "xPu": 0.019993378837340887,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:DE:AT:buers [DE]:hv~AT:buers [DE]:220",
+    "from": 2,
+    "to": 61,
+    "rPu": 0.00024145097329472323,
+    "xPu": 0.00965803893178893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:AT:maribor [SI]:hv~AT:podlog [SI]:220",
+    "from": 14,
+    "to": 112,
+    "rPu": 0.0013056420368782197,
+    "xPu": 0.018356336746473086,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:AT:dreibein mellach:hv",
+    "from": 134,
+    "to": 3,
+    "rPu": 0.0037194362436950568,
+    "xPu": 0.07438872487390114,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 268.8579490225526
+  },
+  {
+    "name": "gsu:AT:duernrohr:hv",
+    "from": 135,
+    "to": 4,
+    "rPu": 0.000939405487804878,
+    "xPu": 0.03757621951219512,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 385.88235294117646
+  },
+  {
+    "name": "emb:AT:etzersdorf:hv",
+    "from": 136,
+    "to": 6,
+    "rPu": 0.007648316275725367,
+    "xPu": 0.15296632551450734,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 130.74773112794162
+  },
+  {
+    "name": "gsu:AT:etzersdorf:hv",
+    "from": 137,
+    "to": 6,
+    "rPu": 0.0006353092783505153,
+    "xPu": 0.025412371134020614,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 570.5882352941177
+  },
+  {
+    "name": "emb:AT:kainachtal:hv",
+    "from": 138,
+    "to": 8,
+    "rPu": 0.002335687244073777,
+    "xPu": 0.04671374488147555,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 428.13951334334257
+  },
+  {
+    "name": "gsu:AT:kainachtal:hv",
+    "from": 139,
+    "to": 8,
+    "rPu": 0.0002842481549815498,
+    "xPu": 0.011369926199261991,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1275.2941176470588
+  },
+  {
+    "name": "emb:AT:kaprun:hv",
+    "from": 140,
+    "to": 9,
+    "rPu": 0.0015576509876915182,
+    "xPu": 0.031153019753830367,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 641.9923384005473
+  },
+  {
+    "name": "gsu:AT:kaprun:hv",
+    "from": 141,
+    "to": 9,
+    "rPu": 0.000252561475409836,
+    "xPu": 0.01010245901639344,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1435.294117647059
+  },
+  {
+    "name": "gsu:AT:kledering:hv",
+    "from": 142,
+    "to": 10,
+    "rPu": 0.00026112288135593216,
+    "xPu": 0.010444915254237287,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1388.235294117647
+  },
+  {
+    "name": "emb:AT:kronstorf:hv",
+    "from": 143,
+    "to": 11,
+    "rPu": 0.0035065722132377533,
+    "xPu": 0.07013144426475507,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 285.17878406293005
+  },
+  {
+    "name": "gsu:AT:lienz:hv",
+    "from": 144,
+    "to": 13,
+    "rPu": 0.00025091612377850156,
+    "xPu": 0.010036644951140063,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1444.7058823529412
+  },
+  {
+    "name": "emb:AT:matrei:hv",
+    "from": 145,
+    "to": 15,
+    "rPu": 0.03011256505381645,
+    "xPu": 0.602251301076329,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 33.208728589305636
+  },
+  {
+    "name": "emb:AT:nauders:hv",
+    "from": 146,
+    "to": 16,
+    "rPu": 0.0009591307214996674,
+    "xPu": 0.019182614429993347,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1042.6107490712327
+  },
+  {
+    "name": "gsu:AT:nauders:hv",
+    "from": 147,
+    "to": 16,
+    "rPu": 0.00018008474576271184,
+    "xPu": 0.007203389830508474,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2012.9411764705883
+  },
+  {
+    "name": "emb:AT:oststeiermark:hv",
+    "from": 148,
+    "to": 40,
+    "rPu": 0.014421785635141396,
+    "xPu": 0.2884357127028279,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 69.3395412537066
+  },
+  {
+    "name": "gsu:AT:pongau:hv",
+    "from": 149,
+    "to": 41,
+    "rPu": 0.00042208904109589037,
+    "xPu": 0.016883561643835615,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 858.8235294117648
+  },
+  {
+    "name": "emb:AT:saint peter:hv",
+    "from": 150,
+    "to": 43,
+    "rPu": 0.041248410627144086,
+    "xPu": 0.8249682125428817,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 24.243358345107637
+  },
+  {
+    "name": "emb:AT:sarasdorf:hv",
+    "from": 151,
+    "to": 45,
+    "rPu": 0.001907690231751881,
+    "xPu": 0.03815380463503762,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 524.194118812295
+  },
+  {
+    "name": "emb:AT:schwarzenbach:hv",
+    "from": 152,
+    "to": 46,
+    "rPu": 0.0034658320664725253,
+    "xPu": 0.0693166413294505,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 288.53100231650455
+  },
+  {
+    "name": "emb:AT:suedburgenland:hv",
+    "from": 153,
+    "to": 49,
+    "rPu": 0.01201335391672852,
+    "xPu": 0.24026707833457042,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 83.24070088433058
+  },
+  {
+    "name": "emb:AT:tauern:hv",
+    "from": 154,
+    "to": 51,
+    "rPu": 0.02525790379076494,
+    "xPu": 0.5051580758152988,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 39.59156738753715
+  },
+  {
+    "name": "emb:AT:wagenham:hv",
+    "from": 155,
+    "to": 52,
+    "rPu": 1.5569810409837443,
+    "xPu": 31.13962081967489,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.6422685785359158
+  },
+  {
+    "name": "gsu:AT:westtirol:hv",
+    "from": 156,
+    "to": 53,
+    "rPu": 0.0003140927624872579,
+    "xPu": 0.012563710499490316,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1154.1176470588234
+  },
+  {
+    "name": "gsu:AT:zell am ziller:hv",
+    "from": 157,
+    "to": 56,
+    "rPu": 0.0008559027777777777,
+    "xPu": 0.034236111111111106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 423.5294117647059
+  },
+  {
+    "name": "emb:AT:zurndorf:hv",
+    "from": 158,
+    "to": 57,
+    "rPu": 0.0009716550590369562,
+    "xPu": 0.019433101180739123,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1029.171814317663
+  },
+  {
+    "name": "emb:AT:bisamberg:220",
+    "from": 159,
+    "to": 60,
+    "rPu": 0.0015904525600219366,
+    "xPu": 0.03180905120043873,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 628.7518566326853
+  },
+  {
+    "name": "emb:AT:duernrohr:220",
+    "from": 160,
+    "to": 62,
+    "rPu": 0.011520267489870227,
+    "xPu": 0.23040534979740454,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 86.80354001148847
+  },
+  {
+    "name": "emb:AT:ernsthofen:220",
+    "from": 161,
+    "to": 63,
+    "rPu": 0.003352805966515643,
+    "xPu": 0.06705611933031286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 298.2576415059402
+  },
+  {
+    "name": "emb:AT:hausruck:220",
+    "from": 162,
+    "to": 65,
+    "rPu": 0.018785734285422025,
+    "xPu": 0.37571468570844047,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 53.231882491599656
+  },
+  {
+    "name": "emb:AT:hessenberg:220",
+    "from": 163,
+    "to": 66,
+    "rPu": 0.002249870574056552,
+    "xPu": 0.04499741148113104,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 444.47001153358985
+  },
+  {
+    "name": "emb:AT:jochenstein:220",
+    "from": 164,
+    "to": 67,
+    "rPu": 0.001791976351166859,
+    "xPu": 0.03583952702333718,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 558.0430787207891
+  },
+  {
+    "name": "emb:AT:klaus:220",
+    "from": 165,
+    "to": 68,
+    "rPu": 0.009378740978665099,
+    "xPu": 0.18757481957330197,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 106.6241196206202
+  },
+  {
+    "name": "emb:AT:kledering:220",
+    "from": 166,
+    "to": 69,
+    "rPu": 0.002500239594581755,
+    "xPu": 0.0500047918916351,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.9616685405232
+  },
+  {
+    "name": "emb:AT:lienz:220",
+    "from": 167,
+    "to": 70,
+    "rPu": 0.00102601070672723,
+    "xPu": 0.0205202141345446,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 974.6486985401946
+  },
+  {
+    "name": "emb:AT:mayrhofen:220",
+    "from": 168,
+    "to": 71,
+    "rPu": 0.003131912067176161,
+    "xPu": 0.06263824134352322,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 319.29376641204175
+  },
+  {
+    "name": "gsu:AT:mayrhofen:220",
+    "from": 169,
+    "to": 71,
+    "rPu": 0.0008679577464788731,
+    "xPu": 0.034718309859154924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 417.64705882352945
+  },
+  {
+    "name": "emb:AT:neusiedl:220",
+    "from": 170,
+    "to": 72,
+    "rPu": 0.003561114967202341,
+    "xPu": 0.07122229934404682,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 280.81092837775276
+  },
+  {
+    "name": "emb:AT:obersielach:220",
+    "from": 171,
+    "to": 73,
+    "rPu": 0.0010612476901382497,
+    "xPu": 0.021224953802764995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 942.2870921582208
+  },
+  {
+    "name": "emb:AT:phyrn:220",
+    "from": 172,
+    "to": 109,
+    "rPu": 1.8208670384392491,
+    "xPu": 36.41734076878498,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.5491889187346415
+  },
+  {
+    "name": "emb:AT:pongau:220",
+    "from": 173,
+    "to": 113,
+    "rPu": 0.0012069071976235036,
+    "xPu": 0.024138143952470072,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 828.5641199000881
+  },
+  {
+    "name": "emb:AT:salzach:220",
+    "from": 174,
+    "to": 114,
+    "rPu": 0.014528987346699346,
+    "xPu": 0.2905797469339869,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 68.82792146055363
+  },
+  {
+    "name": "emb:AT:salzburg:220",
+    "from": 175,
+    "to": 115,
+    "rPu": 0.010515560139158515,
+    "xPu": 0.2103112027831703,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 95.0971690301248
+  },
+  {
+    "name": "emb:AT:sattledt:220",
+    "from": 176,
+    "to": 116,
+    "rPu": 0.0026466490515685386,
+    "xPu": 0.05293298103137077,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 377.8362678676076
+  },
+  {
+    "name": "emb:AT:schaerding:220",
+    "from": 177,
+    "to": 117,
+    "rPu": 0.003012811483005942,
+    "xPu": 0.060256229660118836,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 331.9158884120689
+  },
+  {
+    "name": "emb:AT:st. peter:220",
+    "from": 178,
+    "to": 121,
+    "rPu": 0.0048463904387435666,
+    "xPu": 0.09692780877487132,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 206.33913272972936
+  },
+  {
+    "name": "emb:AT:sw weibern:220",
+    "from": 179,
+    "to": 122,
+    "rPu": 0.02624008364598135,
+    "xPu": 0.524801672919627,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 38.109634614413636
+  },
+  {
+    "name": "gsu:AT:sw weibern:220",
+    "from": 180,
+    "to": 122,
+    "rPu": 0.0007608024691358023,
+    "xPu": 0.030432098765432094,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 476.47058823529414
+  },
+  {
+    "name": "emb:AT:ternitz:220",
+    "from": 181,
+    "to": 123,
+    "rPu": 0.003995965259828468,
+    "xPu": 0.07991930519656937,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 250.25242587892924
+  },
+  {
+    "name": "emb:AT:wallsee:220",
+    "from": 182,
+    "to": 125,
+    "rPu": 0.003241587855975063,
+    "xPu": 0.06483175711950126,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 308.49079044911525
+  },
+  {
+    "name": "emb:AT:weissenbach:220",
+    "from": 183,
+    "to": 126,
+    "rPu": 0.006618047870834374,
+    "xPu": 0.1323609574166875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 151.10195929633315
+  },
+  {
+    "name": "emb:AT:westtirol:220",
+    "from": 184,
+    "to": 127,
+    "rPu": 0.0017587111336566205,
+    "xPu": 0.03517422267313241,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 568.598208576102
+  },
+  {
+    "name": "emb:AT:wien suedost:220",
+    "from": 185,
+    "to": 128,
+    "rPu": 0.005417716710232777,
+    "xPu": 0.10835433420465553,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 184.57960308467923
+  },
+  {
+    "name": "emb:AT:ybbsfeld:220",
+    "from": 186,
+    "to": 130,
+    "rPu": 0.0017109599183488537,
+    "xPu": 0.03421919836697707,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 584.4672275929414
+  },
+  {
+    "name": "emb:AT:zaya:220",
+    "from": 187,
+    "to": 131,
+    "rPu": 0.0012694143607421152,
+    "xPu": 0.025388287214842303,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 787.7648393826172
+  },
+  {
+    "name": "emb:AT:zell am ziller:220",
+    "from": 188,
+    "to": 132,
+    "rPu": 0.002180346219114464,
+    "xPu": 0.04360692438228928,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 458.6427564729351
+  },
+  {
+    "name": "emb:AT:zeltweg:220",
+    "from": 189,
+    "to": 133,
+    "rPu": 0.006059071437523826,
+    "xPu": 0.12118142875047652,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 165.04179069535317
+  }
+]

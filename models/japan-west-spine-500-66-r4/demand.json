@@ -1,0 +1,3140 @@
+[
+  {
+    "name": "Anan Static Inverter Plant 500kV",
+    "bus": 77,
+    "pMw": 450.94736842105266,
+    "qMvar": 0.0
+  },
+  {
+    "name": "New Kobe Substation 275kV",
+    "bus": 153,
+    "pMw": 302.3162698992366,
+    "qMvar": 61.387936853607094
+  },
+  {
+    "name": "Itami Substation 275kV",
+    "bus": 155,
+    "pMw": 313.2341328492358,
+    "qMvar": 63.604903481219544
+  },
+  {
+    "name": "Nishioosaka SS 275kV",
+    "bus": 157,
+    "pMw": 46.75701276189983,
+    "qMvar": 9.494416386678418
+  },
+  {
+    "name": "North Osaka Substation 275kV",
+    "bus": 158,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Shinneyagawa SS 275kV",
+    "bus": 161,
+    "pMw": 289.55011982826636,
+    "qMvar": 58.79565951874318
+  },
+  {
+    "name": "Kainanminato SS 275kV",
+    "bus": 162,
+    "pMw": 162.86547285089097,
+    "qMvar": 33.07124478062568
+  },
+  {
+    "name": "Tanakawa SS 275kV",
+    "bus": 164,
+    "pMw": 162.86547285089097,
+    "qMvar": 33.07124478062568
+  },
+  {
+    "name": "Tani SS 275kV",
+    "bus": 165,
+    "pMw": 313.1328933221587,
+    "qMvar": 63.584345918448044
+  },
+  {
+    "name": "East Osaka Substation 275kV",
+    "bus": 167,
+    "pMw": 148.320384223963,
+    "qMvar": 30.117738565238806
+  },
+  {
+    "name": "North Katsuragi Substation 275kV",
+    "bus": 169,
+    "pMw": 581.2248807201147,
+    "qMvar": 118.02274580618531
+  },
+  {
+    "name": "New Ikoma Substation 275kV",
+    "bus": 170,
+    "pMw": 60.63537665897388,
+    "qMvar": 12.312538371409595
+  },
+  {
+    "name": "Seinsein Substation 275kV",
+    "bus": 174,
+    "pMw": 220.56778570358023,
+    "qMvar": 44.78819914397705
+  },
+  {
+    "name": "North Toyota Substation 275kV",
+    "bus": 178,
+    "pMw": 51.46289921605182,
+    "qMvar": 10.449987387154225
+  },
+  {
+    "name": "Tobu Substation 275kV",
+    "bus": 180,
+    "pMw": 51.46289921605182,
+    "qMvar": 10.449987387154225
+  },
+  {
+    "name": "Mikawa Substation 275kV",
+    "bus": 181,
+    "pMw": 62.67366713707477,
+    "qMvar": 12.726430905875805
+  },
+  {
+    "name": "East Toyota Substation 275kV",
+    "bus": 188,
+    "pMw": 102.55837708258218,
+    "qMvar": 20.825366687186285
+  },
+  {
+    "name": "Suruga 275kV",
+    "bus": 191,
+    "pMw": 230.26565629367968,
+    "qMvar": 46.757435757004544
+  },
+  {
+    "name": "Yodogawa SS 275kV",
+    "bus": 195,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "West Nagoya Substation 275kV",
+    "bus": 196,
+    "pMw": 280.0266082788047,
+    "qMvar": 56.86182801897702
+  },
+  {
+    "name": "West Kobe Substation 275kV",
+    "bus": 202,
+    "pMw": 431.3545581413089,
+    "qMvar": 87.59027883454687
+  },
+  {
+    "name": "Kouka SS 275kV",
+    "bus": 204,
+    "pMw": 217.12728401710876,
+    "qMvar": 44.089575479613124
+  },
+  {
+    "name": "Konan SS 275kV",
+    "bus": 205,
+    "pMw": 45.82828419792899,
+    "qMvar": 9.305830008385957
+  },
+  {
+    "name": "Rittou SS 275kV",
+    "bus": 206,
+    "pMw": 45.82828419792899,
+    "qMvar": 9.305830008385957
+  },
+  {
+    "name": "Hirakata SS 275kV",
+    "bus": 207,
+    "pMw": 115.8193934502316,
+    "qMvar": 23.518130909446782
+  },
+  {
+    "name": "South Kawachi Substation 275kV",
+    "bus": 208,
+    "pMw": 412.56000785715173,
+    "qMvar": 83.77388262662747
+  },
+  {
+    "name": "Shin-Hokushin Substation 275kV",
+    "bus": 211,
+    "pMw": 724.6702019545543,
+    "qMvar": 147.1505606102651
+  },
+  {
+    "name": "Inuyama Substation 275kV",
+    "bus": 212,
+    "pMw": 51.25451445753346,
+    "qMvar": 10.407673057192946
+  },
+  {
+    "name": "Sun'en Substation 275kV",
+    "bus": 214,
+    "pMw": 421.88233256204745,
+    "qMvar": 85.66686139519888
+  },
+  {
+    "name": "Toshin Substation 275kV",
+    "bus": 219,
+    "pMw": 229.1468542993397,
+    "qMvar": 46.530253322519215
+  },
+  {
+    "name": "Himeji Substation 275kV",
+    "bus": 224,
+    "pMw": 93.93910656033205,
+    "qMvar": 19.075149159296018
+  },
+  {
+    "name": "Nakasei SS 275kV",
+    "bus": 225,
+    "pMw": 436.9630345462067,
+    "qMvar": 88.72912854152281
+  },
+  {
+    "name": "Miyoshi Substation 275kV",
+    "bus": 226,
+    "pMw": 192.0752887807404,
+    "qMvar": 39.002550880706714
+  },
+  {
+    "name": "Saku Substation 275kV",
+    "bus": 227,
+    "pMw": 280.9073037044472,
+    "qMvar": 57.04066085253449
+  },
+  {
+    "name": "Shinsuzuka SS 275kV",
+    "bus": 229,
+    "pMw": 99.70588031482241,
+    "qMvar": 20.24614251406216
+  },
+  {
+    "name": "Substation 315614776 275kV",
+    "bus": 232,
+    "pMw": 42.617079727905825,
+    "qMvar": 8.653767129681126
+  },
+  {
+    "name": "Substation 315614783 275kV",
+    "bus": 233,
+    "pMw": 86.0810918569234,
+    "qMvar": 17.479511218379546
+  },
+  {
+    "name": "Chuushin SS 275kV",
+    "bus": 236,
+    "pMw": 337.16687136996376,
+    "qMvar": 68.4646533105424
+  },
+  {
+    "name": "Shinaimoto SS 275kV",
+    "bus": 241,
+    "pMw": 65.83216981715,
+    "qMvar": 13.367792229700793
+  },
+  {
+    "name": "Substation 798162354 275kV",
+    "bus": 264,
+    "pMw": 118.5671444125474,
+    "qMvar": 24.076085539610425
+  },
+  {
+    "name": "Substation 798162366 275kV",
+    "bus": 265,
+    "pMw": 124.06542292355752,
+    "qMvar": 25.192558609848867
+  },
+  {
+    "name": "Koube SS 275kV",
+    "bus": 266,
+    "pMw": 270.0711905837068,
+    "qMvar": 54.840294235758385
+  },
+  {
+    "name": "Rakunan SS 275kV",
+    "bus": 268,
+    "pMw": 17.26856815966957,
+    "qMvar": 3.5065323215695128
+  },
+  {
+    "name": "Toudaifun SS 220kV",
+    "bus": 356,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Shindaifun SS 220kV",
+    "bus": 357,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Karida SS 220kV",
+    "bus": 364,
+    "pMw": 112.30306245848057,
+    "qMvar": 22.804109447915977
+  },
+  {
+    "name": "Substation 1517884899 220kV",
+    "bus": 367,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Kyuushuunyuugyouhonshakoujouc S 220kV",
+    "bus": 368,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Hiroshima Substation 220kV",
+    "bus": 370,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Kurume Substation 220kV",
+    "bus": 371,
+    "pMw": 33.310715791303274,
+    "qMvar": 6.764029333342014
+  },
+  {
+    "name": "Yanbe SS 220kV",
+    "bus": 372,
+    "pMw": 107.24773485697675,
+    "qMvar": 21.7775813960885
+  },
+  {
+    "name": "West Fukuoka Substation 220kV",
+    "bus": 376,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Tosu Power Station 220kV",
+    "bus": 377,
+    "pMw": 33.310715791303274,
+    "qMvar": 6.764029333342014
+  },
+  {
+    "name": "East Fukuoka Substation 220kV",
+    "bus": 383,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Minamifukuoka SS 220kV",
+    "bus": 386,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Moji Substation 220kV",
+    "bus": 389,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "JR West New Fukuoka Substation 220kV",
+    "bus": 394,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Sumiyoshi SS 220kV",
+    "bus": 395,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Akasaka SS 220kV",
+    "bus": 396,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Karatsu Power Station 220kV",
+    "bus": 397,
+    "pMw": 103.2861628018306,
+    "qMvar": 20.973149880565423
+  },
+  {
+    "name": "Shinyamaguchi SS 220kV",
+    "bus": 400,
+    "pMw": 63.21701400937543,
+    "qMvar": 12.836762194024853
+  },
+  {
+    "name": "South Kumamoto Substation 220kV",
+    "bus": 403,
+    "pMw": 43.82746943703457,
+    "qMvar": 8.899547242861992
+  },
+  {
+    "name": "Yuge SS 220kV",
+    "bus": 405,
+    "pMw": 125.10177748471067,
+    "qMvar": 25.402999378978567
+  },
+  {
+    "name": "Kyuushuudenryokumidorikawa SS 220kV",
+    "bus": 406,
+    "pMw": 125.10177748471067,
+    "qMvar": 25.402999378978567
+  },
+  {
+    "name": "Ooita SS 220kV",
+    "bus": 408,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Chikuhou SS 220kV",
+    "bus": 412,
+    "pMw": 136.95294166977217,
+    "qMvar": 27.809480905350835
+  },
+  {
+    "name": "Takeo SS 220kV",
+    "bus": 414,
+    "pMw": 91.22325050805298,
+    "qMvar": 18.523671066845477
+  },
+  {
+    "name": "Matsushima SS 220kV",
+    "bus": 415,
+    "pMw": 91.99923758909645,
+    "qMvar": 18.681241964191454
+  },
+  {
+    "name": "New Kagoshima Substation 220kV",
+    "bus": 417,
+    "pMw": 130.58550242868722,
+    "qMvar": 26.516517221387723
+  },
+  {
+    "name": "Sendai Substation 220kV",
+    "bus": 418,
+    "pMw": 49.41650761011579,
+    "qMvar": 10.034449848520186
+  },
+  {
+    "name": "Kyushu Shinkansen New Tosu Power Station 220kV",
+    "bus": 419,
+    "pMw": 47.63926457396461,
+    "qMvar": 9.673565257978217
+  },
+  {
+    "name": "North Kumamoto Substation 220kV",
+    "bus": 421,
+    "pMw": 125.10177748471067,
+    "qMvar": 25.402999378978567
+  },
+  {
+    "name": "1 2Gou SwS 220kV",
+    "bus": 422,
+    "pMw": 104.65379614149774,
+    "qMvar": 21.250859674756644
+  },
+  {
+    "name": "Nishitani Substation 220kV",
+    "bus": 425,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Higashisasebo SS 220kV",
+    "bus": 428,
+    "pMw": 324.3292429654485,
+    "qMvar": 65.85786168100448
+  },
+  {
+    "name": "Substation 242389846 220kV",
+    "bus": 433,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Hayami SS 220kV",
+    "bus": 435,
+    "pMw": 92.88495135015174,
+    "qMvar": 18.86109381421645
+  },
+  {
+    "name": "Substation 296786436 220kV",
+    "bus": 436,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Koujaku Substation 220kV",
+    "bus": 437,
+    "pMw": 175.0016189284251,
+    "qMvar": 35.53559434838839
+  },
+  {
+    "name": "Itozu Sub Station 220kV",
+    "bus": 441,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Tomishiro SS 220kV",
+    "bus": 453,
+    "pMw": 210.25475298485733,
+    "qMvar": 42.69404853303852
+  },
+  {
+    "name": "Minamimiyazaki SS 220kV",
+    "bus": 457,
+    "pMw": 243.44531806154768,
+    "qMvar": 49.433680223197015
+  },
+  {
+    "name": "Substation 405806514 220kV",
+    "bus": 458,
+    "pMw": 182.06728560998516,
+    "qMvar": 36.97033916123229
+  },
+  {
+    "name": "Kitanagasaki SS 220kV",
+    "bus": 459,
+    "pMw": 89.78231974613797,
+    "qMvar": 18.23107759626468
+  },
+  {
+    "name": "Nagasaki SS 220kV",
+    "bus": 460,
+    "pMw": 89.78231974613797,
+    "qMvar": 18.23107759626468
+  },
+  {
+    "name": "Kakoshima SS 220kV",
+    "bus": 461,
+    "pMw": 130.58550242868722,
+    "qMvar": 26.516517221387723
+  },
+  {
+    "name": "Kaizaki SS 220kV",
+    "bus": 465,
+    "pMw": 77.69438976931767,
+    "qMvar": 15.77651872533392
+  },
+  {
+    "name": "Ito SS 220kV",
+    "bus": 466,
+    "pMw": 148.54007907901862,
+    "qMvar": 30.162349508254582
+  },
+  {
+    "name": "Nishiooita SS 220kV",
+    "bus": 469,
+    "pMw": 168.68265637186843,
+    "qMvar": 34.25247427505757
+  },
+  {
+    "name": "Hiromi SS 187kV",
+    "bus": 563,
+    "pMw": 222.12472747740142,
+    "qMvar": 45.10434965525431
+  },
+  {
+    "name": "Substation 1037463543 187kV",
+    "bus": 564,
+    "pMw": 9.325882579383679,
+    "qMvar": 1.8937012257996417
+  },
+  {
+    "name": "Ananhatsudensho Anan Power Station 187kV",
+    "bus": 565,
+    "pMw": 64.22099896497814,
+    "qMvar": 13.040630034406227
+  },
+  {
+    "name": "Substation 1037463584 187kV",
+    "bus": 566,
+    "pMw": 8.857489916980791,
+    "qMvar": 1.798590039121316
+  },
+  {
+    "name": "Substation 1037463586 187kV",
+    "bus": 567,
+    "pMw": 0.6253629632440001,
+    "qMvar": 0.12698536572643862
+  },
+  {
+    "name": "Substation 1037463609 187kV",
+    "bus": 568,
+    "pMw": 6.063082796659614,
+    "qMvar": 1.2311614720027735
+  },
+  {
+    "name": "Honkawa SS 187kV",
+    "bus": 569,
+    "pMw": 4.051848353797031,
+    "qMvar": 0.8227628998141198
+  },
+  {
+    "name": "Shikokudenryokuasa SS 187kV",
+    "bus": 570,
+    "pMw": 230.8747724825765,
+    "qMvar": 46.881122074492424
+  },
+  {
+    "name": "Matsuyama SS 187kV",
+    "bus": 571,
+    "pMw": 107.27535030423721,
+    "qMvar": 21.78318895182202
+  },
+  {
+    "name": "Kawauchi Substation 187kV",
+    "bus": 573,
+    "pMw": 389.3157255540282,
+    "qMvar": 79.05392979475651
+  },
+  {
+    "name": "Substation 307645906 187kV",
+    "bus": 577,
+    "pMw": 14.823200762316505,
+    "qMvar": 3.009979293104939
+  },
+  {
+    "name": "Kan'onji Substation 187kV",
+    "bus": 578,
+    "pMw": 48.21422534605218,
+    "qMvar": 9.790316022275412
+  },
+  {
+    "name": "Awa SS 187kV",
+    "bus": 579,
+    "pMw": 92.99105292769606,
+    "qMvar": 18.882638658443753
+  },
+  {
+    "name": "Kou SS 187kV",
+    "bus": 580,
+    "pMw": 320.05740693478526,
+    "qMvar": 64.99042837816992
+  },
+  {
+    "name": "Ikawa SS 187kV",
+    "bus": 581,
+    "pMw": 37.724915831022614,
+    "qMvar": 7.660370881177991
+  },
+  {
+    "name": "Kouchi SS 187kV",
+    "bus": 583,
+    "pMw": 225.48699774488307,
+    "qMvar": 45.787087752458675
+  },
+  {
+    "name": "Mishima SS 187kV",
+    "bus": 587,
+    "pMw": 101.06117310035086,
+    "qMvar": 20.521346451858495
+  },
+  {
+    "name": "Substation 620976976 187kV",
+    "bus": 588,
+    "pMw": 87.9629668205396,
+    "qMvar": 17.86164222797212
+  },
+  {
+    "name": "Kitamatsuyama SS 187kV",
+    "bus": 589,
+    "pMw": 107.27535030423721,
+    "qMvar": 21.78318895182202
+  },
+  {
+    "name": "Substation 704208237 187kV",
+    "bus": 591,
+    "pMw": 143.52793507817262,
+    "qMvar": 29.144590260538035
+  },
+  {
+    "name": "Naruto SS 187kV",
+    "bus": 592,
+    "pMw": 114.7108739665397,
+    "qMvar": 23.293036427801606
+  },
+  {
+    "name": "Substation 724287148 187kV",
+    "bus": 593,
+    "pMw": 158.2027378875202,
+    "qMvar": 32.12443606407227
+  },
+  {
+    "name": "Substation 844182799 187kV",
+    "bus": 594,
+    "pMw": 15.935423482179996,
+    "qMvar": 3.2358257489271285
+  },
+  {
+    "name": "Substation 844182802 187kV",
+    "bus": 595,
+    "pMw": 15.736482512664791,
+    "qMvar": 3.195429062112141
+  },
+  {
+    "name": "Takamatsu Substation 187kV",
+    "bus": 597,
+    "pMw": 282.28044747460683,
+    "qMvar": 57.319489587361026
+  },
+  {
+    "name": "Sanuki Substation 187kV",
+    "bus": 598,
+    "pMw": 23.54974219303412,
+    "qMvar": 4.781979107993604
+  },
+  {
+    "name": "Komatsu Himidainikoujou 154kV",
+    "bus": 622,
+    "pMw": 125.07807521965748,
+    "qMvar": 25.39818642878287
+  },
+  {
+    "name": "Substation 1002033256 154kV",
+    "bus": 623,
+    "pMw": 25.32501769824871,
+    "qMvar": 5.142464174338834
+  },
+  {
+    "name": "Kansaidenryoku 154kV",
+    "bus": 624,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "Substation 1028287118 154kV",
+    "bus": 625,
+    "pMw": 208.42663555155468,
+    "qMvar": 42.32283345555041
+  },
+  {
+    "name": "Itami Substation 154kV",
+    "bus": 626,
+    "pMw": 72.6570894086479,
+    "qMvar": 14.753651260885134
+  },
+  {
+    "name": "Inagawa Substation 154kV",
+    "bus": 627,
+    "pMw": 141.60165542674088,
+    "qMvar": 28.75344249451177
+  },
+  {
+    "name": "North Osaka Substation 154kV",
+    "bus": 628,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Shousonedenryokutokoro 154kV",
+    "bus": 629,
+    "pMw": 53.62662596130968,
+    "qMvar": 10.889350842024259
+  },
+  {
+    "name": "Substation 1190176152 154kV",
+    "bus": 631,
+    "pMw": 393.2066872721414,
+    "qMvar": 79.84402326981476
+  },
+  {
+    "name": "Substation 1204365715 154kV",
+    "bus": 632,
+    "pMw": 59.65057119654032,
+    "qMvar": 12.112565093222784
+  },
+  {
+    "name": "Substation 1226752396 154kV",
+    "bus": 634,
+    "pMw": 102.99307484104214,
+    "qMvar": 20.91363583179977
+  },
+  {
+    "name": "Substation 1239633365 154kV",
+    "bus": 635,
+    "pMw": 59.876662151224814,
+    "qMvar": 12.15847481966248
+  },
+  {
+    "name": "Koizumi SS 154kV",
+    "bus": 637,
+    "pMw": 303.29397038371314,
+    "qMvar": 61.586467404486115
+  },
+  {
+    "name": "Substation 1256591813 154kV",
+    "bus": 638,
+    "pMw": 195.79915279899706,
+    "qMvar": 39.75871372063707
+  },
+  {
+    "name": "Kansaidenryokusouhaiden Hiraoka SS 154kV",
+    "bus": 639,
+    "pMw": 148.4680674535341,
+    "qMvar": 30.14772692403362
+  },
+  {
+    "name": "Nara SS 154kV",
+    "bus": 640,
+    "pMw": 43.36680849930431,
+    "qMvar": 8.806006049840082
+  },
+  {
+    "name": "Torishima SS 154kV",
+    "bus": 641,
+    "pMw": 211.26751681402723,
+    "qMvar": 42.89969899972832
+  },
+  {
+    "name": "Noedenryokutokoro 154kV",
+    "bus": 642,
+    "pMw": 88.4444797403066,
+    "qMvar": 17.959417596537975
+  },
+  {
+    "name": "Substation 1303913199 154kV",
+    "bus": 644,
+    "pMw": 51.09547786653037,
+    "qMvar": 10.375379300032062
+  },
+  {
+    "name": "Torigai SS 154kV",
+    "bus": 648,
+    "pMw": 64.0255809215694,
+    "qMvar": 13.000948708247932
+  },
+  {
+    "name": "Substation 1447717590 154kV",
+    "bus": 649,
+    "pMw": 51.46289921605182,
+    "qMvar": 10.449987387154225
+  },
+  {
+    "name": "Substation 1458284094 154kV",
+    "bus": 650,
+    "pMw": 395.1944716320568,
+    "qMvar": 80.24766009956839
+  },
+  {
+    "name": "Substation 1463461952 154kV",
+    "bus": 651,
+    "pMw": 5.4874099597726,
+    "qMvar": 1.1142661167811188
+  },
+  {
+    "name": "Kansaidenryokusouhaiden Tomita SS 154kV",
+    "bus": 652,
+    "pMw": 369.7298661337317,
+    "qMvar": 75.07685141350521
+  },
+  {
+    "name": "Kansaidenryoku Tougou SS 154kV",
+    "bus": 654,
+    "pMw": 310.46488313097063,
+    "qMvar": 63.04258334246753
+  },
+  {
+    "name": "Substation 1512413260 154kV",
+    "bus": 655,
+    "pMw": 120.53018866421293,
+    "qMvar": 24.47469867611891
+  },
+  {
+    "name": "Chuudeninoshishitaka SS 154kV",
+    "bus": 656,
+    "pMw": 241.6149046040288,
+    "qMvar": 49.061998918106774
+  },
+  {
+    "name": "Substation 1561269946 154kV",
+    "bus": 658,
+    "pMw": 301.74564672137694,
+    "qMvar": 61.27206687538419
+  },
+  {
+    "name": "East Osaka Substation 154kV",
+    "bus": 659,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "Substation 159659127 154kV",
+    "bus": 660,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "Yao Substation 154kV",
+    "bus": 661,
+    "pMw": 288.1657779350131,
+    "qMvar": 58.51455690803963
+  },
+  {
+    "name": "New Nara Substation 154kV",
+    "bus": 662,
+    "pMw": 416.0433417707746,
+    "qMvar": 84.48120374566872
+  },
+  {
+    "name": "New Ikoma Substation 154kV",
+    "bus": 663,
+    "pMw": 119.25924398303283,
+    "qMvar": 24.216622351418565
+  },
+  {
+    "name": "North Ichinomiya Substation 154kV",
+    "bus": 664,
+    "pMw": 274.07700664391905,
+    "qMvar": 55.65370987969126
+  },
+  {
+    "name": "Substation 161767717 154kV",
+    "bus": 665,
+    "pMw": 442.78530714037964,
+    "qMvar": 89.91139141634164
+  },
+  {
+    "name": "Kano Substation 154kV",
+    "bus": 666,
+    "pMw": 59.415134650640915,
+    "qMvar": 12.064757663548155
+  },
+  {
+    "name": "Seinsein Substation 154kV",
+    "bus": 668,
+    "pMw": 59.415134650640915,
+    "qMvar": 12.064757663548155
+  },
+  {
+    "name": "Ogaki Substation 154kV",
+    "bus": 669,
+    "pMw": 62.166735927707016,
+    "qMvar": 12.623494133468013
+  },
+  {
+    "name": "West Kyoto Substation 154kV",
+    "bus": 670,
+    "pMw": 103.25182685574374,
+    "qMvar": 20.966177669341427
+  },
+  {
+    "name": "North Toyota Substation 154kV",
+    "bus": 671,
+    "pMw": 51.46289921605182,
+    "qMvar": 10.449987387154225
+  },
+  {
+    "name": "Shigi Substation 154kV",
+    "bus": 672,
+    "pMw": 131.84573560720497,
+    "qMvar": 26.772418482704072
+  },
+  {
+    "name": "Meinan Substation 154kV",
+    "bus": 673,
+    "pMw": 6.077196941650846,
+    "qMvar": 1.2340274713806871
+  },
+  {
+    "name": "Mikawa Substation 154kV",
+    "bus": 674,
+    "pMw": 62.67366713707477,
+    "qMvar": 12.726430905875805
+  },
+  {
+    "name": "Substation 170247393 154kV",
+    "bus": 675,
+    "pMw": 420.9418614287821,
+    "qMvar": 85.47589058651306
+  },
+  {
+    "name": "Takashinunone SS 154kV",
+    "bus": 676,
+    "pMw": 265.1424570807287,
+    "qMvar": 53.839472212021704
+  },
+  {
+    "name": "Suruga 154kV",
+    "bus": 678,
+    "pMw": 230.26565629367968,
+    "qMvar": 46.757435757004544
+  },
+  {
+    "name": "Yodogawa SS 154kV",
+    "bus": 680,
+    "pMw": 162.03999442887374,
+    "qMvar": 32.9036242378686
+  },
+  {
+    "name": "Nishiochou SS 154kV",
+    "bus": 682,
+    "pMw": 89.87344058540174,
+    "qMvar": 18.249580471841426
+  },
+  {
+    "name": "Ooisuiryoku PS 154kV",
+    "bus": 683,
+    "pMw": 74.63860523593866,
+    "qMvar": 15.156015210799874
+  },
+  {
+    "name": "Toyohashidenryokusentaa 154kV",
+    "bus": 684,
+    "pMw": 337.2766262109045,
+    "qMvar": 68.48693998154194
+  },
+  {
+    "name": "Chuubudenryokupawaaguriddo Nisshin SS 154kV",
+    "bus": 688,
+    "pMw": 121.9358018052108,
+    "qMvar": 24.76012059789949
+  },
+  {
+    "name": "Minamitoyoda SS 154kV",
+    "bus": 690,
+    "pMw": 102.55837708258218,
+    "qMvar": 20.825366687186285
+  },
+  {
+    "name": "Substation 181370874 154kV",
+    "bus": 691,
+    "pMw": 91.50730992709147,
+    "qMvar": 18.581351792015905
+  },
+  {
+    "name": "Kakomachi SS 154kV",
+    "bus": 692,
+    "pMw": 14.119022140504228,
+    "qMvar": 2.866989725312639
+  },
+  {
+    "name": "Matsuoka Station 154kV",
+    "bus": 694,
+    "pMw": 434.2858572123493,
+    "qMvar": 88.18550449783002
+  },
+  {
+    "name": "Kotou SS 154kV",
+    "bus": 696,
+    "pMw": 161.3837709043249,
+    "qMvar": 32.77037236789719
+  },
+  {
+    "name": "North Gifu Substation 154kV",
+    "bus": 697,
+    "pMw": 209.03904422673045,
+    "qMvar": 42.44718834089225
+  },
+  {
+    "name": "Zeze SS 154kV",
+    "bus": 698,
+    "pMw": 45.82828419792899,
+    "qMvar": 9.305830008385957
+  },
+  {
+    "name": "Konan SS 154kV",
+    "bus": 699,
+    "pMw": 45.82828419792899,
+    "qMvar": 9.305830008385957
+  },
+  {
+    "name": "Rittou SS 154kV",
+    "bus": 700,
+    "pMw": 45.82828419792899,
+    "qMvar": 9.305830008385957
+  },
+  {
+    "name": "Furukawabashi Substation 154kV",
+    "bus": 701,
+    "pMw": 50.66764844799001,
+    "qMvar": 10.288504831323431
+  },
+  {
+    "name": "Nagasone Substation 154kV",
+    "bus": 702,
+    "pMw": 125.39581153718775,
+    "qMvar": 25.46270553985535
+  },
+  {
+    "name": "Ajinama SS 154kV",
+    "bus": 703,
+    "pMw": 84.21004534169823,
+    "qMvar": 17.099579019014005
+  },
+  {
+    "name": "Substation 191462506 154kV",
+    "bus": 704,
+    "pMw": 64.0255809215694,
+    "qMvar": 13.000948708247932
+  },
+  {
+    "name": "Higashiikibe SS 154kV",
+    "bus": 705,
+    "pMw": 33.39908028832044,
+    "qMvar": 6.781972509753918
+  },
+  {
+    "name": "Substation 191539408 154kV",
+    "bus": 706,
+    "pMw": 372.72785756584335,
+    "qMvar": 75.68561953830202
+  },
+  {
+    "name": "Substation 191539410 154kV",
+    "bus": 707,
+    "pMw": 259.19345304255256,
+    "qMvar": 52.631475419923376
+  },
+  {
+    "name": "Hankyuudentetsu Senri SS 154kV",
+    "bus": 708,
+    "pMw": 209.4436259930539,
+    "qMvar": 42.52934217247882
+  },
+  {
+    "name": "Yokooji Substation 154kV",
+    "bus": 709,
+    "pMw": 259.19345304255256,
+    "qMvar": 52.631475419923376
+  },
+  {
+    "name": "Substation 191965105 154kV",
+    "bus": 710,
+    "pMw": 264.42522884312564,
+    "qMvar": 53.69383280672513
+  },
+  {
+    "name": "Substation 192060604 154kV",
+    "bus": 711,
+    "pMw": 189.68688998737773,
+    "qMvar": 38.51756582066661
+  },
+  {
+    "name": "Hamamatsu SS 154kV",
+    "bus": 712,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "Mikatahara SS 154kV",
+    "bus": 713,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "Substation 192220071 154kV",
+    "bus": 714,
+    "pMw": 3.9080029294725223,
+    "qMvar": 0.7935538406124549
+  },
+  {
+    "name": "Kitakata Switching Station 154kV",
+    "bus": 716,
+    "pMw": 127.60991860484225,
+    "qMvar": 25.912299155513555
+  },
+  {
+    "name": "Substation 192508460 154kV",
+    "bus": 717,
+    "pMw": 83.16394949200755,
+    "qMvar": 16.887160196881023
+  },
+  {
+    "name": "Chuubudenryokupawaaguriddokabushikigaisha Kamikyuuro SS 154kV",
+    "bus": 718,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "Substation 192599334 154kV",
+    "bus": 719,
+    "pMw": 59.26296488629745,
+    "qMvar": 12.03385827501158
+  },
+  {
+    "name": "Inazawa Substation 154kV",
+    "bus": 720,
+    "pMw": 383.6544391882116,
+    "qMvar": 77.90435656784824
+  },
+  {
+    "name": "Shimizu Substation 154kV",
+    "bus": 721,
+    "pMw": 415.673961150891,
+    "qMvar": 84.406197811731
+  },
+  {
+    "name": "Inuyama Substation 154kV",
+    "bus": 722,
+    "pMw": 10.721105249412892,
+    "qMvar": 2.177013272461973
+  },
+  {
+    "name": "Haguro Substation 154kV",
+    "bus": 723,
+    "pMw": 175.91725083576972,
+    "qMvar": 35.72152133712755
+  },
+  {
+    "name": "Shippo Substation 154kV",
+    "bus": 724,
+    "pMw": 114.40539099379689,
+    "qMvar": 23.231005464509956
+  },
+  {
+    "name": "Kanzaki SS 154kV",
+    "bus": 725,
+    "pMw": 85.87170527683949,
+    "qMvar": 17.436993459872973
+  },
+  {
+    "name": "Mizunami Substation 154kV",
+    "bus": 726,
+    "pMw": 127.88282053914978,
+    "qMvar": 25.96771425677847
+  },
+  {
+    "name": "Ochiaikawa 154kV",
+    "bus": 727,
+    "pMw": 105.11226098203966,
+    "qMvar": 21.343954931224868
+  },
+  {
+    "name": "Inuyama Substation 154kV",
+    "bus": 728,
+    "pMw": 51.25451445753346,
+    "qMvar": 10.407673057192946
+  },
+  {
+    "name": "Dokushosuiryoku PS 154kV",
+    "bus": 729,
+    "pMw": 5.72651279026378,
+    "qMvar": 1.162818017294457
+  },
+  {
+    "name": "Nanshin Substation 154kV",
+    "bus": 731,
+    "pMw": 1.3589010866248776,
+    "qMvar": 0.2759366345841405
+  },
+  {
+    "name": "Substation 209518490 154kV",
+    "bus": 732,
+    "pMw": 49.170168741453054,
+    "qMvar": 9.984428607787436
+  },
+  {
+    "name": "North Ise Substation 154kV",
+    "bus": 733,
+    "pMw": 190.41883750505983,
+    "qMvar": 38.666194103261525
+  },
+  {
+    "name": "Okazaki Substation 154kV",
+    "bus": 734,
+    "pMw": 51.09547786653037,
+    "qMvar": 10.375379300032062
+  },
+  {
+    "name": "Isami SS 154kV",
+    "bus": 737,
+    "pMw": 51.09547786653037,
+    "qMvar": 10.375379300032062
+  },
+  {
+    "name": "Iwata Substation 154kV",
+    "bus": 738,
+    "pMw": 363.1347671103643,
+    "qMvar": 73.73765943907159
+  },
+  {
+    "name": "Substation 210658643 154kV",
+    "bus": 739,
+    "pMw": 117.52302623359023,
+    "qMvar": 23.864068300647766
+  },
+  {
+    "name": "Miyada Substation 154kV",
+    "bus": 740,
+    "pMw": 12.022887326531542,
+    "qMvar": 2.4413513974790377
+  },
+  {
+    "name": "Substation 211037497 154kV",
+    "bus": 741,
+    "pMw": 111.54678382036899,
+    "qMvar": 22.65054052059493
+  },
+  {
+    "name": "Matsushima SS 154kV",
+    "bus": 742,
+    "pMw": 77.60879373026243,
+    "qMvar": 15.759137708287788
+  },
+  {
+    "name": "Hiraoka Substation 154kV",
+    "bus": 743,
+    "pMw": 4.794011751348175,
+    "qMvar": 0.973465605292437
+  },
+  {
+    "name": "Meihoku Substation 154kV",
+    "bus": 744,
+    "pMw": 60.57686814857295,
+    "qMvar": 12.30065771165189
+  },
+  {
+    "name": "South Ogaki Substation 154kV",
+    "bus": 745,
+    "pMw": 369.00739829703934,
+    "qMvar": 74.93014806223532
+  },
+  {
+    "name": "Substation 217128112 154kV",
+    "bus": 746,
+    "pMw": 112.06483995309988,
+    "qMvar": 22.755736305040497
+  },
+  {
+    "name": "Toyosaki SS 154kV",
+    "bus": 747,
+    "pMw": 75.20929995061522,
+    "qMvar": 15.271899715193001
+  },
+  {
+    "name": "Nansei Substation 154kV",
+    "bus": 748,
+    "pMw": 587.0705080540546,
+    "qMvar": 119.20975106318068
+  },
+  {
+    "name": "Shimakawara SS 154kV",
+    "bus": 750,
+    "pMw": 40.012530333640825,
+    "qMvar": 8.12489081812657
+  },
+  {
+    "name": "Kaifu SwS 154kV",
+    "bus": 754,
+    "pMw": 137.95436309906162,
+    "qMvar": 28.01282819951254
+  },
+  {
+    "name": "Nishimikuni SS 154kV",
+    "bus": 755,
+    "pMw": 73.81109038143853,
+    "qMvar": 14.987981152790335
+  },
+  {
+    "name": "Mitejima Substation 154kV",
+    "bus": 756,
+    "pMw": 85.87170527683949,
+    "qMvar": 17.436993459872973
+  },
+  {
+    "name": "Substation 288316775 154kV",
+    "bus": 758,
+    "pMw": 305.0217372404816,
+    "qMvar": 61.937305428309344
+  },
+  {
+    "name": "Substation 315639853 154kV",
+    "bus": 762,
+    "pMw": 64.76302876507192,
+    "qMvar": 13.15069387963699
+  },
+  {
+    "name": "Chuushin SS 154kV",
+    "bus": 763,
+    "pMw": 89.31951902809716,
+    "qMvar": 18.137101902318857
+  },
+  {
+    "name": "North Kanazawa Substation 154kV",
+    "bus": 765,
+    "pMw": 181.67938023473545,
+    "qMvar": 36.89157161528135
+  },
+  {
+    "name": "Komatsu Hendensho 154kV",
+    "bus": 766,
+    "pMw": 199.3935364488427,
+    "qMvar": 40.488584450379484
+  },
+  {
+    "name": "Substation 316466739 154kV",
+    "bus": 767,
+    "pMw": 288.4052429710823,
+    "qMvar": 58.56318235753252
+  },
+  {
+    "name": "Toyama SS 154kV",
+    "bus": 770,
+    "pMw": 75.43194632853046,
+    "qMvar": 15.317109990487483
+  },
+  {
+    "name": "Tomiminami SS 154kV",
+    "bus": 771,
+    "pMw": 75.43194632853046,
+    "qMvar": 15.317109990487483
+  },
+  {
+    "name": "Substation 324057656 154kV",
+    "bus": 772,
+    "pMw": 28.195103398329977,
+    "qMvar": 5.725259932502144
+  },
+  {
+    "name": "Funahashi Substation 154kV",
+    "bus": 773,
+    "pMw": 183.9992838995284,
+    "qMvar": 37.362648146254124
+  },
+  {
+    "name": "Ueda SS 154kV",
+    "bus": 774,
+    "pMw": 142.64825054014162,
+    "qMvar": 28.965962696465017
+  },
+  {
+    "name": "Substation 423049710 154kV",
+    "bus": 775,
+    "pMw": 62.67366713707477,
+    "qMvar": 12.726430905875805
+  },
+  {
+    "name": "Oowaki SS 154kV",
+    "bus": 776,
+    "pMw": 92.0479479938132,
+    "qMvar": 18.69113303373218
+  },
+  {
+    "name": "Substation 537533302 154kV",
+    "bus": 779,
+    "pMw": 45.70387533075834,
+    "qMvar": 9.280567710447293
+  },
+  {
+    "name": "Manyousenkabushikigaisha Komeshima SS 154kV",
+    "bus": 781,
+    "pMw": 215.95760417373415,
+    "qMvar": 43.85206185724688
+  },
+  {
+    "name": "Substation 546942022 154kV",
+    "bus": 782,
+    "pMw": 8.243734255712601,
+    "qMvar": 1.67396163658766
+  },
+  {
+    "name": "Substation 575469656 154kV",
+    "bus": 787,
+    "pMw": 90.23448898441437,
+    "qMvar": 18.322894476168983
+  },
+  {
+    "name": "Substation 608911203 154kV",
+    "bus": 789,
+    "pMw": 15.79805535017563,
+    "qMvar": 3.207931960028527
+  },
+  {
+    "name": "Substation 618344803 154kV",
+    "bus": 790,
+    "pMw": 176.01554866608276,
+    "qMvar": 35.741481562894144
+  },
+  {
+    "name": "Substation 619265282 154kV",
+    "bus": 796,
+    "pMw": 169.9649187055976,
+    "qMvar": 34.51284874712605
+  },
+  {
+    "name": "Konyou SS 154kV",
+    "bus": 797,
+    "pMw": 572.7971252733402,
+    "qMvar": 116.31141707301235
+  },
+  {
+    "name": "Substation 641965676 154kV",
+    "bus": 798,
+    "pMw": 44.26353256950577,
+    "qMvar": 8.988093638493462
+  },
+  {
+    "name": "Substation 642334416 154kV",
+    "bus": 799,
+    "pMw": 190.65284579132074,
+    "qMvar": 38.71371151244693
+  },
+  {
+    "name": "Substation 642334417 154kV",
+    "bus": 800,
+    "pMw": 75.43194632853046,
+    "qMvar": 15.317109990487483
+  },
+  {
+    "name": "Substation 642335992 154kV",
+    "bus": 801,
+    "pMw": 36.801561891186566,
+    "qMvar": 7.472875866863753
+  },
+  {
+    "name": "Substation 658347688 154kV",
+    "bus": 802,
+    "pMw": 204.93671074017945,
+    "qMvar": 41.61417399763917
+  },
+  {
+    "name": "Substation 679132976 154kV",
+    "bus": 803,
+    "pMw": 145.5802759573166,
+    "qMvar": 29.561335850621422
+  },
+  {
+    "name": "Substation 680570705 154kV",
+    "bus": 805,
+    "pMw": 163.88772176394676,
+    "qMvar": 33.278821275745365
+  },
+  {
+    "name": "Minamioohama SS 154kV",
+    "bus": 807,
+    "pMw": 72.6570894086479,
+    "qMvar": 14.753651260885134
+  },
+  {
+    "name": "Substation 704078186 154kV",
+    "bus": 808,
+    "pMw": 8.000646378046566,
+    "qMvar": 1.6246005377324322
+  },
+  {
+    "name": "Substation 707961022 154kV",
+    "bus": 809,
+    "pMw": 364.26095135442006,
+    "qMvar": 73.96634090329668
+  },
+  {
+    "name": "Substation 726967823 154kV",
+    "bus": 810,
+    "pMw": 43.36680849930431,
+    "qMvar": 8.806006049840082
+  },
+  {
+    "name": "Substation 738566971 154kV",
+    "bus": 813,
+    "pMw": 15.059493273769538,
+    "qMvar": 3.057960533998437
+  },
+  {
+    "name": "Substation 738566973 154kV",
+    "bus": 814,
+    "pMw": 4.568192411439838,
+    "qMvar": 0.927611032585395
+  },
+  {
+    "name": "Chuubudenryokupawaaguriddokabushikigaisha Takatsuka SS 154kV",
+    "bus": 816,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "Higashiuozu SS 154kV",
+    "bus": 818,
+    "pMw": 58.21612702574342,
+    "qMvar": 11.82128878114651
+  },
+  {
+    "name": "Iwakura Substation 154kV",
+    "bus": 820,
+    "pMw": 135.39944972908398,
+    "qMvar": 27.49403091256897
+  },
+  {
+    "name": "Minamianjou SS 154kV",
+    "bus": 821,
+    "pMw": 386.7860220931169,
+    "qMvar": 78.54025159818266
+  },
+  {
+    "name": "Substation 934906561 154kV",
+    "bus": 822,
+    "pMw": 33.39908028832044,
+    "qMvar": 6.781972509753918
+  },
+  {
+    "name": "Ima SS 110kV",
+    "bus": 1006,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "West Hiroshima Substation 110kV",
+    "bus": 1011,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Substation 1117966177 110kV",
+    "bus": 1013,
+    "pMw": 189.9831903820471,
+    "qMvar": 38.57773218195351
+  },
+  {
+    "name": "Substation 1189299706 110kV",
+    "bus": 1015,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Satoshou SS 110kV",
+    "bus": 1018,
+    "pMw": 12.413052817176434,
+    "qMvar": 2.520577879434999
+  },
+  {
+    "name": "Hatsukaichi Substation 110kV",
+    "bus": 1020,
+    "pMw": 29.689301669575418,
+    "qMvar": 6.028669832182888
+  },
+  {
+    "name": "Momoyama SwS 110kV",
+    "bus": 1021,
+    "pMw": 196.94583608096013,
+    "qMvar": 39.9915576920439
+  },
+  {
+    "name": "Sanhan SS 110kV",
+    "bus": 1023,
+    "pMw": 138.61337332048578,
+    "qMvar": 28.14664593241905
+  },
+  {
+    "name": "Substation 1299948916 110kV",
+    "bus": 1024,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Saka SS 110kV",
+    "bus": 1027,
+    "pMw": 187.95043489863764,
+    "qMvar": 38.16496357609595
+  },
+  {
+    "name": "Substation 1381570768 110kV",
+    "bus": 1030,
+    "pMw": 245.14796850077957,
+    "qMvar": 49.77941814091534
+  },
+  {
+    "name": "Substation 1395747282 110kV",
+    "bus": 1033,
+    "pMw": 53.606250376131435,
+    "qMvar": 10.885213402988331
+  },
+  {
+    "name": "Substation 1395747290 110kV",
+    "bus": 1034,
+    "pMw": 32.57887898747338,
+    "qMvar": 6.615423532153646
+  },
+  {
+    "name": "Substation 1413230132 110kV",
+    "bus": 1035,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Substation 1417212402 110kV",
+    "bus": 1036,
+    "pMw": 5.188542716366808,
+    "qMvar": 1.0535785346277617
+  },
+  {
+    "name": "Substation 1417215965 110kV",
+    "bus": 1037,
+    "pMw": 132.8627424047059,
+    "qMvar": 26.97893052086029
+  },
+  {
+    "name": "Substation 1427612442 110kV",
+    "bus": 1038,
+    "pMw": 42.867542674112045,
+    "qMvar": 8.704625800076208
+  },
+  {
+    "name": "Substation 1448225891 110kV",
+    "bus": 1039,
+    "pMw": 17.145883457515396,
+    "qMvar": 3.4816201302698047
+  },
+  {
+    "name": "Substation 1512966048 110kV",
+    "bus": 1040,
+    "pMw": 85.26889564165246,
+    "qMvar": 17.314587742734624
+  },
+  {
+    "name": "Substation 1553893974 110kV",
+    "bus": 1044,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Hiroshima Substation 110kV",
+    "bus": 1047,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "North Hiroshima Substation 110kV",
+    "bus": 1048,
+    "pMw": 191.32633182005785,
+    "qMvar": 38.850468683398
+  },
+  {
+    "name": "Substation 171037112 110kV",
+    "bus": 1049,
+    "pMw": 31.915715891761216,
+    "qMvar": 6.480762522156434
+  },
+  {
+    "name": "Shinsuga SS 110kV",
+    "bus": 1051,
+    "pMw": 103.29737032730658,
+    "qMvar": 20.975425665677598
+  },
+  {
+    "name": "Substation 179743820 110kV",
+    "bus": 1053,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "East Hiroshima Substation 110kV",
+    "bus": 1054,
+    "pMw": 171.4223700516575,
+    "qMvar": 34.8087968653962
+  },
+  {
+    "name": "South Saijo Substation 110kV",
+    "bus": 1055,
+    "pMw": 222.87721354149994,
+    "qMvar": 45.25714846757591
+  },
+  {
+    "name": "Kiyama Substation 110kV",
+    "bus": 1057,
+    "pMw": 48.45299763293214,
+    "qMvar": 9.838800803045773
+  },
+  {
+    "name": "Substation 184143094 110kV",
+    "bus": 1058,
+    "pMw": 117.65366455589613,
+    "qMvar": 23.890595543402675
+  },
+  {
+    "name": "Substation 195089139 110kV",
+    "bus": 1060,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Substation 196291845 110kV",
+    "bus": 1061,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Miike SS 110kV",
+    "bus": 1062,
+    "pMw": 155.20970559685605,
+    "qMvar": 31.51667493589569
+  },
+  {
+    "name": "Yuge SS 110kV",
+    "bus": 1066,
+    "pMw": 125.10177748471067,
+    "qMvar": 25.402999378978567
+  },
+  {
+    "name": "Ooita SS 110kV",
+    "bus": 1067,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Shimonoseki SS 110kV",
+    "bus": 1068,
+    "pMw": 301.18260499348895,
+    "qMvar": 61.1577363762382
+  },
+  {
+    "name": "Hachiman SS 110kV",
+    "bus": 1069,
+    "pMw": 113.43244157104924,
+    "qMvar": 23.033439657862193
+  },
+  {
+    "name": "Nankan SS 110kV",
+    "bus": 1072,
+    "pMw": 56.436381690550924,
+    "qMvar": 11.459896077112706
+  },
+  {
+    "name": "Kyushu Shinkansen New Tosu Power Station 110kV",
+    "bus": 1074,
+    "pMw": 33.310715791303274,
+    "qMvar": 6.764029333342014
+  },
+  {
+    "name": "Nishitani Substation 110kV",
+    "bus": 1076,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Toukouyama SS 110kV",
+    "bus": 1077,
+    "pMw": 5.13526294628395,
+    "qMvar": 1.042759615875849
+  },
+  {
+    "name": "Saidaiji Substation 110kV",
+    "bus": 1078,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Kurashiki Substation 110kV",
+    "bus": 1080,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Substation 242389846 110kV",
+    "bus": 1081,
+    "pMw": 101.52455036506139,
+    "qMvar": 20.615439218598862
+  },
+  {
+    "name": "Substation 244325781 110kV",
+    "bus": 1083,
+    "pMw": 69.28142575945267,
+    "qMvar": 14.068193521528654
+  },
+  {
+    "name": "Substation 316459356 110kV",
+    "bus": 1086,
+    "pMw": 27.13754076624536,
+    "qMvar": 5.510512680894469
+  },
+  {
+    "name": "Substation 317444450 110kV",
+    "bus": 1091,
+    "pMw": 42.696367242569245,
+    "qMvar": 8.66986714621368
+  },
+  {
+    "name": "Substation 317525043 110kV",
+    "bus": 1097,
+    "pMw": 30.151815418379798,
+    "qMvar": 6.122587254539917
+  },
+  {
+    "name": "Substation 317557174 110kV",
+    "bus": 1099,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Kibi SS 110kV",
+    "bus": 1100,
+    "pMw": 176.41310149283805,
+    "qMvar": 35.822208107426334
+  },
+  {
+    "name": "Substation 317557289 110kV",
+    "bus": 1101,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Substation 317557307 110kV",
+    "bus": 1102,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Tomikichi SS 110kV",
+    "bus": 1103,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Mizushima SS 110kV",
+    "bus": 1104,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Substation 317641574 110kV",
+    "bus": 1105,
+    "pMw": 148.69590301635003,
+    "qMvar": 30.193990908263817
+  },
+  {
+    "name": "Substation 317641598 110kV",
+    "bus": 1106,
+    "pMw": 132.8627424047059,
+    "qMvar": 26.97893052086029
+  },
+  {
+    "name": "Substation 317641604 110kV",
+    "bus": 1108,
+    "pMw": 132.8627424047059,
+    "qMvar": 26.97893052086029
+  },
+  {
+    "name": "Substation 317641611 110kV",
+    "bus": 1109,
+    "pMw": 35.09749632322727,
+    "qMvar": 7.1268505950014145
+  },
+  {
+    "name": "North Onomichi Substation 110kV",
+    "bus": 1110,
+    "pMw": 23.83986308175529,
+    "qMvar": 4.840890667079272
+  },
+  {
+    "name": "Substation 317734437 110kV",
+    "bus": 1112,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Kanayama SS 110kV",
+    "bus": 1113,
+    "pMw": 100.83173163063525,
+    "qMvar": 20.474756374324144
+  },
+  {
+    "name": "Tagashira SS 110kV",
+    "bus": 1114,
+    "pMw": 56.86198441183287,
+    "qMvar": 11.546318395658405
+  },
+  {
+    "name": "Substation 317734476 110kV",
+    "bus": 1115,
+    "pMw": 179.07557447274377,
+    "qMvar": 36.36284630470021
+  },
+  {
+    "name": "Kasaoka Substation 110kV",
+    "bus": 1116,
+    "pMw": 46.99955888585708,
+    "qMvar": 9.543667477751146
+  },
+  {
+    "name": "Konko Substation 110kV",
+    "bus": 1117,
+    "pMw": 58.02280323236152,
+    "qMvar": 11.782032710593697
+  },
+  {
+    "name": "Substation 317796050 110kV",
+    "bus": 1118,
+    "pMw": 63.18527286975161,
+    "qMvar": 12.830316880725842
+  },
+  {
+    "name": "Utsubuki PS 110kV",
+    "bus": 1119,
+    "pMw": 115.18972930700905,
+    "qMvar": 23.390272151874754
+  },
+  {
+    "name": "Niimi Substation 110kV",
+    "bus": 1120,
+    "pMw": 34.66925975412848,
+    "qMvar": 7.039893450845714
+  },
+  {
+    "name": "Sanyo Substation 110kV",
+    "bus": 1122,
+    "pMw": 49.58646176519923,
+    "qMvar": 10.068960511620613
+  },
+  {
+    "name": "Bizen Substation 110kV",
+    "bus": 1123,
+    "pMw": 132.1079602625545,
+    "qMvar": 26.825665470004562
+  },
+  {
+    "name": "Chuugokudenryoku 110kV",
+    "bus": 1126,
+    "pMw": 112.52385549071508,
+    "qMvar": 22.848943385318837
+  },
+  {
+    "name": "Substation 317852636 110kV",
+    "bus": 1127,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "South Okayama Substation 110kV",
+    "bus": 1128,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Kokufuichiba Substation 110kV",
+    "bus": 1129,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Hirai Substation 110kV",
+    "bus": 1130,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Substation 317922273 110kV",
+    "bus": 1131,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "Sakugi SS 110kV",
+    "bus": 1133,
+    "pMw": 36.641744859323644,
+    "qMvar": 7.440423634427166
+  },
+  {
+    "name": "Substation 317991388 110kV",
+    "bus": 1134,
+    "pMw": 47.657053920922124,
+    "qMvar": 9.677177538944962
+  },
+  {
+    "name": "Miyoshi Substation 110kV",
+    "bus": 1135,
+    "pMw": 60.77974793111705,
+    "qMvar": 12.341854208565014
+  },
+  {
+    "name": "Miyahara SS 110kV",
+    "bus": 1136,
+    "pMw": 271.1464180123102,
+    "qMvar": 55.058628477287535
+  },
+  {
+    "name": "Substation 318404642 110kV",
+    "bus": 1137,
+    "pMw": 20.136352254931964,
+    "qMvar": 4.088860718940994
+  },
+  {
+    "name": "Onoda SS 110kV",
+    "bus": 1139,
+    "pMw": 50.213349272769875,
+    "qMvar": 10.196255449276098
+  },
+  {
+    "name": "Tokuyama Substation 110kV",
+    "bus": 1143,
+    "pMw": 284.2702456346346,
+    "qMvar": 57.72353533666827
+  },
+  {
+    "name": "Substation 318581311 110kV",
+    "bus": 1144,
+    "pMw": 146.377666211681,
+    "qMvar": 29.72325284767527
+  },
+  {
+    "name": "Substation 318599717 110kV",
+    "bus": 1145,
+    "pMw": 44.0691715312999,
+    "qMvar": 8.948626946395944
+  },
+  {
+    "name": "Substation 318599719 110kV",
+    "bus": 1146,
+    "pMw": 4.756636495056832,
+    "qMvar": 0.9658762358090643
+  },
+  {
+    "name": "Substation 319463472 110kV",
+    "bus": 1149,
+    "pMw": 274.2933252835871,
+    "qMvar": 55.69763525293242
+  },
+  {
+    "name": "Substation 319463508 110kV",
+    "bus": 1150,
+    "pMw": 134.06182641688932,
+    "qMvar": 27.222414914361906
+  },
+  {
+    "name": "Kudamatsu PS 110kV",
+    "bus": 1151,
+    "pMw": 63.35418107703556,
+    "qMvar": 12.864615155067012
+  },
+  {
+    "name": "Hikari Substation 110kV",
+    "bus": 1152,
+    "pMw": 57.85956308572467,
+    "qMvar": 11.748885385055921
+  },
+  {
+    "name": "Kinjou SS 110kV",
+    "bus": 1153,
+    "pMw": 103.51465798608666,
+    "qMvar": 21.01954780664178
+  },
+  {
+    "name": "Higashimasuda SS 110kV",
+    "bus": 1154,
+    "pMw": 51.01594666040101,
+    "qMvar": 10.359229799836827
+  },
+  {
+    "name": "Muikaichi SS 110kV",
+    "bus": 1155,
+    "pMw": 14.68254430028029,
+    "qMvar": 2.9814177803143473
+  },
+  {
+    "name": "Yoshiwa Substation 110kV",
+    "bus": 1156,
+    "pMw": 6.506933622885181,
+    "qMvar": 1.3212892262974332
+  },
+  {
+    "name": "Jinzui SS 110kV",
+    "bus": 1160,
+    "pMw": 125.10177748471067,
+    "qMvar": 25.402999378978567
+  },
+  {
+    "name": "Nishigoushi SS 110kV",
+    "bus": 1161,
+    "pMw": 97.63655550138287,
+    "qMvar": 19.825948189028416
+  },
+  {
+    "name": "Suehiro SS 110kV",
+    "bus": 1164,
+    "pMw": 31.739978366934302,
+    "qMvar": 6.445077495741946
+  },
+  {
+    "name": "Substation 425057143 110kV",
+    "bus": 1165,
+    "pMw": 257.1055596684537,
+    "qMvar": 52.207510587832246
+  },
+  {
+    "name": "Minari Substation 110kV",
+    "bus": 1168,
+    "pMw": 62.482433349509655,
+    "qMvar": 12.687599229104865
+  },
+  {
+    "name": "Substation 541009058 110kV",
+    "bus": 1169,
+    "pMw": 66.87858118741013,
+    "qMvar": 13.580275121018008
+  },
+  {
+    "name": "Nogata SS 110kV",
+    "bus": 1176,
+    "pMw": 26.537178107494633,
+    "qMvar": 5.388603843513877
+  },
+  {
+    "name": "Substation 614199719 110kV",
+    "bus": 1177,
+    "pMw": 300.26837657246017,
+    "qMvar": 60.972094377550555
+  },
+  {
+    "name": "Substation 614199723 110kV",
+    "bus": 1178,
+    "pMw": 66.18537775623963,
+    "qMvar": 13.43951416073763
+  },
+  {
+    "name": "Substation 621323885 110kV",
+    "bus": 1185,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Shintottori SS 110kV",
+    "bus": 1187,
+    "pMw": 7.970426881969636,
+    "qMvar": 1.618464207334016
+  },
+  {
+    "name": "Substation 641527441 110kV",
+    "bus": 1188,
+    "pMw": 21.704137829923287,
+    "qMvar": 4.407213157960044
+  },
+  {
+    "name": "Substation 641699577 110kV",
+    "bus": 1190,
+    "pMw": 62.88373204332522,
+    "qMvar": 12.769086404385227
+  },
+  {
+    "name": "Substation 641699578 110kV",
+    "bus": 1191,
+    "pMw": 230.82156734449285,
+    "qMvar": 46.87031831041431
+  },
+  {
+    "name": "Substation 708329972 110kV",
+    "bus": 1194,
+    "pMw": 41.019754903153355,
+    "qMvar": 8.329416490169445
+  },
+  {
+    "name": "Wakamatsu SS 110kV",
+    "bus": 1195,
+    "pMw": 12.44915020741917,
+    "qMvar": 2.5279077671500714
+  },
+  {
+    "name": "Takachiho SS 110kV",
+    "bus": 1197,
+    "pMw": 21.909345651316812,
+    "qMvar": 4.448882383323835
+  },
+  {
+    "name": "Saito SS 110kV",
+    "bus": 1198,
+    "pMw": 56.68919196129812,
+    "qMvar": 11.511231392085152
+  },
+  {
+    "name": "Substation 756367747 110kV",
+    "bus": 1199,
+    "pMw": 7.737925474432377,
+    "qMvar": 1.5712527829239795
+  },
+  {
+    "name": "Kawauchi SS 110kV",
+    "bus": 1200,
+    "pMw": 81.11259530504536,
+    "qMvar": 16.470614963190524
+  },
+  {
+    "name": "Sankaku SS 110kV",
+    "bus": 1201,
+    "pMw": 349.6006140923269,
+    "qMvar": 70.98943245441326
+  },
+  {
+    "name": "Substation 772015506 110kV",
+    "bus": 1202,
+    "pMw": 8.200533157362141,
+    "qMvar": 1.6651892794186975
+  },
+  {
+    "name": "Yamaga SS 110kV",
+    "bus": 1204,
+    "pMw": 43.08483926671468,
+    "qMvar": 8.748749755130433
+  },
+  {
+    "name": "Ushizu SS 110kV",
+    "bus": 1205,
+    "pMw": 38.58165631903027,
+    "qMvar": 7.83433945718375
+  },
+  {
+    "name": "Oomachi SS 110kV",
+    "bus": 1206,
+    "pMw": 49.33750440050729,
+    "qMvar": 10.018407562591298
+  },
+  {
+    "name": "Substation 860296910 110kV",
+    "bus": 1208,
+    "pMw": 102.67465139818458,
+    "qMvar": 20.848977193978644
+  },
+  {
+    "name": "Substation 866284666 110kV",
+    "bus": 1209,
+    "pMw": 173.00298402757014,
+    "qMvar": 35.12975422232441
+  },
+  {
+    "name": "Substation 869120515 110kV",
+    "bus": 1210,
+    "pMw": 49.8352380997834,
+    "qMvar": 10.119476700918712
+  },
+  {
+    "name": "Shin-Ayabe Substation 77kV",
+    "bus": 1383,
+    "pMw": 598.255200769,
+    "qMvar": 121.48089978548039
+  },
+  {
+    "name": "South Osaka Substation 77kV",
+    "bus": 1397,
+    "pMw": 511.21240521064186,
+    "qMvar": 103.80610630156075
+  },
+  {
+    "name": "New Kobe Substation 77kV",
+    "bus": 1413,
+    "pMw": 402.10550937964086,
+    "qMvar": 81.65100616818387
+  },
+  {
+    "name": "Itami Substation 77kV",
+    "bus": 1415,
+    "pMw": 72.6570894086479,
+    "qMvar": 14.753651260885134
+  },
+  {
+    "name": "Nishioosaka SS 77kV",
+    "bus": 1417,
+    "pMw": 66.17788868513729,
+    "qMvar": 13.437993439990196
+  },
+  {
+    "name": "North Osaka Substation 77kV",
+    "bus": 1418,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Shousonedenryokutokoro 77kV",
+    "bus": 1420,
+    "pMw": 53.62662596130968,
+    "qMvar": 10.889350842024259
+  },
+  {
+    "name": "Tanjou SS 77kV",
+    "bus": 1462,
+    "pMw": 12.443684454115457,
+    "qMvar": 2.526797898604864
+  },
+  {
+    "name": "Substation 1243188388 77kV",
+    "bus": 1470,
+    "pMw": 90.83762675132303,
+    "qMvar": 18.44536682329524
+  },
+  {
+    "name": "Substation 1256591813 77kV",
+    "bus": 1473,
+    "pMw": 147.93667914456563,
+    "qMvar": 30.039823925737913
+  },
+  {
+    "name": "Kansaidenryokusouhaiden Hiraoka SS 77kV",
+    "bus": 1476,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "Nara SS 77kV",
+    "bus": 1478,
+    "pMw": 43.36680849930431,
+    "qMvar": 8.806006049840082
+  },
+  {
+    "name": "Torishima SS 77kV",
+    "bus": 1486,
+    "pMw": 211.26751681402723,
+    "qMvar": 42.89969899972832
+  },
+  {
+    "name": "Shinneyagawa SS 77kV",
+    "bus": 1489,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Substation 1303913194 77kV",
+    "bus": 1498,
+    "pMw": 366.1235524915041,
+    "qMvar": 74.34455819548833
+  },
+  {
+    "name": "Substation 1303913199 77kV",
+    "bus": 1499,
+    "pMw": 213.8341776950612,
+    "qMvar": 43.42088172053277
+  },
+  {
+    "name": "Kainanminato SS 77kV",
+    "bus": 1506,
+    "pMw": 507.29463828900435,
+    "qMvar": 103.01056979777682
+  },
+  {
+    "name": "Tanakawa SS 77kV",
+    "bus": 1513,
+    "pMw": 178.52733247036926,
+    "qMvar": 36.25152101799474
+  },
+  {
+    "name": "Higashishioda SS 77kV",
+    "bus": 1518,
+    "pMw": 47.30516666362184,
+    "qMvar": 9.605723783783393
+  },
+  {
+    "name": "Suwa Substation 77kV",
+    "bus": 1521,
+    "pMw": 248.92331507907693,
+    "qMvar": 50.546034960533575
+  },
+  {
+    "name": "Torigai SS 77kV",
+    "bus": 1522,
+    "pMw": 156.94489405372408,
+    "qMvar": 31.869019979894897
+  },
+  {
+    "name": "Tani SS 77kV",
+    "bus": 1532,
+    "pMw": 63.16893381494773,
+    "qMvar": 12.82699909414134
+  },
+  {
+    "name": "East Osaka Substation 77kV",
+    "bus": 1540,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "North Matsumoto Substation 77kV",
+    "bus": 1542,
+    "pMw": 348.99050633775266,
+    "qMvar": 70.86554479092699
+  },
+  {
+    "name": "Yao Substation 77kV",
+    "bus": 1543,
+    "pMw": 20.18446442012884,
+    "qMvar": 4.098630310766073
+  },
+  {
+    "name": "New Nara Substation 77kV",
+    "bus": 1546,
+    "pMw": 43.36680849930431,
+    "qMvar": 8.806006049840082
+  },
+  {
+    "name": "New Ikoma Substation 77kV",
+    "bus": 1547,
+    "pMw": 60.63537665897388,
+    "qMvar": 12.312538371409595
+  },
+  {
+    "name": "North Ichinomiya Substation 77kV",
+    "bus": 1548,
+    "pMw": 143.56006992219145,
+    "qMvar": 29.15111551892418
+  },
+  {
+    "name": "South Kyoto Substation 77kV",
+    "bus": 1549,
+    "pMw": 215.61053074968527,
+    "qMvar": 43.78158559261785
+  },
+  {
+    "name": "Seinsein Substation 77kV",
+    "bus": 1550,
+    "pMw": 59.415134650640915,
+    "qMvar": 12.064757663548155
+  },
+  {
+    "name": "Seto SS 77kV",
+    "bus": 1552,
+    "pMw": 169.7523828562721,
+    "qMvar": 34.4696915022253
+  },
+  {
+    "name": "Tobu Substation 77kV",
+    "bus": 1553,
+    "pMw": 57.481648799138156,
+    "qMvar": 11.672146616187208
+  },
+  {
+    "name": "Mikawa Substation 77kV",
+    "bus": 1555,
+    "pMw": 121.59258961727657,
+    "qMvar": 24.6904283907043
+  },
+  {
+    "name": "Kosai Substation 77kV",
+    "bus": 1556,
+    "pMw": 101.94414847803151,
+    "qMvar": 20.700642249423133
+  },
+  {
+    "name": "East Toyota Substation 77kV",
+    "bus": 1557,
+    "pMw": 102.55837708258218,
+    "qMvar": 20.825366687186285
+  },
+  {
+    "name": "Sun'en Substation 77kV",
+    "bus": 1558,
+    "pMw": 346.7482531273687,
+    "qMvar": 70.41023585722412
+  },
+  {
+    "name": "Yodogawa SS 77kV",
+    "bus": 1559,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Toyohashidenryokusentaa 77kV",
+    "bus": 1560,
+    "pMw": 62.67366713707477,
+    "qMvar": 12.726430905875805
+  },
+  {
+    "name": "Oodaka SS 77kV",
+    "bus": 1564,
+    "pMw": 274.84870364961233,
+    "qMvar": 55.81040964008261
+  },
+  {
+    "name": "Minamitoyoda SS 77kV",
+    "bus": 1568,
+    "pMw": 102.55837708258218,
+    "qMvar": 20.825366687186285
+  },
+  {
+    "name": "West Kobe Substation 77kV",
+    "bus": 1573,
+    "pMw": 431.3545581413089,
+    "qMvar": 87.59027883454687
+  },
+  {
+    "name": "Shoubouji SS 77kV",
+    "bus": 1577,
+    "pMw": 120.74644597889205,
+    "qMvar": 24.518611596789956
+  },
+  {
+    "name": "Hirakata SS 77kV",
+    "bus": 1581,
+    "pMw": 36.09913615233366,
+    "qMvar": 7.330242237137431
+  },
+  {
+    "name": "Furukawabashi Substation 77kV",
+    "bus": 1582,
+    "pMw": 342.65864269559046,
+    "qMvar": 69.57980504043239
+  },
+  {
+    "name": "Nagasone Substation 77kV",
+    "bus": 1584,
+    "pMw": 125.39581153718775,
+    "qMvar": 25.46270553985535
+  },
+  {
+    "name": "Ajinama SS 77kV",
+    "bus": 1585,
+    "pMw": 84.21004534169823,
+    "qMvar": 17.099579019014005
+  },
+  {
+    "name": "Substation 191462506 77kV",
+    "bus": 1588,
+    "pMw": 64.0255809215694,
+    "qMvar": 13.000948708247932
+  },
+  {
+    "name": "Higashiikibe SS 77kV",
+    "bus": 1592,
+    "pMw": 33.39908028832044,
+    "qMvar": 6.781972509753918
+  },
+  {
+    "name": "Yokooji Substation 77kV",
+    "bus": 1594,
+    "pMw": 344.8369765624566,
+    "qMvar": 70.02213459785192
+  },
+  {
+    "name": "Sennan SS 77kV",
+    "bus": 1599,
+    "pMw": 281.8645995638445,
+    "qMvar": 57.23504806757417
+  },
+  {
+    "name": "Hamamatsu SS 77kV",
+    "bus": 1609,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "New Hachiman Substation 77kV",
+    "bus": 1612,
+    "pMw": 273.62408784763295,
+    "qMvar": 55.56174079554144
+  },
+  {
+    "name": "Shimizu Substation 77kV",
+    "bus": 1616,
+    "pMw": 230.26565629367968,
+    "qMvar": 46.757435757004544
+  },
+  {
+    "name": "Kanzaki SS 77kV",
+    "bus": 1629,
+    "pMw": 85.87170527683949,
+    "qMvar": 17.436993459872973
+  },
+  {
+    "name": "Inuyama Substation 77kV",
+    "bus": 1631,
+    "pMw": 51.25451445753346,
+    "qMvar": 10.407673057192946
+  },
+  {
+    "name": "Isami SS 77kV",
+    "bus": 1634,
+    "pMw": 51.09547786653037,
+    "qMvar": 10.375379300032062
+  },
+  {
+    "name": "Meihoku Substation 77kV",
+    "bus": 1641,
+    "pMw": 51.25451445753346,
+    "qMvar": 10.407673057192946
+  },
+  {
+    "name": "Himeji Substation 77kV",
+    "bus": 1657,
+    "pMw": 360.5137107518197,
+    "qMvar": 73.2054312454593
+  },
+  {
+    "name": "Iwatsuka SS 77kV",
+    "bus": 1660,
+    "pMw": 43.03718113935426,
+    "qMvar": 8.739072359620302
+  },
+  {
+    "name": "Miyoshi Substation 77kV",
+    "bus": 1669,
+    "pMw": 51.46289921605182,
+    "qMvar": 10.449987387154225
+  },
+  {
+    "name": "South Kanazawa Substation 77kV",
+    "bus": 1676,
+    "pMw": 248.6489409039032,
+    "qMvar": 50.49032090801023
+  },
+  {
+    "name": "Nishimikuni SS 77kV",
+    "bus": 1682,
+    "pMw": 73.81109038143853,
+    "qMvar": 14.987981152790335
+  },
+  {
+    "name": "Komagane Substation 77kV",
+    "bus": 1684,
+    "pMw": 103.69889758402512,
+    "qMvar": 21.05695925263491
+  },
+  {
+    "name": "Substation 315639820 77kV",
+    "bus": 1693,
+    "pMw": 117.084912603468,
+    "qMvar": 23.775105533709645
+  },
+  {
+    "name": "North Kanazawa Substation 77kV",
+    "bus": 1702,
+    "pMw": 147.93667914456563,
+    "qMvar": 30.039823925737913
+  },
+  {
+    "name": "Shinkakogawa SS 77kV",
+    "bus": 1723,
+    "pMw": 568.5836212565403,
+    "qMvar": 115.45582859078496
+  },
+  {
+    "name": "Ueda SS 77kV",
+    "bus": 1738,
+    "pMw": 62.67366713707477,
+    "qMvar": 12.726430905875805
+  },
+  {
+    "name": "Kansaidenryokukitanodai SS 77kV",
+    "bus": 1796,
+    "pMw": 240.96296670896032,
+    "qMvar": 48.929617282317615
+  },
+  {
+    "name": "Substation 618344870 77kV",
+    "bus": 1807,
+    "pMw": 16.972315917698985,
+    "qMvar": 3.446375738105145
+  },
+  {
+    "name": "Konyou SS 77kV",
+    "bus": 1814,
+    "pMw": 85.87170527683949,
+    "qMvar": 17.436993459872973
+  },
+  {
+    "name": "Substation 680210367 77kV",
+    "bus": 1829,
+    "pMw": 115.42821976867583,
+    "qMvar": 23.438699705594797
+  },
+  {
+    "name": "Substation 691052545 77kV",
+    "bus": 1834,
+    "pMw": 284.2445307454218,
+    "qMvar": 57.718313705706365
+  },
+  {
+    "name": "Minamioohama SS 77kV",
+    "bus": 1837,
+    "pMw": 72.6570894086479,
+    "qMvar": 14.753651260885134
+  },
+  {
+    "name": "Substation 726967823 77kV",
+    "bus": 1849,
+    "pMw": 169.39160184876607,
+    "qMvar": 34.39643179405894
+  },
+  {
+    "name": "Chuubudenryokupawaaguriddokabushikigaisha Takatsuka SS 77kV",
+    "bus": 1861,
+    "pMw": 150.2376068410169,
+    "qMvar": 30.507047221994995
+  },
+  {
+    "name": "Azumi SS 77kV",
+    "bus": 1862,
+    "pMw": 105.81450275304933,
+    "qMvar": 21.48655120468734
+  },
+  {
+    "name": "Substation 798162354 77kV",
+    "bus": 1866,
+    "pMw": 93.93910656033205,
+    "qMvar": 19.075149159296018
+  },
+  {
+    "name": "Substation 798162366 77kV",
+    "bus": 1869,
+    "pMw": 93.93910656033205,
+    "qMvar": 19.075149159296018
+  },
+  {
+    "name": "Iwakura Substation 77kV",
+    "bus": 1876,
+    "pMw": 532.412431221932,
+    "qMvar": 108.11095518881937
+  },
+  {
+    "name": "Koube SS 77kV",
+    "bus": 1882,
+    "pMw": 270.0711905837068,
+    "qMvar": 54.840294235758385
+  },
+  {
+    "name": "Substation 934906561 77kV",
+    "bus": 1898,
+    "pMw": 33.39908028832044,
+    "qMvar": 6.781972509753918
+  },
+  {
+    "name": "Rakunan SS 77kV",
+    "bus": 1902,
+    "pMw": 189.9910111933664,
+    "qMvar": 38.579320265425075
+  },
+  {
+    "name": "Touban SS 77kV",
+    "bus": 1905,
+    "pMw": 191.20940846202072,
+    "qMvar": 38.826726382918146
+  },
+  {
+    "name": "Toudaifun SS 66kV",
+    "bus": 2314,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Shindaifun SS 66kV",
+    "bus": 2315,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Substation 1517884899 66kV",
+    "bus": 2454,
+    "pMw": 99.82082543678091,
+    "qMvar": 20.269483116573465
+  },
+  {
+    "name": "Kurobe SS 66kV",
+    "bus": 2507,
+    "pMw": 96.4398242831146,
+    "qMvar": 19.58294155070796
+  },
+  {
+    "name": "Kyuushuunyuugyouhonshakoujouc S 66kV",
+    "bus": 2533,
+    "pMw": 79.68290730757465,
+    "qMvar": 16.18030443329961
+  },
+  {
+    "name": "Matsuyama SS 66kV",
+    "bus": 2540,
+    "pMw": 179.6000459768094,
+    "qMvar": 36.469344785856485
+  },
+  {
+    "name": "Kurume Substation 66kV",
+    "bus": 2542,
+    "pMw": 134.58756362875772,
+    "qMvar": 27.329170408449354
+  },
+  {
+    "name": "West Fukuoka Substation 66kV",
+    "bus": 2544,
+    "pMw": 161.93726780173978,
+    "qMvar": 32.88276470655133
+  },
+  {
+    "name": "Tosu Power Station 66kV",
+    "bus": 2547,
+    "pMw": 98.4409617925494,
+    "qMvar": 19.989289853118258
+  },
+  {
+    "name": "Kisaki Substation 66kV",
+    "bus": 2550,
+    "pMw": 167.07423205317235,
+    "qMvar": 33.92586978717198
+  },
+  {
+    "name": "Koga Substation 66kV",
+    "bus": 2552,
+    "pMw": 262.46182952103334,
+    "qMvar": 53.29514757009136
+  },
+  {
+    "name": "Hita SS 66kV",
+    "bus": 2557,
+    "pMw": 110.91787285001155,
+    "qMvar": 22.52283470129612
+  },
+  {
+    "name": "East Fukuoka Substation 66kV",
+    "bus": 2563,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Minamifukuoka SS 66kV",
+    "bus": 2565,
+    "pMw": 560.6822673377532,
+    "qMvar": 113.85139024684081
+  },
+  {
+    "name": "Moji Substation 66kV",
+    "bus": 2573,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "JR West New Fukuoka Substation 66kV",
+    "bus": 2576,
+    "pMw": 195.6093135503219,
+    "qMvar": 39.72016521706533
+  },
+  {
+    "name": "Sumiyoshi SS 66kV",
+    "bus": 2577,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Akasaka SS 66kV",
+    "bus": 2581,
+    "pMw": 117.94828069172783,
+    "qMvar": 23.95041990134583
+  },
+  {
+    "name": "Kaho SS 66kV",
+    "bus": 2588,
+    "pMw": 226.87351703272503,
+    "qMvar": 46.068632501991075
+  },
+  {
+    "name": "Hitoyoshi Substation 66kV",
+    "bus": 2592,
+    "pMw": 127.75784588478305,
+    "qMvar": 25.942337070849565
+  },
+  {
+    "name": "Yuge SS 66kV",
+    "bus": 2594,
+    "pMw": 163.14357853808286,
+    "qMvar": 33.127716548981574
+  },
+  {
+    "name": "Kyuushuudenryokumidorikawa SS 66kV",
+    "bus": 2596,
+    "pMw": 133.48226239729215,
+    "qMvar": 27.10472942079084
+  },
+  {
+    "name": "Ooita SS 66kV",
+    "bus": 2598,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  },
+  {
+    "name": "Saga Substation 66kV",
+    "bus": 2604,
+    "pMw": 232.02628192607932,
+    "qMvar": 47.114946039797516
+  },
+  {
+    "name": "New Kagoshima Substation 66kV",
+    "bus": 2611,
+    "pMw": 268.9956144090162,
+    "qMvar": 54.621889178315854
+  },
+  {
+    "name": "North Kumamoto Substation 66kV",
+    "bus": 2613,
+    "pMw": 157.34649857969927,
+    "qMvar": 31.95056925704397
+  },
+  {
+    "name": "Uto Substation 66kV",
+    "bus": 2615,
+    "pMw": 118.17738999959248,
+    "qMvar": 23.996942530539606
+  },
+  {
+    "name": "Izumi Substation 66kV",
+    "bus": 2618,
+    "pMw": 159.89635155352022,
+    "qMvar": 32.46833898672168
+  },
+  {
+    "name": "Nishitani Substation 66kV",
+    "bus": 2620,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Substation 296786436 66kV",
+    "bus": 2676,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Koujaku Substation 66kV",
+    "bus": 2677,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Itozu Sub Station 66kV",
+    "bus": 2684,
+    "pMw": 68.8335946027645,
+    "qMvar": 13.977257526661377
+  },
+  {
+    "name": "Substation 315608216 66kV",
+    "bus": 2695,
+    "pMw": 108.5267051319641,
+    "qMvar": 22.037287387118138
+  },
+  {
+    "name": "Kanayama SS 66kV",
+    "bus": 2701,
+    "pMw": 48.32461809901911,
+    "qMvar": 9.812732226836577
+  },
+  {
+    "name": "South Tsuyama Substation 66kV",
+    "bus": 2703,
+    "pMw": 182.51549229410918,
+    "qMvar": 37.061351410197716
+  },
+  {
+    "name": "Ogori Substation 66kV",
+    "bus": 2711,
+    "pMw": 26.658022835499636,
+    "qMvar": 5.413142412127254
+  },
+  {
+    "name": "Toyama SS 66kV",
+    "bus": 2721,
+    "pMw": 75.43194632853046,
+    "qMvar": 15.317109990487483
+  },
+  {
+    "name": "Tomiminami SS 66kV",
+    "bus": 2728,
+    "pMw": 75.43194632853046,
+    "qMvar": 15.317109990487483
+  },
+  {
+    "name": "Oosumi SS 66kV",
+    "bus": 2738,
+    "pMw": 56.85422088803587,
+    "qMvar": 11.544741944914385
+  },
+  {
+    "name": "Kirishima SS 66kV",
+    "bus": 2739,
+    "pMw": 221.81643380434102,
+    "qMvar": 45.04174795492073
+  },
+  {
+    "name": "Kyuushuudenryoku Takanabe SS 66kV",
+    "bus": 2740,
+    "pMw": 58.852124277690784,
+    "qMvar": 11.95043353129385
+  },
+  {
+    "name": "Jinzui SS 66kV",
+    "bus": 2748,
+    "pMw": 153.6394924221805,
+    "qMvar": 31.197829551736202
+  },
+  {
+    "name": "Kumamoto Substation 66kV",
+    "bus": 2749,
+    "pMw": 3.2918004003541026,
+    "qMvar": 0.6684285803703828
+  },
+  {
+    "name": "Minamimiyazaki SS 66kV",
+    "bus": 2751,
+    "pMw": 176.1503841170287,
+    "qMvar": 35.76886106896921
+  },
+  {
+    "name": "Kitanagasaki SS 66kV",
+    "bus": 2763,
+    "pMw": 213.28189263302298,
+    "qMvar": 43.30873545554712
+  },
+  {
+    "name": "Nagasaki SS 66kV",
+    "bus": 2764,
+    "pMw": 215.011185110009,
+    "qMvar": 43.659883269768365
+  },
+  {
+    "name": "Kakoshima SS 66kV",
+    "bus": 2767,
+    "pMw": 238.9963400937891,
+    "qMvar": 48.53027671587376
+  },
+  {
+    "name": "SS 66kV",
+    "bus": 2770,
+    "pMw": 195.85983566097337,
+    "qMvar": 39.77103590131342
+  },
+  {
+    "name": "Substation 567592345 66kV",
+    "bus": 2797,
+    "pMw": 91.56153195265642,
+    "qMvar": 18.59236204390399
+  },
+  {
+    "name": "Kouchi SS 66kV",
+    "bus": 2799,
+    "pMw": 139.3673826925097,
+    "qMvar": 28.29975406560771
+  },
+  {
+    "name": "Oozu SS 66kV",
+    "bus": 2854,
+    "pMw": 80.81955901220881,
+    "qMvar": 16.411111406049983
+  },
+  {
+    "name": "Asa SS 66kV",
+    "bus": 2859,
+    "pMw": 68.38628531954205,
+    "qMvar": 13.886427502721071
+  },
+  {
+    "name": "Kitamatsuyama SS 66kV",
+    "bus": 2865,
+    "pMw": 130.77220945474195,
+    "qMvar": 26.554429700029356
+  },
+  {
+    "name": "Toudaitsu SS 66kV",
+    "bus": 2984,
+    "pMw": 70.1109594603419,
+    "qMvar": 14.23663752378199
+  },
+  {
+    "name": "Kagawa Substation 66kV",
+    "bus": 3009,
+    "pMw": 22.56175265244595,
+    "qMvar": 4.581359275161366
+  },
+  {
+    "name": "Takamatsu Substation 66kV",
+    "bus": 3010,
+    "pMw": 175.85458350433325,
+    "qMvar": 35.70879619274055
+  },
+  {
+    "name": "Nishiooita SS 66kV",
+    "bus": 3014,
+    "pMw": 32.25728057959303,
+    "qMvar": 6.5501201901874335
+  }
+]

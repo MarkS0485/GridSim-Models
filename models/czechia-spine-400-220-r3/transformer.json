@@ -1,0 +1,602 @@
+[
+  {
+    "name": "jao:27T-TR-CSTT401-T:0",
+    "from": 4,
+    "to": 55,
+    "rPu": 0.0002625,
+    "xPu": 0.024900000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "jao:27T-TR-HRAT402-B:1",
+    "from": 14,
+    "to": 57,
+    "rPu": 0.00020625,
+    "xPu": 0.02389375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.9090935489193
+  },
+  {
+    "name": "jao:27T-TR-PRNT401X5:2",
+    "from": 39,
+    "to": 70,
+    "rPu": 0.00026875,
+    "xPu": 0.0236375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "jao:27T-TR-SOKT401-H:3",
+    "from": 44,
+    "to": 71,
+    "rPu": 0.0003,
+    "xPu": 0.02643125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:bezdecin~bezdecin",
+    "from": 3,
+    "to": 53,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:chotejovice~chotejovice",
+    "from": 7,
+    "to": 56,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:milin~milin",
+    "from": 18,
+    "to": 61,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:prestice~prestice",
+    "from": 38,
+    "to": 69,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:vitkov~vitkov",
+    "from": 49,
+    "to": 73,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "synth:coupling:vyskov~vyskov",
+    "from": 50,
+    "to": 74,
+    "rPu": 0.00026686977680497547,
+    "xPu": 0.024413421918282545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.21627322589177
+  },
+  {
+    "name": "equiv:PL:CZ:wielopole [PL]:hv~CZ:bujakow [PL]:220",
+    "from": 51,
+    "to": 54,
+    "rPu": 0.007371196843067878,
+    "xPu": 0.0731802280589532,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:PL:CZ:wielopole [PL]:hv~CZ:kopanina [PL]:220",
+    "from": 51,
+    "to": 58,
+    "rPu": 0.0021906164927765555,
+    "xPu": 0.02350956246034622,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SK:CZ:senica [SK]:hv~CZ:p. bystrica [SK]:220",
+    "from": 42,
+    "to": 68,
+    "rPu": 0.19762780988994635,
+    "xPu": 1.2824867609118715,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SK:CZ:stupava [SK]:hv~CZ:p. bystrica [SK]:220",
+    "from": 45,
+    "to": 68,
+    "rPu": 0.038919971030238684,
+    "xPu": 0.28551119786125684,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SK:CZ:varin [SK]:hv~CZ:p. bystrica [SK]:220",
+    "from": 47,
+    "to": 68,
+    "rPu": 0.024611522676977478,
+    "xPu": 0.12778406591060443,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:CZ:albrechtice:hv",
+    "from": 76,
+    "to": 1,
+    "rPu": 0.051544540361263116,
+    "xPu": 1.0308908072252623,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 19.4006968146625
+  },
+  {
+    "name": "emb:CZ:babylon:hv",
+    "from": 77,
+    "to": 2,
+    "rPu": 0.0062419262725255855,
+    "xPu": 0.1248385254505117,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.20695476676684
+  },
+  {
+    "name": "gsu:CZ:babylon:hv",
+    "from": 78,
+    "to": 2,
+    "rPu": 0.0003209635416666666,
+    "xPu": 0.012838541666666665,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1129.4117647058824
+  },
+  {
+    "name": "emb:CZ:cebin:hv",
+    "from": 79,
+    "to": 5,
+    "rPu": 0.007836461880902182,
+    "xPu": 0.15672923761804364,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 127.60860898679876
+  },
+  {
+    "name": "emb:CZ:chodov:hv",
+    "from": 80,
+    "to": 6,
+    "rPu": 0.0039113714413371746,
+    "xPu": 0.0782274288267435,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 255.66480069664044
+  },
+  {
+    "name": "gsu:CZ:chotejovice:hv",
+    "from": 81,
+    "to": 7,
+    "rPu": 0.0003112373737373737,
+    "xPu": 0.012449494949494948,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1164.7058823529412
+  },
+  {
+    "name": "emb:CZ:chrast:hv",
+    "from": 82,
+    "to": 8,
+    "rPu": 0.0060798445525538794,
+    "xPu": 0.12159689105107759,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 164.47788941905486
+  },
+  {
+    "name": "emb:CZ:dasny:hv",
+    "from": 83,
+    "to": 9,
+    "rPu": 0.0026842356721331903,
+    "xPu": 0.05368471344266381,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 372.5455295828363
+  },
+  {
+    "name": "emb:CZ:detmarovice:hv",
+    "from": 84,
+    "to": 10,
+    "rPu": 0.031215953362994653,
+    "xPu": 0.6243190672598931,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.034901781518634
+  },
+  {
+    "name": "emb:CZ:h. zivotice:hv",
+    "from": 85,
+    "to": 13,
+    "rPu": 0.020068676123278555,
+    "xPu": 0.40137352246557106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.828897225565136
+  },
+  {
+    "name": "gsu:CZ:h. zivotice:hv",
+    "from": 86,
+    "to": 13,
+    "rPu": 0.0004740384615384614,
+    "xPu": 0.018961538461538457,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 764.7058823529412
+  },
+  {
+    "name": "gsu:CZ:hradec:hv",
+    "from": 87,
+    "to": 14,
+    "rPu": 0.0003851562499999999,
+    "xPu": 0.015406249999999996,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 941.1764705882354
+  },
+  {
+    "name": "emb:CZ:kletne:hv",
+    "from": 88,
+    "to": 15,
+    "rPu": 0.019948860302502383,
+    "xPu": 0.39897720605004766,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.128176990369724
+  },
+  {
+    "name": "emb:CZ:kocin:hv",
+    "from": 89,
+    "to": 16,
+    "rPu": 0.009104575216612617,
+    "xPu": 0.18209150433225232,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 109.83488808740414
+  },
+  {
+    "name": "gsu:CZ:kocin:hv",
+    "from": 90,
+    "to": 16,
+    "rPu": 0.00014238678373382623,
+    "xPu": 0.005695471349353049,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2545.8823529411766
+  },
+  {
+    "name": "emb:CZ:krasikov:hv",
+    "from": 91,
+    "to": 17,
+    "rPu": 0.005464130852194923,
+    "xPu": 0.10928261704389847,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 183.01172264172686
+  },
+  {
+    "name": "gsu:CZ:milin:hv",
+    "from": 92,
+    "to": 18,
+    "rPu": 0.0008559027777777777,
+    "xPu": 0.034236111111111106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 423.5294117647059
+  },
+  {
+    "name": "emb:CZ:mirovka:hv",
+    "from": 93,
+    "to": 19,
+    "rPu": 0.012857450998319503,
+    "xPu": 0.25714901996639006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 77.77591375854377
+  },
+  {
+    "name": "emb:CZ:neznasov:hv",
+    "from": 94,
+    "to": 20,
+    "rPu": 0.006257351619433302,
+    "xPu": 0.12514703238866604,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 159.81201965609938
+  },
+  {
+    "name": "emb:CZ:nosovice:hv",
+    "from": 95,
+    "to": 21,
+    "rPu": 0.03178979931675687,
+    "xPu": 0.6357959863351375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.456631419276853
+  },
+  {
+    "name": "emb:CZ:otrokovice:hv",
+    "from": 96,
+    "to": 37,
+    "rPu": 0.003149748165154399,
+    "xPu": 0.06299496330308797,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 317.48569967052606
+  },
+  {
+    "name": "emb:CZ:reporyje:hv",
+    "from": 97,
+    "to": 40,
+    "rPu": 0.004522140776124947,
+    "xPu": 0.09044281552249894,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 221.13420380002117
+  },
+  {
+    "name": "emb:CZ:slavetice:hv",
+    "from": 98,
+    "to": 43,
+    "rPu": 0.0032353513405962105,
+    "xPu": 0.06470702681192421,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 309.0854422678311
+  },
+  {
+    "name": "gsu:CZ:slavetice:hv",
+    "from": 99,
+    "to": 43,
+    "rPu": 0.0001246460355987055,
+    "xPu": 0.00498584142394822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2908.235294117647
+  },
+  {
+    "name": "emb:CZ:tynec:hv",
+    "from": 100,
+    "to": 46,
+    "rPu": 0.01379066978735018,
+    "xPu": 0.2758133957470036,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 72.51279418765243
+  },
+  {
+    "name": "gsu:CZ:tynec:hv",
+    "from": 101,
+    "to": 46,
+    "rPu": 0.0003757621951219512,
+    "xPu": 0.015030487804878047,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 964.7058823529412
+  },
+  {
+    "name": "emb:CZ:vernerov:hv",
+    "from": 102,
+    "to": 48,
+    "rPu": 0.013765625551399185,
+    "xPu": 0.2753125110279837,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 72.64471899704962
+  },
+  {
+    "name": "gsu:CZ:vernerov:hv",
+    "from": 103,
+    "to": 48,
+    "rPu": 0.00013755580357142856,
+    "xPu": 0.005502232142857142,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2635.294117647059
+  },
+  {
+    "name": "gsu:CZ:vitkov:hv",
+    "from": 104,
+    "to": 49,
+    "rPu": 0.0007703124999999998,
+    "xPu": 0.030812499999999993,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 470.5882352941177
+  },
+  {
+    "name": "gsu:CZ:vyskov:hv",
+    "from": 105,
+    "to": 50,
+    "rPu": 0.00016682458040064967,
+    "xPu": 0.006672983216025987,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2172.9411764705883
+  },
+  {
+    "name": "emb:CZ:bezdecin:220",
+    "from": 106,
+    "to": 53,
+    "rPu": 0.0031705356331129227,
+    "xPu": 0.06341071266225845,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 315.4041195929318
+  },
+  {
+    "name": "emb:CZ:c. stred:220",
+    "from": 107,
+    "to": 55,
+    "rPu": 0.012760004900836211,
+    "xPu": 0.2552000980167242,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 78.36987585596195
+  },
+  {
+    "name": "emb:CZ:chotejovice:220",
+    "from": 108,
+    "to": 56,
+    "rPu": 0.004778932335890674,
+    "xPu": 0.09557864671781349,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 209.25175953838334
+  },
+  {
+    "name": "emb:CZ:hradec:220",
+    "from": 109,
+    "to": 57,
+    "rPu": 0.019258593934165538,
+    "xPu": 0.38517187868331076,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 51.924870705433946
+  },
+  {
+    "name": "emb:CZ:liskovec:220",
+    "from": 110,
+    "to": 59,
+    "rPu": 0.003862849292150411,
+    "xPu": 0.07725698584300822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 258.87626577409384
+  },
+  {
+    "name": "emb:CZ:malesice:220",
+    "from": 111,
+    "to": 60,
+    "rPu": 0.0051915138998604934,
+    "xPu": 0.10383027799720987,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 192.62204036993373
+  },
+  {
+    "name": "emb:CZ:milin:220",
+    "from": 112,
+    "to": 61,
+    "rPu": 0.008282332143262641,
+    "xPu": 0.16564664286525282,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 120.73893955260677
+  },
+  {
+    "name": "emb:CZ:opocinek:220",
+    "from": 113,
+    "to": 62,
+    "rPu": 0.007128975821310039,
+    "xPu": 0.1425795164262008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 140.27260367622307
+  },
+  {
+    "name": "gsu:CZ:opocinek:220",
+    "from": 114,
+    "to": 62,
+    "rPu": 0.0008559027777777777,
+    "xPu": 0.034236111111111106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 423.5294117647059
+  },
+  {
+    "name": "emb:CZ:prestice:220",
+    "from": 115,
+    "to": 69,
+    "rPu": 0.004602823114354273,
+    "xPu": 0.09205646228708546,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 217.2579686760979
+  },
+  {
+    "name": "emb:CZ:prosenice:220",
+    "from": 116,
+    "to": 70,
+    "rPu": 0.004210167643269663,
+    "xPu": 0.08420335286539327,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 237.5202330953712
+  },
+  {
+    "name": "emb:CZ:sokolnice:220",
+    "from": 117,
+    "to": 71,
+    "rPu": 0.0017789634416616584,
+    "xPu": 0.03557926883323317,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 562.1250985719752
+  },
+  {
+    "name": "emb:CZ:tabor:220",
+    "from": 118,
+    "to": 72,
+    "rPu": 0.007474029861866439,
+    "xPu": 0.1494805972373288,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 133.79662892466376
+  },
+  {
+    "name": "emb:CZ:vitkov:220",
+    "from": 119,
+    "to": 73,
+    "rPu": 0.0077658817051481895,
+    "xPu": 0.1553176341029638,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 128.76837917027194
+  },
+  {
+    "name": "emb:CZ:vyskov:220",
+    "from": 120,
+    "to": 74,
+    "rPu": 0.008643954263725145,
+    "xPu": 0.17287908527450288,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 115.687793976023
+  }
+]

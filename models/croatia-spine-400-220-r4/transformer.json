@@ -1,0 +1,312 @@
+[
+  {
+    "name": "jao:31T-0000-B-0004S:0",
+    "from": 5,
+    "to": 18,
+    "rPu": 0.00036356140252244147,
+    "xPu": 0.029234834429639624,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "jao:31T-0000-B-0005Q:1",
+    "from": 5,
+    "to": 18,
+    "rPu": 0.0003654354303704953,
+    "xPu": 0.029234834429639624,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "jao:31T-0000-B-0002W:2",
+    "from": 7,
+    "to": 20,
+    "rPu": 0.0003673094582185491,
+    "xPu": 0.02904743164483424,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "jao:31T-0000-B-0003U:3",
+    "from": 7,
+    "to": 20,
+    "rPu": 0.0003879237645471411,
+    "xPu": 0.02979704278405577,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "jao:31T-0000-B-0001Y:4",
+    "from": 14,
+    "to": 35,
+    "rPu": 0.0003654354303704953,
+    "xPu": 0.030546653923277302,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:220",
+    "from": 1,
+    "to": 17,
+    "rPu": 0.0884873400746945,
+    "xPu": 0.9074350924751383,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:HR:cirkovce [SI]:hv~HR:podlog [SI]:220",
+    "from": 1,
+    "to": 29,
+    "rPu": 0.0023370637337923154,
+    "xPu": 0.05636748794499865,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:HR:divaca [SI]:hv~HR:divaca [SI]:220",
+    "from": 2,
+    "to": 17,
+    "rPu": 0.000779473123795404,
+    "xPu": 0.027818818718802436,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:HR:krsko [SI]:hv~HR:divaca [SI]:220",
+    "from": 6,
+    "to": 17,
+    "rPu": 0.023110347975408188,
+    "xPu": 0.2641286058147773,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:HR:divaca [SI]:hv~HR:podlog [SI]:220",
+    "from": 2,
+    "to": 29,
+    "rPu": 0.010097709367616819,
+    "xPu": 0.1767622907113821,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:SI:HR:krsko [SI]:hv~HR:podlog [SI]:220",
+    "from": 6,
+    "to": 29,
+    "rPu": 0.004657458160879882,
+    "xPu": 0.08159067280200209,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:HR:ernestinovo:hv",
+    "from": 36,
+    "to": 3,
+    "rPu": 0.012517546366963792,
+    "xPu": 0.25035092733927583,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 79.88786066246912
+  },
+  {
+    "name": "gsu:HR:melina:hv",
+    "from": 37,
+    "to": 7,
+    "rPu": 0.0009628906249999998,
+    "xPu": 0.03851562499999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 376.47058823529414
+  },
+  {
+    "name": "emb:HR:tumbri:hv",
+    "from": 38,
+    "to": 11,
+    "rPu": 0.0032822430552615816,
+    "xPu": 0.06564486110523163,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 304.66969787534646
+  },
+  {
+    "name": "emb:HR:velebit:hv",
+    "from": 39,
+    "to": 13,
+    "rPu": 0.001373069603131644,
+    "xPu": 0.02746139206263288,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 728.295199106614
+  },
+  {
+    "name": "gsu:HR:zerjavinec:hv",
+    "from": 40,
+    "to": 14,
+    "rPu": 0.0007336309523809523,
+    "xPu": 0.02934523809523809,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 494.11764705882354
+  },
+  {
+    "name": "emb:HR:bilice:220",
+    "from": 41,
+    "to": 15,
+    "rPu": 0.005441068966201495,
+    "xPu": 0.1088213793240299,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 183.78741497520798
+  },
+  {
+    "name": "emb:HR:brinje:220",
+    "from": 42,
+    "to": 16,
+    "rPu": 0.002711769470724314,
+    "xPu": 0.05423538941448628,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 368.762909530396
+  },
+  {
+    "name": "emb:HR:konjsko:220",
+    "from": 43,
+    "to": 18,
+    "rPu": 0.002137164166022868,
+    "xPu": 0.04274328332045736,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 467.9097730994334
+  },
+  {
+    "name": "emb:HR:meduric:220",
+    "from": 44,
+    "to": 19,
+    "rPu": 0.008413205347091536,
+    "xPu": 0.16826410694183072,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 118.86076218806453
+  },
+  {
+    "name": "emb:HR:melina:220",
+    "from": 45,
+    "to": 20,
+    "rPu": 0.008641176077457648,
+    "xPu": 0.17282352154915295,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 115.72498824653202
+  },
+  {
+    "name": "emb:HR:mraclin:220",
+    "from": 46,
+    "to": 22,
+    "rPu": 0.1116495713692827,
+    "xPu": 2.232991427385654,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 8.956595065577854
+  },
+  {
+    "name": "emb:HR:pehlin:220",
+    "from": 47,
+    "to": 27,
+    "rPu": 0.019684370928755128,
+    "xPu": 0.3936874185751026,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.80172506499508
+  },
+  {
+    "name": "emb:HR:plomin:220",
+    "from": 48,
+    "to": 28,
+    "rPu": 0.03615509129779929,
+    "xPu": 0.7231018259559858,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 27.658621900945622
+  },
+  {
+    "name": "gsu:HR:plomin:220",
+    "from": 49,
+    "to": 28,
+    "rPu": 0.0009009502923976606,
+    "xPu": 0.036038011695906425,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 402.3529411764706
+  },
+  {
+    "name": "emb:HR:senj:220",
+    "from": 50,
+    "to": 31,
+    "rPu": 0.0030307352711951823,
+    "xPu": 0.060614705423903646,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 329.9529356800754
+  },
+  {
+    "name": "emb:HR:te sisak:220",
+    "from": 51,
+    "to": 32,
+    "rPu": 0.21330437234205396,
+    "xPu": 4.266087446841079,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.688136436305227
+  },
+  {
+    "name": "emb:HR:ve padene:220",
+    "from": 52,
+    "to": 33,
+    "rPu": 0.003167933267938714,
+    "xPu": 0.06335866535877428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 315.66321491698346
+  },
+  {
+    "name": "emb:HR:zakucac:220",
+    "from": 53,
+    "to": 34,
+    "rPu": 0.001493391204876289,
+    "xPu": 0.02986782409752578,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 669.6169073011508
+  },
+  {
+    "name": "gsu:HR:zakucac:220",
+    "from": 54,
+    "to": 34,
+    "rPu": 0.0005727230483271375,
+    "xPu": 0.022908921933085497,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 632.9411764705883
+  },
+  {
+    "name": "emb:HR:zerjavinec:220",
+    "from": 55,
+    "to": 35,
+    "rPu": 0.0018106450492270496,
+    "xPu": 0.03621290098454099,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 552.2893625268478
+  }
+]

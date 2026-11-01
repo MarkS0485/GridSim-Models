@@ -1,0 +1,4742 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Austria transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): APG lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (APG for Austria)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Austria (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Austria units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Austria 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Austria, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "42": [
+   "model_assembly",
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "51": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "52": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "53": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "54": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "55": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "56": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "57": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "58": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "59": [
+   "model_assembly",
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "60": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "61": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "62": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "63": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "64": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "65": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "66": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "67": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "68": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "69": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "70": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "71": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "72": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "73": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "74": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "75": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "76": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "77": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "78": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "79": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "80": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "81": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "82": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "83": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "84": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "85": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "86": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "87": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "88": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "89": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "90": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "91": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "92": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "93": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "94": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "95": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "96": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "97": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "98": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "99": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "100": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "101": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "102": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "103": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "104": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "105": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "106": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "107": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "108": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "109": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "110": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "111": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "112": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "113": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "114": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "115": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "116": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "117": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "118": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "119": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "120": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "121": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "122": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "123": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "124": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "125": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "126": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "127": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "128": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "129": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "130": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "131": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "132": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "133": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "134": [
+   "model_assembly"
+  ],
+  "135": [
+   "model_assembly"
+  ],
+  "136": [
+   "model_assembly"
+  ],
+  "137": [
+   "model_assembly"
+  ],
+  "138": [
+   "model_assembly"
+  ],
+  "139": [
+   "model_assembly"
+  ],
+  "140": [
+   "model_assembly"
+  ],
+  "141": [
+   "model_assembly"
+  ],
+  "142": [
+   "model_assembly"
+  ],
+  "143": [
+   "model_assembly"
+  ],
+  "144": [
+   "model_assembly"
+  ],
+  "145": [
+   "model_assembly"
+  ],
+  "146": [
+   "model_assembly"
+  ],
+  "147": [
+   "model_assembly"
+  ],
+  "148": [
+   "model_assembly"
+  ],
+  "149": [
+   "model_assembly"
+  ],
+  "150": [
+   "model_assembly"
+  ],
+  "151": [
+   "model_assembly"
+  ],
+  "152": [
+   "model_assembly"
+  ],
+  "153": [
+   "model_assembly"
+  ],
+  "154": [
+   "model_assembly"
+  ],
+  "155": [
+   "model_assembly"
+  ],
+  "156": [
+   "model_assembly"
+  ],
+  "157": [
+   "model_assembly"
+  ],
+  "158": [
+   "model_assembly"
+  ],
+  "159": [
+   "model_assembly"
+  ],
+  "160": [
+   "model_assembly"
+  ],
+  "161": [
+   "model_assembly"
+  ],
+  "162": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "165": [
+   "model_assembly"
+  ],
+  "166": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "168": [
+   "model_assembly"
+  ],
+  "169": [
+   "model_assembly"
+  ],
+  "170": [
+   "model_assembly"
+  ],
+  "171": [
+   "model_assembly"
+  ],
+  "172": [
+   "model_assembly"
+  ],
+  "173": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "176": [
+   "model_assembly"
+  ],
+  "177": [
+   "model_assembly"
+  ],
+  "178": [
+   "model_assembly"
+  ],
+  "179": [
+   "model_assembly"
+  ],
+  "180": [
+   "model_assembly"
+  ],
+  "181": [
+   "model_assembly"
+  ],
+  "182": [
+   "model_assembly"
+  ],
+  "183": [
+   "model_assembly"
+  ],
+  "184": [
+   "model_assembly"
+  ],
+  "185": [
+   "model_assembly"
+  ],
+  "186": [
+   "model_assembly"
+  ],
+  "187": [
+   "model_assembly"
+  ],
+  "188": [
+   "model_assembly"
+  ],
+  "189": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Bisamberg - Ybbsfeld 207:0": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Ybbsfeld 208:1": [
+   "jao_sgm"
+  ],
+  "jao:Ernsthofen - Wallsee 205A:2": [
+   "jao_sgm"
+  ],
+  "jao:Ernsthofen - Ybbsfeld 206:3": [
+   "jao_sgm"
+  ],
+  "jao:Wallsee - Ybbsfeld 205B:4": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Obersielach 286:5": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Weissenbach 223:6": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Weissenbach 224:7": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Zeltweg 287:8": [
+   "jao_sgm"
+  ],
+  "jao:Obersielach - Zeltweg 285:9": [
+   "jao_sgm"
+  ],
+  "jao:Pongau - Weissenbach 221:10": [
+   "jao_sgm"
+  ],
+  "jao:Pongau - Weissenbach 222:11": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Duernrohr 297:12": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Duernrohr 298:13": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Duernrohr 436A:14": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Duernrohr 444A:15": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Kledering 228B:16": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Sarasdorf 444C:17": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Wien Suedost 227:18": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Wien Suedost 436B:19": [
+   "jao_sgm"
+  ],
+  "jao:Bisamberg - Zaya 443B:20": [
+   "jao_sgm"
+  ],
+  "jao:Duernrohr - Etzersdorf 434B:21": [
+   "jao_sgm"
+  ],
+  "jao:Duernrohr - Kronstorf 433:22": [
+   "jao_sgm"
+  ],
+  "jao:Duernrohr - Wien Suedost 435A:23": [
+   "jao_sgm"
+  ],
+  "jao:Ernsthofen - Klaus 201B:24": [
+   "jao_sgm"
+  ],
+  "jao:Ernsthofen - Weissenbach 202:25": [
+   "jao_sgm"
+  ],
+  "jao:Etzersdorf - Kronstorf 434A:26": [
+   "jao_sgm"
+  ],
+  "jao:Hausruck - Sattledt 204C:27": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Ternitz 225A:28": [
+   "jao_sgm"
+  ],
+  "jao:Hessenberg - Ternitz 226A:29": [
+   "jao_sgm"
+  ],
+  "jao:Jochenstein - Schaerding 237:30": [
+   "jao_sgm"
+  ],
+  "jao:Jochenstein - Schaerding 238:31": [
+   "jao_sgm"
+  ],
+  "jao:Kainachtal - Obersielach 471:32": [
+   "jao_sgm"
+  ],
+  "jao:Kainachtal - Obersielach 472:33": [
+   "jao_sgm"
+  ],
+  "jao:Kaprun - Tauern 457B:34": [
+   "jao_sgm"
+  ],
+  "jao:Kledering - Wien Suedost 228A:35": [
+   "jao_sgm"
+  ],
+  "jao:Kronstorf - St. Peter 431:36": [
+   "jao_sgm"
+  ],
+  "jao:Kronstorf - St. Peter 432:37": [
+   "jao_sgm"
+  ],
+  "jao:Lienz - Matrei 452A:38": [
+   "jao_sgm"
+  ],
+  "jao:Lienz - Tauern 451:39": [
+   "jao_sgm"
+  ],
+  "jao:Matrei - Tauern 452B:40": [
+   "jao_sgm"
+  ],
+  "jao:Mayrhofen - Zell am Ziller 219:41": [
+   "jao_sgm"
+  ],
+  "jao:Mayrhofen - Zell am Ziller 220:42": [
+   "jao_sgm"
+  ],
+  "jao:Neusiedl - Wien Suedost 246A:43": [
+   "jao_sgm"
+  ],
+  "jao:Oststeiermark - Dreibein Mellach 475SR:44": [
+   "jao_sgm"
+  ],
+  "jao:Oststeiermark - Wien Suedost 477:45": [
+   "jao_sgm"
+  ],
+  "jao:Phyrn - Weissenbach 201A:46": [
+   "jao_sgm"
+  ],
+  "jao:Pongau - Kaprun 456C:47": [
+   "jao_sgm"
+  ],
+  "jao:Salzburg - Pongau 456B:48": [
+   "jao_sgm"
+  ],
+  "jao:Salzburg 2 - Salzach 2 232B:49": [
+   "jao_sgm"
+  ],
+  "jao:Salzburg 2 - Salzach 2 232C:50": [
+   "jao_sgm"
+  ],
+  "jao:Sarasdorf - Wien Suedost 443D:51": [
+   "jao_sgm"
+  ],
+  "jao:Sarasdorf - Zaya 443C:52": [
+   "jao_sgm"
+  ],
+  "jao:Sarasdorf - Zurndorf 439A:53": [
+   "jao_sgm"
+  ],
+  "jao:Sarasdorf - Zurndorf 440A:54": [
+   "jao_sgm"
+  ],
+  "jao:Schwarzenbach - Tauern 417B:55": [
+   "jao_sgm"
+  ],
+  "jao:Schwarzenbach - Zell am Ziller 417A:56": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter - Salzburg 456A:57": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter - Schaerding 235:58": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter - Schaerding 236:59": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter - Wagenham 455A:60": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter 2 - SW Weibern 203A:61": [
+   "jao_sgm"
+  ],
+  "jao:St. Peter 2 - SW Weibern 204A:62": [
+   "jao_sgm"
+  ],
+  "jao:Suedburgenland - Dreibein Mellach 476SU:63": [
+   "jao_sgm"
+  ],
+  "jao:Suedburgenland - Wien Suedost 478:64": [
+   "jao_sgm"
+  ],
+  "jao:SW Weibern - Hausruck 204B:65": [
+   "jao_sgm"
+  ],
+  "jao:SW Weibern- Hausruck 203B:66": [
+   "jao_sgm"
+  ],
+  "jao:Tauern - Zell am Ziller 418:67": [
+   "jao_sgm"
+  ],
+  "jao:Ternitz - Wien Suedost 225B:68": [
+   "jao_sgm"
+  ],
+  "jao:Ternitz - Wien Suedost 226B:69": [
+   "jao_sgm"
+  ],
+  "jao:Wagenham - Tauern 455B:70": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Nauders 427:71": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Nauders 428:72": [
+   "jao_sgm"
+  ],
+  "jao:Duernrohr - Slavetice 437:73": [
+   "jao_sgm"
+  ],
+  "jao:Duernrohr - Slavetice 438:74": [
+   "jao_sgm"
+  ],
+  "jao:St.Peter - Pirach 256:75": [
+   "jao_sgm"
+  ],
+  "jao:St.Peter - Pleinting 258:76": [
+   "jao_sgm"
+  ],
+  "jao:St.Peter - Altheim 233/230:77": [
+   "jao_sgm"
+  ],
+  "jao:St.Peter - Simbach 234/230:78": [
+   "jao_sgm"
+  ],
+  "jao:Obersielach - Podlog 247:79": [
+   "jao_sgm"
+  ],
+  "jao:Zaya - Sokolnice 243:80": [
+   "jao_sgm"
+  ],
+  "jao:Zaya - Sokolnice 244:81": [
+   "jao_sgm"
+  ],
+  "jao:Kainachtal - Maribor 473:82": [
+   "jao_sgm"
+  ],
+  "jao:Kainachtal - Maribor 474:83": [
+   "jao_sgm"
+  ],
+  "jao:Lienz - Auronzo 261:84": [
+   "jao_sgm"
+  ],
+  "jao:Nauders - Pradella 429:85": [
+   "jao_sgm"
+  ],
+  "jao:Nauders - Pradella 430:86": [
+   "jao_sgm"
+  ],
+  "jao:Neusiedl - Gyoer 246B:87": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Buers 422:88": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Leupolz 412:89": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Voehringen 411:90": [
+   "jao_sgm"
+  ],
+  "jao:Wien Suedost - Gyoer 245:91": [
+   "jao_sgm"
+  ],
+  "jao:Zurndorf - Gyoer 439B:92": [
+   "jao_sgm"
+  ],
+  "jao:Zurndorf - Szombathely 440B:93": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Zaya - V243:94": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Zaya - V244:95": [
+   "jao_sgm"
+  ],
+  "jao:Buers - Westtirol ws (421):96": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Silz 274E:97": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Silz 413:98": [
+   "jao_sgm"
+  ],
+  "jao:Westtirol - Silz 414:99": [
+   "jao_sgm"
+  ],
+  "jao:Y-St. Peter (-Simbach - Altheim) 233/230:100": [
+   "jao_sgm"
+  ],
+  "jao:Y-St. Peter (-Simbach - Altheim) 234/230:101": [
+   "jao_sgm"
+  ],
+  "osm:osm umspannwerk st. peter - salzburg 380 (OSM merged_way/105362719-380+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk st. peter - salzburg 380 (OSM merged_way/105362719-380+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kledering - osm umspannwerk simmering - -anlage 380 (OSM merged_way/1072318428-380+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kaprun - osm virtual_way/1341556718:a:1 380 (OSM merged_way/108041985-380+2 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kaprun - osm virtual_way/1341556718:a:1 380 (OSM merged_way/108041985-380+2 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/1111028010:0 - osm schaltanlage kopswerk i 220 (OSM merged_way/1111028010-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/1111028010:0 - osm schaltanlage kopswerk i 220 (OSM merged_way/1111028010-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk thei - etzersdorf 380 (OSM merged_way/118924344-380+2 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk thei - etzersdorf 380 (OSM merged_way/118924344-380+2 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk pottenbrunn - etzersdorf 380 (OSM merged_way/119427097-380+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk pottenbrunn - etzersdorf 380 (OSM merged_way/119427097-380+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:obersielach - osm virtual_way/82745755:0 220 (OSM merged_way/130229448-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:obersielach - osm virtual_way/82745755:0 220 (OSM merged_way/130229448-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - bisamberg 400 (OSM merged_way/23049236-400+2 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - bisamberg 400 (OSM merged_way/23049236-400+2 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk vill - osm virtual_way/26971631:0 220 (OSM merged_way/25359793:b-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk vill - osm virtual_way/26971631:0 220 (OSM merged_way/25359793:b-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ybbsfeld - osm virtual_way/42412115:1 220 (OSM merged_way/42412115-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ybbsfeld - osm virtual_way/42412115:1 220 (OSM merged_way/42412115-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - osm virtual_way/529275594:1 400 (OSM merged_way/529275594-400+2 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - osm virtual_way/529275594:1 400 (OSM merged_way/529275594-400+2 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:wien suedost - kledering 380 (OSM merged_way/554275861-380+2 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:wien suedost - kledering 380 (OSM merged_way/554275861-380+2 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm malta hauptstufe - osm virtual_way/592380589:1 220 (OSM merged_way/592380611-220+5)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/95863557:a:0 - schaerding 220 (OSM merged_way/95863557:b-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/95863557:a:0 - schaerding 220 (OSM merged_way/95863557:b-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:obersielach - osm kraftwerk edling 220 (OSM relation/1646193:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk werben - dornbirn - osm umspannwerk walgauwerk 220 (OSM relation/1750800:c-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk walgauwerk - osm way/291703253 220 (OSM relation/1750800:d-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/291703253 - osm umspannwerk lunerseewerk 220 (OSM relation/3948316-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/291703253 - osm umspannwerk lunerseewerk 220 (OSM relation/3948316-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/291703253 - westtirol 220 (OSM relation/3948318-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/291703253 - westtirol 380 (OSM relation/3948319-380)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk meiningen - osm way/291703253 220 (OSM relation/3948322-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/291703253 - osm umspannwerk walgauwerk 220 (OSM relation/3948323:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk meiningen - osm umspannwerk werben - dornbirn 220 (OSM relation/3948324-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk walgauwerk - osm umspannwerk werben - dornbirn 220 (OSM relation/3948326:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk rosshag - mayrhofen 220 (OSM relation/7343920-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk rosshag - mayrhofen 220 (OSM relation/7343921-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mayrhofen - osm virtual_relation/7343922:1 220 (OSM relation/7343922-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk prutz - westtirol 220 (OSM way/100602289-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk prutz - westtirol 220 (OSM way/100602289-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm schaltanlage kopswerk i - osm umspannwerk rodundwerk ii 220 (OSM way/101994798-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm schaltanlage kopswerk i - osm umspannwerk rodundwerk ii 220 (OSM way/101994798-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kainachtal - osm umspannwerk mellach 380 (OSM way/103401934-380)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk mellach - osm virtual_way/103401937:1 380 (OSM way/103401937-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk mellach - osm virtual_way/103401937:1 380 (OSM way/103401937-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/103401937:1 - oststeiermark 380 (OSM way/103404265-380)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ernsthofen - osm virtual_way/42412115:1 220 (OSM way/107358544-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ernsthofen - osm virtual_way/42412115:1 220 (OSM way/107358544-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sw weibern - osm virtual_way/95863557:a:0 220 (OSM way/118106734-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sw weibern - osm virtual_way/95863557:a:0 220 (OSM way/118106734-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:klaus - osm umspannwerk pyhrn 220 (OSM way/118107148:b-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:klaus - osm umspannwerk pyhrn 220 (OSM way/118107148:b-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk pyhrn - weissenbach 220 (OSM way/118756369-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk pyhrn - weissenbach 220 (OSM way/118756369-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:etzersdorf - osm umspannwerk durnrohr 380 (OSM way/118759917-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:etzersdorf - osm umspannwerk durnrohr 380 (OSM way/118759917-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kendlerstra e - osm umspannwerk simmering - -anlage 380 (OSM way/1288252689-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kendlerstra e - osm umspannwerk simmering - -anlage 380 (OSM way/1288252689-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28457294:1 - osm virtual_way/28458149:0 380 (OSM way/129736841-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28457294:1 - osm virtual_way/28458149:0 380 (OSM way/129736841-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kraftwerk rosegg - osm virtual_way/84998489:0 220 (OSM way/129775568-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm kraftwerk rosegg - osm virtual_way/84998489:0 220 (OSM way/129775568-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/84998489:0 - obersielach 220 (OSM way/129775569-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/84998489:0 - obersielach 220 (OSM way/129775569-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk sud - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/134565165-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk sud - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/134565165-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kendlerstra e - osm umspannwerk sud 380 (OSM way/134565946-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kendlerstra e - osm umspannwerk sud 380 (OSM way/134565946-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lienz - osm umspannwerk greuth 220 (OSM way/161719235-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lienz - osm umspannwerk greuth 220 (OSM way/161719235-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lienz - osm malta hauptstufe 220 (OSM way/161719239-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lienz - osm malta hauptstufe 220 (OSM way/161719239-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm villach sud - osm kraftwerk rosegg 220 (OSM way/180468541-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm villach sud - osm kraftwerk rosegg 220 (OSM way/180468541-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:zurndorf - osm virtual_way/199901909:1 380 (OSM way/199901909-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:zurndorf - osm virtual_way/199901909:1 380 (OSM way/199901909-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk thaur - osm umspannwerk vill 220 (OSM way/25359793:a-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk thaur - osm umspannwerk vill 220 (OSM way/25359793:a-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:westtirol - zell am ziller 220 (OSM way/25359794-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:westtirol - zell am ziller 220 (OSM way/25359794-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk greifenstein 220 (OSM way/25528575-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm umspannwerk greifenstein 220 (OSM way/25528575-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:wien suedost - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/25540878-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:wien suedost - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/25540878-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk rodundwerk ii - osm way/291703253 220 (OSM way/260474368-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk rodundwerk ii - osm way/291703253 220 (OSM way/260474368-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - osm virtual_way/28457294:1 380 (OSM way/28458149-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28458149:0 - osm virtual_way/28457294:1 380 (OSM way/28458149-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sw weibern - osm umspannwerk aschach 220 (OSM way/33714868-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sw weibern - osm umspannwerk aschach 220 (OSM way/33714868-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk st. peter - ernsthofen 380 (OSM way/34538227-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk st. peter - ernsthofen 380 (OSM way/34538227-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ternitz - osm virtual_way/49432519:b:1 220 (OSM way/49432519:b-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ternitz - osm virtual_way/49432519:b:1 220 (OSM way/49432519:b-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sattledt - ernsthofen 220 (OSM way/81657994-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sattledt - ernsthofen 220 (OSM way/81657994-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - zaya 380 (OSM way/818730839-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/951818305:1 - zaya 380 (OSM way/818730839-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/82745755:0 - hessenberg 220 (OSM way/82745755-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/82745755:0 - hessenberg 220 (OSM way/82745755-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:oststeiermark - osm virtual_way/83742802:1 380 (OSM way/83742802-380)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk durnrohr - osm virtual_way/83947313:1 380 (OSM way/83947313-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk durnrohr - osm virtual_way/83947313:1 380 (OSM way/83947313-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk durnrohr - osm way/1001640574 380 (OSM way/84963242-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk durnrohr - osm way/1001640574 380 (OSM way/84963242-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/84998489:0 - osm freiluftschaltanlage feistritz 220 (OSM way/84998489-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/84998489:0 - osm freiluftschaltanlage feistritz 220 (OSM way/84998489-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/82745755:0 - zeltweg 220 (OSM way/88680176-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/82745755:0 - zeltweg 220 (OSM way/88680176-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:zell am ziller - osm schaltwerk strass 220 (OSM way/89425698-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:zell am ziller - osm schaltwerk strass 220 (OSM way/89425698-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kirchbichl - osm schaltwerk strass 220 (OSM way/89436110-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk kirchbichl - osm schaltwerk strass 220 (OSM way/89436110-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm schaltwerk strass - osm umspannwerk thaur 220 (OSM way/89436111-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm schaltwerk strass - osm umspannwerk thaur 220 (OSM way/89436111-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/42412115:1 - wallsee 220 (OSM way/90060335-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/42412115:1 - wallsee 220 (OSM way/90060335-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk greuth - osm villach sud 220 (OSM way/919864107-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk greuth - osm villach sud 220 (OSM way/919864107-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ernsthofen - etzersdorf 380 (OSM way/95159087-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ernsthofen - etzersdorf 380 (OSM way/95159087-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm kuhtai 220 (OSM way/95812120-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm umspannwerk silz - osm kuhtai 220 (OSM way/95812120-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/99720896:0 - suedburgenland 380 (OSM way/99720896-380)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/83742802:1 - osm virtual_way/99720896:0 380 (OSM way/99761296-380 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/83742802:1 - osm virtual_way/99720896:0 380 (OSM way/99761296-380 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:DE:AT:altheim [DE]:220~AT:pleinting [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:altheim [DE]:220~AT:silz [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:altheim [DE]:220~AT:y simbach [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:buers [DE]:hv~AT:leupolz [DE]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:pirach [DE]:220~AT:pleinting [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:pleinting [DE]:220~AT:silz [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:simbach [DE]:220~AT:y simbach [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:14T-38220-EH0425:0": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-EH0417:1": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-LI041Y:2": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-LI042W:3": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-OS0413:4": [
+   "jao_sgm"
+  ],
+  "jao:14T-RHU43-OS---K:5": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-OS0421:6": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-SP041V:7": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-SP042T:8": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-SP043R:9": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-WT041O:10": [
+   "jao_sgm"
+  ],
+  "jao:14T-38221-SO041S:11": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-SO042Y:12": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-ZZ041D:13": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-ZZ042B:14": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-RHU41V:15": [
+   "jao_sgm"
+  ],
+  "jao:14T-38220-LI043U:16": [
+   "jao_sgm"
+  ],
+  "synth:coupling:bisamberg~bisamberg": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:duernrohr~duernrohr": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:kledering~kledering": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:osm way/291703253~osm way/291703253": [
+   "model_assembly",
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "synth:coupling:pongau~pongau": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:salzburg~salzburg": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:CZ:AT:slavetice [CZ]:hv~AT:sokolnice [CZ]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:buers [DE]:hv~AT:voehringen [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:leupolz [DE]:hv~AT:voehringen [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:DE:AT:buers [DE]:hv~AT:buers [DE]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:AT:maribor [SI]:hv~AT:podlog [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:AT:dreibein mellach:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:duernrohr:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:etzersdorf:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:etzersdorf:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:kainachtal:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:kainachtal:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:kaprun:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:kaprun:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:kledering:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:kronstorf:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:lienz:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:matrei:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:nauders:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:nauders:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:oststeiermark:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:pongau:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:saint peter:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:sarasdorf:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:schwarzenbach:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:suedburgenland:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:tauern:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:wagenham:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:westtirol:hv": [
+   "model_assembly"
+  ],
+  "gsu:AT:zell am ziller:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:zurndorf:hv": [
+   "model_assembly"
+  ],
+  "emb:AT:bisamberg:220": [
+   "model_assembly"
+  ],
+  "emb:AT:duernrohr:220": [
+   "model_assembly"
+  ],
+  "emb:AT:ernsthofen:220": [
+   "model_assembly"
+  ],
+  "emb:AT:hausruck:220": [
+   "model_assembly"
+  ],
+  "emb:AT:hessenberg:220": [
+   "model_assembly"
+  ],
+  "emb:AT:jochenstein:220": [
+   "model_assembly"
+  ],
+  "emb:AT:klaus:220": [
+   "model_assembly"
+  ],
+  "emb:AT:kledering:220": [
+   "model_assembly"
+  ],
+  "emb:AT:lienz:220": [
+   "model_assembly"
+  ],
+  "emb:AT:mayrhofen:220": [
+   "model_assembly"
+  ],
+  "gsu:AT:mayrhofen:220": [
+   "model_assembly"
+  ],
+  "emb:AT:neusiedl:220": [
+   "model_assembly"
+  ],
+  "emb:AT:obersielach:220": [
+   "model_assembly"
+  ],
+  "emb:AT:phyrn:220": [
+   "model_assembly"
+  ],
+  "emb:AT:pongau:220": [
+   "model_assembly"
+  ],
+  "emb:AT:salzach:220": [
+   "model_assembly"
+  ],
+  "emb:AT:salzburg:220": [
+   "model_assembly"
+  ],
+  "emb:AT:sattledt:220": [
+   "model_assembly"
+  ],
+  "emb:AT:schaerding:220": [
+   "model_assembly"
+  ],
+  "emb:AT:st. peter:220": [
+   "model_assembly"
+  ],
+  "emb:AT:sw weibern:220": [
+   "model_assembly"
+  ],
+  "gsu:AT:sw weibern:220": [
+   "model_assembly"
+  ],
+  "emb:AT:ternitz:220": [
+   "model_assembly"
+  ],
+  "emb:AT:wallsee:220": [
+   "model_assembly"
+  ],
+  "emb:AT:weissenbach:220": [
+   "model_assembly"
+  ],
+  "emb:AT:westtirol:220": [
+   "model_assembly"
+  ],
+  "emb:AT:wien suedost:220": [
+   "model_assembly"
+  ],
+  "emb:AT:ybbsfeld:220": [
+   "model_assembly"
+  ],
+  "emb:AT:zaya:220": [
+   "model_assembly"
+  ],
+  "emb:AT:zell am ziller:220": [
+   "model_assembly"
+  ],
+  "emb:AT:zeltweg:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Import DE @ buers [DE]": [
+   "energy_charts"
+  ],
+  "Altenmarkt": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Obervogau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gabersdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kalsdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lebring": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spielfeld": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gralla": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Retznei": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Graz Umgebung Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leibnitz Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leibnitz Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leibnitz Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schwarzautal Bezirk Leibnitz Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ dreibein mellach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ dreibein mellach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Altenworth": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schildberg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haindorf Inning Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Krems Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Melk Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Polten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Egger Unterradlberg Dampfanlage": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hoher Kolbling Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Inzersdorf Getzersdorf Bezirk St Polten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krems Industriepark": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lower Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lower Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lower Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pottenbrunn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ etzersdorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ etzersdorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Theiss": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arnstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Friesach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "St Martin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gratkorn": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Weinzodl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Weissenegg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mellach Und Kuehlwasserturbine": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gossendorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teigitschmuhle": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Handalm Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dobl Zwaring Bezirk Graz Umgebung Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Freilaenderalm Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hierzman Speicher": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baernbach Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Deutschlandsberg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Deutschlandsberg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Graz Umgebung Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Graz Umgebung Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leibnitz Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Voitsberg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gratkorn Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ kainachtal": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kainachtal": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Mellach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nassfeld": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klammsee": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hirzbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Barenwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaprun Main Stage": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaprun Haupstufe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ kaprun": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kaprun": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kaprun Limberg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaprun Limberg #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Donaustadt": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Simmering": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Weyer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Losenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Staning": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grossraming": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Garsten": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pichlern": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Amstetten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Linz Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Steyr Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sankt Peter In Der Au Bezirk Amstetten Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Upper Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ kronstorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kronstorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ leupolz [DE]": [
+   "energy_charts"
+  ],
+  "Malta Hauptstufe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Reisseck": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kalserbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heinfels": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dorferbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ matrei": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ matrei": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Illwerke Vkw Lunerseewerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Walgauwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Latschauwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braz": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rifawerk Rifa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gemeinschaftskraftwerk Inn": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neuotting": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Obervermuntwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spullersee": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Kopswerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Rellswerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ nauders": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ nauders": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Obervermuntwerk Maschine Turbine": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Kopswerk #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Rodundwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Illwerke Vkw Vermuntwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Peggau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Graz Umgebung Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Weiz Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Furstkogel Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ oststeiermark": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ oststeiermark": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Malta Main Stage": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Import CH @ pradella [CH]": [
+   "energy_charts"
+  ],
+  "Bezirk Braunau Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Munderfing Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ saint peter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ saint peter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bruck Gottlesbrunn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Seibersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rohrau Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Marchfeld Mitte Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Trautmannsdorf Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sommerein Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Haadfeld Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Petronell Carnuntum Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hof Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Au Am Leithaberge Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Andlersdorf Orth Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck An Der Leitha Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck An Der Leitha Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ganserndorf Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Engelhartstetten Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sarasdorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sarasdorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Oberaudorf Ebbs": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Zell Am See Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Enzingerboden": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schneiderau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Uttendorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ schwarzenbach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ schwarzenbach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import CZ @ slavetice [CZ]": [
+   "energy_charts"
+  ],
+  "Bezirk Gussing Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Gussing Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nikitsch Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rohr Bei Hartberg Bezirk Hartberg Furstenfeld Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Furstenfeld Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ suedburgenland": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ suedburgenland": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gries": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Diessbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ tauern": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ tauern": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ wagenham": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ wagenham": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Silz Maschine": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prutz": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hausling": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prellenkirchen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nickelsdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Monchhof Dreijoch Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pama Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kittsee Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Albrechtsfeld Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Andau Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Neusiedl Am See Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Deutsch Haslau Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gattendorf Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Halbturn Heide Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Halbturn Neuriss Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Halbturn Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heidacker Monchhof Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Monchhof Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nickelsdorf Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wallern Tadten Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zurndorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ zurndorf": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ altheim [DE]": [
+   "energy_charts"
+  ],
+  "Greifenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nussdorf Vienna": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Korneuburg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schonkirchen Reyersdorf Bezirk Ganserndorf Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Obersiebenbrunn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grossengersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Parbasdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ladendorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kreuzstetten Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Auersthal Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gross Schweinbarth Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ganserndorf Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Debant": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leopoldau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ganserndorf Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Korneuburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Korneuburg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Mistelbach Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pillichsdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bisamberg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bisamberg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ buers [DE] #2": [
+   "energy_charts"
+  ],
+  "Bezirk Horn Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Horn Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Krems Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Polten Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Tulln Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Tulln Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grafenworth Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Japons Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Meiseldorf Bezirk Horn Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sankt Leonhard Am Hornerwald Bezirk Krems Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ duernrohr": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ duernrohr": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Abwinden Asten": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Linz Sud": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Linz Mitte": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Thurnsdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Muhlrading": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Freistadt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Linz Land Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Linz Land Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Linz Ag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nettingsdorf Paper Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Werk Linz": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ernsthofen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ ernsthofen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gmuend Speicher": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Laakirchen Paper Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Traunfall": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Gmunden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Steyrermuhl Paper Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ hausruck": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ hausruck": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Hieflau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Laufnitzdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Landl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rabenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pernegg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leoben": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dionysen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Erzbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vordernberg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ramsaubach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck Murzzuschlag Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck Murzzuschlag Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck Murzzuschlag Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Graz Umgebung Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leoben Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Leoben Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bruk Mill": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hochpurschtling Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Stanglalm Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ hessenberg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ hessenberg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Aschach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jochenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Partenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sternwald Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ jochenstein": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ jochenstein": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ternberg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schonau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klaus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ klaus": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ klaus": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Freudenau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gaming": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vienna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schafflerhofstrasse Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Markgrafneusiedl Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spittelau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pfaffenau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Glinzendorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck An Der Leitha Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grosshofen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schwechat Refinery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Simmering #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vienna Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vienna Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ kledering": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kledering": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Feldsee": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paternion": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kellerberg Kellersberg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Innerfragant Oschenik": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kreuzeck": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Malta Unterstufe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Niklai": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amlach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ausserfragant": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Steinfeld": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zirknitz": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kamering": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Muhldorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Obervellach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wurten": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Woella": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Feldkirchen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Villach Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kotschach Mauthen Bezirk Hermagor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arnoldstein Gailitz": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ lienz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ lienz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rosshag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bosdornau Boesdornau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gunggl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tuxbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brennerwerk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ mayrhofen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ mayrhofen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Mayrhofen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hollern Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bad Deutsch Altenburg Carnuntum Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neusiedl Am See Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neuhof Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neudorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bruckneudorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck An Der Leitha Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ neusiedl": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ neusiedl": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ferlach Maria Rain": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rosegg St Jakob": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schwabeck": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Feistritz Ludmannsdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Edling": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Villach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koralpe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Annabrucke": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lavamuend": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schuett": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ardnoldstein Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Veit An Der Glan Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Klagenfurt Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Veit An Der Glan Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Veit An Der Glan Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Villach Land Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frantschach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fundermax": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klagenfurt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "St Jakob Im Rosental Bezirk Villach Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Steinberger Alpe Soboth Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klagenfurt Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ obersielach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ obersielach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ phyrn": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ phyrn": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ pirach [DE]": [
+   "energy_charts"
+  ],
+  "Import DE @ pleinting [DE]": [
+   "energy_charts"
+  ],
+  "Kaprun Schwarzach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Malta Oberstufe": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Urreiting": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wallnerau Salzachstufe Wallnerau Salzach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hintermuhr": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wallnerau Unterwasser Wallnerau Unterwasser Wallnerau Unterw": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Werfen Pfarrwerfen Werfen Pfarrwerfen Werfen Pfarrwerfen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "St Veit St Veit": [
+   "energy_charts",
+   "ppm"
+  ],
+  "St Johann St Johann St Johann": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kreuzbergmaut": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bischofshofen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mandling": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bockstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Remsach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Talbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zederhaus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Klammstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Salzburg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ pongau": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ pongau": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Salzburg Mitte": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gamp": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wiestal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Strubklamm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Salzburg Umgebung Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Salzburg Umgebung Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ salzach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ salzach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "St Pantaleon": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wald": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Salzburg Umgebung Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Salzburg Umgebung Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ salzburg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ salzburg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ottensheim Wilhering": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Traun Pucking": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Kirchdorf Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Wels Land Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Marchtrenk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Upper Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wels Waste": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sattledt": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sattledt": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Scharding Neuhaus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Passau Ingling": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Egglfing Obernberg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Scharding Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ schaerding": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ schaerding": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ silz [DE]": [
+   "energy_charts"
+  ],
+  "Import DE @ simbach [DE]": [
+   "energy_charts"
+  ],
+  "Import CZ @ sokolnice [CZ]": [
+   "energy_charts"
+  ],
+  "Braunau Simbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ried Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ried Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ering Frauenstein": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ st. peter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ st. peter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lenzing Energy": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Grieskirchen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ried Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ried Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Vocklabruck Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pilsbach Bezirk Vocklabruck Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timelkam Energie Ag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sw weibern": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sw weibern": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Timelkam": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Deutchkreuz Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baumgarten Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Baden Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Baden Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Bruck Murzzuschlag Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Hartberg Furstenfeld Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Neunkirchen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Neunkirchen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Weiz Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Wiener Neustadt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Wiener Neustadt Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Wiener Neustadt Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Herrenstein Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Katzelsdorf Bezirk Wiener Neustadt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moschkogel Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pretul Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Steinriegel Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Schattendorf Battery Wind Solar Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ternitz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ ternitz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ voehringen [DE]": [
+   "energy_charts"
+  ],
+  "Wallsee Mitterkirchen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rosenau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Amstetten Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Amstetten Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Freistadt Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Perg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Perg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Perg Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Waidhofen An Der Ybbs Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ wallsee": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ wallsee": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Krippau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Triebenbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Liezen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Liezen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Liezen Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Liezen Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ weissenbach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ weissenbach": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kuhtai Maschine": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Imst": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alberschwende": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Langenegg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ westtirol": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ westtirol": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Trumau Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pottendorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Baden Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Baden Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Baden Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Modling Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Modling Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oberwaltersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vienna Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ wien suedost": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ wien suedost": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ y simbach [DE]": [
+   "energy_charts"
+  ],
+  "Ybbs Persenbeug": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Melk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Amstetten Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Melk Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Melk Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Scheibbs Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Scheibbs Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Zwettl Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brand Nagelberg Bezirk Gmund Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grafenschlag Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sallingberg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ybbsfeld": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ ybbsfeld": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Prottes": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prottes Ollersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Poysdorf Wilfersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Matzen Klein Harras Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Loidesthal Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spannberg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hagn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grosskrut Altlichtenwarth Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grossinzersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paasdorf Lanzendorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Durnkrut Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Durnkrut Gotzendorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kettlasbrunn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hohenruppersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ghw Rannersdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gaweinstal Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ganserndorf Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Ganserndorf Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Mistelbach Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Mistelbach Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Mistelbach Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Mistelbach Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maustrenk Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Palterndorf Dobermannsdorf Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vienna International Airport Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Weinviertel Sud Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zistersdorf": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zaya": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ zaya": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gerlos": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Funsingau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Achensee Jenbach": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kirchbichl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Langkampfen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sidan": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Schwaz Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zell am ziller": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ zell am ziller": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "St Georgen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fisching": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bodendorf Paal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bodendorf Mur": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pols": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pack": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murau Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murau Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murau Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murtal Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murtal Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murtal Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Murtal Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk St Veit An Der Glan Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Voitsberg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Wolfsberg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pols Oberkurzheim Bezirk Murtal Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Polstal Bezirk Murtal Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Polstal Bezirk Murtal Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sankt Marein Feistritz Bezirk Murtal Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zeltweg": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ zeltweg": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "3": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "6": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "7": [
+   "energy_charts"
+  ],
+  "8": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "9": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "11": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "14": [
+   "energy_charts"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "16": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "40": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "43": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "45": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "46": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "49": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "50": [
+   "energy_charts"
+  ],
+  "51": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "52": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "57": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "59": [
+   "energy_charts"
+  ],
+  "60": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "62": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "63": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "64": [
+   "energy_charts"
+  ],
+  "65": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "66": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "67": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "68": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "69": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "70": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "71": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "72": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "73": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "109": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "112": [
+   "energy_charts"
+  ],
+  "113": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "114": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "115": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "116": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "117": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "121": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "122": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "123": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "125": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "126": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "127": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "128": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "130": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "131": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "132": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "133": [
+   "energy_charts",
+   "worldpop"
+  ]
+ },
+ "shunts": {
+  "181": [
+   "model_assembly"
+  ]
+ }
+}

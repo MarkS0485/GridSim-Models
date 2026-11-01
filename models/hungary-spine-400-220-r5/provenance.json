@@ -1,0 +1,4007 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Hungary transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): MAVIR lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (MAVIR for Hungary)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Hungary (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Hungary units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Hungary 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Hungary, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "42": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "51": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "52": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "53": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "54": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "55": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "56": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "57": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "58": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "59": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "60": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "61": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "62": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "63": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "64": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "65": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "66": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "67": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "68": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "69": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "70": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "71": [
+   "model_assembly"
+  ],
+  "72": [
+   "model_assembly"
+  ],
+  "73": [
+   "model_assembly"
+  ],
+  "74": [
+   "model_assembly"
+  ],
+  "75": [
+   "model_assembly"
+  ],
+  "76": [
+   "model_assembly"
+  ],
+  "77": [
+   "model_assembly"
+  ],
+  "78": [
+   "model_assembly"
+  ],
+  "79": [
+   "model_assembly"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "82": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ],
+  "84": [
+   "model_assembly"
+  ],
+  "85": [
+   "model_assembly"
+  ],
+  "86": [
+   "model_assembly"
+  ],
+  "87": [
+   "model_assembly"
+  ],
+  "88": [
+   "model_assembly"
+  ],
+  "89": [
+   "model_assembly"
+  ],
+  "90": [
+   "model_assembly"
+  ],
+  "91": [
+   "model_assembly"
+  ],
+  "92": [
+   "model_assembly"
+  ],
+  "93": [
+   "model_assembly"
+  ],
+  "94": [
+   "model_assembly"
+  ],
+  "95": [
+   "model_assembly"
+  ],
+  "96": [
+   "model_assembly"
+  ],
+  "97": [
+   "model_assembly"
+  ],
+  "98": [
+   "model_assembly"
+  ],
+  "99": [
+   "model_assembly"
+  ],
+  "100": [
+   "model_assembly"
+  ],
+  "101": [
+   "model_assembly"
+  ],
+  "102": [
+   "model_assembly"
+  ],
+  "103": [
+   "model_assembly"
+  ],
+  "104": [
+   "model_assembly"
+  ],
+  "105": [
+   "model_assembly"
+  ],
+  "106": [
+   "model_assembly"
+  ],
+  "107": [
+   "model_assembly"
+  ],
+  "108": [
+   "model_assembly"
+  ],
+  "109": [
+   "model_assembly"
+  ],
+  "110": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Albertirsa - Jozsa:0": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - God Kelet:1": [
+   "jao_sgm"
+  ],
+  "jao:Szolnok - Szeged:2": [
+   "jao_sgm"
+  ],
+  "jao:Bekescsaba - Szolnok:3": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Szombathely:4": [
+   "jao_sgm"
+  ],
+  "jao:Paks - Sandorfalva:5": [
+   "jao_sgm"
+  ],
+  "jao:Bicske Del - Gonyu:6": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Toponar:7": [
+   "jao_sgm"
+  ],
+  "jao:Liter - Paks:8": [
+   "jao_sgm"
+  ],
+  "jao:Kisvarda - Sajoszoged:9": [
+   "jao_sgm"
+  ],
+  "jao:Mezocsat - Szolnok:10": [
+   "jao_sgm"
+  ],
+  "jao:Detk - Zuglo I.:11": [
+   "jao_sgm"
+  ],
+  "jao:Bekescsaba - Sandorfalva:12": [
+   "jao_sgm"
+  ],
+  "jao:Paks - Toponar:13": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Liter:14": [
+   "jao_sgm"
+  ],
+  "jao:Detk - Zuglo II.:15": [
+   "jao_sgm"
+  ],
+  "jao:Paks - Pecs 1:16": [
+   "jao_sgm"
+  ],
+  "jao:Paks - Pecs 2:17": [
+   "jao_sgm"
+  ],
+  "jao:Szabolcsbaka - Jozsa:18": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Detk I.:19": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Szombathely 1:20": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Szombathely 2:21": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Liter:22": [
+   "jao_sgm"
+  ],
+  "jao:Liter - Martonvasar:23": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Detk II.:24": [
+   "jao_sgm"
+  ],
+  "jao:Albertirsa - Martonvasar:25": [
+   "jao_sgm"
+  ],
+  "jao:Albertirsa - God:26": [
+   "jao_sgm"
+  ],
+  "jao:Detk - Szolnok:27": [
+   "jao_sgm"
+  ],
+  "jao:Dunamenti - Oroszlany:28": [
+   "jao_sgm"
+  ],
+  "jao:Paks - Perkata:29": [
+   "jao_sgm"
+  ],
+  "jao:Jozsa - Sajoszoged:30": [
+   "jao_sgm"
+  ],
+  "jao:Buj - Sajoszoged:31": [
+   "jao_sgm"
+  ],
+  "jao:Albertirsa - Szigetcsep:32": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Oroszlany:33": [
+   "jao_sgm"
+  ],
+  "jao:Albertirsa - Szolnok:34": [
+   "jao_sgm"
+  ],
+  "jao:Szabolcsbaka - Buj:35": [
+   "jao_sgm"
+  ],
+  "jao:Albertirsa - Kerepes:36": [
+   "jao_sgm"
+  ],
+  "jao:Martonvasar - Perkata:37": [
+   "jao_sgm"
+  ],
+  "jao:Ocsa - Kerepes:38": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Tiszalok:39": [
+   "jao_sgm"
+  ],
+  "jao:Felsozsolca - Sajoivanka:40": [
+   "jao_sgm"
+  ],
+  "jao:Dunamenti - Ocsa I.:41": [
+   "jao_sgm"
+  ],
+  "jao:Dunamenti - Ocsa II.:42": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Felsozsolca I.:43": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Felsozsolca II.:44": [
+   "jao_sgm"
+  ],
+  "jao:Bicske Del - Martonvasar:45": [
+   "jao_sgm"
+  ],
+  "jao:Kerepes - God Kelet:46": [
+   "jao_sgm"
+  ],
+  "jao:Martonvasar - Szigetcsep:47": [
+   "jao_sgm"
+  ],
+  "jao:Sajoszoged - Mezocsat:48": [
+   "jao_sgm"
+  ],
+  "jao:Kerepes - Zuglo I.:49": [
+   "jao_sgm"
+  ],
+  "jao:Kerepes - Zuglo II.:50": [
+   "jao_sgm"
+  ],
+  "jao:Gonyu - Gyor:51": [
+   "jao_sgm"
+  ],
+  "jao:Dunamenti - Martonvasar II.:52": [
+   "jao_sgm"
+  ],
+  "jao:Dunamenti - Martonvasar I.:53": [
+   "jao_sgm"
+  ],
+  "jao:God Kelet - God I.:54": [
+   "jao_sgm"
+  ],
+  "jao:God Kelet - God II.:55": [
+   "jao_sgm"
+  ],
+  "jao:Szombathely - Zurndorf:56": [
+   "jao_sgm"
+  ],
+  "jao:Tiszalok - Mukachevo:57": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Zerjavinec:58": [
+   "jao_sgm"
+  ],
+  "jao:Heviz - Cirkovce:59": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Zurndorf:60": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Neusiedl:61": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Wien:62": [
+   "jao_sgm"
+  ],
+  "jao:Sandorfalva - Arad:63": [
+   "jao_sgm"
+  ],
+  "jao:Levice - God:64": [
+   "jao_sgm"
+  ],
+  "jao:Pecs - Ernestinovo1 491A:65": [
+   "jao_sgm"
+  ],
+  "jao:Pecs - Ernestinovo2 491B:66": [
+   "jao_sgm"
+  ],
+  "jao:Bekescsaba - Nadab:67": [
+   "jao_sgm"
+  ],
+  "jao:Gyor - Gabcikovo:68": [
+   "jao_sgm"
+  ],
+  "jao:Kisvarda - Mukachevo:69": [
+   "jao_sgm"
+  ],
+  "jao:Szabolcsbaka - Mukachevo:70": [
+   "jao_sgm"
+  ],
+  "jao:Sajoivanka - Rimavska Sobota:71": [
+   "jao_sgm"
+  ],
+  "jao:Sandorfalva - Subotica:72": [
+   "jao_sgm"
+  ],
+  "jao:Gonyu - Gabcikovo:73": [
+   "jao_sgm"
+  ],
+  "jao:Gonyu - Velky Dur:74": [
+   "jao_sgm"
+  ],
+  "osm:god - god kelet 220 (OSM merged_relation/4744535:b-220+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:gyor - osm virtual_relation/5233619:c:1 400 (OSM merged_relation/5233619:b-400+3)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:detk - osm virtual_way/1262212256:1 220 (OSM merged_way/251991300-220+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:oroszlany - osm virtual_way/1116111030:1 220 (OSM merged_way/254897391-220+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/4791312:b:1 - osm virtual_relation/5233619:c:1 400 (OSM merged_way/254897391-400+4)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sajoszoged - osm debrecen ovit alallomas 220 (OSM relation/12155330-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sajoszoged - osm virtual_way/155668544:0 400 (OSM relation/12155335:a-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:szabolcsbaka - osm virtual_relation/12163552:a:1 400 (OSM relation/12163552:a-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:zuglo - god kelet 220 (OSM relation/4744535:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bicske del - osm virtual_relation/4791312:b:1 400 (OSM relation/4791312:b-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/4791312:b:1 - martonvasar 400 (OSM relation/4791312:c-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/4791312:b:1 - bicske del 400 (OSM relation/4791313-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:heviz - osm virtual_relation/5203259:1 400 (OSM relation/5203261-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/5233619:c:1 - gonyu 400 (OSM relation/5233619:d-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:szombathely - heviz 400 (OSM relation/5711600-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:szombathely - heviz 400 (OSM relation/5711601-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:dunamenti - osm albertfalva alallomas 220 (OSM relation/8506090-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:dunamenti - osm albertfalva alallomas 220 (OSM relation/8506091-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:dunamenti - osm dunaujvaros ovit alallomas 220 (OSM way/350041164-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:dunamenti - osm dunaujvaros ovit alallomas 220 (OSM way/350041164-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sajoszoged - osm virtual_way/422146475:1 220 (OSM way/422146476-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sajoszoged - osm virtual_way/422146475:1 220 (OSM way/422146476-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:detk - osm virtual_way/1262212256:1 220 (OSM way/841063416-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:detk - osm virtual_way/1262212256:1 220 (OSM way/841063416-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:HR:HU:ernestinovo [HR]:hv~HU:zerjavinec [HR]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:RO:HU:arad [RO]:hv~HU:nadab [RO]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:HU:gabcikovo [SK]:hv~HU:levice [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:HU:gabcikovo [SK]:hv~HU:velky dur [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:HU:levice [SK]:hv~HU:velky dur [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:15T-M0000001145Z:0": [
+   "jao_sgm"
+  ],
+  "jao:15T-M0000000817H:1": [
+   "jao_sgm"
+  ],
+  "jao:15T-M0000000818F:2": [
+   "jao_sgm"
+  ],
+  "synth:coupling:god~god": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:god kelet~god kelet": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:gyor~gyor": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:kerepes~kerepes": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:szolnok~szolnok": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:AT:HU:zurndorf [AT]:hv~HU:neusiedl [AT]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:HU:albertirsa:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:bekescsaba:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:bicske del:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:buj:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:felsozsolca:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:gonyu:hv": [
+   "model_assembly"
+  ],
+  "gsu:HU:gonyu:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:heviz:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:jozsa:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:liter:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:paks:hv": [
+   "model_assembly"
+  ],
+  "gsu:HU:paks:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:pecs 1:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:perkata:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:sajoivanka:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:sandorfalva:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:szabolcsbaka:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:szigetcsep:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:szombathely 1:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:szombathely 2:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:toponar:hv": [
+   "model_assembly"
+  ],
+  "emb:HU:detk:220": [
+   "model_assembly"
+  ],
+  "gsu:HU:detk:220": [
+   "model_assembly"
+  ],
+  "emb:HU:dunamenti:220": [
+   "model_assembly"
+  ],
+  "gsu:HU:dunamenti:220": [
+   "model_assembly"
+  ],
+  "emb:HU:god kelet:220": [
+   "model_assembly"
+  ],
+  "emb:HU:god:220": [
+   "model_assembly"
+  ],
+  "emb:HU:gyor:220": [
+   "model_assembly"
+  ],
+  "emb:HU:kerepes:220": [
+   "model_assembly"
+  ],
+  "emb:HU:kisvarda:220": [
+   "model_assembly"
+  ],
+  "emb:HU:martonvasar:220": [
+   "model_assembly"
+  ],
+  "emb:HU:mezocsat:220": [
+   "model_assembly"
+  ],
+  "emb:HU:ocsa:220": [
+   "model_assembly"
+  ],
+  "emb:HU:oroszlany:220": [
+   "model_assembly"
+  ],
+  "emb:HU:sajoszoged:220": [
+   "model_assembly"
+  ],
+  "emb:HU:szeged:220": [
+   "model_assembly"
+  ],
+  "emb:HU:szolnok:220": [
+   "model_assembly"
+  ],
+  "emb:HU:tiszalok:220": [
+   "model_assembly"
+  ],
+  "emb:HU:zuglo:220": [
+   "model_assembly"
+  ],
+  "gsu:HU:zuglo:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Bacs Kiskun Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kat Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kecskemet Bacs Kiskun Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kecskemet Bacs Kiskun Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kecskemet Bacs Kiskun Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Elmu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "First Smart Grid": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szentmartonkata": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ albertirsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ albertirsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bekes Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekes Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekescsaba Bekes Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bekescsaba Bekes Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medgyesegyhaza Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ bekescsaba": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bekescsaba": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Fejer Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ bicske del": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bicske del": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Nyiregyhazi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nyirbogdany Solar": [
+   "energy_charts",
+   "model_assembly",
+   "ppm"
+  ],
+  "Nyiregyhaza Szabolcs Szatmar Bereg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nyiregyhaza Szabolcs Szatmar Bereg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nyiregyhaza Szabolcs Szatmar Bereg Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nyiregyhaza Szabolcs Szatmar Bereg Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nyiregyhaza Szabolcs Szatmar Bereg Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Senyo Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ buj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ buj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SI @ cirkovce [SI]": [
+   "energy_charts"
+  ],
+  "Felsozsolca Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Miskolc Borsod Abauj Zemplen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Miskolc Hold": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ felsozsolca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ felsozsolca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SK @ gabcikovo [SK]": [
+   "energy_charts"
+  ],
+  "Bony Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Babolna Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kisigmand Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ gonyu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ gonyu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gonyui": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Acdc Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bocfolde Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buzsak Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sojtor Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tapolca Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zala Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zalaegerszeg Zala Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zalaszentivan Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ heviz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ heviz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Debrecen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kabai Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Debrecen Hajdu Bihar Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Debrecen Hajdu Bihar Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Letavertes Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ jozsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ jozsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SK @ levice [SK]": [
+   "energy_charts"
+  ],
+  "Bakony": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liter": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ajka": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ liter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ liter": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Paks Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gerjen Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szekszard Tolna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tazlar Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ paks": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ paks": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Paks 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paks 2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paks 3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paks 4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pecs": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Lxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lafarge Factory Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pecs Baranya Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pecs Baranya Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pecs Baranya Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ pecs 1": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ pecs 1": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bacs Kiskun Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dunaujvaros": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Isd": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szekesfehervar Fejer Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ perkata": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ perkata": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SK @ rimavska sobota [SK]": [
+   "energy_charts"
+  ],
+  "Borsod Abauj Zemplen Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsodchem": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ sajoivanka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sajoivanka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bacs Kiskun Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szeged Csongrad Csanad Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ sandorfalva": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sandorfalva": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import RS @ subotica [RS]": [
+   "energy_charts"
+  ],
+  "Szabolcs Szatmar Bereg Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ szabolcsbaka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ szabolcsbaka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Fejer Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ szigetcsep": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ szigetcsep": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Sopronkovesd Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "He Ikervar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Amundsen Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csoma Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szombathely Vas Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vas Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ szombathely 2": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ szombathely 2": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Baranya Solar Lxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baranya Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaposvar Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kaposvar Somogy Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somogy Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tolna Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ toponar": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ toponar": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SK @ velky dur [SK]": [
+   "energy_charts"
+  ],
+  "Import AT @ zurndorf [AT]": [
+   "energy_charts"
+  ],
+  "Lorinci": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Visonta Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Batonyterenye Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Halmajugra Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ detk": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ detk": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Matra": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Matra #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dunai Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dunamenti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ dunamenti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ dunamenti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dunamenti #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Galgaguta Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "God Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ god kelet": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ god kelet": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Balassagyarmat Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nograd Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szugy Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ god": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ god": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Movar Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Level Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kapuvar Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gyor Moson Sopron Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mosonmagyarovar Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veszprem Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ gyor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ gyor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Heves Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Heves Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Turawell Cogeneration Geothermal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ kerepes": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kerepes": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Attila Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xlii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ kisvarda": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kisvarda": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Fejer Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ martonvasar": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ martonvasar": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Mezocsat Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tiszaszolos Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ mezocsat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ mezocsat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import AT @ neusiedl [AT]": [
+   "energy_charts"
+  ],
+  "Budapest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ ocsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ ocsa": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Oroszlany": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oroszlany #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tatabanya": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fejer Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Komarom Esztergom Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Scott Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ oroszlany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ oroszlany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kesznyeten Hernadviz Kesznyeten Hernadviz Kesznyeten Hernadv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sajoszoged": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bukkabrany Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mol Tiszaujvaros Mpk Naperomu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tvk Industrial": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tiszaujvaros": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ sajoszoged": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sajoszoged": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bacs Kiskun Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Csongrad Csanad Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szeged Csongrad Csanad Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ szeged": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ szeged": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kiskore": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacs Kiskun Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasz Nagykun Szolnok Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pest Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szolnok Jasz Nagykun Szolnok Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szolnok Jasz Nagykun Szolnok Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szolnok Jasz Nagykun Szolnok Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szolnok Jasz Nagykun Szolnok Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szolnok Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ szolnok": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ szolnok": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "He Tiszalok": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xlii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Borsod Abauj Zemplen Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hajdu Bihar Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tokaj Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ tiszalok": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ tiszalok": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import AT @ wien [AT]": [
+   "energy_charts"
+  ],
+  "Ujpesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kispesti Eromu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kelenfoldi Eromu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Budapest Waste": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Budapest Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "North Buda": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Wartsila Ess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "coal register gap @ zuglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ zuglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Csepel": [
+   "energy_charts",
+   "ppm"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "2": [
+   "energy_charts"
+  ],
+  "3": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "4": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "5": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "7": [
+   "energy_charts"
+  ],
+  "8": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "12": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "14": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "18": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "20": [
+   "energy_charts"
+  ],
+  "21": [
+   "energy_charts"
+  ],
+  "27": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "28": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "30": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "32": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "34": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "36": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "37": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "40": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "42": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "44": [
+   "energy_charts"
+  ],
+  "46": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "47": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "48": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "49": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "50": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "51": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "52": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "53": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "54": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "55": [
+   "energy_charts"
+  ],
+  "57": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "58": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "65": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "66": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "67": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "68": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "70": [
+   "energy_charts",
+   "worldpop"
+  ]
+ },
+ "shunts": {
+  "6": [
+   "model_assembly"
+  ],
+  "14": [
+   "model_assembly"
+  ],
+  "24": [
+   "model_assembly"
+  ],
+  "39": [
+   "model_assembly"
+  ],
+  "41": [
+   "model_assembly"
+  ],
+  "44": [
+   "model_assembly"
+  ],
+  "45": [
+   "model_assembly"
+  ]
+ }
+}

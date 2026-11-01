@@ -1,0 +1,422 @@
+[
+  {
+    "name": "jao:24T-KRIZ-T401-02:0",
+    "from": 11,
+    "to": 42,
+    "rPu": 0.00030375,
+    "xPu": 0.024498125000000003,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:24T-BYST-T402-1I:1",
+    "from": 2,
+    "to": 41,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "jao:24T-BYST-T401-0O:2",
+    "from": 2,
+    "to": 41,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "synth:coupling:lemesany~lemesany",
+    "from": 14,
+    "to": 43,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "synth:coupling:senica~senica",
+    "from": 31,
+    "to": 47,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "synth:coupling:sucany~sucany",
+    "from": 34,
+    "to": 49,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "synth:coupling:vojany~vojany",
+    "from": 39,
+    "to": 50,
+    "rPu": 0.00077625,
+    "xPu": 0.0495125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 249.4153162899183
+  },
+  {
+    "name": "equiv:CZ:SK:nosovice [CZ]:hv~SK:liskovec [CZ]:220",
+    "from": 20,
+    "to": 44,
+    "rPu": 0.015166415792604963,
+    "xPu": 0.13463213785290443,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:CZ:SK:sokolnice [CZ]:hv~SK:liskovec [CZ]:220",
+    "from": 32,
+    "to": 44,
+    "rPu": 0.017140323652428957,
+    "xPu": 0.10624967011457875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:SK:bosaca:hv",
+    "from": 51,
+    "to": 1,
+    "rPu": 0.007557728624348512,
+    "xPu": 0.15115457248697023,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 132.3148858214265
+  },
+  {
+    "name": "emb:SK:cierny vah:hv",
+    "from": 52,
+    "to": 3,
+    "rPu": 0.08654868006535474,
+    "xPu": 1.7309736013070949,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.554191227929516
+  },
+  {
+    "name": "gsu:SK:cierny vah:hv",
+    "from": 53,
+    "to": 3,
+    "rPu": 0.0004197888283378746,
+    "xPu": 0.016791553133514985,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 863.5294117647059
+  },
+  {
+    "name": "emb:SK:gabcikovo:hv",
+    "from": 54,
+    "to": 4,
+    "rPu": 0.014028983393974659,
+    "xPu": 0.2805796678794932,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 71.28100247302969
+  },
+  {
+    "name": "gsu:SK:gabcikovo:hv",
+    "from": 55,
+    "to": 4,
+    "rPu": 0.00042795138888888885,
+    "xPu": 0.017118055555555553,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 847.0588235294118
+  },
+  {
+    "name": "emb:SK:h. zdana:hv",
+    "from": 56,
+    "to": 8,
+    "rPu": 0.02034343711578062,
+    "xPu": 0.4068687423156124,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.15590194069465
+  },
+  {
+    "name": "emb:SK:j. bohunice:hv",
+    "from": 57,
+    "to": 9,
+    "rPu": 0.009293091642109784,
+    "xPu": 0.18586183284219568,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 107.60681574135138
+  },
+  {
+    "name": "gsu:SK:j. bohunice:hv",
+    "from": 58,
+    "to": 9,
+    "rPu": 0.00021457172701949857,
+    "xPu": 0.008582869080779943,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1689.4117647058824
+  },
+  {
+    "name": "emb:SK:kosice:hv",
+    "from": 59,
+    "to": 10,
+    "rPu": 0.015976939213847848,
+    "xPu": 0.319538784276957,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 62.59021121725619
+  },
+  {
+    "name": "emb:SK:l. mara:hv",
+    "from": 60,
+    "to": 13,
+    "rPu": 0.0037842251763148932,
+    "xPu": 0.07568450352629787,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 264.25488796462355
+  },
+  {
+    "name": "emb:SK:levice:hv",
+    "from": 61,
+    "to": 15,
+    "rPu": 0.007187485199837628,
+    "xPu": 0.14374970399675255,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 139.1307212740544
+  },
+  {
+    "name": "emb:SK:medzibrod:hv",
+    "from": 62,
+    "to": 16,
+    "rPu": 0.017107487483519104,
+    "xPu": 0.3421497496703821,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.453937257786876
+  },
+  {
+    "name": "emb:SK:mochovce:hv",
+    "from": 63,
+    "to": 17,
+    "rPu": 0.032118498612050315,
+    "xPu": 0.6423699722410063,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.13470564358251
+  },
+  {
+    "name": "gsu:SK:mochovce:hv",
+    "from": 64,
+    "to": 17,
+    "rPu": 0.0001586637487126673,
+    "xPu": 0.006346549948506692,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2284.7058823529414
+  },
+  {
+    "name": "emb:SK:moldava:hv",
+    "from": 65,
+    "to": 18,
+    "rPu": 0.020569848562089092,
+    "xPu": 0.4113969712417819,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 48.61484502336263
+  },
+  {
+    "name": "emb:SK:p. biskupice:hv",
+    "from": 66,
+    "to": 27,
+    "rPu": 0.0018644738311533568,
+    "xPu": 0.037289476623067135,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 536.344347285048
+  },
+  {
+    "name": "emb:SK:r. sobota:hv",
+    "from": 67,
+    "to": 28,
+    "rPu": 0.002928190684391262,
+    "xPu": 0.05856381368782525,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 341.5078141360485
+  },
+  {
+    "name": "emb:SK:s. nova ves:hv",
+    "from": 68,
+    "to": 29,
+    "rPu": 0.011634038001759061,
+    "xPu": 0.2326807600351812,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 85.95467883539666
+  },
+  {
+    "name": "emb:SK:stupava:hv",
+    "from": 69,
+    "to": 33,
+    "rPu": 0.04420714127925152,
+    "xPu": 0.8841428255850304,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 22.62077960850517
+  },
+  {
+    "name": "emb:SK:v. dur:hv",
+    "from": 70,
+    "to": 35,
+    "rPu": 0.16999999999999998,
+    "xPu": 3.4,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5.882352941176471
+  },
+  {
+    "name": "emb:SK:v. kapusany:hv",
+    "from": 71,
+    "to": 36,
+    "rPu": 0.04671585176204722,
+    "xPu": 0.9343170352409444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 21.40601021455457
+  },
+  {
+    "name": "emb:SK:varin:hv",
+    "from": 72,
+    "to": 37,
+    "rPu": 0.006816648477073198,
+    "xPu": 0.13633296954146396,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 146.6996579570377
+  },
+  {
+    "name": "emb:SK:velky dur:hv",
+    "from": 73,
+    "to": 38,
+    "rPu": 0.09642959934678792,
+    "xPu": 1.9285919869357584,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 10.370259824514246
+  },
+  {
+    "name": "emb:SK:vola:hv",
+    "from": 74,
+    "to": 40,
+    "rPu": 0.011206829708370917,
+    "xPu": 0.22413659416741835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 89.23130144942348
+  },
+  {
+    "name": "emb:SK:bystricany:220",
+    "from": 75,
+    "to": 41,
+    "rPu": 0.02560341112350891,
+    "xPu": 0.5120682224701782,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 39.05729573204429
+  },
+  {
+    "name": "emb:SK:krizovany:220",
+    "from": 76,
+    "to": 42,
+    "rPu": 0.031243235784077096,
+    "xPu": 0.6248647156815419,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.006928056716944
+  },
+  {
+    "name": "emb:SK:lemesany:220",
+    "from": 77,
+    "to": 43,
+    "rPu": 0.006237916529128429,
+    "xPu": 0.12475833058256858,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.30993607086972
+  },
+  {
+    "name": "emb:SK:p. bystrica:220",
+    "from": 78,
+    "to": 45,
+    "rPu": 0.002928615514751029,
+    "xPu": 0.05857231029502058,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 341.4582743836257
+  },
+  {
+    "name": "emb:SK:sala:220",
+    "from": 79,
+    "to": 46,
+    "rPu": 0.011973453945953182,
+    "xPu": 0.23946907891906366,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 83.51808964346353
+  },
+  {
+    "name": "emb:SK:senica:220",
+    "from": 80,
+    "to": 47,
+    "rPu": 0.020075827682485732,
+    "xPu": 0.40151655364971467,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.81114680877669
+  },
+  {
+    "name": "emb:SK:siroka:220",
+    "from": 81,
+    "to": 48,
+    "rPu": 0.02074236349080657,
+    "xPu": 0.4148472698161314,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 48.21051373645149
+  },
+  {
+    "name": "emb:SK:sucany:220",
+    "from": 82,
+    "to": 49,
+    "rPu": 0.006960916625466768,
+    "xPu": 0.13921833250933535,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 143.65924113233356
+  },
+  {
+    "name": "emb:SK:vojany:220",
+    "from": 83,
+    "to": 50,
+    "rPu": 0.0169025142053712,
+    "xPu": 0.338050284107424,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 59.16279601068017
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "jao:Prosenice - Nosovice - V403:0",
+    "from": 39,
+    "to": 21,
+    "rPu": 0.0009875,
+    "xPu": 0.01375,
+    "bPu": 0.5232,
+    "ratingMva": 1693.9456898023618,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prosenice - Nosovice - V803:1",
+    "from": 39,
+    "to": 21,
+    "rPu": 0.0009875,
+    "xPu": 0.01375,
+    "bPu": 0.5232,
+    "ratingMva": 1693.9456898023618,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vitkov - Vernerov:2",
+    "from": 49,
+    "to": 48,
+    "rPu": 0.0009750000000000001,
+    "xPu": 0.0129375,
+    "bPu": 0.5983999999999999,
+    "ratingMva": 1693.9456898023618,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Vitkov:3",
+    "from": 57,
+    "to": 73,
+    "rPu": 0.0025619834710743803,
+    "xPu": 0.04008264462809917,
+    "bPu": 0.1452,
+    "ratingMva": 443.9246219799032,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Malesice - C. Stred - V206:4",
+    "from": 60,
+    "to": 55,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.015020661157024792,
+    "bPu": 0.024684,
+    "ratingMva": 249.96957254834035,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albrechtice - Detmarovice:5",
+    "from": 1,
+    "to": 10,
+    "rPu": 0.00041,
+    "xPu": 0.00447,
+    "bPu": 0.15584,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Vernerov:6",
+    "from": 14,
+    "to": 48,
+    "rPu": 0.00017500000000000003,
+    "xPu": 0.00185625,
+    "bPu": 0.0656,
+    "ratingMva": 1454.9226783578567,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Mirovka:7",
+    "from": 14,
+    "to": 19,
+    "rPu": 0.0036875000000000002,
+    "xPu": 0.0377375,
+    "bPu": 1.2272,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prosenice - Mirovka:8",
+    "from": 39,
+    "to": 19,
+    "rPu": 0.0032500000000000003,
+    "xPu": 0.03506875,
+    "bPu": 1.1616,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tabor - Sokolnice:9",
+    "from": 72,
+    "to": 71,
+    "rPu": 0.022169421487603307,
+    "xPu": 0.1496900826446281,
+    "bPu": 0.206184,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Reporyje - Mirovka:10",
+    "from": 40,
+    "to": 19,
+    "rPu": 0.0025124999999999995,
+    "xPu": 0.02705,
+    "bPu": 0.9184,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dasny - Slavetice:11",
+    "from": 9,
+    "to": 43,
+    "rPu": 0.0021625,
+    "xPu": 0.02658125,
+    "bPu": 0.9199999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Opocinek - Sokolnice:12",
+    "from": 62,
+    "to": 71,
+    "rPu": 0.024235537190082646,
+    "xPu": 0.12431818181818183,
+    "bPu": 0.16214,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kocin - Chodov:13",
+    "from": 16,
+    "to": 6,
+    "rPu": 0.00181875,
+    "xPu": 0.0225875,
+    "bPu": 0.808,
+    "ratingMva": 1569.2380316574029,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Reporyje:14",
+    "from": 14,
+    "to": 40,
+    "rPu": 0.00198125,
+    "xPu": 0.021937500000000002,
+    "bPu": 0.8208,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prestice - Kocin:15",
+    "from": 38,
+    "to": 16,
+    "rPu": 0.00165,
+    "xPu": 0.02063125,
+    "bPu": 0.6816,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:H. Zivotice - Krasikov:16",
+    "from": 13,
+    "to": 17,
+    "rPu": 0.0015687499999999998,
+    "xPu": 0.0195875,
+    "bPu": 0.6863999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tynec - Krasikov:17",
+    "from": 46,
+    "to": 17,
+    "rPu": 0.0019500000000000001,
+    "xPu": 0.019762500000000002,
+    "bPu": 0.6672,
+    "ratingMva": 1205.5073620679386,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - C. Stred - V410:18",
+    "from": 50,
+    "to": 4,
+    "rPu": 0.00123125,
+    "xPu": 0.0164375,
+    "bPu": 0.6512,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - C. Stred - V419:19",
+    "from": 50,
+    "to": 4,
+    "rPu": 0.00123125,
+    "xPu": 0.0164375,
+    "bPu": 0.6512,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cebin - Mirovka:20",
+    "from": 5,
+    "to": 19,
+    "rPu": 0.0014624999999999998,
+    "xPu": 0.01663125,
+    "bPu": 0.5392,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Krasikov - Prosenice:21",
+    "from": 17,
+    "to": 39,
+    "rPu": 0.0014624999999999998,
+    "xPu": 0.01663125,
+    "bPu": 0.5376,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vitkov - Prestice - V221:22",
+    "from": 69,
+    "to": 73,
+    "rPu": 0.0036570247933884296,
+    "xPu": 0.04938016528925619,
+    "bPu": 0.17520799999999997,
+    "ratingMva": 443.9246219799032,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vitkov - Prestice - V490:23",
+    "from": 49,
+    "to": 38,
+    "rPu": 0.0011,
+    "xPu": 0.0149375,
+    "bPu": 0.576,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Milin - C. Stred:24",
+    "from": 61,
+    "to": 55,
+    "rPu": 0.014297520661157024,
+    "xPu": 0.07086776859504132,
+    "bPu": 0.1032372,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - C. Stred - V201:25",
+    "from": 74,
+    "to": 55,
+    "rPu": 0.013677685950413224,
+    "xPu": 0.07673553719008265,
+    "bPu": 0.10164,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Neznasov - Krasikov:26",
+    "from": 20,
+    "to": 17,
+    "rPu": 0.0015,
+    "xPu": 0.0158125,
+    "bPu": 0.4752,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prosenice - Sokolnice - V251:27",
+    "from": 70,
+    "to": 71,
+    "rPu": 0.01396694214876033,
+    "xPu": 0.07314049586776859,
+    "bPu": 0.10647999999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prosenice - Sokolnice - V252:28",
+    "from": 70,
+    "to": 71,
+    "rPu": 0.01396694214876033,
+    "xPu": 0.07314049586776859,
+    "bPu": 0.10647999999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Chrast:29",
+    "from": 14,
+    "to": 8,
+    "rPu": 0.0012625,
+    "xPu": 0.015531250000000002,
+    "bPu": 0.5087999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Otrokovice - Sokolnice:30",
+    "from": 37,
+    "to": 44,
+    "rPu": 0.0013812499999999999,
+    "xPu": 0.01401875,
+    "bPu": 0.4208,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - Babylon - V428:31",
+    "from": 50,
+    "to": 2,
+    "rPu": 0.0010375,
+    "xPu": 0.0134125,
+    "bPu": 0.4592,
+    "ratingMva": 1693.9456898023618,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - Babylon - V450:32",
+    "from": 50,
+    "to": 2,
+    "rPu": 0.0010375,
+    "xPu": 0.0134125,
+    "bPu": 0.4592,
+    "ratingMva": 1693.9456898023618,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liskovec - Prosenice - V253:33",
+    "from": 59,
+    "to": 70,
+    "rPu": 0.012272727272727274,
+    "xPu": 0.056446280991735535,
+    "bPu": 0.0862972,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liskovec - Prosenice - V254:34",
+    "from": 59,
+    "to": 70,
+    "rPu": 0.012272727272727274,
+    "xPu": 0.056446280991735535,
+    "bPu": 0.0862972,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Opocinek - C. Stred:35",
+    "from": 62,
+    "to": 55,
+    "rPu": 0.012603305785123966,
+    "xPu": 0.058326446280991734,
+    "bPu": 0.085668,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:C. Stred - Bezdecin - V209:36",
+    "from": 55,
+    "to": 53,
+    "rPu": 0.009958677685950414,
+    "xPu": 0.05927685950413224,
+    "bPu": 0.09195999999999999,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bezdecin - Neznasov:37",
+    "from": 3,
+    "to": 20,
+    "rPu": 0.0009875,
+    "xPu": 0.01283125,
+    "bPu": 0.416,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:C. Stred - Bezdecin - V454:38",
+    "from": 4,
+    "to": 3,
+    "rPu": 0.00096875,
+    "xPu": 0.011399999999999999,
+    "bPu": 0.46559999999999996,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prestice - Milin:39",
+    "from": 69,
+    "to": 61,
+    "rPu": 0.008884297520661156,
+    "xPu": 0.05661157024793388,
+    "bPu": 0.08711999999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Milin - Tabor:40",
+    "from": 61,
+    "to": 72,
+    "rPu": 0.00787190082644628,
+    "xPu": 0.05340909090909091,
+    "bPu": 0.0726,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slavetice - Sokolnice - V435:41",
+    "from": 43,
+    "to": 44,
+    "rPu": 0.0008312500000000001,
+    "xPu": 0.00958125,
+    "bPu": 0.38079999999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slavetice - Sokolnice - V436:42",
+    "from": 43,
+    "to": 44,
+    "rPu": 0.0008375,
+    "xPu": 0.009712499999999999,
+    "bPu": 0.3776,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bezdecin - Babylon:43",
+    "from": 3,
+    "to": 2,
+    "rPu": 0.0008,
+    "xPu": 0.0100125,
+    "bPu": 0.3472,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kletne - Nosovice:44",
+    "from": 15,
+    "to": 21,
+    "rPu": 0.00075,
+    "xPu": 0.009362500000000001,
+    "bPu": 0.33599999999999997,
+    "ratingMva": 1363.47039571822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cebin - Slavetice:45",
+    "from": 5,
+    "to": 43,
+    "rPu": 0.00068125,
+    "xPu": 0.0087,
+    "bPu": 0.3104,
+    "ratingMva": 1363.47039571822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:C. Stred - Tynec:46",
+    "from": 4,
+    "to": 46,
+    "rPu": 0.0008874999999999999,
+    "xPu": 0.0087875,
+    "bPu": 0.288,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - Hradec - V411:47",
+    "from": 50,
+    "to": 14,
+    "rPu": 0.00078125,
+    "xPu": 0.00818125,
+    "bPu": 0.2688,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kocin - Dasny - V474:48",
+    "from": 16,
+    "to": 9,
+    "rPu": 0.0006125,
+    "xPu": 0.007418749999999999,
+    "bPu": 0.29919999999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:H. Zivotice - Kletne:49",
+    "from": 13,
+    "to": 15,
+    "rPu": 0.0006125,
+    "xPu": 0.007368749999999999,
+    "bPu": 0.2656,
+    "ratingMva": 1363.47039571822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cebin - Sokolnice:50",
+    "from": 5,
+    "to": 44,
+    "rPu": 0.00065,
+    "xPu": 0.00715,
+    "bPu": 0.2464,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Otrokovice - Prosenice:51",
+    "from": 37,
+    "to": 39,
+    "rPu": 0.0006875000000000001,
+    "xPu": 0.006999999999999999,
+    "bPu": 0.2144,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kocin - Dasny - V473:52",
+    "from": 16,
+    "to": 9,
+    "rPu": 0.00051875,
+    "xPu": 0.00625,
+    "bPu": 0.22559999999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Chodov - C. Stred:53",
+    "from": 6,
+    "to": 4,
+    "rPu": 0.0005124999999999999,
+    "xPu": 0.0065625,
+    "bPu": 0.208,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Chrast - Prestice:54",
+    "from": 8,
+    "to": 38,
+    "rPu": 0.0005,
+    "xPu": 0.0059125,
+    "bPu": 0.19519999999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - Hradec - V226:55",
+    "from": 74,
+    "to": 57,
+    "rPu": 0.004483471074380165,
+    "xPu": 0.019338842975206612,
+    "bPu": 0.05082,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Vyskov - Hradec - V225:56",
+    "from": 74,
+    "to": 57,
+    "rPu": 0.004400826446280991,
+    "xPu": 0.019008264462809916,
+    "bPu": 0.049852,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Chotejovice - Vyskov - V479:57",
+    "from": 7,
+    "to": 50,
+    "rPu": 0.00043,
+    "xPu": 0.00502,
+    "bPu": 0.19519999999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Reporyje - Chodov:58",
+    "from": 40,
+    "to": 6,
+    "rPu": 0.00043125,
+    "xPu": 0.00513125,
+    "bPu": 0.1808,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Chotejovice - Vyskov - V480:59",
+    "from": 7,
+    "to": 50,
+    "rPu": 0.00043125,
+    "xPu": 0.00501875,
+    "bPu": 0.19519999999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Malesice - C. Stred - V205:60",
+    "from": 60,
+    "to": 55,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.015020661157024792,
+    "bPu": 0.024684,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nosovice - Albrechtice:61",
+    "from": 21,
+    "to": 1,
+    "rPu": 0.0003,
+    "xPu": 0.00313125,
+    "bPu": 0.0928,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Etzenricht:64",
+    "from": 14,
+    "to": 12,
+    "rPu": 0.00105,
+    "xPu": 0.0136625,
+    "bPu": 0.5479999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prestice - Etzenricht:65",
+    "from": 38,
+    "to": 12,
+    "rPu": 0.0007375,
+    "xPu": 0.0090625,
+    "bPu": 0.36079999999999995,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liskovec - P. Bystrica:66",
+    "from": 59,
+    "to": 68,
+    "rPu": 0.008161157024793388,
+    "xPu": 0.03977272727272727,
+    "bPu": 0.05832199999999999,
+    "ratingMva": 249.5885213706752,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Stupava:67",
+    "from": 44,
+    "to": 45,
+    "rPu": 0.0008125000000000001,
+    "xPu": 0.0098375,
+    "bPu": 0.36879999999999996,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Senica:68",
+    "from": 44,
+    "to": 42,
+    "rPu": 0.00078,
+    "xPu": 0.00812,
+    "bPu": 0.26639999999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Zaya - V243:69",
+    "from": 71,
+    "to": 75,
+    "rPu": 0.005268595041322314,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.083006,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Zaya - V244:70",
+    "from": 71,
+    "to": 75,
+    "rPu": 0.005268595041322314,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.083006,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slavetice - Durnrohr - V437:71",
+    "from": 43,
+    "to": 11,
+    "rPu": 0.00065,
+    "xPu": 0.00891875,
+    "bPu": 0.3,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slavetice - Durnrohr - V438:72",
+    "from": 43,
+    "to": 11,
+    "rPu": 0.00065,
+    "xPu": 0.00891875,
+    "bPu": 0.3,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nosovice - Varin:73",
+    "from": 21,
+    "to": 47,
+    "rPu": 0.0006625,
+    "xPu": 0.00746875,
+    "bPu": 0.20959999999999998,
+    "ratingMva": 1191.6509556073875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nosovice - Wielopole:74",
+    "from": 21,
+    "to": 51,
+    "rPu": 0.00122,
+    "xPu": 0.012809999999999998,
+    "bPu": 0.39808,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Rohrsdorf - V445:75",
+    "from": 14,
+    "to": 41,
+    "rPu": 0.00076875,
+    "xPu": 0.0068375,
+    "bPu": 0.2792,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hradec - Rohrsdorf - V446:76",
+    "from": 14,
+    "to": 41,
+    "rPu": 0.00076875,
+    "xPu": 0.0068375,
+    "bPu": 0.2792,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liskovec - Bujakow:77",
+    "from": 59,
+    "to": 54,
+    "rPu": 0.006219008264462809,
+    "xPu": 0.03479338842975207,
+    "bPu": 0.054208,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liskovec - Kopanina:78",
+    "from": 59,
+    "to": 58,
+    "rPu": 0.0060330578512396696,
+    "xPu": 0.03452479338842975,
+    "bPu": 0.057595999999999994,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Detmarovice - Dobrzen:79",
+    "from": 10,
+    "to": 52,
+    "rPu": 0.0014624999999999998,
+    "xPu": 0.01531875,
+    "bPu": 0.4759999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zaya - Sokolnice 243:80",
+    "from": 71,
+    "to": 75,
+    "rPu": 0.005256198347107438,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.0399139312,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zaya - Sokolnice 244:81",
+    "from": 71,
+    "to": 75,
+    "rPu": 0.005256198347107438,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.0399139312,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - vitkov 400 (OSM merged_way/875518342:a-400+1)",
+    "from": 14,
+    "to": 49,
+    "rPu": 0.001034593410630841,
+    "xPu": 0.012351265960510689,
+    "bPu": 0.4481912039834025,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mirovka - osm virtual_relation/10043727:a:1 400 (OSM relation/10043727:a-400)",
+    "from": 19,
+    "to": 27,
+    "rPu": 0.0003193074801401869,
+    "xPu": 0.003811982146674584,
+    "bPu": 0.13832564802213002,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/10043727:a:1 - prosenice 400 (OSM relation/10043727:b-400)",
+    "from": 27,
+    "to": 39,
+    "rPu": 0.002365628670560747,
+    "xPu": 0.028241537761282652,
+    "bPu": 1.0248025467219917,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:reporyje - kocin 400 (OSM relation/4996998-400)",
+    "from": 40,
+    "to": 16,
+    "rPu": 0.0020175525146028032,
+    "xPu": 0.024086107103622325,
+    "bPu": 0.8740141598893499,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tynec - osm virtual_relation/5123156:1 400 (OSM relation/5123155-400)",
+    "from": 46,
+    "to": 28,
+    "rPu": 0.00012820176869158875,
+    "xPu": 0.001530508628266033,
+    "bPu": 0.055537667717842326,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tynec - osm virtual_relation/5123156:1 400 (OSM relation/5123156-400)",
+    "from": 46,
+    "to": 28,
+    "rPu": 0.00012820176869158875,
+    "xPu": 0.001530508628266033,
+    "bPu": 0.055537667717842326,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:chotejovice - bezdecin 220 (OSM relation/5123162-220)",
+    "from": 56,
+    "to": 53,
+    "rPu": 0.008696167980988902,
+    "xPu": 0.06506660982080187,
+    "bPu": 0.1642211420285423,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vyskov - chotejovice 220 (OSM relation/5123163-220)",
+    "from": 74,
+    "to": 56,
+    "rPu": 0.002665661321171473,
+    "xPu": 0.019945054589359912,
+    "bPu": 0.05033917782879714,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm melnik - babylon 400 (OSM relation/5124542-400)",
+    "from": 24,
+    "to": 2,
+    "rPu": 0.00045090845151869155,
+    "xPu": 0.00538307140884798,
+    "bPu": 0.1953358678838174,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vyskov - osm virtual_way/344326812:0 400 (OSM relation/5124914-400)",
+    "from": 50,
+    "to": 36,
+    "rPu": 6.5130101635514e-05,
+    "xPu": 0.0007775413984560569,
+    "bPu": 0.02821469609958506,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kocin - osm virtual_relation/5129388:1 400 (OSM relation/5129388-400)",
+    "from": 16,
+    "to": 29,
+    "rPu": 4.466685747663551e-05,
+    "xPu": 0.0005332454572446554,
+    "bPu": 0.019349913139695713,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kocin - osm virtual_relation/5129388:1 400 (OSM relation/5129389-400)",
+    "from": 16,
+    "to": 29,
+    "rPu": 4.37282464953271e-05,
+    "xPu": 0.0005220400564133016,
+    "bPu": 0.018943302019363763,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:milin - osm virtual_way/1314878331:1 220 (OSM relation/5130002-220)",
+    "from": 61,
+    "to": 65,
+    "rPu": 0.000791545394783953,
+    "xPu": 0.005922513855580244,
+    "bPu": 0.01494778953017329,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:milin - osm virtual_way/1314878331:1 220 (OSM relation/5130003-220)",
+    "from": 61,
+    "to": 65,
+    "rPu": 0.000791545394783953,
+    "xPu": 0.005922513855580244,
+    "bPu": 0.01494778953017329,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5134103:0 - vitkov 220 (OSM relation/5134103-220)",
+    "from": 64,
+    "to": 73,
+    "rPu": 0.0007131161427447383,
+    "xPu": 0.0053356892275223345,
+    "bPu": 0.01346670713083588,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vitkov - osm vresova 220 (OSM relation/5134131-220)",
+    "from": 73,
+    "to": 67,
+    "rPu": 0.0014922380598578091,
+    "xPu": 0.011165247935962378,
+    "bPu": 0.028179887843017327,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vitkov - osm vresova 220 (OSM relation/5134132-220)",
+    "from": 73,
+    "to": 67,
+    "rPu": 0.0014922380598578091,
+    "xPu": 0.011165247935962378,
+    "bPu": 0.028179887843017327,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm prunerov - hradec 400 (OSM relation/5134259-400)",
+    "from": 25,
+    "to": 14,
+    "rPu": 0.00016544653271028032,
+    "xPu": 0.0019751470546318286,
+    "bPu": 0.07167229167358229,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm prunerov - hradec 400 (OSM relation/5134306-400)",
+    "from": 25,
+    "to": 14,
+    "rPu": 0.00026793253037383174,
+    "xPu": 0.003198653604513063,
+    "bPu": 0.11606975468879666,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm prunerov - hradec 400 (OSM relation/5134307-400)",
+    "from": 25,
+    "to": 14,
+    "rPu": 0.00026793253037383174,
+    "xPu": 0.003198653604513063,
+    "bPu": 0.11606975468879666,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm dukovany 400 (OSM relation/5136812-400)",
+    "from": 43,
+    "to": 22,
+    "rPu": 5.189512967289718e-05,
+    "xPu": 0.0006195385956057006,
+    "bPu": 0.02248123795297372,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm dukovany 400 (OSM relation/5136813-400)",
+    "from": 43,
+    "to": 22,
+    "rPu": 4.8351953855140176e-05,
+    "xPu": 0.0005772391701306411,
+    "bPu": 0.02094631590594744,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm dukovany 400 (OSM relation/5136814-400)",
+    "from": 43,
+    "to": 22,
+    "rPu": 5.1233469042056065e-05,
+    "xPu": 0.0006116395056413301,
+    "bPu": 0.02219460315352697,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm dukovany 400 (OSM relation/5136816-400)",
+    "from": 43,
+    "to": 22,
+    "rPu": 4.938908820093457e-05,
+    "xPu": 0.0005896207704869358,
+    "bPu": 0.021395607856154908,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm virtual_relation/5136824:1 400 (OSM relation/5136823-400)",
+    "from": 43,
+    "to": 30,
+    "rPu": 3.422440712616822e-05,
+    "xPu": 0.0004085805596793348,
+    "bPu": 0.014826189764868603,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm virtual_relation/5136824:1 400 (OSM relation/5136824-400)",
+    "from": 43,
+    "to": 30,
+    "rPu": 3.422440712616822e-05,
+    "xPu": 0.0004085805596793348,
+    "bPu": 0.014826189764868603,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slavetice - osm virtual_relation/5168027:a:1 400 (OSM relation/5168027:a-400)",
+    "from": 43,
+    "to": 31,
+    "rPu": 0.0006519340876168224,
+    "xPu": 0.007782971766627077,
+    "bPu": 0.28242121073305665,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5168027:a:1 - cebin 400 (OSM relation/5168027:b-400)",
+    "from": 31,
+    "to": 5,
+    "rPu": 8.580769275700932e-05,
+    "xPu": 0.0010243962737529688,
+    "bPu": 0.03717233526970954,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:krasikov - osm eds 400 (OSM relation/5250540-400)",
+    "from": 17,
+    "to": 23,
+    "rPu": 0.0008741784602803737,
+    "xPu": 0.010436187345605698,
+    "bPu": 0.37869861975103736,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/113566137:0 - reporyje 400 (OSM way/113566137-400 c1)",
+    "from": 32,
+    "to": 40,
+    "rPu": 0.0002741264538551401,
+    "xPu": 0.003272598398159144,
+    "bPu": 0.11875299430152142,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/113566137:0 - reporyje 400 (OSM way/113566137-400 c2)",
+    "from": 32,
+    "to": 40,
+    "rPu": 0.0002741264538551401,
+    "xPu": 0.003272598398159144,
+    "bPu": 0.11875299430152142,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vyskov - osm virtual_way/174150969:0 220 (OSM way/121679009-220 c1)",
+    "from": 74,
+    "to": 66,
+    "rPu": 0.0013337092990787203,
+    "xPu": 0.009979101457934564,
+    "bPu": 0.0251861813970948,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vyskov - osm virtual_way/174150969:0 220 (OSM way/121679009-220 c2)",
+    "from": 74,
+    "to": 66,
+    "rPu": 0.0013337092990787203,
+    "xPu": 0.009979101457934564,
+    "bPu": 0.0251861813970948,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28629413:1 - osm virtual_way/113566137:0 400 (OSM way/129756600-400)",
+    "from": 35,
+    "to": 32,
+    "rPu": 0.0011121566623831774,
+    "xPu": 0.013277237788004749,
+    "bPu": 0.4817920048686031,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm virtual_way/28629413:1 400 (OSM way/129756619-400 c1)",
+    "from": 14,
+    "to": 35,
+    "rPu": 0.0003236936758177569,
+    "xPu": 0.003864345779394298,
+    "bPu": 0.14022577062240663,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm virtual_way/28629413:1 400 (OSM way/129756619-400 c2)",
+    "from": 14,
+    "to": 35,
+    "rPu": 0.0003236936758177569,
+    "xPu": 0.003864345779394298,
+    "bPu": 0.14022577062240663,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5168027:a:1 - osm virtual_way/28099167:1 400 (OSM way/132480608-400)",
+    "from": 31,
+    "to": 34,
+    "rPu": 0.0011547429468457943,
+    "xPu": 0.013785644781769595,
+    "bPu": 0.5002406030428769,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/157809712:0 - hradec 400 (OSM way/157809712-400 c1)",
+    "from": 33,
+    "to": 14,
+    "rPu": 0.0004191079830607476,
+    "xPu": 0.005003428508016626,
+    "bPu": 0.18155974085753804,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/157809712:0 - hradec 400 (OSM way/157809712-400 c2)",
+    "from": 33,
+    "to": 14,
+    "rPu": 0.0004191079830607476,
+    "xPu": 0.005003428508016626,
+    "bPu": 0.18155974085753804,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/174150969:0 - osm lds sever 220 (OSM way/174150969-220 c1)",
+    "from": 66,
+    "to": 63,
+    "rPu": 0.0007729150620691524,
+    "xPu": 0.005783117676454481,
+    "bPu": 0.014595968530224263,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/174150969:0 - osm lds sever 220 (OSM way/174150969-220 c2)",
+    "from": 66,
+    "to": 63,
+    "rPu": 0.0007729150620691524,
+    "xPu": 0.005783117676454481,
+    "bPu": 0.014595968530224263,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm virtual_way/174150969:0 220 (OSM way/174150973-220 c1)",
+    "from": 57,
+    "to": 66,
+    "rPu": 0.0013966960023241168,
+    "xPu": 0.01045038159568333,
+    "bPu": 0.026375641899949027,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm virtual_way/174150969:0 220 (OSM way/174150973-220 c2)",
+    "from": 57,
+    "to": 66,
+    "rPu": 0.0013966960023241168,
+    "xPu": 0.01045038159568333,
+    "bPu": 0.026375641899949027,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm tusimice 400 (OSM way/192437373-400 c1)",
+    "from": 14,
+    "to": 26,
+    "rPu": 5.878487441588785e-05,
+    "xPu": 0.0007017902983966745,
+    "bPu": 0.025465910926694327,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hradec - osm tusimice 400 (OSM way/192437373-400 c2)",
+    "from": 14,
+    "to": 26,
+    "rPu": 5.878487441588785e-05,
+    "xPu": 0.0007017902983966745,
+    "bPu": 0.025465910926694327,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mirovka - osm virtual_way/28099167:1 400 (OSM way/28099167-400 c1)",
+    "from": 19,
+    "to": 34,
+    "rPu": 5.5222199182242986e-05,
+    "xPu": 0.000659258083432304,
+    "bPu": 0.023922541632088522,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mirovka - osm virtual_way/28099167:1 400 (OSM way/28099167-400 c2)",
+    "from": 19,
+    "to": 34,
+    "rPu": 5.5222199182242986e-05,
+    "xPu": 0.000659258083432304,
+    "bPu": 0.023922541632088522,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/344326812:0 - vyskov 400 (OSM way/28345715-400)",
+    "from": 36,
+    "to": 50,
+    "rPu": 6.368773130841121e-05,
+    "xPu": 0.0007603219774346792,
+    "bPu": 0.027589853831258646,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:vyskov - osm virtual_way/344326812:0 400 (OSM way/28345717-400)",
+    "from": 50,
+    "to": 36,
+    "rPu": 6.266994976635514e-05,
+    "xPu": 0.0007481714162707837,
+    "bPu": 0.02714894561549101,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28099167:1 - osm virtual_way/28629413:1 400 (OSM way/28629413-400)",
+    "from": 34,
+    "to": 35,
+    "rPu": 0.0026918475940420554,
+    "xPu": 0.0321360306546912,
+    "bPu": 1.1661222676625174,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/10043727:a:1 - osm virtual_way/113566137:0 400 (OSM way/682136556-400)",
+    "from": 27,
+    "to": 32,
+    "rPu": 0.001519757204439252,
+    "xPu": 0.018143287241686457,
+    "bPu": 0.6583666629045642,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:PL:CZ:bujakow [PL]:220~CZ:kopanina [PL]:220",
+    "from": 54,
+    "to": 58,
+    "rPu": 0.014190812044768802,
+    "xPu": 0.08308304942659914,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:CZ:senica [SK]:hv~CZ:stupava [SK]:hv",
+    "from": 42,
+    "to": 45,
+    "rPu": 0.0189820941734679,
+    "xPu": 0.17760080006474585,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:CZ:senica [SK]:hv~CZ:varin [SK]:hv",
+    "from": 42,
+    "to": 47,
+    "rPu": 0.014854381648820294,
+    "xPu": 0.1445012273120985,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:CZ:stupava [SK]:hv~CZ:varin [SK]:hv",
+    "from": 45,
+    "to": 47,
+    "rPu": 0.0022422825017459594,
+    "xPu": 0.027778687479027273,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "name": "jao:15T-M0000001145Z:0",
+    "from": 33,
+    "to": 65,
+    "rPu": 0.00047038098986150933,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "jao:15T-M0000000817H:1",
+    "from": 19,
+    "to": 53,
+    "rPu": 0.0003129626506249883,
+    "xPu": 0.023743932834841924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "jao:15T-M0000000818F:2",
+    "from": 19,
+    "to": 53,
+    "rPu": 0.0004197822379640561,
+    "xPu": 0.02496205093607691,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "synth:coupling:god~god",
+    "from": 11,
+    "to": 49,
+    "rPu": 0.00040370949461858554,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "synth:coupling:god kelet~god kelet",
+    "from": 10,
+    "to": 48,
+    "rPu": 0.00040370949461858554,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "synth:coupling:gyor~gyor",
+    "from": 13,
+    "to": 50,
+    "rPu": 0.00040370949461858554,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "synth:coupling:kerepes~kerepes",
+    "from": 16,
+    "to": 51,
+    "rPu": 0.00040370949461858554,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "synth:coupling:szolnok~szolnok",
+    "from": 38,
+    "to": 67,
+    "rPu": 0.00040370949461858554,
+    "xPu": 0.024006296733569462,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.12967068551325
+  },
+  {
+    "name": "equiv:AT:HU:zurndorf [AT]:hv~HU:neusiedl [AT]:220",
+    "from": 45,
+    "to": 56,
+    "rPu": 0.008790220383209172,
+    "xPu": 0.05746888258582511,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:HU:albertirsa:hv",
+    "from": 71,
+    "to": 1,
+    "rPu": 0.004844750387593712,
+    "xPu": 0.09689500775187425,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 206.4089829190724
+  },
+  {
+    "name": "emb:HU:bekescsaba:hv",
+    "from": 72,
+    "to": 3,
+    "rPu": 0.004959568787067658,
+    "xPu": 0.09919137574135316,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 201.6304325907433
+  },
+  {
+    "name": "emb:HU:bicske del:hv",
+    "from": 73,
+    "to": 4,
+    "rPu": 0.013130494581900775,
+    "xPu": 0.2626098916380155,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 76.15859355202137
+  },
+  {
+    "name": "emb:HU:buj:hv",
+    "from": 74,
+    "to": 5,
+    "rPu": 0.0052500083126223816,
+    "xPu": 0.10500016625244762,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 190.4758888849263
+  },
+  {
+    "name": "emb:HU:felsozsolca:hv",
+    "from": 75,
+    "to": 8,
+    "rPu": 0.011932245178758358,
+    "xPu": 0.23864490357516716,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 83.80652467485233
+  },
+  {
+    "name": "emb:HU:gonyu:hv",
+    "from": 76,
+    "to": 12,
+    "rPu": 0.007696367684801253,
+    "xPu": 0.15392735369602506,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 129.9314223220903
+  },
+  {
+    "name": "gsu:HU:gonyu:hv",
+    "from": 77,
+    "to": 12,
+    "rPu": 0.0007216042154566744,
+    "xPu": 0.028864168618266975,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 502.3529411764706
+  },
+  {
+    "name": "emb:HU:heviz:hv",
+    "from": 78,
+    "to": 14,
+    "rPu": 0.0020837760618980282,
+    "xPu": 0.04167552123796056,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 479.89801701106984
+  },
+  {
+    "name": "emb:HU:jozsa:hv",
+    "from": 79,
+    "to": 15,
+    "rPu": 0.004334820237191449,
+    "xPu": 0.08669640474382899,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 230.6900737013964
+  },
+  {
+    "name": "emb:HU:liter:hv",
+    "from": 80,
+    "to": 18,
+    "rPu": 0.0033912948444621014,
+    "xPu": 0.06782589688924202,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 294.8726211856733
+  },
+  {
+    "name": "emb:HU:paks:hv",
+    "from": 81,
+    "to": 27,
+    "rPu": 0.0030823589106448532,
+    "xPu": 0.061647178212897065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 324.42685261165525
+  },
+  {
+    "name": "gsu:HU:paks:hv",
+    "from": 82,
+    "to": 27,
+    "rPu": 0.00015201036013813516,
+    "xPu": 0.006080414405525407,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2384.705882352941
+  },
+  {
+    "name": "emb:HU:pecs 1:hv",
+    "from": 83,
+    "to": 28,
+    "rPu": 0.0024478871662643635,
+    "xPu": 0.04895774332528727,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 408.5155614121159
+  },
+  {
+    "name": "emb:HU:perkata:hv",
+    "from": 84,
+    "to": 30,
+    "rPu": 0.009813518502728335,
+    "xPu": 0.19627037005456668,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.900251140504
+  },
+  {
+    "name": "emb:HU:sajoivanka:hv",
+    "from": 85,
+    "to": 32,
+    "rPu": 0.055056271673210797,
+    "xPu": 1.101125433464216,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 18.163234988659404
+  },
+  {
+    "name": "emb:HU:sandorfalva:hv",
+    "from": 86,
+    "to": 34,
+    "rPu": 0.0060550265956156885,
+    "xPu": 0.12110053191231376,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 165.15204090500248
+  },
+  {
+    "name": "emb:HU:szabolcsbaka:hv",
+    "from": 87,
+    "to": 36,
+    "rPu": 0.009539719598930234,
+    "xPu": 0.19079439197860468,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 104.8248839632706
+  },
+  {
+    "name": "emb:HU:szigetcsep:hv",
+    "from": 88,
+    "to": 37,
+    "rPu": 0.029374201724849364,
+    "xPu": 0.5874840344969873,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.04347833405261
+  },
+  {
+    "name": "emb:HU:szombathely 1:hv",
+    "from": 89,
+    "to": 39,
+    "rPu": 0.004383702939659618,
+    "xPu": 0.08767405879319236,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 228.11764705882354
+  },
+  {
+    "name": "emb:HU:szombathely 2:hv",
+    "from": 90,
+    "to": 40,
+    "rPu": 0.1739660469853836,
+    "xPu": 3.479320939707672,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5.748248105470941
+  },
+  {
+    "name": "emb:HU:toponar:hv",
+    "from": 91,
+    "to": 42,
+    "rPu": 0.003894733021303181,
+    "xPu": 0.07789466042606362,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 256.75700863968314
+  },
+  {
+    "name": "emb:HU:detk:220",
+    "from": 92,
+    "to": 46,
+    "rPu": 0.004368990212273792,
+    "xPu": 0.08737980424547584,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 228.88584121582667
+  },
+  {
+    "name": "gsu:HU:detk:220",
+    "from": 93,
+    "to": 46,
+    "rPu": 0.0002076314016172506,
+    "xPu": 0.008305256064690025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1745.8823529411766
+  },
+  {
+    "name": "emb:HU:dunamenti:220",
+    "from": 94,
+    "to": 47,
+    "rPu": 0.011329296099285156,
+    "xPu": 0.22658592198570313,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 88.26673707143173
+  },
+  {
+    "name": "gsu:HU:dunamenti:220",
+    "from": 95,
+    "to": 47,
+    "rPu": 0.00044143982808022913,
+    "xPu": 0.017657593123209164,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 821.1764705882354
+  },
+  {
+    "name": "emb:HU:god kelet:220",
+    "from": 96,
+    "to": 48,
+    "rPu": 0.008936419116620053,
+    "xPu": 0.17872838233240107,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 111.9016450493228
+  },
+  {
+    "name": "emb:HU:god:220",
+    "from": 97,
+    "to": 49,
+    "rPu": 0.007042858455513409,
+    "xPu": 0.1408571691102682,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 141.9878031507453
+  },
+  {
+    "name": "emb:HU:gyor:220",
+    "from": 98,
+    "to": 50,
+    "rPu": 0.004916907854607227,
+    "xPu": 0.09833815709214454,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 203.37985367429306
+  },
+  {
+    "name": "emb:HU:kerepes:220",
+    "from": 99,
+    "to": 51,
+    "rPu": 0.020249090958337275,
+    "xPu": 0.40498181916674547,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.38493298575778
+  },
+  {
+    "name": "emb:HU:kisvarda:220",
+    "from": 100,
+    "to": 52,
+    "rPu": 0.006389258146809384,
+    "xPu": 0.1277851629361877,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 156.5126931832253
+  },
+  {
+    "name": "emb:HU:martonvasar:220",
+    "from": 101,
+    "to": 53,
+    "rPu": 0.14663800962562942,
+    "xPu": 2.9327601925125886,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6.819514275684902
+  },
+  {
+    "name": "emb:HU:mezocsat:220",
+    "from": 102,
+    "to": 54,
+    "rPu": 0.002440535880308707,
+    "xPu": 0.04881071760617414,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 409.74607587965824
+  },
+  {
+    "name": "emb:HU:ocsa:220",
+    "from": 103,
+    "to": 57,
+    "rPu": 0.02165508586081636,
+    "xPu": 0.4331017172163272,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 46.1785285187644
+  },
+  {
+    "name": "emb:HU:oroszlany:220",
+    "from": 104,
+    "to": 58,
+    "rPu": 0.00462720668208068,
+    "xPu": 0.09254413364161361,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 216.11310423469948
+  },
+  {
+    "name": "emb:HU:sajoszoged:220",
+    "from": 105,
+    "to": 65,
+    "rPu": 0.01411717838097209,
+    "xPu": 0.2823435676194418,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 70.83568493742737
+  },
+  {
+    "name": "emb:HU:szeged:220",
+    "from": 106,
+    "to": 66,
+    "rPu": 0.012421945401611883,
+    "xPu": 0.24843890803223764,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 80.50268840098421
+  },
+  {
+    "name": "emb:HU:szolnok:220",
+    "from": 107,
+    "to": 67,
+    "rPu": 0.0038836506258526347,
+    "xPu": 0.07767301251705269,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 257.4896911022874
+  },
+  {
+    "name": "emb:HU:tiszalok:220",
+    "from": 108,
+    "to": 68,
+    "rPu": 0.003554475459656113,
+    "xPu": 0.07108950919312226,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 281.33546323505846
+  },
+  {
+    "name": "emb:HU:zuglo:220",
+    "from": 109,
+    "to": 70,
+    "rPu": 0.00369236464941591,
+    "xPu": 0.0738472929883182,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 270.82915555433794
+  },
+  {
+    "name": "gsu:HU:zuglo:220",
+    "from": 110,
+    "to": 70,
+    "rPu": 0.0007664800995024875,
+    "xPu": 0.030659203980099498,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 472.94117647058823
+  }
+]

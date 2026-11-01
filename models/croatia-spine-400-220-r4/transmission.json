@@ -1,0 +1,462 @@
+[
+  {
+    "name": "jao:400 kV Zerjavinec - Ernestinovo 408:0",
+    "from": 14,
+    "to": 3,
+    "rPu": 0.00448125,
+    "xPu": 0.04768125,
+    "bPu": 1.3060479999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:400 kV Melina - Velebit 434:1",
+    "from": 7,
+    "to": 13,
+    "rPu": 0.003675,
+    "xPu": 0.038175,
+    "bPu": 1.007008,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Brinje - VE Padene:2",
+    "from": 16,
+    "to": 33,
+    "rPu": 0.023326446280991734,
+    "xPu": 0.12888429752066116,
+    "bPu": 0.1898248,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "jao:400 kV Tumbri - Melina 456:3",
+    "from": 11,
+    "to": 7,
+    "rPu": 0.0024875,
+    "xPu": 0.025612499999999996,
+    "bPu": 0.71808,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Mraclin -Brinje 208:4",
+    "from": 22,
+    "to": 16,
+    "rPu": 0.014607438016528926,
+    "xPu": 0.07789256198347108,
+    "bPu": 0.20069544,
+    "ratingMva": 548.7136958378203,
+    "circuits": 1
+  },
+  {
+    "name": "jao:400 kV Konjsko - Velebit 419:5",
+    "from": 5,
+    "to": 13,
+    "rPu": 0.0020125,
+    "xPu": 0.021,
+    "bPu": 0.567136,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Zakucac - Bilice 257:6",
+    "from": 34,
+    "to": 15,
+    "rPu": 0.012851239669421487,
+    "xPu": 0.06353305785123967,
+    "bPu": 0.09801,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Konjsko - VE Padene:7",
+    "from": 18,
+    "to": 33,
+    "rPu": 0.008553719008264462,
+    "xPu": 0.02851239669421488,
+    "bPu": 0.03268936,
+    "ratingMva": 594.4398371576386,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Melina - Plomin 287:8",
+    "from": 20,
+    "to": 28,
+    "rPu": 0.007685950413223141,
+    "xPu": 0.05289256198347108,
+    "bPu": 0.08633107999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:400 kV Zerjavinec - Tumbri 477:9",
+    "from": 14,
+    "to": 11,
+    "rPu": 0.00114375,
+    "xPu": 0.011893750000000002,
+    "bPu": 0.337696,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Mraclin - TE Sisak2 222:10",
+    "from": 22,
+    "to": 32,
+    "rPu": 0.0096900826446281,
+    "xPu": 0.05113636363636364,
+    "bPu": 0.08647144,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Melina - Senj 241:11",
+    "from": 20,
+    "to": 31,
+    "rPu": 0.007685950413223141,
+    "xPu": 0.049545454545454545,
+    "bPu": 0.07173364,
+    "ratingMva": 583.008301827684,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Konjsko - Bilice 271/1:12",
+    "from": 18,
+    "to": 15,
+    "rPu": 0.008884297520661156,
+    "xPu": 0.045640495867768596,
+    "bPu": 0.0696476,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Konjsko - Bilice 271/2:13",
+    "from": 18,
+    "to": 15,
+    "rPu": 0.008884297520661156,
+    "xPu": 0.045640495867768596,
+    "bPu": 0.0696476,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Pehlin - Plomin 284:14",
+    "from": 27,
+    "to": 28,
+    "rPu": 0.005640495867768595,
+    "xPu": 0.03933884297520661,
+    "bPu": 0.06263444,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV TE Sisak - Meduric 246:15",
+    "from": 32,
+    "to": 19,
+    "rPu": 0.007520661157024794,
+    "xPu": 0.0381198347107438,
+    "bPu": 0.05945939999999999,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Mraclin - TE Sisak 249:16",
+    "from": 22,
+    "to": 32,
+    "rPu": 0.007355371900826447,
+    "xPu": 0.03809917355371901,
+    "bPu": 0.058138079999999995,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Zerjavinec - Mraclin 247:17",
+    "from": 35,
+    "to": 22,
+    "rPu": 0.004359504132231405,
+    "xPu": 0.022355371900826447,
+    "bPu": 0.03552076,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Zakucac - Konjsko 274:18",
+    "from": 34,
+    "to": 18,
+    "rPu": 0.0032231404958677685,
+    "xPu": 0.02245867768595041,
+    "bPu": 0.03268936,
+    "ratingMva": 593.2966836246432,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Melina - Pehlin2 286/2:19",
+    "from": 20,
+    "to": 27,
+    "rPu": 0.002272727272727273,
+    "xPu": 0.01487603305785124,
+    "bPu": 0.02414192,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Senj - Brinje 235:20",
+    "from": 31,
+    "to": 16,
+    "rPu": 0.0025619834710743803,
+    "xPu": 0.013760330578512397,
+    "bPu": 0.020144079999999998,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "jao:220 kV Melina - Pehlin1 285:21",
+    "from": 20,
+    "to": 27,
+    "rPu": 0.0024380165289256198,
+    "xPu": 0.012293388429752066,
+    "bPu": 0.018416199999999997,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zerjavinec-Cirkovce:22",
+    "from": 14,
+    "to": 1,
+    "rPu": 0.00171875,
+    "xPu": 0.01815625,
+    "bPu": 0.537392,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zerjavinec-Heviz:23",
+    "from": 14,
+    "to": 4,
+    "rPu": 0.0016,
+    "xPu": 0.0166125,
+    "bPu": 0.471664,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mostar - Konjsko:24",
+    "from": 5,
+    "to": 8,
+    "rPu": 0.00109375,
+    "xPu": 0.01106875,
+    "bPu": 0.313696,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prijedor - Sisak:25",
+    "from": 32,
+    "to": 30,
+    "rPu": 0.006673553719008265,
+    "xPu": 0.03481404958677686,
+    "bPu": 0.05525828,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ugljevik - Ernestinovo:26",
+    "from": 3,
+    "to": 12,
+    "rPu": 0.0009812500000000001,
+    "xPu": 0.010631250000000002,
+    "bPu": 0.290336,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ernestinovo-S. Mitrovica:27",
+    "from": 3,
+    "to": 10,
+    "rPu": 0.0009125,
+    "xPu": 0.00948125,
+    "bPu": 0.262864,
+    "ratingMva": 1205.5073620679386,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mostar - Zakucac:28",
+    "from": 34,
+    "to": 21,
+    "rPu": 0.007830578512396694,
+    "xPu": 0.040888429752066115,
+    "bPu": 0.06277479999999999,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pecs - Ernestinovo1 491A:29",
+    "from": 3,
+    "to": 9,
+    "rPu": 0.0008,
+    "xPu": 0.008418750000000001,
+    "bPu": 0.258368,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pecs - Ernestinovo2 491B:30",
+    "from": 3,
+    "to": 9,
+    "rPu": 0.0008,
+    "xPu": 0.008418750000000001,
+    "bPu": 0.258368,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zerjavinec - Podlog:31",
+    "from": 35,
+    "to": 29,
+    "rPu": 0.008884297520661156,
+    "xPu": 0.05167355371900827,
+    "bPu": 0.08096835999999999,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Prijedor - Meduric:32",
+    "from": 19,
+    "to": 30,
+    "rPu": 0.004690082644628099,
+    "xPu": 0.023719008264462813,
+    "bPu": 0.03672592,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Melina - Divaca:33",
+    "from": 7,
+    "to": 2,
+    "rPu": 0.0006375,
+    "xPu": 0.006787499999999999,
+    "bPu": 0.188368,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pehlin - Divaca:34",
+    "from": 27,
+    "to": 17,
+    "rPu": 0.0032644628099173555,
+    "xPu": 0.022789256198347107,
+    "bPu": 0.03586924,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tumbri - Krsko 1:35",
+    "from": 11,
+    "to": 6,
+    "rPu": 0.00045,
+    "xPu": 0.00473125,
+    "bPu": 0.14070399999999997,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tumbri - Krsko 2:36",
+    "from": 11,
+    "to": 6,
+    "rPu": 0.00045,
+    "xPu": 0.00473125,
+    "bPu": 0.14070399999999997,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm ts te rijeka - melina 220 (OSM way/129255606-220)",
+    "from": 23,
+    "to": 20,
+    "rPu": 0.0010164921000675846,
+    "xPu": 0.005293094872548699,
+    "bPu": 0.0081415510176,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm ts te rijeka - melina 220 (OSM way/158456022-220)",
+    "from": 23,
+    "to": 20,
+    "rPu": 0.0010423049496309463,
+    "xPu": 0.005427507979803164,
+    "bPu": 0.008348297958,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "osm:konjsko - osm virtual_way/170507277:1 220 (OSM way/170507277-220)",
+    "from": 18,
+    "to": 24,
+    "rPu": 0.004755481792105921,
+    "xPu": 0.024762825297531547,
+    "bPu": 0.03808883278199999,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "osm:brinje - osm virtual_way/273337194:1 220 (OSM way/273337194-220)",
+    "from": 16,
+    "to": 25,
+    "rPu": 0.0011187041875761659,
+    "xPu": 0.005825335385060502,
+    "bPu": 0.0089602144632,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "osm:konjsko - osm virtual_way/45346365:1 220 (OSM way/45346365-220)",
+    "from": 18,
+    "to": 26,
+    "rPu": 0.0029511674019360025,
+    "xPu": 0.015367368858234826,
+    "bPu": 0.023637252038399996,
+    "ratingMva": 310.5567097970997,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:hv",
+    "from": 1,
+    "to": 2,
+    "rPu": 0.01119650512351346,
+    "xPu": 0.10569644644967247,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SI:HR:cirkovce [SI]:hv~HR:krsko [SI]:hv",
+    "from": 1,
+    "to": 6,
+    "rPu": 0.0009112369587740214,
+    "xPu": 0.009328596119994828,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SI:HR:divaca [SI]:220~HR:podlog [SI]:220",
+    "from": 17,
+    "to": 29,
+    "rPu": 0.03854838060032697,
+    "xPu": 0.20932551672350413,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SI:HR:divaca [SI]:hv~HR:krsko [SI]:hv",
+    "from": 2,
+    "to": 6,
+    "rPu": 0.002950555549801384,
+    "xPu": 0.03076780582400156,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

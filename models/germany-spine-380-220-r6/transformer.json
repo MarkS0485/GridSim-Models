@@ -1,0 +1,5542 @@
+[
+  {
+    "name": "jao:11TD8T401EU12--E",
+    "from": 64,
+    "to": 377,
+    "rPu": 0.00046260387811634354,
+    "xPu": 0.03563850415512466,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 599.982399741859
+  },
+  {
+    "name": "jao:11T0-0000-2256-5",
+    "from": 88,
+    "to": 393,
+    "rPu": 0.00048684210526315786,
+    "xPu": 0.04493074792243767,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T405NOR12-5",
+    "from": 93,
+    "to": 398,
+    "rPu": 0.0006405817174515235,
+    "xPu": 0.043577908587257616,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 450.3332099679081
+  },
+  {
+    "name": "jao:11TD8T406NOR12-Y",
+    "from": 93,
+    "to": 398,
+    "rPu": 0.0006405817174515235,
+    "xPu": 0.043577908587257616,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 450.3332099679081
+  },
+  {
+    "name": "jao:11T0-0000-0003-J",
+    "from": 154,
+    "to": 427,
+    "rPu": 0.0005107340720221607,
+    "xPu": 0.04641412742382272,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 450.3332099679081
+  },
+  {
+    "name": "jao:11TD8T401MZA12-Q",
+    "from": 161,
+    "to": 435,
+    "rPu": 0.000350415512465374,
+    "xPu": 0.027997922437673132,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T402MZA12-I",
+    "from": 161,
+    "to": 435,
+    "rPu": 0.000350415512465374,
+    "xPu": 0.027997922437673132,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T401NHG12-N",
+    "from": 181,
+    "to": 442,
+    "rPu": 0.0002304709141274238,
+    "xPu": 0.015593282548476455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.6878578545505
+  },
+  {
+    "name": "jao:11TD8T402NHG12-F",
+    "from": 181,
+    "to": 442,
+    "rPu": 0.0002304709141274238,
+    "xPu": 0.015593282548476455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.6878578545505
+  },
+  {
+    "name": "jao:11TD8T402ROE12-T",
+    "from": 228,
+    "to": 468,
+    "rPu": 0.0002304709141274238,
+    "xPu": 0.015593282548476455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.6878578545505
+  },
+  {
+    "name": "jao:11TD8T403ROE12-T",
+    "from": 228,
+    "to": 468,
+    "rPu": 0.0002304709141274238,
+    "xPu": 0.015593282548476455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.6878578545505
+  },
+  {
+    "name": "jao:11TD8T401THY12-2",
+    "from": 256,
+    "to": 490,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T402VIB12-B",
+    "from": 267,
+    "to": 499,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T403VIB12-B",
+    "from": 267,
+    "to": 499,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T404WOL12-H",
+    "from": 287,
+    "to": 520,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T401WU12-0Y",
+    "from": 291,
+    "to": 522,
+    "rPu": 0.00048684210526315786,
+    "xPu": 0.04493074792243767,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11TD8T402WU12--S",
+    "from": 291,
+    "to": 522,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11T0-0000-2086-3",
+    "from": 205,
+    "to": 457,
+    "rPu": 0.00048684210526315786,
+    "xPu": 0.04493074792243767,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11T0-0000-2210-2",
+    "from": 277,
+    "to": 509,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11T0-0000-2087-0",
+    "from": 205,
+    "to": 457,
+    "rPu": 0.0006350415512465374,
+    "xPu": 0.04376246537396122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:11T0-0000-1249-6",
+    "from": 24,
+    "to": 355,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0575-Y",
+    "from": 30,
+    "to": 360,
+    "rPu": 0.0004958677685950413,
+    "xPu": 0.03570247933884298,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.7917809030047
+  },
+  {
+    "name": "jao:11T0-0000-1251-Q",
+    "from": 36,
+    "to": 363,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.016488919667590026,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0589-I",
+    "from": 36,
+    "to": 363,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0595-Q",
+    "from": 48,
+    "to": 370,
+    "rPu": 0.0004958677685950413,
+    "xPu": 0.03570247933884298,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.7917809030047
+  },
+  {
+    "name": "jao:11T0-0000-0606-H",
+    "from": 62,
+    "to": 375,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0614-J",
+    "from": 75,
+    "to": 386,
+    "rPu": 0.0004958677685950413,
+    "xPu": 0.03458677685950413,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0615-G",
+    "from": 75,
+    "to": 386,
+    "rPu": 0.00024793388429752067,
+    "xPu": 0.032603305785123965,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-1278-Y",
+    "from": 97,
+    "to": 399,
+    "rPu": 0.00047520661157024794,
+    "xPu": 0.03404958677685951,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0646-1",
+    "from": 99,
+    "to": 401,
+    "rPu": 0.0004958677685950413,
+    "xPu": 0.03442148760330579,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-1881-L",
+    "from": 106,
+    "to": 405,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0683-V",
+    "from": 140,
+    "to": 422,
+    "rPu": 0.00043388429752066115,
+    "xPu": 0.03351239669421487,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0754-Z",
+    "from": 184,
+    "to": 445,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0759-K",
+    "from": 185,
+    "to": 446,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0758-N",
+    "from": 185,
+    "to": 446,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0760-6",
+    "from": 185,
+    "to": 446,
+    "rPu": 0.0003185595567867036,
+    "xPu": 0.03128808864265928,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.2074730968213
+  },
+  {
+    "name": "jao:11T0-0000-0796-D",
+    "from": 198,
+    "to": 452,
+    "rPu": 0.0004958677685950413,
+    "xPu": 0.03570247933884298,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.7917809030047
+  },
+  {
+    "name": "jao:11T0-0000-1674-Q",
+    "from": 198,
+    "to": 452,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0858-I",
+    "from": 248,
+    "to": 487,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-1348-4",
+    "from": 248,
+    "to": 487,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0833-4",
+    "from": 230,
+    "to": 469,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0847-P",
+    "from": 240,
+    "to": 475,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-2071-M",
+    "from": 243,
+    "to": 477,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0859-F",
+    "from": 257,
+    "to": 491,
+    "rPu": 0.0003116343490304709,
+    "xPu": 0.017132963988919666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 880.5746305680171
+  },
+  {
+    "name": "jao:11T0-0000-0862-W",
+    "from": 260,
+    "to": 493,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0874-M",
+    "from": 264,
+    "to": 496,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0875-J",
+    "from": 264,
+    "to": 496,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0879-7",
+    "from": 265,
+    "to": 497,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0878-A",
+    "from": 265,
+    "to": 497,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0884-I",
+    "from": 270,
+    "to": 500,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.016488919667590026,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-1352-I",
+    "from": 275,
+    "to": 505,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.03316115702479339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0893-H",
+    "from": 276,
+    "to": 508,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-0914-4",
+    "from": 282,
+    "to": 516,
+    "rPu": 0.00047520661157024794,
+    "xPu": 0.03404958677685951,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 799.9303449676103
+  },
+  {
+    "name": "jao:11T0-0000-0904-8",
+    "from": 279,
+    "to": 512,
+    "rPu": 0.00022853185595567868,
+    "xPu": 0.017174515235457065,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1332.986301505008
+  },
+  {
+    "name": "jao:11T0-0000-2547-S",
+    "from": 279,
+    "to": 512,
+    "rPu": 0.0005103305785123967,
+    "xPu": 0.03478925619834711,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 719.857636133701
+  },
+  {
+    "name": "jao:11TD2T0000000142",
+    "from": 12,
+    "to": 335,
+    "rPu": 0.00033240997229916895,
+    "xPu": 0.032278393351800556,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11T0-0000-0019-Y",
+    "from": 12,
+    "to": 335,
+    "rPu": 0.00029085872576177285,
+    "xPu": 0.031814404432132966,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11TD2T000000245K",
+    "from": 15,
+    "to": 341,
+    "rPu": 0.0005470914127423822,
+    "xPu": 0.04227146814404432,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 474.54728025772096
+  },
+  {
+    "name": "jao:11TD2T000000246I",
+    "from": 15,
+    "to": 341,
+    "rPu": 0.0005470914127423822,
+    "xPu": 0.042188365650969534,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 474.54728025772096
+  },
+  {
+    "name": "jao:11TD2T000000033Z",
+    "from": 33,
+    "to": 362,
+    "rPu": 0.0006994459833795013,
+    "xPu": 0.04526315789473684,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 415.31114263886536
+  },
+  {
+    "name": "jao:11T0-0000-1608-5",
+    "from": 33,
+    "to": 362,
+    "rPu": 0.00028393351800554015,
+    "xPu": 0.03178670360110803,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11TD2T000000129M",
+    "from": 66,
+    "to": 378,
+    "rPu": 0.00036011080332409975,
+    "xPu": 0.03259695290858726,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11TD2T0000001300",
+    "from": 66,
+    "to": 378,
+    "rPu": 0.00036011080332409975,
+    "xPu": 0.03262465373961219,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11TD2T000000070T",
+    "from": 86,
+    "to": 392,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.03545706371191136,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao:11TD2T000000071R",
+    "from": 86,
+    "to": 392,
+    "rPu": 0.0008448753462603878,
+    "xPu": 0.04095567867036011,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 347.5186740306195
+  },
+  {
+    "name": "jao:11TD2T000000072P",
+    "from": 86,
+    "to": 392,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.03563711911357341,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao:11TD2T000000096B",
+    "from": 115,
+    "to": 412,
+    "rPu": 0.0004986149584487534,
+    "xPu": 0.035678670360110805,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 569.9832797547662
+  },
+  {
+    "name": "jao:11TD2T000000116V",
+    "from": 144,
+    "to": 424,
+    "rPu": 0.00045706371191135735,
+    "xPu": 0.03452908587257618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao:11TD2T000000117T",
+    "from": 144,
+    "to": 424,
+    "rPu": 0.0007617728531855956,
+    "xPu": 0.045325484764542935,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 344.2277774962387
+  },
+  {
+    "name": "jao:11TD2T000000143S",
+    "from": 189,
+    "to": 448,
+    "rPu": 0.000443213296398892,
+    "xPu": 0.03405124653739612,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 609.4740381673365
+  },
+  {
+    "name": "jao:11TD2T000000146M",
+    "from": 201,
+    "to": 455,
+    "rPu": 0.00046398891966759005,
+    "xPu": 0.03425207756232687,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 603.5504244054509
+  },
+  {
+    "name": "jao:11TD2T000000147K",
+    "from": 201,
+    "to": 455,
+    "rPu": 0.00046398891966759005,
+    "xPu": 0.03407202216066482,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 626.586700146117
+  },
+  {
+    "name": "jao:11TD2T000000155L",
+    "from": 210,
+    "to": 460,
+    "rPu": 0.0004085872576177285,
+    "xPu": 0.033130193905817173,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 626.586700146117
+  },
+  {
+    "name": "jao:11TD2T000000156J",
+    "from": 210,
+    "to": 460,
+    "rPu": 0.00045706371191135735,
+    "xPu": 0.033829639889196676,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 626.586700146117
+  },
+  {
+    "name": "jao:11TD2T000000160S",
+    "from": 218,
+    "to": 464,
+    "rPu": 0.00047091412742382275,
+    "xPu": 0.034882271468144044,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 609.4740381673365
+  },
+  {
+    "name": "jao:11TD2T000000180M",
+    "from": 245,
+    "to": 482,
+    "rPu": 0.00033933518005540165,
+    "xPu": 0.032423822714681444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 533.7834178765766
+  },
+  {
+    "name": "jao:11TD2T000000206U",
+    "from": 263,
+    "to": 495,
+    "rPu": 0.00035318559556786705,
+    "xPu": 0.01662049861495845,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 738.4771823150664
+  },
+  {
+    "name": "jao:11TD2T000000191H",
+    "from": 272,
+    "to": 503,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.03452908587257618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao:11TD2T000000192F",
+    "from": 272,
+    "to": 503,
+    "rPu": 0.0004293628808864266,
+    "xPu": 0.03619113573407202,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao:11T0-0000-0082-R",
+    "from": 28,
+    "to": 359,
+    "rPu": 0.00014542936288088642,
+    "xPu": 0.013379501385041551,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 417.28568055949387
+  },
+  {
+    "name": "jao:11T0-0000-0091-Q",
+    "from": 28,
+    "to": 359,
+    "rPu": 0.000685595567867036,
+    "xPu": 0.057638504155124656,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 328.43147413121045
+  },
+  {
+    "name": "jao:11T0-0000-0092-N",
+    "from": 28,
+    "to": 359,
+    "rPu": 0.0006786703601108033,
+    "xPu": 0.05776315789473684,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 328.43147413121045
+  },
+  {
+    "name": "jao:11T0-0000-0093-K",
+    "from": 28,
+    "to": 359,
+    "rPu": 0.0007963988919667589,
+    "xPu": 0.056468144044321336,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 328.43147413121045
+  },
+  {
+    "name": "jao:11T0-0000-0094-H",
+    "from": 28,
+    "to": 359,
+    "rPu": 0.0008240997229916897,
+    "xPu": 0.056239612188365644,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 328.43147413121045
+  },
+  {
+    "name": "jao:11TD400000023-T9",
+    "from": 37,
+    "to": 364,
+    "rPu": 0.00017313019390581717,
+    "xPu": 0.017063711911357343,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 949.7527398223181
+  },
+  {
+    "name": "jao:11TD400000028-TQ",
+    "from": 37,
+    "to": 364,
+    "rPu": 0.00023545706371191138,
+    "xPu": 0.016731301939058172,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 949.7527398223181
+  },
+  {
+    "name": "jao:11TD400000041-T7",
+    "from": 49,
+    "to": 371,
+    "rPu": 0.00016620498614958447,
+    "xPu": 0.01687673130193906,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 949.7527398223181
+  },
+  {
+    "name": "jao:12T-0000000591-H",
+    "from": 137,
+    "to": 419,
+    "rPu": 0.0002770083102493075,
+    "xPu": 0.016952908587257617,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 627.2448794529931
+  },
+  {
+    "name": "jao:11TD400000127-TO",
+    "from": 182,
+    "to": 444,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.01678670360110803,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 627.2448794529931
+  },
+  {
+    "name": "jao:11TD400000125-TW",
+    "from": 182,
+    "to": 444,
+    "rPu": 0.00039256198347107437,
+    "xPu": 0.016797520661157025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 573.8630735637204
+  },
+  {
+    "name": "jao:11TD400000144-TQ",
+    "from": 215,
+    "to": 462,
+    "rPu": 0.00037190082644628097,
+    "xPu": 0.021136363636363637,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 573.8630735637204
+  },
+  {
+    "name": "synth:coupling:bentwisch",
+    "from": 16,
+    "to": 343,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:beznau",
+    "from": 20,
+    "to": 346,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:birkenfeld",
+    "from": 21,
+    "to": 347,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:brunsbuettel",
+    "from": 26,
+    "to": 357,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:garenfeld",
+    "from": 73,
+    "to": 383,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:guetersloh",
+    "from": 89,
+    "to": 394,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:hesseln",
+    "from": 107,
+    "to": 406,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:ibbenbueren",
+    "from": 114,
+    "to": 409,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:luestringen",
+    "from": 157,
+    "to": 431,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:osterath",
+    "from": 200,
+    "to": 454,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:schwandorf",
+    "from": 238,
+    "to": 472,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:st barbara",
+    "from": 246,
+    "to": 485,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:wiesloch",
+    "from": 284,
+    "to": 518,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "synth:coupling:mehrum/n~mehrum",
+    "from": 168,
+    "to": 436,
+    "rPu": 0.00037407868639821633,
+    "xPu": 0.028112580068714442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.1500100400195
+  },
+  {
+    "name": "jao-eq:blooren [LU]~hengelo [NL]",
+    "from": 105,
+    "to": 350,
+    "rPu": 0.7836652224795834,
+    "xPu": 5.052533023355109,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:blooren [LU]~maasbracht [NL]",
+    "from": 158,
+    "to": 350,
+    "rPu": 0.018217490032886464,
+    "xPu": 0.10529595797618316,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:blooren [LU]~meeden [NL]",
+    "from": 166,
+    "to": 350,
+    "rPu": 0.7427276168606596,
+    "xPu": 6.262699833688107,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:blooren [LU]~muhlbach [FR]",
+    "from": 179,
+    "to": 350,
+    "rPu": 0.16555285456223504,
+    "xPu": 1.1072913134259479,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:blooren [LU]~vigy [FR]",
+    "from": 268,
+    "to": 350,
+    "rPu": 0.008657527737807926,
+    "xPu": 0.08275503099433539,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:heisdorf [LU]~maasbracht [NL]",
+    "from": 158,
+    "to": 403,
+    "rPu": 0.0353602361142556,
+    "xPu": 0.2236825173911351,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:heisdorf [LU]~muhlbach [FR]",
+    "from": 179,
+    "to": 403,
+    "rPu": 0.3167072332389296,
+    "xPu": 2.351441936324088,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:heisdorf [LU]~vigy [FR]",
+    "from": 268,
+    "to": 403,
+    "rPu": 0.015796864571155686,
+    "xPu": 0.17562403166205517,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:maasbracht [NL]~st avold [FR]",
+    "from": 158,
+    "to": 484,
+    "rPu": 0.08708846777369988,
+    "xPu": 0.5963273095701049,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:maasbracht [NL]~vogelgrun [FR]",
+    "from": 158,
+    "to": 501,
+    "rPu": 0.7654141165536695,
+    "xPu": 7.660081188335451,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:muhlbach [FR]~st avold [FR]",
+    "from": 179,
+    "to": 484,
+    "rPu": 0.516815347652112,
+    "xPu": 3.823426226853511,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:muhlbach [FR]~vogelgrun [FR]",
+    "from": 179,
+    "to": 501,
+    "rPu": 0.01070582765917717,
+    "xPu": 0.09930917822674386,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:st avold [FR]~vigy [FR]",
+    "from": 268,
+    "to": 484,
+    "rPu": 0.0007264205818749725,
+    "xPu": 0.020429759567334387,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:vigy [FR]~vogelgrun [FR]",
+    "from": 268,
+    "to": 501,
+    "rPu": 0.06439860496095112,
+    "xPu": 0.7121384566665702,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "jao-eq:westtirol [AT]~westtirol [AT]",
+    "from": 283,
+    "to": 517,
+    "rPu": 0.0007,
+    "xPu": 0.028,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:DE:alfstedt:380",
+    "from": 553,
+    "to": 1,
+    "rPu": 0.0009979439267702264,
+    "xPu": 0.01995887853540453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1002.060309376728
+  },
+  {
+    "name": "emb:DE:algermissen:380",
+    "from": 554,
+    "to": 2,
+    "rPu": 0.0018491475621072097,
+    "xPu": 0.036982951242144194,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 540.789724136695
+  },
+  {
+    "name": "emb:DE:altbach:380",
+    "from": 555,
+    "to": 3,
+    "rPu": 0.0027660288082732567,
+    "xPu": 0.05532057616546514,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 361.5291341178286
+  },
+  {
+    "name": "emb:DE:altdoebern:380",
+    "from": 556,
+    "to": 4,
+    "rPu": 0.000674582357523631,
+    "xPu": 0.01349164715047262,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1482.3986854191774
+  },
+  {
+    "name": "emb:DE:altenfeld:380",
+    "from": 557,
+    "to": 5,
+    "rPu": 0.0014806924409596065,
+    "xPu": 0.029613848819192132,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 675.3596981638674
+  },
+  {
+    "name": "gsu:DE:altenfeld:380",
+    "from": 558,
+    "to": 5,
+    "rPu": 0.00029289448669201517,
+    "xPu": 0.011715779467680607,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1237.6470588235295
+  },
+  {
+    "name": "emb:DE:altentreptow/n:380",
+    "from": 559,
+    "to": 6,
+    "rPu": 0.0010833092370879163,
+    "xPu": 0.021666184741758326,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 923.0974552456851
+  },
+  {
+    "name": "emb:DE:altentreptow/s:380",
+    "from": 560,
+    "to": 7,
+    "rPu": 0.0009917845747693618,
+    "xPu": 0.019835691495387237,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1008.2834775208604
+  },
+  {
+    "name": "emb:DE:arpe:380",
+    "from": 561,
+    "to": 8,
+    "rPu": 0.0017619570127700118,
+    "xPu": 0.03523914025540024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 567.5507363416759
+  },
+  {
+    "name": "emb:DE:aschaffenburg:380",
+    "from": 562,
+    "to": 9,
+    "rPu": 0.0011704574362308444,
+    "xPu": 0.02340914872461689,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 854.3668219326637
+  },
+  {
+    "name": "emb:DE:asslar:380",
+    "from": 563,
+    "to": 11,
+    "rPu": 0.0025353143419816018,
+    "xPu": 0.050706286839632034,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 394.42840812330985
+  },
+  {
+    "name": "emb:DE:audorf/s:380",
+    "from": 564,
+    "to": 12,
+    "rPu": 0.001836671582454497,
+    "xPu": 0.03673343164908994,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 544.4631525597064
+  },
+  {
+    "name": "emb:DE:bacharach:380",
+    "from": 565,
+    "to": 13,
+    "rPu": 0.0006652423413406349,
+    "xPu": 0.013304846826812699,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1503.211593514541
+  },
+  {
+    "name": "emb:DE:baerwalde:380",
+    "from": 566,
+    "to": 14,
+    "rPu": 0.0031155267227482076,
+    "xPu": 0.06231053445496415,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.97301323029563
+  },
+  {
+    "name": "emb:DE:bechterdissen:380",
+    "from": 567,
+    "to": 15,
+    "rPu": 0.0032303539198212175,
+    "xPu": 0.06460707839642435,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 309.56360349993616
+  },
+  {
+    "name": "emb:DE:bentwisch:380",
+    "from": 568,
+    "to": 16,
+    "rPu": 0.0005554643303055278,
+    "xPu": 0.011109286606110557,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1800.2956183522344
+  },
+  {
+    "name": "gsu:DE:bentwisch:380",
+    "from": 569,
+    "to": 16,
+    "rPu": 0.0005994649805447469,
+    "xPu": 0.023978599221789878,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 604.7058823529412
+  },
+  {
+    "name": "emb:DE:bergrheinfeld/w:380",
+    "from": 570,
+    "to": 17,
+    "rPu": 0.0008983966912190228,
+    "xPu": 0.017967933824380455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1113.094037159813
+  },
+  {
+    "name": "emb:DE:bergshausen:380",
+    "from": 571,
+    "to": 18,
+    "rPu": 0.0024773656818841026,
+    "xPu": 0.049547313637682056,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 403.65457845507626
+  },
+  {
+    "name": "emb:DE:bertikow:380",
+    "from": 572,
+    "to": 19,
+    "rPu": 0.0006346518007372084,
+    "xPu": 0.012693036014744167,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1575.6671592807347
+  },
+  {
+    "name": "gsu:DE:bertikow:380",
+    "from": 573,
+    "to": 19,
+    "rPu": 0.013578573946765376,
+    "xPu": 0.5431429578706151,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 26.696470588235297
+  },
+  {
+    "name": "emb:DE:birkenfeld:380",
+    "from": 574,
+    "to": 21,
+    "rPu": 0.001962401948497651,
+    "xPu": 0.03924803896995302,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 509.5796000231076
+  },
+  {
+    "name": "emb:DE:bischofsheim:380",
+    "from": 575,
+    "to": 22,
+    "rPu": 0.0021382220696254195,
+    "xPu": 0.04276444139250839,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 467.67827074911037
+  },
+  {
+    "name": "emb:DE:borken:380",
+    "from": 576,
+    "to": 23,
+    "rPu": 0.0015549689844633885,
+    "xPu": 0.03109937968926777,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 643.099643781702
+  },
+  {
+    "name": "emb:DE:bruchsal/kaendelweg:380",
+    "from": 577,
+    "to": 25,
+    "rPu": 0.005241415199662099,
+    "xPu": 0.10482830399324197,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 190.7881672996384
+  },
+  {
+    "name": "emb:DE:brunsbuettel:380",
+    "from": 578,
+    "to": 26,
+    "rPu": 0.0029261224522968738,
+    "xPu": 0.05852244904593747,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 341.7491975481222
+  },
+  {
+    "name": "emb:DE:buenzwangen:380",
+    "from": 579,
+    "to": 27,
+    "rPu": 0.002098529605648061,
+    "xPu": 0.04197059211296122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 476.5241325681385
+  },
+  {
+    "name": "emb:DE:buerstadt:380",
+    "from": 580,
+    "to": 29,
+    "rPu": 0.004665726066537411,
+    "xPu": 0.09331452133074822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 214.32891381515094
+  },
+  {
+    "name": "emb:DE:buettel:380",
+    "from": 581,
+    "to": 31,
+    "rPu": 0.006891365790302253,
+    "xPu": 0.13782731580604507,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 145.10911631003995
+  },
+  {
+    "name": "emb:DE:charlottenburg:380",
+    "from": 582,
+    "to": 32,
+    "rPu": 0.012960721813224368,
+    "xPu": 0.25921443626448737,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 77.1561965769266
+  },
+  {
+    "name": "emb:DE:conneforde/o:380",
+    "from": 583,
+    "to": 33,
+    "rPu": 0.0031276152992311206,
+    "xPu": 0.06255230598462241,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 319.73241729756074
+  },
+  {
+    "name": "emb:DE:conneforde:380",
+    "from": 584,
+    "to": 34,
+    "rPu": 0.0018984606042503742,
+    "xPu": 0.03796921208500748,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 526.742560662648
+  },
+  {
+    "name": "emb:DE:datteln:380",
+    "from": 585,
+    "to": 35,
+    "rPu": 0.008193721648447231,
+    "xPu": 0.16387443296894463,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 122.04466332945385
+  },
+  {
+    "name": "emb:DE:dauersberg:380",
+    "from": 586,
+    "to": 36,
+    "rPu": 0.0016958187798209897,
+    "xPu": 0.033916375596419794,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 589.6856503178717
+  },
+  {
+    "name": "gsu:DE:daxlanden:380",
+    "from": 587,
+    "to": 37,
+    "rPu": 0.0003694544364508393,
+    "xPu": 0.014778177458033571,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 981.1764705882354
+  },
+  {
+    "name": "emb:DE:dc phillipsburg:380",
+    "from": 588,
+    "to": 38,
+    "rPu": 0.007530797162975883,
+    "xPu": 0.15061594325951766,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 132.7880672336205
+  },
+  {
+    "name": "emb:DE:dellmensingen:380",
+    "from": 589,
+    "to": 39,
+    "rPu": 0.00223538082541905,
+    "xPu": 0.044707616508380996,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 447.35106816197083
+  },
+  {
+    "name": "emb:DE:dettingen:380",
+    "from": 590,
+    "to": 40,
+    "rPu": 0.0024934043124901677,
+    "xPu": 0.04986808624980336,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 401.05810156448234
+  },
+  {
+    "name": "emb:DE:diele:380",
+    "from": 591,
+    "to": 41,
+    "rPu": 0.0016530033921571205,
+    "xPu": 0.03306006784314241,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 604.9594361055906
+  },
+  {
+    "name": "emb:DE:dillenburg:380",
+    "from": 592,
+    "to": 42,
+    "rPu": 0.0018281454478511878,
+    "xPu": 0.03656290895702376,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 547.0024287046774
+  },
+  {
+    "name": "emb:DE:dipperz:380",
+    "from": 593,
+    "to": 43,
+    "rPu": 0.0008020098038986716,
+    "xPu": 0.016040196077973433,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1246.8675509187954
+  },
+  {
+    "name": "emb:DE:doerpen/w:380",
+    "from": 594,
+    "to": 44,
+    "rPu": 0.0019588481209808777,
+    "xPu": 0.03917696241961755,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 510.5041015120958
+  },
+  {
+    "name": "emb:DE:dollern:380",
+    "from": 595,
+    "to": 46,
+    "rPu": 0.0024357340589787222,
+    "xPu": 0.04871468117957444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 410.55385185166296
+  },
+  {
+    "name": "emb:DE:dresden/s:380",
+    "from": 596,
+    "to": 47,
+    "rPu": 0.0006678620511102327,
+    "xPu": 0.013357241022204654,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1497.3151990559004
+  },
+  {
+    "name": "emb:DE:eiberg:380",
+    "from": 597,
+    "to": 48,
+    "rPu": 0.009431496412462983,
+    "xPu": 0.18862992824925967,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 106.02771355334222
+  },
+  {
+    "name": "emb:DE:eichstetten:380",
+    "from": 598,
+    "to": 49,
+    "rPu": 0.0009417344519632772,
+    "xPu": 0.018834689039265544,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1061.8704645616967
+  },
+  {
+    "name": "emb:DE:eickum:380",
+    "from": 599,
+    "to": 50,
+    "rPu": 0.0028053765875783784,
+    "xPu": 0.05610753175156757,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 356.45838224635906
+  },
+  {
+    "name": "emb:DE:eisenach:380",
+    "from": 600,
+    "to": 51,
+    "rPu": 0.0007402785679392917,
+    "xPu": 0.014805571358785833,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1350.8428358039503
+  },
+  {
+    "name": "emb:DE:eisenhuettenstadt:380",
+    "from": 601,
+    "to": 52,
+    "rPu": 0.0012157608664478728,
+    "xPu": 0.024315217328957455,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 822.5301764496927
+  },
+  {
+    "name": "emb:DE:elsen:380",
+    "from": 602,
+    "to": 53,
+    "rPu": 0.0005437368279547629,
+    "xPu": 0.010874736559095257,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1839.1250115638602
+  },
+  {
+    "name": "emb:DE:elsfleth/w:380",
+    "from": 603,
+    "to": 54,
+    "rPu": 0.003124465359208492,
+    "xPu": 0.06248930718416983,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.05475658508374
+  },
+  {
+    "name": "emb:DE:eltmann:380",
+    "from": 604,
+    "to": 55,
+    "rPu": 0.0017117571390266027,
+    "xPu": 0.03423514278053205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 584.195022296594
+  },
+  {
+    "name": "emb:DE:emden/o:380",
+    "from": 605,
+    "to": 56,
+    "rPu": 0.0004801684513831126,
+    "xPu": 0.009603369027662251,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2082.602464030126
+  },
+  {
+    "name": "emb:DE:emscherbruch:380",
+    "from": 606,
+    "to": 57,
+    "rPu": 0.0062407274820439835,
+    "xPu": 0.12481454964087967,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.23772915533186
+  },
+  {
+    "name": "gsu:DE:emscherbruch:380",
+    "from": 607,
+    "to": 57,
+    "rPu": 0.00018561746987951806,
+    "xPu": 0.007424698795180722,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1952.9411764705883
+  },
+  {
+    "name": "emb:DE:endersbach:380",
+    "from": 608,
+    "to": 58,
+    "rPu": 0.0026439821985994464,
+    "xPu": 0.052879643971988924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 378.21737246556114
+  },
+  {
+    "name": "emb:DE:engstlatt:380",
+    "from": 609,
+    "to": 60,
+    "rPu": 0.0015057784953612823,
+    "xPu": 0.030115569907225647,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 664.1083021710105
+  },
+  {
+    "name": "emb:DE:enniger:380",
+    "from": 610,
+    "to": 61,
+    "rPu": 0.0018558575608740098,
+    "xPu": 0.037117151217480195,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 538.8344564165008
+  },
+  {
+    "name": "emb:DE:ensdorf:380",
+    "from": 611,
+    "to": 62,
+    "rPu": 0.004510529834268457,
+    "xPu": 0.09021059668536915,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 221.703444327663
+  },
+  {
+    "name": "emb:DE:etzenricht:380",
+    "from": 612,
+    "to": 63,
+    "rPu": 0.0006471885987300591,
+    "xPu": 0.01294377197460118,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1545.1446486576594
+  },
+  {
+    "name": "emb:DE:eula:380",
+    "from": 613,
+    "to": 64,
+    "rPu": 0.0009718145075958837,
+    "xPu": 0.019436290151917675,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1029.0029549711526
+  },
+  {
+    "name": "gsu:DE:eula:380",
+    "from": 614,
+    "to": 64,
+    "rPu": 0.00017290965207631873,
+    "xPu": 0.006916386083052749,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2096.470588235294
+  },
+  {
+    "name": "emb:DE:farge:380",
+    "from": 615,
+    "to": 65,
+    "rPu": 0.00479992113753895,
+    "xPu": 0.09599842275077901,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 208.33675623944254
+  },
+  {
+    "name": "gsu:DE:fedderwarden:380",
+    "from": 616,
+    "to": 66,
+    "rPu": 0.0004244146005509641,
+    "xPu": 0.016976584022038565,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 854.1176470588235
+  },
+  {
+    "name": "emb:DE:foerderstedt:380",
+    "from": 617,
+    "to": 67,
+    "rPu": 0.0004065892516271205,
+    "xPu": 0.00813178503254241,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2459.484592861523
+  },
+  {
+    "name": "emb:DE:frankfurt/sw:380",
+    "from": 618,
+    "to": 68,
+    "rPu": 0.0033886522337983694,
+    "xPu": 0.06777304467596738,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 295.1025750078495
+  },
+  {
+    "name": "emb:DE:frankfurt:380",
+    "from": 619,
+    "to": 69,
+    "rPu": 0.006426575416280214,
+    "xPu": 0.12853150832560428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 155.60386912549657
+  },
+  {
+    "name": "gsu:DE:frankfurt:380",
+    "from": 620,
+    "to": 69,
+    "rPu": 0.0010143865944593502,
+    "xPu": 0.04057546377837401,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 357.3588235294118
+  },
+  {
+    "name": "emb:DE:freiberg/n:380",
+    "from": 621,
+    "to": 70,
+    "rPu": 0.0009178234475653331,
+    "xPu": 0.018356468951306663,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1089.5341611206957
+  },
+  {
+    "name": "emb:DE:friedrichshain:380",
+    "from": 622,
+    "to": 71,
+    "rPu": 0.0081796217131428,
+    "xPu": 0.163592434262856,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 122.25504247870369
+  },
+  {
+    "name": "emb:DE:ganderkesee:380",
+    "from": 623,
+    "to": 72,
+    "rPu": 0.0014449091219337815,
+    "xPu": 0.028898182438675632,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 692.0850486857323
+  },
+  {
+    "name": "emb:DE:garenfeld:380",
+    "from": 624,
+    "to": 73,
+    "rPu": 0.0038122553879727577,
+    "xPu": 0.07624510775945516,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 262.31191203897015
+  },
+  {
+    "name": "emb:DE:geithe:380",
+    "from": 625,
+    "to": 74,
+    "rPu": 0.003765744972270911,
+    "xPu": 0.07531489944541822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 265.5517055359582
+  },
+  {
+    "name": "gsu:DE:gersteinwerk:380",
+    "from": 626,
+    "to": 75,
+    "rPu": 0.0003462078651685393,
+    "xPu": 0.013848314606741572,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1047.0588235294117
+  },
+  {
+    "name": "emb:DE:giessen/n:380",
+    "from": 627,
+    "to": 76,
+    "rPu": 0.0013351530591719381,
+    "xPu": 0.026703061183438764,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 748.9777993095413
+  },
+  {
+    "name": "emb:DE:gkn2:380",
+    "from": 628,
+    "to": 77,
+    "rPu": 0.003191477370214658,
+    "xPu": 0.06382954740429315,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 313.33451063534886
+  },
+  {
+    "name": "gsu:DE:gkn2:380",
+    "from": 629,
+    "to": 77,
+    "rPu": 0.0003960475578406169,
+    "xPu": 0.015841902313624676,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 915.2941176470589
+  },
+  {
+    "name": "emb:DE:goerries:380",
+    "from": 630,
+    "to": 78,
+    "rPu": 0.0007031264448922984,
+    "xPu": 0.014062528897845969,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1422.2192996213864
+  },
+  {
+    "name": "emb:DE:goldshoefe:380",
+    "from": 631,
+    "to": 79,
+    "rPu": 0.0007663125409003565,
+    "xPu": 0.01532625081800713,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1304.9505869042405
+  },
+  {
+    "name": "emb:DE:grafenrheinfeld:380",
+    "from": 632,
+    "to": 80,
+    "rPu": 0.0010871983308995872,
+    "xPu": 0.021743966617991745,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 919.7953782476503
+  },
+  {
+    "name": "emb:DE:gransee:380",
+    "from": 633,
+    "to": 81,
+    "rPu": 0.000910299703204077,
+    "xPu": 0.018205994064081542,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1098.539301375355
+  },
+  {
+    "name": "emb:DE:graustein:380",
+    "from": 634,
+    "to": 82,
+    "rPu": 0.0014036697674614167,
+    "xPu": 0.028073395349228335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.4182789863268
+  },
+  {
+    "name": "emb:DE:grohnde:380",
+    "from": 635,
+    "to": 83,
+    "rPu": 0.0015578060335046237,
+    "xPu": 0.031156120670092474,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 641.9284419834236
+  },
+  {
+    "name": "emb:DE:gronau:380",
+    "from": 636,
+    "to": 84,
+    "rPu": 0.002208895102626183,
+    "xPu": 0.04417790205252366,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 452.7150242721293
+  },
+  {
+    "name": "emb:DE:grossgartach:380",
+    "from": 637,
+    "to": 85,
+    "rPu": 0.004777019894669362,
+    "xPu": 0.09554039789338724,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 209.3355317853903
+  },
+  {
+    "name": "emb:DE:grosskrotzenburg:380",
+    "from": 638,
+    "to": 86,
+    "rPu": 0.003848220064871454,
+    "xPu": 0.07696440129742908,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 259.8603986109105
+  },
+  {
+    "name": "gsu:DE:grosskrotzenburg:380",
+    "from": 639,
+    "to": 86,
+    "rPu": 0.0002796052631578947,
+    "xPu": 0.011184210526315788,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1296.4705882352941
+  },
+  {
+    "name": "emb:DE:gruenkraut:380",
+    "from": 640,
+    "to": 87,
+    "rPu": 0.001946616112106296,
+    "xPu": 0.03893232224212592,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 513.7119711384545
+  },
+  {
+    "name": "emb:DE:guestrow:380",
+    "from": 641,
+    "to": 88,
+    "rPu": 0.0009225484937854511,
+    "xPu": 0.018450969875709024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1083.9538590505367
+  },
+  {
+    "name": "emb:DE:guetersloh:380",
+    "from": 642,
+    "to": 89,
+    "rPu": 0.0022590525343981075,
+    "xPu": 0.04518105068796215,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 442.6634550428619
+  },
+  {
+    "name": "emb:DE:gundelfingen:380",
+    "from": 643,
+    "to": 90,
+    "rPu": 0.0022972774104914433,
+    "xPu": 0.045945548209828865,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 435.2978858509194
+  },
+  {
+    "name": "emb:DE:hagenwerder:380",
+    "from": 644,
+    "to": 91,
+    "rPu": 0.0015347924112977846,
+    "xPu": 0.030695848225955693,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 651.5539122026433
+  },
+  {
+    "name": "gsu:DE:hagenwerder:380",
+    "from": 645,
+    "to": 91,
+    "rPu": 0.00015640862944162434,
+    "xPu": 0.006256345177664973,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2317.6470588235297
+  },
+  {
+    "name": "emb:DE:halfeshof:380",
+    "from": 646,
+    "to": 92,
+    "rPu": 0.003931666177840843,
+    "xPu": 0.07863332355681686,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 254.34509308955901
+  },
+  {
+    "name": "emb:DE:hamburg/n:380",
+    "from": 647,
+    "to": 93,
+    "rPu": 0.001410233570075236,
+    "xPu": 0.028204671401504722,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 709.1023935465172
+  },
+  {
+    "name": "emb:DE:hamburg/o:380",
+    "from": 648,
+    "to": 94,
+    "rPu": 0.0030430066917372005,
+    "xPu": 0.060860133834744014,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 328.6223466794669
+  },
+  {
+    "name": "gsu:DE:hamburg/o:380",
+    "from": 649,
+    "to": 94,
+    "rPu": 0.01501583820662768,
+    "xPu": 0.6006335282651072,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 24.141176470588235
+  },
+  {
+    "name": "emb:DE:hamburg/s:380",
+    "from": 650,
+    "to": 95,
+    "rPu": 0.0014766406091351932,
+    "xPu": 0.029532812182703864,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 677.2128531570443
+  },
+  {
+    "name": "emb:DE:handewitt:380",
+    "from": 651,
+    "to": 96,
+    "rPu": 0.000802045609244017,
+    "xPu": 0.01604091218488034,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1246.8118875964778
+  },
+  {
+    "name": "emb:DE:hanekenfaehr:380",
+    "from": 652,
+    "to": 97,
+    "rPu": 0.002054220041930147,
+    "xPu": 0.041084400838602944,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 486.8027667865605
+  },
+  {
+    "name": "emb:DE:hardegsen:380",
+    "from": 653,
+    "to": 98,
+    "rPu": 0.0014559444791537085,
+    "xPu": 0.02911888958307417,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 686.8393776809856
+  },
+  {
+    "name": "emb:DE:hattorf:380",
+    "from": 654,
+    "to": 100,
+    "rPu": 0.0011067086230455252,
+    "xPu": 0.022134172460910505,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 903.5802009458674
+  },
+  {
+    "name": "emb:DE:heide/w:380",
+    "from": 655,
+    "to": 101,
+    "rPu": 0.0005366461129084566,
+    "xPu": 0.01073292225816913,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1863.4254044631166
+  },
+  {
+    "name": "emb:DE:heilbronn:380",
+    "from": 656,
+    "to": 102,
+    "rPu": 0.004245895619231591,
+    "xPu": 0.08491791238463181,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 235.52156945887828
+  },
+  {
+    "name": "emb:DE:heinersdorf:380",
+    "from": 657,
+    "to": 103,
+    "rPu": 0.0005298189310648104,
+    "xPu": 0.010596378621296207,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1887.4372759581038
+  },
+  {
+    "name": "emb:DE:helmstedt:380",
+    "from": 658,
+    "to": 104,
+    "rPu": 0.0008351780948942969,
+    "xPu": 0.016703561897885938,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1197.3494109978585
+  },
+  {
+    "name": "emb:DE:herbertingen:380",
+    "from": 659,
+    "to": 106,
+    "rPu": 0.0014159107846646792,
+    "xPu": 0.028318215693293583,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 706.2591872529762
+  },
+  {
+    "name": "emb:DE:hesseln:380",
+    "from": 660,
+    "to": 107,
+    "rPu": 0.00334464501461125,
+    "xPu": 0.066892900292225,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 298.9853917624889
+  },
+  {
+    "name": "emb:DE:hoepfingen:380",
+    "from": 661,
+    "to": 108,
+    "rPu": 0.001315656418493996,
+    "xPu": 0.026313128369879923,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 760.076860450146
+  },
+  {
+    "name": "emb:DE:hoheneck:380",
+    "from": 662,
+    "to": 109,
+    "rPu": 0.001829040115759966,
+    "xPu": 0.03658080231519932,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 546.7348645792277
+  },
+  {
+    "name": "gsu:DE:hoheneck:380",
+    "from": 663,
+    "to": 109,
+    "rPu": 0.001005301794453507,
+    "xPu": 0.04021207177814028,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 360.5882352941177
+  },
+  {
+    "name": "emb:DE:hueffenhardt:380",
+    "from": 664,
+    "to": 111,
+    "rPu": 0.0032361331007039057,
+    "xPu": 0.06472266201407811,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 309.01077578746236
+  },
+  {
+    "name": "emb:DE:huellen:380",
+    "from": 665,
+    "to": 112,
+    "rPu": 0.007845631997499663,
+    "xPu": 0.15691263994999327,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 127.4594577363164
+  },
+  {
+    "name": "gsu:DE:huellen:380",
+    "from": 666,
+    "to": 112,
+    "rPu": 0.0003721316425120772,
+    "xPu": 0.01488526570048309,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 974.1176470588235
+  },
+  {
+    "name": "emb:DE:husum/n:380",
+    "from": 667,
+    "to": 113,
+    "rPu": 0.0005874029289526497,
+    "xPu": 0.011748058579052995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1702.4089440327075
+  },
+  {
+    "name": "emb:DE:ibbenbueren:380",
+    "from": 668,
+    "to": 114,
+    "rPu": 0.001547544294739675,
+    "xPu": 0.0309508858947935,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 646.1850580943908
+  },
+  {
+    "name": "emb:DE:irsching:380",
+    "from": 669,
+    "to": 115,
+    "rPu": 0.001625521798257075,
+    "xPu": 0.0325104359651415,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 615.187074742538
+  },
+  {
+    "name": "gsu:DE:irsching:380",
+    "from": 670,
+    "to": 115,
+    "rPu": 0.000534939236111111,
+    "xPu": 0.02139756944444444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 677.6470588235294
+  },
+  {
+    "name": "emb:DE:isar:380",
+    "from": 671,
+    "to": 116,
+    "rPu": 0.0017408204204945603,
+    "xPu": 0.034816408409891204,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 574.441790909084
+  },
+  {
+    "name": "emb:DE:jardelund:380",
+    "from": 672,
+    "to": 117,
+    "rPu": 0.001801976626522539,
+    "xPu": 0.03603953253045078,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 554.9461548398681
+  },
+  {
+    "name": "emb:DE:jessen/n:380",
+    "from": 673,
+    "to": 118,
+    "rPu": 0.0007821580753883551,
+    "xPu": 0.015643161507767102,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1278.5139365894581
+  },
+  {
+    "name": "gsu:DE:jessen/n:380",
+    "from": 674,
+    "to": 118,
+    "rPu": 0.5857889733840302,
+    "xPu": 23.43155893536121,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.6188235294117648
+  },
+  {
+    "name": "emb:DE:karben:380",
+    "from": 675,
+    "to": 119,
+    "rPu": 0.0027637241673215407,
+    "xPu": 0.055274483346430814,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 361.8306095174283
+  },
+  {
+    "name": "emb:DE:karnap:380",
+    "from": 676,
+    "to": 120,
+    "rPu": 0.008298548223791469,
+    "xPu": 0.16597096447582937,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 120.50300522843942
+  },
+  {
+    "name": "emb:DE:kelsterbach:380",
+    "from": 677,
+    "to": 122,
+    "rPu": 0.006080458102432008,
+    "xPu": 0.12160916204864015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 164.4612927437209
+  },
+  {
+    "name": "emb:DE:klein ilsede:380",
+    "from": 678,
+    "to": 123,
+    "rPu": 0.0038314863314839152,
+    "xPu": 0.0766297266296783,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 260.99531969691384
+  },
+  {
+    "name": "emb:DE:klixbuell/s:380",
+    "from": 679,
+    "to": 124,
+    "rPu": 0.0006507684429027224,
+    "xPu": 0.01301536885805445,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1536.6448863739402
+  },
+  {
+    "name": "emb:DE:klostermansfeld:380",
+    "from": 680,
+    "to": 125,
+    "rPu": 0.0005409296641446668,
+    "xPu": 0.010818593282893335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1848.6691824920124
+  },
+  {
+    "name": "emb:DE:knapsack:380",
+    "from": 681,
+    "to": 126,
+    "rPu": 0.0025003128586249214,
+    "xPu": 0.050006257172498424,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.949948883582
+  },
+  {
+    "name": "gsu:DE:knapsack:380",
+    "from": 682,
+    "to": 126,
+    "rPu": 0.00011627358490566037,
+    "xPu": 0.004650943396226415,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3117.6470588235293
+  },
+  {
+    "name": "emb:DE:koblenz:380",
+    "from": 683,
+    "to": 127,
+    "rPu": 0.0018777099699761244,
+    "xPu": 0.03755419939952249,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 532.5636099235896
+  },
+  {
+    "name": "emb:DE:koetz:380",
+    "from": 684,
+    "to": 128,
+    "rPu": 0.0021623339342497485,
+    "xPu": 0.043246678684994974,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 462.46325979570014
+  },
+  {
+    "name": "gsu:DE:koetz:380",
+    "from": 685,
+    "to": 128,
+    "rPu": 0.0009939516129032259,
+    "xPu": 0.03975806451612903,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 364.70588235294116
+  },
+  {
+    "name": "emb:DE:kork:380",
+    "from": 686,
+    "to": 129,
+    "rPu": 0.0037802526904987463,
+    "xPu": 0.07560505380997493,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 264.5325807222864
+  },
+  {
+    "name": "emb:DE:kottigerhook:380",
+    "from": 687,
+    "to": 130,
+    "rPu": 0.0011866296303216048,
+    "xPu": 0.023732592606432096,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 842.7229309358947
+  },
+  {
+    "name": "emb:DE:krempermarsch:380",
+    "from": 688,
+    "to": 132,
+    "rPu": 0.0022439406914856455,
+    "xPu": 0.04487881382971291,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 445.6445768795832
+  },
+  {
+    "name": "emb:DE:kriegenbrunn:380",
+    "from": 689,
+    "to": 133,
+    "rPu": 0.000497472242519392,
+    "xPu": 0.009949444850387842,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2010.1624061186062
+  },
+  {
+    "name": "gsu:DE:kriegenbrunn:380",
+    "from": 690,
+    "to": 133,
+    "rPu": 0.0007961886304909559,
+    "xPu": 0.031847545219638236,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 455.29411764705884
+  },
+  {
+    "name": "emb:DE:kriftel:380",
+    "from": 691,
+    "to": 134,
+    "rPu": 0.0051474346245713645,
+    "xPu": 0.10294869249142728,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 194.27152998242727
+  },
+  {
+    "name": "emb:DE:kruckel:380",
+    "from": 692,
+    "to": 135,
+    "rPu": 0.006338883224077961,
+    "xPu": 0.12677766448155922,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 157.756495056029
+  },
+  {
+    "name": "emb:DE:kruemmel:380",
+    "from": 693,
+    "to": 136,
+    "rPu": 0.001610207911386929,
+    "xPu": 0.03220415822773858,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 621.0378131471634
+  },
+  {
+    "name": "emb:DE:kuehmoos:380",
+    "from": 694,
+    "to": 137,
+    "rPu": 0.0033395500861070674,
+    "xPu": 0.06679100172214135,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 299.44153380424535
+  },
+  {
+    "name": "gsu:DE:kuehmoos:380",
+    "from": 695,
+    "to": 137,
+    "rPu": 0.0013543956043956043,
+    "xPu": 0.05417582417582417,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 267.6470588235294
+  },
+  {
+    "name": "emb:DE:kummerfeld:380",
+    "from": 696,
+    "to": 138,
+    "rPu": 0.0014974645390530583,
+    "xPu": 0.029949290781061167,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 667.7954461828948
+  },
+  {
+    "name": "emb:DE:kupferzell:380",
+    "from": 697,
+    "to": 139,
+    "rPu": 0.0009651504419242102,
+    "xPu": 0.019303008838484206,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1036.1079025217152
+  },
+  {
+    "name": "emb:DE:kusenhorst:380",
+    "from": 698,
+    "to": 140,
+    "rPu": 0.001375197835601249,
+    "xPu": 0.027503956712024984,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 727.16810200824
+  },
+  {
+    "name": "emb:DE:laichingen:380",
+    "from": 699,
+    "to": 141,
+    "rPu": 0.001903699536849678,
+    "xPu": 0.03807399073699356,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 525.2929785625951
+  },
+  {
+    "name": "emb:DE:lambsheim:380",
+    "from": 700,
+    "to": 142,
+    "rPu": 0.0019091751930759029,
+    "xPu": 0.03818350386151806,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 523.7863992926096
+  },
+  {
+    "name": "emb:DE:lamspringe:380",
+    "from": 701,
+    "to": 143,
+    "rPu": 0.0022391749780747757,
+    "xPu": 0.044783499561495514,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 446.593057617941
+  },
+  {
+    "name": "emb:DE:landesbergen:380",
+    "from": 702,
+    "to": 144,
+    "rPu": 0.002515720316477604,
+    "xPu": 0.05031440632955208,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 397.50046674510867
+  },
+  {
+    "name": "emb:DE:lauchstaedt:380",
+    "from": 703,
+    "to": 145,
+    "rPu": 0.0003540161602969025,
+    "xPu": 0.00708032320593805,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2824.7298065753007
+  },
+  {
+    "name": "gsu:DE:lauchstaedt:380",
+    "from": 704,
+    "to": 145,
+    "rPu": 0.0003423611111111111,
+    "xPu": 0.013694444444444443,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1058.8235294117646
+  },
+  {
+    "name": "emb:DE:lechhausen:380",
+    "from": 705,
+    "to": 147,
+    "rPu": 0.0009909469717938805,
+    "xPu": 0.01981893943587761,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1009.1357342661142
+  },
+  {
+    "name": "emb:DE:leupolz:380",
+    "from": 706,
+    "to": 148,
+    "rPu": 0.0007138353504157423,
+    "xPu": 0.014276707008314847,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1400.8832700952587
+  },
+  {
+    "name": "emb:DE:liessem:380",
+    "from": 707,
+    "to": 149,
+    "rPu": 0.003291263501802542,
+    "xPu": 0.06582527003605083,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 303.83468216760076
+  },
+  {
+    "name": "emb:DE:limburg:380",
+    "from": 708,
+    "to": 150,
+    "rPu": 0.0017052888399313906,
+    "xPu": 0.034105776798627814,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 586.4109214719504
+  },
+  {
+    "name": "emb:DE:linde:380",
+    "from": 709,
+    "to": 151,
+    "rPu": 0.002601338192444542,
+    "xPu": 0.052026763848890836,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 384.4175289873691
+  },
+  {
+    "name": "emb:DE:lippborg:380",
+    "from": 710,
+    "to": 152,
+    "rPu": 0.0023864984365433235,
+    "xPu": 0.04772996873086647,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 419.0239493508449
+  },
+  {
+    "name": "emb:DE:lippe:380",
+    "from": 711,
+    "to": 153,
+    "rPu": 0.01037276425378083,
+    "xPu": 0.20745528507561659,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 96.40631711411972
+  },
+  {
+    "name": "emb:DE:lubmin:380",
+    "from": 712,
+    "to": 154,
+    "rPu": 0.0017415380274165635,
+    "xPu": 0.03483076054833127,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 574.2050901314067
+  },
+  {
+    "name": "emb:DE:lueneburg:380",
+    "from": 713,
+    "to": 155,
+    "rPu": 0.001163140921210157,
+    "xPu": 0.02326281842420314,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 859.7410526658957
+  },
+  {
+    "name": "emb:DE:luengenkamp:380",
+    "from": 714,
+    "to": 156,
+    "rPu": 0.0068331395992433635,
+    "xPu": 0.13666279198486728,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 146.34561250742343
+  },
+  {
+    "name": "emb:DE:malchow:380",
+    "from": 715,
+    "to": 159,
+    "rPu": 0.0027143191775241115,
+    "xPu": 0.05428638355048223,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 368.4165105859651
+  },
+  {
+    "name": "emb:DE:marke:380",
+    "from": 716,
+    "to": 160,
+    "rPu": 0.0004642009380311965,
+    "xPu": 0.00928401876062393,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2154.2395072299387
+  },
+  {
+    "name": "emb:DE:marzahn:380",
+    "from": 717,
+    "to": 161,
+    "rPu": 0.01172805262223102,
+    "xPu": 0.2345610524446204,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 85.26564743617007
+  },
+  {
+    "name": "emb:DE:maximiliansau:380",
+    "from": 718,
+    "to": 162,
+    "rPu": 0.004884144569667728,
+    "xPu": 0.09768289139335457,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 204.74414418654908
+  },
+  {
+    "name": "emb:DE:mechlenreuth:380",
+    "from": 719,
+    "to": 163,
+    "rPu": 0.0005215834455756809,
+    "xPu": 0.010431668911513618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1917.2387630061423
+  },
+  {
+    "name": "emb:DE:meckenheim:380",
+    "from": 720,
+    "to": 164,
+    "rPu": 0.002419963327447546,
+    "xPu": 0.048399266548950916,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 413.22940255245487
+  },
+  {
+    "name": "emb:DE:mecklar:380",
+    "from": 721,
+    "to": 165,
+    "rPu": 0.0010784921255570378,
+    "xPu": 0.021569842511140757,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 927.2204926702669
+  },
+  {
+    "name": "emb:DE:mehringen:380",
+    "from": 722,
+    "to": 167,
+    "rPu": 0.0020904929266278615,
+    "xPu": 0.041809858532557226,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 478.3560792109845
+  },
+  {
+    "name": "emb:DE:mehrum/n:380",
+    "from": 723,
+    "to": 168,
+    "rPu": 0.0020601218031234174,
+    "xPu": 0.04120243606246835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 485.4081921194502
+  },
+  {
+    "name": "emb:DE:meitingen:380",
+    "from": 724,
+    "to": 169,
+    "rPu": 0.001064435428122104,
+    "xPu": 0.021288708562442082,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 939.4651601969109
+  },
+  {
+    "name": "emb:DE:mengede:380",
+    "from": 725,
+    "to": 170,
+    "rPu": 0.008836210749040181,
+    "xPu": 0.17672421498080362,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 113.17068236615151
+  },
+  {
+    "name": "emb:DE:meppen:380",
+    "from": 726,
+    "to": 171,
+    "rPu": 0.0015768774830296228,
+    "xPu": 0.031537549660592454,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 634.1646771940203
+  },
+  {
+    "name": "gsu:DE:meppen:380",
+    "from": 727,
+    "to": 171,
+    "rPu": 0.00029123345935727786,
+    "xPu": 0.011649338374291114,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1244.7058823529412
+  },
+  {
+    "name": "emb:DE:merzen:380",
+    "from": 728,
+    "to": 172,
+    "rPu": 0.005326212110099972,
+    "xPu": 0.10652424220199944,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 187.75069023325665
+  },
+  {
+    "name": "emb:DE:mettmann:380",
+    "from": 729,
+    "to": 173,
+    "rPu": 0.008688471719514779,
+    "xPu": 0.17376943439029557,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 115.09503998890227
+  },
+  {
+    "name": "emb:DE:metzingen:380",
+    "from": 730,
+    "to": 174,
+    "rPu": 0.001653790364646819,
+    "xPu": 0.03307580729293638,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 604.6715601790064
+  },
+  {
+    "name": "emb:DE:mitte:380",
+    "from": 731,
+    "to": 176,
+    "rPu": 0.0005798824297753796,
+    "xPu": 0.011597648595507591,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1724.4874972110383
+  },
+  {
+    "name": "gsu:DE:mitte:380",
+    "from": 732,
+    "to": 176,
+    "rPu": 0.0005463209219858155,
+    "xPu": 0.02185283687943262,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 663.5294117647059
+  },
+  {
+    "name": "emb:DE:mittelbexbach:380",
+    "from": 733,
+    "to": 177,
+    "rPu": 0.001585440710098222,
+    "xPu": 0.03170881420196444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 630.7394490570684
+  },
+  {
+    "name": "emb:DE:muehlhausen:380",
+    "from": 734,
+    "to": 178,
+    "rPu": 0.0024280141700671254,
+    "xPu": 0.04856028340134251,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 411.85921084321916
+  },
+  {
+    "name": "emb:DE:nehden:380",
+    "from": 735,
+    "to": 180,
+    "rPu": 0.0006557128046478507,
+    "xPu": 0.013114256092957013,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1525.0579108898874
+  },
+  {
+    "name": "emb:DE:neuenhagen:380",
+    "from": 736,
+    "to": 181,
+    "rPu": 0.0006979145983245106,
+    "xPu": 0.013958291966490212,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1432.8400672527962
+  },
+  {
+    "name": "emb:DE:niederlangen:380",
+    "from": 737,
+    "to": 183,
+    "rPu": 0.0031243903783477007,
+    "xPu": 0.06248780756695401,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.06243743742385
+  },
+  {
+    "name": "emb:DE:niederrhein:380",
+    "from": 738,
+    "to": 184,
+    "rPu": 0.0032168552600046634,
+    "xPu": 0.06433710520009327,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 310.86260312456534
+  },
+  {
+    "name": "emb:DE:niederstedem:380",
+    "from": 739,
+    "to": 185,
+    "rPu": 0.0025335878820306073,
+    "xPu": 0.050671757640612144,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 394.6971830314112
+  },
+  {
+    "name": "emb:DE:niederstotzingen:380",
+    "from": 740,
+    "to": 186,
+    "rPu": 0.0034977730315481404,
+    "xPu": 0.0699554606309628,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 285.8961948018087
+  },
+  {
+    "name": "emb:DE:niedervieland:380",
+    "from": 741,
+    "to": 187,
+    "rPu": 0.004481422385495569,
+    "xPu": 0.08962844770991138,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 223.14343839504363
+  },
+  {
+    "name": "emb:DE:nordlicht:380",
+    "from": 742,
+    "to": 188,
+    "rPu": 0.010143059431863942,
+    "xPu": 0.20286118863727884,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 98.58958302645327
+  },
+  {
+    "name": "emb:DE:oberbachern:380",
+    "from": 743,
+    "to": 189,
+    "rPu": 0.0007302767521447732,
+    "xPu": 0.014605535042895464,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1369.3438782804847
+  },
+  {
+    "name": "emb:DE:oberhaid:380",
+    "from": 744,
+    "to": 190,
+    "rPu": 0.0014528095994279764,
+    "xPu": 0.029056191988559528,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 688.3214430808663
+  },
+  {
+    "name": "emb:DE:oberjettingen:380",
+    "from": 745,
+    "to": 191,
+    "rPu": 0.0014276465510304742,
+    "xPu": 0.028552931020609483,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 700.4534835868169
+  },
+  {
+    "name": "emb:DE:obermooweiler:380",
+    "from": 746,
+    "to": 192,
+    "rPu": 0.002160789168859788,
+    "xPu": 0.04321578337719576,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 462.7938784641739
+  },
+  {
+    "name": "emb:DE:oberottmarshausen:380",
+    "from": 747,
+    "to": 193,
+    "rPu": 0.001100613004971047,
+    "xPu": 0.022012260099420942,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 908.5845755805021
+  },
+  {
+    "name": "emb:DE:oberzier:380",
+    "from": 748,
+    "to": 194,
+    "rPu": 0.0014712275038906162,
+    "xPu": 0.029424550077812323,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 679.7045306422906
+  },
+  {
+    "name": "emb:DE:oechtel:380",
+    "from": 749,
+    "to": 195,
+    "rPu": 0.0019468516596702463,
+    "xPu": 0.03893703319340493,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 513.6498176596454
+  },
+  {
+    "name": "emb:DE:ohlensehlen:380",
+    "from": 750,
+    "to": 196,
+    "rPu": 0.0016857348657581413,
+    "xPu": 0.03371469731516283,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 593.2130967406079
+  },
+  {
+    "name": "emb:DE:ohligs:380",
+    "from": 751,
+    "to": 197,
+    "rPu": 0.009147431367247463,
+    "xPu": 0.18294862734494924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 109.32030641744059
+  },
+  {
+    "name": "emb:DE:osburg:380",
+    "from": 752,
+    "to": 199,
+    "rPu": 0.001097472411754235,
+    "xPu": 0.0219494482350847,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 911.1846359778356
+  },
+  {
+    "name": "gsu:DE:osterath:380",
+    "from": 753,
+    "to": 200,
+    "rPu": 0.00014534198113207546,
+    "xPu": 0.005813679245283018,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2494.1176470588234
+  },
+  {
+    "name": "emb:DE:ottenhofen:380",
+    "from": 754,
+    "to": 201,
+    "rPu": 0.000821544998099857,
+    "xPu": 0.01643089996199714,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1217.2187796321439
+  },
+  {
+    "name": "gsu:DE:ottenhofen:380",
+    "from": 755,
+    "to": 201,
+    "rPu": 0.0006528072033898304,
+    "xPu": 0.026112288135593218,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 555.2941176470588
+  },
+  {
+    "name": "emb:DE:otterbach:380",
+    "from": 756,
+    "to": 202,
+    "rPu": 0.0008490660200207015,
+    "xPu": 0.01698132040041403,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1177.764716076635
+  },
+  {
+    "name": "emb:DE:ovenstaedt:380",
+    "from": 757,
+    "to": 203,
+    "rPu": 0.004328619379987621,
+    "xPu": 0.08657238759975242,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 231.02054309123844
+  },
+  {
+    "name": "emb:DE:paffendorf:380",
+    "from": 758,
+    "to": 204,
+    "rPu": 0.003052907039671122,
+    "xPu": 0.061058140793422436,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 327.556649123429
+  },
+  {
+    "name": "emb:DE:pasewalk:380",
+    "from": 759,
+    "to": 205,
+    "rPu": 0.0009566561538748451,
+    "xPu": 0.019133123077496903,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1045.307654113335
+  },
+  {
+    "name": "emb:DE:perleberg:380",
+    "from": 760,
+    "to": 206,
+    "rPu": 0.0004928864962755545,
+    "xPu": 0.00985772992551109,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2028.8646728129008
+  },
+  {
+    "name": "emb:DE:pfungstadt:380",
+    "from": 761,
+    "to": 207,
+    "rPu": 0.0035126711470617007,
+    "xPu": 0.07025342294123402,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 284.68363764609325
+  },
+  {
+    "name": "emb:DE:philippsburg:380",
+    "from": 762,
+    "to": 208,
+    "rPu": 0.007266891553196113,
+    "xPu": 0.14533783106392226,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 137.61042017479696
+  },
+  {
+    "name": "emb:DE:plattling:380",
+    "from": 763,
+    "to": 209,
+    "rPu": 0.0008239927968954057,
+    "xPu": 0.016479855937908114,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1213.6028418788908
+  },
+  {
+    "name": "gsu:DE:pleinting:380",
+    "from": 764,
+    "to": 210,
+    "rPu": 0.0029178503787878783,
+    "xPu": 0.11671401515151514,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 124.23529411764706
+  },
+  {
+    "name": "emb:DE:polsum:380",
+    "from": 765,
+    "to": 211,
+    "rPu": 0.005877967727248058,
+    "xPu": 0.11755935454496116,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 170.12682723050253
+  },
+  {
+    "name": "emb:DE:preilack:380",
+    "from": 766,
+    "to": 212,
+    "rPu": 0.0009851017378395932,
+    "xPu": 0.019702034756791862,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1015.123577178008
+  },
+  {
+    "name": "gsu:DE:preilack:380",
+    "from": 767,
+    "to": 212,
+    "rPu": 0.00012275896414342628,
+    "xPu": 0.004910358565737051,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2952.9411764705883
+  },
+  {
+    "name": "emb:DE:pulgar:380",
+    "from": 768,
+    "to": 214,
+    "rPu": 0.0004948446117991638,
+    "xPu": 0.009896892235983275,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2020.8363921841735
+  },
+  {
+    "name": "emb:DE:pulverdingen:380",
+    "from": 769,
+    "to": 215,
+    "rPu": 0.0025900293354734344,
+    "xPu": 0.05180058670946869,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 386.09601300797965
+  },
+  {
+    "name": "emb:DE:putlitz/s:380",
+    "from": 770,
+    "to": 216,
+    "rPu": 0.0006831308554308913,
+    "xPu": 0.013662617108617825,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1463.8483857814335
+  },
+  {
+    "name": "emb:DE:ragow:380",
+    "from": 771,
+    "to": 217,
+    "rPu": 0.0007926303016148684,
+    "xPu": 0.015852606032297368,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1261.622219037862
+  },
+  {
+    "name": "emb:DE:raitersaich:380",
+    "from": 772,
+    "to": 218,
+    "rPu": 0.0004825763028161196,
+    "xPu": 0.009651526056322392,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2072.2111594879516
+  },
+  {
+    "name": "emb:DE:rath:380",
+    "from": 773,
+    "to": 219,
+    "rPu": 0.007326118175496586,
+    "xPu": 0.14652236350993172,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 136.49793465585435
+  },
+  {
+    "name": "emb:DE:rdk7:380",
+    "from": 774,
+    "to": 220,
+    "rPu": 0.008275283163058757,
+    "xPu": 0.16550566326117513,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 120.8417863528883
+  },
+  {
+    "name": "emb:DE:rdk8:380",
+    "from": 775,
+    "to": 221,
+    "rPu": 0.008239756530736775,
+    "xPu": 0.1647951306147355,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 121.36280923710532
+  },
+  {
+    "name": "emb:DE:redwitz:380",
+    "from": 776,
+    "to": 222,
+    "rPu": 0.0010116202284491305,
+    "xPu": 0.02023240456898261,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.5132502075952
+  },
+  {
+    "name": "emb:DE:remptendorf:380",
+    "from": 777,
+    "to": 223,
+    "rPu": 0.0014787201609627173,
+    "xPu": 0.029574403219254346,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 676.2604760517719
+  },
+  {
+    "name": "gsu:DE:remptendorf:380",
+    "from": 778,
+    "to": 223,
+    "rPu": 0.0009701668765743071,
+    "xPu": 0.038806675062972286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 373.64705882352945
+  },
+  {
+    "name": "emb:DE:reuter:380",
+    "from": 779,
+    "to": 224,
+    "rPu": 0.017669430664660916,
+    "xPu": 0.3533886132932183,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 56.59491915605479
+  },
+  {
+    "name": "emb:DE:rhede:380",
+    "from": 780,
+    "to": 225,
+    "rPu": 0.0064194644007833975,
+    "xPu": 0.12838928801566796,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 155.77623576788824
+  },
+  {
+    "name": "emb:DE:rheinau:380",
+    "from": 781,
+    "to": 226,
+    "rPu": 0.00634066706922503,
+    "xPu": 0.1268133413845006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 157.71211279229368
+  },
+  {
+    "name": "gsu:DE:rheinau:380",
+    "from": 782,
+    "to": 226,
+    "rPu": 0.0003655100830367734,
+    "xPu": 0.014620403321470936,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 991.7647058823529
+  },
+  {
+    "name": "emb:DE:ried:380",
+    "from": 783,
+    "to": 227,
+    "rPu": 0.0018700913240190537,
+    "xPu": 0.037401826480381074,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 534.7332438561762
+  },
+  {
+    "name": "emb:DE:roehrsdorf:380",
+    "from": 784,
+    "to": 228,
+    "rPu": 0.0006056880383416924,
+    "xPu": 0.012113760766833848,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1651.0149395353599
+  },
+  {
+    "name": "emb:DE:rommersheim:380",
+    "from": 785,
+    "to": 229,
+    "rPu": 0.0008151426823570127,
+    "xPu": 0.016302853647140254,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1226.7790923528457
+  },
+  {
+    "name": "emb:DE:rommerskirchen:380",
+    "from": 786,
+    "to": 230,
+    "rPu": 0.0043476551993495375,
+    "xPu": 0.08695310398699074,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 230.00904030973118
+  },
+  {
+    "name": "emb:DE:rosenblumendelle:380",
+    "from": 787,
+    "to": 231,
+    "rPu": 0.005101114338205089,
+    "xPu": 0.10202228676410179,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 196.03559804775253
+  },
+  {
+    "name": "emb:DE:rotensohl:380",
+    "from": 788,
+    "to": 232,
+    "rPu": 0.001273281230587254,
+    "xPu": 0.02546562461174508,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 785.3724503099655
+  },
+  {
+    "name": "emb:DE:roxel:380",
+    "from": 789,
+    "to": 233,
+    "rPu": 0.0016723199582691392,
+    "xPu": 0.033446399165382786,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 597.9716949829419
+  },
+  {
+    "name": "emb:DE:sandershausen/o:380",
+    "from": 790,
+    "to": 234,
+    "rPu": 0.002076138414613655,
+    "xPu": 0.0415227682922731,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 481.66345411324045
+  },
+  {
+    "name": "emb:DE:schmoelln:380",
+    "from": 791,
+    "to": 235,
+    "rPu": 0.0015225356577347527,
+    "xPu": 0.030450713154695053,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 656.7990673452025
+  },
+  {
+    "name": "emb:DE:schoenewalde:380",
+    "from": 792,
+    "to": 236,
+    "rPu": 0.0007892922394225303,
+    "xPu": 0.015785844788450607,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1266.9578516718088
+  },
+  {
+    "name": "gsu:DE:schoenewalde:380",
+    "from": 793,
+    "to": 236,
+    "rPu": 0.6162499999999999,
+    "xPu": 24.649999999999995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.5882352941176471
+  },
+  {
+    "name": "emb:DE:schuby/w:380",
+    "from": 794,
+    "to": 237,
+    "rPu": 0.0008907132881552859,
+    "xPu": 0.017814265763105717,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1122.695724087661
+  },
+  {
+    "name": "emb:DE:schwandorf:380",
+    "from": 795,
+    "to": 238,
+    "rPu": 0.0008848162997474271,
+    "xPu": 0.017696325994948543,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1130.1780949169363
+  },
+  {
+    "name": "emb:DE:schwanheim:380",
+    "from": 796,
+    "to": 239,
+    "rPu": 0.006190079711758411,
+    "xPu": 0.12380159423516822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 161.54880818423754
+  },
+  {
+    "name": "emb:DE:sechtem:380",
+    "from": 797,
+    "to": 240,
+    "rPu": 0.004124118146320599,
+    "xPu": 0.08248236292641199,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 242.47607961769148
+  },
+  {
+    "name": "emb:DE:selbeck:380",
+    "from": 798,
+    "to": 241,
+    "rPu": 0.009730565218258573,
+    "xPu": 0.19461130436517146,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 102.76895304330169
+  },
+  {
+    "name": "gsu:DE:selbeck:380",
+    "from": 799,
+    "to": 241,
+    "rPu": 0.0004249999999999999,
+    "xPu": 0.016999999999999998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 852.9411764705883
+  },
+  {
+    "name": "emb:DE:siedenbruenzow:380",
+    "from": 800,
+    "to": 242,
+    "rPu": 0.001079191580654538,
+    "xPu": 0.021583831613090763,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 926.6195344050888
+  },
+  {
+    "name": "emb:DE:siersdorf:380",
+    "from": 801,
+    "to": 244,
+    "rPu": 0.0007054471738736735,
+    "xPu": 0.01410894347747347,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1417.5405856528005
+  },
+  {
+    "name": "gsu:DE:siersdorf:380",
+    "from": 802,
+    "to": 244,
+    "rPu": 0.0002289190193164933,
+    "xPu": 0.009156760772659731,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1583.5294117647059
+  },
+  {
+    "name": "emb:DE:st barbara:380",
+    "from": 803,
+    "to": 246,
+    "rPu": 0.0040519243097999775,
+    "xPu": 0.08103848619599956,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 246.79631788318494
+  },
+  {
+    "name": "gsu:DE:st barbara:380",
+    "from": 804,
+    "to": 246,
+    "rPu": 0.0004244146005509641,
+    "xPu": 0.016976584022038565,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 854.1176470588235
+  },
+  {
+    "name": "emb:DE:st huelfe:380",
+    "from": 805,
+    "to": 247,
+    "rPu": 0.0011944747206286076,
+    "xPu": 0.02388949441257215,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 837.188081698152
+  },
+  {
+    "name": "emb:DE:stade/w:380",
+    "from": 806,
+    "to": 249,
+    "rPu": 0.004277177751927325,
+    "xPu": 0.0855435550385465,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 233.79902776998063
+  },
+  {
+    "name": "emb:DE:stadorf:380",
+    "from": 807,
+    "to": 250,
+    "rPu": 0.0006177016386293895,
+    "xPu": 0.01235403277258779,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1618.9045608149715
+  },
+  {
+    "name": "emb:DE:stalldorf:380",
+    "from": 808,
+    "to": 251,
+    "rPu": 0.0007318602931323361,
+    "xPu": 0.014637205862646722,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1366.3810011061476
+  },
+  {
+    "name": "emb:DE:stendal/w:380",
+    "from": 809,
+    "to": 252,
+    "rPu": 0.00035301086685525805,
+    "xPu": 0.007060217337105161,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2832.773984858719
+  },
+  {
+    "name": "emb:DE:streumen:380",
+    "from": 810,
+    "to": 253,
+    "rPu": 0.0007531741237957669,
+    "xPu": 0.015063482475915338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1327.714227568396
+  },
+  {
+    "name": "emb:DE:suederdonn:380",
+    "from": 811,
+    "to": 254,
+    "rPu": 0.000709869848984923,
+    "xPu": 0.014197396979698459,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1408.7089364760993
+  },
+  {
+    "name": "emb:DE:teufelsbruch:380",
+    "from": 812,
+    "to": 255,
+    "rPu": 0.012223138885565078,
+    "xPu": 0.24446277771130154,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 81.81204593698519
+  },
+  {
+    "name": "emb:DE:tiengen:380",
+    "from": 813,
+    "to": 257,
+    "rPu": 0.005398821635831921,
+    "xPu": 0.10797643271663841,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 185.22560429909572
+  },
+  {
+    "name": "emb:DE:trossingen:380",
+    "from": 814,
+    "to": 258,
+    "rPu": 0.0019563674814652944,
+    "xPu": 0.039127349629305884,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 511.1514117230229
+  },
+  {
+    "name": "emb:DE:twistetal:380",
+    "from": 815,
+    "to": 259,
+    "rPu": 0.0014145573743073792,
+    "xPu": 0.028291147486147587,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 706.9349170016081
+  },
+  {
+    "name": "emb:DE:uchtelfangen:380",
+    "from": 816,
+    "to": 260,
+    "rPu": 0.002716676471535865,
+    "xPu": 0.0543335294307173,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 368.0968309909398
+  },
+  {
+    "name": "gsu:DE:uchtelfangen:380",
+    "from": 817,
+    "to": 260,
+    "rPu": 0.00046998932275777903,
+    "xPu": 0.01879957291031116,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 771.2941176470589
+  },
+  {
+    "name": "emb:DE:uentrop:380",
+    "from": 818,
+    "to": 261,
+    "rPu": 0.0026220045758657785,
+    "xPu": 0.05244009151731557,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 381.38758765125453
+  },
+  {
+    "name": "emb:DE:unna:380",
+    "from": 819,
+    "to": 262,
+    "rPu": 0.003997733686137803,
+    "xPu": 0.07995467372275605,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 250.14172491467204
+  },
+  {
+    "name": "gsu:DE:unna:380",
+    "from": 820,
+    "to": 262,
+    "rPu": 0.00021547202797202793,
+    "xPu": 0.008618881118881117,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1682.3529411764707
+  },
+  {
+    "name": "emb:DE:unterweser:380",
+    "from": 821,
+    "to": 263,
+    "rPu": 0.0008279710148811733,
+    "xPu": 0.016559420297623466,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1207.7717480768522
+  },
+  {
+    "name": "gsu:DE:unterweser:380",
+    "from": 822,
+    "to": 263,
+    "rPu": 0.0009598909657320871,
+    "xPu": 0.03839563862928348,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 377.64705882352945
+  },
+  {
+    "name": "emb:DE:urberach:380",
+    "from": 823,
+    "to": 264,
+    "rPu": 0.004825010118082429,
+    "xPu": 0.09650020236164858,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 207.2534513974083
+  },
+  {
+    "name": "emb:DE:vierraden:380",
+    "from": 824,
+    "to": 266,
+    "rPu": 0.0014028126342389062,
+    "xPu": 0.028056252684778123,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.8535740217
+  },
+  {
+    "name": "emb:DE:vieselbach:380",
+    "from": 825,
+    "to": 267,
+    "rPu": 0.0005145006410509178,
+    "xPu": 0.010290012821018357,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1943.632174990885
+  },
+  {
+    "name": "emb:DE:villingen:380",
+    "from": 826,
+    "to": 269,
+    "rPu": 0.0015658890673707865,
+    "xPu": 0.03131778134741573,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 638.6148424160434
+  },
+  {
+    "name": "emb:DE:voehringen:380",
+    "from": 827,
+    "to": 270,
+    "rPu": 0.0015194934506875474,
+    "xPu": 0.030389869013750948,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 658.1140573837389
+  },
+  {
+    "name": "emb:DE:voerden:380",
+    "from": 828,
+    "to": 271,
+    "rPu": 0.0016524208917074383,
+    "xPu": 0.03304841783414877,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 605.1726923923752
+  },
+  {
+    "name": "emb:DE:wahle:380",
+    "from": 829,
+    "to": 272,
+    "rPu": 0.0059922575992780395,
+    "xPu": 0.11984515198556078,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 166.88201123404346
+  },
+  {
+    "name": "emb:DE:waldeck:380",
+    "from": 830,
+    "to": 273,
+    "rPu": 0.0037945120011969114,
+    "xPu": 0.07589024002393822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 263.53849972923206
+  },
+  {
+    "name": "gsu:DE:waldeck:380",
+    "from": 831,
+    "to": 273,
+    "rPu": 0.0006419270833333332,
+    "xPu": 0.02567708333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 564.7058823529412
+  },
+  {
+    "name": "emb:DE:waldlaubersheim:380",
+    "from": 832,
+    "to": 274,
+    "rPu": 0.0008675507932546835,
+    "xPu": 0.01735101586509367,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1152.6702618165134
+  },
+  {
+    "name": "emb:DE:wehrendorf:380",
+    "from": 833,
+    "to": 276,
+    "rPu": 0.0019439621584548118,
+    "xPu": 0.03887924316909624,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 514.4133056555305
+  },
+  {
+    "name": "emb:DE:weida:380",
+    "from": 834,
+    "to": 277,
+    "rPu": 0.0007934952230055868,
+    "xPu": 0.015869904460111738,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1260.2470323793734
+  },
+  {
+    "name": "emb:DE:weingarten:380",
+    "from": 835,
+    "to": 278,
+    "rPu": 0.003200368269798608,
+    "xPu": 0.06400736539597215,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 312.4640402908781
+  },
+  {
+    "name": "emb:DE:weissenthurm:380",
+    "from": 836,
+    "to": 279,
+    "rPu": 0.0014032012683106443,
+    "xPu": 0.028064025366212886,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 712.6561403439506
+  },
+  {
+    "name": "emb:DE:wendlingen:380",
+    "from": 837,
+    "to": 280,
+    "rPu": 0.0038383294775371224,
+    "xPu": 0.07676658955074245,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 260.5300055277312
+  },
+  {
+    "name": "gsu:DE:wendlingen:380",
+    "from": 838,
+    "to": 280,
+    "rPu": 0.0009539473684210525,
+    "xPu": 0.0381578947368421,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 380.0
+  },
+  {
+    "name": "emb:DE:wessin:380",
+    "from": 839,
+    "to": 281,
+    "rPu": 0.002184119307261129,
+    "xPu": 0.04368238614522258,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 457.85044648224516
+  },
+  {
+    "name": "emb:DE:westerkappeln:380",
+    "from": 840,
+    "to": 282,
+    "rPu": 0.0029537879524047317,
+    "xPu": 0.05907575904809463,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 338.5483372920802
+  },
+  {
+    "name": "emb:DE:wiesloch:380",
+    "from": 841,
+    "to": 284,
+    "rPu": 0.005318464940089542,
+    "xPu": 0.10636929880179084,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 188.02417826658908
+  },
+  {
+    "name": "emb:DE:wilster/w:380",
+    "from": 842,
+    "to": 285,
+    "rPu": 0.004845931575923794,
+    "xPu": 0.09691863151847588,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 206.3586710485831
+  },
+  {
+    "name": "emb:DE:witten:380",
+    "from": 843,
+    "to": 286,
+    "rPu": 0.0015463604819420983,
+    "xPu": 0.030927209638841966,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 646.6797436158511
+  },
+  {
+    "name": "emb:DE:wolmirstedt:380",
+    "from": 844,
+    "to": 287,
+    "rPu": 0.0005267475532687764,
+    "xPu": 0.010534951065375529,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1898.4426103062378
+  },
+  {
+    "name": "emb:DE:woringen:380",
+    "from": 845,
+    "to": 288,
+    "rPu": 0.0012044184394378057,
+    "xPu": 0.024088368788756115,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 830.2762289713669
+  },
+  {
+    "name": "emb:DE:wuergassen:380",
+    "from": 846,
+    "to": 289,
+    "rPu": 0.002114111354025624,
+    "xPu": 0.042282227080512484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 473.0119811786789
+  },
+  {
+    "name": "emb:DE:wuergau:380",
+    "from": 847,
+    "to": 290,
+    "rPu": 0.001254428308759855,
+    "xPu": 0.025088566175197103,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 797.1758872283531
+  },
+  {
+    "name": "emb:DE:wustermark:380",
+    "from": 848,
+    "to": 291,
+    "rPu": 0.0004890455900018695,
+    "xPu": 0.00978091180003739,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2044.7991362035946
+  },
+  {
+    "name": "emb:DE:altenkleusheim:220",
+    "from": 849,
+    "to": 331,
+    "rPu": 0.00288040099206391,
+    "xPu": 0.0576080198412782,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 347.1738840373973
+  },
+  {
+    "name": "emb:DE:altheim:220",
+    "from": 850,
+    "to": 332,
+    "rPu": 0.0016383421925146961,
+    "xPu": 0.03276684385029392,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 610.3730982262607
+  },
+  {
+    "name": "emb:DE:altlussheim:220",
+    "from": 851,
+    "to": 333,
+    "rPu": 0.01146650748521323,
+    "xPu": 0.2293301497042646,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 87.2105129909488
+  },
+  {
+    "name": "emb:DE:amelsbueren:220",
+    "from": 852,
+    "to": 334,
+    "rPu": 0.0034561133009789295,
+    "xPu": 0.06912226601957859,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 289.3423660956816
+  },
+  {
+    "name": "emb:DE:audorf:220",
+    "from": 853,
+    "to": 336,
+    "rPu": 0.0031489625849073014,
+    "xPu": 0.06297925169814603,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 317.5649036901586
+  },
+  {
+    "name": "emb:DE:bandstahl:220",
+    "from": 854,
+    "to": 337,
+    "rPu": 0.0023211714000429965,
+    "xPu": 0.046423428000859926,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 430.81695732657937
+  },
+  {
+    "name": "emb:DE:basf:220",
+    "from": 855,
+    "to": 338,
+    "rPu": 0.0027487047079825942,
+    "xPu": 0.05497409415965188,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 363.8077226323623
+  },
+  {
+    "name": "emb:DE:bauler:220",
+    "from": 856,
+    "to": 339,
+    "rPu": 0.0048184102679709375,
+    "xPu": 0.09636820535941874,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 207.5373296141315
+  },
+  {
+    "name": "gsu:DE:bauler:220",
+    "from": 857,
+    "to": 339,
+    "rPu": 0.00023811823802163826,
+    "xPu": 0.00952472952086553,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1522.3529411764707
+  },
+  {
+    "name": "emb:DE:bayer:220",
+    "from": 858,
+    "to": 340,
+    "rPu": 0.005347896323237724,
+    "xPu": 0.10695792646475448,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 186.9894140719953
+  },
+  {
+    "name": "gsu:DE:bechterdissen:220",
+    "from": 859,
+    "to": 341,
+    "rPu": 0.0219306049822064,
+    "xPu": 0.877224199288256,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 16.529411764705884
+  },
+  {
+    "name": "emb:DE:benteler:220",
+    "from": 860,
+    "to": 342,
+    "rPu": 0.0018553189179111363,
+    "xPu": 0.037106378358222725,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 538.9908928034208
+  },
+  {
+    "name": "emb:DE:bergmannsglueck:220",
+    "from": 861,
+    "to": 344,
+    "rPu": 0.009828636807044077,
+    "xPu": 0.19657273614088155,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.74350926094968
+  },
+  {
+    "name": "emb:DE:beuren:220",
+    "from": 862,
+    "to": 345,
+    "rPu": 0.0026042568701915058,
+    "xPu": 0.05208513740383012,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 383.9866994097492
+  },
+  {
+    "name": "emb:DE:bixterheide:220",
+    "from": 863,
+    "to": 348,
+    "rPu": 0.0021809221261623254,
+    "xPu": 0.04361844252324651,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 458.52164458510805
+  },
+  {
+    "name": "emb:DE:blockland:220",
+    "from": 864,
+    "to": 349,
+    "rPu": 0.0009207682380373341,
+    "xPu": 0.01841536476074668,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1086.049625399278
+  },
+  {
+    "name": "gsu:DE:blockland:220",
+    "from": 865,
+    "to": 349,
+    "rPu": 0.11850961538461535,
+    "xPu": 4.740384615384614,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3.058823529411765
+  },
+  {
+    "name": "emb:DE:bochum:220",
+    "from": 866,
+    "to": 351,
+    "rPu": 0.006880783192515133,
+    "xPu": 0.13761566385030266,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 145.33229314473866
+  },
+  {
+    "name": "emb:DE:bocklemuend:220",
+    "from": 867,
+    "to": 352,
+    "rPu": 0.008799122079129239,
+    "xPu": 0.17598244158258478,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 113.64770155558064
+  },
+  {
+    "name": "emb:DE:bollenacker:220",
+    "from": 868,
+    "to": 353,
+    "rPu": 0.005095312129358763,
+    "xPu": 0.10190624258717525,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 196.25883059019753
+  },
+  {
+    "name": "emb:DE:braunschweig/n:220",
+    "from": 869,
+    "to": 354,
+    "rPu": 0.002708903521701841,
+    "xPu": 0.05417807043403682,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 369.1530510365907
+  },
+  {
+    "name": "emb:DE:brauweiler:220",
+    "from": 870,
+    "to": 355,
+    "rPu": 0.007645915602576025,
+    "xPu": 0.1529183120515205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 130.78878344708446
+  },
+  {
+    "name": "emb:DE:brokdorf:220",
+    "from": 871,
+    "to": 356,
+    "rPu": 0.0039008443098459246,
+    "xPu": 0.07801688619691849,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 256.3547582445037
+  },
+  {
+    "name": "emb:DE:buehl:220",
+    "from": 872,
+    "to": 358,
+    "rPu": 0.0032300650079549464,
+    "xPu": 0.06460130015909893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 309.59129229201824
+  },
+  {
+    "name": "gsu:DE:buers:220",
+    "from": 873,
+    "to": 359,
+    "rPu": 0.0003412236987818383,
+    "xPu": 0.013648947951273532,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1062.3529411764705
+  },
+  {
+    "name": "emb:DE:buescherhof:220",
+    "from": 874,
+    "to": 360,
+    "rPu": 0.004780719942285108,
+    "xPu": 0.09561439884570215,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 209.17351613824425
+  },
+  {
+    "name": "emb:DE:cloppenburg/o:220",
+    "from": 875,
+    "to": 361,
+    "rPu": 0.0007982186636122613,
+    "xPu": 0.015964373272245227,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1252.7895495134087
+  },
+  {
+    "name": "emb:DE:daxlanden:220",
+    "from": 876,
+    "to": 364,
+    "rPu": 0.008080493869489232,
+    "xPu": 0.16160987738978463,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 123.7548120388847
+  },
+  {
+    "name": "emb:DE:diefflen:220",
+    "from": 877,
+    "to": 365,
+    "rPu": 0.00258392986596521,
+    "xPu": 0.0516785973193042,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 387.00740804606033
+  },
+  {
+    "name": "emb:DE:doernigheim:220",
+    "from": 878,
+    "to": 366,
+    "rPu": 0.004090307598031538,
+    "xPu": 0.08180615196063076,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 244.4803907855855
+  },
+  {
+    "name": "emb:DE:duelken:220",
+    "from": 879,
+    "to": 367,
+    "rPu": 0.0016845521630064505,
+    "xPu": 0.03369104326012901,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 593.6295841473273
+  },
+  {
+    "name": "emb:DE:duennwald:220",
+    "from": 880,
+    "to": 368,
+    "rPu": 0.006403281434527297,
+    "xPu": 0.12806562869054594,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 156.1699279072562
+  },
+  {
+    "name": "emb:DE:edelstahl:220",
+    "from": 881,
+    "to": 369,
+    "rPu": 0.004066189689609025,
+    "xPu": 0.0813237937921805,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 245.93048439315498
+  },
+  {
+    "name": "emb:DE:eiserfeld:220",
+    "from": 882,
+    "to": 372,
+    "rPu": 0.004273690927350965,
+    "xPu": 0.0854738185470193,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 233.98978002834826
+  },
+  {
+    "name": "emb:DE:eller:220",
+    "from": 883,
+    "to": 373,
+    "rPu": 0.0011786979748986725,
+    "xPu": 0.02357395949797345,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 848.3937542065987
+  },
+  {
+    "name": "emb:DE:elmenhorst:220",
+    "from": 884,
+    "to": 374,
+    "rPu": 0.006330988915195833,
+    "xPu": 0.12661977830391666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 157.9532065835354
+  },
+  {
+    "name": "emb:DE:erzhausen:220",
+    "from": 885,
+    "to": 376,
+    "rPu": 0.0025426074996989004,
+    "xPu": 0.05085214999397801,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 393.29703861819866
+  },
+  {
+    "name": "emb:DE:fedderwarden:220",
+    "from": 886,
+    "to": 378,
+    "rPu": 0.005360704792729501,
+    "xPu": 0.10721409585459002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 186.5426354676829
+  },
+  {
+    "name": "emb:DE:frankfurt/n:220",
+    "from": 887,
+    "to": 380,
+    "rPu": 0.0042757619025165314,
+    "xPu": 0.08551523805033064,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 233.87644653726917
+  },
+  {
+    "name": "emb:DE:fuehlingen:220",
+    "from": 888,
+    "to": 381,
+    "rPu": 0.007508034584786845,
+    "xPu": 0.1501606916957369,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 133.19064912490546
+  },
+  {
+    "name": "emb:DE:fwh-s:220",
+    "from": 889,
+    "to": 382,
+    "rPu": 0.00608371365828006,
+    "xPu": 0.1216742731656012,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 164.37328516258805
+  },
+  {
+    "name": "emb:DE:gellep:220",
+    "from": 890,
+    "to": 384,
+    "rPu": 0.0075046075988882575,
+    "xPu": 0.15009215197776515,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 133.25147075619802
+  },
+  {
+    "name": "emb:DE:gelsenberg:220",
+    "from": 891,
+    "to": 385,
+    "rPu": 0.008499236212298403,
+    "xPu": 0.16998472424596806,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 117.65763122961556
+  },
+  {
+    "name": "emb:DE:gersteinwerk:220",
+    "from": 892,
+    "to": 386,
+    "rPu": 0.003734337782828169,
+    "xPu": 0.07468675565656338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 267.7850955525128
+  },
+  {
+    "name": "emb:DE:gkm:220",
+    "from": 893,
+    "to": 387,
+    "rPu": 0.006260578586053643,
+    "xPu": 0.12521157172107286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 159.72964579146833
+  },
+  {
+    "name": "emb:DE:gkmb:220",
+    "from": 894,
+    "to": 388,
+    "rPu": 0.004370583598554953,
+    "xPu": 0.08741167197109906,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 228.80239616755762
+  },
+  {
+    "name": "gsu:DE:gkmb:220",
+    "from": 895,
+    "to": 388,
+    "rPu": 0.000740685096153846,
+    "xPu": 0.02962740384615384,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 489.4117647058824
+  },
+  {
+    "name": "emb:DE:gleidingen:220",
+    "from": 896,
+    "to": 389,
+    "rPu": 0.002820234226248158,
+    "xPu": 0.05640468452496315,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 354.58047799467
+  },
+  {
+    "name": "emb:DE:gohrpunkt:220",
+    "from": 897,
+    "to": 390,
+    "rPu": 0.006392886379808558,
+    "xPu": 0.12785772759617117,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 156.42386562014042
+  },
+  {
+    "name": "emb:DE:gremberghoven:220",
+    "from": 898,
+    "to": 391,
+    "rPu": 0.0012919630048948403,
+    "xPu": 0.025839260097896808,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 774.0159712091719
+  },
+  {
+    "name": "emb:DE:gurtweil:220",
+    "from": 899,
+    "to": 395,
+    "rPu": 0.003347902675200998,
+    "xPu": 0.06695805350401995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 298.6944654655957
+  },
+  {
+    "name": "emb:DE:hallendorf:220",
+    "from": 900,
+    "to": 396,
+    "rPu": 0.0011484637799699172,
+    "xPu": 0.022969275599398344,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 870.7283742341391
+  },
+  {
+    "name": "gsu:DE:hallendorf:220",
+    "from": 901,
+    "to": 396,
+    "rPu": 0.0009422782874617735,
+    "xPu": 0.03769113149847094,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 384.7058823529412
+  },
+  {
+    "name": "emb:DE:hamborn:220",
+    "from": 902,
+    "to": 397,
+    "rPu": 0.009808062208582534,
+    "xPu": 0.19616124417165068,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.95693896853051
+  },
+  {
+    "name": "emb:DE:hannover/w:220",
+    "from": 903,
+    "to": 400,
+    "rPu": 0.001180969597666891,
+    "xPu": 0.023619391953337822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 846.761848887209
+  },
+  {
+    "name": "emb:DE:hattingen:220",
+    "from": 904,
+    "to": 401,
+    "rPu": 0.007264260182846193,
+    "xPu": 0.14528520365692385,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 137.6602675054781
+  },
+  {
+    "name": "emb:DE:heidelberg:220",
+    "from": 905,
+    "to": 402,
+    "rPu": 0.005030389605878901,
+    "xPu": 0.10060779211757803,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 198.7917593562381
+  },
+  {
+    "name": "emb:DE:hennigsdorf:220",
+    "from": 906,
+    "to": 404,
+    "rPu": 0.0012831097049696798,
+    "xPu": 0.025662194099393597,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 779.3565866791025
+  },
+  {
+    "name": "emb:DE:homburg:220",
+    "from": 907,
+    "to": 407,
+    "rPu": 0.0022338020711249154,
+    "xPu": 0.04467604142249831,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 447.6672364693494
+  },
+  {
+    "name": "emb:DE:huntorf:220",
+    "from": 908,
+    "to": 408,
+    "rPu": 0.00453205701447291,
+    "xPu": 0.09064114028945819,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 220.65035739986223
+  },
+  {
+    "name": "emb:DE:ingolstadt:220",
+    "from": 909,
+    "to": 410,
+    "rPu": 0.0009957935916105748,
+    "xPu": 0.019915871832211496,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1004.224177003009
+  },
+  {
+    "name": "gsu:DE:ingolstadt:220",
+    "from": 910,
+    "to": 410,
+    "rPu": 0.0003642139479905437,
+    "xPu": 0.014568557919621748,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 995.2941176470588
+  },
+  {
+    "name": "emb:DE:inhausen:220",
+    "from": 911,
+    "to": 411,
+    "rPu": 0.001515710397204294,
+    "xPu": 0.030314207944085878,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 659.7566407438292
+  },
+  {
+    "name": "emb:DE:itzehoe/w:220",
+    "from": 912,
+    "to": 413,
+    "rPu": 0.0011224642768343012,
+    "xPu": 0.022449285536686025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 890.8969493624433
+  },
+  {
+    "name": "emb:DE:karlsruhe/w:220",
+    "from": 913,
+    "to": 414,
+    "rPu": 0.0071296479256497585,
+    "xPu": 0.14259295851299517,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 140.2593803268154
+  },
+  {
+    "name": "emb:DE:karlsruhe:220",
+    "from": 914,
+    "to": 415,
+    "rPu": 0.006457663365866185,
+    "xPu": 0.1291532673173237,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 154.85477383131862
+  },
+  {
+    "name": "gsu:DE:karlsruhe:220",
+    "from": 915,
+    "to": 415,
+    "rPu": 0.0008728753541076486,
+    "xPu": 0.034915014164305945,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 415.29411764705884
+  },
+  {
+    "name": "emb:DE:kiel/s:220",
+    "from": 916,
+    "to": 416,
+    "rPu": 0.001022957477792175,
+    "xPu": 0.020459149555843503,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 977.5577398957738
+  },
+  {
+    "name": "emb:DE:kiel/w:220",
+    "from": 917,
+    "to": 417,
+    "rPu": 0.0013922961547050985,
+    "xPu": 0.027845923094101967,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 718.2379960043843
+  },
+  {
+    "name": "emb:DE:kruen:220",
+    "from": 918,
+    "to": 418,
+    "rPu": 0.0011879725165278808,
+    "xPu": 0.023759450330557617,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 841.7703154638011
+  },
+  {
+    "name": "gsu:DE:kuehmoos:220",
+    "from": 919,
+    "to": 419,
+    "rPu": 0.0008559027777777777,
+    "xPu": 0.034236111111111106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 423.5294117647059
+  },
+  {
+    "name": "emb:DE:kuppenheim:220",
+    "from": 920,
+    "to": 421,
+    "rPu": 0.002731828296926755,
+    "xPu": 0.054636565938535095,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 366.0552169859934
+  },
+  {
+    "name": "emb:DE:lage:220",
+    "from": 921,
+    "to": 423,
+    "rPu": 0.0025817696405830543,
+    "xPu": 0.05163539281166109,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 387.3312259470852
+  },
+  {
+    "name": "gsu:DE:landesbergen:220",
+    "from": 922,
+    "to": 424,
+    "rPu": 0.004740384615384615,
+    "xPu": 0.1896153846153846,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 76.47058823529412
+  },
+  {
+    "name": "emb:DE:lehrte:220",
+    "from": 923,
+    "to": 426,
+    "rPu": 0.0011558829618161302,
+    "xPu": 0.023117659236322603,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 865.1394933867648
+  },
+  {
+    "name": "emb:DE:ludersheim:220",
+    "from": 924,
+    "to": 428,
+    "rPu": 0.0005690912481942452,
+    "xPu": 0.011381824963884905,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1757.1874513499365
+  },
+  {
+    "name": "emb:DE:luebeck:220",
+    "from": 925,
+    "to": 429,
+    "rPu": 0.0009199453420726067,
+    "xPu": 0.018398906841452133,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1087.021102522279
+  },
+  {
+    "name": "emb:DE:luedershagen:220",
+    "from": 926,
+    "to": 430,
+    "rPu": 0.0009583079404662959,
+    "xPu": 0.019166158809325918,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1043.5059105462672
+  },
+  {
+    "name": "emb:DE:luestringen:220",
+    "from": 927,
+    "to": 431,
+    "rPu": 0.002762676215107544,
+    "xPu": 0.055253524302150886,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 361.9678609210716
+  },
+  {
+    "name": "emb:DE:maade:220",
+    "from": 928,
+    "to": 432,
+    "rPu": 0.006325706970051121,
+    "xPu": 0.12651413940102244,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 158.0850970072549
+  },
+  {
+    "name": "emb:DE:marbach:220",
+    "from": 929,
+    "to": 433,
+    "rPu": 0.002952403922291429,
+    "xPu": 0.059048078445828586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 338.7070422342065
+  },
+  {
+    "name": "emb:DE:marienberg:220",
+    "from": 930,
+    "to": 434,
+    "rPu": 0.000548423913919045,
+    "xPu": 0.0109684782783809,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1823.4069934222707
+  },
+  {
+    "name": "emb:DE:mehrum:220",
+    "from": 931,
+    "to": 436,
+    "rPu": 0.0041977366543245785,
+    "xPu": 0.08395473308649157,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 238.22361485439617
+  },
+  {
+    "name": "emb:DE:meissen:220",
+    "from": 932,
+    "to": 438,
+    "rPu": 0.003717044676809538,
+    "xPu": 0.07434089353619076,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 269.0309336982016
+  },
+  {
+    "name": "emb:DE:muendelheim:220",
+    "from": 933,
+    "to": 439,
+    "rPu": 0.008191538817462273,
+    "xPu": 0.16383077634924545,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 122.0771850422359
+  },
+  {
+    "name": "emb:DE:muenster:220",
+    "from": 934,
+    "to": 440,
+    "rPu": 0.0035273983912742766,
+    "xPu": 0.07054796782548553,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 283.4950547331709
+  },
+  {
+    "name": "emb:DE:mutterstadt:220",
+    "from": 935,
+    "to": 441,
+    "rPu": 0.0038452215011077666,
+    "xPu": 0.07690443002215533,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 260.06304180706127
+  },
+  {
+    "name": "emb:DE:neufinsing:220",
+    "from": 936,
+    "to": 443,
+    "rPu": 0.0005519547405607908,
+    "xPu": 0.011039094811215814,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1811.7427508349533
+  },
+  {
+    "name": "emb:DE:neurott:220",
+    "from": 937,
+    "to": 444,
+    "rPu": 0.006109090166230712,
+    "xPu": 0.12218180332461423,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 163.69049609509966
+  },
+  {
+    "name": "emb:DE:norf:220",
+    "from": 938,
+    "to": 447,
+    "rPu": 0.009084841934782754,
+    "xPu": 0.1816968386956551,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 110.07346161646927
+  },
+  {
+    "name": "emb:DE:oberbrunn:220",
+    "from": 939,
+    "to": 449,
+    "rPu": 0.0005128038300439397,
+    "xPu": 0.010256076600878792,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1950.063438321658
+  },
+  {
+    "name": "emb:DE:oberwald:220",
+    "from": 940,
+    "to": 450,
+    "rPu": 0.0068355744998373855,
+    "xPu": 0.1367114899967477,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 146.29348272391582
+  },
+  {
+    "name": "emb:DE:opladen:220",
+    "from": 941,
+    "to": 452,
+    "rPu": 0.00801856774879906,
+    "xPu": 0.1603713549759812,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 124.71055072768698
+  },
+  {
+    "name": "emb:DE:ossenberg:220",
+    "from": 942,
+    "to": 453,
+    "rPu": 0.003898857831303274,
+    "xPu": 0.07797715662606548,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 256.48537168274464
+  },
+  {
+    "name": "emb:DE:osterath:220",
+    "from": 943,
+    "to": 454,
+    "rPu": 0.004324832669719417,
+    "xPu": 0.08649665339438833,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 231.22281863101014
+  },
+  {
+    "name": "emb:DE:parchim/s:220",
+    "from": 944,
+    "to": 456,
+    "rPu": 0.0011200944657012415,
+    "xPu": 0.02240188931402483,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 892.7818417297011
+  },
+  {
+    "name": "emb:DE:pfalzdorf:220",
+    "from": 945,
+    "to": 458,
+    "rPu": 0.0014713735140258124,
+    "xPu": 0.029427470280516246,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 679.6370809094617
+  },
+  {
+    "name": "emb:DE:pirach:220",
+    "from": 946,
+    "to": 459,
+    "rPu": 0.000674983373160282,
+    "xPu": 0.013499667463205639,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1481.5179747583788
+  },
+  {
+    "name": "emb:DE:pleinting:220",
+    "from": 947,
+    "to": 460,
+    "rPu": 0.0006199162592409776,
+    "xPu": 0.012398325184819552,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1613.121103202544
+  },
+  {
+    "name": "emb:DE:poeppinghausen:220",
+    "from": 948,
+    "to": 461,
+    "rPu": 0.008941621180966622,
+    "xPu": 0.17883242361933244,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 111.83654281044998
+  },
+  {
+    "name": "emb:DE:quint:220",
+    "from": 949,
+    "to": 463,
+    "rPu": 0.0027511222035211595,
+    "xPu": 0.05502244407042319,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 363.4880336177363
+  },
+  {
+    "name": "emb:DE:ratsbusch:220",
+    "from": 950,
+    "to": 465,
+    "rPu": 0.0069558739520817845,
+    "xPu": 0.13911747904163568,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 143.76338715866405
+  },
+  {
+    "name": "emb:DE:regensburg:220",
+    "from": 951,
+    "to": 466,
+    "rPu": 0.000792333964611857,
+    "xPu": 0.01584667929223714,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1262.094072276547
+  },
+  {
+    "name": "emb:DE:rheinhausen:220",
+    "from": 952,
+    "to": 467,
+    "rPu": 0.0012020927425565595,
+    "xPu": 0.02404185485113119,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 831.8825699531658
+  },
+  {
+    "name": "gsu:DE:rheinhausen:220",
+    "from": 953,
+    "to": 467,
+    "rPu": 0.001143745360059391,
+    "xPu": 0.04574981440237564,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 316.9411764705883
+  },
+  {
+    "name": "gsu:DE:roehrsdorf:220",
+    "from": 954,
+    "to": 468,
+    "rPu": 0.0002948000382701875,
+    "xPu": 0.0117920015308075,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1229.6470588235293
+  },
+  {
+    "name": "emb:DE:ruhrzink:220",
+    "from": 955,
+    "to": 470,
+    "rPu": 0.012137708930316035,
+    "xPu": 0.2427541786063207,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.38787119884927
+  },
+  {
+    "name": "emb:DE:saarwellingen:220",
+    "from": 956,
+    "to": 471,
+    "rPu": 0.005797185126109709,
+    "xPu": 0.11594370252219419,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 172.49751012713742
+  },
+  {
+    "name": "emb:DE:schwelgern:220",
+    "from": 957,
+    "to": 473,
+    "rPu": 0.010817489519293606,
+    "xPu": 0.21634979038587213,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 92.44289058163109
+  },
+  {
+    "name": "emb:DE:schwoerstadt:220",
+    "from": 958,
+    "to": 474,
+    "rPu": 0.002346558697372252,
+    "xPu": 0.04693117394744504,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 426.1559709202376
+  },
+  {
+    "name": "emb:DE:setzer wiese:220",
+    "from": 959,
+    "to": 476,
+    "rPu": 0.003982969907228771,
+    "xPu": 0.07965939814457541,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 251.06893180013242
+  },
+  {
+    "name": "emb:DE:siegburg:220",
+    "from": 960,
+    "to": 477,
+    "rPu": 0.0036502913264598166,
+    "xPu": 0.07300582652919634,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 273.95073723330347
+  },
+  {
+    "name": "emb:DE:siems:220",
+    "from": 961,
+    "to": 478,
+    "rPu": 0.0006604881115879328,
+    "xPu": 0.013209762231758656,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1514.0317932382147
+  },
+  {
+    "name": "emb:DE:simbach:220",
+    "from": 962,
+    "to": 480,
+    "rPu": 0.0013570923231413777,
+    "xPu": 0.02714184646282755,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 736.8695430280046
+  },
+  {
+    "name": "emb:DE:sittling:220",
+    "from": 963,
+    "to": 481,
+    "rPu": 0.0018399118347347226,
+    "xPu": 0.03679823669469445,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 543.5043033701554
+  },
+  {
+    "name": "emb:DE:sottrum:220",
+    "from": 964,
+    "to": 482,
+    "rPu": 0.0009271438231562401,
+    "xPu": 0.018542876463124802,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1078.5813107137342
+  },
+  {
+    "name": "emb:DE:spellen:220",
+    "from": 965,
+    "to": 483,
+    "rPu": 0.005039151310544917,
+    "xPu": 0.10078302621089835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 198.4461149057783
+  },
+  {
+    "name": "emb:DE:st peter:220",
+    "from": 966,
+    "to": 487,
+    "rPu": 0.009844618426287595,
+    "xPu": 0.1968923685257519,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.5783402360979
+  },
+  {
+    "name": "emb:DE:stockach:220",
+    "from": 967,
+    "to": 488,
+    "rPu": 0.002452411725774405,
+    "xPu": 0.04904823451548809,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 407.7618735427581
+  },
+  {
+    "name": "emb:DE:stockem:220",
+    "from": 968,
+    "to": 489,
+    "rPu": 0.004456783999978467,
+    "xPu": 0.08913567999956934,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 224.37703958837395
+  },
+  {
+    "name": "emb:DE:thyrow:220",
+    "from": 969,
+    "to": 490,
+    "rPu": 0.000848118798975272,
+    "xPu": 0.01696237597950544,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1179.0801019954238
+  },
+  {
+    "name": "emb:DE:trennfeld:220",
+    "from": 970,
+    "to": 492,
+    "rPu": 0.0010536980747911989,
+    "xPu": 0.021073961495823978,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 949.0384617037098
+  },
+  {
+    "name": "emb:DE:uerdingen:220",
+    "from": 971,
+    "to": 494,
+    "rPu": 0.010682724893800977,
+    "xPu": 0.21365449787601953,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 93.60907539426432
+  },
+  {
+    "name": "emb:DE:utfort:220",
+    "from": 972,
+    "to": 497,
+    "rPu": 0.004374181349891288,
+    "xPu": 0.08748362699782576,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 228.61420686749832
+  },
+  {
+    "name": "emb:DE:veltheim:220",
+    "from": 973,
+    "to": 498,
+    "rPu": 0.002948572274006721,
+    "xPu": 0.05897144548013442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 339.14718957902016
+  },
+  {
+    "name": "emb:DE:voslapp:220",
+    "from": 974,
+    "to": 502,
+    "rPu": 0.007877242285450788,
+    "xPu": 0.15754484570901575,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 126.94798049401034
+  },
+  {
+    "name": "emb:DE:walsum:220",
+    "from": 975,
+    "to": 505,
+    "rPu": 0.0074288569171133394,
+    "xPu": 0.1485771383422668,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 134.6102113901763
+  },
+  {
+    "name": "emb:DE:wambel:220",
+    "from": 976,
+    "to": 506,
+    "rPu": 0.0009184456767418307,
+    "xPu": 0.018368913534836613,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1088.796022806141
+  },
+  {
+    "name": "gsu:DE:wambel:220",
+    "from": 977,
+    "to": 506,
+    "rPu": 0.006698369565217391,
+    "xPu": 0.26793478260869563,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 54.11764705882353
+  },
+  {
+    "name": "emb:DE:wechold:220",
+    "from": 978,
+    "to": 507,
+    "rPu": 0.001070074519483643,
+    "xPu": 0.02140149038967286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 934.5143555820235
+  },
+  {
+    "name": "emb:DE:weier:220",
+    "from": 979,
+    "to": 510,
+    "rPu": 0.0020803726811865837,
+    "xPu": 0.04160745362373167,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 480.683105024062
+  },
+  {
+    "name": "emb:DE:weinheim:220",
+    "from": 980,
+    "to": 511,
+    "rPu": 0.0024766104038486877,
+    "xPu": 0.049532208076973755,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 403.7776787362218
+  },
+  {
+    "name": "gsu:DE:weinheim:220",
+    "from": 981,
+    "to": 511,
+    "rPu": 0.0008142838266384778,
+    "xPu": 0.03257135306553911,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 445.17647058823525
+  },
+  {
+    "name": "emb:DE:welper:220",
+    "from": 982,
+    "to": 513,
+    "rPu": 0.010364215393823328,
+    "xPu": 0.20728430787646657,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 96.48583727775103
+  },
+  {
+    "name": "emb:DE:wengerrohr:220",
+    "from": 983,
+    "to": 514,
+    "rPu": 0.0012454531804903,
+    "xPu": 0.024909063609806003,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 802.9205879953897
+  },
+  {
+    "name": "emb:DE:wolkramshausen:220",
+    "from": 984,
+    "to": 519,
+    "rPu": 0.0008604401534684902,
+    "xPu": 0.017208803069369803,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1162.1958784337703
+  },
+  {
+    "name": "emb:DE:wuhlheide:220",
+    "from": 985,
+    "to": 521,
+    "rPu": 0.005781410729126128,
+    "xPu": 0.11562821458252256,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 172.9681641475682
+  },
+  {
+    "name": "emb:DE:zolling:220",
+    "from": 986,
+    "to": 552,
+    "rPu": 0.0015199749243234863,
+    "xPu": 0.030399498486469726,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 657.9055904130012
+  }
+]

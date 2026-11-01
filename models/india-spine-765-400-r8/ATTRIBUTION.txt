@@ -1,0 +1,40 @@
+India transmission spine 765/400 kV (UnvalidatedAtScale)
+
+RELEASE STATUS
+--------------
+Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a fair
+approximation of the Indian transmission spine assembled from public data, with low-fidelity demand.
+Do not use it for planning, operation or investment decisions.
+
+LICENCE
+-------
+The case data in this folder is made available under the Open Database Licence (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/ . It is derived from OpenStreetMap.
+    (c) OpenStreetMap contributors   https://www.openstreetmap.org/copyright
+Any public use of this data, or of a database derived from it, must keep this attribution and
+remain under ODbL (share-alike). The software that built it is not covered by this licence.
+
+CREDITS
+-------
+- OpenStreetMap contributors: substations, lines, voltages, circuits, geometry (ODbL 1.0).
+- geoBoundaries India ADM1 (www.geoboundaries.org), DataMeet India community: state boundaries
+  used to assign states and drawn in geography.json (CC BY 2.5 IN).
+- World Resources Institute, Global Power Plant Database: plant locations, capacities, fuels
+  (CC BY 4.0).
+- Natural Earth (public domain): India land outline in geography.json. Made with Natural Earth.
+- Central Electricity Authority (CEA): per-km line parameters, transformer reactance practice,
+  transmission completion ledgers (public documents, no licence stated; facts only).
+- Central Transmission Utility of India (CTUIL): ISTS Rolling Plan and connectivity lists
+  (public documents, no licence stated; facts only).
+- Central Electricity Regulatory Commission (CERC): line loadability data (public document,
+  no licence stated; facts only).

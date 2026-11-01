@@ -1,0 +1,1412 @@
+[
+  {
+    "name": "T0000",
+    "from": 1,
+    "to": 87,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0001",
+    "from": 92,
+    "to": 573,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0002",
+    "from": 93,
+    "to": 575,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0003",
+    "from": 70,
+    "to": 96,
+    "rPu": 0.000125,
+    "xPu": 0.005,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2400.0
+  },
+  {
+    "name": "T0004",
+    "from": 112,
+    "to": 592,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0005",
+    "from": 5,
+    "to": 130,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0006",
+    "from": 130,
+    "to": 631,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0007",
+    "from": 131,
+    "to": 632,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0008",
+    "from": 6,
+    "to": 144,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0009",
+    "from": 146,
+    "to": 649,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0010",
+    "from": 147,
+    "to": 650,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0011",
+    "from": 150,
+    "to": 654,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0012",
+    "from": 151,
+    "to": 655,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0013",
+    "from": 153,
+    "to": 659,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0014",
+    "from": 154,
+    "to": 667,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0015",
+    "from": 7,
+    "to": 155,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0016",
+    "from": 156,
+    "to": 668,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0017",
+    "from": 161,
+    "to": 674,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0018",
+    "from": 8,
+    "to": 163,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0019",
+    "from": 163,
+    "to": 679,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0020",
+    "from": 171,
+    "to": 693,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0021",
+    "from": 172,
+    "to": 695,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0022",
+    "from": 174,
+    "to": 698,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0023",
+    "from": 11,
+    "to": 177,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0024",
+    "from": 180,
+    "to": 699,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0025",
+    "from": 183,
+    "to": 700,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0026",
+    "from": 186,
+    "to": 715,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0027",
+    "from": 12,
+    "to": 187,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0028",
+    "from": 205,
+    "to": 737,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0029",
+    "from": 209,
+    "to": 739,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0030",
+    "from": 212,
+    "to": 742,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0031",
+    "from": 217,
+    "to": 743,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0032",
+    "from": 19,
+    "to": 230,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0033",
+    "from": 22,
+    "to": 235,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0034",
+    "from": 23,
+    "to": 236,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0035",
+    "from": 236,
+    "to": 766,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0036",
+    "from": 244,
+    "to": 778,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0037",
+    "from": 248,
+    "to": 783,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0038",
+    "from": 273,
+    "to": 808,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0039",
+    "from": 274,
+    "to": 809,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0040",
+    "from": 282,
+    "to": 818,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0041",
+    "from": 27,
+    "to": 287,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0042",
+    "from": 287,
+    "to": 822,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0043",
+    "from": 28,
+    "to": 288,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0044",
+    "from": 72,
+    "to": 561,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0045",
+    "from": 76,
+    "to": 646,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0046",
+    "from": 211,
+    "to": 565,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0047",
+    "from": 78,
+    "to": 646,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0048",
+    "from": 70,
+    "to": 94,
+    "rPu": 0.000125,
+    "xPu": 0.005,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2400.0
+  },
+  {
+    "name": "T0049",
+    "from": 254,
+    "to": 576,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0050",
+    "from": 221,
+    "to": 588,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0051",
+    "from": 114,
+    "to": 649,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0052",
+    "from": 116,
+    "to": 599,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0053",
+    "from": 117,
+    "to": 815,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0054",
+    "from": 174,
+    "to": 618,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0055",
+    "from": 4,
+    "to": 214,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0056",
+    "from": 14,
+    "to": 139,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0057",
+    "from": 145,
+    "to": 646,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0058",
+    "from": 152,
+    "to": 656,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0059",
+    "from": 168,
+    "to": 663,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0060",
+    "from": 209,
+    "to": 676,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0061",
+    "from": 164,
+    "to": 724,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0062",
+    "from": 9,
+    "to": 167,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0063",
+    "from": 171,
+    "to": 694,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0064",
+    "from": 153,
+    "to": 726,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0065",
+    "from": 195,
+    "to": 815,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0066",
+    "from": 198,
+    "to": 758,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0067",
+    "from": 200,
+    "to": 731,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0068",
+    "from": 218,
+    "to": 746,
+    "rPu": 0.00025,
+    "xPu": 0.01,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1200.0
+  },
+  {
+    "name": "T0069",
+    "from": 17,
+    "to": 751,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0070",
+    "from": 20,
+    "to": 756,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0071",
+    "from": 237,
+    "to": 767,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0072",
+    "from": 24,
+    "to": 779,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0073",
+    "from": 246,
+    "to": 780,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0074",
+    "from": 25,
+    "to": 780,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "T0075",
+    "from": 252,
+    "to": 820,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0076",
+    "from": 254,
+    "to": 789,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0077",
+    "from": 26,
+    "to": 262,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "T0078",
+    "from": 268,
+    "to": 800,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0079",
+    "from": 146,
+    "to": 811,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0080",
+    "from": 217,
+    "to": 826,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0081",
+    "from": 291,
+    "to": 800,
+    "rPu": 0.0003333333333333333,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "T0082",
+    "from": 292,
+    "to": 827,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0083",
+    "from": 293,
+    "to": 829,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0084",
+    "from": 296,
+    "to": 827,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0085",
+    "from": 297,
+    "to": 827,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "T0086",
+    "from": 29,
+    "to": 235,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "gsu:sr10402472_230",
+    "from": 1018,
+    "to": 80,
+    "rPu": 0.001607142857142857,
+    "xPu": 0.06428571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 202.22222222222223
+  },
+  {
+    "name": "gsu:sw113855788_500",
+    "from": 1019,
+    "to": 1,
+    "rPu": 9.08385093167702e-05,
+    "xPu": 0.0036335403726708076,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3577.777777777778
+  },
+  {
+    "name": "gsu:sw117946953_230",
+    "from": 1020,
+    "to": 93,
+    "rPu": 0.0006587837837837838,
+    "xPu": 0.026351351351351353,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 493.3333333333333
+  },
+  {
+    "name": "gsu:sw1215471371_345",
+    "from": 1021,
+    "to": 70,
+    "rPu": 0.0005069324090121318,
+    "xPu": 0.02027729636048527,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 641.1111111111111
+  },
+  {
+    "name": "gsu:sw124486016_500",
+    "from": 1022,
+    "to": 2,
+    "rPu": 0.0003342857142857143,
+    "xPu": 0.013371428571428572,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 972.2222222222222
+  },
+  {
+    "name": "gsu:sw1372463008_115",
+    "from": 1023,
+    "to": 588,
+    "rPu": 0.0012037037037037038,
+    "xPu": 0.04814814814814815,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 270.0
+  },
+  {
+    "name": "gsu:sw1434887017_230",
+    "from": 1024,
+    "to": 117,
+    "rPu": 0.002232824427480916,
+    "xPu": 0.08931297709923665,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 145.55555555555554
+  },
+  {
+    "name": "gsu:sw1435101688_115",
+    "from": 1025,
+    "to": 618,
+    "rPu": 0.004717741935483871,
+    "xPu": 0.18870967741935485,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 68.88888888888889
+  },
+  {
+    "name": "gsu:sw1472384596_230",
+    "from": 1026,
+    "to": 122,
+    "rPu": 0.0010675182481751824,
+    "xPu": 0.0427007299270073,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 304.44444444444446
+  },
+  {
+    "name": "gsu:sw1472384603_230",
+    "from": 1027,
+    "to": 123,
+    "rPu": 0.0006471238938053098,
+    "xPu": 0.02588495575221239,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 502.22222222222223
+  },
+  {
+    "name": "gsu:sw158460570_230",
+    "from": 1028,
+    "to": 125,
+    "rPu": 0.00013777673104097975,
+    "xPu": 0.00551106924163919,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2358.8888888888887
+  },
+  {
+    "name": "gsu:sw180189110_115",
+    "from": 1029,
+    "to": 642,
+    "rPu": 0.00203125,
+    "xPu": 0.08125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.0
+  },
+  {
+    "name": "gsu:sw214635681_230",
+    "from": 1030,
+    "to": 149,
+    "rPu": 0.003567073170731707,
+    "xPu": 0.14268292682926828,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 91.11111111111111
+  },
+  {
+    "name": "gsu:sw229406174_115",
+    "from": 1031,
+    "to": 654,
+    "rPu": 0.00203125,
+    "xPu": 0.08125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.0
+  },
+  {
+    "name": "gsu:sw238620184_230",
+    "from": 1032,
+    "to": 153,
+    "rPu": 0.0006818181818181819,
+    "xPu": 0.027272727272727275,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 476.66666666666663
+  },
+  {
+    "name": "gsu:sw244226940_115",
+    "from": 1033,
+    "to": 665,
+    "rPu": 0.00203125,
+    "xPu": 0.08125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.0
+  },
+  {
+    "name": "gsu:sw255478248_115",
+    "from": 1034,
+    "to": 678,
+    "rPu": 0.001607142857142857,
+    "xPu": 0.06428571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 202.22222222222223
+  },
+  {
+    "name": "gsu:sw255866641_500",
+    "from": 1035,
+    "to": 8,
+    "rPu": 0.00083810888252149,
+    "xPu": 0.0335243553008596,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 387.77777777777777
+  },
+  {
+    "name": "gsu:sw255867164_115",
+    "from": 1036,
+    "to": 680,
+    "rPu": 0.002397540983606558,
+    "xPu": 0.09590163934426231,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 135.55555555555554
+  },
+  {
+    "name": "gsu:sw256661256_115",
+    "from": 1037,
+    "to": 684,
+    "rPu": 0.0018167701863354038,
+    "xPu": 0.07267080745341616,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 178.88888888888889
+  },
+  {
+    "name": "gsu:sw257667596_115",
+    "from": 1038,
+    "to": 685,
+    "rPu": 0.0013604651162790699,
+    "xPu": 0.05441860465116279,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 238.88888888888889
+  },
+  {
+    "name": "gsu:sw262627366_115",
+    "from": 1039,
+    "to": 690,
+    "rPu": 0.004006849315068493,
+    "xPu": 0.1602739726027397,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 81.11111111111111
+  },
+  {
+    "name": "gsu:sw263920246_115",
+    "from": 1040,
+    "to": 691,
+    "rPu": 0.013295454545454546,
+    "xPu": 0.5318181818181819,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 24.444444444444443
+  },
+  {
+    "name": "gsu:sw267596257_115",
+    "from": 1041,
+    "to": 697,
+    "rPu": 0.006223404255319149,
+    "xPu": 0.24893617021276596,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 52.22222222222222
+  },
+  {
+    "name": "gsu:sw273639295_500",
+    "from": 1042,
+    "to": 10,
+    "rPu": 8.628318584070796e-05,
+    "xPu": 0.0034513274336283187,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3766.6666666666665
+  },
+  {
+    "name": "gsu:sw274904647_115",
+    "from": 1043,
+    "to": 700,
+    "rPu": 0.002381921824104235,
+    "xPu": 0.0952768729641694,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 136.44444444444443
+  },
+  {
+    "name": "gsu:sw274904647_230",
+    "from": 1044,
+    "to": 183,
+    "rPu": 0.000540365786070571,
+    "xPu": 0.021614631442822836,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 601.4444444444443
+  },
+  {
+    "name": "gsu:sw294713190_115",
+    "from": 1045,
+    "to": 707,
+    "rPu": 0.0008453757225433525,
+    "xPu": 0.0338150289017341,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 384.44444444444446
+  },
+  {
+    "name": "gsu:sw299575732_115",
+    "from": 1046,
+    "to": 711,
+    "rPu": 0.0018714011516314777,
+    "xPu": 0.07485604606525911,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 173.66666666666669
+  },
+  {
+    "name": "gsu:sw32963410_500",
+    "from": 1047,
+    "to": 12,
+    "rPu": 9.016646115906289e-05,
+    "xPu": 0.0036066584463625155,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3604.4444444444443
+  },
+  {
+    "name": "gsu:sw33297515_500",
+    "from": 1048,
+    "to": 13,
+    "rPu": 0.000410814606741573,
+    "xPu": 0.01643258426966292,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 791.1111111111111
+  },
+  {
+    "name": "gsu:sw33728777_500",
+    "from": 1049,
+    "to": 15,
+    "rPu": 7.820855614973261e-05,
+    "xPu": 0.0031283422459893045,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4155.555555555556
+  },
+  {
+    "name": "gsu:sw341075039_230",
+    "from": 1050,
+    "to": 191,
+    "rPu": 0.001426829268292683,
+    "xPu": 0.05707317073170732,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 227.77777777777777
+  },
+  {
+    "name": "gsu:sw395444447_115",
+    "from": 1051,
+    "to": 729,
+    "rPu": 0.003952702702702703,
+    "xPu": 0.15810810810810813,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.22222222222221
+  },
+  {
+    "name": "gsu:sw43746409_230",
+    "from": 1052,
+    "to": 208,
+    "rPu": 0.002397540983606558,
+    "xPu": 0.09590163934426231,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 135.55555555555554
+  },
+  {
+    "name": "gsu:sw43812935_230",
+    "from": 1053,
+    "to": 209,
+    "rPu": 0.00046875,
+    "xPu": 0.01875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 693.3333333333334
+  },
+  {
+    "name": "gsu:sw492366726_115",
+    "from": 1054,
+    "to": 761,
+    "rPu": 0.012717391304347828,
+    "xPu": 0.5086956521739131,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 25.555555555555554
+  },
+  {
+    "name": "gsu:sw5065566_500",
+    "from": 1055,
+    "to": 22,
+    "rPu": 0.00014625,
+    "xPu": 0.00585,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2222.222222222222
+  },
+  {
+    "name": "gsu:sw523681465_115",
+    "from": 1056,
+    "to": 769,
+    "rPu": 0.007134146341463414,
+    "xPu": 0.28536585365853656,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 45.55555555555556
+  },
+  {
+    "name": "gsu:sw564807905_345",
+    "from": 1057,
+    "to": 71,
+    "rPu": 0.00029104477611940297,
+    "xPu": 0.011641791044776119,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1116.6666666666667
+  },
+  {
+    "name": "gsu:sw600415699_115",
+    "from": 1058,
+    "to": 782,
+    "rPu": 0.002659090909090909,
+    "xPu": 0.10636363636363637,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 122.22222222222221
+  },
+  {
+    "name": "gsu:sw639142495_115",
+    "from": 1059,
+    "to": 789,
+    "rPu": 0.0020892857142857145,
+    "xPu": 0.08357142857142857,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 155.55555555555554
+  },
+  {
+    "name": "gsu:sw666008276_115",
+    "from": 1060,
+    "to": 793,
+    "rPu": 0.006500000000000001,
+    "xPu": 0.26,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.0
+  },
+  {
+    "name": "gsu:sw709037739_230",
+    "from": 1061,
+    "to": 272,
+    "rPu": 0.0012238493723849373,
+    "xPu": 0.04895397489539749,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 265.55555555555554
+  },
+  {
+    "name": "gsu:sw731893497_230",
+    "from": 1062,
+    "to": 277,
+    "rPu": 0.010446428571428572,
+    "xPu": 0.41785714285714287,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.11111111111111
+  },
+  {
+    "name": "gsu:sw743773542_115",
+    "from": 1063,
+    "to": 816,
+    "rPu": 0.00609375,
+    "xPu": 0.24375000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 53.33333333333333
+  },
+  {
+    "name": "gsu:sw75151343_115",
+    "from": 1064,
+    "to": 817,
+    "rPu": 0.0021666666666666666,
+    "xPu": 0.08666666666666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 150.0
+  },
+  {
+    "name": "gsu:sw753689047_230",
+    "from": 1065,
+    "to": 283,
+    "rPu": 0.0018055555555555555,
+    "xPu": 0.07222222222222222,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 180.0
+  },
+  {
+    "name": "gsu:sw753690967_230",
+    "from": 1066,
+    "to": 284,
+    "rPu": 0.0010955056179775282,
+    "xPu": 0.043820224719101124,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 296.6666666666667
+  },
+  {
+    "name": "gsu:sw755292780_115",
+    "from": 1067,
+    "to": 820,
+    "rPu": 0.0010263157894736842,
+    "xPu": 0.04105263157894737,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 316.6666666666667
+  },
+  {
+    "name": "gsu:sw762722931_230",
+    "from": 1068,
+    "to": 286,
+    "rPu": 0.0007442748091603054,
+    "xPu": 0.029770992366412216,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 436.66666666666663
+  },
+  {
+    "name": "gsu:sw842263582_115",
+    "from": 1069,
+    "to": 828,
+    "rPu": 0.0068341121495327116,
+    "xPu": 0.27336448598130847,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 47.55555555555555
+  },
+  {
+    "name": "gsu:sw892371581_230",
+    "from": 1070,
+    "to": 296,
+    "rPu": 0.0015558510638297872,
+    "xPu": 0.06223404255319149,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 208.88888888888889
+  },
+  {
+    "name": "gsu:sw92197103_230",
+    "from": 1071,
+    "to": 298,
+    "rPu": 0.0002799043062200957,
+    "xPu": 0.011196172248803827,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1161.111111111111
+  }
+]

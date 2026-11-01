@@ -1,0 +1,2662 @@
+[
+  {
+    "name": "jao:Bisamberg - Ybbsfeld 207:0",
+    "from": 60,
+    "to": 130,
+    "rPu": 0.01833884297520661,
+    "xPu": 0.09774793388429752,
+    "bPu": 0.155702316,
+    "ratingMva": 323.89350101538,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Ybbsfeld 208:1",
+    "from": 60,
+    "to": 130,
+    "rPu": 0.01833884297520661,
+    "xPu": 0.09774793388429752,
+    "bPu": 0.155702316,
+    "ratingMva": 323.89350101538,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ernsthofen - Wallsee 205A:2",
+    "from": 63,
+    "to": 125,
+    "rPu": 0.0036983471074380166,
+    "xPu": 0.01915289256198347,
+    "bPu": 0.030364998399999996,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ernsthofen - Ybbsfeld 206:3",
+    "from": 63,
+    "to": 130,
+    "rPu": 0.007107438016528926,
+    "xPu": 0.03768595041322314,
+    "bPu": 0.05983280599999999,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Wallsee - Ybbsfeld 205B:4",
+    "from": 125,
+    "to": 130,
+    "rPu": 0.00481404958677686,
+    "xPu": 0.025330578512396694,
+    "bPu": 0.0403396818,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Obersielach 286:5",
+    "from": 66,
+    "to": 73,
+    "rPu": 0.01731198347107438,
+    "xPu": 0.08512396694214877,
+    "bPu": 0.1352054,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Weissenbach 223:6",
+    "from": 66,
+    "to": 126,
+    "rPu": 0.01237603305785124,
+    "xPu": 0.060950413223140494,
+    "bPu": 0.0967209628,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Weissenbach 224:7",
+    "from": 66,
+    "to": 126,
+    "rPu": 0.01237603305785124,
+    "xPu": 0.060950413223140494,
+    "bPu": 0.0967209628,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Zeltweg 287:8",
+    "from": 66,
+    "to": 133,
+    "rPu": 0.007508264462809917,
+    "xPu": 0.03692148760330579,
+    "bPu": 0.05863176,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Obersielach - Zeltweg 285:9",
+    "from": 73,
+    "to": 133,
+    "rPu": 0.012068181818181818,
+    "xPu": 0.05935950413223141,
+    "bPu": 0.09427352,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pongau - Weissenbach 221:10",
+    "from": 113,
+    "to": 126,
+    "rPu": 0.013485537190082645,
+    "xPu": 0.07107438016528925,
+    "bPu": 0.125383104,
+    "ratingMva": 307.50830037577845,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pongau - Weissenbach 222:11",
+    "from": 113,
+    "to": 126,
+    "rPu": 0.013485537190082645,
+    "xPu": 0.07107438016528925,
+    "bPu": 0.125383104,
+    "ratingMva": 307.50830037577845,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Duernrohr 297:12",
+    "from": 60,
+    "to": 62,
+    "rPu": 0.002272727272727273,
+    "xPu": 0.026239669421487602,
+    "bPu": 0.0808922268,
+    "ratingMva": 792.5864495435183,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Duernrohr 298:13",
+    "from": 60,
+    "to": 62,
+    "rPu": 0.002272727272727273,
+    "xPu": 0.026239669421487602,
+    "bPu": 0.0808922268,
+    "ratingMva": 792.5864495435183,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Duernrohr 436A:14",
+    "from": 1,
+    "to": 4,
+    "rPu": 0.0007686980609418284,
+    "xPu": 0.01074792243767313,
+    "bPu": 0.27885603839999995,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Duernrohr 444A:15",
+    "from": 1,
+    "to": 4,
+    "rPu": 0.0007680055401662049,
+    "xPu": 0.01074792243767313,
+    "bPu": 0.27885603839999995,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Kledering 228B:16",
+    "from": 60,
+    "to": 69,
+    "rPu": 0.004473140495867768,
+    "xPu": 0.02419421487603306,
+    "bPu": 0.0667664932,
+    "ratingMva": 457.26141319818356,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Sarasdorf 444C:17",
+    "from": 1,
+    "to": 45,
+    "rPu": 0.0007465373961218837,
+    "xPu": 0.010422437673130194,
+    "bPu": 0.2715977724,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Wien Suedost 227:18",
+    "from": 60,
+    "to": 128,
+    "rPu": 0.004644628099173554,
+    "xPu": 0.025082644628099175,
+    "bPu": 0.0692145168,
+    "ratingMva": 457.26141319818356,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Wien Suedost 436B:19",
+    "from": 1,
+    "to": 54,
+    "rPu": 0.00114196675900277,
+    "xPu": 0.016101108033240996,
+    "bPu": 0.417264016,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bisamberg - Zaya 443B:20",
+    "from": 1,
+    "to": 55,
+    "rPu": 0.0006260387811634349,
+    "xPu": 0.01131578947368421,
+    "bPu": 0.33211999999999997,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Duernrohr - Etzersdorf 434B:21",
+    "from": 4,
+    "to": 6,
+    "rPu": 0.0002077562326869806,
+    "xPu": 0.0030470914127423824,
+    "bPu": 0.07371747072,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Duernrohr - Kronstorf 433:22",
+    "from": 4,
+    "to": 11,
+    "rPu": 0.001772853185595568,
+    "xPu": 0.025761772853185597,
+    "bPu": 0.6278458571999999,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Duernrohr - Wien Suedost 435A:23",
+    "from": 4,
+    "to": 54,
+    "rPu": 0.001904432132963989,
+    "xPu": 0.026745152354570634,
+    "bPu": 0.6936245336,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ernsthofen - Klaus 201B:24",
+    "from": 63,
+    "to": 68,
+    "rPu": 0.007169421487603306,
+    "xPu": 0.0371900826446281,
+    "bPu": 0.062121399999999986,
+    "ratingMva": 352.4723393402665,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ernsthofen - Weissenbach 202:25",
+    "from": 63,
+    "to": 126,
+    "rPu": 0.01378099173553719,
+    "xPu": 0.0712603305785124,
+    "bPu": 0.11619871999999999,
+    "ratingMva": 352.4723393402665,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Etzersdorf - Kronstorf 434A:26",
+    "from": 6,
+    "to": 11,
+    "rPu": 0.001565096952908587,
+    "xPu": 0.022728531855955678,
+    "bPu": 0.5539016495999999,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hausruck - Sattledt 204C:27",
+    "from": 65,
+    "to": 116,
+    "rPu": 0.0006095041322314049,
+    "xPu": 0.006880165289256199,
+    "bPu": 0.022868758,
+    "ratingMva": 819.2600319800789,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Ternitz 225A:28",
+    "from": 66,
+    "to": 123,
+    "rPu": 0.01659090909090909,
+    "xPu": 0.08161157024793389,
+    "bPu": 0.1295035896,
+    "ratingMva": 285.7883832488647,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hessenberg - Ternitz 226A:29",
+    "from": 66,
+    "to": 123,
+    "rPu": 0.01659090909090909,
+    "xPu": 0.08161157024793389,
+    "bPu": 0.1295035896,
+    "ratingMva": 285.7883832488647,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Jochenstein - Schaerding 237:30",
+    "from": 67,
+    "to": 117,
+    "rPu": 0.004297520661157025,
+    "xPu": 0.01983471074380165,
+    "bPu": 0.034683304479999996,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Jochenstein - Schaerding 238:31",
+    "from": 67,
+    "to": 117,
+    "rPu": 0.004297520661157025,
+    "xPu": 0.01983471074380165,
+    "bPu": 0.034683304479999996,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kainachtal - Obersielach 471:32",
+    "from": 8,
+    "to": 17,
+    "rPu": 0.0010803324099722992,
+    "xPu": 0.015844875346260386,
+    "bPu": 0.38596199480000004,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kainachtal - Obersielach 472:33",
+    "from": 8,
+    "to": 17,
+    "rPu": 0.0010803324099722992,
+    "xPu": 0.015844875346260386,
+    "bPu": 0.38596199480000004,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kaprun - Tauern 457B:34",
+    "from": 9,
+    "to": 51,
+    "rPu": 3.185595567867036e-05,
+    "xPu": 0.0006073407202216067,
+    "bPu": 0.01779008,
+    "ratingMva": 2387.2163460398806,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kledering - Wien Suedost 228A:35",
+    "from": 69,
+    "to": 128,
+    "rPu": 0.00024793388429752067,
+    "xPu": 0.0013429752066115702,
+    "bPu": 0.0036386297199999997,
+    "ratingMva": 457.26141319818356,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kronstorf - St. Peter 431:36",
+    "from": 11,
+    "to": 48,
+    "rPu": 0.0016696675900277009,
+    "xPu": 0.024224376731301938,
+    "bPu": 0.5915542383999999,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kronstorf - St. Peter 432:37",
+    "from": 11,
+    "to": 48,
+    "rPu": 0.0016696675900277009,
+    "xPu": 0.024224376731301938,
+    "bPu": 0.5915542383999999,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Lienz - Matrei 452A:38",
+    "from": 13,
+    "to": 15,
+    "rPu": 0.0004272853185595568,
+    "xPu": 0.006302631578947369,
+    "bPu": 0.15002062559999998,
+    "ratingMva": 1587.5284881853302,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Lienz - Tauern 451:39",
+    "from": 13,
+    "to": 51,
+    "rPu": 0.0012790858725761772,
+    "xPu": 0.01853185595567867,
+    "bPu": 0.4496083164,
+    "ratingMva": 1434.830888990058,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Matrei - Tauern 452B:40",
+    "from": 15,
+    "to": 51,
+    "rPu": 0.0008407202216066482,
+    "xPu": 0.012389196675900277,
+    "bPu": 0.295414242,
+    "ratingMva": 1434.830888990058,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mayrhofen - Zell am Ziller 219:41",
+    "from": 71,
+    "to": 132,
+    "rPu": 0.0005165289256198347,
+    "xPu": 0.005785123966942148,
+    "bPu": 0.017896645359999998,
+    "ratingMva": 762.102355330306,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mayrhofen - Zell am Ziller 220:42",
+    "from": 71,
+    "to": 132,
+    "rPu": 0.0005165289256198347,
+    "xPu": 0.005785123966942148,
+    "bPu": 0.017896645359999998,
+    "ratingMva": 762.102355330306,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Neusiedl - Wien Suedost 246A:43",
+    "from": 72,
+    "to": 128,
+    "rPu": 0.00762396694214876,
+    "xPu": 0.039049586776859505,
+    "bPu": 0.06112532799999999,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Oststeiermark - Dreibein Mellach 475SR:44",
+    "from": 40,
+    "to": 3,
+    "rPu": 0.00036703601108033245,
+    "xPu": 0.006260387811634348,
+    "bPu": 0.2262332128,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Oststeiermark - Wien Suedost 477:45",
+    "from": 40,
+    "to": 54,
+    "rPu": 0.0017382271468144043,
+    "xPu": 0.029411357340720222,
+    "bPu": 1.0615314744,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Phyrn - Weissenbach 201A:46",
+    "from": 109,
+    "to": 126,
+    "rPu": 0.0028822314049586776,
+    "xPu": 0.014758264462809917,
+    "bPu": 0.023585319999999996,
+    "ratingMva": 352.4723393402665,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pongau - Kaprun 456C:47",
+    "from": 41,
+    "to": 9,
+    "rPu": 0.0004293628808864266,
+    "xPu": 0.008386426592797784,
+    "bPu": 0.2561738308,
+    "ratingMva": 2480.019628309421,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Salzburg - Pongau 456B:48",
+    "from": 44,
+    "to": 41,
+    "rPu": 0.0006966759002770083,
+    "xPu": 0.013767313019390581,
+    "bPu": 0.4241134856,
+    "ratingMva": 2377.343656436738,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Salzburg 2 - Salzach 2 232B:49",
+    "from": 115,
+    "to": 114,
+    "rPu": 0.0012603305785123967,
+    "xPu": 0.00609504132231405,
+    "bPu": 0.00990748,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Salzburg 2 - Salzach 2 232C:50",
+    "from": 115,
+    "to": 114,
+    "rPu": 0.0012603305785123967,
+    "xPu": 0.006177685950413223,
+    "bPu": 0.01005268,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sarasdorf - Wien Suedost 443D:51",
+    "from": 45,
+    "to": 54,
+    "rPu": 0.0003878116343490305,
+    "xPu": 0.005574792243767314,
+    "bPu": 0.14321592,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sarasdorf - Zaya 443C:52",
+    "from": 45,
+    "to": 55,
+    "rPu": 0.001067174515235457,
+    "xPu": 0.017465373961218836,
+    "bPu": 0.49384799999999995,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sarasdorf - Zurndorf 439A:53",
+    "from": 45,
+    "to": 57,
+    "rPu": 0.0004362880886426593,
+    "xPu": 0.006078947368421053,
+    "bPu": 0.15596340760000002,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sarasdorf - Zurndorf 440A:54",
+    "from": 45,
+    "to": 57,
+    "rPu": 0.0004362880886426593,
+    "xPu": 0.006078947368421053,
+    "bPu": 0.15596340760000002,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Schwarzenbach - Tauern 417B:55",
+    "from": 46,
+    "to": 51,
+    "rPu": 9.833795013850415e-05,
+    "xPu": 0.0025914127423822715,
+    "bPu": 0.06868199724,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Schwarzenbach - Zell am Ziller 417A:56",
+    "from": 46,
+    "to": 56,
+    "rPu": 0.00045083102493074796,
+    "xPu": 0.011724376731301939,
+    "bPu": 0.31687164879999996,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter - Salzburg 456A:57",
+    "from": 43,
+    "to": 44,
+    "rPu": 0.0004425207756232687,
+    "xPu": 0.008081717451523546,
+    "bPu": 0.2918303784,
+    "ratingMva": 2393.139959801766,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter - Schaerding 235:58",
+    "from": 121,
+    "to": 117,
+    "rPu": 0.006446280991735537,
+    "xPu": 0.02975206611570248,
+    "bPu": 0.051819653599999994,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter - Schaerding 236:59",
+    "from": 121,
+    "to": 117,
+    "rPu": 0.006446280991735537,
+    "xPu": 0.02975206611570248,
+    "bPu": 0.051819653599999994,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter - Wagenham 455A:60",
+    "from": 43,
+    "to": 52,
+    "rPu": 0.00019459833795013853,
+    "xPu": 0.003554016620498615,
+    "bPu": 0.12829108256,
+    "ratingMva": 2393.139959801766,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter 2 - SW Weibern 203A:61",
+    "from": 121,
+    "to": 122,
+    "rPu": 0.0025309917355371904,
+    "xPu": 0.028574380165289258,
+    "bPu": 0.09497048,
+    "ratingMva": 819.2600319800789,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St. Peter 2 - SW Weibern 204A:62",
+    "from": 121,
+    "to": 122,
+    "rPu": 0.0025309917355371904,
+    "xPu": 0.028574380165289258,
+    "bPu": 0.09497048,
+    "ratingMva": 819.2600319800789,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Suedburgenland - Dreibein Mellach 476SU:63",
+    "from": 49,
+    "to": 3,
+    "rPu": 0.0009785318559556787,
+    "xPu": 0.016433518005540167,
+    "bPu": 0.5938224736,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Suedburgenland - Wien Suedost 478:64",
+    "from": 49,
+    "to": 54,
+    "rPu": 0.0011308864265927978,
+    "xPu": 0.01922437673130194,
+    "bPu": 0.6936245336,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SW Weibern - Hausruck 204B:65",
+    "from": 122,
+    "to": 65,
+    "rPu": 0.000890495867768595,
+    "xPu": 0.010055785123966942,
+    "bPu": 0.0334202,
+    "ratingMva": 819.2600319800789,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SW Weibern- Hausruck 203B:66",
+    "from": 122,
+    "to": 65,
+    "rPu": 0.000890495867768595,
+    "xPu": 0.010055785123966942,
+    "bPu": 0.0334202,
+    "ratingMva": 819.2600319800789,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tauern - Zell am Ziller 418:67",
+    "from": 51,
+    "to": 56,
+    "rPu": 0.0005470914127423822,
+    "xPu": 0.014314404432132966,
+    "bPu": 0.38555363159999995,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ternitz - Wien Suedost 225B:68",
+    "from": 123,
+    "to": 128,
+    "rPu": 0.010485537190082645,
+    "xPu": 0.05080578512396694,
+    "bPu": 0.08037546,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ternitz - Wien Suedost 226B:69",
+    "from": 123,
+    "to": 128,
+    "rPu": 0.010485537190082645,
+    "xPu": 0.05080578512396694,
+    "bPu": 0.08037546,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Wagenham - Tauern 455B:70",
+    "from": 52,
+    "to": 51,
+    "rPu": 0.0013767313019390581,
+    "xPu": 0.026537396121883657,
+    "bPu": 0.8442350332,
+    "ratingMva": 2288.4894500084547,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Nauders 427:71",
+    "from": 53,
+    "to": 16,
+    "rPu": 0.0008379501385041552,
+    "xPu": 0.012229916897506925,
+    "bPu": 0.302990188,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Nauders 428:72",
+    "from": 53,
+    "to": 16,
+    "rPu": 0.0008379501385041552,
+    "xPu": 0.012229916897506925,
+    "bPu": 0.302990188,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Duernrohr - Slavetice 437:73",
+    "from": 4,
+    "to": 47,
+    "rPu": 0.0007157202216066483,
+    "xPu": 0.009878808864265929,
+    "bPu": 0.2705770088,
+    "ratingMva": 1480.90344047139,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Duernrohr - Slavetice 438:74",
+    "from": 4,
+    "to": 47,
+    "rPu": 0.0007157202216066483,
+    "xPu": 0.009878808864265929,
+    "bPu": 0.2705770088,
+    "ratingMva": 1480.90344047139,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St.Peter - Pirach 256:75",
+    "from": 121,
+    "to": 110,
+    "rPu": 0.0002768595041322314,
+    "xPu": 0.0014421487603305783,
+    "bPu": 0.004532176000000001,
+    "ratingMva": 514.4190898479565,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St.Peter - Pleinting 258:76",
+    "from": 121,
+    "to": 111,
+    "rPu": 0.0002768595041322314,
+    "xPu": 0.0014421487603305783,
+    "bPu": 0.004532176000000001,
+    "ratingMva": 514.4190898479565,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St.Peter - Altheim 233/230:77",
+    "from": 121,
+    "to": 58,
+    "rPu": 0.0003037190082644628,
+    "xPu": 0.0015640495867768596,
+    "bPu": 0.002674584,
+    "ratingMva": 502.9875545180019,
+    "circuits": 1
+  },
+  {
+    "name": "jao:St.Peter - Simbach 234/230:78",
+    "from": 121,
+    "to": 119,
+    "rPu": 0.0003037190082644628,
+    "xPu": 0.0015640495867768596,
+    "bPu": 0.002674584,
+    "ratingMva": 502.9875545180019,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Obersielach - Podlog 247:79",
+    "from": 73,
+    "to": 112,
+    "rPu": 0.0041115702479338845,
+    "xPu": 0.027768595041322314,
+    "bPu": 0.04503052268,
+    "ratingMva": 350.56708345194073,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zaya - Sokolnice 243:80",
+    "from": 131,
+    "to": 120,
+    "rPu": 0.005256198347107438,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.0399139312,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zaya - Sokolnice 244:81",
+    "from": 131,
+    "to": 120,
+    "rPu": 0.005256198347107438,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.0399139312,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kainachtal - Maribor 473:82",
+    "from": 8,
+    "to": 14,
+    "rPu": 0.0005020775623268698,
+    "xPu": 0.006267313019390582,
+    "bPu": 0.1530601012,
+    "ratingMva": 1263.7042692022528,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kainachtal - Maribor 474:83",
+    "from": 8,
+    "to": 14,
+    "rPu": 0.0005020775623268698,
+    "xPu": 0.006267313019390582,
+    "bPu": 0.1530601012,
+    "ratingMva": 1263.7042692022528,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Lienz - Auronzo 261:84",
+    "from": 70,
+    "to": 59,
+    "rPu": 0.00884090909090909,
+    "xPu": 0.04510330578512396,
+    "bPu": 0.119002048,
+    "ratingMva": 268.2600290762677,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nauders - Pradella 429:85",
+    "from": 16,
+    "to": 42,
+    "rPu": 0.0003012465373961219,
+    "xPu": 0.0036024930747922436,
+    "bPu": 0.020912007999999996,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nauders - Pradella 430:86",
+    "from": 16,
+    "to": 42,
+    "rPu": 0.0003012465373961219,
+    "xPu": 0.0036024930747922436,
+    "bPu": 0.020912007999999996,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Neusiedl - Gyoer 246B:87",
+    "from": 72,
+    "to": 64,
+    "rPu": 0.006869834710743802,
+    "xPu": 0.03534090909090909,
+    "bPu": 0.05505078919999999,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Buers 422:88",
+    "from": 53,
+    "to": 2,
+    "rPu": 0.000685595567867036,
+    "xPu": 0.009868421052631578,
+    "bPu": 0.24360785399999998,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Leupolz 412:89",
+    "from": 53,
+    "to": 12,
+    "rPu": 0.0009210526315789475,
+    "xPu": 0.007375346260387812,
+    "bPu": 0.2569904128,
+    "ratingMva": 1574.3649020478067,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Voehringen 411:90",
+    "from": 127,
+    "to": 124,
+    "rPu": 0.004653925619834711,
+    "xPu": 0.041276859504132235,
+    "bPu": 0.5233249999999999,
+    "ratingMva": 683.9868639089495,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Wien Suedost - Gyoer 245:91",
+    "from": 128,
+    "to": 64,
+    "rPu": 0.01031404958677686,
+    "xPu": 0.05302685950413223,
+    "bPu": 0.08264082199999999,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zurndorf - Gyoer 439B:92",
+    "from": 57,
+    "to": 7,
+    "rPu": 0.0005159279778393352,
+    "xPu": 0.007171052631578948,
+    "bPu": 0.185200942,
+    "ratingMva": 1316.3586137523466,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Zurndorf - Szombathely 440B:93",
+    "from": 57,
+    "to": 50,
+    "rPu": 0.0012915512465373961,
+    "xPu": 0.014439058171745154,
+    "bPu": 0.36337032599999997,
+    "ratingMva": 1316.3586137523466,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Zaya - V243:94",
+    "from": 131,
+    "to": 120,
+    "rPu": 0.005268595041322314,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.083006,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sokolnice - Zaya - V244:95",
+    "from": 131,
+    "to": 120,
+    "rPu": 0.005268595041322314,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.083006,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Buers - Westtirol ws (421):96",
+    "from": 127,
+    "to": 61,
+    "rPu": 0.002066115702479339,
+    "xPu": 0.029690082644628097,
+    "bPu": 0.08233808000000001,
+    "ratingMva": 820.7842366907395,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Silz 274E:97",
+    "from": 127,
+    "to": 118,
+    "rPu": 0.0002066115702479339,
+    "xPu": 0.002603305785123967,
+    "bPu": 0.00715866008,
+    "ratingMva": 792.5864495435183,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Silz 413:98",
+    "from": 127,
+    "to": 118,
+    "rPu": 0.00017561983471074382,
+    "xPu": 0.002355371900826446,
+    "bPu": 0.00751294324,
+    "ratingMva": 792.5864495435183,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Westtirol - Silz 414:99",
+    "from": 127,
+    "to": 118,
+    "rPu": 0.00017561983471074382,
+    "xPu": 0.002355371900826446,
+    "bPu": 0.007506859359999999,
+    "ratingMva": 792.5864495435183,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y-St. Peter (-Simbach - Altheim) 233/230:100",
+    "from": 121,
+    "to": 129,
+    "rPu": 0.0007068181818181818,
+    "xPu": 0.004986363636363637,
+    "bPu": 0.008764339759999998,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y-St. Peter (-Simbach - Altheim) 234/230:101",
+    "from": 121,
+    "to": 129,
+    "rPu": 0.0007068181818181818,
+    "xPu": 0.004979545454545454,
+    "bPu": 0.00877802728,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk st. peter - salzburg 380 (OSM merged_way/105362719-380+1 c1)",
+    "from": 25,
+    "to": 44,
+    "rPu": 0.0006830070811786875,
+    "xPu": 0.009687876508344032,
+    "bPu": 0.24980598112247454,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk st. peter - salzburg 380 (OSM merged_way/105362719-380+1 c2)",
+    "from": 25,
+    "to": 44,
+    "rPu": 0.0006830070811786875,
+    "xPu": 0.009687876508344032,
+    "bPu": 0.24980598112247454,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kledering - osm umspannwerk simmering - -anlage 380 (OSM merged_way/1072318428-380+2)",
+    "from": 10,
+    "to": 24,
+    "rPu": 6.118740866844123e-05,
+    "xPu": 0.0008678915275994868,
+    "bPu": 0.022378949026976378,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kaprun - osm virtual_way/1341556718:a:1 380 (OSM merged_way/108041985-380+2 c1)",
+    "from": 9,
+    "to": 29,
+    "rPu": 0.0001065603174525076,
+    "xPu": 0.001511467779204108,
+    "bPu": 0.03897383406919887,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kaprun - osm virtual_way/1341556718:a:1 380 (OSM merged_way/108041985-380+2 c2)",
+    "from": 9,
+    "to": 29,
+    "rPu": 0.0001065603174525076,
+    "xPu": 0.001511467779204108,
+    "bPu": 0.03897383406919887,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1111028010:0 - osm schaltanlage kopswerk i 220 (OSM merged_way/1111028010-220+1 c1)",
+    "from": 99,
+    "to": 79,
+    "rPu": 0.0007246189142610944,
+    "xPu": 0.0037469424816889275,
+    "bPu": 0.006109849852663508,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1111028010:0 - osm schaltanlage kopswerk i 220 (OSM merged_way/1111028010-220+1 c2)",
+    "from": 99,
+    "to": 79,
+    "rPu": 0.0007246189142610944,
+    "xPu": 0.0037469424816889275,
+    "bPu": 0.006109849852663508,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk thei - etzersdorf 380 (OSM merged_way/118924344-380+2 c1)",
+    "from": 27,
+    "to": 6,
+    "rPu": 0.0002491195878824855,
+    "xPu": 0.0035335501925545577,
+    "bPu": 0.09111408180485593,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk thei - etzersdorf 380 (OSM merged_way/118924344-380+2 c2)",
+    "from": 27,
+    "to": 6,
+    "rPu": 0.0002491195878824855,
+    "xPu": 0.0035335501925545577,
+    "bPu": 0.09111408180485593,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk pottenbrunn - etzersdorf 380 (OSM merged_way/119427097-380+1 c1)",
+    "from": 23,
+    "to": 6,
+    "rPu": 9.364204646654498e-05,
+    "xPu": 0.001328233055198973,
+    "bPu": 0.03424904944107269,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk pottenbrunn - etzersdorf 380 (OSM merged_way/119427097-380+1 c2)",
+    "from": 23,
+    "to": 6,
+    "rPu": 9.364204646654498e-05,
+    "xPu": 0.001328233055198973,
+    "bPu": 0.03424904944107269,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:obersielach - osm virtual_way/82745755:0 220 (OSM merged_way/130229448-220+1 c1)",
+    "from": 73,
+    "to": 104,
+    "rPu": 0.010277621979162587,
+    "xPu": 0.05314470495671929,
+    "bPu": 0.08665896776811374,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:obersielach - osm virtual_way/82745755:0 220 (OSM merged_way/130229448-220+1 c2)",
+    "from": 73,
+    "to": 104,
+    "rPu": 0.010277621979162587,
+    "xPu": 0.05314470495671929,
+    "bPu": 0.08665896776811374,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - bisamberg 400 (OSM merged_way/23049236-400+2 c1)",
+    "from": 18,
+    "to": 1,
+    "rPu": 0.00013249750692520773,
+    "xPu": 0.0018793648267008986,
+    "bPu": 0.04846021458022651,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - bisamberg 400 (OSM merged_way/23049236-400+2 c2)",
+    "from": 18,
+    "to": 1,
+    "rPu": 0.00013249750692520773,
+    "xPu": 0.0018793648267008986,
+    "bPu": 0.04846021458022651,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk vill - osm virtual_way/26971631:0 220 (OSM merged_way/25359793:b-220+1 c1)",
+    "from": 93,
+    "to": 100,
+    "rPu": 0.003960092069444988,
+    "xPu": 0.02047729767243743,
+    "bPu": 0.03339074853118484,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk vill - osm virtual_way/26971631:0 220 (OSM merged_way/25359793:b-220+1 c2)",
+    "from": 93,
+    "to": 100,
+    "rPu": 0.003960092069444988,
+    "xPu": 0.02047729767243743,
+    "bPu": 0.03339074853118484,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ybbsfeld - osm virtual_way/42412115:1 220 (OSM merged_way/42412115-220+1 c1)",
+    "from": 130,
+    "to": 101,
+    "rPu": 0.0042108032514394265,
+    "xPu": 0.021773703769437158,
+    "bPu": 0.0355046978750711,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ybbsfeld - osm virtual_way/42412115:1 220 (OSM merged_way/42412115-220+1 c2)",
+    "from": 130,
+    "to": 101,
+    "rPu": 0.0042108032514394265,
+    "xPu": 0.021773703769437158,
+    "bPu": 0.0355046978750711,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - osm virtual_way/529275594:1 400 (OSM merged_way/529275594-400+2 c1)",
+    "from": 18,
+    "to": 33,
+    "rPu": 7.597885806645247e-05,
+    "xPu": 0.001077695699614891,
+    "bPu": 0.027788838076321324,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kabeluberfuhrungsstation -1gw-nordeinspeisung - osm virtual_way/529275594:1 400 (OSM merged_way/529275594-400+2 c2)",
+    "from": 18,
+    "to": 33,
+    "rPu": 7.597885806645247e-05,
+    "xPu": 0.001077695699614891,
+    "bPu": 0.027788838076321324,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wien suedost - kledering 380 (OSM merged_way/554275861-380+2 c1)",
+    "from": 54,
+    "to": 10,
+    "rPu": 5.189886884173133e-05,
+    "xPu": 0.0007361414634146343,
+    "bPu": 0.018981718063276597,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wien suedost - kledering 380 (OSM merged_way/554275861-380+2 c2)",
+    "from": 54,
+    "to": 10,
+    "rPu": 5.189886884173133e-05,
+    "xPu": 0.0007361414634146343,
+    "bPu": 0.018981718063276597,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm malta hauptstufe - osm virtual_way/592380589:1 220 (OSM merged_way/592380611-220+5)",
+    "from": 78,
+    "to": 103,
+    "rPu": 0.0005492753882534958,
+    "xPu": 0.0028402560930829183,
+    "bPu": 0.004631386352113744,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/95863557:a:0 - schaerding 220 (OSM merged_way/95863557:b-220+1 c1)",
+    "from": 106,
+    "to": 117,
+    "rPu": 0.0059112812952880804,
+    "xPu": 0.030566730415964905,
+    "bPu": 0.04984280763344076,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/95863557:a:0 - schaerding 220 (OSM merged_way/95863557:b-220+1 c2)",
+    "from": 106,
+    "to": 117,
+    "rPu": 0.0059112812952880804,
+    "xPu": 0.030566730415964905,
+    "bPu": 0.04984280763344076,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:obersielach - osm kraftwerk edling 220 (OSM relation/1646193:b-220)",
+    "from": 73,
+    "to": 75,
+    "rPu": 0.0008339753290117894,
+    "xPu": 0.004312415157063962,
+    "bPu": 0.007031922491677725,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk werben - dornbirn - osm umspannwerk walgauwerk 220 (OSM relation/1750800:c-220)",
+    "from": 95,
+    "to": 94,
+    "rPu": 0.005430719825897928,
+    "xPu": 0.02808178812522032,
+    "bPu": 0.045790804069687205,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk walgauwerk - osm way/291703253 220 (OSM relation/1750800:d-220)",
+    "from": 94,
+    "to": 108,
+    "rPu": 0.00224719480484509,
+    "xPu": 0.011620052296717715,
+    "bPu": 0.018947922248606634,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/291703253 - osm umspannwerk lunerseewerk 220 (OSM relation/3948316-220 c1)",
+    "from": 108,
+    "to": 85,
+    "rPu": 0.0017203216922564723,
+    "xPu": 0.00889563645666053,
+    "bPu": 0.014505427654597156,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/291703253 - osm umspannwerk lunerseewerk 220 (OSM relation/3948316-220 c2)",
+    "from": 108,
+    "to": 85,
+    "rPu": 0.0017203216922564723,
+    "xPu": 0.00889563645666053,
+    "bPu": 0.014505427654597156,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/291703253 - westtirol 220 (OSM relation/3948318-220)",
+    "from": 108,
+    "to": 127,
+    "rPu": 0.01498560553102111,
+    "xPu": 0.07748928557195174,
+    "bPu": 0.12635579605198102,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/291703253 - westtirol 380 (OSM relation/3948319-380)",
+    "from": 39,
+    "to": 53,
+    "rPu": 0.0013703829209370066,
+    "xPu": 0.01943772015404365,
+    "bPu": 0.5012098110130595,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk meiningen - osm way/291703253 220 (OSM relation/3948322-220)",
+    "from": 86,
+    "to": 108,
+    "rPu": 0.004725503698934628,
+    "xPu": 0.02443517579853903,
+    "bPu": 0.03984455485562085,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/291703253 - osm umspannwerk walgauwerk 220 (OSM relation/3948323:a-220)",
+    "from": 108,
+    "to": 94,
+    "rPu": 0.002359408652716306,
+    "xPu": 0.012200300514570522,
+    "bPu": 0.019894088224113746,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk meiningen - osm umspannwerk werben - dornbirn 220 (OSM relation/3948324-220)",
+    "from": 86,
+    "to": 95,
+    "rPu": 0.0028884419847440366,
+    "xPu": 0.014935886664740905,
+    "bPu": 0.024354797380511852,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk walgauwerk - osm umspannwerk werben - dornbirn 220 (OSM relation/3948326:b-220)",
+    "from": 94,
+    "to": 95,
+    "rPu": 0.005647785141102972,
+    "xPu": 0.029204214320336062,
+    "bPu": 0.04762105781827487,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk rosshag - mayrhofen 220 (OSM relation/7343920-220)",
+    "from": 90,
+    "to": 71,
+    "rPu": 0.0018366306499941246,
+    "xPu": 0.009497060137675766,
+    "bPu": 0.015486122823203791,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk rosshag - mayrhofen 220 (OSM relation/7343921-220)",
+    "from": 90,
+    "to": 71,
+    "rPu": 0.0018364069538012611,
+    "xPu": 0.009495903423778936,
+    "bPu": 0.015484236659146918,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mayrhofen - osm virtual_relation/7343922:1 220 (OSM relation/7343922-220)",
+    "from": 71,
+    "to": 98,
+    "rPu": 0.0015650308154792213,
+    "xPu": 0.008092640603579962,
+    "bPu": 0.013196044305744076,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk prutz - westtirol 220 (OSM way/100602289-220 c1)",
+    "from": 87,
+    "to": 127,
+    "rPu": 0.00448378281794681,
+    "xPu": 0.023185257779757943,
+    "bPu": 0.03780641003215166,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk prutz - westtirol 220 (OSM way/100602289-220 c2)",
+    "from": 87,
+    "to": 127,
+    "rPu": 0.00448378281794681,
+    "xPu": 0.023185257779757943,
+    "bPu": 0.03780641003215166,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm schaltanlage kopswerk i - osm umspannwerk rodundwerk ii 220 (OSM way/101994798-220 c1)",
+    "from": 79,
+    "to": 89,
+    "rPu": 0.0033823174596568873,
+    "xPu": 0.017489674540264778,
+    "bPu": 0.028519062124701424,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm schaltanlage kopswerk i - osm umspannwerk rodundwerk ii 220 (OSM way/101994798-220 c2)",
+    "from": 79,
+    "to": 89,
+    "rPu": 0.0033823174596568873,
+    "xPu": 0.017489674540264778,
+    "bPu": 0.028519062124701424,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kainachtal - osm umspannwerk mellach 380 (OSM way/103401934-380)",
+    "from": 8,
+    "to": 22,
+    "rPu": 8.856427552240422e-05,
+    "xPu": 0.0012562091784338897,
+    "bPu": 0.03239188340638495,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk mellach - osm virtual_way/103401937:1 380 (OSM way/103401937-380 c1)",
+    "from": 22,
+    "to": 28,
+    "rPu": 0.000431768967934935,
+    "xPu": 0.0061242768292682935,
+    "bPu": 0.1579170606358719,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk mellach - osm virtual_way/103401937:1 380 (OSM way/103401937-380 c2)",
+    "from": 22,
+    "to": 28,
+    "rPu": 0.000431768967934935,
+    "xPu": 0.0061242768292682935,
+    "bPu": 0.1579170606358719,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/103401937:1 - oststeiermark 380 (OSM way/103404265-380)",
+    "from": 28,
+    "to": 40,
+    "rPu": 0.00010049443892286574,
+    "xPu": 0.0014254284338896023,
+    "bPu": 0.03675527326767401,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c1)",
+    "from": 1,
+    "to": 20,
+    "rPu": 0.000766093534340666,
+    "xPu": 0.010866387419768935,
+    "bPu": 0.28019438194885565,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c2)",
+    "from": 1,
+    "to": 20,
+    "rPu": 0.000766093534340666,
+    "xPu": 0.010866387419768935,
+    "bPu": 0.28019438194885565,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c3)",
+    "from": 1,
+    "to": 20,
+    "rPu": 0.000766093534340666,
+    "xPu": 0.010866387419768935,
+    "bPu": 0.28019438194885565,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk durnrohr 380 (OSM way/106779102-380 c4)",
+    "from": 1,
+    "to": 20,
+    "rPu": 0.000766093534340666,
+    "xPu": 0.010866387419768935,
+    "bPu": 0.28019438194885565,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ernsthofen - osm virtual_way/42412115:1 220 (OSM way/107358544-220 c1)",
+    "from": 63,
+    "to": 101,
+    "rPu": 0.002998178846304492,
+    "xPu": 0.015503326598057265,
+    "bPu": 0.025280077875184836,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ernsthofen - osm virtual_way/42412115:1 220 (OSM way/107358544-220 c2)",
+    "from": 63,
+    "to": 101,
+    "rPu": 0.002998178846304492,
+    "xPu": 0.015503326598057265,
+    "bPu": 0.025280077875184836,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sw weibern - osm virtual_way/95863557:a:0 220 (OSM way/118106734-220 c1)",
+    "from": 122,
+    "to": 106,
+    "rPu": 0.007953304237985195,
+    "xPu": 0.04112585654694293,
+    "bPu": 0.06706075948375356,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sw weibern - osm virtual_way/95863557:a:0 220 (OSM way/118106734-220 c2)",
+    "from": 122,
+    "to": 106,
+    "rPu": 0.007953304237985195,
+    "xPu": 0.04112585654694293,
+    "bPu": 0.06706075948375356,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:klaus - osm umspannwerk pyhrn 220 (OSM way/118107148:b-220 c1)",
+    "from": 68,
+    "to": 88,
+    "rPu": 0.0036950675967451336,
+    "xPu": 0.019106878772374766,
+    "bPu": 0.03115611222290048,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:klaus - osm umspannwerk pyhrn 220 (OSM way/118107148:b-220 c2)",
+    "from": 68,
+    "to": 88,
+    "rPu": 0.0036950675967451336,
+    "xPu": 0.019106878772374766,
+    "bPu": 0.03115611222290048,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk pyhrn - weissenbach 220 (OSM way/118756369-220 c1)",
+    "from": 88,
+    "to": 126,
+    "rPu": 0.002818568764443226,
+    "xPu": 0.01457457821374016,
+    "bPu": 0.023765639581345976,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk pyhrn - weissenbach 220 (OSM way/118756369-220 c2)",
+    "from": 88,
+    "to": 126,
+    "rPu": 0.002818568764443226,
+    "xPu": 0.01457457821374016,
+    "bPu": 0.023765639581345976,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:etzersdorf - osm umspannwerk durnrohr 380 (OSM way/118759917-380 c1)",
+    "from": 6,
+    "to": 20,
+    "rPu": 0.00021002564959186787,
+    "xPu": 0.0029790358151476253,
+    "bPu": 0.07681569474600454,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:etzersdorf - osm umspannwerk durnrohr 380 (OSM way/118759917-380 c2)",
+    "from": 6,
+    "to": 20,
+    "rPu": 0.00021002564959186787,
+    "xPu": 0.0029790358151476253,
+    "bPu": 0.07681569474600454,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c1)",
+    "from": 107,
+    "to": 62,
+    "rPu": 0.0006581403245074615,
+    "xPu": 0.0034031873751517758,
+    "bPu": 0.005549314937251183,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c2)",
+    "from": 107,
+    "to": 62,
+    "rPu": 0.0006581403245074615,
+    "xPu": 0.0034031873751517758,
+    "bPu": 0.005549314937251183,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm way/118091356 - duernrohr 220 (OSM way/118909065-220 c3)",
+    "from": 107,
+    "to": 62,
+    "rPu": 0.0006581403245074615,
+    "xPu": 0.0034031873751517758,
+    "bPu": 0.005549314937251183,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kendlerstra e - osm umspannwerk simmering - -anlage 380 (OSM way/1288252689-380 c1)",
+    "from": 21,
+    "to": 24,
+    "rPu": 0.00016798739858199302,
+    "xPu": 0.0023827588575096284,
+    "bPu": 0.06144044194471288,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kendlerstra e - osm umspannwerk simmering - -anlage 380 (OSM way/1288252689-380 c2)",
+    "from": 21,
+    "to": 24,
+    "rPu": 0.00016798739858199302,
+    "xPu": 0.0023827588575096284,
+    "bPu": 0.06144044194471288,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28457294:1 - osm virtual_way/28458149:0 380 (OSM way/129736841-380 c1)",
+    "from": 31,
+    "to": 32,
+    "rPu": 8.312035076238789e-05,
+    "xPu": 0.001178991720154044,
+    "bPu": 0.03040079868221789,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28457294:1 - osm virtual_way/28458149:0 380 (OSM way/129736841-380 c2)",
+    "from": 31,
+    "to": 32,
+    "rPu": 8.312035076238789e-05,
+    "xPu": 0.001178991720154044,
+    "bPu": 0.03040079868221789,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c1)",
+    "from": 32,
+    "to": 45,
+    "rPu": 7.861107393612573e-05,
+    "xPu": 0.001115031450577664,
+    "bPu": 0.02875155615929512,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c2)",
+    "from": 32,
+    "to": 45,
+    "rPu": 7.861107393612573e-05,
+    "xPu": 0.001115031450577664,
+    "bPu": 0.02875155615929512,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c3)",
+    "from": 32,
+    "to": 45,
+    "rPu": 7.861107393612573e-05,
+    "xPu": 0.001115031450577664,
+    "bPu": 0.02875155615929512,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - sarasdorf 380 (OSM way/129736842-380 c4)",
+    "from": 32,
+    "to": 45,
+    "rPu": 7.861107393612573e-05,
+    "xPu": 0.001115031450577664,
+    "bPu": 0.02875155615929512,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kraftwerk rosegg - osm virtual_way/84998489:0 220 (OSM way/129775568-220 c1)",
+    "from": 76,
+    "to": 105,
+    "rPu": 0.0020666360551878107,
+    "xPu": 0.01068639843229799,
+    "bPu": 0.017425484967052134,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm kraftwerk rosegg - osm virtual_way/84998489:0 220 (OSM way/129775568-220 c2)",
+    "from": 76,
+    "to": 105,
+    "rPu": 0.0020666360551878107,
+    "xPu": 0.01068639843229799,
+    "bPu": 0.017425484967052134,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/84998489:0 - obersielach 220 (OSM way/129775569-220 c1)",
+    "from": 105,
+    "to": 73,
+    "rPu": 0.0075599434633386855,
+    "xPu": 0.039091821596784294,
+    "bPu": 0.06374401571165876,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/84998489:0 - obersielach 220 (OSM way/129775569-220 c2)",
+    "from": 105,
+    "to": 73,
+    "rPu": 0.0075599434633386855,
+    "xPu": 0.039091821596784294,
+    "bPu": 0.06374401571165876,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk sud - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/134565165-380 c1)",
+    "from": 26,
+    "to": 19,
+    "rPu": 5.411042594332893e-05,
+    "xPu": 0.0007675105263157896,
+    "bPu": 0.019790582578443214,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk sud - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/134565165-380 c2)",
+    "from": 26,
+    "to": 19,
+    "rPu": 5.411042594332893e-05,
+    "xPu": 0.0007675105263157896,
+    "bPu": 0.019790582578443214,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kendlerstra e - osm umspannwerk sud 380 (OSM way/134565946-380 c1)",
+    "from": 21,
+    "to": 26,
+    "rPu": 7.004229813572915e-05,
+    "xPu": 0.0009934906290115534,
+    "bPu": 0.025617574821733293,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kendlerstra e - osm umspannwerk sud 380 (OSM way/134565946-380 c2)",
+    "from": 21,
+    "to": 26,
+    "rPu": 7.004229813572915e-05,
+    "xPu": 0.0009934906290115534,
+    "bPu": 0.025617574821733293,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lienz - osm umspannwerk greuth 220 (OSM way/161719235-220 c1)",
+    "from": 70,
+    "to": 83,
+    "rPu": 0.013315341168579372,
+    "xPu": 0.06885249129000039,
+    "bPu": 0.11227244234987675,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lienz - osm umspannwerk greuth 220 (OSM way/161719235-220 c2)",
+    "from": 70,
+    "to": 83,
+    "rPu": 0.013315341168579372,
+    "xPu": 0.06885249129000039,
+    "bPu": 0.11227244234987675,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lienz - osm malta hauptstufe 220 (OSM way/161719239-220 c1)",
+    "from": 70,
+    "to": 78,
+    "rPu": 0.007964402508225296,
+    "xPu": 0.04118324475392661,
+    "bPu": 0.06715433800269195,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lienz - osm malta hauptstufe 220 (OSM way/161719239-220 c2)",
+    "from": 70,
+    "to": 78,
+    "rPu": 0.007964402508225296,
+    "xPu": 0.04118324475392661,
+    "bPu": 0.06715433800269195,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm villach sud - osm kraftwerk rosegg 220 (OSM way/180468541-220 c1)",
+    "from": 97,
+    "to": 76,
+    "rPu": 0.0026698205931025027,
+    "xPu": 0.013805414131350124,
+    "bPu": 0.022511423089251185,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm villach sud - osm kraftwerk rosegg 220 (OSM way/180468541-220 c2)",
+    "from": 97,
+    "to": 76,
+    "rPu": 0.0026698205931025027,
+    "xPu": 0.013805414131350124,
+    "bPu": 0.022511423089251185,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zurndorf - osm virtual_way/199901909:1 380 (OSM way/199901909-380 c1)",
+    "from": 57,
+    "to": 30,
+    "rPu": 0.0001307146723380387,
+    "xPu": 0.0018540768292682928,
+    "bPu": 0.04780815290253752,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zurndorf - osm virtual_way/199901909:1 380 (OSM way/199901909-380 c2)",
+    "from": 57,
+    "to": 30,
+    "rPu": 0.0001307146723380387,
+    "xPu": 0.0018540768292682928,
+    "bPu": 0.04780815290253752,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk thaur - osm umspannwerk vill 220 (OSM way/25359793:a-220 c1)",
+    "from": 92,
+    "to": 93,
+    "rPu": 0.0014021277368689044,
+    "xPu": 0.007250282705338607,
+    "bPu": 0.011822476308473932,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk thaur - osm umspannwerk vill 220 (OSM way/25359793:a-220 c2)",
+    "from": 92,
+    "to": 93,
+    "rPu": 0.0014021277368689044,
+    "xPu": 0.007250282705338607,
+    "bPu": 0.011822476308473932,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:westtirol - zell am ziller 220 (OSM way/25359794-220 c1)",
+    "from": 127,
+    "to": 132,
+    "rPu": 0.01694597446486624,
+    "xPu": 0.08762618580108496,
+    "bPu": 0.142885256718673,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:westtirol - zell am ziller 220 (OSM way/25359794-220 c2)",
+    "from": 127,
+    "to": 132,
+    "rPu": 0.01694597446486624,
+    "xPu": 0.08762618580108496,
+    "bPu": 0.142885256718673,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk greifenstein 220 (OSM way/25528575-220 c1)",
+    "from": 60,
+    "to": 82,
+    "rPu": 0.0027887926785084794,
+    "xPu": 0.014420608617954642,
+    "bPu": 0.02351457324746919,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm umspannwerk greifenstein 220 (OSM way/25528575-220 c2)",
+    "from": 60,
+    "to": 82,
+    "rPu": 0.0027887926785084794,
+    "xPu": 0.014420608617954642,
+    "bPu": 0.02351457324746919,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wien suedost - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/25540878-380 c1)",
+    "from": 54,
+    "to": 19,
+    "rPu": 9.427355726888503e-05,
+    "xPu": 0.0013371905006418485,
+    "bPu": 0.03448002094915099,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wien suedost - osm kabeluberfuhrungsstation pfarrgasse 380 (OSM way/25540878-380 c2)",
+    "from": 54,
+    "to": 19,
+    "rPu": 9.427355726888503e-05,
+    "xPu": 0.0013371905006418485,
+    "bPu": 0.03448002094915099,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk rodundwerk ii - osm way/291703253 220 (OSM way/260474368-220 c1)",
+    "from": 89,
+    "to": 108,
+    "rPu": 0.0014824101778230386,
+    "xPu": 0.007665416346794093,
+    "bPu": 0.012499402690578199,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk rodundwerk ii - osm way/291703253 220 (OSM way/260474368-220 c2)",
+    "from": 89,
+    "to": 108,
+    "rPu": 0.0014824101778230386,
+    "xPu": 0.007665416346794093,
+    "bPu": 0.012499402690578199,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c1)",
+    "from": 36,
+    "to": 31,
+    "rPu": 0.0004282821442804918,
+    "xPu": 0.006074819191270861,
+    "bPu": 0.15664177458393808,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c2)",
+    "from": 36,
+    "to": 31,
+    "rPu": 0.0004282821442804918,
+    "xPu": 0.006074819191270861,
+    "bPu": 0.15664177458393808,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c3)",
+    "from": 36,
+    "to": 31,
+    "rPu": 0.0004282821442804918,
+    "xPu": 0.006074819191270861,
+    "bPu": 0.15664177458393808,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - osm virtual_way/28457294:1 380 (OSM way/28457294-380 c4)",
+    "from": 36,
+    "to": 31,
+    "rPu": 0.0004282821442804918,
+    "xPu": 0.006074819191270861,
+    "bPu": 0.15664177458393808,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - osm virtual_way/28457294:1 380 (OSM way/28458149-380 c1)",
+    "from": 32,
+    "to": 31,
+    "rPu": 8.322249154952447e-05,
+    "xPu": 0.0011804405006418488,
+    "bPu": 0.030438156098043272,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/28458149:0 - osm virtual_way/28457294:1 380 (OSM way/28458149-380 c2)",
+    "from": 32,
+    "to": 31,
+    "rPu": 8.322249154952447e-05,
+    "xPu": 0.0011804405006418488,
+    "bPu": 0.030438156098043272,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c1)",
+    "from": 130,
+    "to": 96,
+    "rPu": 0.0008207119408757981,
+    "xPu": 0.0042438313104657096,
+    "bPu": 0.0069200881074881525,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c2)",
+    "from": 130,
+    "to": 96,
+    "rPu": 0.0008207119408757981,
+    "xPu": 0.0042438313104657096,
+    "bPu": 0.0069200881074881525,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ybbsfeld - osm umspannwerk ybbs persenbeug 220 (OSM way/30076590-220 c3)",
+    "from": 130,
+    "to": 96,
+    "rPu": 0.0008207119408757981,
+    "xPu": 0.0042438313104657096,
+    "bPu": 0.0069200881074881525,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c1)",
+    "from": 91,
+    "to": 100,
+    "rPu": 0.001877385810387372,
+    "xPu": 0.009707801589244447,
+    "bPu": 0.015829762639696682,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c2)",
+    "from": 91,
+    "to": 100,
+    "rPu": 0.001877385810387372,
+    "xPu": 0.009707801589244447,
+    "bPu": 0.015829762639696682,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c3)",
+    "from": 91,
+    "to": 100,
+    "rPu": 0.001877385810387372,
+    "xPu": 0.009707801589244447,
+    "bPu": 0.015829762639696682,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm virtual_way/26971631:0 220 (OSM way/32987936-220 c4)",
+    "from": 91,
+    "to": 100,
+    "rPu": 0.001877385810387372,
+    "xPu": 0.009707801589244447,
+    "bPu": 0.015829762639696682,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sw weibern - osm umspannwerk aschach 220 (OSM way/33714868-220 c1)",
+    "from": 122,
+    "to": 81,
+    "rPu": 0.0058309694635932776,
+    "xPu": 0.030151444797501075,
+    "bPu": 0.04916563343416114,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sw weibern - osm umspannwerk aschach 220 (OSM way/33714868-220 c2)",
+    "from": 122,
+    "to": 81,
+    "rPu": 0.0058309694635932776,
+    "xPu": 0.030151444797501075,
+    "bPu": 0.04916563343416114,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk st. peter - ernsthofen 380 (OSM way/34538227-380 c1)",
+    "from": 25,
+    "to": 5,
+    "rPu": 0.0016877801904616643,
+    "xPu": 0.023939731386392816,
+    "bPu": 0.6172960691267707,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk st. peter - ernsthofen 380 (OSM way/34538227-380 c2)",
+    "from": 25,
+    "to": 5,
+    "rPu": 0.0016877801904616643,
+    "xPu": 0.023939731386392816,
+    "bPu": 0.6172960691267707,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ternitz - osm virtual_way/49432519:b:1 220 (OSM way/49432519:b-220 c1)",
+    "from": 123,
+    "to": 102,
+    "rPu": 0.007120462085308058,
+    "xPu": 0.0368193009478673,
+    "bPu": 0.060038391720947874,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ternitz - osm virtual_way/49432519:b:1 220 (OSM way/49432519:b-220 c2)",
+    "from": 123,
+    "to": 102,
+    "rPu": 0.007120462085308058,
+    "xPu": 0.0368193009478673,
+    "bPu": 0.060038391720947874,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sattledt - ernsthofen 220 (OSM way/81657994-220 c1)",
+    "from": 116,
+    "to": 63,
+    "rPu": 0.005516944094923818,
+    "xPu": 0.02852764645186244,
+    "bPu": 0.04651783082407583,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sattledt - ernsthofen 220 (OSM way/81657994-220 c2)",
+    "from": 116,
+    "to": 63,
+    "rPu": 0.005516944094923818,
+    "xPu": 0.02852764645186244,
+    "bPu": 0.04651783082407583,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - zaya 380 (OSM way/818730839-380 c1)",
+    "from": 36,
+    "to": 55,
+    "rPu": 0.0007029272225857718,
+    "xPu": 0.009970426829268294,
+    "bPu": 0.25709166029831493,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/951818305:1 - zaya 380 (OSM way/818730839-380 c2)",
+    "from": 36,
+    "to": 55,
+    "rPu": 0.0007029272225857718,
+    "xPu": 0.009970426829268294,
+    "bPu": 0.25709166029831493,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/82745755:0 - hessenberg 220 (OSM way/82745755-220 c1)",
+    "from": 104,
+    "to": 66,
+    "rPu": 0.005982877139555835,
+    "xPu": 0.030936946408287966,
+    "bPu": 0.050446490272606635,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/82745755:0 - hessenberg 220 (OSM way/82745755-220 c2)",
+    "from": 104,
+    "to": 66,
+    "rPu": 0.005982877139555835,
+    "xPu": 0.030936946408287966,
+    "bPu": 0.050446490272606635,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:oststeiermark - osm virtual_way/83742802:1 380 (OSM way/83742802-380)",
+    "from": 40,
+    "to": 34,
+    "rPu": 0.0004952539469994046,
+    "xPu": 0.007024757445442877,
+    "bPu": 0.1811363330544995,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk durnrohr - osm virtual_way/83947313:1 380 (OSM way/83947313-380 c1)",
+    "from": 20,
+    "to": 35,
+    "rPu": 0.0008003644563404397,
+    "xPu": 0.011352491399229782,
+    "bPu": 0.2927287780481627,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk durnrohr - osm virtual_way/83947313:1 380 (OSM way/83947313-380 c2)",
+    "from": 20,
+    "to": 35,
+    "rPu": 0.0008003644563404397,
+    "xPu": 0.011352491399229782,
+    "bPu": 0.2927287780481627,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk durnrohr - osm way/1001640574 380 (OSM way/84963242-380 c1)",
+    "from": 20,
+    "to": 38,
+    "rPu": 4.693533430425648e-05,
+    "xPu": 0.0006657379332477536,
+    "bPu": 0.017166333348919875,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk durnrohr - osm way/1001640574 380 (OSM way/84963242-380 c2)",
+    "from": 20,
+    "to": 38,
+    "rPu": 4.693533430425648e-05,
+    "xPu": 0.0006657379332477536,
+    "bPu": 0.017166333348919875,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/84998489:0 - osm freiluftschaltanlage feistritz 220 (OSM way/84998489-220 c1)",
+    "from": 105,
+    "to": 74,
+    "rPu": 0.00024296019055266148,
+    "xPu": 0.001256326382632878,
+    "bPu": 0.0020485944476966826,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/84998489:0 - osm freiluftschaltanlage feistritz 220 (OSM way/84998489-220 c2)",
+    "from": 105,
+    "to": 74,
+    "rPu": 0.00024296019055266148,
+    "xPu": 0.001256326382632878,
+    "bPu": 0.0020485944476966826,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/82745755:0 - zeltweg 220 (OSM way/88680176-220 c1)",
+    "from": 104,
+    "to": 133,
+    "rPu": 0.0010469667609964357,
+    "xPu": 0.005413775650189965,
+    "bPu": 0.008827826026236968,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/82745755:0 - zeltweg 220 (OSM way/88680176-220 c2)",
+    "from": 104,
+    "to": 133,
+    "rPu": 0.0010469667609964357,
+    "xPu": 0.005413775650189965,
+    "bPu": 0.008827826026236968,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zell am ziller - osm schaltwerk strass 220 (OSM way/89425698-220 c1)",
+    "from": 132,
+    "to": 80,
+    "rPu": 0.0030624400679566018,
+    "xPu": 0.015835615883631665,
+    "bPu": 0.025821916361478674,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zell am ziller - osm schaltwerk strass 220 (OSM way/89425698-220 c2)",
+    "from": 132,
+    "to": 80,
+    "rPu": 0.0030624400679566018,
+    "xPu": 0.015835615883631665,
+    "bPu": 0.025821916361478674,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kirchbichl - osm schaltwerk strass 220 (OSM way/89436110-220 c1)",
+    "from": 84,
+    "to": 80,
+    "rPu": 0.004222500766225373,
+    "xPu": 0.02183419061875759,
+    "bPu": 0.03560332911086256,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk kirchbichl - osm schaltwerk strass 220 (OSM way/89436110-220 c2)",
+    "from": 84,
+    "to": 80,
+    "rPu": 0.004222500766225373,
+    "xPu": 0.02183419061875759,
+    "bPu": 0.03560332911086256,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm schaltwerk strass - osm umspannwerk thaur 220 (OSM way/89436111-220 c1)",
+    "from": 80,
+    "to": 92,
+    "rPu": 0.0054610755625514075,
+    "xPu": 0.02823875504533704,
+    "bPu": 0.046046757908966826,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm schaltwerk strass - osm umspannwerk thaur 220 (OSM way/89436111-220 c2)",
+    "from": 80,
+    "to": 92,
+    "rPu": 0.0054610755625514075,
+    "xPu": 0.02823875504533704,
+    "bPu": 0.046046757908966826,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/42412115:1 - wallsee 220 (OSM way/90060335-220 c1)",
+    "from": 101,
+    "to": 125,
+    "rPu": 0.0006545546541459401,
+    "xPu": 0.0033846461801339545,
+    "bPu": 0.005519081241857819,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/42412115:1 - wallsee 220 (OSM way/90060335-220 c2)",
+    "from": 101,
+    "to": 125,
+    "rPu": 0.0006545546541459401,
+    "xPu": 0.0033846461801339545,
+    "bPu": 0.005519081241857819,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk greuth - osm villach sud 220 (OSM way/919864107-220 c1)",
+    "from": 83,
+    "to": 97,
+    "rPu": 0.0019580389012377112,
+    "xPu": 0.010124851829638478,
+    "bPu": 0.016509814271734598,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk greuth - osm villach sud 220 (OSM way/919864107-220 c2)",
+    "from": 83,
+    "to": 97,
+    "rPu": 0.0019580389012377112,
+    "xPu": 0.010124851829638478,
+    "bPu": 0.016509814271734598,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ernsthofen - etzersdorf 380 (OSM way/95159087-380 c1)",
+    "from": 5,
+    "to": 6,
+    "rPu": 0.0015460610429387483,
+    "xPu": 0.021929565404364575,
+    "bPu": 0.565463091597888,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ernsthofen - etzersdorf 380 (OSM way/95159087-380 c2)",
+    "from": 5,
+    "to": 6,
+    "rPu": 0.0015460610429387483,
+    "xPu": 0.021929565404364575,
+    "bPu": 0.565463091597888,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c1)",
+    "from": 1,
+    "to": 36,
+    "rPu": 0.00015316175292630005,
+    "xPu": 0.002172469640564827,
+    "bPu": 0.05601804580732114,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c2)",
+    "from": 1,
+    "to": 36,
+    "rPu": 0.00015316175292630005,
+    "xPu": 0.002172469640564827,
+    "bPu": 0.05601804580732114,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c3)",
+    "from": 1,
+    "to": 36,
+    "rPu": 0.00015316175292630005,
+    "xPu": 0.002172469640564827,
+    "bPu": 0.05601804580732114,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bisamberg - osm virtual_way/951818305:1 380 (OSM way/951818305-380 c4)",
+    "from": 1,
+    "to": 36,
+    "rPu": 0.00015316175292630005,
+    "xPu": 0.002172469640564827,
+    "bPu": 0.05601804580732114,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm kuhtai 220 (OSM way/95812120-220 c1)",
+    "from": 91,
+    "to": 77,
+    "rPu": 0.0014835466197955424,
+    "xPu": 0.007671292791116681,
+    "bPu": 0.012508984954691943,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm umspannwerk silz - osm kuhtai 220 (OSM way/95812120-220 c2)",
+    "from": 91,
+    "to": 77,
+    "rPu": 0.0014835466197955424,
+    "xPu": 0.007671292791116681,
+    "bPu": 0.012508984954691943,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c1)",
+    "from": 127,
+    "to": 91,
+    "rPu": 0.001277844091496612,
+    "xPu": 0.006607622596059692,
+    "bPu": 0.010774540079620852,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c2)",
+    "from": 127,
+    "to": 91,
+    "rPu": 0.001277844091496612,
+    "xPu": 0.006607622596059692,
+    "bPu": 0.010774540079620852,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:westtirol - osm umspannwerk silz 220 (OSM way/95812265-220 c3)",
+    "from": 127,
+    "to": 91,
+    "rPu": 0.001277844091496612,
+    "xPu": 0.006607622596059692,
+    "bPu": 0.010774540079620852,
+    "ratingMva": 308.6514539087739,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/99720896:0 - suedburgenland 380 (OSM way/99720896-380)",
+    "from": 37,
+    "to": 49,
+    "rPu": 0.0001354764638880552,
+    "xPu": 0.0019216188061617465,
+    "bPu": 0.04954975125902861,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/83742802:1 - osm virtual_way/99720896:0 380 (OSM way/99761296-380 c1)",
+    "from": 34,
+    "to": 37,
+    "rPu": 0.000220965614805922,
+    "xPu": 0.003134209948652119,
+    "bPu": 0.0808169252149864,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/83742802:1 - osm virtual_way/99720896:0 380 (OSM way/99761296-380 c2)",
+    "from": 34,
+    "to": 37,
+    "rPu": 0.000220965614805922,
+    "xPu": 0.003134209948652119,
+    "bPu": 0.0808169252149864,
+    "ratingMva": 1513.8124058151986,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:altheim [DE]:220~AT:pleinting [DE]:220",
+    "from": 58,
+    "to": 111,
+    "rPu": 0.012887393840603143,
+    "xPu": 0.08275442958615853,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:altheim [DE]:220~AT:silz [DE]:220",
+    "from": 58,
+    "to": 118,
+    "rPu": 0.0540302429515002,
+    "xPu": 0.354886701917297,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:altheim [DE]:220~AT:y simbach [DE]:220",
+    "from": 58,
+    "to": 129,
+    "rPu": 0.004117923549672147,
+    "xPu": 0.024369834734693088,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:buers [DE]:hv~AT:leupolz [DE]:hv",
+    "from": 2,
+    "to": 12,
+    "rPu": 0.013625274596821849,
+    "xPu": 0.09648049454686207,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:pirach [DE]:220~AT:pleinting [DE]:220",
+    "from": 110,
+    "to": 111,
+    "rPu": 0.009753305785123968,
+    "xPu": 0.05165909090909091,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:pleinting [DE]:220~AT:silz [DE]:220",
+    "from": 111,
+    "to": 118,
+    "rPu": 0.006600264397575183,
+    "xPu": 0.10857449579852692,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:AT:simbach [DE]:220~AT:y simbach [DE]:220",
+    "from": 119,
+    "to": 129,
+    "rPu": 5.702499032967604e-05,
+    "xPu": 0.0010546451179878553,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

@@ -1,0 +1,4949 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Czechia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): CEPS lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (CEPS for Czechia)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Czechia (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Czechia units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Czechia 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Czechia, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "42": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "51": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "52": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "53": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "54": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "55": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "56": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "57": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "58": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "59": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "60": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "61": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "62": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "63": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "64": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "65": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "66": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "67": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "68": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "69": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "70": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "71": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "72": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "73": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "74": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "75": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "76": [
+   "model_assembly"
+  ],
+  "77": [
+   "model_assembly"
+  ],
+  "78": [
+   "model_assembly"
+  ],
+  "79": [
+   "model_assembly"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "82": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ],
+  "84": [
+   "model_assembly"
+  ],
+  "85": [
+   "model_assembly"
+  ],
+  "86": [
+   "model_assembly"
+  ],
+  "87": [
+   "model_assembly"
+  ],
+  "88": [
+   "model_assembly"
+  ],
+  "89": [
+   "model_assembly"
+  ],
+  "90": [
+   "model_assembly"
+  ],
+  "91": [
+   "model_assembly"
+  ],
+  "92": [
+   "model_assembly"
+  ],
+  "93": [
+   "model_assembly"
+  ],
+  "94": [
+   "model_assembly"
+  ],
+  "95": [
+   "model_assembly"
+  ],
+  "96": [
+   "model_assembly"
+  ],
+  "97": [
+   "model_assembly"
+  ],
+  "98": [
+   "model_assembly"
+  ],
+  "99": [
+   "model_assembly"
+  ],
+  "100": [
+   "model_assembly"
+  ],
+  "101": [
+   "model_assembly"
+  ],
+  "102": [
+   "model_assembly"
+  ],
+  "103": [
+   "model_assembly"
+  ],
+  "104": [
+   "model_assembly"
+  ],
+  "105": [
+   "model_assembly"
+  ],
+  "106": [
+   "model_assembly"
+  ],
+  "107": [
+   "model_assembly"
+  ],
+  "108": [
+   "model_assembly"
+  ],
+  "109": [
+   "model_assembly"
+  ],
+  "110": [
+   "model_assembly"
+  ],
+  "111": [
+   "model_assembly"
+  ],
+  "112": [
+   "model_assembly"
+  ],
+  "113": [
+   "model_assembly"
+  ],
+  "114": [
+   "model_assembly"
+  ],
+  "115": [
+   "model_assembly"
+  ],
+  "116": [
+   "model_assembly"
+  ],
+  "117": [
+   "model_assembly"
+  ],
+  "118": [
+   "model_assembly"
+  ],
+  "119": [
+   "model_assembly"
+  ],
+  "120": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Prosenice - Nosovice - V403:0": [
+   "jao_sgm"
+  ],
+  "jao:Prosenice - Nosovice - V803:1": [
+   "jao_sgm"
+  ],
+  "jao:Vitkov - Vernerov:2": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Vitkov:3": [
+   "jao_sgm"
+  ],
+  "jao:Malesice - C. Stred - V206:4": [
+   "jao_sgm"
+  ],
+  "jao:Albrechtice - Detmarovice:5": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Vernerov:6": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Mirovka:7": [
+   "jao_sgm"
+  ],
+  "jao:Prosenice - Mirovka:8": [
+   "jao_sgm"
+  ],
+  "jao:Tabor - Sokolnice:9": [
+   "jao_sgm"
+  ],
+  "jao:Reporyje - Mirovka:10": [
+   "jao_sgm"
+  ],
+  "jao:Dasny - Slavetice:11": [
+   "jao_sgm"
+  ],
+  "jao:Opocinek - Sokolnice:12": [
+   "jao_sgm"
+  ],
+  "jao:Kocin - Chodov:13": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Reporyje:14": [
+   "jao_sgm"
+  ],
+  "jao:Prestice - Kocin:15": [
+   "jao_sgm"
+  ],
+  "jao:H. Zivotice - Krasikov:16": [
+   "jao_sgm"
+  ],
+  "jao:Tynec - Krasikov:17": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - C. Stred - V410:18": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - C. Stred - V419:19": [
+   "jao_sgm"
+  ],
+  "jao:Cebin - Mirovka:20": [
+   "jao_sgm"
+  ],
+  "jao:Krasikov - Prosenice:21": [
+   "jao_sgm"
+  ],
+  "jao:Vitkov - Prestice - V221:22": [
+   "jao_sgm"
+  ],
+  "jao:Vitkov - Prestice - V490:23": [
+   "jao_sgm"
+  ],
+  "jao:Milin - C. Stred:24": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - C. Stred - V201:25": [
+   "jao_sgm"
+  ],
+  "jao:Neznasov - Krasikov:26": [
+   "jao_sgm"
+  ],
+  "jao:Prosenice - Sokolnice - V251:27": [
+   "jao_sgm"
+  ],
+  "jao:Prosenice - Sokolnice - V252:28": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Chrast:29": [
+   "jao_sgm"
+  ],
+  "jao:Otrokovice - Sokolnice:30": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - Babylon - V428:31": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - Babylon - V450:32": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - Prosenice - V253:33": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - Prosenice - V254:34": [
+   "jao_sgm"
+  ],
+  "jao:Opocinek - C. Stred:35": [
+   "jao_sgm"
+  ],
+  "jao:C. Stred - Bezdecin - V209:36": [
+   "jao_sgm"
+  ],
+  "jao:Bezdecin - Neznasov:37": [
+   "jao_sgm"
+  ],
+  "jao:C. Stred - Bezdecin - V454:38": [
+   "jao_sgm"
+  ],
+  "jao:Prestice - Milin:39": [
+   "jao_sgm"
+  ],
+  "jao:Milin - Tabor:40": [
+   "jao_sgm"
+  ],
+  "jao:Slavetice - Sokolnice - V435:41": [
+   "jao_sgm"
+  ],
+  "jao:Slavetice - Sokolnice - V436:42": [
+   "jao_sgm"
+  ],
+  "jao:Bezdecin - Babylon:43": [
+   "jao_sgm"
+  ],
+  "jao:Kletne - Nosovice:44": [
+   "jao_sgm"
+  ],
+  "jao:Cebin - Slavetice:45": [
+   "jao_sgm"
+  ],
+  "jao:C. Stred - Tynec:46": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - Hradec - V411:47": [
+   "jao_sgm"
+  ],
+  "jao:Kocin - Dasny - V474:48": [
+   "jao_sgm"
+  ],
+  "jao:H. Zivotice - Kletne:49": [
+   "jao_sgm"
+  ],
+  "jao:Cebin - Sokolnice:50": [
+   "jao_sgm"
+  ],
+  "jao:Otrokovice - Prosenice:51": [
+   "jao_sgm"
+  ],
+  "jao:Kocin - Dasny - V473:52": [
+   "jao_sgm"
+  ],
+  "jao:Chodov - C. Stred:53": [
+   "jao_sgm"
+  ],
+  "jao:Chrast - Prestice:54": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - Hradec - V226:55": [
+   "jao_sgm"
+  ],
+  "jao:Vyskov - Hradec - V225:56": [
+   "jao_sgm"
+  ],
+  "jao:Chotejovice - Vyskov - V479:57": [
+   "jao_sgm"
+  ],
+  "jao:Reporyje - Chodov:58": [
+   "jao_sgm"
+  ],
+  "jao:Chotejovice - Vyskov - V480:59": [
+   "jao_sgm"
+  ],
+  "jao:Malesice - C. Stred - V205:60": [
+   "jao_sgm"
+  ],
+  "jao:Nosovice - Albrechtice:61": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Etzenricht:64": [
+   "jao_sgm"
+  ],
+  "jao:Prestice - Etzenricht:65": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - P. Bystrica:66": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Stupava:67": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Senica:68": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Zaya - V243:69": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Zaya - V244:70": [
+   "jao_sgm"
+  ],
+  "jao:Slavetice - Durnrohr - V437:71": [
+   "jao_sgm"
+  ],
+  "jao:Slavetice - Durnrohr - V438:72": [
+   "jao_sgm"
+  ],
+  "jao:Nosovice - Varin:73": [
+   "jao_sgm"
+  ],
+  "jao:Nosovice - Wielopole:74": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Rohrsdorf - V445:75": [
+   "jao_sgm"
+  ],
+  "jao:Hradec - Rohrsdorf - V446:76": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - Bujakow:77": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - Kopanina:78": [
+   "jao_sgm"
+  ],
+  "jao:Detmarovice - Dobrzen:79": [
+   "jao_sgm"
+  ],
+  "jao:Zaya - Sokolnice 243:80": [
+   "jao_sgm"
+  ],
+  "jao:Zaya - Sokolnice 244:81": [
+   "jao_sgm"
+  ],
+  "osm:hradec - vitkov 400 (OSM merged_way/875518342:a-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mirovka - osm virtual_relation/10043727:a:1 400 (OSM relation/10043727:a-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/10043727:a:1 - prosenice 400 (OSM relation/10043727:b-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:reporyje - kocin 400 (OSM relation/4996998-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tynec - osm virtual_relation/5123156:1 400 (OSM relation/5123155-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tynec - osm virtual_relation/5123156:1 400 (OSM relation/5123156-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:chotejovice - bezdecin 220 (OSM relation/5123162-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vyskov - chotejovice 220 (OSM relation/5123163-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm melnik - babylon 400 (OSM relation/5124542-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vyskov - osm virtual_way/344326812:0 400 (OSM relation/5124914-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kocin - osm virtual_relation/5129388:1 400 (OSM relation/5129388-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:kocin - osm virtual_relation/5129388:1 400 (OSM relation/5129389-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:milin - osm virtual_way/1314878331:1 220 (OSM relation/5130002-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:milin - osm virtual_way/1314878331:1 220 (OSM relation/5130003-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/5134103:0 - vitkov 220 (OSM relation/5134103-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vitkov - osm vresova 220 (OSM relation/5134131-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vitkov - osm vresova 220 (OSM relation/5134132-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm prunerov - hradec 400 (OSM relation/5134259-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm prunerov - hradec 400 (OSM relation/5134306-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm prunerov - hradec 400 (OSM relation/5134307-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm dukovany 400 (OSM relation/5136812-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm dukovany 400 (OSM relation/5136813-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm dukovany 400 (OSM relation/5136814-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm dukovany 400 (OSM relation/5136816-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm virtual_relation/5136824:1 400 (OSM relation/5136823-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm virtual_relation/5136824:1 400 (OSM relation/5136824-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slavetice - osm virtual_relation/5168027:a:1 400 (OSM relation/5168027:a-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/5168027:a:1 - cebin 400 (OSM relation/5168027:b-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:krasikov - osm eds 400 (OSM relation/5250540-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/113566137:0 - reporyje 400 (OSM way/113566137-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/113566137:0 - reporyje 400 (OSM way/113566137-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vyskov - osm virtual_way/174150969:0 220 (OSM way/121679009-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vyskov - osm virtual_way/174150969:0 220 (OSM way/121679009-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28629413:1 - osm virtual_way/113566137:0 400 (OSM way/129756600-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm virtual_way/28629413:1 400 (OSM way/129756619-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm virtual_way/28629413:1 400 (OSM way/129756619-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/5168027:a:1 - osm virtual_way/28099167:1 400 (OSM way/132480608-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/157809712:0 - hradec 400 (OSM way/157809712-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/157809712:0 - hradec 400 (OSM way/157809712-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/174150969:0 - osm lds sever 220 (OSM way/174150969-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/174150969:0 - osm lds sever 220 (OSM way/174150969-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm virtual_way/174150969:0 220 (OSM way/174150973-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm virtual_way/174150969:0 220 (OSM way/174150973-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm tusimice 400 (OSM way/192437373-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hradec - osm tusimice 400 (OSM way/192437373-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mirovka - osm virtual_way/28099167:1 400 (OSM way/28099167-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mirovka - osm virtual_way/28099167:1 400 (OSM way/28099167-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/344326812:0 - vyskov 400 (OSM way/28345715-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vyskov - osm virtual_way/344326812:0 400 (OSM way/28345717-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/28099167:1 - osm virtual_way/28629413:1 400 (OSM way/28629413-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_relation/10043727:a:1 - osm virtual_way/113566137:0 400 (OSM way/682136556-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:PL:CZ:bujakow [PL]:220~CZ:kopanina [PL]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:senica [SK]:hv~CZ:stupava [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:senica [SK]:hv~CZ:varin [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:stupava [SK]:hv~CZ:varin [SK]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:27T-TR-CSTT401-T:0": [
+   "jao_sgm"
+  ],
+  "jao:27T-TR-HRAT402-B:1": [
+   "jao_sgm"
+  ],
+  "jao:27T-TR-PRNT401X5:2": [
+   "jao_sgm"
+  ],
+  "jao:27T-TR-SOKT401-H:3": [
+   "jao_sgm"
+  ],
+  "synth:coupling:bezdecin~bezdecin": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:chotejovice~chotejovice": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:milin~milin": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:prestice~prestice": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:vitkov~vitkov": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:vyskov~vyskov": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:PL:CZ:wielopole [PL]:hv~CZ:bujakow [PL]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:PL:CZ:wielopole [PL]:hv~CZ:kopanina [PL]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:senica [SK]:hv~CZ:p. bystrica [SK]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:stupava [SK]:hv~CZ:p. bystrica [SK]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SK:CZ:varin [SK]:hv~CZ:p. bystrica [SK]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:CZ:albrechtice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:babylon:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:babylon:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:cebin:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:chodov:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:chotejovice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:chrast:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:dasny:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:detmarovice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:h. zivotice:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:h. zivotice:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:hradec:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:kletne:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:kocin:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:kocin:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:krasikov:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:milin:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:mirovka:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:neznasov:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:nosovice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:otrokovice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:reporyje:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:slavetice:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:slavetice:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:tynec:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:tynec:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:vernerov:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:vernerov:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:vitkov:hv": [
+   "model_assembly"
+  ],
+  "gsu:CZ:vyskov:hv": [
+   "model_assembly"
+  ],
+  "emb:CZ:bezdecin:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:c. stred:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:chotejovice:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:hradec:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:liskovec:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:malesice:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:milin:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:opocinek:220": [
+   "model_assembly"
+  ],
+  "gsu:CZ:opocinek:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:prestice:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:prosenice:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:sokolnice:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:tabor:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:vitkov:220": [
+   "model_assembly"
+  ],
+  "emb:CZ:vyskov:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Karvina": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Trinec": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ albrechtice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Mimon Ra Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mimon Liglass Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mastirovice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mondi Steti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ babylon": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Melnik Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Chrudichromy Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ cebin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Slapy": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vaclavice Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ chodov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ledvice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzenska Energetika Elu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Chp Tg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Letkov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pilsen Plzensky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Chotikov Waste": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pilsen Plzen Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mydlovary": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ chrast": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lipno": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sevetin Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ceske Budejovice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xlii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ dasny": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Teplarna Ceskoslovenske Armady Csa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ detmarovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ etzenricht [DE]": [
+   "energy_charts"
+  ],
+  "Moravian Silesian Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ h. zivotice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dlouhe Strane": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tusimice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zasova Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koprivnice Tg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ kletne": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Jihocesky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ kocin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Temelin 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Temelin 2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kamenicna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rakova Konice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pohledy Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ krasikov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Orlik": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alfen Praksice Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Siemens Czech Republic Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ mirovka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Porici Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Kralovehradecky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Smirice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Hradec Kralove Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hribiny Ledska Hradec Kralove Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ neznasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Moravskoslezsky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ nosovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Zlin Tg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Otrokovice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Napajedla Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slusovice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veseli Nad Moravou Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Velke Tesany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Uhersky Brod Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Praksice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ otrokovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Stechovice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kladno": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrane Republic Vrane Czech Republic Vrane Czech Republic": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kladno Tg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xlv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kladno Tg #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Capital City Of Prague Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ reporyje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import DE @ rohrsdorf [DE]": [
+   "energy_charts"
+  ],
+  "Jihocesky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oslavany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zakrany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vranovska Ves Cez Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xlii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xlii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vysocina Region Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ slavetice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dalesice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dukovany 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dukovany 2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dukovany 3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dukovany 4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kutna Hora Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xci": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ tynec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Chvaletice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krystofovy Hamry Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prunerov": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ vernerov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Prunerov Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vresova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pocerady Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pocerady": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Import PL @ wielopole [PL]": [
+   "energy_charts"
+  ],
+  "Import PL @ xdt db1 [PL]": [
+   "energy_charts"
+  ],
+  "Sko Energo": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Andelka Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jablonecek Ra Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fve Ralsko Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Straz Pod Ralskem Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Velis Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralovehradecky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberec Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Liberecky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ bezdecin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import PL @ bujakow [PL]": [
+   "energy_charts"
+  ],
+  "Central Bohemia Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xc": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ c. stred": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Strekov Republic Strekov Czech Republic Strekov Czech Republ": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Trmice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jenikov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dubi Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Svetec Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Saxonie Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Usti Nad Labem Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ chotejovice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Chomutov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ibg Cesko Tusimice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ hradec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import PL @ kopanina [PL]": [
+   "energy_charts"
+  ],
+  "Trebovice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravian Silesian Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moravskoslezsky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ostrava Moravian Silesian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zavod": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ liskovec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Malesice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veprek Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kralupy": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Capital City Of Prague Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Decci Group Vranany Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ malesice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kamyk": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pribram": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xlvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar #12": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Bohemian Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Liv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oboriste": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ milin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Klenovka Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hostovice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cerveny Kopec Rejchartice Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Horni Lodenice Lipina Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hradec Kralove Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubice Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pardubicky Kraj Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ opocinek": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Opatovice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bela Nad Radbuzou Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sulkov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Stribro Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ prestice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Olomouc Timepoint": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prostejov": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jivova Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xliii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olomouc Region Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlin Region Solar #12": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlinsky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ prosenice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Hodonin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spitalka": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Spalovna Brno": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brno Turany Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hrusovany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vlkos Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sokolnice Papeno Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zabcice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrbice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brno South Moravian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cerveny Mlyn": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hodonin #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar #12": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Li": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Lxxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihomoravsky Kraj Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kyjov Chp": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar #12": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Liii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xl": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xliv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xlix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xlviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar Xxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Svatoborice Mistrin Jihomoravsky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Eon Czech Republic": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ sokolnice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Central Bohemia Solar Lxxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jihocesky Kraj Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraj Vysocina Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plana Nad Luznici": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar #12": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Lxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xli": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xlvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Southwest Solar Xxxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ tabor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Tisova Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovarsky Kraj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jindrichovice Stara Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovarsky Kraj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovarsky Kraj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovy Vary Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovy Vary Region Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovy Vary Region Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovy Vary Region Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Karlovy Vary Region Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzen Region Solar Xxxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Plzensky Kraj Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ vitkov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Komorany": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Peruc Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Lxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Central Bohemia Solar Xxxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ustecky Kraj Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Usti Nad Labem Region Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ vyskov": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "2": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "5": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "6": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "8": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "9": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "10": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "11": [
+   "energy_charts"
+  ],
+  "13": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "16": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "17": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "19": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "20": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "21": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "37": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "40": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "42": [
+   "energy_charts"
+  ],
+  "43": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "45": [
+   "energy_charts"
+  ],
+  "46": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "47": [
+   "energy_charts"
+  ],
+  "48": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "53": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "55": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "56": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "57": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "59": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "60": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "61": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "62": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "68": [
+   "energy_charts"
+  ],
+  "69": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "70": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "71": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "72": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "73": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "74": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "75": [
+   "energy_charts"
+  ]
+ },
+ "shunts": {
+  "60": [
+   "model_assembly"
+  ],
+  "62": [
+   "model_assembly"
+  ],
+  "108": [
+   "model_assembly"
+  ],
+  "111": [
+   "model_assembly"
+  ],
+  "113": [
+   "model_assembly"
+  ],
+  "114": [
+   "model_assembly"
+  ],
+  "117": [
+   "model_assembly"
+  ]
+ }
+}

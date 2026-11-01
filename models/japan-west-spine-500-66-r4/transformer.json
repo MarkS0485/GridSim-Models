@@ -1,0 +1,4482 @@
+[
+  {
+    "name": "TX sr11529219 500/275kV",
+    "from": 6,
+    "to": 145,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sr11529637 500/275kV",
+    "from": 7,
+    "to": 146,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sr11529637 275/77kV",
+    "from": 146,
+    "to": 1383,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw1037299171 187/66kV",
+    "from": 563,
+    "to": 2291,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1037463543 187/66kV",
+    "from": 564,
+    "to": 2293,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1037463547 187/66kV",
+    "from": 565,
+    "to": 2294,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw108199478 275/77kV",
+    "from": 151,
+    "to": 1397,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw109834508 500/275kV",
+    "from": 12,
+    "to": 152,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw110340505 275/77kV",
+    "from": 153,
+    "to": 1413,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw110682955 275/154kV",
+    "from": 155,
+    "to": 626,
+    "rPu": 0.0001851851851851852,
+    "xPu": 0.007407407407407408,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1620.0
+  },
+  {
+    "name": "TX sw110682955 154/77kV",
+    "from": 626,
+    "to": 1415,
+    "rPu": 0.000625,
+    "xPu": 0.025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 480.0
+  },
+  {
+    "name": "TX sw110682956 500/275kV",
+    "from": 14,
+    "to": 156,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw110682956 275/154kV",
+    "from": 156,
+    "to": 627,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw110847000 275/77kV",
+    "from": 157,
+    "to": 1417,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw110847002 275/154kV",
+    "from": 158,
+    "to": 628,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw110847002 154/77kV",
+    "from": 628,
+    "to": 1418,
+    "rPu": 0.00041666666666666664,
+    "xPu": 0.016666666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 720.0
+  },
+  {
+    "name": "TX sw111363724 154/77kV",
+    "from": 629,
+    "to": 1420,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1165601291 154/77kV",
+    "from": 630,
+    "to": 1427,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1199776830 220/66kV",
+    "from": 356,
+    "to": 2314,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1199776835 220/66kV",
+    "from": 357,
+    "to": 2315,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1203505651 110/66kV",
+    "from": 1016,
+    "to": 2324,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw1226195063 154/77kV",
+    "from": 633,
+    "to": 1462,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1243188388 77/66kV",
+    "from": 1470,
+    "to": 2347,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw1256591813 154/77kV",
+    "from": 638,
+    "to": 1473,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1263942013 154/77kV",
+    "from": 639,
+    "to": 1476,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1300383786 154/77kV",
+    "from": 641,
+    "to": 1486,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1328548241 275/77kV",
+    "from": 162,
+    "to": 1506,
+    "rPu": 0.00039473684210526315,
+    "xPu": 0.015789473684210527,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 760.0
+  },
+  {
+    "name": "TX sw1344336054 275/77kV",
+    "from": 164,
+    "to": 1513,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1385594185 154/77kV",
+    "from": 645,
+    "to": 1518,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw141148747 154/77kV",
+    "from": 647,
+    "to": 1521,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1415521353 154/77kV",
+    "from": 648,
+    "to": 1522,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1478555386 154/77kV",
+    "from": 653,
+    "to": 1528,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw1511234043 220/66kV",
+    "from": 364,
+    "to": 2391,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1543006359 275/77kV",
+    "from": 165,
+    "to": 1532,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw1553330073 154/66kV",
+    "from": 657,
+    "to": 2507,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw158522649 275/154kV",
+    "from": 167,
+    "to": 659,
+    "rPu": 0.0001666666666666667,
+    "xPu": 0.006666666666666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1800.0
+  },
+  {
+    "name": "TX sw158522649 154/77kV",
+    "from": 659,
+    "to": 1540,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw159191758 275/77kV",
+    "from": 168,
+    "to": 1542,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw159818212 154/77kV",
+    "from": 661,
+    "to": 1543,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw160374974 275/77kV",
+    "from": 169,
+    "to": 1544,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw161639374 154/77kV",
+    "from": 662,
+    "to": 1546,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw161727149 500/275kV",
+    "from": 19,
+    "to": 170,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw161727149 275/154kV",
+    "from": 170,
+    "to": 663,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw161727149 154/77kV",
+    "from": 663,
+    "to": 1547,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw161767713 154/77kV",
+    "from": 664,
+    "to": 1548,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw161870227 500/275kV",
+    "from": 20,
+    "to": 171,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw161870227 275/154kV",
+    "from": 171,
+    "to": 667,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw161870227 154/77kV",
+    "from": 667,
+    "to": 1549,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw161946849 500/275kV",
+    "from": 21,
+    "to": 173,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw161948515 275/154kV",
+    "from": 174,
+    "to": 668,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw161948515 154/77kV",
+    "from": 668,
+    "to": 1550,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw168247133 275/77kV",
+    "from": 175,
+    "to": 1551,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw169031921 500/275kV",
+    "from": 22,
+    "to": 176,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw169031921 275/154kV",
+    "from": 176,
+    "to": 670,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw169121284 275/77kV",
+    "from": 179,
+    "to": 1552,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw169122898 500/275kV",
+    "from": 24,
+    "to": 180,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw169122898 275/77kV",
+    "from": 180,
+    "to": 1553,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw169359724 500/154kV",
+    "from": 27,
+    "to": 672,
+    "rPu": 0.0001851851851851852,
+    "xPu": 0.007407407407407408,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1620.0
+  },
+  {
+    "name": "TX sw169523646 154/77kV",
+    "from": 673,
+    "to": 1554,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw170247308 275/154kV",
+    "from": 181,
+    "to": 674,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170247308 154/77kV",
+    "from": 674,
+    "to": 1555,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw170247312 500/275kV",
+    "from": 28,
+    "to": 182,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw170260165 275/77kV",
+    "from": 186,
+    "to": 1556,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw170366036 275/77kV",
+    "from": 188,
+    "to": 1557,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw170366039 275/154kV",
+    "from": 190,
+    "to": 677,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170436908 275/154kV",
+    "from": 191,
+    "to": 678,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170503689 275/154kV",
+    "from": 192,
+    "to": 679,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170503689 154/77kV",
+    "from": 679,
+    "to": 1558,
+    "rPu": 0.000576923076923077,
+    "xPu": 0.023076923076923078,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 520.0
+  },
+  {
+    "name": "TX sw170537514 500/275kV",
+    "from": 30,
+    "to": 193,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw170605907 500/275kV",
+    "from": 33,
+    "to": 194,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw170693194 500/275kV",
+    "from": 34,
+    "to": 195,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw170693194 275/154kV",
+    "from": 195,
+    "to": 680,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170693194 154/77kV",
+    "from": 680,
+    "to": 1559,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw170793702 275/154kV",
+    "from": 196,
+    "to": 681,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170793703 275/154kV",
+    "from": 197,
+    "to": 682,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw170850727 500/275kV",
+    "from": 35,
+    "to": 198,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw170974371 500/220kV",
+    "from": 36,
+    "to": 369,
+    "rPu": 0.0001388888888888889,
+    "xPu": 0.005555555555555556,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2160.0
+  },
+  {
+    "name": "TX sw170974371 220/110kV",
+    "from": 369,
+    "to": 1046,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw170974372 220/110kV",
+    "from": 370,
+    "to": 1047,
+    "rPu": 0.00022222222222222223,
+    "xPu": 0.008888888888888889,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1350.0
+  },
+  {
+    "name": "TX sw171063439 187/66kV",
+    "from": 571,
+    "to": 2540,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw171066843 500/187kV",
+    "from": 37,
+    "to": 572,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw171171672 220/66kV",
+    "from": 371,
+    "to": 2542,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw172143432 220/66kV",
+    "from": 372,
+    "to": 2543,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw172144358 500/220kV",
+    "from": 38,
+    "to": 373,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw172601929 500/220kV",
+    "from": 39,
+    "to": 375,
+    "rPu": 0.0001388888888888889,
+    "xPu": 0.005555555555555556,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2160.0
+  },
+  {
+    "name": "TX sw172907196 500/187kV",
+    "from": 40,
+    "to": 573,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw173152424 220/66kV",
+    "from": 376,
+    "to": 2544,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw173327088 187/66kV",
+    "from": 574,
+    "to": 2545,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw173327089 187/110kV",
+    "from": 575,
+    "to": 1051,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw173793392 220/66kV",
+    "from": 377,
+    "to": 2547,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw174915836 220/66kV",
+    "from": 379,
+    "to": 2550,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw177422734 154/77kV",
+    "from": 685,
+    "to": 1561,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw177422735 154/77kV",
+    "from": 686,
+    "to": 1562,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw179122765 220/66kV",
+    "from": 380,
+    "to": 2552,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw179417725 154/77kV",
+    "from": 687,
+    "to": 1564,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw179417729 275/154kV",
+    "from": 199,
+    "to": 688,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw179417729 154/77kV",
+    "from": 688,
+    "to": 1565,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw179417733 275/154kV",
+    "from": 200,
+    "to": 689,
+    "rPu": 0.00015151515151515152,
+    "xPu": 0.006060606060606061,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1980.0
+  },
+  {
+    "name": "TX sw179417733 154/77kV",
+    "from": 689,
+    "to": 1567,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw180368219 154/77kV",
+    "from": 690,
+    "to": 1568,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw182188317 220/110kV",
+    "from": 381,
+    "to": 1056,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw182188317 110/66kV",
+    "from": 1056,
+    "to": 2557,
+    "rPu": 0.0008333333333333333,
+    "xPu": 0.03333333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 360.0
+  },
+  {
+    "name": "TX sw184180157 220/66kV",
+    "from": 383,
+    "to": 2563,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw185029969 500/220kV",
+    "from": 41,
+    "to": 384,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw185032690 275/77kV",
+    "from": 202,
+    "to": 1573,
+    "rPu": 0.0004615384615384616,
+    "xPu": 0.018461538461538463,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 650.0
+  },
+  {
+    "name": "TX sw185504478 220/66kV",
+    "from": 385,
+    "to": 2564,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw185936794 220/66kV",
+    "from": 386,
+    "to": 2565,
+    "rPu": 0.00035714285714285714,
+    "xPu": 0.014285714285714285,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 840.0
+  },
+  {
+    "name": "TX sw187988970 500/220kV",
+    "from": 43,
+    "to": 388,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw188317052 154/77kV",
+    "from": 693,
+    "to": 1575,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw188498180 154/77kV",
+    "from": 694,
+    "to": 1576,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw189776902 220/66kV",
+    "from": 389,
+    "to": 2573,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw190631090 154/77kV",
+    "from": 695,
+    "to": 1577,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw190631098 275/154kV",
+    "from": 203,
+    "to": 696,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw190631098 154/77kV",
+    "from": 696,
+    "to": 1578,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw190734269 275/77kV",
+    "from": 204,
+    "to": 1580,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw190984572 275/154kV",
+    "from": 205,
+    "to": 699,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw191382967 275/154kV",
+    "from": 206,
+    "to": 700,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw191382982 275/77kV",
+    "from": 207,
+    "to": 1581,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw191412271 154/77kV",
+    "from": 701,
+    "to": 1582,
+    "rPu": 0.00045454545454545455,
+    "xPu": 0.01818181818181818,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 660.0
+  },
+  {
+    "name": "TX sw191434705 154/77kV",
+    "from": 702,
+    "to": 1584,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw191462379 154/77kV",
+    "from": 703,
+    "to": 1585,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw191462506 154/77kV",
+    "from": 704,
+    "to": 1588,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw191476516 275/77kV",
+    "from": 208,
+    "to": 1591,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw191539360 154/77kV",
+    "from": 705,
+    "to": 1592,
+    "rPu": 0.0007142857142857143,
+    "xPu": 0.02857142857142857,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 420.0
+  },
+  {
+    "name": "TX sw191799657 154/77kV",
+    "from": 709,
+    "to": 1594,
+    "rPu": 0.000576923076923077,
+    "xPu": 0.023076923076923078,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 520.0
+  },
+  {
+    "name": "TX sw191880853 275/77kV",
+    "from": 209,
+    "to": 1599,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw192167370 154/77kV",
+    "from": 712,
+    "to": 1609,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw192288085 154/77kV",
+    "from": 715,
+    "to": 1612,
+    "rPu": 0.0007317073170731707,
+    "xPu": 0.02926829268292683,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 410.0
+  },
+  {
+    "name": "TX sw192656409 154/77kV",
+    "from": 721,
+    "to": 1616,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw193544791 500/220kV",
+    "from": 46,
+    "to": 393,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw193544791 220/110kV",
+    "from": 393,
+    "to": 1059,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw194060044 154/77kV",
+    "from": 723,
+    "to": 1618,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw195047357 220/66kV",
+    "from": 394,
+    "to": 2576,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw195047433 220/66kV",
+    "from": 395,
+    "to": 2577,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw195417957 220/66kV",
+    "from": 396,
+    "to": 2581,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw199544541 275/77kV",
+    "from": 211,
+    "to": 1623,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw201289289 220/66kV",
+    "from": 397,
+    "to": 2584,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw201293312 500/220kV",
+    "from": 47,
+    "to": 398,
+    "rPu": 0.0001388888888888889,
+    "xPu": 0.005555555555555556,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2160.0
+  },
+  {
+    "name": "TX sw203776442 220/110kV",
+    "from": 399,
+    "to": 1062,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw203776442 110/66kV",
+    "from": 1062,
+    "to": 2586,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw204258596 500/220kV",
+    "from": 48,
+    "to": 400,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw204258596 220/110kV",
+    "from": 400,
+    "to": 1063,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw205345027 154/77kV",
+    "from": 724,
+    "to": 1628,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw205496779 110/66kV",
+    "from": 1064,
+    "to": 2588,
+    "rPu": 0.0008823529411764706,
+    "xPu": 0.03529411764705882,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 340.0
+  },
+  {
+    "name": "TX sw208072161 154/77kV",
+    "from": 725,
+    "to": 1629,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw209429355 275/154kV",
+    "from": 212,
+    "to": 728,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw209429355 154/77kV",
+    "from": 728,
+    "to": 1631,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw209429410 500/154kV",
+    "from": 49,
+    "to": 731,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "TX sw209726348 500/275kV",
+    "from": 50,
+    "to": 213,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw210090091 154/77kV",
+    "from": 735,
+    "to": 1633,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw210090094 500/275kV",
+    "from": 51,
+    "to": 214,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw210090094 275/154kV",
+    "from": 214,
+    "to": 736,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw210090098 154/77kV",
+    "from": 737,
+    "to": 1634,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw211037499 154/77kV",
+    "from": 742,
+    "to": 1636,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw211258348 275/77kV",
+    "from": 219,
+    "to": 1638,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw211926647 154/77kV",
+    "from": 744,
+    "to": 1641,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw215451416 500/220kV",
+    "from": 52,
+    "to": 401,
+    "rPu": 0.00011904761904761906,
+    "xPu": 0.004761904761904762,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2520.0
+  },
+  {
+    "name": "TX sw216496817 220/66kV",
+    "from": 402,
+    "to": 2592,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw216498433 220/110kV",
+    "from": 403,
+    "to": 1065,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw216502300 500/220kV",
+    "from": 53,
+    "to": 404,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw216605551 220/110kV",
+    "from": 405,
+    "to": 1066,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw216605551 110/66kV",
+    "from": 1066,
+    "to": 2594,
+    "rPu": 0.00125,
+    "xPu": 0.05,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 240.0
+  },
+  {
+    "name": "TX sw216609401 220/66kV",
+    "from": 406,
+    "to": 2596,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw216778426 500/220kV",
+    "from": 54,
+    "to": 407,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw216949339 220/110kV",
+    "from": 408,
+    "to": 1067,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw216949339 110/66kV",
+    "from": 1067,
+    "to": 2598,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw216953915 500/220kV",
+    "from": 55,
+    "to": 409,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw216956620 500/220kV",
+    "from": 56,
+    "to": 410,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw219569064 220/66kV",
+    "from": 412,
+    "to": 2602,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw220698807 220/110kV",
+    "from": 414,
+    "to": 1070,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw220698807 110/66kV",
+    "from": 1070,
+    "to": 2603,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw220702449 110/66kV",
+    "from": 1071,
+    "to": 2604,
+    "rPu": 0.0008571428571428572,
+    "xPu": 0.03428571428571429,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 350.0
+  },
+  {
+    "name": "TX sw220707456 220/66kV",
+    "from": 415,
+    "to": 2605,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw237475191 220/66kV",
+    "from": 417,
+    "to": 2611,
+    "rPu": 0.00044776119402985075,
+    "xPu": 0.01791044776119403,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 670.0
+  },
+  {
+    "name": "TX sw237476160 220/110kV",
+    "from": 418,
+    "to": 1073,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw237476160 110/66kV",
+    "from": 1073,
+    "to": 2612,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw238089516 220/110kV",
+    "from": 419,
+    "to": 1074,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw238096118 220/66kV",
+    "from": 421,
+    "to": 2613,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw238240460 110/66kV",
+    "from": 1075,
+    "to": 2615,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw238677749 220/66kV",
+    "from": 422,
+    "to": 2616,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw238813048 220/66kV",
+    "from": 424,
+    "to": 2618,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw239024744 220/110kV",
+    "from": 425,
+    "to": 1076,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw239024744 110/66kV",
+    "from": 1076,
+    "to": 2620,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw241822623 500/220kV",
+    "from": 58,
+    "to": 426,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw241822623 220/110kV",
+    "from": 426,
+    "to": 1077,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw241822631 500/275kV",
+    "from": 59,
+    "to": 221,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw241828221 500/220kV",
+    "from": 60,
+    "to": 427,
+    "rPu": 0.00010416666666666666,
+    "xPu": 0.004166666666666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2880.0
+  },
+  {
+    "name": "TX sw241875111 220/66kV",
+    "from": 428,
+    "to": 2626,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw241923317 275/154kV",
+    "from": 222,
+    "to": 748,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw241923317 154/77kV",
+    "from": 748,
+    "to": 1653,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw242159098 220/110kV",
+    "from": 429,
+    "to": 1079,
+    "rPu": 0.0003703703703703704,
+    "xPu": 0.014814814814814815,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 810.0
+  },
+  {
+    "name": "TX sw242253497 275/77kV",
+    "from": 224,
+    "to": 1657,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw242389846 220/110kV",
+    "from": 433,
+    "to": 1081,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw242532736 275/77kV",
+    "from": 225,
+    "to": 1658,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw243138764 154/77kV",
+    "from": 749,
+    "to": 1660,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw243471278 220/110kV",
+    "from": 434,
+    "to": 1082,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw244325781 110/66kV",
+    "from": 1083,
+    "to": 2632,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw253586132 275/77kV",
+    "from": 226,
+    "to": 1669,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw254306216 275/77kV",
+    "from": 227,
+    "to": 1673,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw256682313 500/275kV",
+    "from": 64,
+    "to": 228,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw256682313 275/154kV",
+    "from": 228,
+    "to": 751,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw256682330 154/77kV",
+    "from": 752,
+    "to": 1676,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw256765107 275/77kV",
+    "from": 229,
+    "to": 1677,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw259056356 220/66kV",
+    "from": 435,
+    "to": 2649,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw272381607 154/77kV",
+    "from": 755,
+    "to": 1682,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw288222748 154/77kV",
+    "from": 757,
+    "to": 1684,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw291678103 500/275kV",
+    "from": 65,
+    "to": 231,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw296788490 220/66kV",
+    "from": 437,
+    "to": 2677,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw304390660 220/66kV",
+    "from": 441,
+    "to": 2684,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw307942220 500/187kV",
+    "from": 67,
+    "to": 579,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw309044203 187/66kV",
+    "from": 580,
+    "to": 2692,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw315608216 154/66kV",
+    "from": 759,
+    "to": 2695,
+    "rPu": 0.0006976744186046512,
+    "xPu": 0.027906976744186046,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 430.0
+  },
+  {
+    "name": "TX sw315614776 275/154kV",
+    "from": 232,
+    "to": 760,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw315614783 275/77kV",
+    "from": 233,
+    "to": 1692,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw315618377 500/275kV",
+    "from": 68,
+    "to": 234,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw315639820 154/77kV",
+    "from": 761,
+    "to": 1693,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw315662802 275/154kV",
+    "from": 235,
+    "to": 763,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw315662802 154/77kV",
+    "from": 763,
+    "to": 1694,
+    "rPu": 0.000625,
+    "xPu": 0.025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 480.0
+  },
+  {
+    "name": "TX sw315662816 275/154kV",
+    "from": 236,
+    "to": 764,
+    "rPu": 0.0003333333333333334,
+    "xPu": 0.013333333333333334,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 900.0
+  },
+  {
+    "name": "TX sw316216918 154/77kV",
+    "from": 765,
+    "to": 1702,
+    "rPu": 0.000625,
+    "xPu": 0.025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 480.0
+  },
+  {
+    "name": "TX sw316250984 154/77kV",
+    "from": 766,
+    "to": 1710,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw316466739 154/77kV",
+    "from": 767,
+    "to": 1716,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw317416612 500/275kV",
+    "from": 69,
+    "to": 239,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw317416612 275/110kV",
+    "from": 239,
+    "to": 1088,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw317416617 110/66kV",
+    "from": 1089,
+    "to": 2698,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw317416619 220/110kV",
+    "from": 443,
+    "to": 1090,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw317511904 500/220kV",
+    "from": 70,
+    "to": 444,
+    "rPu": 0.00015000000000000001,
+    "xPu": 0.006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2000.0
+  },
+  {
+    "name": "TX sw317511904 220/110kV",
+    "from": 444,
+    "to": 1094,
+    "rPu": 0.00047619047619047624,
+    "xPu": 0.01904761904761905,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 630.0
+  },
+  {
+    "name": "TX sw317525048 110/66kV",
+    "from": 1098,
+    "to": 2700,
+    "rPu": 0.0010344827586206897,
+    "xPu": 0.041379310344827586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 290.0
+  },
+  {
+    "name": "TX sw317734460 110/66kV",
+    "from": 1113,
+    "to": 2701,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw317734481 220/110kV",
+    "from": 445,
+    "to": 1116,
+    "rPu": 0.00041666666666666664,
+    "xPu": 0.016666666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 720.0
+  },
+  {
+    "name": "TX sw317800072 110/66kV",
+    "from": 1123,
+    "to": 2702,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw317829086 110/66kV",
+    "from": 1124,
+    "to": 2703,
+    "rPu": 0.0011111111111111111,
+    "xPu": 0.044444444444444446,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 270.0
+  },
+  {
+    "name": "TX sw317980483 220/110kV",
+    "from": 447,
+    "to": 1133,
+    "rPu": 0.00041666666666666664,
+    "xPu": 0.016666666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 720.0
+  },
+  {
+    "name": "TX sw318404596 110/66kV",
+    "from": 1136,
+    "to": 2708,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw318438133 110/66kV",
+    "from": 1138,
+    "to": 2711,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw318438206 220/110kV",
+    "from": 449,
+    "to": 1139,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw318438215 110/66kV",
+    "from": 1141,
+    "to": 2714,
+    "rPu": 0.0010344827586206897,
+    "xPu": 0.041379310344827586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 290.0
+  },
+  {
+    "name": "TX sw318564836 110/66kV",
+    "from": 1142,
+    "to": 2715,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw318564837 110/66kV",
+    "from": 1143,
+    "to": 2716,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw319463514 220/110kV",
+    "from": 451,
+    "to": 1151,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw320438391 500/275kV",
+    "from": 71,
+    "to": 240,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw320536909 275/154kV",
+    "from": 241,
+    "to": 768,
+    "rPu": 0.00020833333333333332,
+    "xPu": 0.008333333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1440.0
+  },
+  {
+    "name": "TX sw320536909 154/66kV",
+    "from": 768,
+    "to": 2719,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw320536910 154/66kV",
+    "from": 769,
+    "to": 2720,
+    "rPu": 0.0006976744186046512,
+    "xPu": 0.027906976744186046,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 430.0
+  },
+  {
+    "name": "TX sw320536918 154/66kV",
+    "from": 770,
+    "to": 2721,
+    "rPu": 0.0006976744186046512,
+    "xPu": 0.027906976744186046,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 430.0
+  },
+  {
+    "name": "TX sw320724295 110/66kV",
+    "from": 1153,
+    "to": 2723,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw320724309 110/66kV",
+    "from": 1154,
+    "to": 2724,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw324055341 154/66kV",
+    "from": 771,
+    "to": 2728,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw325868333 275/77kV",
+    "from": 243,
+    "to": 1723,
+    "rPu": 0.00035294117647058826,
+    "xPu": 0.01411764705882353,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 850.0
+  },
+  {
+    "name": "TX sw373870139 220/66kV",
+    "from": 452,
+    "to": 2736,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw373876262 220/66kV",
+    "from": 453,
+    "to": 2737,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw373882198 220/110kV",
+    "from": 454,
+    "to": 1158,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw373882198 110/66kV",
+    "from": 1158,
+    "to": 2738,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw373883352 220/66kV",
+    "from": 455,
+    "to": 2739,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw392770529 110/66kV",
+    "from": 1159,
+    "to": 2740,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw405605910 110/66kV",
+    "from": 1160,
+    "to": 2748,
+    "rPu": 0.0013043478260869564,
+    "xPu": 0.05217391304347826,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 230.0
+  },
+  {
+    "name": "TX sw405626236 500/220kV",
+    "from": 72,
+    "to": 456,
+    "rPu": 0.0001388888888888889,
+    "xPu": 0.005555555555555556,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2160.0
+  },
+  {
+    "name": "TX sw405626236 220/66kV",
+    "from": 456,
+    "to": 2749,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw405705606 220/66kV",
+    "from": 457,
+    "to": 2751,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw405806514 220/66kV",
+    "from": 458,
+    "to": 2755,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw405827724 220/66kV",
+    "from": 459,
+    "to": 2763,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw405827725 220/66kV",
+    "from": 460,
+    "to": 2764,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw406052986 220/66kV",
+    "from": 461,
+    "to": 2767,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw411189256 110/66kV",
+    "from": 1163,
+    "to": 2770,
+    "rPu": 0.0010344827586206897,
+    "xPu": 0.041379310344827586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 290.0
+  },
+  {
+    "name": "TX sw416863796 154/77kV",
+    "from": 774,
+    "to": 1738,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw429526604 110/66kV",
+    "from": 1166,
+    "to": 2779,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw459476442 500/275kV",
+    "from": 74,
+    "to": 248,
+    "rPu": 0.0001,
+    "xPu": 0.004,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "TX sw499574552 154/77kV",
+    "from": 776,
+    "to": 1785,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw524393243 275/154kV",
+    "from": 249,
+    "to": 778,
+    "rPu": 0.00020833333333333332,
+    "xPu": 0.008333333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1440.0
+  },
+  {
+    "name": "TX sw537843404 154/66kV",
+    "from": 780,
+    "to": 2787,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw549124637 154/66kV",
+    "from": 784,
+    "to": 2792,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw559673635 154/66kV",
+    "from": 786,
+    "to": 2796,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw561430199 500/77kV",
+    "from": 75,
+    "to": 1796,
+    "rPu": 0.0002,
+    "xPu": 0.008,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1500.0
+  },
+  {
+    "name": "TX sw567592345 187/66kV",
+    "from": 582,
+    "to": 2797,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw573818554 187/66kV",
+    "from": 583,
+    "to": 2799,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw575469656 154/66kV",
+    "from": 787,
+    "to": 2800,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw620007466 187/66kV",
+    "from": 584,
+    "to": 2854,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw620416467 110/66kV",
+    "from": 1179,
+    "to": 2859,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw620418393 110/66kV",
+    "from": 1180,
+    "to": 2860,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw620964349 187/110kV",
+    "from": 585,
+    "to": 1182,
+    "rPu": 0.0003703703703703704,
+    "xPu": 0.014814814814814815,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 810.0
+  },
+  {
+    "name": "TX sw620976970 187/66kV",
+    "from": 587,
+    "to": 2862,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw620976976 187/66kV",
+    "from": 588,
+    "to": 2864,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw620989307 187/66kV",
+    "from": 589,
+    "to": 2865,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw637520477 154/77kV",
+    "from": 797,
+    "to": 1814,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw641527416 220/110kV",
+    "from": 463,
+    "to": 1187,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw642335992 154/66kV",
+    "from": 801,
+    "to": 2888,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw703936218 154/77kV",
+    "from": 807,
+    "to": 1837,
+    "rPu": 0.00041666666666666664,
+    "xPu": 0.016666666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 720.0
+  },
+  {
+    "name": "TX sw704208233 187/66kV",
+    "from": 590,
+    "to": 2914,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw722498909 187/66kV",
+    "from": 592,
+    "to": 2922,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw724287148 187/77kV",
+    "from": 593,
+    "to": 1847,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw742290253 220/110kV",
+    "from": 464,
+    "to": 1195,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw742290253 110/66kV",
+    "from": 1195,
+    "to": 2933,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw742292275 220/66kV",
+    "from": 465,
+    "to": 2934,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw744453597 220/66kV",
+    "from": 466,
+    "to": 2937,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw753061912 110/66kV",
+    "from": 1196,
+    "to": 2938,
+    "rPu": 0.0010344827586206897,
+    "xPu": 0.041379310344827586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 290.0
+  },
+  {
+    "name": "TX sw768764428 110/66kV",
+    "from": 1201,
+    "to": 2981,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw771316104 154/77kV",
+    "from": 816,
+    "to": 1861,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw772765634 220/66kV",
+    "from": 468,
+    "to": 2984,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw775847772 154/77kV",
+    "from": 817,
+    "to": 1862,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw776529582 110/66kV",
+    "from": 1205,
+    "to": 2987,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw778910078 110/66kV",
+    "from": 1206,
+    "to": 2993,
+    "rPu": 0.0015,
+    "xPu": 0.06,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.0
+  },
+  {
+    "name": "TX sw785364108 154/66kV",
+    "from": 818,
+    "to": 2994,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw83096973 154/77kV",
+    "from": 820,
+    "to": 1876,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "TX sw839369877 275/77kV",
+    "from": 266,
+    "to": 1882,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw844182802 187/66kV",
+    "from": 595,
+    "to": 3001,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw87491654 187/66kV",
+    "from": 596,
+    "to": 3009,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw87491658 187/66kV",
+    "from": 597,
+    "to": 3010,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw87538349 500/187kV",
+    "from": 81,
+    "to": 598,
+    "rPu": 0.00011111111111111112,
+    "xPu": 0.0044444444444444444,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2700.0
+  },
+  {
+    "name": "TX sw90806466 220/66kV",
+    "from": 469,
+    "to": 3014,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw911441126 154/77kV",
+    "from": 821,
+    "to": 1895,
+    "rPu": 0.00075,
+    "xPu": 0.03,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "TX sw949748588 275/77kV",
+    "from": 268,
+    "to": 1902,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "TX sw961857473 275/77kV",
+    "from": 269,
+    "to": 1905,
+    "rPu": 0.0005,
+    "xPu": 0.02,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "gsu:plantw216616659_500",
+    "from": 3477,
+    "to": 1,
+    "rPu": 0.0002200892857142857,
+    "xPu": 0.008803571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1647.0588235294117
+  },
+  {
+    "name": "gsu:plantw216798224_500",
+    "from": 3478,
+    "to": 2,
+    "rPu": 7.00284090909091e-05,
+    "xPu": 0.0028011363636363637,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5176.470588235294
+  },
+  {
+    "name": "gsu:plantw605382253_500",
+    "from": 3479,
+    "to": 3,
+    "rPu": 0.0003757621951219512,
+    "xPu": 0.015030487804878047,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 964.7058823529412
+  },
+  {
+    "name": "gsu:plantw605382257_500",
+    "from": 3480,
+    "to": 4,
+    "rPu": 0.00011004464285714285,
+    "xPu": 0.004401785714285714,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3294.1176470588234
+  },
+  {
+    "name": "gsu:plantw605420905_500",
+    "from": 3481,
+    "to": 5,
+    "rPu": 0.0003730326876513317,
+    "xPu": 0.014921307506053267,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 971.7647058823529
+  },
+  {
+    "name": "gsu:sw1037299172_500",
+    "from": 3482,
+    "to": 9,
+    "rPu": 0.0003462078651685393,
+    "xPu": 0.013848314606741572,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1047.0588235294117
+  },
+  {
+    "name": "gsu:sw1037516198_500",
+    "from": 3483,
+    "to": 10,
+    "rPu": 0.00017118055555555555,
+    "xPu": 0.0068472222222222216,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2117.6470588235293
+  },
+  {
+    "name": "gsu:sw1038584990_500",
+    "from": 3484,
+    "to": 11,
+    "rPu": 0.00025549336650082917,
+    "xPu": 0.010219734660033166,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1418.8235294117646
+  },
+  {
+    "name": "gsu:sw1174979022_500",
+    "from": 3485,
+    "to": 16,
+    "rPu": 0.00013056144067796608,
+    "xPu": 0.005222457627118643,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2776.470588235294
+  },
+  {
+    "name": "gsu:sw1212140524_500",
+    "from": 3486,
+    "to": 17,
+    "rPu": 0.00011083633093525178,
+    "xPu": 0.004433453237410071,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3270.5882352941176
+  },
+  {
+    "name": "gsu:sw171066843_500",
+    "from": 3487,
+    "to": 37,
+    "rPu": 0.0006162499999999998,
+    "xPu": 0.024649999999999995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 588.2352941176471
+  },
+  {
+    "name": "gsu:sw185029969_500",
+    "from": 3488,
+    "to": 41,
+    "rPu": 0.0005135416666666666,
+    "xPu": 0.020541666666666663,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 705.8823529411765
+  },
+  {
+    "name": "gsu:sw186510275_500",
+    "from": 3489,
+    "to": 42,
+    "rPu": 0.00013056144067796608,
+    "xPu": 0.005222457627118643,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2776.470588235294
+  },
+  {
+    "name": "gsu:sw216953915_500",
+    "from": 3490,
+    "to": 55,
+    "rPu": 0.00014316745655608212,
+    "xPu": 0.005726698262243285,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2532.0
+  },
+  {
+    "name": "gsu:sw216956620_500",
+    "from": 3491,
+    "to": 56,
+    "rPu": 0.004158232118758433,
+    "xPu": 0.16632928475033734,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 87.1764705882353
+  },
+  {
+    "name": "gsu:sw241828221_500",
+    "from": 3492,
+    "to": 60,
+    "rPu": 0.0010169141914191417,
+    "xPu": 0.040676567656765666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 356.47058823529414
+  },
+  {
+    "name": "gsu:sw242103532_500",
+    "from": 3493,
+    "to": 62,
+    "rPu": 0.0001599818276220145,
+    "xPu": 0.00639927310488058,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2265.8823529411766
+  },
+  {
+    "name": "gsu:sw296789326_500",
+    "from": 3494,
+    "to": 66,
+    "rPu": 9.432157342924924e-05,
+    "xPu": 0.0037728629371699698,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3843.235294117647
+  },
+  {
+    "name": "gsu:sw809871336_500",
+    "from": 3495,
+    "to": 78,
+    "rPu": 9.083873820754716e-05,
+    "xPu": 0.0036335495283018864,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3990.5882352941176
+  },
+  {
+    "name": "gsu:sw832823487_500",
+    "from": 3496,
+    "to": 80,
+    "rPu": 0.00020541666666666663,
+    "xPu": 0.008216666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1764.7058823529412
+  },
+  {
+    "name": "gsu:sw962796302_500",
+    "from": 3497,
+    "to": 83,
+    "rPu": 9.592932752179327e-05,
+    "xPu": 0.0038371731008717304,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3778.823529411765
+  },
+  {
+    "name": "gsu:plantw1029051469_275",
+    "from": 3498,
+    "to": 136,
+    "rPu": 0.00012083333333333332,
+    "xPu": 0.004833333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3000.0
+  },
+  {
+    "name": "gsu:plantw180359727_275",
+    "from": 3499,
+    "to": 137,
+    "rPu": 6.416597251145355e-05,
+    "xPu": 0.002566638900458142,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5649.411764705883
+  },
+  {
+    "name": "gsu:plantw180359744_275",
+    "from": 3500,
+    "to": 138,
+    "rPu": 3.528687585890975e-05,
+    "xPu": 0.00141147503435639,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 10272.94117647059
+  },
+  {
+    "name": "gsu:plantw197821462_275",
+    "from": 3501,
+    "to": 139,
+    "rPu": 0.0001816774764150943,
+    "xPu": 0.007267099056603772,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1995.294117647059
+  },
+  {
+    "name": "gsu:plantw605382256_275",
+    "from": 3502,
+    "to": 140,
+    "rPu": 0.0006162499999999998,
+    "xPu": 0.024649999999999995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 588.2352941176471
+  },
+  {
+    "name": "gsu:plantw605420895_275",
+    "from": 3503,
+    "to": 141,
+    "rPu": 0.00020541666666666663,
+    "xPu": 0.008216666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1764.7058823529412
+  },
+  {
+    "name": "gsu:plantw605433847_275",
+    "from": 3504,
+    "to": 143,
+    "rPu": 0.0002567708333333333,
+    "xPu": 0.010270833333333331,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1411.764705882353
+  },
+  {
+    "name": "gsu:plantw618344823_275",
+    "from": 3505,
+    "to": 144,
+    "rPu": 0.0001294642857142857,
+    "xPu": 0.005178571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2800.0
+  },
+  {
+    "name": "gsu:sw108199478_275",
+    "from": 3506,
+    "to": 151,
+    "rPu": 6.276736606233447e-05,
+    "xPu": 0.002510694642493379,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5775.294117647059
+  },
+  {
+    "name": "gsu:sw110340505_275",
+    "from": 3507,
+    "to": 153,
+    "rPu": 0.0002200892857142857,
+    "xPu": 0.008803571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1647.0588235294117
+  },
+  {
+    "name": "gsu:sw1328548241_275",
+    "from": 3508,
+    "to": 162,
+    "rPu": 0.00014672619047619045,
+    "xPu": 0.005869047619047618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2470.5882352941176
+  },
+  {
+    "name": "gsu:sw1344336054_275",
+    "from": 3509,
+    "to": 164,
+    "rPu": 0.0002567708333333333,
+    "xPu": 0.010270833333333331,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1411.764705882353
+  },
+  {
+    "name": "gsu:sw170247393_275",
+    "from": 3510,
+    "to": 184,
+    "rPu": 7.515243902439022e-05,
+    "xPu": 0.003006097560975609,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4823.529411764706
+  },
+  {
+    "name": "gsu:sw170260161_275",
+    "from": 3511,
+    "to": 185,
+    "rPu": 0.0001621710526315789,
+    "xPu": 0.006486842105263156,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2235.294117647059
+  },
+  {
+    "name": "gsu:sw210658636_275",
+    "from": 3512,
+    "to": 217,
+    "rPu": 0.0014005681818181816,
+    "xPu": 0.056022727272727266,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 258.8235294117647
+  },
+  {
+    "name": "gsu:sw210661976_275",
+    "from": 3513,
+    "to": 218,
+    "rPu": 0.00036637931034482754,
+    "xPu": 0.014655172413793102,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 989.4117647058823
+  },
+  {
+    "name": "gsu:sw211258348_275",
+    "from": 3514,
+    "to": 219,
+    "rPu": 0.05502232142857142,
+    "xPu": 2.2008928571428568,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6.588235294117647
+  },
+  {
+    "name": "gsu:sw256682313_275",
+    "from": 3515,
+    "to": 228,
+    "rPu": 0.01902006172839506,
+    "xPu": 0.7608024691358024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 19.058823529411764
+  },
+  {
+    "name": "gsu:sw315662839_275",
+    "from": 3516,
+    "to": 237,
+    "rPu": 0.0004945826645264847,
+    "xPu": 0.019783306581059385,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 732.9411764705883
+  },
+  {
+    "name": "gsu:sw320724312_275",
+    "from": 3517,
+    "to": 242,
+    "rPu": 0.0003081249999999999,
+    "xPu": 0.012324999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1176.4705882352941
+  },
+  {
+    "name": "gsu:sw362343143_275",
+    "from": 3518,
+    "to": 244,
+    "rPu": 0.0002515306122448979,
+    "xPu": 0.010061224489795916,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1441.1764705882354
+  },
+  {
+    "name": "gsu:sw367261471_275",
+    "from": 3519,
+    "to": 246,
+    "rPu": 7.480577810148094e-05,
+    "xPu": 0.0029922311240592374,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4845.882352941177
+  },
+  {
+    "name": "gsu:sw440218169_275",
+    "from": 3520,
+    "to": 247,
+    "rPu": 0.0011245437956204378,
+    "xPu": 0.04498175182481751,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 322.3529411764706
+  },
+  {
+    "name": "gsu:sw618344828_275",
+    "from": 3521,
+    "to": 253,
+    "rPu": 0.0002738888888888889,
+    "xPu": 0.010955555555555555,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1323.5294117647059
+  },
+  {
+    "name": "gsu:sw621200283_275",
+    "from": 3522,
+    "to": 258,
+    "rPu": 0.00012695714874330448,
+    "xPu": 0.005078285949732179,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2855.2941176470586
+  },
+  {
+    "name": "gsu:sw798162352_275",
+    "from": 3523,
+    "to": 263,
+    "rPu": 9.965232858990942e-05,
+    "xPu": 0.0039860931435963766,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3637.6470588235297
+  },
+  {
+    "name": "gsu:sw798162366_275",
+    "from": 3524,
+    "to": 265,
+    "rPu": 0.0010624999999999999,
+    "xPu": 0.042499999999999996,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 341.1764705882353
+  },
+  {
+    "name": "gsu:plantw216499699_220",
+    "from": 3525,
+    "to": 351,
+    "rPu": 0.0006162499999999998,
+    "xPu": 0.024649999999999995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 588.2352941176471
+  },
+  {
+    "name": "gsu:plantw231759891_220",
+    "from": 3526,
+    "to": 352,
+    "rPu": 0.001609007832898172,
+    "xPu": 0.06436031331592688,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 225.29411764705884
+  },
+  {
+    "name": "gsu:plantw231877019_220",
+    "from": 3527,
+    "to": 353,
+    "rPu": 0.0020271381578947363,
+    "xPu": 0.08108552631578946,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 178.82352941176472
+  },
+  {
+    "name": "gsu:plantw744431833_220",
+    "from": 3528,
+    "to": 355,
+    "rPu": 0.00031218338399189454,
+    "xPu": 0.012487335359675783,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1161.1764705882354
+  },
+  {
+    "name": "gsu:sw1199776835_220",
+    "from": 3529,
+    "to": 357,
+    "rPu": 0.00013425925925925926,
+    "xPu": 0.00537037037037037,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2700.0
+  },
+  {
+    "name": "gsu:sw1427454449_220",
+    "from": 3530,
+    "to": 363,
+    "rPu": 0.0002567708333333333,
+    "xPu": 0.010270833333333331,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1411.764705882353
+  },
+  {
+    "name": "gsu:sw1511234043_220",
+    "from": 3531,
+    "to": 364,
+    "rPu": 0.0006486842105263156,
+    "xPu": 0.025947368421052625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 558.8235294117648
+  },
+  {
+    "name": "gsu:sw182188317_220",
+    "from": 3532,
+    "to": 381,
+    "rPu": 0.0038228908188585606,
+    "xPu": 0.15291563275434242,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 94.82352941176471
+  },
+  {
+    "name": "gsu:sw201289289_220",
+    "from": 3533,
+    "to": 397,
+    "rPu": 0.14672619047619045,
+    "xPu": 5.869047619047618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.4705882352941178
+  },
+  {
+    "name": "gsu:sw203776442_220",
+    "from": 3534,
+    "to": 399,
+    "rPu": 0.0013848314606741572,
+    "xPu": 0.05539325842696629,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 261.7647058823529
+  },
+  {
+    "name": "gsu:sw219579624_220",
+    "from": 3535,
+    "to": 413,
+    "rPu": 0.0003521428571428571,
+    "xPu": 0.014085714285714283,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1029.4117647058824
+  },
+  {
+    "name": "gsu:sw220707456_220",
+    "from": 3536,
+    "to": 415,
+    "rPu": 0.0003081249999999999,
+    "xPu": 0.012324999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1176.4705882352941
+  },
+  {
+    "name": "gsu:sw304390660_220",
+    "from": 3537,
+    "to": 441,
+    "rPu": 0.0020679530201342276,
+    "xPu": 0.08271812080536911,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 175.29411764705884
+  },
+  {
+    "name": "gsu:sw317416609_220",
+    "from": 3538,
+    "to": 442,
+    "rPu": 0.000725,
+    "xPu": 0.028999999999999998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "gsu:sw317980479_220",
+    "from": 3539,
+    "to": 446,
+    "rPu": 0.0004969758064516129,
+    "xPu": 0.019879032258064516,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 729.4117647058823
+  },
+  {
+    "name": "gsu:sw318438206_220",
+    "from": 3540,
+    "to": 449,
+    "rPu": 0.0003081249999999999,
+    "xPu": 0.012324999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1176.4705882352941
+  },
+  {
+    "name": "gsu:sw319463514_220",
+    "from": 3541,
+    "to": 451,
+    "rPu": 0.0004401785714285714,
+    "xPu": 0.017607142857142856,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 823.5294117647059
+  },
+  {
+    "name": "gsu:sw373883352_220",
+    "from": 3542,
+    "to": 455,
+    "rPu": 0.061624999999999985,
+    "xPu": 2.4649999999999994,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5.882352941176471
+  },
+  {
+    "name": "gsu:sw405806514_220",
+    "from": 3543,
+    "to": 458,
+    "rPu": 0.0003081249999999999,
+    "xPu": 0.012324999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1176.4705882352941
+  },
+  {
+    "name": "gsu:sw620155920_220",
+    "from": 3544,
+    "to": 462,
+    "rPu": 0.00036122508792497065,
+    "xPu": 0.014449003516998826,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1003.5294117647059
+  },
+  {
+    "name": "gsu:plantw605687599_187",
+    "from": 3545,
+    "to": 562,
+    "rPu": 0.00020541666666666663,
+    "xPu": 0.008216666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1764.7058823529412
+  },
+  {
+    "name": "gsu:sw1037463547_187",
+    "from": 3546,
+    "to": 565,
+    "rPu": 0.0002474899598393574,
+    "xPu": 0.009899598393574295,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1464.7058823529412
+  },
+  {
+    "name": "gsu:sw1037463614_187",
+    "from": 3547,
+    "to": 569,
+    "rPu": 0.0005010162601626016,
+    "xPu": 0.020040650406504063,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 723.5294117647059
+  },
+  {
+    "name": "gsu:sw173327088_187",
+    "from": 3548,
+    "to": 574,
+    "rPu": 0.015406249999999996,
+    "xPu": 0.6162499999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 23.529411764705884
+  },
+  {
+    "name": "gsu:sw620964349_187",
+    "from": 3549,
+    "to": 585,
+    "rPu": 0.045988805970149246,
+    "xPu": 1.8395522388059697,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 7.882352941176471
+  },
+  {
+    "name": "gsu:sw620975080_187",
+    "from": 3550,
+    "to": 586,
+    "rPu": 0.0010270833333333332,
+    "xPu": 0.041083333333333326,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 352.94117647058823
+  },
+  {
+    "name": "gsu:sw620976976_187",
+    "from": 3551,
+    "to": 588,
+    "rPu": 0.0007589285714285712,
+    "xPu": 0.03035714285714285,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 477.64705882352945
+  },
+  {
+    "name": "gsu:sw704208237_187",
+    "from": 3552,
+    "to": 591,
+    "rPu": 0.0012324999999999997,
+    "xPu": 0.04929999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 294.11764705882354
+  },
+  {
+    "name": "gsu:plantr12905117_154",
+    "from": 3553,
+    "to": 619,
+    "rPu": 0.0006181043129388163,
+    "xPu": 0.024724172517552653,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 586.4705882352941
+  },
+  {
+    "name": "gsu:plantw1354393085_154",
+    "from": 3554,
+    "to": 620,
+    "rPu": 0.01621710526315789,
+    "xPu": 0.6486842105263156,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 22.35294117647059
+  },
+  {
+    "name": "gsu:plantw605420897_154",
+    "from": 3555,
+    "to": 621,
+    "rPu": 0.0002738888888888889,
+    "xPu": 0.010955555555555555,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1323.5294117647059
+  },
+  {
+    "name": "gsu:sw1190176152_154",
+    "from": 3556,
+    "to": 631,
+    "rPu": 0.06847222222222221,
+    "xPu": 2.7388888888888885,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5.294117647058823
+  },
+  {
+    "name": "gsu:sw1300383786_154",
+    "from": 3557,
+    "to": 641,
+    "rPu": 0.0021930604982206402,
+    "xPu": 0.08772241992882561,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 165.29411764705884
+  },
+  {
+    "name": "gsu:sw1447717590_154",
+    "from": 3558,
+    "to": 649,
+    "rPu": 0.03349184782608695,
+    "xPu": 1.3396739130434778,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 10.823529411764708
+  },
+  {
+    "name": "gsu:sw188317052_154",
+    "from": 3559,
+    "to": 693,
+    "rPu": 0.0008350271002710026,
+    "xPu": 0.033401084010840104,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 434.11764705882354
+  },
+  {
+    "name": "gsu:sw191799657_154",
+    "from": 3560,
+    "to": 709,
+    "rPu": 0.07002840909090909,
+    "xPu": 2.8011363636363633,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 5.176470588235294
+  },
+  {
+    "name": "gsu:sw209518490_154",
+    "from": 3561,
+    "to": 732,
+    "rPu": 0.0008704096045197738,
+    "xPu": 0.03481638418079095,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 416.47058823529414
+  },
+  {
+    "name": "gsu:sw209629965_154",
+    "from": 3562,
+    "to": 733,
+    "rPu": 0.004531249999999999,
+    "xPu": 0.18124999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 80.0
+  },
+  {
+    "name": "gsu:sw210658643_154",
+    "from": 3563,
+    "to": 739,
+    "rPu": 0.006150199600798402,
+    "xPu": 0.24600798403193608,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.94117647058824
+  },
+  {
+    "name": "gsu:sw211148421_154",
+    "from": 3564,
+    "to": 743,
+    "rPu": 0.0030507425742574254,
+    "xPu": 0.12202970297029701,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 118.82352941176471
+  },
+  {
+    "name": "gsu:sw217128112_154",
+    "from": 3565,
+    "to": 746,
+    "rPu": 0.0002589285714285714,
+    "xPu": 0.010357142857142856,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1400.0
+  },
+  {
+    "name": "gsu:sw252476732_154",
+    "from": 3566,
+    "to": 750,
+    "rPu": 0.01890337423312883,
+    "xPu": 0.7561349693251531,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 19.176470588235297
+  },
+  {
+    "name": "gsu:sw320536909_154",
+    "from": 3567,
+    "to": 768,
+    "rPu": 0.03624999999999999,
+    "xPu": 1.4499999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 10.0
+  },
+  {
+    "name": "gsu:sw416863796_154",
+    "from": 3568,
+    "to": 774,
+    "rPu": 0.0020960884353741494,
+    "xPu": 0.08384353741496597,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 172.94117647058823
+  },
+  {
+    "name": "gsu:sw608911203_154",
+    "from": 3569,
+    "to": 789,
+    "rPu": 0.007478762135922329,
+    "xPu": 0.29915048543689315,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 48.47058823529412
+  },
+  {
+    "name": "gsu:sw618344847_154",
+    "from": 3570,
+    "to": 792,
+    "rPu": 0.0020679530201342276,
+    "xPu": 0.08271812080536911,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 175.29411764705884
+  },
+  {
+    "name": "gsu:sw618344870_154",
+    "from": 3571,
+    "to": 794,
+    "rPu": 0.006224747474747474,
+    "xPu": 0.24898989898989896,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.23529411764706
+  },
+  {
+    "name": "gsu:sw619265282_154",
+    "from": 3572,
+    "to": 796,
+    "rPu": 0.00020889830508474572,
+    "xPu": 0.00835593220338983,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1735.294117647059
+  },
+  {
+    "name": "gsu:sw642334417_154",
+    "from": 3573,
+    "to": 800,
+    "rPu": 0.0012324999999999997,
+    "xPu": 0.04929999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 294.11764705882354
+  },
+  {
+    "name": "gsu:sw680210367_154",
+    "from": 3574,
+    "to": 804,
+    "rPu": 0.004401785714285714,
+    "xPu": 0.17607142857142855,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.3529411764706
+  },
+  {
+    "name": "gsu:sw691052545_154",
+    "from": 3575,
+    "to": 806,
+    "rPu": 0.0024748995983935743,
+    "xPu": 0.09899598393574296,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 146.47058823529412
+  },
+  {
+    "name": "gsu:plantw1203481634_110",
+    "from": 3576,
+    "to": 1001,
+    "rPu": 0.0027511160714285706,
+    "xPu": 0.11004464285714283,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 131.76470588235296
+  },
+  {
+    "name": "gsu:plantw231759891_110",
+    "from": 3577,
+    "to": 1002,
+    "rPu": 0.011004464285714282,
+    "xPu": 0.4401785714285713,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.94117647058824
+  },
+  {
+    "name": "gsu:plantw605382259_110",
+    "from": 3578,
+    "to": 1004,
+    "rPu": 0.0002370192307692307,
+    "xPu": 0.009480769230769228,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1529.4117647058824
+  },
+  {
+    "name": "gsu:plantw756620089_110",
+    "from": 3579,
+    "to": 1005,
+    "rPu": 0.0023647352264006133,
+    "xPu": 0.09458940905602453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 153.29411764705884
+  },
+  {
+    "name": "gsu:sw1395747282_110",
+    "from": 3580,
+    "to": 1033,
+    "rPu": 0.0002200892857142857,
+    "xPu": 0.008803571428571428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1647.0588235294117
+  },
+  {
+    "name": "gsu:sw1417215965_110",
+    "from": 3581,
+    "to": 1037,
+    "rPu": 0.003144132653061224,
+    "xPu": 0.12576530612244896,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 115.29411764705883
+  },
+  {
+    "name": "gsu:sw641622947_110",
+    "from": 3582,
+    "to": 1189,
+    "rPu": 0.0003625,
+    "xPu": 0.014499999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1000.0
+  },
+  {
+    "name": "gsu:sw708329972_110",
+    "from": 3583,
+    "to": 1194,
+    "rPu": 0.004220890410958903,
+    "xPu": 0.16883561643835612,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 85.88235294117648
+  },
+  {
+    "name": "gsu:sw754338515_110",
+    "from": 3584,
+    "to": 1197,
+    "rPu": 0.005684963099630996,
+    "xPu": 0.22739852398523983,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 63.76470588235294
+  },
+  {
+    "name": "gsu:sw755390899_110",
+    "from": 3585,
+    "to": 1198,
+    "rPu": 0.010135690789473682,
+    "xPu": 0.4054276315789473,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 35.76470588235294
+  },
+  {
+    "name": "gsu:sw756367747_110",
+    "from": 3586,
+    "to": 1199,
+    "rPu": 0.004922124600638977,
+    "xPu": 0.19688498402555907,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 73.64705882352942
+  },
+  {
+    "name": "gsu:plantw643561003_77",
+    "from": 3587,
+    "to": 1379,
+    "rPu": 0.0012324999999999997,
+    "xPu": 0.04929999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 294.11764705882354
+  },
+  {
+    "name": "gsu:sw316250984_77",
+    "from": 3588,
+    "to": 1710,
+    "rPu": 0.0012324999999999997,
+    "xPu": 0.04929999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 294.11764705882354
+  },
+  {
+    "name": "gsu:sw485668116_77",
+    "from": 3589,
+    "to": 1779,
+    "rPu": 0.09628906249999998,
+    "xPu": 3.851562499999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3.7647058823529416
+  },
+  {
+    "name": "gsu:sw555069914_77",
+    "from": 3590,
+    "to": 1795,
+    "rPu": 0.03950320512820513,
+    "xPu": 1.580128205128205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9.176470588235293
+  },
+  {
+    "name": "gsu:sw599080319_77",
+    "from": 3591,
+    "to": 1799,
+    "rPu": 0.05502232142857142,
+    "xPu": 2.2008928571428568,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6.588235294117647
+  },
+  {
+    "name": "gsu:sw738027101_77",
+    "from": 3592,
+    "to": 1855,
+    "rPu": 0.0006555851063829786,
+    "xPu": 0.026223404255319143,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 552.9411764705883
+  },
+  {
+    "name": "gsu:sw831552351_77",
+    "from": 3593,
+    "to": 1878,
+    "rPu": 0.0020960884353741494,
+    "xPu": 0.08384353741496597,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 172.94117647058823
+  },
+  {
+    "name": "gsu:plantw756361520_66",
+    "from": 3594,
+    "to": 2251,
+    "rPu": 0.005551801801801801,
+    "xPu": 0.22207207207207202,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 65.29411764705883
+  },
+  {
+    "name": "gsu:sw1017154864_66",
+    "from": 3595,
+    "to": 2253,
+    "rPu": 0.008803571428571428,
+    "xPu": 0.3521428571428571,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 41.1764705882353
+  },
+  {
+    "name": "gsu:sw182188317_66",
+    "from": 3596,
+    "to": 2557,
+    "rPu": 0.041083333333333326,
+    "xPu": 1.643333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 8.823529411764707
+  },
+  {
+    "name": "gsu:sw182231512_66",
+    "from": 3597,
+    "to": 2558,
+    "rPu": 0.010270833333333331,
+    "xPu": 0.4108333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 35.294117647058826
+  },
+  {
+    "name": "gsu:sw221030543_66",
+    "from": 3598,
+    "to": 2607,
+    "rPu": 0.051354166666666666,
+    "xPu": 2.0541666666666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 7.0588235294117645
+  },
+  {
+    "name": "gsu:sw244136536_66",
+    "from": 3599,
+    "to": 2629,
+    "rPu": 0.1433139534883721,
+    "xPu": 5.732558139534883,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.5294117647058822
+  },
+  {
+    "name": "gsu:sw411425216_66",
+    "from": 3600,
+    "to": 2772,
+    "rPu": 0.0028011363636363633,
+    "xPu": 0.11204545454545453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 129.41176470588235
+  },
+  {
+    "name": "gsu:sw416535782_66",
+    "from": 3601,
+    "to": 2773,
+    "rPu": 0.012324999999999997,
+    "xPu": 0.4929999999999999,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 29.411764705882355
+  },
+  {
+    "name": "gsu:sw417730308_66",
+    "from": 3602,
+    "to": 2775,
+    "rPu": 0.01058848797250859,
+    "xPu": 0.4235395189003436,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.23529411764706
+  },
+  {
+    "name": "gsu:sw417734805_66",
+    "from": 3603,
+    "to": 2776,
+    "rPu": 0.03050742574257425,
+    "xPu": 1.22029702970297,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.882352941176471
+  },
+  {
+    "name": "gsu:sw607919421_66",
+    "from": 3604,
+    "to": 2828,
+    "rPu": 0.010270833333333331,
+    "xPu": 0.4108333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 35.294117647058826
+  },
+  {
+    "name": "gsu:sw609308564_66",
+    "from": 3605,
+    "to": 2837,
+    "rPu": 0.002567708333333333,
+    "xPu": 0.10270833333333332,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 141.1764705882353
+  },
+  {
+    "name": "gsu:sw755177087_66",
+    "from": 3606,
+    "to": 2942,
+    "rPu": 0.019257812499999995,
+    "xPu": 0.7703124999999998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 18.823529411764707
+  },
+  {
+    "name": "gsu:sw756490128_66",
+    "from": 3607,
+    "to": 2947,
+    "rPu": 0.005813679245283017,
+    "xPu": 0.2325471698113207,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 62.352941176470594
+  },
+  {
+    "name": "gsu:sw758761962_66",
+    "from": 3608,
+    "to": 2952,
+    "rPu": 0.028530092592592586,
+    "xPu": 1.1412037037037035,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 12.705882352941178
+  },
+  {
+    "name": "gsu:sw762320863_66",
+    "from": 3609,
+    "to": 2958,
+    "rPu": 0.009539473684210525,
+    "xPu": 0.381578947368421,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 38.0
+  },
+  {
+    "name": "gsu:sw776254155_66",
+    "from": 3610,
+    "to": 2985,
+    "rPu": 0.026112288135593215,
+    "xPu": 1.0444915254237286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 13.882352941176471
+  },
+  {
+    "name": "gsu:sw933991765_66",
+    "from": 3611,
+    "to": 3016,
+    "rPu": 0.0002567708333333333,
+    "xPu": 0.010270833333333331,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1411.764705882353
+  }
+]

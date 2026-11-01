@@ -1,0 +1,342 @@
+[
+  {
+    "name": "jao:Bericevo - Krsko:0",
+    "from": 1,
+    "to": 6,
+    "rPu": 0.00134375,
+    "xPu": 0.014343749999999999,
+    "bPu": 0.39343984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bericevo - Krsko:1",
+    "from": 1,
+    "to": 6,
+    "rPu": 0.00134375,
+    "xPu": 0.014343749999999999,
+    "bPu": 0.39343984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Bericevo:2",
+    "from": 3,
+    "to": 1,
+    "rPu": 0.00145625,
+    "xPu": 0.0155375,
+    "bPu": 0.43183968000000006,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Klece:3",
+    "from": 17,
+    "to": 18,
+    "rPu": 0.008119834710743802,
+    "xPu": 0.05642561983471074,
+    "bPu": 0.09002390319999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Podlog - Bericevo:4",
+    "from": 23,
+    "to": 15,
+    "rPu": 0.007727272727272728,
+    "xPu": 0.0534297520661157,
+    "bPu": 0.0862004,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cirkovce - Krsko:5",
+    "from": 2,
+    "to": 6,
+    "rPu": 0.0011043125,
+    "xPu": 0.01153375,
+    "bPu": 0.3284144,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Podlog - Cirkovce:6",
+    "from": 10,
+    "to": 2,
+    "rPu": 0.0009945,
+    "xPu": 0.0106975,
+    "bPu": 0.030340719999999995,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bericevo - Podlog:7",
+    "from": 1,
+    "to": 10,
+    "rPu": 0.0009562500000000001,
+    "xPu": 0.01021875,
+    "bPu": 0.28399984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Okroglo - Bericevo:8",
+    "from": 9,
+    "to": 1,
+    "rPu": 0.0005812500000000001,
+    "xPu": 0.00618125,
+    "bPu": 0.24464,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Okroglo - Bericevo:9",
+    "from": 9,
+    "to": 1,
+    "rPu": 0.0005812500000000001,
+    "xPu": 0.00618125,
+    "bPu": 0.24464,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Maribor - Cirkovce:10",
+    "from": 7,
+    "to": 2,
+    "rPu": 0.0003541875,
+    "xPu": 0.0036995,
+    "bPu": 0.10533582400000001,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Maribor - Cirkovce:11",
+    "from": 7,
+    "to": 2,
+    "rPu": 0.0003541875,
+    "xPu": 0.0036995,
+    "bPu": 0.10533582400000001,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bericevo - Klece:12",
+    "from": 15,
+    "to": 18,
+    "rPu": 0.0016115702479338842,
+    "xPu": 0.010888429752066114,
+    "bPu": 0.018392029039999997,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Podlog - Sostanj:13",
+    "from": 10,
+    "to": 12,
+    "rPu": 0.0002510625,
+    "xPu": 0.0026405625,
+    "bPu": 0.073408192,
+    "ratingMva": 1163.9381426862856,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cirkovce - Zerjavinec:14",
+    "from": 2,
+    "to": 14,
+    "rPu": 0.001501875,
+    "xPu": 0.011170625,
+    "bPu": 0.3550993599999999,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cirkovce - Hevitz:15",
+    "from": 2,
+    "to": 4,
+    "rPu": 0.001265375,
+    "xPu": 0.014352499999999999,
+    "bPu": 0.46232096,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Podlog - Zerjavinec:16",
+    "from": 23,
+    "to": 25,
+    "rPu": 0.008863636363636363,
+    "xPu": 0.05167355371900827,
+    "bPu": 0.0809732,
+    "ratingMva": 297.2199185788193,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Melina:17",
+    "from": 3,
+    "to": 8,
+    "rPu": 0.0006378124999999999,
+    "xPu": 0.006789374999999999,
+    "bPu": 0.1883744,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Podlog - Obersielach:18",
+    "from": 23,
+    "to": 19,
+    "rPu": 0.004113636363636364,
+    "xPu": 0.028006198347107436,
+    "bPu": 0.03802117176,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Maribor - Kainachtal:19",
+    "from": 7,
+    "to": 5,
+    "rPu": 0.00044875,
+    "xPu": 0.005642812499999999,
+    "bPu": 0.16939215999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Maribor - Kainachtal:20",
+    "from": 7,
+    "to": 5,
+    "rPu": 0.00044875,
+    "xPu": 0.005642812499999999,
+    "bPu": 0.16939215999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Pehlin:21",
+    "from": 17,
+    "to": 22,
+    "rPu": 0.0032541322314049584,
+    "xPu": 0.022799586776859504,
+    "bPu": 0.03586916256,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Redipuglia:22",
+    "from": 3,
+    "to": 11,
+    "rPu": 0.00037831249999999996,
+    "xPu": 0.004465625,
+    "bPu": 0.15480008,
+    "ratingMva": 1862.301028298057,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Krsko - Tumbri:23",
+    "from": 6,
+    "to": 13,
+    "rPu": 0.00044775,
+    "xPu": 0.00473375,
+    "bPu": 0.14069608,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Krsko - Tumbri:24",
+    "from": 6,
+    "to": 13,
+    "rPu": 0.00044775,
+    "xPu": 0.00473375,
+    "bPu": 0.14069608,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Divaca - Padriciano:25",
+    "from": 17,
+    "to": 21,
+    "rPu": 0.0007035123966942149,
+    "xPu": 0.00493595041322314,
+    "bPu": 0.007754701240000001,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:podlog - cirkovce 220 (OSM way/1055663994-220)",
+    "from": 23,
+    "to": 16,
+    "rPu": 0.006240561598894933,
+    "xPu": 0.04314997939770668,
+    "bPu": 0.06961562313580247,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:klece - osm virtual_way/54933954:1 220 (OSM way/167068866-220)",
+    "from": 18,
+    "to": 20,
+    "rPu": 0.0004284734812512591,
+    "xPu": 0.002962653536138385,
+    "bPu": 0.004779769884773663,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:podlog - osm virtual_way/54933954:1 220 (OSM way/198587969-220)",
+    "from": 23,
+    "to": 20,
+    "rPu": 0.006554739201128089,
+    "xPu": 0.04532234110726535,
+    "bPu": 0.07312038295720164,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sostanj - podlog 220 (OSM way/198587971-220)",
+    "from": 24,
+    "to": 23,
+    "rPu": 0.0015574674091340757,
+    "xPu": 0.010769012620376257,
+    "bPu": 0.017374087649382714,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bericevo - osm virtual_way/54933954:1 220 (OSM way/54933954-220)",
+    "from": 15,
+    "to": 20,
+    "rPu": 0.0012092655903767017,
+    "xPu": 0.008361392558059226,
+    "bPu": 0.013489775924279836,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:HR:SI:melina [HR]:hv~SI:tumbri [HR]:hv",
+    "from": 8,
+    "to": 13,
+    "rPu": 0.0024875,
+    "xPu": 0.025612499999999996,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:HR:SI:pehlin [HR]:220~SI:zerjavinec [HR]:220",
+    "from": 22,
+    "to": 25,
+    "rPu": 0.04922106778553209,
+    "xPu": 0.23740441711059002,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:HR:SI:tumbri [HR]:hv~SI:zerjavinec [HR]:hv",
+    "from": 13,
+    "to": 14,
+    "rPu": 0.0011437499999999998,
+    "xPu": 0.01189375,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

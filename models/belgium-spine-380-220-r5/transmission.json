@@ -1,0 +1,1892 @@
+[
+  {
+    "name": "jao:AUBANGE - BRUME 380.13:0",
+    "from": 5,
+    "to": 9,
+    "rPu": 0.0024584487534626037,
+    "xPu": 0.022770083102493077,
+    "bPu": 0.5477915080000001,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MEERHOUT - VAN EYCK 380.23:1",
+    "from": 31,
+    "to": 46,
+    "rPu": 0.0012119113573407201,
+    "xPu": 0.012894736842105264,
+    "bPu": 0.291780416,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MEERHOUT - VAN EYCK 380.24:2",
+    "from": 31,
+    "to": 46,
+    "rPu": 0.0011911357340720222,
+    "xPu": 0.01291551246537396,
+    "bPu": 0.29137465199999996,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - COURCELLES (- GRAMME - TERGNEE) 380.31:3",
+    "from": 13,
+    "to": 52,
+    "rPu": 0.0002700831024930748,
+    "xPu": 0.0028601108033241,
+    "bPu": 0.07023038399999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - GRAMME (- COURCELLES - TERGNEE) 380.31:4",
+    "from": 19,
+    "to": 52,
+    "rPu": 0.0012119113573407201,
+    "xPu": 0.012811634349030472,
+    "bPu": 0.31450464399999994,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - TERGNEE (- COURCELLES - GRAMME) 380.31:5",
+    "from": 52,
+    "to": 41,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.0017036011080332409,
+    "bPu": 0.04008544,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - ANDRE DUMONT (- GRAMME - VAN EYCK) 380.12:6",
+    "from": 4,
+    "to": 53,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.0015373961218836567,
+    "bPu": 0.034656,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - GRAMME (- ANDRE DUMONT - VAN EYCK) 380.12:7",
+    "from": 19,
+    "to": 53,
+    "rPu": 0.001281163434903047,
+    "xPu": 0.011939058171745152,
+    "bPu": 0.29235079599999997,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - VAN EYCK (- ANDRE DUMONT - GRAMME) 380.12:8",
+    "from": 46,
+    "to": 53,
+    "rPu": 0.0004986149584487534,
+    "xPu": 0.006613573407202217,
+    "bPu": 0.16512862,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - LIXHE 380.11:9",
+    "from": 19,
+    "to": 25,
+    "rPu": 0.001371191135734072,
+    "xPu": 0.011530470914127422,
+    "bPu": 0.28249694,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LIXHE - VAN EYCK 380.91:10",
+    "from": 25,
+    "to": 46,
+    "rPu": 0.0014335180055401661,
+    "xPu": 0.011447368421052633,
+    "bPu": 0.27863424,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUEGEL - COURCELLES 380.34:11",
+    "from": 8,
+    "to": 13,
+    "rPu": 0.001018005540166205,
+    "xPu": 0.010740997229916897,
+    "bPu": 0.2636744,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - VILLEROUX 220.506:12",
+    "from": 55,
+    "to": 94,
+    "rPu": 0.008285123966942148,
+    "xPu": 0.029256198347107437,
+    "bPu": 0.074611988,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:STEVIN - OFFSHORE WINDPARK 220.1 O:13",
+    "from": 93,
+    "to": 81,
+    "rPu": 0.0036570247933884296,
+    "xPu": 0.01146694214876033,
+    "bPu": 1.306379888,
+    "ratingMva": 381.051177665153,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUME - GRAMME 380.1:14",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.0009487534626038782,
+    "xPu": 0.010062326869806093,
+    "bPu": 0.236816,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUME - GRAMME 380.2:15",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.0009487534626038782,
+    "xPu": 0.010062326869806093,
+    "bPu": 0.24602871999999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHAMPION - COURCELLES 380.56:16",
+    "from": 12,
+    "to": 13,
+    "rPu": 0.0009487534626038782,
+    "xPu": 0.010013850415512466,
+    "bPu": 0.245832336,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - STEVIN 220.11:17",
+    "from": 77,
+    "to": 93,
+    "rPu": 0.0031611570247933886,
+    "xPu": 0.008471074380165288,
+    "bPu": 1.511407612,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - STEVIN 220.4 O:18",
+    "from": 76,
+    "to": 93,
+    "rPu": 0.003450413223140496,
+    "xPu": 0.009669421487603306,
+    "bPu": 1.356580368,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - STEVIN 220.5 O:19",
+    "from": 77,
+    "to": 93,
+    "rPu": 0.003078512396694215,
+    "xPu": 0.008636363636363636,
+    "bPu": 1.514688164,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - HORTA 380.101:20",
+    "from": 6,
+    "to": 20,
+    "rPu": 0.00046398891966759005,
+    "xPu": 0.008441828254847645,
+    "bPu": 0.21279650400000003,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - HORTA 380.102:21",
+    "from": 6,
+    "to": 20,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.008421052631578947,
+    "bPu": 0.212395072,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Q1 - VILLEROUX (- BASTOGNE - MARCOURT - RIMIERE - SENONCHAMPS) 220.501:22",
+    "from": 100,
+    "to": 94,
+    "rPu": 0.0013016528925619835,
+    "xPu": 0.004442148760330578,
+    "bPu": 0.004110128,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Q1 - BASTOGNE (- MARCOURT - RIMIERE - SENONCHAMPS - VILLEROUX) 220.501:23",
+    "from": 57,
+    "to": 100,
+    "rPu": 0.00026859504132231406,
+    "xPu": 0.0009297520661157025,
+    "bPu": 0.0023720839999999996,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Q2 - MARCOURT (- BASTOGNE - RIMIERE - SENONCHAMPS - VILLEROUX) 220.501:24",
+    "from": 98,
+    "to": 73,
+    "rPu": 0.00010330578512396695,
+    "xPu": 0.00037190082644628097,
+    "bPu": 0.0009481559999999999,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Q2 - RIMIERE (- BASTOGNE - MARCOURT - SENONCHAMPS - VILLEROUX) 220.501:25",
+    "from": 98,
+    "to": 85,
+    "rPu": 0.006673553719008265,
+    "xPu": 0.02334710743801653,
+    "bPu": 0.06006778799999999,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Q1 - Q2 (- BASTOGNE - MARCOURT - SENONCHAMPS - VILLEROUX) 220.501:26",
+    "from": 98,
+    "to": 100,
+    "rPu": 0.004710743801652892,
+    "xPu": 0.01661157024793388,
+    "bPu": 0.042360164,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ACHENE - GRAMME 380.10:27",
+    "from": 2,
+    "to": 19,
+    "rPu": 0.0007894736842105263,
+    "xPu": 0.008379501385041552,
+    "bPu": 0.20428845599999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MASSENHOVEN - MERCATOR 380.60:28",
+    "from": 29,
+    "to": 32,
+    "rPu": 0.000754847645429363,
+    "xPu": 0.00799168975069252,
+    "bPu": 0.177899356,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - HORTA (- MERCATOR - RODENHUIZE) 380.74:29",
+    "from": 20,
+    "to": 51,
+    "rPu": 0.00018005540166204988,
+    "xPu": 0.00314404432132964,
+    "bPu": 0.073027412,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - MERCATOR (- HORTA - RODENHUIZE) 380.74:30",
+    "from": 32,
+    "to": 51,
+    "rPu": 0.0004293628808864266,
+    "xPu": 0.007569252077562327,
+    "bPu": 0.175755016,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - RODENHUIZE (- HORTA - MERCATOR) 380.74:31",
+    "from": 51,
+    "to": 39,
+    "rPu": 6.9252077562326875e-06,
+    "xPu": 0.0001,
+    "bPu": 0.0,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - HORTA (- MERCATOR - RODENHUIZE) 380.73:32",
+    "from": 20,
+    "to": 51,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.0031163434903047093,
+    "bPu": 0.07388948,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - MERCATOR (- HORTA - RODENHUIZE) 380.73:33",
+    "from": 32,
+    "to": 51,
+    "rPu": 0.0004293628808864266,
+    "xPu": 0.007569252077562327,
+    "bPu": 0.175755016,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - RODENHUIZE (- HORTA - MERCATOR) 380.73:34",
+    "from": 51,
+    "to": 39,
+    "rPu": 1.3850415512465375e-05,
+    "xPu": 0.0001592797783933518,
+    "bPu": 0.0,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - BRUEGHEL (- COURCELLES - DROGENBOS) 380.33:35",
+    "from": 8,
+    "to": 50,
+    "rPu": 0.0003116343490304709,
+    "xPu": 0.003206371191135734,
+    "bPu": 0.07823592,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - COURCELLES (- BRUEGHEL - DROGENBOS) 380.33:36",
+    "from": 13,
+    "to": 50,
+    "rPu": 0.0007132963988919667,
+    "xPu": 0.0075831024930747915,
+    "bPu": 0.185119356,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - DROGENBOS (- BRUEGHEL - COURCELLES) 380.33:37",
+    "from": 15,
+    "to": 50,
+    "rPu": 0.000221606648199446,
+    "xPu": 0.002340720221606648,
+    "bPu": 0.057202616,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HEINSCH - VILLEROUX 220.505:38",
+    "from": 66,
+    "to": 94,
+    "rPu": 0.007086776859504132,
+    "xPu": 0.019979338842975206,
+    "bPu": 0.052476247999999996,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MASSENHOVEN - MEERHOUT 380.21:39",
+    "from": 29,
+    "to": 31,
+    "rPu": 0.0008518005540166204,
+    "xPu": 0.007271468144044321,
+    "bPu": 0.16440950799999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MASSENHOVEN - MEERHOUT 380.22:40",
+    "from": 29,
+    "to": 31,
+    "rPu": 0.0008518005540166204,
+    "xPu": 0.007271468144044321,
+    "bPu": 0.164689644,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHAMPION - GRAMME 380.32:41",
+    "from": 12,
+    "to": 19,
+    "rPu": 0.0006925207756232687,
+    "xPu": 0.007313019390581718,
+    "bPu": 0.179412668,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HORTA - MAERLANT 380.104:42",
+    "from": 20,
+    "to": 28,
+    "rPu": 0.00030470914127423825,
+    "xPu": 0.00549168975069252,
+    "bPu": 0.17495503999999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:STEVIN - OFFSHORE WINDPARK 220.3 O:43",
+    "from": 93,
+    "to": 81,
+    "rPu": 0.0006818181818181819,
+    "xPu": 0.006177685950413223,
+    "bPu": 1.183581344,
+    "ratingMva": 417.2510395433425,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - BRUME (- HOUFFALIZE - VILLEROUX) 220.504:44",
+    "from": 61,
+    "to": 96,
+    "rPu": 0.003347107438016529,
+    "xPu": 0.01681818181818182,
+    "bPu": 0.046580159999999995,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - HOUFFALIZE (- BRUME - VILLEROUX) 220.504:45",
+    "from": 96,
+    "to": 67,
+    "rPu": 4.132231404958678e-05,
+    "xPu": 0.00018595041322314049,
+    "bPu": 0.0005140079999999999,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - VILLEROUX (- HOUFFALIZE - BRUME) 220.504:46",
+    "from": 96,
+    "to": 94,
+    "rPu": 0.0031198347107438016,
+    "xPu": 0.015557851239669422,
+    "bPu": 0.043365916,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - IZEGEM 380.46:47",
+    "from": 6,
+    "to": 21,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.00518005540166205,
+    "bPu": 0.1265666,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - IZEGEM 380.47:48",
+    "from": 6,
+    "to": 21,
+    "rPu": 0.0004916897506925207,
+    "xPu": 0.00518005540166205,
+    "bPu": 0.1265666,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOEL - MERCATOR 380.53:49",
+    "from": 14,
+    "to": 32,
+    "rPu": 0.00047091412742382275,
+    "xPu": 0.004979224376731302,
+    "bPu": 0.12172053599999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOEL - MERCATOR 380.54:50",
+    "from": 14,
+    "to": 32,
+    "rPu": 0.0005470914127423822,
+    "xPu": 0.004729916897506925,
+    "bPu": 0.11554599199999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - BRUEGHEL (- MERCATOR - VERBRANDE BRUG) 380.35:51",
+    "from": 8,
+    "to": 48,
+    "rPu": 0.0002493074792243767,
+    "xPu": 0.0035110803324099726,
+    "bPu": 0.081525352,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - MERCATOR (- BRUEGHEL - VERBRANDE BRUG) 380.35:52",
+    "from": 48,
+    "to": 32,
+    "rPu": 0.00024466759002770086,
+    "xPu": 0.0034141274238227146,
+    "bPu": 0.07939545199999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - VERBRANDE BRUG (- BRUEGHEL - MERCATOR) 380.35:53",
+    "from": 48,
+    "to": 47,
+    "rPu": 0.00045706371191135735,
+    "xPu": 0.0047853185595567865,
+    "bPu": 0.12051190799999997,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - BRUEGHEL (- MERCATOR - VERBRANDE BRUG) 380.36:54",
+    "from": 8,
+    "to": 48,
+    "rPu": 0.00034626038781163435,
+    "xPu": 0.0036357340720221606,
+    "bPu": 0.089240644,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - MERCATOR (- BRUEGHEL - VERBRANDE BRUG) 380.36:55",
+    "from": 48,
+    "to": 32,
+    "rPu": 0.0002562326869806094,
+    "xPu": 0.0034279778393351804,
+    "bPu": 0.079453212,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - VERBRANDE BRUG (- BRUEGHEL - MERCATOR) 380.36:56",
+    "from": 48,
+    "to": 47,
+    "rPu": 0.00046398891966759005,
+    "xPu": 0.004930747922437673,
+    "bPu": 0.120513352,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JUPILLE - RIMIERE 220.538:57",
+    "from": 68,
+    "to": 85,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.01774793388429752,
+    "bPu": 0.026875551999999997,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - OFFSHORE WINDPARK 220.14:58",
+    "from": 77,
+    "to": 78,
+    "rPu": 0.0025619834710743803,
+    "xPu": 0.005785123966942148,
+    "bPu": 0.561528572,
+    "ratingMva": 381.051177665153,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - ST-MARD 220.516:59",
+    "from": 55,
+    "to": 92,
+    "rPu": 0.003347107438016529,
+    "xPu": 0.017355371900826446,
+    "bPu": 0.028555999999999998,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LINT - MERCATOR 380.59:60",
+    "from": 24,
+    "to": 32,
+    "rPu": 0.00045013850415512465,
+    "xPu": 0.004792243767313019,
+    "bPu": 0.10656864399999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LINT - MASSENHOVEN 380.61:61",
+    "from": 24,
+    "to": 29,
+    "rPu": 0.0003185595567867036,
+    "xPu": 0.003157894736842105,
+    "bPu": 0.072442592,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LINT - MERCATOR 380.61:62",
+    "from": 24,
+    "to": 32,
+    "rPu": 0.00045013850415512465,
+    "xPu": 0.004792243767313019,
+    "bPu": 0.10656864399999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JUPILLE - LIXHE 220.542:63",
+    "from": 68,
+    "to": 72,
+    "rPu": 0.0031198347107438016,
+    "xPu": 0.01609504132231405,
+    "bPu": 0.02635864,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BERNEAU - JUPILLE 220.531:64",
+    "from": 59,
+    "to": 68,
+    "rPu": 0.0022520661157024793,
+    "xPu": 0.013491735537190084,
+    "bPu": 0.12800202799999996,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:EEKLO NOORD - HORTA 380.103:65",
+    "from": 16,
+    "to": 20,
+    "rPu": 0.0002770083102493075,
+    "xPu": 0.0029501385041551245,
+    "bPu": 0.072585548,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:EEKLO NOORD - MAERLANT 380.103:66",
+    "from": 16,
+    "to": 28,
+    "rPu": 0.00019390581717451525,
+    "xPu": 0.002818559556786704,
+    "bPu": 0.11493806799999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LILLO - ZANDVLIET 380.65:67",
+    "from": 23,
+    "to": 54,
+    "rPu": 0.0002146814404432133,
+    "xPu": 0.0036357340720221606,
+    "bPu": 0.094453484,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - DOEL (- LILLO - MERCATOR) 380.51:68",
+    "from": 14,
+    "to": 49,
+    "rPu": 0.00013850415512465375,
+    "xPu": 0.0013642659279778392,
+    "bPu": 0.025922688,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - LILLO (- DOEL - MERCATOR) 380.51:69",
+    "from": 49,
+    "to": 23,
+    "rPu": 6.232686980609417e-05,
+    "xPu": 0.0006509695290858725,
+    "bPu": 0.011634308,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - MERCATOR (- DOEL - LILLO) 380.51:70",
+    "from": 49,
+    "to": 32,
+    "rPu": 0.00036703601108033245,
+    "xPu": 0.0038642659279778395,
+    "bPu": 0.09474661599999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LILLO - ZANDVLIET 380.66:71",
+    "from": 23,
+    "to": 54,
+    "rPu": 0.00019390581717451525,
+    "xPu": 0.003358725761772853,
+    "bPu": 0.087312904,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - AUBANGE (- LATOUR - SAINT-MARD) 220.515:72",
+    "from": 55,
+    "to": 97,
+    "rPu": 0.002458677685950413,
+    "xPu": 0.01274793388429752,
+    "bPu": 0.021006084,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - LATOUR (- AUBANGE - SAINT-MARD) 220.515:73",
+    "from": 97,
+    "to": 70,
+    "rPu": 4.132231404958678e-05,
+    "xPu": 0.00016528925619834712,
+    "bPu": 0.000272008,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - SAINT-MARD (- AUBANGE - LATOUR) 220.515:74",
+    "from": 97,
+    "to": 92,
+    "rPu": 0.0008884297520661157,
+    "xPu": 0.004586776859504133,
+    "bPu": 0.007590088,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - HEINSCH 220.507:75",
+    "from": 55,
+    "to": 66,
+    "rPu": 0.0033057851239669425,
+    "xPu": 0.009111570247933885,
+    "bPu": 0.023705836,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - RIMIERE 380.7:76",
+    "from": 19,
+    "to": 38,
+    "rPu": 0.0005124653739612188,
+    "xPu": 0.0037950138504155126,
+    "bPu": 0.066504864,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - OFFSHORE WINDPARK 220.15:77",
+    "from": 77,
+    "to": 79,
+    "rPu": 0.0007438016528925619,
+    "xPu": 0.003326446280991736,
+    "bPu": 0.504803288,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LE VAL - RIMIERE 220.522:78",
+    "from": 71,
+    "to": 85,
+    "rPu": 0.001590909090909091,
+    "xPu": 0.010929752066115702,
+    "bPu": 0.018102084,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - KALLO (- DOEL - LILLO) 380.52:79",
+    "from": 22,
+    "to": 49,
+    "rPu": 9.695290858725763e-05,
+    "xPu": 0.0007617728531855956,
+    "bPu": 0.020293976,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KALLO - MERCATOR 380.52:80",
+    "from": 22,
+    "to": 32,
+    "rPu": 0.00033933518005540165,
+    "xPu": 0.0028670360110803323,
+    "bPu": 0.06752143999999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - LILLO (- DOEL - KALLO) 380.52:81",
+    "from": 49,
+    "to": 23,
+    "rPu": 6.232686980609417e-05,
+    "xPu": 0.0007686980609418284,
+    "bPu": 0.011504348000000001,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - DOEL (- LILLO - KALLO) 380.52:82",
+    "from": 14,
+    "to": 49,
+    "rPu": 0.00014542936288088642,
+    "xPu": 0.0013850415512465374,
+    "bPu": 0.026194159999999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RIMIERE - SERAING 220.533:83",
+    "from": 85,
+    "to": 90,
+    "rPu": 0.0013636363636363637,
+    "xPu": 0.009566115702479339,
+    "bPu": 0.0153912,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - MAERLANT 380.107:84",
+    "from": 17,
+    "to": 28,
+    "rPu": 6.925207756232688e-05,
+    "xPu": 0.001551246537396122,
+    "bPu": 1.09868184,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - MAERLANT 380.108:85",
+    "from": 17,
+    "to": 28,
+    "rPu": 6.232686980609417e-05,
+    "xPu": 0.0015443213296398891,
+    "bPu": 1.1448898399999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - MAERLANT 380.109:86",
+    "from": 17,
+    "to": 28,
+    "rPu": 7.617728531855956e-05,
+    "xPu": 0.0015304709141274239,
+    "bPu": 1.09868184,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - MAERLANT 380.110:87",
+    "from": 17,
+    "to": 28,
+    "rPu": 7.617728531855956e-05,
+    "xPu": 0.0015373961218836567,
+    "bPu": 1.1448898399999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - STEVIN 380.111:88",
+    "from": 17,
+    "to": 40,
+    "rPu": 9.695290858725763e-05,
+    "xPu": 0.0013642659279778392,
+    "bPu": 0.05518968,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - STEVIN 380.112:89",
+    "from": 17,
+    "to": 40,
+    "rPu": 9.695290858725763e-05,
+    "xPu": 0.0013642659279778392,
+    "bPu": 0.05518968,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AWIRS - RIMIERE 220.535:90",
+    "from": 56,
+    "to": 85,
+    "rPu": 0.0009710743801652892,
+    "xPu": 0.00646694214876033,
+    "bPu": 0.009710008,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - OFFSHORE WINDPARK 220.13:91",
+    "from": 77,
+    "to": 80,
+    "rPu": 0.0008264462809917356,
+    "xPu": 0.0019008264462809918,
+    "bPu": 0.18361314399999998,
+    "ratingMva": 381.051177665153,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOEL - ZANDVLIET 380.26:92",
+    "from": 14,
+    "to": 54,
+    "rPu": 0.0001592797783933518,
+    "xPu": 0.001814404432132964,
+    "bPu": 0.03211455999999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOEL - ZANDVLIET 380.25:93",
+    "from": 14,
+    "to": 54,
+    "rPu": 0.00016620498614958447,
+    "xPu": 0.0016620498614958448,
+    "bPu": 0.034656,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AWIRS - LE VAL 220.521:94",
+    "from": 56,
+    "to": 71,
+    "rPu": 0.0006818181818181819,
+    "xPu": 0.005454545454545455,
+    "bPu": 0.009026116,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BERNEAU - LIXHE 220.541:95",
+    "from": 59,
+    "to": 72,
+    "rPu": 0.0006818181818181819,
+    "xPu": 0.003925619834710743,
+    "bPu": 0.11286879999999999,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - SART-TILMAN (- ROMSEE - SERAING) 220.530:96",
+    "from": 89,
+    "to": 99,
+    "rPu": 4.132231404958678e-05,
+    "xPu": 0.00035123966942148763,
+    "bPu": 0.00073568,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - SERAING (- SERAING - SART-TILMAN) 220.530:97",
+    "from": 99,
+    "to": 90,
+    "rPu": 0.0007644628099173553,
+    "xPu": 0.005268595041322314,
+    "bPu": 0.008580352,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - ROMSEE (- SART-TILMAN - SERAING) 220.530:98",
+    "from": 87,
+    "to": 99,
+    "rPu": 0.0009917355371900827,
+    "xPu": 0.006942148760330578,
+    "bPu": 0.039841912,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JUPILLE - ROMSEE 220.534:99",
+    "from": 68,
+    "to": 87,
+    "rPu": 0.0009297520661157025,
+    "xPu": 0.004483471074380165,
+    "bPu": 0.006292,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OFFSHORE SWITCHYARD - OFFSHORE SWITCHYARD 220.6 O:100",
+    "from": 76,
+    "to": 77,
+    "rPu": 0.00035123966942148763,
+    "xPu": 0.0009297520661157025,
+    "bPu": 0.15789580399999997,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - TIHANGE 3 380.18:101",
+    "from": 19,
+    "to": 44,
+    "rPu": 6.925207756232688e-05,
+    "xPu": 0.0007479224376731302,
+    "bPu": 0.01839656,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - TIHANGE 1 380.5:102",
+    "from": 19,
+    "to": 42,
+    "rPu": 6.232686980609417e-05,
+    "xPu": 0.0006578947368421052,
+    "bPu": 0.016164136,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - TIHANGE 1 380.6:103",
+    "from": 19,
+    "to": 42,
+    "rPu": 6.232686980609417e-05,
+    "xPu": 0.0006578947368421052,
+    "bPu": 0.016164136,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LE VAL - SERAING 220.523:104",
+    "from": 71,
+    "to": 90,
+    "rPu": 0.00035123966942148763,
+    "xPu": 0.0024173553719008265,
+    "bPu": 0.003967832,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - TIHANGE 2 380.17:105",
+    "from": 19,
+    "to": 43,
+    "rPu": 8.310249307479224e-05,
+    "xPu": 0.0008310249307479224,
+    "bPu": 0.00954484,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LA TROQUE - SERAING 220.524:106",
+    "from": 69,
+    "to": 90,
+    "rPu": 0.0003099173553719008,
+    "xPu": 0.002086776859504132,
+    "bPu": 0.0034039720000000003,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LA TROQUE - SERAING 220.525:107",
+    "from": 69,
+    "to": 90,
+    "rPu": 0.0003099173553719008,
+    "xPu": 0.002086776859504132,
+    "bPu": 0.0034039720000000003,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUME - CENTRALE COO 380.3:108",
+    "from": 9,
+    "to": 11,
+    "rPu": 4.155124653739612e-05,
+    "xPu": 0.00045706371191135735,
+    "bPu": 0.011147679999999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUME - CENTRALE COO 380.4:109",
+    "from": 9,
+    "to": 11,
+    "rPu": 4.155124653739612e-05,
+    "xPu": 0.00045706371191135735,
+    "bPu": 0.011147679999999998,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:COURCELLES - GOUY 380.58:110",
+    "from": 13,
+    "to": 18,
+    "rPu": 4.155124653739612e-05,
+    "xPu": 0.0004085872576177285,
+    "bPu": 0.010108,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:COURCELLES - GOUY 380.57:111",
+    "from": 13,
+    "to": 18,
+    "rPu": 3.462603878116344e-05,
+    "xPu": 0.0003878116343490305,
+    "bPu": 0.0095304,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - BELVAL 220.511:112",
+    "from": 55,
+    "to": 58,
+    "rPu": 0.0018181818181818182,
+    "xPu": 0.012768595041322314,
+    "bPu": 0.020820712,
+    "ratingMva": 395.0014612794742,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BRUME - BRUME SNCB 220.600:113",
+    "from": 61,
+    "to": 60,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.0,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HEINSCH - HEINSCH SNCB 220.509:114",
+    "from": 66,
+    "to": 65,
+    "rPu": 4.132231404958678e-06,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.000151008,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROMSEE - ROMSEE SNCB 220.536:115",
+    "from": 87,
+    "to": 86,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.0,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROMSEE - ROMSEE SNCB 220.537:116",
+    "from": 87,
+    "to": 86,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.0,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ST-MARD - ST-MARD SNCB 220.602:117",
+    "from": 92,
+    "to": 91,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.0,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ST-MARD - ST-MARD SNCB 220.601:118",
+    "from": 92,
+    "to": 91,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.0,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TIHANGE BIS - TIHANGE 2 380.15:119",
+    "from": 45,
+    "to": 43,
+    "rPu": 2.077562326869806e-05,
+    "xPu": 0.0002146814404432133,
+    "bPu": 0.005492975999999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HEINSCH - HEINSCH SNCB 220.508:120",
+    "from": 66,
+    "to": 65,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.000151008,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROUVROY - ST-MARD 220.518:121",
+    "from": 88,
+    "to": 92,
+    "rPu": 0.00010330578512396695,
+    "xPu": 0.0005785123966942149,
+    "bPu": 0.000968,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ALEGRO CONVERTOR STATION - LIXHE 380.115:122",
+    "from": 3,
+    "to": 25,
+    "rPu": 0.0,
+    "xPu": 0.0001,
+    "bPu": 0.035427096,
+    "ratingMva": 1085.995856345686,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ACHENE - ACHENE SNCB 380.200:123",
+    "from": 2,
+    "to": 1,
+    "rPu": 0.0,
+    "xPu": 0.0001,
+    "bPu": 0.00026569599999999994,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DUVAL - LEVAL 220.545:124",
+    "from": 63,
+    "to": 71,
+    "rPu": 0.0,
+    "xPu": 0.00010330578512396695,
+    "bPu": 0.038316343999999995,
+    "ratingMva": 950.3416370968915,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DUVAL - RIMIERE 220.543:125",
+    "from": 63,
+    "to": 85,
+    "rPu": 0.00016528925619834712,
+    "xPu": 0.0017975206611570247,
+    "bPu": 0.8667985039999999,
+    "ratingMva": 950.3416370968915,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRAMME - RIMIERE 380.9:126",
+    "from": 19,
+    "to": 38,
+    "rPu": 0.0005263157894736842,
+    "xPu": 0.003767313019390582,
+    "bPu": 0.17782571199999997,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JUPILE - RIMIERE 220.544:127",
+    "from": 68,
+    "to": 85,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.017768595041322312,
+    "bPu": 0.014363184,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RIMIERE - CENTRALE AWIRS 380.8:128",
+    "from": 38,
+    "to": 10,
+    "rPu": 9.002770083102494e-05,
+    "xPu": 0.0006994459833795013,
+    "bPu": 0.8347085319999998,
+    "ratingMva": 1046.5050979331156,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LILLO - MERCATOR 380.68:129",
+    "from": 23,
+    "to": 32,
+    "rPu": 0.0003185595567867036,
+    "xPu": 0.0045290858725761775,
+    "bPu": 0.11192444000000001,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - MASTAING 380.79:130",
+    "from": 6,
+    "to": 30,
+    "rPu": 0.00045013850415512465,
+    "xPu": 0.008171745152354571,
+    "bPu": 0.2059866,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ACHENE - LONNY 380.19:131",
+    "from": 2,
+    "to": 26,
+    "rPu": 0.0005401662049861496,
+    "xPu": 0.006606648199445983,
+    "bPu": 0.135912168,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHOOZ - MONCEAU 220.48:132",
+    "from": 64,
+    "to": 62,
+    "rPu": 0.0032851239669421488,
+    "xPu": 0.011838842975206612,
+    "bPu": 0.018473312,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AVELGEM - AVELIN 380.80:133",
+    "from": 6,
+    "to": 7,
+    "rPu": 0.0002631578947368421,
+    "xPu": 0.0045360110803324095,
+    "bPu": 0.11437779599999999,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Y - SCHIFFLANGE (- AUBANGE - SANEM) 220.512:134",
+    "from": 55,
+    "to": 95,
+    "rPu": 0.0010950413223140497,
+    "xPu": 0.006053719008264463,
+    "bPu": 0.183701716,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - MOULAINE 220.513:135",
+    "from": 55,
+    "to": 74,
+    "rPu": 0.0009090909090909091,
+    "xPu": 0.007190082644628099,
+    "bPu": 0.006637576,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MAASBRACHT - VAN EYCK BLACK/27:136",
+    "from": 46,
+    "to": 27,
+    "rPu": 9.695290858725763e-05,
+    "xPu": 0.0010941828254847645,
+    "bPu": 0.033038719999999994,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MAASBRACHT - VAN EYCK WHITE/28:137",
+    "from": 46,
+    "to": 27,
+    "rPu": 9.695290858725763e-05,
+    "xPu": 0.0010941828254847645,
+    "bPu": 0.033149908,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RILLAND - ZANDVLIET GREY/29:138",
+    "from": 54,
+    "to": 37,
+    "rPu": 5.54016620498615e-05,
+    "xPu": 0.0007409972299168976,
+    "bPu": 0.018448543999999997,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RILLAND - ZANDVLIET WHITE/30:139",
+    "from": 54,
+    "to": 37,
+    "rPu": 5.54016620498615e-05,
+    "xPu": 0.0007409972299168976,
+    "bPu": 0.018448543999999997,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "jao:AUBANGE - MONT-SAINT-MARTIN 220.514:140",
+    "from": 55,
+    "to": 75,
+    "rPu": 0.00022727272727272727,
+    "xPu": 0.0016735537190082645,
+    "bPu": 0.003031776,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BELVAL-OXYLUX:141",
+    "from": 58,
+    "to": 84,
+    "rPu": 0.00045454545454545455,
+    "xPu": 0.0023140495867768596,
+    "bPu": 0.006927008,
+    "ratingMva": 491.55601918804734,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GEZELLE - NEMO CONVERTOR STATION 380.114:142",
+    "from": 17,
+    "to": 33,
+    "rPu": 6.9252077562326875e-06,
+    "xPu": 0.0001,
+    "bPu": 0.081132584,
+    "ratingMva": 1076.1231667425434,
+    "circuits": 1
+  },
+  {
+    "name": "osm:horta - rodenhuize 380 (OSM merged_way/160991579-380+2 c1)",
+    "from": 20,
+    "to": 39,
+    "rPu": 0.00011027061366276471,
+    "xPu": 0.0022254614757394337,
+    "bPu": 1.5903995555932258,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:horta - rodenhuize 380 (OSM merged_way/160991579-380+2 c2)",
+    "from": 20,
+    "to": 39,
+    "rPu": 0.00011027061366276471,
+    "xPu": 0.0022254614757394337,
+    "bPu": 1.5903995555932258,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:villeroux - houffalize 220 (OSM merged_way/161224163-220+1)",
+    "from": 94,
+    "to": 67,
+    "rPu": 0.0019864828167034244,
+    "xPu": 0.006085222994866566,
+    "bPu": 0.9379084604445547,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161479351:0 - verbrande brug 380 (OSM merged_way/23147318-380+1 c1)",
+    "from": 35,
+    "to": 47,
+    "rPu": 0.00016502273031900635,
+    "xPu": 0.0033304587391654013,
+    "bPu": 2.380072697924516,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161479351:0 - verbrande brug 380 (OSM merged_way/23147318-380+1 c2)",
+    "from": 35,
+    "to": 47,
+    "rPu": 0.00016502273031900635,
+    "xPu": 0.0033304587391654013,
+    "bPu": 2.380072697924516,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/713775507:0 - stevin 220 (OSM merged_way/713775507-220+1)",
+    "from": 82,
+    "to": 93,
+    "rPu": 0.0021019191245970773,
+    "xPu": 0.0064388407907671015,
+    "bPu": 0.9924111668891097,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/714613608:0 - stevin 220 (OSM merged_way/714613608-220+1)",
+    "from": 83,
+    "to": 93,
+    "rPu": 0.003217790558881268,
+    "xPu": 0.009857106709870025,
+    "bPu": 1.5192645834821386,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:houffalize - brume 220 (OSM merged_way/88801054-220+1)",
+    "from": 67,
+    "to": 61,
+    "rPu": 0.002134792994595381,
+    "xPu": 0.0065395438162158225,
+    "bPu": 1.0079324090260693,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:romsee - sart-tilman 220 (OSM merged_way/91752659-220+2)",
+    "from": 87,
+    "to": 89,
+    "rPu": 0.000797605805118635,
+    "xPu": 0.002443317981577893,
+    "bPu": 0.37658580604382075,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lillo - doel 380 (OSM relation/12226569:b-380)",
+    "from": 23,
+    "to": 14,
+    "rPu": 5.609343585247074e-05,
+    "xPu": 0.001132067523568046,
+    "bPu": 0.8090185815442743,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lillo - doel 380 (OSM relation/12226570:b-380)",
+    "from": 23,
+    "to": 14,
+    "rPu": 5.609343585247074e-05,
+    "xPu": 0.001132067523568046,
+    "bPu": 0.8090185815442743,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sart-tilman - seraing 220 (OSM way/103056194-220 c1)",
+    "from": 89,
+    "to": 90,
+    "rPu": 0.00030182483156006887,
+    "xPu": 0.0009245845924199948,
+    "bPu": 0.14250516576942773,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sart-tilman - seraing 220 (OSM way/103056194-220 c2)",
+    "from": 89,
+    "to": 90,
+    "rPu": 0.00030182483156006887,
+    "xPu": 0.0009245845924199948,
+    "bPu": 0.14250516576942773,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:latour - aubange 220 (OSM way/161224162-220 c1)",
+    "from": 70,
+    "to": 55,
+    "rPu": 0.0012241541952449043,
+    "xPu": 0.0037499701459933732,
+    "bPu": 0.5779786097089131,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:latour - aubange 220 (OSM way/161224162-220 c2)",
+    "from": 70,
+    "to": 55,
+    "rPu": 0.0012241541952449043,
+    "xPu": 0.0037499701459933732,
+    "bPu": 0.5779786097089131,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:marcourt - y senonchamps 220 (OSM way/161225685:a-220)",
+    "from": 73,
+    "to": 100,
+    "rPu": 0.0021254169039771217,
+    "xPu": 0.006510821895365348,
+    "bPu": 1.0035055322150463,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - sart-tilman 220 (OSM way/161234124-220)",
+    "from": 85,
+    "to": 89,
+    "rPu": 0.0005798861364242264,
+    "xPu": 0.0017763740124513048,
+    "bPu": 0.27379049487543927,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161469069:0 - champion 380 (OSM way/161469060-380 c1)",
+    "from": 34,
+    "to": 12,
+    "rPu": 2.4123626128138685e-05,
+    "xPu": 0.0004868586364042535,
+    "bPu": 0.34792772978322584,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161469069:0 - champion 380 (OSM way/161469060-380 c2)",
+    "from": 34,
+    "to": 12,
+    "rPu": 2.4123626128138685e-05,
+    "xPu": 0.0004868586364042535,
+    "bPu": 0.34792772978322584,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:y st-amand - osm virtual_way/161469069:0 380 (OSM way/161469074-380 c1)",
+    "from": 52,
+    "to": 34,
+    "rPu": 0.00021495456030515593,
+    "xPu": 0.004338173853431329,
+    "bPu": 3.1002243102370164,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:y st-amand - osm virtual_way/161469069:0 380 (OSM way/161469074-380 c2)",
+    "from": 52,
+    "to": 34,
+    "rPu": 0.00021495456030515593,
+    "xPu": 0.004338173853431329,
+    "bPu": 3.1002243102370164,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161469069:0 - gramme 380 (OSM way/161469076-380 c1)",
+    "from": 34,
+    "to": 19,
+    "rPu": 0.00021861314337413994,
+    "xPu": 0.0044120107117326425,
+    "bPu": 3.1529909421958062,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161469069:0 - gramme 380 (OSM way/161469076-380 c2)",
+    "from": 34,
+    "to": 19,
+    "rPu": 0.00021861314337413994,
+    "xPu": 0.0044120107117326425,
+    "bPu": 3.1529909421958062,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mercator - osm virtual_way/161479351:0 380 (OSM way/161479350-380 c1)",
+    "from": 32,
+    "to": 35,
+    "rPu": 0.00011964433612947904,
+    "xPu": 0.0024146402382494866,
+    "bPu": 1.725593906564274,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mercator - osm virtual_way/161479351:0 380 (OSM way/161479350-380 c2)",
+    "from": 32,
+    "to": 35,
+    "rPu": 0.00011964433612947904,
+    "xPu": 0.0024146402382494866,
+    "bPu": 1.725593906564274,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161479351:0 - bruegel 380 (OSM way/161479351-380 c1)",
+    "from": 35,
+    "to": 8,
+    "rPu": 0.00012187313605799301,
+    "xPu": 0.0024596214731704047,
+    "bPu": 1.7577392107216936,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/161479351:0 - bruegel 380 (OSM way/161479351-380 c2)",
+    "from": 35,
+    "to": 8,
+    "rPu": 0.00012187313605799301,
+    "xPu": 0.0024596214731704047,
+    "bPu": 1.7577392107216936,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mercator - rodenhuize 380 (OSM way/161479358-380 c1)",
+    "from": 32,
+    "to": 39,
+    "rPu": 0.0002635464533442052,
+    "xPu": 0.005318846603855778,
+    "bPu": 3.801050419095726,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mercator - rodenhuize 380 (OSM way/161479358-380 c2)",
+    "from": 32,
+    "to": 39,
+    "rPu": 0.0002635464533442052,
+    "xPu": 0.005318846603855778,
+    "bPu": 3.801050419095726,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/23141413:0 - y zuttendaal 380 (OSM way/204598485-380 c1)",
+    "from": 36,
+    "to": 53,
+    "rPu": 9.329321553033687e-05,
+    "xPu": 0.0018828267134304352,
+    "bPu": 1.345539700840645,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/23141413:0 - y zuttendaal 380 (OSM way/204598485-380 c2)",
+    "from": 36,
+    "to": 53,
+    "rPu": 9.329321553033687e-05,
+    "xPu": 0.0018828267134304352,
+    "bPu": 1.345539700840645,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/23141413:0 - lixhe 380 (OSM way/23141413-380)",
+    "from": 36,
+    "to": 25,
+    "rPu": 7.777324552095435e-05,
+    "xPu": 0.0015696055005138057,
+    "bPu": 1.1216998890733063,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:st-mard - latour 220 (OSM way/364537104-220 c1)",
+    "from": 92,
+    "to": 70,
+    "rPu": 0.00042607019946196167,
+    "xPu": 0.0013051873156879163,
+    "bPu": 0.2011670282060809,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:st-mard - latour 220 (OSM way/364537104-220 c2)",
+    "from": 92,
+    "to": 70,
+    "rPu": 0.00042607019946196167,
+    "xPu": 0.0013051873156879163,
+    "bPu": 0.2011670282060809,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/23141413:0 - gramme 380 (OSM way/400994320-380 c1)",
+    "from": 36,
+    "to": 19,
+    "rPu": 0.00033317702283084625,
+    "xPu": 0.006724118097131624,
+    "bPu": 4.805310965844194,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/23141413:0 - gramme 380 (OSM way/400994320-380 c2)",
+    "from": 36,
+    "to": 19,
+    "rPu": 0.00033317702283084625,
+    "xPu": 0.006724118097131624,
+    "bPu": 4.805310965844194,
+    "ratingMva": 1399.9473857256207,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - romsee 220 (OSM way/91142313-220 c1)",
+    "from": 85,
+    "to": 87,
+    "rPu": 0.0013709826773466473,
+    "xPu": 0.0041997520661157025,
+    "bPu": 0.647302982635526,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - romsee 220 (OSM way/91142313-220 c2)",
+    "from": 85,
+    "to": 87,
+    "rPu": 0.0013709826773466473,
+    "xPu": 0.0041997520661157025,
+    "bPu": 0.647302982635526,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - marcourt 220 (OSM way/92017671-220)",
+    "from": 85,
+    "to": 73,
+    "rPu": 0.0029525685574755827,
+    "xPu": 0.009044648123202388,
+    "bPu": 1.3940412707392484,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - sart-tilman 220 (OSM way/94155815-220 c1)",
+    "from": 85,
+    "to": 89,
+    "rPu": 0.0007127095804755096,
+    "xPu": 0.0021832540867222487,
+    "bPu": 0.3365024553684162,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rimiere - sart-tilman 220 (OSM way/94155815-220 c2)",
+    "from": 85,
+    "to": 89,
+    "rPu": 0.0007127095804755096,
+    "xPu": 0.0021832540867222487,
+    "bPu": 0.3365024553684162,
+    "ratingMva": 381.4322288428181,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:FR:BE:avelin [FR]:hv~BE:lonny [FR]:hv",
+    "from": 7,
+    "to": 26,
+    "rPu": 0.002170725903073448,
+    "xPu": 0.02586980531015373,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:FR:BE:avelin [FR]:hv~BE:mastaing [FR]:hv",
+    "from": 7,
+    "to": 30,
+    "rPu": 0.00025641629657249994,
+    "xPu": 0.003180484447435878,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:FR:BE:chooz [FR]:220~BE:moulaine [FR]:220",
+    "from": 62,
+    "to": 74,
+    "rPu": 0.02467900635123558,
+    "xPu": 0.15142975652301516,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:FR:BE:lonny [FR]:hv~BE:mastaing [FR]:hv",
+    "from": 26,
+    "to": 30,
+    "rPu": 0.0006174264947915291,
+    "xPu": 0.007593468220582919,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:NL:BE:maasbracht [NL]:hv~BE:rilland [NL]:hv",
+    "from": 27,
+    "to": 37,
+    "rPu": 0.00113108484855568,
+    "xPu": 0.01369656669431774,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

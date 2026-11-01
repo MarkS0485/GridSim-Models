@@ -1,0 +1,1904 @@
+[
+  {
+    "name": "Bruce A Switchyard 500 kV 500kV",
+    "bus": 1,
+    "pMw": 6.175902363252705,
+    "qMvar": 2.0299209419377418
+  },
+  {
+    "name": "Claireville TS 500 kV 500kV",
+    "bus": 2,
+    "pMw": 290.28647998757936,
+    "qMvar": 95.41255192023951
+  },
+  {
+    "name": "Parhill CTS 500 kV 500kV",
+    "bus": 3,
+    "pMw": 28.916243507079734,
+    "qMvar": 9.504309622258615
+  },
+  {
+    "name": "Parkway TS 500 kV 500kV",
+    "bus": 4,
+    "pMw": 339.5391869306049,
+    "qMvar": 111.60113382944463
+  },
+  {
+    "name": "Porcupine TS 500 kV 500kV",
+    "bus": 5,
+    "pMw": 29.519138030538564,
+    "qMvar": 9.702471469218919
+  },
+  {
+    "name": "Longwood TS 500 kV 500kV",
+    "bus": 6,
+    "pMw": 15.685408965549954,
+    "qMvar": 5.155544610206305
+  },
+  {
+    "name": "Hanmer TS 500 kV 500kV",
+    "bus": 7,
+    "pMw": 32.96436904740997,
+    "qMvar": 10.83486414313376
+  },
+  {
+    "name": "Terry Fox MTS 500 kV 500kV",
+    "bus": 9,
+    "pMw": 138.8492108318743,
+    "qMvar": 45.637528617065925
+  },
+  {
+    "name": "Bruce B Switchyard 500 kV 500kV",
+    "bus": 10,
+    "pMw": 2.4209689808397843,
+    "qMvar": 0.7957340231331089
+  },
+  {
+    "name": "Middleport TS 500 kV 500kV",
+    "bus": 11,
+    "pMw": 21.79626128767345,
+    "qMvar": 7.164084637583644
+  },
+  {
+    "name": "Cherrywood TS 500 kV 500kV",
+    "bus": 12,
+    "pMw": 99.19127161213359,
+    "qMvar": 32.60259435138771
+  },
+  {
+    "name": "Milton SS 500 kV 500kV",
+    "bus": 13,
+    "pMw": 233.0380818712988,
+    "qMvar": 76.59591341246652
+  },
+  {
+    "name": "Trafalgar TS 500 kV 500kV",
+    "bus": 14,
+    "pMw": 205.1470950788008,
+    "qMvar": 67.4285893760188
+  },
+  {
+    "name": "Bowmanville SS 500 kV 500kV",
+    "bus": 15,
+    "pMw": 116.59685032552028,
+    "qMvar": 38.32353141591748
+  },
+  {
+    "name": "Nobel SS 500 kV 500kV",
+    "bus": 16,
+    "pMw": 2.9768078865122662,
+    "qMvar": 0.9784294364676672
+  },
+  {
+    "name": "Arrester Station 500 kV 500kV",
+    "bus": 17,
+    "pMw": 145.3697070817737,
+    "qMvar": 47.780712092286244
+  },
+  {
+    "name": "K2 Substation 500 kV 500kV",
+    "bus": 18,
+    "pMw": 19.089227336282132,
+    "qMvar": 6.274325605581787
+  },
+  {
+    "name": "Clarington TS 500 kV 500kV",
+    "bus": 19,
+    "pMw": 119.58851813456056,
+    "qMvar": 39.30684507272429
+  },
+  {
+    "name": "Substation 486188382 500 kV 500kV",
+    "bus": 20,
+    "pMw": 67.23654979596742,
+    "qMvar": 22.099585205001627
+  },
+  {
+    "name": "Evergreen SS 500 kV 500kV",
+    "bus": 21,
+    "pMw": 15.620850818492638,
+    "qMvar": 5.134325373408766
+  },
+  {
+    "name": "Lennox Transmission Station 500 kV 500kV",
+    "bus": 22,
+    "pMw": 7.46061526417959,
+    "qMvar": 2.4521856521906367
+  },
+  {
+    "name": "Merivale TS 500 kV 500kV",
+    "bus": 23,
+    "pMw": 295.09285681543787,
+    "qMvar": 96.9923315870566
+  },
+  {
+    "name": "Substation 551675500 500 kV 500kV",
+    "bus": 24,
+    "pMw": 34.75852566181374,
+    "qMvar": 11.424574904489804
+  },
+  {
+    "name": "Substation 551927697 500 kV 500kV",
+    "bus": 25,
+    "pMw": 61.60068915067664,
+    "qMvar": 20.247167391891455
+  },
+  {
+    "name": "Nanticoke TS 500 kV 500kV",
+    "bus": 26,
+    "pMw": 0.11685986572229087,
+    "qMvar": 0.038409980396253283
+  },
+  {
+    "name": "Hawthorne TS 500 kV 500kV",
+    "bus": 27,
+    "pMw": 288.3210967631544,
+    "qMvar": 94.76656169378583
+  },
+  {
+    "name": "Essa TS 500 kV 500kV",
+    "bus": 28,
+    "pMw": 56.45340500554087,
+    "qMvar": 18.55533690854616
+  },
+  {
+    "name": "Substation 914273547 500 kV 500kV",
+    "bus": 29,
+    "pMw": 7.380132307140969,
+    "qMvar": 2.4257321834742487
+  },
+  {
+    "name": "Lambton 345kV Substation 345 kV 345kV",
+    "bus": 70,
+    "pMw": 0.6803508574972088,
+    "qMvar": 0.22362051280414236
+  },
+  {
+    "name": "Substation 564807905 345 kV 345kV",
+    "bus": 71,
+    "pMw": 3.6146335541812364,
+    "qMvar": 1.1880725953055538
+  },
+  {
+    "name": "Substation 1133463636 230 kV 230kV",
+    "bus": 72,
+    "pMw": 223.9991289542372,
+    "qMvar": 73.62495326116824
+  },
+  {
+    "name": "Substation 1423472752 230 kV 230kV",
+    "bus": 73,
+    "pMw": 222.38860776344833,
+    "qMvar": 73.09560054470221
+  },
+  {
+    "name": "Substation 1423474546 230 kV 230kV",
+    "bus": 74,
+    "pMw": 221.76216903310225,
+    "qMvar": 72.88970009116902
+  },
+  {
+    "name": "Substation 2265146149 230 kV 230kV",
+    "bus": 75,
+    "pMw": 126.28587143927739,
+    "qMvar": 41.508158650751845
+  },
+  {
+    "name": "Substation 555409065 230 kV 230kV",
+    "bus": 76,
+    "pMw": 275.78531946452966,
+    "qMvar": 90.64625094966586
+  },
+  {
+    "name": "Substation 558723583 230 kV 230kV",
+    "bus": 77,
+    "pMw": 328.9864278747176,
+    "qMvar": 108.13260966199218
+  },
+  {
+    "name": "Substation 562965091 230 kV 230kV",
+    "bus": 78,
+    "pMw": 283.8020509863463,
+    "qMvar": 93.28122317637333
+  },
+  {
+    "name": "Substation 10386237 230 kV 230kV",
+    "bus": 79,
+    "pMw": 35.066434852463644,
+    "qMvar": 11.525779761294915
+  },
+  {
+    "name": "Substation 10402472 230 kV 230kV",
+    "bus": 80,
+    "pMw": 10.624859291558192,
+    "qMvar": 3.4922223688971346
+  },
+  {
+    "name": "Leamington Substation 230 kV 230kV",
+    "bus": 81,
+    "pMw": 32.724214842137265,
+    "qMvar": 10.75592927306876
+  },
+  {
+    "name": "Substation 1084334831 230 kV 230kV",
+    "bus": 82,
+    "pMw": 3.162456754637803,
+    "qMvar": 1.039449268564978
+  },
+  {
+    "name": "Substation 1089366357 230 kV 230kV",
+    "bus": 83,
+    "pMw": 0.33851113917312725,
+    "qMvar": 0.11126323087219696
+  },
+  {
+    "name": "Belle River Wind Switching Station 230 kV 230kV",
+    "bus": 84,
+    "pMw": 23.449921835306025,
+    "qMvar": 7.707616574951847
+  },
+  {
+    "name": "Lakeshore Transmission Station 230 kV 230kV",
+    "bus": 85,
+    "pMw": 22.093818571253014,
+    "qMvar": 7.261886987076447
+  },
+  {
+    "name": "South Middle Road Transformer Station 230 kV 230kV",
+    "bus": 86,
+    "pMw": 22.676068869606038,
+    "qMvar": 7.453263405380737
+  },
+  {
+    "name": "Bruce A Switchyard 230 kV 230kV",
+    "bus": 87,
+    "pMw": 6.175902363252705,
+    "qMvar": 2.0299209419377418
+  },
+  {
+    "name": "Substation 1153776067 230 kV 230kV",
+    "bus": 89,
+    "pMw": 0.09114346878303381,
+    "qMvar": 0.02995740947984912
+  },
+  {
+    "name": "Substation 1153776069 230 kV 230kV",
+    "bus": 90,
+    "pMw": 0.09513422924266432,
+    "qMvar": 0.03126910901050596
+  },
+  {
+    "name": "Substation 1157023994 230 kV 230kV",
+    "bus": 91,
+    "pMw": 23.112363370409604,
+    "qMvar": 7.596666472971815
+  },
+  {
+    "name": "Hanover TS 230 kV 230kV",
+    "bus": 92,
+    "pMw": 22.20939380512647,
+    "qMvar": 7.2998747294029815
+  },
+  {
+    "name": "Substation 117946953 230 kV 230kV",
+    "bus": 93,
+    "pMw": 38.29782231288017,
+    "qMvar": 12.58788545720812
+  },
+  {
+    "name": "Lambton Substation 230 kV 230kV",
+    "bus": 94,
+    "pMw": 0.6827420097316187,
+    "qMvar": 0.2244064465366558
+  },
+  {
+    "name": "Parry Sound Switching Station 230 kV 230kV",
+    "bus": 95,
+    "pMw": 3.562402599387214,
+    "qMvar": 1.1709051106664428
+  },
+  {
+    "name": "Lambton 345kV Substation 230 kV 230kV",
+    "bus": 96,
+    "pMw": 326.6803508574972,
+    "qMvar": 0.22362051280414236
+  },
+  {
+    "name": "London Wonderland TS 230 kV 230kV",
+    "bus": 97,
+    "pMw": 92.59476297692048,
+    "qMvar": 30.43442681331804
+  },
+  {
+    "name": "E. V. Buchanan Transformer Station 230 kV 230kV",
+    "bus": 98,
+    "pMw": 108.57865709450803,
+    "qMvar": 35.688078748631
+  },
+  {
+    "name": "Clarke TS 230 kV 230kV",
+    "bus": 99,
+    "pMw": 96.02128123910325,
+    "qMvar": 31.560668902202615
+  },
+  {
+    "name": "Substation 1274674446 230 kV 230kV",
+    "bus": 100,
+    "pMw": 108.40961273806127,
+    "qMvar": 35.63251655559676
+  },
+  {
+    "name": "Substation 1284518614 230 kV 230kV",
+    "bus": 101,
+    "pMw": 17.9190580070099,
+    "qMvar": 5.889709546682194
+  },
+  {
+    "name": "Substation 1300401343 230 kV 230kV",
+    "bus": 102,
+    "pMw": 2.273980934170932,
+    "qMvar": 0.7474213885417682
+  },
+  {
+    "name": "Substation 1334955030 230 kV 230kV",
+    "bus": 103,
+    "pMw": 175.77036140131833,
+    "qMvar": 57.77292395415771
+  },
+  {
+    "name": "Substation 1335301762 230 kV 230kV",
+    "bus": 104,
+    "pMw": 326.812536067139,
+    "qMvar": 107.41808597846253
+  },
+  {
+    "name": "Goreway TS 230 kV 230kV",
+    "bus": 105,
+    "pMw": 166.95867744352526,
+    "qMvar": 54.87666349737155
+  },
+  {
+    "name": "Parry Sound TS 230 kV 230kV",
+    "bus": 106,
+    "pMw": 3.759782855909955,
+    "qMvar": 1.2357808636615943
+  },
+  {
+    "name": "Substation 1363778234 230 kV 230kV",
+    "bus": 107,
+    "pMw": 70.02022869033995,
+    "qMvar": 23.01453621150375
+  },
+  {
+    "name": "Substation 1375492404 230 kV 230kV",
+    "bus": 108,
+    "pMw": 130.550700398801,
+    "qMvar": 42.909940141053774
+  },
+  {
+    "name": "Substation 1375492405 230 kV 230kV",
+    "bus": 109,
+    "pMw": 118.36624382946707,
+    "qMvar": 38.90510293647152
+  },
+  {
+    "name": "London Talbot TS 230 kV 230kV",
+    "bus": 110,
+    "pMw": 181.20961269586414,
+    "qMvar": 59.560719398748475
+  },
+  {
+    "name": "Waterloo Municipal Transformer Station 3 230 kV 230kV",
+    "bus": 111,
+    "pMw": 127.03867842227622,
+    "qMvar": 41.755594340331214
+  },
+  {
+    "name": "Burlington Transformer Station 230 kV 230kV",
+    "bus": 112,
+    "pMw": 229.17547893124302,
+    "qMvar": 75.32633722145303
+  },
+  {
+    "name": "Substation 1423273276 230 kV 230kV",
+    "bus": 113,
+    "pMw": 9.08167990252964,
+    "qMvar": 2.9850038322838204
+  },
+  {
+    "name": "NextStar Energy Substation 230 kV 230kV",
+    "bus": 114,
+    "pMw": 106.12661662634926,
+    "qMvar": 34.88213202149187
+  },
+  {
+    "name": "Substation 142557684 230 kV 230kV",
+    "bus": 115,
+    "pMw": 131.69950223682187,
+    "qMvar": 43.28753304521149
+  },
+  {
+    "name": "Substation 1426162400 230 kV 230kV",
+    "bus": 116,
+    "pMw": 310.135607607373,
+    "qMvar": 101.93664467053243
+  },
+  {
+    "name": "Substation 1434887017 230 kV 230kV",
+    "bus": 117,
+    "pMw": 2.4244189913536327,
+    "qMvar": 0.7968679867517109
+  },
+  {
+    "name": "Substation 1436145474 230 kV 230kV",
+    "bus": 118,
+    "pMw": 137.14510919215758,
+    "qMvar": 45.0774174944818
+  },
+  {
+    "name": "Substation 1454984979 230 kV 230kV",
+    "bus": 120,
+    "pMw": 7.615731527883771,
+    "qMvar": 2.503169902524934
+  },
+  {
+    "name": "Substation 1472384603 230 kV 230kV",
+    "bus": 123,
+    "pMw": 2.4456239528644144,
+    "qMvar": 0.8038377205512344
+  },
+  {
+    "name": "Malden Transformer Station 230 kV 230kV",
+    "bus": 124,
+    "pMw": 165.03265644043617,
+    "qMvar": 54.24361100741552
+  },
+  {
+    "name": "Substation 158460570 230 kV 230kV",
+    "bus": 125,
+    "pMw": 115.27650614039548,
+    "qMvar": 37.88955526890162
+  },
+  {
+    "name": "Substation 158460657 230 kV 230kV",
+    "bus": 126,
+    "pMw": 851.0287582149682,
+    "qMvar": 38.46549267408036
+  },
+  {
+    "name": "Substation 159190699 230 kV 230kV",
+    "bus": 127,
+    "pMw": 199.11574152783527,
+    "qMvar": 65.44617933110234
+  },
+  {
+    "name": "Middleport Junction 230 kV 230kV",
+    "bus": 128,
+    "pMw": 85.75636538758654,
+    "qMvar": 28.18675422081052
+  },
+  {
+    "name": "Substation 161324804 230 kV 230kV",
+    "bus": 129,
+    "pMw": 151.71593620541765,
+    "qMvar": 49.866616733051195
+  },
+  {
+    "name": "Porcupine TS 230 kV 230kV",
+    "bus": 130,
+    "pMw": 29.519138030538564,
+    "qMvar": 9.702471469218919
+  },
+  {
+    "name": "Allanburg TS 230 kV 230kV",
+    "bus": 131,
+    "pMw": 226.70318475566958,
+    "qMvar": 74.51373342261576
+  },
+  {
+    "name": "Meadowvale TS 230 kV 230kV",
+    "bus": 132,
+    "pMw": 210.67171484041955,
+    "qMvar": 69.24444407881994
+  },
+  {
+    "name": "Hurontario SS 230 kV 230kV",
+    "bus": 133,
+    "pMw": 228.06033908360416,
+    "qMvar": 74.95980847848256
+  },
+  {
+    "name": "Armitage TS 230 kV 230kV",
+    "bus": 134,
+    "pMw": 245.15678907605866,
+    "qMvar": 80.57913984598764
+  },
+  {
+    "name": "Brown Hill TS 230 kV 230kV",
+    "bus": 135,
+    "pMw": 18.199940597128766,
+    "qMvar": 5.982031189475734
+  },
+  {
+    "name": "Ivaco TS 230 kV 230kV",
+    "bus": 136,
+    "pMw": 9.747574980737948,
+    "qMvar": 3.203872960207727
+  },
+  {
+    "name": "Longueuil Transformer Station 230 kV 230kV",
+    "bus": 137,
+    "pMw": 9.336764366297956,
+    "qMvar": 3.0688460410025393
+  },
+  {
+    "name": "Substation 175342007 230 kV 230kV",
+    "bus": 138,
+    "pMw": 37.14321562262163,
+    "qMvar": 12.208384590386963
+  },
+  {
+    "name": "Substation 175815236 230 kV 230kV",
+    "bus": 139,
+    "pMw": 209.15949584245982,
+    "qMvar": 68.74740173064106
+  },
+  {
+    "name": "Midhurst TS 230 kV 230kV",
+    "bus": 140,
+    "pMw": 93.11483098860003,
+    "qMvar": 30.605364902369086
+  },
+  {
+    "name": "Barrie TS 230 kV 230kV",
+    "bus": 141,
+    "pMw": 109.11323856180631,
+    "qMvar": 35.86378717985514
+  },
+  {
+    "name": "Underwood GS 230 kV 230kV",
+    "bus": 142,
+    "pMw": 8.422927990846649,
+    "qMvar": 2.768482549657431
+  },
+  {
+    "name": "Cowal Junction Station 230 kV 230kV",
+    "bus": 143,
+    "pMw": 1.8297904455299738,
+    "qMvar": 0.6014230352538529
+  },
+  {
+    "name": "Longwood TS 230 kV 230kV",
+    "bus": 144,
+    "pMw": 18.1880594596204,
+    "qMvar": 5.97812604842529
+  },
+  {
+    "name": "Substation 205715568 230 kV 230kV",
+    "bus": 145,
+    "pMw": 283.1370037491254,
+    "qMvar": 93.06263272030573
+  },
+  {
+    "name": "Lauzon Transformer Station 230 kV 230kV",
+    "bus": 146,
+    "pMw": 109.6193775909893,
+    "qMvar": 36.03014703375825
+  },
+  {
+    "name": "Brockville Transformer Station 230 kV 230kV",
+    "bus": 147,
+    "pMw": 46.19475703638366,
+    "qMvar": 15.18348238045876
+  },
+  {
+    "name": "Chatham Switching Station 230 kV 230kV",
+    "bus": 148,
+    "pMw": 8.388529114711604,
+    "qMvar": 2.7571761858358252
+  },
+  {
+    "name": "Substation 214635681 230 kV 230kV",
+    "bus": 149,
+    "pMw": 7.504823580519606,
+    "qMvar": 2.466716223088319
+  },
+  {
+    "name": "Chenaux TS 230 kV 230kV",
+    "bus": 150,
+    "pMw": 15.142990684824694,
+    "qMvar": 4.977260342973466
+  },
+  {
+    "name": "Owen Sound TS 230 kV 230kV",
+    "bus": 151,
+    "pMw": 47.62367922603195,
+    "qMvar": 15.653146391733529
+  },
+  {
+    "name": "Substation 233182676 230 kV 230kV",
+    "bus": 152,
+    "pMw": 344.2408696688919,
+    "qMvar": 113.14650221311341
+  },
+  {
+    "name": "Des Joachims TS 230 kV 230kV",
+    "bus": 153,
+    "pMw": 6.999600600603281,
+    "qMvar": 2.300657460018723
+  },
+  {
+    "name": "Martindale TS 230 kV 230kV",
+    "bus": 154,
+    "pMw": 50.198549393001805,
+    "qMvar": 16.499465288515765
+  },
+  {
+    "name": "Hanmer TS 230 kV 230kV",
+    "bus": 155,
+    "pMw": 32.96436904740997,
+    "qMvar": 10.83486414313376
+  },
+  {
+    "name": "Ansonville TS 230 kV 230kV",
+    "bus": 156,
+    "pMw": 1.6520167536153387,
+    "qMvar": 0.5429916484025481
+  },
+  {
+    "name": "Substation 247759023 230 kV 230kV",
+    "bus": 157,
+    "pMw": 24.71367362894566,
+    "qMvar": 8.122991702412474
+  },
+  {
+    "name": "Substation 248070498 230 kV 230kV",
+    "bus": 158,
+    "pMw": 27.630866314966518,
+    "qMvar": 9.081826570051563
+  },
+  {
+    "name": "Clarabelle TS 230 kV 230kV",
+    "bus": 159,
+    "pMw": 81.62765198845744,
+    "qMvar": 26.829711751677788
+  },
+  {
+    "name": "Trout Lake TS 230 kV 230kV",
+    "bus": 160,
+    "pMw": 56.93779758416728,
+    "qMvar": 18.71454904980726
+  },
+  {
+    "name": "Kent Transformer Station 230 kV 230kV",
+    "bus": 161,
+    "pMw": 18.52773151387343,
+    "qMvar": 6.0897708536317126
+  },
+  {
+    "name": "Oakville TS #2 230 kV 230kV",
+    "bus": 162,
+    "pMw": 176.84159280598413,
+    "qMvar": 58.125020689839786
+  },
+  {
+    "name": "Algoma TS 230 kV 230kV",
+    "bus": 164,
+    "pMw": 5.575566400201216,
+    "qMvar": 1.8326000531154722
+  },
+  {
+    "name": "Substation 257569940 230 kV 230kV",
+    "bus": 165,
+    "pMw": 23.410209829950638,
+    "qMvar": 7.6945638700067525
+  },
+  {
+    "name": "Sheppard TS 230 kV 230kV",
+    "bus": 166,
+    "pMw": 72.17971117088335,
+    "qMvar": 23.72432377827059
+  },
+  {
+    "name": "Terry Fox MTS 230 kV 230kV",
+    "bus": 167,
+    "pMw": 138.8492108318743,
+    "qMvar": 45.637528617065925
+  },
+  {
+    "name": "Finch TS 230 kV 230kV",
+    "bus": 170,
+    "pMw": 321.7907773685764,
+    "qMvar": 105.76751371420133
+  },
+  {
+    "name": "Third Line TS 230 kV 230kV",
+    "bus": 171,
+    "pMw": 87.30731775388365,
+    "qMvar": 28.696527611501924
+  },
+  {
+    "name": "Dryden TS 230 kV 230kV",
+    "bus": 172,
+    "pMw": 15.307552989447817,
+    "qMvar": 5.0313493568146885
+  },
+  {
+    "name": "Frood Stobie CTS 230 kV 230kV",
+    "bus": 173,
+    "pMw": 73.94979949296265,
+    "qMvar": 24.306123674500782
+  },
+  {
+    "name": "St. Lawrence Transformer Station 230 kV 230kV",
+    "bus": 175,
+    "pMw": 36.24220826122457,
+    "qMvar": 11.912237792046602
+  },
+  {
+    "name": "Waubaushene TS 230 kV 230kV",
+    "bus": 176,
+    "pMw": 56.09782324924836,
+    "qMvar": 18.438462837161225
+  },
+  {
+    "name": "Middleport TS 230 kV 230kV",
+    "bus": 177,
+    "pMw": 21.79626128767345,
+    "qMvar": 7.164084637583644
+  },
+  {
+    "name": "Substation 274193423 230 kV 230kV",
+    "bus": 178,
+    "pMw": 151.6952651969496,
+    "qMvar": 49.859822501129734
+  },
+  {
+    "name": "Whitby TS 230 kV 230kV",
+    "bus": 179,
+    "pMw": 171.48028472896976,
+    "qMvar": 56.36284394195811
+  },
+  {
+    "name": "Dobbin TS 230 kV 230kV",
+    "bus": 180,
+    "pMw": 148.30639245189727,
+    "qMvar": 48.74595389535717
+  },
+  {
+    "name": "Substation 274903376 230 kV 230kV",
+    "bus": 181,
+    "pMw": 3.1035862418372995,
+    "qMvar": 1.0200994667437238
+  },
+  {
+    "name": "Mackenzie TS 230 kV 230kV",
+    "bus": 182,
+    "pMw": 3.3469302334393274,
+    "qMvar": 1.100082768874089
+  },
+  {
+    "name": "W. Clark Keith transformer Substation 230 kV 230kV",
+    "bus": 183,
+    "pMw": 120.04594870092363,
+    "qMvar": 39.4571952291108
+  },
+  {
+    "name": "Severn TS 230 kV 230kV",
+    "bus": 184,
+    "pMw": 73.35731327769122,
+    "qMvar": 24.11138287300348
+  },
+  {
+    "name": "Substation 308272211 230 kV 230kV",
+    "bus": 185,
+    "pMw": 35.4728977753337,
+    "qMvar": 11.659377663386843
+  },
+  {
+    "name": "Substation 309376427 230 kV 230kV",
+    "bus": 186,
+    "pMw": 66.50798321437321,
+    "qMvar": 11.670909689522352
+  },
+  {
+    "name": "Cherrywood TS 230 kV 230kV",
+    "bus": 187,
+    "pMw": 99.19127161213359,
+    "qMvar": 32.60259435138771
+  },
+  {
+    "name": "Substation 330714640 230 kV 230kV",
+    "bus": 188,
+    "pMw": 33.09680151829705,
+    "qMvar": 10.878392591323907
+  },
+  {
+    "name": "Lorne Park TS 230 kV 230kV",
+    "bus": 190,
+    "pMw": 194.12446943757575,
+    "qMvar": 63.805627530411165
+  },
+  {
+    "name": "Mount Pleasant TS 230 kV 230kV",
+    "bus": 192,
+    "pMw": 259.8701709177018,
+    "qMvar": 85.41519459076305
+  },
+  {
+    "name": "Pickering SS B 230 kV 230kV",
+    "bus": 193,
+    "pMw": 121.53888640498478,
+    "qMvar": 39.94790012245792
+  },
+  {
+    "name": "Malvern TS 230 kV 230kV",
+    "bus": 194,
+    "pMw": 252.47938775188666,
+    "qMvar": 82.9859616393361
+  },
+  {
+    "name": "Substation 381026473 230 kV 230kV",
+    "bus": 195,
+    "pMw": 2.818887751714707,
+    "qMvar": 0.926523598272006
+  },
+  {
+    "name": "Hydro One 230 kV 230kV",
+    "bus": 196,
+    "pMw": 65.57109594301562,
+    "qMvar": 4.789287631505456
+  },
+  {
+    "name": "Seaforth TS 230 kV 230kV",
+    "bus": 198,
+    "pMw": 28.2542071729659,
+    "qMvar": 9.286708802184515
+  },
+  {
+    "name": "Substation 387355845 230 kV 230kV",
+    "bus": 199,
+    "pMw": 287.36034698440295,
+    "qMvar": 94.45077851245613
+  },
+  {
+    "name": "Bathurst TS 230 kV 230kV",
+    "bus": 202,
+    "pMw": 462.2952591429069,
+    "qMvar": 151.94910357981703
+  },
+  {
+    "name": "Almonte TS 230 kV 230kV",
+    "bus": 203,
+    "pMw": 52.02912604540884,
+    "qMvar": 17.10114673747349
+  },
+  {
+    "name": "Substation 430209289 230 kV 230kV",
+    "bus": 204,
+    "pMw": 102.09284464431518,
+    "qMvar": 33.55629528708143
+  },
+  {
+    "name": "Stratford TS 230 kV 230kV",
+    "bus": 205,
+    "pMw": 57.30206447172178,
+    "qMvar": 18.8342777857894
+  },
+  {
+    "name": "Detweiler TS 230 kV 230kV",
+    "bus": 206,
+    "pMw": 151.2610583021997,
+    "qMvar": 49.71710559646637
+  },
+  {
+    "name": "Howard Scheifele Transformer Station 230 kV 230kV",
+    "bus": 207,
+    "pMw": 119.63009618759646,
+    "qMvar": 39.32051111788148
+  },
+  {
+    "name": "Bramalea TS 230 kV 230kV",
+    "bus": 208,
+    "pMw": 162.19759240216013,
+    "qMvar": 53.311770520869985
+  },
+  {
+    "name": "Leaside Transformer Station 230 kV 230kV",
+    "bus": 209,
+    "pMw": 637.8138394990995,
+    "qMvar": 209.6392711064566
+  },
+  {
+    "name": "Applewood Junction 230 kV 230kV",
+    "bus": 210,
+    "pMw": 320.6598256152472,
+    "qMvar": 105.39578784915784
+  },
+  {
+    "name": "Richview Transformer Station 230 kV 230kV",
+    "bus": 211,
+    "pMw": 356.5948864068806,
+    "qMvar": 117.20707115000393
+  },
+  {
+    "name": "A.W Manby TS 230 kV 230kV",
+    "bus": 212,
+    "pMw": 340.1849626988813,
+    "qMvar": 111.81339005998676
+  },
+  {
+    "name": "Pickering SS A 230 kV 230kV",
+    "bus": 213,
+    "pMw": 85.54387429273629,
+    "qMvar": 28.11691177544119
+  },
+  {
+    "name": "Substation 43935203 230 kV 230kV",
+    "bus": 214,
+    "pMw": 342.4437239953557,
+    "qMvar": 112.5558089955311
+  },
+  {
+    "name": "Fairchild TS 230 kV 230kV",
+    "bus": 215,
+    "pMw": 444.595589286522,
+    "qMvar": 146.13150343110988
+  },
+  {
+    "name": "Buttonville TS 230 kV 230kV",
+    "bus": 216,
+    "pMw": 340.5642262864899,
+    "qMvar": 111.93804797290682
+  },
+  {
+    "name": "Beach TS 230 kV 230kV",
+    "bus": 217,
+    "pMw": 279.7738554492699,
+    "qMvar": 91.9572193307839
+  },
+  {
+    "name": "Dundas TS 230 kV 230kV",
+    "bus": 218,
+    "pMw": 201.5386543749369,
+    "qMvar": 66.24255227217832
+  },
+  {
+    "name": "Substation 439876343 230 kV 230kV",
+    "bus": 219,
+    "pMw": 8.418263019613864,
+    "qMvar": 2.766949247762098
+  },
+  {
+    "name": "Substation 444462783 230 kV 230kV",
+    "bus": 220,
+    "pMw": 99.125265994773,
+    "qMvar": 32.58089935410876
+  },
+  {
+    "name": "Otto Holden TS 230 kV 230kV",
+    "bus": 221,
+    "pMw": 3.2472541892463544,
+    "qMvar": 1.067320837480753
+  },
+  {
+    "name": "Muskoka Transmission Station 230 kV 230kV",
+    "bus": 222,
+    "pMw": 58.372367578494675,
+    "qMvar": 19.186069404709208
+  },
+  {
+    "name": "Substation 475879158 230 kV 230kV",
+    "bus": 223,
+    "pMw": 0.9056166436361358,
+    "qMvar": 0.29766179614862875
+  },
+  {
+    "name": "Substation 476425587 230 kV 230kV",
+    "bus": 224,
+    "pMw": 0.9580990218270775,
+    "qMvar": 0.3149119196619771
+  },
+  {
+    "name": "Substation 476691053 230 kV 230kV",
+    "bus": 225,
+    "pMw": 2.2889157345680102,
+    "qMvar": 0.7523302200463068
+  },
+  {
+    "name": "Mile Hile TS 230 kV 230kV",
+    "bus": 226,
+    "pMw": 30.087519972854476,
+    "qMvar": 9.889289579328848
+  },
+  {
+    "name": "Substation 476791349 230 kV 230kV",
+    "bus": 227,
+    "pMw": 5.484056205490038,
+    "qMvar": 1.8025221066520851
+  },
+  {
+    "name": "Summerhaven Wind Farm 230 kV 230kV",
+    "bus": 228,
+    "pMw": 0.12071803636340583,
+    "qMvar": 0.03967809976105552
+  },
+  {
+    "name": "Sandusk SS 230 kV 230kV",
+    "bus": 229,
+    "pMw": 3.1685946773121354,
+    "qMvar": 1.0414667061868481
+  },
+  {
+    "name": "Clarington TS 230 kV 230kV",
+    "bus": 230,
+    "pMw": 119.58851813456056,
+    "qMvar": 39.30684507272429
+  },
+  {
+    "name": "Comber Wind Farm Substation 230 kV 230kV",
+    "bus": 231,
+    "pMw": 18.04967253841259,
+    "qMvar": 5.932640467059643
+  },
+  {
+    "name": "Substation 489354427 230 kV 230kV",
+    "bus": 232,
+    "pMw": 8.204023122041463,
+    "qMvar": 2.6965319987349017
+  },
+  {
+    "name": "Substation 489599153 230 kV 230kV",
+    "bus": 233,
+    "pMw": 95.02048649376016,
+    "qMvar": 31.231723576861814
+  },
+  {
+    "name": "Lennox Transmission Station 230 kV 230kV",
+    "bus": 235,
+    "pMw": 7.46061526417959,
+    "qMvar": 2.4521856521906367
+  },
+  {
+    "name": "Merivale TS 230 kV 230kV",
+    "bus": 236,
+    "pMw": 295.09285681543787,
+    "qMvar": 96.9923315870566
+  },
+  {
+    "name": "Substation 523652420 230 kV 230kV",
+    "bus": 237,
+    "pMw": 3.9413810725682783,
+    "qMvar": 1.2954693110060127
+  },
+  {
+    "name": "Victoria Mine Substation 230 kV 230kV",
+    "bus": 238,
+    "pMw": 1.3955517180138715,
+    "qMvar": 0.45869566766621456
+  },
+  {
+    "name": "Substation 53064768 230 kV 230kV",
+    "bus": 239,
+    "pMw": 213.68609093764377,
+    "qMvar": 70.23522158900863
+  },
+  {
+    "name": "Duart Transformer Station 230 kV 230kV",
+    "bus": 240,
+    "pMw": 1.6614282464140024,
+    "qMvar": 0.5460850564914742
+  },
+  {
+    "name": "Albion TS 230 kV 230kV",
+    "bus": 241,
+    "pMw": 363.8219716334781,
+    "qMvar": 119.58249919075949
+  },
+  {
+    "name": "Orleans TS 230 kV 230kV",
+    "bus": 242,
+    "pMw": 299.0647929486398,
+    "qMvar": 98.29784386082568
+  },
+  {
+    "name": "Gardiner Transformer Station 230 kV 230kV",
+    "bus": 243,
+    "pMw": 137.67075016500053,
+    "qMvar": 45.250187327286035
+  },
+  {
+    "name": "Cataraqui Transformer Station 230 kV 230kV",
+    "bus": 244,
+    "pMw": 57.45268732057789,
+    "qMvar": 18.88378512208516
+  },
+  {
+    "name": "Substation 551927697 230 kV 230kV",
+    "bus": 246,
+    "pMw": 61.60068915067664,
+    "qMvar": 20.247167391891455
+  },
+  {
+    "name": "Minden TS 230 kV 230kV",
+    "bus": 247,
+    "pMw": 13.573946136784434,
+    "qMvar": 4.461540339715079
+  },
+  {
+    "name": "Stayner TS 230 kV 230kV",
+    "bus": 248,
+    "pMw": 69.19437576965086,
+    "qMvar": 22.743091483257707
+  },
+  {
+    "name": "Substation 611322612 230 kV 230kV",
+    "bus": 249,
+    "pMw": 4.232698964169992,
+    "qMvar": 1.391220871529715
+  },
+  {
+    "name": "Substation 612299877 230 kV 230kV",
+    "bus": 250,
+    "pMw": 9.048155479427963,
+    "qMvar": 2.9739848872750083
+  },
+  {
+    "name": "Substation 615021888 230 kV 230kV",
+    "bus": 251,
+    "pMw": 18.207250180230197,
+    "qMvar": 5.984433733256658
+  },
+  {
+    "name": "Substation 617806099 230 kV 230kV",
+    "bus": 252,
+    "pMw": 177.2928452746711,
+    "qMvar": 58.27334020371991
+  },
+  {
+    "name": "J 230 kV 230kV",
+    "bus": 253,
+    "pMw": 241.69376704214932,
+    "qMvar": 79.44089954755746
+  },
+  {
+    "name": "Substation 639142495 230 kV 230kV",
+    "bus": 254,
+    "pMw": 61.413201529796396,
+    "qMvar": 20.185543190990323
+  },
+  {
+    "name": "Orangeville TS 230 kV 230kV",
+    "bus": 255,
+    "pMw": 95.00722306521877,
+    "qMvar": 31.227364098720084
+  },
+  {
+    "name": "Dunnville TS 230 kV 230kV",
+    "bus": 256,
+    "pMw": 7.335535091261501,
+    "qMvar": 2.411073787479437
+  },
+  {
+    "name": "Wind Farm Substation 230 kV 230kV",
+    "bus": 257,
+    "pMw": 4.9712175553412985,
+    "qMvar": 1.6339601938268107
+  },
+  {
+    "name": "Substation 669363887 230 kV 230kV",
+    "bus": 258,
+    "pMw": 5.76812170754406,
+    "qMvar": 1.8958899220068957
+  },
+  {
+    "name": "Substation 669363892 230 kV 230kV",
+    "bus": 259,
+    "pMw": 0.9913200232539592,
+    "qMvar": 0.32583113478911746
+  },
+  {
+    "name": "US Steel - Lake Erie Works TS #1 230 kV 230kV",
+    "bus": 260,
+    "pMw": 3.461155606075691,
+    "qMvar": 1.1376268332677946
+  },
+  {
+    "name": "US Steel - Lake Erie Works TS #2 230 kV 230kV",
+    "bus": 261,
+    "pMw": 4.644562823322389,
+    "qMvar": 1.5265939755307338
+  },
+  {
+    "name": "Nanticoke Generating Station Transformer 230 kV 230kV",
+    "bus": 262,
+    "pMw": 0.11618959496587311,
+    "qMvar": 0.03818967305245255
+  },
+  {
+    "name": "Jarvis TS 230 kV 230kV",
+    "bus": 263,
+    "pMw": 3.128499186427699,
+    "qMvar": 1.0282879556437898
+  },
+  {
+    "name": "US Steel - Lake Erie Works TS #3 230 kV 230kV",
+    "bus": 264,
+    "pMw": 5.359022317263777,
+    "qMvar": 1.7614254549834027
+  },
+  {
+    "name": "Caledonia TS 230 kV 230kV",
+    "bus": 265,
+    "pMw": 4.381289062835211,
+    "qMvar": 1.4400600751479313
+  },
+  {
+    "name": "Preston TS 230 kV 230kV",
+    "bus": 266,
+    "pMw": 150.25773351045106,
+    "qMvar": 49.38732868508669
+  },
+  {
+    "name": "Substation 687979945 230 kV 230kV",
+    "bus": 267,
+    "pMw": 69.16188880442778,
+    "qMvar": 22.73241353416338
+  },
+  {
+    "name": "South March TS 230 kV 230kV",
+    "bus": 268,
+    "pMw": 127.26075983365048,
+    "qMvar": 41.828588970305624
+  },
+  {
+    "name": "Havelock TS 230 kV 230kV",
+    "bus": 270,
+    "pMw": 10.184940259397372,
+    "qMvar": 3.3476279754602043
+  },
+  {
+    "name": "Marathon TS 230 kV 230kV",
+    "bus": 274,
+    "pMw": 3.8549941855277847,
+    "qMvar": 1.2670753143399205
+  },
+  {
+    "name": "Napanee Transformer Station 230 kV 230kV",
+    "bus": 275,
+    "pMw": 21.618306183966585,
+    "qMvar": 7.1055936235597414
+  },
+  {
+    "name": "Belleville Transformer Station 230 kV 230kV",
+    "bus": 276,
+    "pMw": 198.4833206622186,
+    "qMvar": 65.2383126447907
+  },
+  {
+    "name": "Substation 739432753 230 kV 230kV",
+    "bus": 279,
+    "pMw": 24.43748130789867,
+    "qMvar": 8.032211676511869
+  },
+  {
+    "name": "Substation 750529290 230 kV 230kV",
+    "bus": 281,
+    "pMw": 0.6340568898342904,
+    "qMvar": 0.2084044214676768
+  },
+  {
+    "name": "Lakehead TS 230 kV 230kV",
+    "bus": 282,
+    "pMw": 191.15785411186653,
+    "qMvar": 62.83054822667052
+  },
+  {
+    "name": "Smiths Falls Transformer Station 230 kV 230kV",
+    "bus": 285,
+    "pMw": 23.556849507337578,
+    "qMvar": 7.742762001152396
+  },
+  {
+    "name": "York Energy Centre 230 kV 230kV",
+    "bus": 286,
+    "pMw": 150.63505390691196,
+    "qMvar": 49.511347901963184
+  },
+  {
+    "name": "Hawthorne TS 230 kV 230kV",
+    "bus": 287,
+    "pMw": 288.3210967631544,
+    "qMvar": 94.76656169378583
+  },
+  {
+    "name": "Essa TS 230 kV 230kV",
+    "bus": 288,
+    "pMw": 56.45340500554087,
+    "qMvar": 18.55533690854616
+  },
+  {
+    "name": "LIndsay TS 230 kV 230kV",
+    "bus": 289,
+    "pMw": 43.01439463484367,
+    "qMvar": 14.138147810364085
+  },
+  {
+    "name": "Wallace TS 230 kV 230kV",
+    "bus": 290,
+    "pMw": 6.623225428643467,
+    "qMvar": 2.1769489234115706
+  },
+  {
+    "name": "Substation 826314411 230 kV 230kV",
+    "bus": 291,
+    "pMw": 127.65489897663876,
+    "qMvar": 41.958136241834694
+  },
+  {
+    "name": "Substation 837629856 230 kV 230kV",
+    "bus": 292,
+    "pMw": 3.5320019928363076,
+    "qMvar": 1.1609129145053634
+  },
+  {
+    "name": "Cambrian MTS 230 kV 230kV",
+    "bus": 293,
+    "pMw": 137.16237123742886,
+    "qMvar": 45.08309125438535
+  },
+  {
+    "name": "Nepean TS 230 kV 230kV",
+    "bus": 294,
+    "pMw": 189.18304377103846,
+    "qMvar": 62.181459456897485
+  },
+  {
+    "name": "Ellwood MTS 230 kV 230kV",
+    "bus": 295,
+    "pMw": 364.41181800813575,
+    "qMvar": 119.77637231860685
+  },
+  {
+    "name": "Substation 892371581 230 kV 230kV",
+    "bus": 296,
+    "pMw": 3.5344361653643928,
+    "qMvar": 1.161712988324608
+  },
+  {
+    "name": "Substation 892371582 230 kV 230kV",
+    "bus": 297,
+    "pMw": 3.528962440074348,
+    "qMvar": 1.1599138618256548
+  },
+  {
+    "name": "Substation 92197103 230 kV 230kV",
+    "bus": 298,
+    "pMw": 43.30329940219552,
+    "qMvar": 14.233106215303037
+  },
+  {
+    "name": "St. Isidore Transformer Station 230 kV 230kV",
+    "bus": 299,
+    "pMw": 9.743391897487808,
+    "qMvar": 3.202498047232766
+  },
+  {
+    "name": "Substation 19670836 115 kV 115kV",
+    "bus": 567,
+    "pMw": 1.9617125746178659,
+    "qMvar": 0.6447837422063971
+  },
+  {
+    "name": "Substation 1128248988 115 kV 115kV",
+    "bus": 572,
+    "pMw": 4.524916370127565,
+    "qMvar": 1.4872680881245686
+  },
+  {
+    "name": "McLean's Mountain CSS 115 kV 115kV",
+    "bus": 577,
+    "pMw": 1.3680880503325634,
+    "qMvar": 0.4496687966294542
+  },
+  {
+    "name": "Manitoulin TS 115 kV 115kV",
+    "bus": 581,
+    "pMw": 1.5624332074600324,
+    "qMvar": 0.5135469606957419
+  },
+  {
+    "name": "Centralia TS 115 kV 115kV",
+    "bus": 589,
+    "pMw": 10.699016127007916,
+    "qMvar": 3.5165965419998235
+  },
+  {
+    "name": "Substation 1419748476 115 kV 115kV",
+    "bus": 590,
+    "pMw": 5.919998903005561,
+    "qMvar": 1.9458095420942345
+  },
+  {
+    "name": "Substation 1422197422 115 kV 115kV",
+    "bus": 593,
+    "pMw": 1.0048633159636096,
+    "qMvar": 0.3302825998345643
+  },
+  {
+    "name": "Eacom Nairn CTS 115 kV 115kV",
+    "bus": 597,
+    "pMw": 0.7051717132699458,
+    "qMvar": 0.23177873357357803
+  },
+  {
+    "name": "Substation 1434596534 115 kV 115kV",
+    "bus": 600,
+    "pMw": 4.4122249595981575,
+    "qMvar": 1.4502282126933663
+  },
+  {
+    "name": "Substation 1434843402 115 kV 115kV",
+    "bus": 602,
+    "pMw": 0.8211826362365112,
+    "qMvar": 0.26990967997981763
+  },
+  {
+    "name": "Substation 1434845408 115 kV 115kV",
+    "bus": 603,
+    "pMw": 1.4771994716606824,
+    "qMvar": 0.4855319865134809
+  },
+  {
+    "name": "Substation 1434864425 115 kV 115kV",
+    "bus": 604,
+    "pMw": 5.8979060325863975,
+    "qMvar": 1.9385479667496792
+  },
+  {
+    "name": "Substation 1434891159 115 kV 115kV",
+    "bus": 608,
+    "pMw": 3.2947428161596406,
+    "qMvar": 1.0829295943239192
+  },
+  {
+    "name": "Substation 1434891190 115 kV 115kV",
+    "bus": 609,
+    "pMw": 0.4387535303653628,
+    "qMvar": 0.14421131152220645
+  },
+  {
+    "name": "Substation 1434892280 115 kV 115kV",
+    "bus": 610,
+    "pMw": 0.3749706325750514,
+    "qMvar": 0.12324688683628307
+  },
+  {
+    "name": "Substation 1434903910 115 kV 115kV",
+    "bus": 616,
+    "pMw": 0.7507029341260841,
+    "qMvar": 0.24674412215837904
+  },
+  {
+    "name": "Substation 1472384586 115 kV 115kV",
+    "bus": 620,
+    "pMw": 5.354552811364359,
+    "qMvar": 1.7599563994362606
+  },
+  {
+    "name": "Substation 1472384592 115 kV 115kV",
+    "bus": 622,
+    "pMw": 6.703537743814858,
+    "qMvar": 2.203346304858522
+  },
+  {
+    "name": "Uplands MTS 115 kV 115kV",
+    "bus": 628,
+    "pMw": 0.4329297349300375,
+    "qMvar": 0.14229712253080182
+  },
+  {
+    "name": "Cedar Transformer Station 115 kV 115kV",
+    "bus": 629,
+    "pMw": 2.7296408753813606,
+    "qMvar": 0.8971895685843714
+  },
+  {
+    "name": "Woodstock TS 115 kV 115kV",
+    "bus": 638,
+    "pMw": 57.6714081133086,
+    "qMvar": 18.95567517012787
+  },
+  {
+    "name": "Battersea Distribution Station 115 kV 115kV",
+    "bus": 640,
+    "pMw": 8.892881768643553,
+    "qMvar": 2.9229488865880326
+  },
+  {
+    "name": "Kingsville Transfer Station 115 kV 115kV",
+    "bus": 645,
+    "pMw": 7.977198449849549,
+    "qMvar": 2.6219783343230136
+  },
+  {
+    "name": "Substation 240060364 115 kV 115kV",
+    "bus": 661,
+    "pMw": 2.794651687142352,
+    "qMvar": 0.9185575890749843
+  },
+  {
+    "name": "Substation 247339787 115 kV 115kV",
+    "bus": 669,
+    "pMw": 0.3984929394182822,
+    "qMvar": 0.13097829521279303
+  },
+  {
+    "name": "Substation 249256773 115 kV 115kV",
+    "bus": 671,
+    "pMw": 0.43257500948141925,
+    "qMvar": 0.14218052991413854
+  },
+  {
+    "name": "Arlen Transformer Station 115 kV 115kV",
+    "bus": 672,
+    "pMw": 2.3474551531427523,
+    "qMvar": 0.7715711964582368
+  },
+  {
+    "name": "Elliot Lake TS 115 kV 115kV",
+    "bus": 673,
+    "pMw": 15.834304888986141,
+    "qMvar": 5.204484333565708
+  },
+  {
+    "name": "Kirkland Lake TS 115 kV 115kV",
+    "bus": 680,
+    "pMw": 12.668038796482893,
+    "qMvar": 4.1637829961931025
+  },
+  {
+    "name": "Substation 256100720 115 kV 115kV",
+    "bus": 682,
+    "pMw": 1.2309298215963573,
+    "qMvar": 0.40458706694937646
+  },
+  {
+    "name": "Alexander Substation 115 kV 115kV",
+    "bus": 684,
+    "pMw": 0.38875249412089324,
+    "qMvar": 0.12777676566617707
+  },
+  {
+    "name": "Substation 257822569 115 kV 115kV",
+    "bus": 686,
+    "pMw": 1.2512542794613328,
+    "qMvar": 0.41126739319597144
+  },
+  {
+    "name": "Meaford Transformer Station 115 kV 115kV",
+    "bus": 701,
+    "pMw": 23.299415407036058,
+    "qMvar": 7.658147504252265
+  },
+  {
+    "name": "Substation 294547298 115 kV 115kV",
+    "bus": 706,
+    "pMw": 0.39987938419283164,
+    "qMvar": 0.13143399757289573
+  },
+  {
+    "name": "Cardinal Power CSS 115 kV 115kV",
+    "bus": 711,
+    "pMw": 2.435264984365169,
+    "qMvar": 0.8004328922594839
+  },
+  {
+    "name": "St. Mary's Transmission Station 115 kV 115kV",
+    "bus": 712,
+    "pMw": 8.41789910793466,
+    "qMvar": 2.7668296357774547
+  },
+  {
+    "name": "Substation 307310244 115 kV 115kV",
+    "bus": 714,
+    "pMw": 14.305515193970393,
+    "qMvar": 4.701995460652791
+  },
+  {
+    "name": "Substation 331747302 115 kV 115kV",
+    "bus": 717,
+    "pMw": 1.3475644434978462,
+    "qMvar": 0.44292301328194233
+  },
+  {
+    "name": "Substation 368683777 115 kV 115kV",
+    "bus": 721,
+    "pMw": 2.475534878348586,
+    "qMvar": 0.8136689663290709
+  },
+  {
+    "name": "Fort Lae DS 115 kV 115kV",
+    "bus": 722,
+    "pMw": 9.569527826404315,
+    "qMvar": 3.145351690605934
+  },
+  {
+    "name": "Substation 378367352 115 kV 115kV",
+    "bus": 723,
+    "pMw": 2.573990300287157,
+    "qMvar": 0.8460296985889576
+  },
+  {
+    "name": "Substation 384187105 115 kV 115kV",
+    "bus": 728,
+    "pMw": 3.1641583720604216,
+    "qMvar": 1.040008563164888
+  },
+  {
+    "name": "Guelph Hanlon Transformer Station 115 kV 115kV",
+    "bus": 730,
+    "pMw": 2.4650713784108462,
+    "qMvar": 0.8102297802149959
+  },
+  {
+    "name": "Craig DS 115 kV 115kV",
+    "bus": 732,
+    "pMw": 14.011679962457155,
+    "qMvar": 4.605416490512837
+  },
+  {
+    "name": "Petawawa DS 115 kV 115kV",
+    "bus": 733,
+    "pMw": 13.730122877827984,
+    "qMvar": 4.512873152094729
+  },
+  {
+    "name": "Toyota Woodstock TS 115 kV 115kV",
+    "bus": 734,
+    "pMw": 30.470443304483688,
+    "qMvar": 10.015150391937505
+  },
+  {
+    "name": "Substation 430616479 115 kV 115kV",
+    "bus": 736,
+    "pMw": 1.4743601717682446,
+    "qMvar": 0.4845987537690005
+  },
+  {
+    "name": "Substation 466412245 115 kV 115kV",
+    "bus": 749,
+    "pMw": 19.081590487650494,
+    "qMvar": 6.271815494822911
+  },
+  {
+    "name": "Arrester Station 115 kV 115kV",
+    "bus": 750,
+    "pMw": 11.248382785214977,
+    "qMvar": 3.697164630467714
+  },
+  {
+    "name": "Substation 476450795 115 kV 115kV",
+    "bus": 753,
+    "pMw": 0.3702436112114258,
+    "qMvar": 0.12169319004921841
+  },
+  {
+    "name": "Substation 477057499 115 kV 115kV",
+    "bus": 754,
+    "pMw": 0.7103527446640308,
+    "qMvar": 0.23348165624124645
+  },
+  {
+    "name": "Varna Wind Substation 115 kV 115kV",
+    "bus": 755,
+    "pMw": 7.45783318312714,
+    "qMvar": 2.451271226369377
+  },
+  {
+    "name": "Substation 487465072 115 kV 115kV",
+    "bus": 757,
+    "pMw": 9.806890102532725,
+    "qMvar": 3.2233688979384185
+  },
+  {
+    "name": "Varna Wind Switching Station 115 kV 115kV",
+    "bus": 758,
+    "pMw": 1.9487754525458751,
+    "qMvar": 0.6405315158145751
+  },
+  {
+    "name": "Pembroke TS 115 kV 115kV",
+    "bus": 763,
+    "pMw": 11.751053243060163,
+    "qMvar": 3.862384420104408
+  },
+  {
+    "name": "Cobden DS 115 kV 115kV",
+    "bus": 764,
+    "pMw": 1.8720998813066037,
+    "qMvar": 0.615329474292717
+  },
+  {
+    "name": "Port Hope Transformer Station 115 kV 115kV",
+    "bus": 765,
+    "pMw": 39.69280984987161,
+    "qMvar": 13.046395687539817
+  },
+  {
+    "name": "Substation 523681465 115 kV 115kV",
+    "bus": 769,
+    "pMw": 1.914462454773942,
+    "qMvar": 0.6292533788459029
+  },
+  {
+    "name": "Chesterville Transformer Station 115 kV 115kV",
+    "bus": 772,
+    "pMw": 11.38460121013199,
+    "qMvar": 3.741937461570436
+  },
+  {
+    "name": "Substation 535376458 115 kV 115kV",
+    "bus": 773,
+    "pMw": 21.545249972610833,
+    "qMvar": 7.081581208102518
+  },
+  {
+    "name": "Rockland Distribution Station 115 kV 115kV",
+    "bus": 775,
+    "pMw": 0.7567756644943802,
+    "qMvar": 0.24874013210547494
+  },
+  {
+    "name": "Substation 551947105 115 kV 115kV",
+    "bus": 781,
+    "pMw": 4.545351608301064,
+    "qMvar": 1.493984826097742
+  },
+  {
+    "name": "Substation 60833397 115 kV 115kV",
+    "bus": 784,
+    "pMw": 44.80168010120773,
+    "qMvar": 14.725600134575144
+  },
+  {
+    "name": "Substation 623239753 115 kV 115kV",
+    "bus": 788,
+    "pMw": 0.5823136804989949,
+    "qMvar": 0.19139725100822258
+  },
+  {
+    "name": "Substation 666008273 115 kV 115kV",
+    "bus": 792,
+    "pMw": 0.9998028565025834,
+    "qMvar": 0.32861930724482297
+  },
+  {
+    "name": "Substation 666008276 115 kV 115kV",
+    "bus": 793,
+    "pMw": 1.477282468173157,
+    "qMvar": 0.48555926614791656
+  },
+  {
+    "name": "Substation 666008297 115 kV 115kV",
+    "bus": 794,
+    "pMw": 0.6636857822808492,
+    "qMvar": 0.21814296746891473
+  },
+  {
+    "name": "Port Colborne TS 115 kV 115kV",
+    "bus": 795,
+    "pMw": 5.528890174397955,
+    "qMvar": 1.817258319604201
+  },
+  {
+    "name": "Crowland TS 115 kV 115kV",
+    "bus": 796,
+    "pMw": 4.645698849514657,
+    "qMvar": 1.5269673692831993
+  },
+  {
+    "name": "Thunder Bay TS 115 kV 115kV",
+    "bus": 798,
+    "pMw": 0.7990886426033331,
+    "qMvar": 0.26264773545266895
+  },
+  {
+    "name": "Substation 68829538 115 kV 115kV",
+    "bus": 799,
+    "pMw": 1.6831762429478325,
+    "qMvar": 0.5532332772716292
+  },
+  {
+    "name": "Sharbot Lake Distribution Station 115 kV 115kV",
+    "bus": 801,
+    "pMw": 2.2810616482412924,
+    "qMvar": 0.749748706710012
+  },
+  {
+    "name": "Deep River DS 115 kV 115kV",
+    "bus": 802,
+    "pMw": 0.6553347461461133,
+    "qMvar": 0.21539811462965272
+  },
+  {
+    "name": "Domtar Espanola CGS 115 kV 115kV",
+    "bus": 806,
+    "pMw": 3.774910224450341,
+    "qMvar": 1.2407529892540021
+  },
+  {
+    "name": "Espanola TS 115 kV 115kV",
+    "bus": 807,
+    "pMw": 3.1484399458980925,
+    "qMvar": 1.034842166326903
+  },
+  {
+    "name": "Substation 73752467 115 kV 115kV",
+    "bus": 814,
+    "pMw": 5.272511066934873,
+    "qMvar": 1.7329905820811422
+  },
+  {
+    "name": "Birch TS 115 kV 115kV",
+    "bus": 819,
+    "pMw": 0.7899259424666513,
+    "qMvar": 0.25963610155722144
+  },
+  {
+    "name": "Substation 78033550 115 kV 115kV",
+    "bus": 824,
+    "pMw": 10.304802820080031,
+    "qMvar": 3.3870248939626313
+  },
+  {
+    "name": "Limebank MTS 115 kV 115kV",
+    "bus": 831,
+    "pMw": 0.4743366781736527,
+    "qMvar": 0.15590692661902145
+  },
+  {
+    "name": "Clarence Distribution Station 115 kV 115kV",
+    "bus": 834,
+    "pMw": 7.294044842805986,
+    "qMvar": 2.3974366022921876
+  },
+  {
+    "name": "Rockland East Distribution Station 115 kV 115kV",
+    "bus": 835,
+    "pMw": 0.8512485436979984,
+    "qMvar": 0.27979186587018706
+  },
+  {
+    "name": "Wendover Distribution Station 115 kV 115kV",
+    "bus": 836,
+    "pMw": 10.895916725987313,
+    "qMvar": 3.5813146391845487
+  },
+  {
+    "name": "Elmira Transformer Station 115 kV 115kV",
+    "bus": 839,
+    "pMw": 46.54506293236358,
+    "qMvar": 15.298622360417797
+  }
+]

@@ -1,0 +1,5869 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Romania transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): TEL lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (TEL for Romania)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Romania (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Romania units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "ghsl",
+   "title": "GHSL GHS-POP R2023A, epoch 2020, 30 arc-second tiles over Romania (demand shares where the WorldPop raster is defective: Romania)",
+   "publisher": "European Commission, Joint Research Centre (Schiavina et al. 2023, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)",
+   "url": "https://ghsl.jrc.ec.europa.eu/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Romania, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "42": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "51": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "52": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "53": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "54": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "55": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "56": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "57": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "58": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "59": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "60": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "61": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "62": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "63": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "64": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "65": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "66": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "67": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "68": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "69": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "70": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "71": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "72": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "73": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "74": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "75": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "76": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "77": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "78": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "79": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "80": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "81": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "82": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "83": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "84": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "85": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "86": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "87": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "88": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "89": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "90": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "91": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "92": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "93": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "94": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "95": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "96": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "97": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "98": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "99": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "100": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "101": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "102": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "103": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "104": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "105": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "106": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "107": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "108": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "109": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "110": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "111": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "112": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "113": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "114": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "115": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "116": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "117": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "118": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "119": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "120": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "121": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "122": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "123": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "124": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "125": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "126": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "127": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "128": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "129": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "130": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "131": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "132": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "133": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "134": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "135": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "136": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "137": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "138": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "139": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "140": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "141": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "142": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "143": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "144": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "145": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "146": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "147": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "148": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "149": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "150": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "151": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "152": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "153": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "154": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "155": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "156": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "157": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "158": [
+   "model_assembly"
+  ],
+  "159": [
+   "model_assembly"
+  ],
+  "160": [
+   "model_assembly"
+  ],
+  "161": [
+   "model_assembly"
+  ],
+  "162": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "165": [
+   "model_assembly"
+  ],
+  "166": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "168": [
+   "model_assembly"
+  ],
+  "169": [
+   "model_assembly"
+  ],
+  "170": [
+   "model_assembly"
+  ],
+  "171": [
+   "model_assembly"
+  ],
+  "172": [
+   "model_assembly"
+  ],
+  "173": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "176": [
+   "model_assembly"
+  ],
+  "177": [
+   "model_assembly"
+  ],
+  "178": [
+   "model_assembly"
+  ],
+  "179": [
+   "model_assembly"
+  ],
+  "180": [
+   "model_assembly"
+  ],
+  "181": [
+   "model_assembly"
+  ],
+  "182": [
+   "model_assembly"
+  ],
+  "183": [
+   "model_assembly"
+  ],
+  "184": [
+   "model_assembly"
+  ],
+  "185": [
+   "model_assembly"
+  ],
+  "186": [
+   "model_assembly"
+  ],
+  "187": [
+   "model_assembly"
+  ],
+  "188": [
+   "model_assembly"
+  ],
+  "189": [
+   "model_assembly"
+  ],
+  "190": [
+   "model_assembly"
+  ],
+  "191": [
+   "model_assembly"
+  ],
+  "192": [
+   "model_assembly"
+  ],
+  "193": [
+   "model_assembly"
+  ],
+  "194": [
+   "model_assembly"
+  ],
+  "195": [
+   "model_assembly"
+  ],
+  "196": [
+   "model_assembly"
+  ],
+  "197": [
+   "model_assembly"
+  ],
+  "198": [
+   "model_assembly"
+  ],
+  "199": [
+   "model_assembly"
+  ],
+  "200": [
+   "model_assembly"
+  ],
+  "201": [
+   "model_assembly"
+  ],
+  "202": [
+   "model_assembly"
+  ],
+  "203": [
+   "model_assembly"
+  ],
+  "204": [
+   "model_assembly"
+  ],
+  "205": [
+   "model_assembly"
+  ],
+  "206": [
+   "model_assembly"
+  ],
+  "207": [
+   "model_assembly"
+  ],
+  "208": [
+   "model_assembly"
+  ],
+  "209": [
+   "model_assembly"
+  ],
+  "210": [
+   "model_assembly"
+  ],
+  "211": [
+   "model_assembly"
+  ],
+  "212": [
+   "model_assembly"
+  ],
+  "213": [
+   "model_assembly"
+  ],
+  "214": [
+   "model_assembly"
+  ],
+  "215": [
+   "model_assembly"
+  ],
+  "216": [
+   "model_assembly"
+  ],
+  "217": [
+   "model_assembly"
+  ],
+  "218": [
+   "model_assembly"
+  ],
+  "219": [
+   "model_assembly"
+  ],
+  "220": [
+   "model_assembly"
+  ],
+  "221": [
+   "model_assembly"
+  ],
+  "222": [
+   "model_assembly"
+  ],
+  "223": [
+   "model_assembly"
+  ],
+  "224": [
+   "model_assembly"
+  ],
+  "225": [
+   "model_assembly"
+  ],
+  "226": [
+   "model_assembly"
+  ],
+  "227": [
+   "model_assembly"
+  ],
+  "228": [
+   "model_assembly"
+  ],
+  "229": [
+   "model_assembly"
+  ],
+  "230": [
+   "model_assembly"
+  ],
+  "231": [
+   "model_assembly"
+  ],
+  "232": [
+   "model_assembly"
+  ],
+  "233": [
+   "model_assembly"
+  ],
+  "234": [
+   "model_assembly"
+  ],
+  "235": [
+   "model_assembly"
+  ],
+  "236": [
+   "model_assembly"
+  ],
+  "237": [
+   "model_assembly"
+  ],
+  "238": [
+   "model_assembly"
+  ],
+  "239": [
+   "model_assembly"
+  ],
+  "240": [
+   "model_assembly"
+  ],
+  "241": [
+   "model_assembly"
+  ],
+  "242": [
+   "model_assembly"
+  ],
+  "243": [
+   "model_assembly"
+  ],
+  "244": [
+   "model_assembly"
+  ],
+  "245": [
+   "model_assembly"
+  ],
+  "246": [
+   "model_assembly"
+  ],
+  "247": [
+   "model_assembly"
+  ],
+  "248": [
+   "model_assembly"
+  ],
+  "249": [
+   "model_assembly"
+  ],
+  "250": [
+   "model_assembly"
+  ],
+  "251": [
+   "model_assembly"
+  ],
+  "252": [
+   "model_assembly"
+  ],
+  "253": [
+   "model_assembly"
+  ],
+  "254": [
+   "model_assembly"
+  ],
+  "255": [
+   "model_assembly"
+  ],
+  "256": [
+   "model_assembly"
+  ],
+  "257": [
+   "model_assembly"
+  ],
+  "258": [
+   "model_assembly"
+  ],
+  "259": [
+   "model_assembly"
+  ],
+  "260": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Domnesti - Urechesti:0": [
+   "jao_sgm"
+  ],
+  "jao:Bradu - Tantareni:1": [
+   "jao_sgm"
+  ],
+  "jao:FAI - Gutinas:2": [
+   "jao_sgm"
+  ],
+  "jao:Slatina - Bucuresti Sud:3": [
+   "jao_sgm"
+  ],
+  "jao:Slatina - Portile de Fier:4": [
+   "jao_sgm"
+  ],
+  "jao:Baia Mare 3 - Iernut:5": [
+   "jao_sgm"
+  ],
+  "jao:Bradu - Brasov:6": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Gura Ialomitei:7": [
+   "jao_sgm"
+  ],
+  "jao:Mintia - Arad:8": [
+   "jao_sgm"
+  ],
+  "jao:Gutinas - Smardan:9": [
+   "jao_sgm"
+  ],
+  "jao:Oradea Sud - Rosiori:10": [
+   "jao_sgm"
+  ],
+  "jao:Mintia - Timisoara:11": [
+   "jao_sgm"
+  ],
+  "jao:Sibiu Sud - Mintia:12": [
+   "jao_sgm"
+  ],
+  "jao:Brasov - Sibiu Sud:13": [
+   "jao_sgm"
+  ],
+  "jao:Gutinas - Brasov:14": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Pelicanu:15": [
+   "jao_sgm"
+  ],
+  "jao:Rosiori - Gadalin:16": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Resita c1:17": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Resita c2:18": [
+   "jao_sgm"
+  ],
+  "jao:FAI - Suceava:19": [
+   "jao_sgm"
+  ],
+  "jao:Gutinas - Munteni:20": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Darste:21": [
+   "jao_sgm"
+  ],
+  "jao:Roman Nord - Suceava:22": [
+   "jao_sgm"
+  ],
+  "jao:Cluj Floresti - Alba Iulia:23": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Pelicanu:24": [
+   "jao_sgm"
+  ],
+  "jao:Cetate - Portile de Fier c1:25": [
+   "jao_sgm"
+  ],
+  "jao:Cetate - Portile de Fier c2:26": [
+   "jao_sgm"
+  ],
+  "jao:Focsani Vest - Barbosi:27": [
+   "jao_sgm"
+  ],
+  "jao:Gutinas - Focsani Vest:28": [
+   "jao_sgm"
+  ],
+  "jao:Lotru - Sibiu Sud c1:29": [
+   "jao_sgm"
+  ],
+  "jao:Lotru - Sibiu Sud c2:30": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Urechesti:31": [
+   "jao_sgm"
+  ],
+  "jao:Alba Iulia - Mintia:32": [
+   "jao_sgm"
+  ],
+  "jao:Iernut - Sibiu Sud:33": [
+   "jao_sgm"
+  ],
+  "jao:Slatina - Tantareni:34": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Stupina:35": [
+   "jao_sgm"
+  ],
+  "jao:Ghizdaru - Turnu Magurele:36": [
+   "jao_sgm"
+  ],
+  "jao:Arefu - Raureni:37": [
+   "jao_sgm"
+  ],
+  "jao:Gutinas - Dumbrava:38": [
+   "jao_sgm"
+  ],
+  "jao:Medgidia Sud - Rahman:39": [
+   "jao_sgm"
+  ],
+  "jao:Fantanele - Gheorgheni:40": [
+   "jao_sgm"
+  ],
+  "jao:Tulcea Vest - Tariverde:41": [
+   "jao_sgm"
+  ],
+  "jao:Bradu - Arefu:42": [
+   "jao_sgm"
+  ],
+  "jao:FAI - Munteni:43": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Constanta Nord:44": [
+   "jao_sgm"
+  ],
+  "jao:Resita - Timisoara c1:45": [
+   "jao_sgm"
+  ],
+  "jao:Resita - Timisoara c2:46": [
+   "jao_sgm"
+  ],
+  "jao:Gura Ialomitei - Lacu Sarat:47": [
+   "jao_sgm"
+  ],
+  "jao:Stuparei - Bradu:48": [
+   "jao_sgm"
+  ],
+  "jao:Tantareni - Urechesti:49": [
+   "jao_sgm"
+  ],
+  "jao:Craiova Nord - Sardanesti:50": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Gura Ialomitei c4:51": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Fundeni c1:52": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Fundeni c2:53": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Gura Ialomitei c2:54": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Lacu Sarat:55": [
+   "jao_sgm"
+  ],
+  "jao:Tihau - Cluj Floresti:56": [
+   "jao_sgm"
+  ],
+  "jao:Sardanesti - Urechesti:57": [
+   "jao_sgm"
+  ],
+  "jao:Domnesti - Brazi Vest:58": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Gura Ialomitei c1:59": [
+   "jao_sgm"
+  ],
+  "jao:Gradiste - Isalnita:60": [
+   "jao_sgm"
+  ],
+  "jao:Gheorgheni - Stejaru:61": [
+   "jao_sgm"
+  ],
+  "jao:Alba Iulia - Galceag:62": [
+   "jao_sgm"
+  ],
+  "jao:Bacau Sud - Roman Nord:63": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Smardan c1:64": [
+   "jao_sgm"
+  ],
+  "jao:Baia Mare 3 - Tihau:65": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Smardan c2:66": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Rahman:67": [
+   "jao_sgm"
+  ],
+  "jao:Cernavoda - Gura Ialomitei c3:68": [
+   "jao_sgm"
+  ],
+  "jao:Bacau Sud - Gutinas:69": [
+   "jao_sgm"
+  ],
+  "jao:Arad - Timisoara:70": [
+   "jao_sgm"
+  ],
+  "jao:Bradu - Targoviste B:71": [
+   "jao_sgm"
+  ],
+  "jao:Stalpu - Teleajen:72": [
+   "jao_sgm"
+  ],
+  "jao:Medgidia Sud - Stupina:73": [
+   "jao_sgm"
+  ],
+  "jao:Campia Turzii - Iernut:74": [
+   "jao_sgm"
+  ],
+  "jao:Iernut - Gadalin:75": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Targoviste A:76": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Targoviste B:77": [
+   "jao_sgm"
+  ],
+  "jao:Tariverde - Constanta Nord:78": [
+   "jao_sgm"
+  ],
+  "jao:Craiova Nord - Slatina:79": [
+   "jao_sgm"
+  ],
+  "jao:Arad - Calea Aradului:80": [
+   "jao_sgm"
+  ],
+  "jao:Calea Aradului - Sacalaz:81": [
+   "jao_sgm"
+  ],
+  "jao:Alba Iulia - Sugag:82": [
+   "jao_sgm"
+  ],
+  "jao:Baru Mare - Hasdat:83": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Domnesti:84": [
+   "jao_sgm"
+  ],
+  "jao:Cluj Floresti - Campia Turzii:85": [
+   "jao_sgm"
+  ],
+  "jao:Retezat - Hasdat:86": [
+   "jao_sgm"
+  ],
+  "jao:Paroseni - Targiu Jiu Nord:87": [
+   "jao_sgm"
+  ],
+  "jao:Cetate - Calafat:88": [
+   "jao_sgm"
+  ],
+  "jao:Rosiori - Vetis:89": [
+   "jao_sgm"
+  ],
+  "jao:Slatina - Draganesti Olt:90": [
+   "jao_sgm"
+  ],
+  "jao:Smardan - Lacu Sarat:91": [
+   "jao_sgm"
+  ],
+  "jao:Stejaru - Dumbrava:92": [
+   "jao_sgm"
+  ],
+  "jao:Arad - Nadab:93": [
+   "jao_sgm"
+  ],
+  "jao:Nadab - Oradea Sud:94": [
+   "jao_sgm"
+  ],
+  "jao:Baia Mare 3 - Rosiori c1:95": [
+   "jao_sgm"
+  ],
+  "jao:Baia Mare 3 - Rosiori c2:96": [
+   "jao_sgm"
+  ],
+  "jao:Brazi Vest - Teleajen:97": [
+   "jao_sgm"
+  ],
+  "jao:Iaz - Resita c1:98": [
+   "jao_sgm"
+  ],
+  "jao:Iaz - Resita c2:99": [
+   "jao_sgm"
+  ],
+  "jao:Filesti - Lacu Sarat:100": [
+   "jao_sgm"
+  ],
+  "jao:Iernut - Ungheni c1:101": [
+   "jao_sgm"
+  ],
+  "jao:Iernut - Ungheni c2:102": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Tulcea Vest:103": [
+   "jao_sgm"
+  ],
+  "jao:Tihau - Salaj:104": [
+   "jao_sgm"
+  ],
+  "jao:Hasdat - Mintia:105": [
+   "jao_sgm"
+  ],
+  "jao:Ungheni - Fantanele:106": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Fundeni c1:107": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Fundeni c2:108": [
+   "jao_sgm"
+  ],
+  "jao:Cluj Floresti - Mariselu:109": [
+   "jao_sgm"
+  ],
+  "jao:Sacalaz - Timisoara:110": [
+   "jao_sgm"
+  ],
+  "jao:Slatina - Gradiste:111": [
+   "jao_sgm"
+  ],
+  "jao:Medgidia Sud - Cernavoda:112": [
+   "jao_sgm"
+  ],
+  "jao:Paroseni - Baru Mare:113": [
+   "jao_sgm"
+  ],
+  "jao:Gadalin - Cluj Est:114": [
+   "jao_sgm"
+  ],
+  "jao:Mintia - Pestis c1:115": [
+   "jao_sgm"
+  ],
+  "jao:Mintia - Pestis c2:116": [
+   "jao_sgm"
+  ],
+  "jao:Urechesti - Targu Jiu Nord:117": [
+   "jao_sgm"
+  ],
+  "jao:Hasdat - Pestis:118": [
+   "jao_sgm"
+  ],
+  "jao:Brasov - Darste:119": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Turnu Severin Est c1:120": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Turnu Severin Est c2:121": [
+   "jao_sgm"
+  ],
+  "jao:Raureni - Stuparei:122": [
+   "jao_sgm"
+  ],
+  "jao:Pestis - Otelarie H:123": [
+   "jao_sgm"
+  ],
+  "jao:Craiova Nord - Isalnita c1:124": [
+   "jao_sgm"
+  ],
+  "jao:Craiova Nord - Isalnita c2:125": [
+   "jao_sgm"
+  ],
+  "jao:Barbosi - Filesti:126": [
+   "jao_sgm"
+  ],
+  "jao:Hasdat - Otelarie H:127": [
+   "jao_sgm"
+  ],
+  "jao:Bradu - Pitesti Sud:128": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Ghizdaru d. Mostistea:129": [
+   "jao_sgm"
+  ],
+  "jao:Arefu - Sibiu Sud:130": [
+   "jao_sgm"
+  ],
+  "jao:Arefu -Tantareni:131": [
+   "jao_sgm"
+  ],
+  "jao:Turnu Magurele - Studina:132": [
+   "jao_sgm"
+  ],
+  "jao:Craiova Nord - Studina:133": [
+   "jao_sgm"
+  ],
+  "jao:Ratesti - Targoviste:134": [
+   "jao_sgm"
+  ],
+  "jao:Ratesti - Bradu:135": [
+   "jao_sgm"
+  ],
+  "jao:Bucuresti Sud - Calugareni:136": [
+   "jao_sgm"
+  ],
+  "jao:Calugareni - Ghizdaru:137": [
+   "jao_sgm"
+  ],
+  "jao:Medgidia Sud - Varna:138": [
+   "jao_sgm"
+  ],
+  "jao:Medgidia Sud - Dobrudja:139": [
+   "jao_sgm"
+  ],
+  "jao:Tantareni - Kozlodui c1:140": [
+   "jao_sgm"
+  ],
+  "jao:Tantareni - Kozlodui c2:141": [
+   "jao_sgm"
+  ],
+  "jao:Arad - Sandorfalva:142": [
+   "jao_sgm"
+  ],
+  "jao:Rosiori - Mukacevo c1:143": [
+   "jao_sgm"
+  ],
+  "jao:Nadab - Bekescsaba:144": [
+   "jao_sgm"
+  ],
+  "jao:Isaccea - Vulcanesti:145": [
+   "jao_sgm"
+  ],
+  "jao:Portile de Fier - Djerdap c1:146": [
+   "jao_sgm"
+  ],
+  "jao:Pancevo 2 - Resita c2:147": [
+   "jao_sgm"
+  ],
+  "jao:Pancevo 2 - Resita c1:148": [
+   "jao_sgm"
+  ],
+  "osm:osm virtual_way/127670521:0 - arad 220 (OSM merged_way/127670521-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/127670521:0 - arad 220 (OSM merged_way/127670521-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/1381105767:1 - osm virtual_way/100606433:c:1 400 (OSM merged_way/1381105766-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/100606433:c:1 - osm virtual_way/1381105767:1 400 (OSM merged_way/1381105767-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bucuresti sud - d. mostistea 400 (OSM merged_way/191185904-400+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bucuresti sud - d. mostistea 400 (OSM merged_way/191185904-400+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:d. mostistea - osm virtual_way/1080306965:1 220 (OSM merged_way/191185905-220+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - gutinas 400 (OSM merged_way/196723099:b-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:craiova nord - turnu magurele 220 (OSM merged_way/198777661-220+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:craiova nord - osm virtual_way/198777686:0 220 (OSM merged_way/198777682-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:craiova nord - osm virtual_way/198777686:0 220 (OSM merged_way/198777682-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bradu - targoviste 220 (OSM merged_way/205384228-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bradu - targoviste 220 (OSM merged_way/205384228-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:pelicanu - d. mostistea 400 (OSM merged_way/24730606-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slatina - d. mostistea 400 (OSM merged_way/27928066-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mintia - osm sibiu sud 400 (OSM merged_way/688001354-400+2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:gradiste - osm virtual_way/198777686:0 220 (OSM merged_way/957949134-220+1 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:gradiste - osm virtual_way/198777686:0 220 (OSM merged_way/957949134-220+1 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:rahman - osm virtual_way/100606433:c:1 400 (OSM way/100606433:c-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:arad - osm virtual_way/852703146:1 400 (OSM way/101158755-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:iernut - osm sibiu sud 400 (OSM way/101343344-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/102265008:1 400 (OSM way/102265008-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/102265008:1 400 (OSM way/102265008-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mintia - otelarie h 220 (OSM way/104155442:a-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:mintia - otelarie h 220 (OSM way/104155442:a-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:stuparei - osm virtual_way/205384252:0 220 (OSM way/1083327521-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:stuparei - osm virtual_way/205384252:0 220 (OSM way/1083327521-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:d. mostistea - osm virtual_way/1213747130:1 220 (OSM way/1213747130-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:darste - osm virtual_way/29976870:1 400 (OSM way/159860221-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/127670521:0 - timisoara 220 (OSM way/191187235-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/127670521:0 - timisoara 220 (OSM way/191187235-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874199-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874199-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874200-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874200-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:galceag - sugag 220 (OSM way/196654359-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm sibiu sud - brasov 400 (OSM way/196654380-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:isaccea - osm virtual_way/24854202:1 400 (OSM way/196672666-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:isaccea - osm virtual_way/24854202:1 400 (OSM way/196672666-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lacu sarat - osm virtual_way/196672676:1 400 (OSM way/196672676-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672677-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672678-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672679-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lacu sarat - barbosi 220 (OSM way/196672689:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:gutinas - osm virtual_way/196723111:a:1 220 (OSM way/196723111:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196723111:a:1 - barbosi 220 (OSM way/196723111:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:cluj floresti - osm virtual_way/198283102:1 220 (OSM way/198283102-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:cluj floresti - osm virtual_way/198283102:1 220 (OSM way/198283102-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:pelicanu - osm virtual_way/198741169:1 400 (OSM way/198741169-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:pelicanu - osm virtual_way/198741169:1 400 (OSM way/198741169-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/102265008:1 - arefu 400 (OSM way/198777642-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:craiova nord - osm virtual_way/198777655:a:1 220 (OSM way/198777655:a-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:craiova nord - osm virtual_way/198777655:a:1 220 (OSM way/198777655:a-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/198777655:a:1 - isalnita 220 (OSM way/198777655:b-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/198777655:a:1 - isalnita 220 (OSM way/198777655:b-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/199657976:a:0 - osm virtual_way/199657976:a:1 220 (OSM way/199657976:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/199657976:a:1 - targu jiu nord 220 (OSM way/199657976:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/199657976:a:0 - osm virtual_way/198777655:a:1 220 (OSM way/199657981-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/199657985:1 400 (OSM way/199657985-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:tantareni - osm virtual_way/199657985:1 400 (OSM way/199657985-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:urechesti - osm virtual_way/199657976:a:1 220 (OSM way/199657989-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:urechesti - osm virtual_way/199657976:a:1 220 (OSM way/199657989-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:urechesti - osm virtual_way/199657985:1 400 (OSM way/199657996-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205384252:0 - bradu 220 (OSM way/205384252-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:iernut - osm virtual_way/205542337:1 220 (OSM way/205542337-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205752836:0 - targoviste 220 (OSM way/205752836-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205752836:0 - targoviste 220 (OSM way/205752836-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lotru - osm sibiu sud 220 (OSM way/206558255-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lotru - osm sibiu sud 220 (OSM way/206558255-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/24854202:1 - osm virtual_way/196672670:1 400 (OSM way/206906349-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/24854202:1 - lacu sarat 400 (OSM way/206906353-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906355-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906355-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906356-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906356-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/102265008:1 - slatina 400 (OSM way/206908615-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/198283102:1 - campia turzii 220 (OSM way/208263467-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/198283102:1 - campia turzii 220 (OSM way/208263467-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:raureni - osm virtual_way/208294447:1 220 (OSM way/208294447-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:raureni - osm virtual_way/208294447:1 220 (OSM way/208294447-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205384252:0 - osm virtual_way/208294447:1 220 (OSM way/208294481:a-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/208294447:1 - arefu 220 (OSM way/208294481:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205542337:1 - alba iulia 220 (OSM way/208452702-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205542337:1 - osm virtual_way/198283102:1 220 (OSM way/208452704-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/205542337:1 - osm virtual_way/198283102:1 220 (OSM way/208452704-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:brazi vest - osm brazi vest 220 (OSM way/209067420-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:brazi vest - osm brazi vest 400 (OSM way/209067423-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:brazi vest - osm brazi vest 400 (OSM way/209067423-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:resita - osm virtual_way/209262452:1 220 (OSM way/209262452-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm rovinari - urechesti 400 (OSM way/210352248-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/210352249:0 - urechesti 220 (OSM way/210352249-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/210352249:0 - urechesti 220 (OSM way/210352249-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm rovinari - urechesti 400 (OSM way/210352250-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm sibiu sud - arefu 400 (OSM way/210831974:a-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:fundeni - d. mostistea 220 (OSM way/228286597-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:fundeni - d. mostistea 220 (OSM way/228286597-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:focsani vest - osm virtual_way/196723111:a:1 220 (OSM way/230377201-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:focsani vest - osm virtual_way/196723111:a:1 220 (OSM way/230377201-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:pestis - alba iulia 220 (OSM way/230501102-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/199657985:1 - bradu 400 (OSM way/238491874-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - osm virtual_way/24854202:1 400 (OSM way/24854202-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/196672670:1 - osm virtual_way/24854202:1 400 (OSM way/24854202-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ghizdaru - d. mostistea 220 (OSM way/27928907-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:ghizdaru - d. mostistea 220 (OSM way/27928907-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bucuresti sud - osm virtual_way/28240911:b:1 220 (OSM way/28240911:b-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:domnesti - osm virtual_way/29976870:1 400 (OSM way/29976870-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:targoviste - brazi vest 220 (OSM way/30621127-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:targoviste - brazi vest 220 (OSM way/30621127-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/29976870:1 - brazi vest 400 (OSM way/30621148-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/29976870:1 - brazi vest 400 (OSM way/30621148-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/30621209:0 - brazi vest 220 (OSM way/30621209-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/30621209:0 - brazi vest 220 (OSM way/30621209-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/30621348:0 - stalpu 220 (OSM way/30621348-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:teleajen - osm virtual_way/30621348:0 220 (OSM way/30621502-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:teleajen - osm virtual_way/30621348:0 220 (OSM way/30621502-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:brazi vest - osm virtual_way/30621348:0 220 (OSM way/30621521-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:isalnita - slatina 220 (OSM way/311051729-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:isalnita - slatina 220 (OSM way/311051729-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:pestis - osm virtual_way/311562553:1 220 (OSM way/311562553-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:baru mare - osm virtual_way/311562553:1 220 (OSM way/311569354-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hasdat - osm virtual_way/311562553:1 220 (OSM way/311574029-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:hasdat - osm virtual_way/311562553:1 220 (OSM way/311574029-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sardanesti - osm virtual_way/199657976:a:0 220 (OSM way/311667728-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sardanesti - osm virtual_way/199657976:a:0 220 (OSM way/311667728-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/312061475:0 - arefu 220 (OSM way/312061475-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/312061475:0 - arefu 220 (OSM way/312061475-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/312427087:0 - resita 220 (OSM way/312427087-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:calea aradului - osm virtual_way/127670521:0 220 (OSM way/697140144-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:calea aradului - osm virtual_way/127670521:0 220 (OSM way/697140144-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/779422574:0 - bucuresti sud 220 (OSM way/779422574-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slatina - osm virtual_way/198777686:0 220 (OSM way/957994240-220 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:slatina - osm virtual_way/198777686:0 220 (OSM way/957994240-220 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:HU:RO:bekescsaba [HU]:hv~RO:sandorfalva [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:30T-BRAD400AT3-3:0": [
+   "jao_sgm"
+  ],
+  "jao:30T-BRAD400AT4-0:1": [
+   "jao_sgm"
+  ],
+  "jao:30T-BRAZ400AT3-R:2": [
+   "jao_sgm"
+  ],
+  "jao:30T-BUCU400AT3-J:3": [
+   "jao_sgm"
+  ],
+  "jao:30T-BUCU400AT4-R:4": [
+   "jao_sgm"
+  ],
+  "jao:30T-GUTI400AT5-2:5": [
+   "jao_sgm"
+  ],
+  "jao:30T-GUTI400AT61W:6": [
+   "jao_sgm"
+  ],
+  "jao:30T-IERN400AT1-U:7": [
+   "jao_sgm"
+  ],
+  "jao:30T-LACS400AT3-Q:8": [
+   "jao_sgm"
+  ],
+  "jao:30T-LACS400AT4-N:9": [
+   "jao_sgm"
+  ],
+  "jao:30T-MINT400AT3-T:10": [
+   "jao_sgm"
+  ],
+  "jao:30T-PDFE400AT1-A:11": [
+   "jao_sgm"
+  ],
+  "jao:30T-PDFE400AT2-7:12": [
+   "jao_sgm"
+  ],
+  "jao:30T-PDFE400AT3-4:13": [
+   "jao_sgm"
+  ],
+  "jao:30T-ROSI400AT--1:14": [
+   "jao_sgm"
+  ],
+  "jao:30T-SIBI400AT5-M:15": [
+   "jao_sgm"
+  ],
+  "jao:30T-SIBI400AT6-J:16": [
+   "jao_sgm"
+  ],
+  "jao:30T-SLAT400AT1-N:17": [
+   "jao_sgm"
+  ],
+  "jao:30T-SLAT400AT2-K:18": [
+   "jao_sgm"
+  ],
+  "jao:30TIERN400AT2--1:19": [
+   "jao_sgm"
+  ],
+  "jao:30TRESI400AT3--U:20": [
+   "jao_sgm"
+  ],
+  "jao:30TAREFU300AT3-N:21": [
+   "jao_sgm"
+  ],
+  "synth:coupling:arad~arad": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:d. mostistea~d. mostistea": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:osm brazi vest~osm brazi vest": [
+   "model_assembly",
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "synth:coupling:osm sibiu sud~osm sibiu sud": [
+   "model_assembly",
+   "jao_sgm",
+   "osm_overpass"
+  ],
+  "synth:coupling:suceava~suceava": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:urechesti~urechesti": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:RO:bacau sud:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:brasov:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:brazi vest:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:bucuresti sud:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:cernavoda:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:cernavoda:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:cluj est:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:constanta nord:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:darste:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:domnesti:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:draganesti olt:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:gadalin:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:gura ialomitei:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:iernut:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:isaccea:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:medgidia sud:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:nadab:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:oradea sud:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:pelicanu:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:portile de fier:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:rahman:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:roman nord:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:smardan:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:smardan:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:stupina:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:tantareni:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:tantareni:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:tariverde:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:tulcea vest:hv": [
+   "model_assembly"
+  ],
+  "gsu:RO:urechesti:hv": [
+   "model_assembly"
+  ],
+  "emb:RO:alba iulia:220": [
+   "model_assembly"
+  ],
+  "emb:RO:arad:220": [
+   "model_assembly"
+  ],
+  "emb:RO:arefu:220": [
+   "model_assembly"
+  ],
+  "emb:RO:baia mare 3:220": [
+   "model_assembly"
+  ],
+  "emb:RO:barbosi:220": [
+   "model_assembly"
+  ],
+  "emb:RO:baru mare:220": [
+   "model_assembly"
+  ],
+  "emb:RO:bradu:220": [
+   "model_assembly"
+  ],
+  "emb:RO:brazi vest:220": [
+   "model_assembly"
+  ],
+  "emb:RO:bucuresti sud:220": [
+   "model_assembly"
+  ],
+  "emb:RO:calafat:220": [
+   "model_assembly"
+  ],
+  "emb:RO:calea aradului:220": [
+   "model_assembly"
+  ],
+  "emb:RO:calugareni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:campia turzii:220": [
+   "model_assembly"
+  ],
+  "emb:RO:cetate:220": [
+   "model_assembly"
+  ],
+  "emb:RO:cluj floresti:220": [
+   "model_assembly"
+  ],
+  "emb:RO:craiova nord:220": [
+   "model_assembly"
+  ],
+  "gsu:RO:craiova nord:220": [
+   "model_assembly"
+  ],
+  "emb:RO:d. mostistea:220": [
+   "model_assembly"
+  ],
+  "emb:RO:dumbrava:220": [
+   "model_assembly"
+  ],
+  "emb:RO:fai:220": [
+   "model_assembly"
+  ],
+  "emb:RO:fantanele:220": [
+   "model_assembly"
+  ],
+  "emb:RO:filesti:220": [
+   "model_assembly"
+  ],
+  "emb:RO:focsani vest:220": [
+   "model_assembly"
+  ],
+  "emb:RO:fundeni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:galceag:220": [
+   "model_assembly"
+  ],
+  "emb:RO:gheorgheni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:ghizdaru:220": [
+   "model_assembly"
+  ],
+  "emb:RO:gradiste:220": [
+   "model_assembly"
+  ],
+  "emb:RO:gutinas:220": [
+   "model_assembly"
+  ],
+  "emb:RO:hasdat:220": [
+   "model_assembly"
+  ],
+  "emb:RO:iaz:220": [
+   "model_assembly"
+  ],
+  "emb:RO:iernut:220": [
+   "model_assembly"
+  ],
+  "emb:RO:isalnita:220": [
+   "model_assembly"
+  ],
+  "gsu:RO:isalnita:220": [
+   "model_assembly"
+  ],
+  "emb:RO:lacu sarat:220": [
+   "model_assembly"
+  ],
+  "emb:RO:lotru:220": [
+   "model_assembly"
+  ],
+  "gsu:RO:lotru:220": [
+   "model_assembly"
+  ],
+  "emb:RO:mariselu:220": [
+   "model_assembly"
+  ],
+  "emb:RO:mintia:220": [
+   "model_assembly"
+  ],
+  "emb:RO:munteni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:otelarie h:220": [
+   "model_assembly"
+  ],
+  "emb:RO:paroseni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:pestis:220": [
+   "model_assembly"
+  ],
+  "emb:RO:pitesti sud:220": [
+   "model_assembly"
+  ],
+  "emb:RO:portile de fier:220": [
+   "model_assembly"
+  ],
+  "emb:RO:ratesti:220": [
+   "model_assembly"
+  ],
+  "emb:RO:raureni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:resita:220": [
+   "model_assembly"
+  ],
+  "emb:RO:retezat:220": [
+   "model_assembly"
+  ],
+  "emb:RO:rosiori:220": [
+   "model_assembly"
+  ],
+  "emb:RO:sacalaz:220": [
+   "model_assembly"
+  ],
+  "emb:RO:salaj:220": [
+   "model_assembly"
+  ],
+  "emb:RO:sardanesti:220": [
+   "model_assembly"
+  ],
+  "emb:RO:sibiu sud:220": [
+   "model_assembly"
+  ],
+  "emb:RO:slatina:220": [
+   "model_assembly"
+  ],
+  "emb:RO:stalpu:220": [
+   "model_assembly"
+  ],
+  "emb:RO:stejaru:220": [
+   "model_assembly"
+  ],
+  "emb:RO:studina:220": [
+   "model_assembly"
+  ],
+  "emb:RO:stuparei:220": [
+   "model_assembly"
+  ],
+  "emb:RO:suceava:220": [
+   "model_assembly"
+  ],
+  "emb:RO:sugag:220": [
+   "model_assembly"
+  ],
+  "emb:RO:targoviste a:220": [
+   "model_assembly"
+  ],
+  "emb:RO:targoviste b:220": [
+   "model_assembly"
+  ],
+  "emb:RO:targoviste:220": [
+   "model_assembly"
+  ],
+  "emb:RO:targu jiu nord:220": [
+   "model_assembly"
+  ],
+  "emb:RO:teleajen:220": [
+   "model_assembly"
+  ],
+  "emb:RO:tihau:220": [
+   "model_assembly"
+  ],
+  "emb:RO:timisoara:220": [
+   "model_assembly"
+  ],
+  "emb:RO:turnu magurele:220": [
+   "model_assembly"
+  ],
+  "emb:RO:turnu severin est:220": [
+   "model_assembly"
+  ],
+  "emb:RO:ungheni:220": [
+   "model_assembly"
+  ],
+  "emb:RO:urechesti:220": [
+   "model_assembly"
+  ],
+  "emb:RO:vetis:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Lilieci": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Garleni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Galbeni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Racova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacau Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bacau sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import HU @ bekescsaba [HU]": [
+   "energy_charts"
+  ],
+  "Parau Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Codlea Brasov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Codlea Brasov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Covasna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sfantu Gheorghe Covasna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sfantu Gheorghe Covasna Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ brasov": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Brazi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Vest": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cernavoda Pestera Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Silistea Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ cernavoda": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Cernavoda 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cernavoda 2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ cluj est": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Constanta Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Constanta Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Palas": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pecineaga Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Petromidia Refinery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ constanta nord": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dobresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Clabucet": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maneciu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paltinu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Siriu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Scropoasa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brasov Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ darste": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import RS @ djerdap [RS]": [
+   "energy_charts"
+  ],
+  "Import BG @ dobrudja [BG]": [
+   "energy_charts"
+  ],
+  "Bucsani Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mihailesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Grozavesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Sud": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rascaeti Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Racari Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ domnesti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ipotesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Frunzaru": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Draganesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Stejaru Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Caracal Olt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Caracal Olt Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ draganesti olt": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lechinta Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dej Cluj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gadalin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Facaeni Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fierbinti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calarasi Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Constanta Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ialomita Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ialomita Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Insuratei Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slobozia Ialomita Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aukera Gura Ialomita": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gura ialomitei": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Iernut": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Isaccea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cerna Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ isaccea": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import BG @ kozlodui [BG]": [
+   "energy_charts"
+  ],
+  "Cobadin Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Chirnogeni Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medgidia Constanta Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ medgidia sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import UA @ mukacevo [UA]": [
+   "energy_charts"
+  ],
+  "Sebis Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Chisineu Cris Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ nadab": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lugasu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fughiu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sacadat": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tileagd": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Auseu Borod Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Marghita Bihor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oradea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Salonta Bihor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sarmasag Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sarmasag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ oradea sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import RS @ pancevo [RS]": [
+   "energy_charts"
+  ],
+  "Calarasi Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calarasi Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Modelu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slobozia Ialomita Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ pelicanu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Iron Gate": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iron Gate #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Topolog Dorobantu Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Casimcea Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Topolog Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ rahman": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Cwp Independenta Wind Farm Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Monsson Serbotesti Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Neamt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ruginoasa Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ roman nord": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import HU @ sandorfalva [HU]": [
+   "energy_charts"
+  ],
+  "Cudalbi Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baleni Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maxineni Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Galati Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Green Breeze Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ smardan": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Galati": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Crucea North Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dorobantu Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pantelimon Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Constanta Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iberdrola Sacele Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mireasa Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Targusor Zephir Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mireasa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Silistea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ stupina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dolj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ tantareni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Turceni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mihai Viteazu Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fantanele Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ tariverde": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Agighiohl Valea Nucarilor Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Babadag Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nalbant Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Salbatica Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ tulcea vest": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rovinari": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Import BG @ varna [BG]": [
+   "energy_charts"
+  ],
+  "Teius Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alba Iulia Alba Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alba Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sebes Alba Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sebes Alba Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ alba iulia": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Arad": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arad Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Horia Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ arad": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Vidraru": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Albesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dragoslavele": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Curtea De Arges": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cumpanita": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cerbureni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Noaptes": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Leresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rucar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oiesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valsan": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valea Iasului": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ucea De Sus Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cornetu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Domnesti Arges Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ arefu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Maramures Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maramures Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Edpr": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ baia mare 3": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ barbosi": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ baru mare": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Arges Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bradu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Butimanu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Aricestii Rahtivani Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paulesti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brazi #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Core Value Capital Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ratesti Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ brazi vest": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bucharest Ilfov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Progresu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bucuresti sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Calafat Dolj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ calafat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Arad Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Glyptodon Solar Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ calea aradului": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Alexandria Teleorman Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ghimpati Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mavrodin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Scurtu Mare Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ calugareni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Campia Turzii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Is Campia Turzii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ campia turzii": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bailesti Dolj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ cetate": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gilau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Floresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Somes Cald": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Floresti Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ cluj floresti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Simnicu De Sus Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Clusterpower Craiova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iancu Jianu Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Monsson Orsova Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ craiova nord": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Craiova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lehliu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fundulea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calarasi Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calarasi Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calarasi Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Oltenita Calarasi Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ d. mostistea": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Costisa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buhusi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Roznov": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vanatori": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zanesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ dumbrava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Stanca Costesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Iasi Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ fai": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Cristuru Secuiesc Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sighisoara Mures Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ fantanele": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gebelesis Erg Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ filesti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Movileni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calimanesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Grebanu Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Topliceni Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrancea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrancea Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrancea Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrancea Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrancea Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ focsani vest": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Cosereni Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bucharest Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilfov Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cobadin Wind Plus": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Megalodon Bess": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ fundeni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gilceag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Susag": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ galceag": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Colibita": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Harghita Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Harghita Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Miercurea Ciuc Harghita Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gheorgheni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Slobozia Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vieru Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Stanesti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calugareni Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Giurgiu Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Izvoarele Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ghizdaru": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Arcesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slatina": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Balcesti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gradiste": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Racaciuni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bacau Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Onesti Bacau Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gutinas": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Plopi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bretea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Orlea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Subcetate": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hunedoara Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ hasdat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ruieni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Raul Alb": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Caras Severin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Caras Severin Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ iaz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Alba Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ iernut": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Podari Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ isalnita": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Isalnita": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gemenele Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tulcea Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ lacu sarat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bradisor": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Che Malaia": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gura Lotrului": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ lotru": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lotru": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mariselu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Remeti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tarnita": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Munteni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Curcubata Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bihor Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cluj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ mariselu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ mintia": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Albesti Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Deleni Ppc Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vaslui Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vutcani Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ munteni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ otelarie h": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Paroseni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ paroseni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ pestis": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Budeasa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bascov": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Merisani": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pitesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcele": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bradu Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ pitesti sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Moldova Noua Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Caras Severin Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ portile de fier": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Arges Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arges Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ratesti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Raureni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Daesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baiculesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Manicesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ramnicu Valcea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Turnu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zigoneni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Calimanesti Olt": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ramnicu Valcea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ raureni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Timis Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ resita": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Raul Mare": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Totesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Motru": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Clopotiva": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cerna Principal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Carnesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hateg": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Paclisa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ostrovu Mic": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ostrovu Mare": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hunedoara Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ retezat": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Maramures Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ rosiori": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Timis Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sacalaz": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bihor Solar #11": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Salaj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ salaj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gorj Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sardanesti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Iberdrola Cogealac Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Casimcea Verbund Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Baia Holrom Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Avrig": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Arpasu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Scoreiu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Voila": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vistea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ucea De Sus Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Alpha Wind Nord Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Beidaud Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Falciu Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pestera Sorgenia Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Edp Romenia": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sibiu sud": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Strejesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dragasani": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slatina Olt Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcea Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ slatina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Nehoiasu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cindesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vernesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Simileasca": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Urziceni Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Braila Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buzau Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buzau Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buzau Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buzau Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ialomita Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ stalpu": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Stejaru": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vaduri": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Piatra Neamt": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pangarati": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ stejaru": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dolj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dolj Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Olt Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ studina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Govora": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zavideni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ionesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Govora #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Babeni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Govora #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcea Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcea Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcea Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Valcea Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ stuparei": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bioenergy Sucavea": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Botosani Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Botosani Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Suceava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ suceava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Sugag Tau": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sasciori": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Petresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Miercurea Sibiului Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibiu Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sugag": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Corbii Mari Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Costestii Din Vale Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ targoviste b": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Moroieni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vacaresti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dambovita Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vacaresti Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cem Nervia": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Is Doicesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Is Sotanga": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ targoviste": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Vadeni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tg Jiu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Targu Jiu Gorj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ targu jiu nord": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Izvoarele": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Berceni Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ploiesti Prahova Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Darvari Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dumbrava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ialomita Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ploesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Prahova Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ teleajen": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ tihau": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Iaz Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Timis Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Windkraft Sfanta Elena Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ timisoara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rusanesti": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Izbiceni": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rosiorii De Vede Teleorman Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rosiorii De Vede Teleorman Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Teleorman Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Turnu Magurele Teleorman Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ turnu magurele": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gogosu": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Drobeta Turnu Severin Mehedinti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mehedinti Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ turnu severin est": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Glodeni Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bistrita Nasaud Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar #10": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mures Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Reghin Mures Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ungheni": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Tismana": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Targu Carbunesti Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gorj Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ urechesti": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Livada Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Doba Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Carei Satu Mare Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Satu Mare Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Szabolcs Szatmar Bereg Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ vetis": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "3": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "6": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "9": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "10": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "11": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "13": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "16": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "17": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "18": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "19": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "22": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "25": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "28": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "29": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "45": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "47": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "49": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "54": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "55": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "57": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "58": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "59": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "62": [
+   "energy_charts"
+  ],
+  "63": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "64": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "65": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "66": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "67": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "68": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "69": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "70": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "71": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "72": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "73": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "74": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "75": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "76": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "77": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "78": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "79": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "80": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "81": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "82": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "83": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "84": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "85": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "86": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "87": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "88": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "89": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "90": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "91": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "92": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "93": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "94": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "95": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "96": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "97": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "98": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "99": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "125": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "126": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "127": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "128": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "129": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "130": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "131": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "132": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "133": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "134": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "135": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "136": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "137": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "138": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "139": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "140": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "141": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "142": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "143": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "144": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "145": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "147": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "148": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "149": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "150": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "151": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "152": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "153": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "154": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "155": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "156": [
+   "energy_charts",
+   "ghsl"
+  ],
+  "157": [
+   "energy_charts",
+   "ghsl"
+  ]
+ },
+ "shunts": {
+  "1": [
+   "model_assembly"
+  ],
+  "2": [
+   "model_assembly"
+  ],
+  "4": [
+   "model_assembly"
+  ],
+  "26": [
+   "model_assembly"
+  ],
+  "27": [
+   "model_assembly"
+  ],
+  "28": [
+   "model_assembly"
+  ],
+  "29": [
+   "model_assembly"
+  ],
+  "32": [
+   "model_assembly"
+  ],
+  "43": [
+   "model_assembly"
+  ],
+  "44": [
+   "model_assembly"
+  ],
+  "48": [
+   "model_assembly"
+  ],
+  "50": [
+   "model_assembly"
+  ],
+  "51": [
+   "model_assembly"
+  ],
+  "116": [
+   "model_assembly"
+  ],
+  "123": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "235": [
+   "model_assembly"
+  ],
+  "255": [
+   "model_assembly"
+  ]
+ }
+}

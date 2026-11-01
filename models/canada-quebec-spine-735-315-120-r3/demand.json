@@ -1,0 +1,1670 @@
+[
+  {
+    "name": "Poste Carignan 735 kV 735kV",
+    "bus": 1,
+    "pMw": 70.2154809747433,
+    "qMvar": 23.078712533886996
+  },
+  {
+    "name": "Poste Des Cantons 735 kV 735kV",
+    "bus": 2,
+    "pMw": 646.9914707447019,
+    "qMvar": 212.65581262007902
+  },
+  {
+    "name": "Poste de la Jacques-Cartier 735 kV 735kV",
+    "bus": 3,
+    "pMw": 44.39808117172026,
+    "qMvar": 14.592943581585407
+  },
+  {
+    "name": "Poste de Duvernay 735 kV 735kV",
+    "bus": 4,
+    "pMw": 634.7913430592463,
+    "qMvar": 208.64582456871713
+  },
+  {
+    "name": "Poste de Chateauguay 735 kV 735kV",
+    "bus": 5,
+    "pMw": 81.4353773026036,
+    "qMvar": 26.766514118609372
+  },
+  {
+    "name": "Poste de la Chamouchouane 735 kV 735kV",
+    "bus": 6,
+    "pMw": 47.316585808208785,
+    "qMvar": 15.552209666490004
+  },
+  {
+    "name": "Poste du Grand-Brule 735 kV 735kV",
+    "bus": 7,
+    "pMw": 2314.9356480568927,
+    "qMvar": 760.8825520282315
+  },
+  {
+    "name": "Poste Tilly 735 kV 735kV",
+    "bus": 8,
+    "pMw": 17.231560681078562,
+    "qMvar": 5.66374010329559
+  },
+  {
+    "name": "Poste La Verendrye 735 kV 735kV",
+    "bus": 10,
+    "pMw": 206.50711126666874,
+    "qMvar": 67.87560507975697
+  },
+  {
+    "name": "Poste Chibougamau 735 kV 735kV",
+    "bus": 11,
+    "pMw": 8.397105712606812,
+    "qMvar": 2.7599951772404903
+  },
+  {
+    "name": "Poste Abitibi 735 kV 735kV",
+    "bus": 12,
+    "pMw": 275.22158487761686,
+    "qMvar": 90.46096035140805
+  },
+  {
+    "name": "Poste des Appalaches 735 kV 735kV",
+    "bus": 13,
+    "pMw": 17.400383666990123,
+    "qMvar": 5.719229535353556
+  },
+  {
+    "name": "Poste des Laurentides 735 kV 735kV",
+    "bus": 15,
+    "pMw": 196.85939914734612,
+    "qMvar": 64.70455545479413
+  },
+  {
+    "name": "Poste Monteregie 735 kV 735kV",
+    "bus": 19,
+    "pMw": 343.69920220335484,
+    "qMvar": 112.96846472689886
+  },
+  {
+    "name": "Poste de Bergeronnes 735 kV 735kV",
+    "bus": 20,
+    "pMw": 11.631330266169693,
+    "qMvar": 3.8230333805758145
+  },
+  {
+    "name": "Poste LG-2 735 kV 735kV",
+    "bus": 21,
+    "pMw": 18.184521691226376,
+    "qMvar": 5.97696324018637
+  },
+  {
+    "name": "Poste Hertel 735 kV 735kV",
+    "bus": 22,
+    "pMw": 530.3040432778108,
+    "qMvar": 174.30250993750042
+  },
+  {
+    "name": "Poste de Boucherville 735 kV 735kV",
+    "bus": 23,
+    "pMw": 235.0052160326507,
+    "qMvar": 77.24247914405724
+  },
+  {
+    "name": "Substation 436745858 735 kV 735kV",
+    "bus": 24,
+    "pMw": 345.6354146085715,
+    "qMvar": 113.6048669687437
+  },
+  {
+    "name": "Poste Radisson 735 kV 735kV",
+    "bus": 25,
+    "pMw": 832.846041409506,
+    "qMvar": 8.166498887920465
+  },
+  {
+    "name": "Poste Judith-Jasmin 735 kV 735kV",
+    "bus": 26,
+    "pMw": 457.36588498820595,
+    "qMvar": 150.32889664668735
+  },
+  {
+    "name": "Poste Arnaud 735 kV 735kV",
+    "bus": 27,
+    "pMw": 65.68065087815866,
+    "qMvar": 21.588185961452897
+  },
+  {
+    "name": "Poste Manicouagan 735 kV 735kV",
+    "bus": 30,
+    "pMw": 50.38197949326342,
+    "qMvar": 16.55975584688312
+  },
+  {
+    "name": "Poste Chenier 735 kV 735kV",
+    "bus": 31,
+    "pMw": 267.87744630527413,
+    "qMvar": 88.04705873644801
+  },
+  {
+    "name": "Poste du Bout-de-l'Ile 735 kV 735kV",
+    "bus": 32,
+    "pMw": 517.2655614543381,
+    "qMvar": 170.01696820646137
+  },
+  {
+    "name": "Poste de Levis 735 kV 735kV",
+    "bus": 33,
+    "pMw": 165.16282171373916,
+    "qMvar": 54.28639426379647
+  },
+  {
+    "name": "Poste du Saguenay 735 kV 735kV",
+    "bus": 34,
+    "pMw": 347.51251549720274,
+    "qMvar": 114.22184019465391
+  },
+  {
+    "name": "Poste Nicolet 735 kV 735kV",
+    "bus": 35,
+    "pMw": 12.280306737049713,
+    "qMvar": 4.03634163118915
+  },
+  {
+    "name": "Hydro-Quebec - Poste Roll-Royce 315 kV 315kV",
+    "bus": 38,
+    "pMw": 990.8801399835845,
+    "qMvar": 325.68655215001115
+  },
+  {
+    "name": "Poste de la Mauricie 315 kV 315kV",
+    "bus": 39,
+    "pMw": 74.0394681703912,
+    "qMvar": 24.33559634350396
+  },
+  {
+    "name": "Substation 1010782911 315 kV 315kV",
+    "bus": 40,
+    "pMw": 47.34743613895583,
+    "qMvar": 15.562349679846069
+  },
+  {
+    "name": "Poste Leneuf 315 kV 315kV",
+    "bus": 41,
+    "pMw": 39.174759585394305,
+    "qMvar": 12.87612079992242
+  },
+  {
+    "name": "Poste de Quebec 315 kV 315kV",
+    "bus": 43,
+    "pMw": 305.51983160472565,
+    "qMvar": 100.41951246539622
+  },
+  {
+    "name": "Poste Neufchatel 315 kV 315kV",
+    "bus": 44,
+    "pMw": 176.27398772056912,
+    "qMvar": 57.938457920245185
+  },
+  {
+    "name": "Poste de la Jacques-Cartier 315 kV 315kV",
+    "bus": 45,
+    "pMw": 44.39808117172026,
+    "qMvar": 14.592943581585407
+  },
+  {
+    "name": "Poste de Charlevoix 315 kV 315kV",
+    "bus": 46,
+    "pMw": 41.24433666625243,
+    "qMvar": 13.556357890842959
+  },
+  {
+    "name": "Poste Fleury 315 kV 315kV",
+    "bus": 47,
+    "pMw": 1060.7749910568689,
+    "qMvar": 348.6598787316436
+  },
+  {
+    "name": "Poste Langelier 315 kV 315kV",
+    "bus": 48,
+    "pMw": 771.4867755223881,
+    "qMvar": 253.57544046990267
+  },
+  {
+    "name": "Poste de Duvernay 315 kV 315kV",
+    "bus": 49,
+    "pMw": 634.7913430592463,
+    "qMvar": 208.64582456871713
+  },
+  {
+    "name": "Poste Le Corbusier 315 kV 315kV",
+    "bus": 51,
+    "pMw": 791.532237528344,
+    "qMvar": 260.1640652122272
+  },
+  {
+    "name": "Poste des Basques 315 kV 315kV",
+    "bus": 52,
+    "pMw": 3.1925076694629473,
+    "qMvar": 1.0493265266140868
+  },
+  {
+    "name": "Poste de Lery 315 kV 315kV",
+    "bus": 53,
+    "pMw": 221.99526806980356,
+    "qMvar": 72.96631603946526
+  },
+  {
+    "name": "Poste de Chateauguay 315 kV 315kV",
+    "bus": 54,
+    "pMw": 81.4353773026036,
+    "qMvar": 26.766514118609372
+  },
+  {
+    "name": "Matapedia 315 kV 315kV",
+    "bus": 56,
+    "pMw": 3.093670525697247,
+    "qMvar": 1.016840328457023
+  },
+  {
+    "name": "Poste de Saraguay 315 kV 315kV",
+    "bus": 57,
+    "pMw": 734.6093383473558,
+    "qMvar": 241.4544130307374
+  },
+  {
+    "name": "Poste des Sources 315 kV 315kV",
+    "bus": 58,
+    "pMw": 701.9656929098737,
+    "qMvar": 230.72496564034256
+  },
+  {
+    "name": "Poste Saint-Jean 315 kV 315kV",
+    "bus": 59,
+    "pMw": 690.0262886512502,
+    "qMvar": 226.80067323522815
+  },
+  {
+    "name": "Poste Belanger 315 kV 315kV",
+    "bus": 60,
+    "pMw": 955.306229659258,
+    "qMvar": 313.9939732673468
+  },
+  {
+    "name": "Poste de Montreal-Est 315 kV 315kV",
+    "bus": 61,
+    "pMw": 621.6736291389876,
+    "qMvar": 204.3342405068446
+  },
+  {
+    "name": "Poste de Chomedey 315 kV 315kV",
+    "bus": 62,
+    "pMw": 717.6973375651479,
+    "qMvar": 235.89570718685317
+  },
+  {
+    "name": "Poste de Delisle 315 kV 315kV",
+    "bus": 63,
+    "pMw": 58.15774071258955,
+    "qMvar": 19.115524965341837
+  },
+  {
+    "name": "Poste de Beaupre 315 kV 315kV",
+    "bus": 65,
+    "pMw": 17.59540925894341,
+    "qMvar": 5.7833313475317
+  },
+  {
+    "name": "Poste Anne-Hebert 315 kV 315kV",
+    "bus": 68,
+    "pMw": 69.25211359750561,
+    "qMvar": 22.762068989541117
+  },
+  {
+    "name": "Poste de Deschambault 315 kV 315kV",
+    "bus": 69,
+    "pMw": 17.110304789226774,
+    "qMvar": 5.623885218984619
+  },
+  {
+    "name": "Poste de l'Aluminerie-de-Deschambault 315 kV 315kV",
+    "bus": 70,
+    "pMw": 16.681806417155883,
+    "qMvar": 5.4830446149898995
+  },
+  {
+    "name": "Poste La Prairie 315 kV 315kV",
+    "bus": 71,
+    "pMw": 590.2781828680278,
+    "qMvar": 194.0150563425831
+  },
+  {
+    "name": "Poste Bersimis 2 315 kV 315kV",
+    "bus": 72,
+    "pMw": 10.740376988767377,
+    "qMvar": 3.5301911998366586
+  },
+  {
+    "name": "Poste Brossard 315 kV 315kV",
+    "bus": 73,
+    "pMw": 528.003937800712,
+    "qMvar": 173.5465018269432
+  },
+  {
+    "name": "Poste Beauport 315 kV 315kV",
+    "bus": 74,
+    "pMw": 205.16970514965845,
+    "qMvar": 67.4360209469267
+  },
+  {
+    "name": "Poste des Laurentides 315 kV 315kV",
+    "bus": 75,
+    "pMw": 196.85939914734612,
+    "qMvar": 64.70455545479413
+  },
+  {
+    "name": "Poste Alain-Grandbois 315 kV 315kV",
+    "bus": 76,
+    "pMw": 21.718506981357947,
+    "qMvar": 7.13852803298853
+  },
+  {
+    "name": "Poste Nemiscau 315 kV 315kV",
+    "bus": 77,
+    "pMw": 8.466160858269697,
+    "qMvar": 2.782692506000692
+  },
+  {
+    "name": "Poste du Minerai de Fer Quebec-Lac-Bloom 315 kV 315kV",
+    "bus": 81,
+    "pMw": 7.9579087689062185,
+    "qMvar": 2.6156381228029693
+  },
+  {
+    "name": "Poste Normand 315 kV 315kV",
+    "bus": 82,
+    "pMw": 12.18777905914609,
+    "qMvar": 4.005929254173119
+  },
+  {
+    "name": "Poste Hertel 315 kV 315kV",
+    "bus": 83,
+    "pMw": 530.3040432778108,
+    "qMvar": 174.30250993750042
+  },
+  {
+    "name": "Poste Viger 315 kV 315kV",
+    "bus": 84,
+    "pMw": 1020.7284672911333,
+    "qMvar": 335.49722290217863
+  },
+  {
+    "name": "Poste Atwater 315 kV 315kV",
+    "bus": 85,
+    "pMw": 1030.2175083974737,
+    "qMvar": 338.61611988722166
+  },
+  {
+    "name": "Poste de l'Aqueduc 315 kV 315kV",
+    "bus": 86,
+    "pMw": 702.9594280789404,
+    "qMvar": 231.05159059517197
+  },
+  {
+    "name": "Poste de Boucherville 315 kV 315kV",
+    "bus": 87,
+    "pMw": 235.0052160326507,
+    "qMvar": 77.24247914405724
+  },
+  {
+    "name": "Poste Notre-Dame 315 kV 315kV",
+    "bus": 88,
+    "pMw": 742.5636347137631,
+    "qMvar": 244.06886381425747
+  },
+  {
+    "name": "Poste Charland 315 kV 315kV",
+    "bus": 89,
+    "pMw": 1051.9330964412304,
+    "qMvar": 345.7536885118167
+  },
+  {
+    "name": "Poste Duchesnay 315 kV 315kV",
+    "bus": 90,
+    "pMw": 46.81372732309807,
+    "qMvar": 15.386928075279787
+  },
+  {
+    "name": "Poste Du Tremblay 315 kV 315kV",
+    "bus": 91,
+    "pMw": 663.4216058149141,
+    "qMvar": 218.05613686359953
+  },
+  {
+    "name": "Poste de Mittal Canada Inc. (Longueuil) 315 kV 315kV",
+    "bus": 92,
+    "pMw": 642.8195392647222,
+    "qMvar": 211.2845650547143
+  },
+  {
+    "name": "Poste Frontenac 315 kV 315kV",
+    "bus": 93,
+    "pMw": 309.41540786393875,
+    "qMvar": 101.69992646231171
+  },
+  {
+    "name": "Poste de Lanaudiere 315 kV 315kV",
+    "bus": 94,
+    "pMw": 344.73070625107493,
+    "qMvar": 113.30750371181212
+  },
+  {
+    "name": "Poste de Lachenaie 315 kV 315kV",
+    "bus": 97,
+    "pMw": 257.301503025049,
+    "qMvar": 84.5709142829648
+  },
+  {
+    "name": "Poste Parc Eolien du Lac-Alfred 315 kV 315kV",
+    "bus": 99,
+    "pMw": 3.8872127436320607,
+    "qMvar": 1.2776650422805778
+  },
+  {
+    "name": "Poste La Romaine-2 315 kV 315kV",
+    "bus": 100,
+    "pMw": 18.23516213137916,
+    "qMvar": 5.99360794794385
+  },
+  {
+    "name": "Poste de Blainville 315 kV 315kV",
+    "bus": 102,
+    "pMw": 799.4408601044173,
+    "qMvar": 262.76350374684114
+  },
+  {
+    "name": "Poste Pierre-Le Gardeur 315 kV 315kV",
+    "bus": 103,
+    "pMw": 243.36616169916522,
+    "qMvar": 79.99058908890466
+  },
+  {
+    "name": "Poste Arnaud 315 kV 315kV",
+    "bus": 104,
+    "pMw": 65.68065087815866,
+    "qMvar": 21.588185961452897
+  },
+  {
+    "name": "Poste Saint-Patrick 315 kV 315kV",
+    "bus": 106,
+    "pMw": 1059.7157209996312,
+    "qMvar": 348.31171350073765
+  },
+  {
+    "name": "Poste de distribution Roussillon 315 kV 315kV",
+    "bus": 107,
+    "pMw": 445.08276003766605,
+    "qMvar": 146.29162871351897
+  },
+  {
+    "name": "Poste de Hauterive 315 kV 315kV",
+    "bus": 108,
+    "pMw": 74.96829631790101,
+    "qMvar": 24.64088739203316
+  },
+  {
+    "name": "Poste de Baie-Saint-Paul 315 kV 315kV",
+    "bus": 109,
+    "pMw": 32.897871393798404,
+    "qMvar": 10.813007421359949
+  },
+  {
+    "name": "Poste de Kamouraska 315 kV 315kV",
+    "bus": 113,
+    "pMw": 47.657257860145684,
+    "qMvar": 15.66418315504033
+  },
+  {
+    "name": "Poste Lucien-Lefrancois 315 kV 315kV",
+    "bus": 114,
+    "pMw": 125.80040534407601,
+    "qMvar": 41.34859366165591
+  },
+  {
+    "name": "Poste Langlois 315 kV 315kV",
+    "bus": 115,
+    "pMw": 448.8919234203977,
+    "qMvar": 147.5436401714522
+  },
+  {
+    "name": "Poste Rimouski 315 kV 315kV",
+    "bus": 116,
+    "pMw": 58.57107492382313,
+    "qMvar": 19.251381350700964
+  },
+  {
+    "name": "Poste des Patriotes 315 kV 315kV",
+    "bus": 117,
+    "pMw": 432.3510609407275,
+    "qMvar": 142.1069215884352
+  },
+  {
+    "name": "Poste de Rosemont 315 kV 315kV",
+    "bus": 118,
+    "pMw": 1207.3336943634204,
+    "qMvar": 396.8313949841319
+  },
+  {
+    "name": "Poste du Bout-de-l'Ile 315 kV 315kV",
+    "bus": 119,
+    "pMw": 517.2655614543381,
+    "qMvar": 170.01696820646137
+  },
+  {
+    "name": "Poste de Levis 315 kV 315kV",
+    "bus": 120,
+    "pMw": 165.16282171373916,
+    "qMvar": 54.28639426379647
+  },
+  {
+    "name": "Poste de Riviere-du-Loup 315 kV 315kV",
+    "bus": 121,
+    "pMw": 47.245228824357135,
+    "qMvar": 15.52875576010446
+  },
+  {
+    "name": "Poste Carignan 230 kV 230kV",
+    "bus": 214,
+    "pMw": 70.2154809747433,
+    "qMvar": 23.078712533886996
+  },
+  {
+    "name": "Poste de la Mauricie 230 kV 230kV",
+    "bus": 215,
+    "pMw": 74.0394681703912,
+    "qMvar": 24.33559634350396
+  },
+  {
+    "name": "Poste Gentilly 2 230 kV 230kV",
+    "bus": 216,
+    "pMw": 48.47053180127624,
+    "qMvar": 15.931493372646113
+  },
+  {
+    "name": "Poste de Becancour 230 kV 230kV",
+    "bus": 217,
+    "pMw": 56.03134768542912,
+    "qMvar": 18.416613375951037
+  },
+  {
+    "name": "Poste Bourget 230 kV 230kV",
+    "bus": 218,
+    "pMw": 363.06537572100166,
+    "qMvar": 119.3338181402852
+  },
+  {
+    "name": "Poste de Quebec 230 kV 230kV",
+    "bus": 219,
+    "pMw": 305.51983160472565,
+    "qMvar": 100.41951246539622
+  },
+  {
+    "name": "Poste de La Suete 230 kV 230kV",
+    "bus": 220,
+    "pMw": 199.44198363359544,
+    "qMvar": 65.55340992570581
+  },
+  {
+    "name": "Poste de Montmagny 230 kV 230kV",
+    "bus": 221,
+    "pMw": 53.97350185011089,
+    "qMvar": 17.740232158973416
+  },
+  {
+    "name": "Poste de Mont-Joli 230 kV 230kV",
+    "bus": 222,
+    "pMw": 26.68416512979948,
+    "qMvar": 8.770660938133167
+  },
+  {
+    "name": "Substation 112594037 230 kV 230kV",
+    "bus": 223,
+    "pMw": 61.94643975565434,
+    "qMvar": 20.360810120103604
+  },
+  {
+    "name": "Substation 114015272 230 kV 230kV",
+    "bus": 224,
+    "pMw": 60.27834849213894,
+    "qMvar": 19.812535035798366
+  },
+  {
+    "name": "Poste Sorel 230 kV 230kV",
+    "bus": 225,
+    "pMw": 134.2656790271925,
+    "qMvar": 44.130994567285235
+  },
+  {
+    "name": "Poste Mekinac 230 kV 230kV",
+    "bus": 226,
+    "pMw": 85.78292703817421,
+    "qMvar": 28.195484613166
+  },
+  {
+    "name": "Poste de Spruce Falls 230 kV 230kV",
+    "bus": 227,
+    "pMw": 24.716652549690952,
+    "qMvar": 8.123970826312037
+  },
+  {
+    "name": "Substation 1390526354 230 kV 230kV",
+    "bus": 228,
+    "pMw": 232.1037185529113,
+    "qMvar": 76.28880304125036
+  },
+  {
+    "name": "Matapedia 230 kV 230kV",
+    "bus": 229,
+    "pMw": 3.093670525697247,
+    "qMvar": 1.016840328457023
+  },
+  {
+    "name": "Poste de la Cascapedia 230 kV 230kV",
+    "bus": 230,
+    "pMw": 16.497217574766537,
+    "qMvar": 5.4223731965031545
+  },
+  {
+    "name": "Poste Micmac 230 kV 230kV",
+    "bus": 231,
+    "pMw": 190.60140938231757,
+    "qMvar": 62.64765368865723
+  },
+  {
+    "name": "Poste de Paspebiac 230 kV 230kV",
+    "bus": 232,
+    "pMw": 18.557419477805958,
+    "qMvar": 6.099528815491458
+  },
+  {
+    "name": "Poste de L'Isle-Maligne 230 kV 230kV",
+    "bus": 233,
+    "pMw": 76.65865809715244,
+    "qMvar": 25.196482440874966
+  },
+  {
+    "name": "Poste de la Chaudiere 230 kV 230kV",
+    "bus": 234,
+    "pMw": 180.0394871895486,
+    "qMvar": 59.176117743758184
+  },
+  {
+    "name": "Poste Alma 230 kV 230kV",
+    "bus": 235,
+    "pMw": 84.64545778328397,
+    "qMvar": 27.821616548953937
+  },
+  {
+    "name": "Poste des Appalaches 230 kV 230kV",
+    "bus": 236,
+    "pMw": 17.400383666990123,
+    "qMvar": 5.719229535353556
+  },
+  {
+    "name": "Substation 206130537 230 kV 230kV",
+    "bus": 237,
+    "pMw": 55.42365990903148,
+    "qMvar": 18.216876062937647
+  },
+  {
+    "name": "Poste des Laurentides 230 kV 230kV",
+    "bus": 239,
+    "pMw": 196.85939914734612,
+    "qMvar": 64.70455545479413
+  },
+  {
+    "name": "Poste de Charlesbourg 230 kV 230kV",
+    "bus": 240,
+    "pMw": 163.2886325062568,
+    "qMvar": 53.670378061199244
+  },
+  {
+    "name": "Poste Le Nordais-2 230 kV 230kV",
+    "bus": 241,
+    "pMw": 2.5334879957908143,
+    "qMvar": 0.8327172348778954
+  },
+  {
+    "name": "Poste au Goemon 230 kV 230kV",
+    "bus": 242,
+    "pMw": 30.005296640560584,
+    "qMvar": 9.862264076929005
+  },
+  {
+    "name": "Poste ABI 230 kV 230kV",
+    "bus": 243,
+    "pMw": 58.30750653158579,
+    "qMvar": 19.164750609544996
+  },
+  {
+    "name": "Poste des Boules 230 kV 230kV",
+    "bus": 245,
+    "pMw": 4.812245348827537,
+    "qMvar": 1.5817085563805255
+  },
+  {
+    "name": "Parc eolien Le-Nordais 230 kV 230kV",
+    "bus": 246,
+    "pMw": 16.27093006618828,
+    "qMvar": 5.347996089232956
+  },
+  {
+    "name": "Poste de Matane 230 kV 230kV",
+    "bus": 247,
+    "pMw": 24.9293408393294,
+    "qMvar": 8.193878086473875
+  },
+  {
+    "name": "Poste de Boucherville 230 kV 230kV",
+    "bus": 248,
+    "pMw": 235.0052160326507,
+    "qMvar": 77.24247914405724
+  },
+  {
+    "name": "Poste Antoine-Lemieux 230 kV 230kV",
+    "bus": 249,
+    "pMw": 57.56797625354724,
+    "qMvar": 18.921678761855222
+  },
+  {
+    "name": "Parc eolien La Mitis 230 kV 230kV",
+    "bus": 250,
+    "pMw": 1.018642038098697,
+    "qMvar": 0.33481144679004365
+  },
+  {
+    "name": "Substation 494218233 230 kV 230kV",
+    "bus": 251,
+    "pMw": 10.139866831375413,
+    "qMvar": 3.332813056103462
+  },
+  {
+    "name": "Poste Des Moulins 230 kV 230kV",
+    "bus": 252,
+    "pMw": 20.398543452856373,
+    "qMvar": 6.704677001754256
+  },
+  {
+    "name": "Poste La Durantaye 230 kV 230kV",
+    "bus": 253,
+    "pMw": 11.315836535958084,
+    "qMvar": 3.71933560617167
+  },
+  {
+    "name": "Substation 584075981 230 kV 230kV",
+    "bus": 254,
+    "pMw": 65.71827412189202,
+    "qMvar": 21.600552123653323
+  },
+  {
+    "name": "Poste de Trois-Pistoles 230 kV 230kV",
+    "bus": 256,
+    "pMw": 20.583037083917247,
+    "qMvar": 6.765317125790699
+  },
+  {
+    "name": "Poste des Chenaux 230 kV 230kV",
+    "bus": 258,
+    "pMw": 221.4435340173107,
+    "qMvar": 72.78496982612492
+  },
+  {
+    "name": "Poste de Saint-Cesaire 230 kV 230kV",
+    "bus": 259,
+    "pMw": 138.24022053590522,
+    "qMvar": 45.43736318657272
+  },
+  {
+    "name": "Poste de Saint-Ulric-Saint-Leandre 230 kV 230kV",
+    "bus": 260,
+    "pMw": 12.43470905061226,
+    "qMvar": 4.087091217460003
+  },
+  {
+    "name": "Poste Rouville 230 kV 230kV",
+    "bus": 261,
+    "pMw": 166.84970735443832,
+    "qMvar": 54.840846761148754
+  },
+  {
+    "name": "Poste Varennes 230 kV 230kV",
+    "bus": 262,
+    "pMw": 161.2338255515543,
+    "qMvar": 52.99499567597756
+  },
+  {
+    "name": "Substation 910943709 230 kV 230kV",
+    "bus": 263,
+    "pMw": 28.68069094620644,
+    "qMvar": 9.426887239565389
+  },
+  {
+    "name": "Poste Cap-de-la-Madelaine 230 kV 230kV",
+    "bus": 264,
+    "pMw": 93.7638742488066,
+    "qMvar": 30.818695105572452
+  },
+  {
+    "name": "Poste de Trois-Rivieres 230 kV 230kV",
+    "bus": 265,
+    "pMw": 116.87691712754109,
+    "qMvar": 38.415584922129995
+  },
+  {
+    "name": "Poste de Francheville 230 kV 230kV",
+    "bus": 266,
+    "pMw": 100.90839637218885,
+    "qMvar": 33.16698596662693
+  },
+  {
+    "name": "Poste des Hetres 230 kV 230kV",
+    "bus": 267,
+    "pMw": 112.55232275947213,
+    "qMvar": 36.994159491999696
+  },
+  {
+    "name": "Poste Rimouski 230 kV 230kV",
+    "bus": 268,
+    "pMw": 58.57107492382313,
+    "qMvar": 19.251381350700964
+  },
+  {
+    "name": "Poste Jules-A.-Brillant 230 kV 230kV",
+    "bus": 269,
+    "pMw": 86.31006360074902,
+    "qMvar": 28.36874602254296
+  },
+  {
+    "name": "Poste de Levis 230 kV 230kV",
+    "bus": 270,
+    "pMw": 165.16282171373916,
+    "qMvar": 54.28639426379647
+  },
+  {
+    "name": "Poste de Riviere-du-Loup 230 kV 230kV",
+    "bus": 271,
+    "pMw": 53.23000811514049,
+    "qMvar": 17.49585758598858
+  },
+  {
+    "name": "Poste de Kingsey 230 kV 230kV",
+    "bus": 272,
+    "pMw": 76.324350662998,
+    "qMvar": 25.08660090102527
+  },
+  {
+    "name": "Poste Heriot 230 kV 230kV",
+    "bus": 273,
+    "pMw": 295.80001828515657,
+    "qMvar": 97.22476432194807
+  },
+  {
+    "name": "Poste Nicolet 230 kV 230kV",
+    "bus": 274,
+    "pMw": 12.280306737049713,
+    "qMvar": 4.03634163118915
+  },
+  {
+    "name": "Poste de Thetford 230 kV 230kV",
+    "bus": 275,
+    "pMw": 42.42264364600632,
+    "qMvar": 13.943648666109373
+  },
+  {
+    "name": "Poste de Beauceville 230 kV 230kV",
+    "bus": 276,
+    "pMw": 204.7761289487191,
+    "qMvar": 67.30665870550125
+  },
+  {
+    "name": "Poste Grande-Baie 161 kV 161kV",
+    "bus": 337,
+    "pMw": 0.9423937760796977,
+    "qMvar": 0.3097498550168854
+  },
+  {
+    "name": "Poste Sept-Iles 161 kV 161kV",
+    "bus": 338,
+    "pMw": 2.1542184242500335,
+    "qMvar": 0.708057355134443
+  },
+  {
+    "name": "Poste de Katahdin Pate Quebec 161 kV 161kV",
+    "bus": 339,
+    "pMw": 8.792119887313005,
+    "qMvar": 2.889830057786763
+  },
+  {
+    "name": "Substation 1090272177 161 kV 161kV",
+    "bus": 340,
+    "pMw": 2.591708699186772,
+    "qMvar": 0.8518534546764798
+  },
+  {
+    "name": "Substation 1090272283 161 kV 161kV",
+    "bus": 341,
+    "pMw": 1.646189223187536,
+    "qMvar": 0.5410762317784832
+  },
+  {
+    "name": "Substation 110992653 161 kV 161kV",
+    "bus": 343,
+    "pMw": 1.7324494340267698,
+    "qMvar": 0.5694285919907168
+  },
+  {
+    "name": "Substation 110994351 161 kV 161kV",
+    "bus": 344,
+    "pMw": 2.5578156036770037,
+    "qMvar": 0.8407133329071098
+  },
+  {
+    "name": "Poste Dubuc 161 kV 161kV",
+    "bus": 345,
+    "pMw": 2.507843448709222,
+    "qMvar": 0.8242882798676651
+  },
+  {
+    "name": "Poste de Port-Alfred 161 kV 161kV",
+    "bus": 346,
+    "pMw": 1.1099628567472877,
+    "qMvar": 0.364827148351757
+  },
+  {
+    "name": "Poste de Desbiens 161 kV 161kV",
+    "bus": 347,
+    "pMw": 19.479652807674853,
+    "qMvar": 6.40265225228554
+  },
+  {
+    "name": "Poste de Fibrek S.E.N.C. 161 kV 161kV",
+    "bus": 348,
+    "pMw": 3.2252155151419735,
+    "qMvar": 1.060077075603426
+  },
+  {
+    "name": "Poste Enel 161 kV 161kV",
+    "bus": 349,
+    "pMw": 1.9328930487962606,
+    "qMvar": 0.6353112221500437
+  },
+  {
+    "name": "Poste de Niobec 161 kV 161kV",
+    "bus": 353,
+    "pMw": 3.3730189637385903,
+    "qMvar": 1.108657719847755
+  },
+  {
+    "name": "Substation 1435190430 161 kV 161kV",
+    "bus": 354,
+    "pMw": 13.207947527121132,
+    "qMvar": 4.341242414201188
+  },
+  {
+    "name": "Poste de Roberval 161 kV 161kV",
+    "bus": 357,
+    "pMw": 51.89749815657566,
+    "qMvar": 17.057882742615774
+  },
+  {
+    "name": "Poste de Saint-Felicien 161 kV 161kV",
+    "bus": 358,
+    "pMw": 2.6154461590773184,
+    "qMvar": 0.8596555804398232
+  },
+  {
+    "name": "Poste de Jonquiere 161 kV 161kV",
+    "bus": 359,
+    "pMw": 1.3991421361982166,
+    "qMvar": 0.45987578105435395
+  },
+  {
+    "name": "Poste de Saint-Ambroise 161 kV 161kV",
+    "bus": 360,
+    "pMw": 1.3727201299583576,
+    "qMvar": 0.45119128757637555
+  },
+  {
+    "name": "Poste Simard 161 kV 161kV",
+    "bus": 361,
+    "pMw": 2.583835213913953,
+    "qMvar": 0.8492655652149443
+  },
+  {
+    "name": "Poste de Chicoutimi-Nord 161 kV 161kV",
+    "bus": 362,
+    "pMw": 3.396832242167706,
+    "qMvar": 1.116484765959604
+  },
+  {
+    "name": "Elkem Chicoutimi 161 kV 161kV",
+    "bus": 366,
+    "pMw": 2.5104889120053686,
+    "qMvar": 0.8251578016039424
+  },
+  {
+    "name": "Substation 190364220 161 kV 161kV",
+    "bus": 367,
+    "pMw": 34.8176044432266,
+    "qMvar": 11.443993160893548
+  },
+  {
+    "name": "Poste Chicoutimi 161 kV 161kV",
+    "bus": 371,
+    "pMw": 2.9148573339743082,
+    "qMvar": 0.9580672745413923
+  },
+  {
+    "name": "Poste Jean-Dechene 161 kV 161kV",
+    "bus": 373,
+    "pMw": 1.5093277862606111,
+    "qMvar": 0.4960920528486635
+  },
+  {
+    "name": "Poste de Havre-Saint-Pierre 161 kV 161kV",
+    "bus": 374,
+    "pMw": 15.928720266238802,
+    "qMvar": 5.235517167353125
+  },
+  {
+    "name": "Poste, Centrale Shipshaw 161 kV 161kV",
+    "bus": 378,
+    "pMw": 1.6684201866618913,
+    "qMvar": 0.5483831961153156
+  },
+  {
+    "name": "Poste Compagnie-Miniere-Quebec-Cartier 161 kV 161kV",
+    "bus": 379,
+    "pMw": 7.053386314992474,
+    "qMvar": 2.3183359694241403
+  },
+  {
+    "name": "Poste Mistassini 161 kV 161kV",
+    "bus": 380,
+    "pMw": 100.05278873454253,
+    "qMvar": 32.88576133586296
+  },
+  {
+    "name": "Substation 593827965 161 kV 161kV",
+    "bus": 381,
+    "pMw": 52.555032623291225,
+    "qMvar": 17.27400387043244
+  },
+  {
+    "name": "Poste Normandin 161 kV 161kV",
+    "bus": 382,
+    "pMw": 8.806342096908711,
+    "qMvar": 2.8945046720213936
+  },
+  {
+    "name": "Poste de l'Ile 161 kV 161kV",
+    "bus": 383,
+    "pMw": 12.586988118696947,
+    "qMvar": 4.137142926690888
+  },
+  {
+    "name": "Poste des Serres Toundra 161 kV 161kV",
+    "bus": 386,
+    "pMw": 3.1716360871685123,
+    "qMvar": 1.0424663692639733
+  },
+  {
+    "name": "Poste de La Baie 161 kV 161kV",
+    "bus": 387,
+    "pMw": 0.9590408575074213,
+    "qMvar": 0.31522148607979644
+  },
+  {
+    "name": "Substation 705296646 161 kV 161kV",
+    "bus": 389,
+    "pMw": 2.655950529066162,
+    "qMvar": 0.8729687230454397
+  },
+  {
+    "name": "Substation 705296650 161 kV 161kV",
+    "bus": 390,
+    "pMw": 1.4092202641171632,
+    "qMvar": 0.46318830151127105
+  },
+  {
+    "name": "Poste d'Iron Ore du Canada 161 kV 161kV",
+    "bus": 391,
+    "pMw": 2.35189789496375,
+    "qMvar": 0.773031455078212
+  },
+  {
+    "name": "Poste de la Riviere-aux-Rochers 161 kV 161kV",
+    "bus": 392,
+    "pMw": 12.767523555408804,
+    "qMvar": 4.1964820551596
+  },
+  {
+    "name": "Poste de Port-Cartier 161 kV 161kV",
+    "bus": 393,
+    "pMw": 6.416343798878503,
+    "qMvar": 2.1089502200543286
+  },
+  {
+    "name": "Poste d'Aluminerie-Alouette 161 kV 161kV",
+    "bus": 401,
+    "pMw": 1.552321793609992,
+    "qMvar": 0.5102234996823483
+  },
+  {
+    "name": "Substation 9583795769 120 kV 115kV",
+    "bus": 457,
+    "pMw": 21.290480287719404,
+    "qMvar": 6.997842462197279
+  },
+  {
+    "name": "Poste de Messer Canada 120 kV 115kV",
+    "bus": 459,
+    "pMw": 15.288510798717034,
+    "qMvar": 5.025090491393696
+  },
+  {
+    "name": "Poste d'EKA Chimie 120 kV 115kV",
+    "bus": 460,
+    "pMw": 16.125780976842748,
+    "qMvar": 5.300287890683894
+  },
+  {
+    "name": "Poste De Grand Pre 120 kV 115kV",
+    "bus": 461,
+    "pMw": 30.375307924058777,
+    "qMvar": 9.983880904551691
+  },
+  {
+    "name": "Poste de Charette 120 kV 115kV",
+    "bus": 462,
+    "pMw": 4.134833177470021,
+    "qMvar": 1.3590539430006097
+  },
+  {
+    "name": "Poste de Sainte-Rosalie 120 kV 115kV",
+    "bus": 466,
+    "pMw": 88.0115968541353,
+    "qMvar": 28.928012957364313
+  },
+  {
+    "name": "Poste Acton-Vale 120 kV 115kV",
+    "bus": 467,
+    "pMw": 35.24574634633649,
+    "qMvar": 11.584716599206796
+  },
+  {
+    "name": "Poste Casavant 120 kV 115kV",
+    "bus": 468,
+    "pMw": 150.05831965684942,
+    "qMvar": 49.32178452105537
+  },
+  {
+    "name": "Poste de Saint-Joseph 120 kV 115kV",
+    "bus": 470,
+    "pMw": 7.6978379919602,
+    "qMvar": 2.5301569921992955
+  },
+  {
+    "name": "Poste de Sainte-Marie 120 kV 115kV",
+    "bus": 471,
+    "pMw": 40.70635509078138,
+    "qMvar": 13.37953189810654
+  },
+  {
+    "name": "Poste de Coaticook 120 kV 115kV",
+    "bus": 472,
+    "pMw": 33.03835899787572,
+    "qMvar": 10.859183463794823
+  },
+  {
+    "name": "Poste des Vents-du-Kempt 120 kV 115kV",
+    "bus": 476,
+    "pMw": 4.505104700865712,
+    "qMvar": 1.4807563073411367
+  },
+  {
+    "name": "Poste de St-Lazare 120 kV 115kV",
+    "bus": 477,
+    "pMw": 6.63270570115583,
+    "qMvar": 2.1800649382991484
+  },
+  {
+    "name": "Poste Sainte-Claire 120 kV 115kV",
+    "bus": 478,
+    "pMw": 16.50073228174909,
+    "qMvar": 5.423528424822681
+  },
+  {
+    "name": "Poste de L'Islet 120 kV 115kV",
+    "bus": 481,
+    "pMw": 18.225433528593683,
+    "qMvar": 5.990410310842666
+  },
+  {
+    "name": "Poste de Stanstead 120 kV 115kV",
+    "bus": 485,
+    "pMw": 13.94972455060231,
+    "qMvar": 4.58505273140634
+  },
+  {
+    "name": "Poste de Yamaska 120 kV 115kV",
+    "bus": 486,
+    "pMw": 5.151513866451219,
+    "qMvar": 1.6932207255110248
+  },
+  {
+    "name": "Poste de Bedford 120 kV 115kV",
+    "bus": 488,
+    "pMw": 21.586417351648137,
+    "qMvar": 7.095112271243955
+  },
+  {
+    "name": "Poste de L'Assomption 120 kV 115kV",
+    "bus": 489,
+    "pMw": 2.9028355701190844,
+    "qMvar": 0.9541159118459664
+  },
+  {
+    "name": "Poste de Cowansville 120 kV 115kV",
+    "bus": 491,
+    "pMw": 61.55512902591086,
+    "qMvar": 20.23219250305098
+  },
+  {
+    "name": "Substation 1103807295 120 kV 115kV",
+    "bus": 492,
+    "pMw": 2.636863998079938,
+    "qMvar": 0.8666952836872642
+  },
+  {
+    "name": "Poste de Squatec 120 kV 115kV",
+    "bus": 495,
+    "pMw": 2.895712441463643,
+    "qMvar": 0.9517746526777789
+  },
+  {
+    "name": "Poste d'Iberville 120 kV 115kV",
+    "bus": 497,
+    "pMw": 0.8829576493625224,
+    "qMvar": 0.2902141448915531
+  },
+  {
+    "name": "Poste de L'Acadie 120 kV 115kV",
+    "bus": 498,
+    "pMw": 1.3404830841573754,
+    "qMvar": 0.44059548302366974
+  },
+  {
+    "name": "Poste de Saint-Sebastien 120 kV 115kV",
+    "bus": 499,
+    "pMw": 16.50605139309988,
+    "qMvar": 5.4252767321773625
+  },
+  {
+    "name": "Poste de Kildare 120 kV 115kV",
+    "bus": 503,
+    "pMw": 18.62397030425924,
+    "qMvar": 6.12140301433317
+  },
+  {
+    "name": "Poste de Saint-Chrysostome 120 kV 115kV",
+    "bus": 504,
+    "pMw": 7.771005725263323,
+    "qMvar": 2.5542060631479986
+  },
+  {
+    "name": "Poste de Hemmingford 120 kV 115kV",
+    "bus": 509,
+    "pMw": 3.280045584440605,
+    "qMvar": 1.0780988478677418
+  },
+  {
+    "name": "Poste Larocque 120 kV 115kV",
+    "bus": 510,
+    "pMw": 2.7503202578890296,
+    "qMvar": 0.9039865529195561
+  },
+  {
+    "name": "Poste Stukely Sud 120 kV 115kV",
+    "bus": 513,
+    "pMw": 10.028785169827314,
+    "qMvar": 3.296302279575744
+  },
+  {
+    "name": "Poste Magog 120 kV 115kV",
+    "bus": 514,
+    "pMw": 18.32743894500319,
+    "qMvar": 6.023937869858623
+  },
+  {
+    "name": "Poste Saint-Pamphile 120 kV 115kV",
+    "bus": 515,
+    "pMw": 18.364065069949877,
+    "qMvar": 6.035976294962893
+  },
+  {
+    "name": "Poste de Sainte-Anne-des-Plaines 120 kV 115kV",
+    "bus": 516,
+    "pMw": 4.924610307279565,
+    "qMvar": 1.6186411322027905
+  },
+  {
+    "name": "Poste de Cabano 120 kV 115kV",
+    "bus": 518,
+    "pMw": 16.41698362276344,
+    "qMvar": 5.396001571784054
+  },
+  {
+    "name": "Poste de Degelis 120 kV 115kV",
+    "bus": 519,
+    "pMw": 13.277002672784018,
+    "qMvar": 4.36393974296139
+  },
+  {
+    "name": "Poste Ramezay 120 kV 115kV",
+    "bus": 520,
+    "pMw": 9.818142171865844,
+    "qMvar": 3.2270672742785855
+  },
+  {
+    "name": "Substation 1472378537 120 kV 115kV",
+    "bus": 522,
+    "pMw": 2.518118552828448,
+    "qMvar": 0.8276655432707124
+  },
+  {
+    "name": "Poste de Saint-Polycarpe 120 kV 115kV",
+    "bus": 539,
+    "pMw": 1.84089124545452,
+    "qMvar": 0.605071691743822
+  },
+  {
+    "name": "Poste de Rigaud 120 kV 115kV",
+    "bus": 540,
+    "pMw": 56.49402514721265,
+    "qMvar": 18.56868810346379
+  },
+  {
+    "name": "Poste Galt 120 kV 115kV",
+    "bus": 541,
+    "pMw": 5.136907062560246,
+    "qMvar": 1.688419701244597
+  },
+  {
+    "name": "Poste de Valleyfield 120 kV 115kV",
+    "bus": 543,
+    "pMw": 2.503348527613938,
+    "qMvar": 0.8228108707496118
+  },
+  {
+    "name": "Poste de Vaudreuil-Soulanges 120 kV 115kV",
+    "bus": 545,
+    "pMw": 2.3185198812334638,
+    "qMvar": 0.7620606325026252
+  },
+  {
+    "name": "Poste de Richelieu 120 kV 115kV",
+    "bus": 546,
+    "pMw": 1.2503101377324473,
+    "qMvar": 0.4109570688166506
+  },
+  {
+    "name": "Poste de Saint-Remi 120 kV 115kV",
+    "bus": 548,
+    "pMw": 1.1911118019282072,
+    "qMvar": 0.39149951678475614
+  },
+  {
+    "name": "Poste de Mascouche 120 kV 115kV",
+    "bus": 549,
+    "pMw": 2.79570108616689,
+    "qMvar": 0.9189025098543401
+  },
+  {
+    "name": "Poste Saint-Francois 120 kV 115kV",
+    "bus": 550,
+    "pMw": 0.9206692748856724,
+    "qMvar": 0.3026093567814701
+  },
+  {
+    "name": "Poste de Beaulieu 120 kV 115kV",
+    "bus": 551,
+    "pMw": 4.349747443138558,
+    "qMvar": 1.4296928461020453
+  },
+  {
+    "name": "Poste d'Hydro-Magog 120 kV 115kV",
+    "bus": 553,
+    "pMw": 18.134170966253453,
+    "qMvar": 5.960413757203538
+  },
+  {
+    "name": "Poste de Saint-Georges 120 kV 115kV",
+    "bus": 555,
+    "pMw": 1.255411445881607,
+    "qMvar": 0.41263378772089887
+  },
+  {
+    "name": "Poste Megantic 120 kV 115kV",
+    "bus": 556,
+    "pMw": 26.457328141639998,
+    "qMvar": 8.696103225658499
+  },
+  {
+    "name": "Poste de Napierville 120 kV 115kV",
+    "bus": 559,
+    "pMw": 16.463107907249064,
+    "qMvar": 5.411161890957225
+  },
+  {
+    "name": "Poste d'Adamsville 120 kV 115kV",
+    "bus": 569,
+    "pMw": 15.603064186456647,
+    "qMvar": 5.12847919017387
+  },
+  {
+    "name": "Poste de Magnan 120 kV 115kV",
+    "bus": 576,
+    "pMw": 60.3430863641588,
+    "qMvar": 19.8338133453344
+  },
+  {
+    "name": "Poste Bolduc 120 kV 115kV",
+    "bus": 578,
+    "pMw": 3.43508128199754,
+    "qMvar": 1.1290566173900236
+  },
+  {
+    "name": "Poste d'Almaville 120 kV 115kV",
+    "bus": 580,
+    "pMw": 1.5133758168936744,
+    "qMvar": 0.49742257617502844
+  },
+  {
+    "name": "Poste Leman 120 kV 115kV",
+    "bus": 581,
+    "pMw": 1.6141976459803693,
+    "qMvar": 0.530561108850885
+  },
+  {
+    "name": "Poste de Temiscouata 120 kV 115kV",
+    "bus": 585,
+    "pMw": 4.345596839877307,
+    "qMvar": 1.4283286087831684
+  },
+  {
+    "name": "Poste de Berthier 120 kV 115kV",
+    "bus": 587,
+    "pMw": 1.5005473139289278,
+    "qMvar": 0.49320605115727645
+  },
+  {
+    "name": "Poste d'East Angus 120 kV 115kV",
+    "bus": 588,
+    "pMw": 16.633482124530154,
+    "qMvar": 5.4671611881098094
+  },
+  {
+    "name": "Poste Gaston-Masse 120 kV 115kV",
+    "bus": 590,
+    "pMw": 4.233588551328921,
+    "qMvar": 1.3915132646890263
+  },
+  {
+    "name": "Poste de Weedon 120 kV 115kV",
+    "bus": 592,
+    "pMw": 4.87529328379968,
+    "qMvar": 1.6024314104702193
+  },
+  {
+    "name": "Substation 633059441 120 kV 115kV",
+    "bus": 593,
+    "pMw": 18.991354193764494,
+    "qMvar": 6.242156259312334
+  },
+  {
+    "name": "Substation 642922646 120 kV 115kV",
+    "bus": 596,
+    "pMw": 2.7808814851996755,
+    "qMvar": 0.9140315425713236
+  },
+  {
+    "name": "Substation 669500209 120 kV 115kV",
+    "bus": 598,
+    "pMw": 11.561379628601273,
+    "qMvar": 3.8000417178599473
+  },
+  {
+    "name": "Poste de Sherbrooke 120 kV 115kV",
+    "bus": 599,
+    "pMw": 3.397047266579528,
+    "qMvar": 1.1165554410659952
+  },
+  {
+    "name": "Poste Liniere 120 kV 115kV",
+    "bus": 603,
+    "pMw": 11.661765765092015,
+    "qMvar": 3.8330370453047697
+  },
+  {
+    "name": "Poste de Neubois 120 kV 115kV",
+    "bus": 606,
+    "pMw": 7.1438019026446415,
+    "qMvar": 2.3480541359458145
+  },
+  {
+    "name": "Poste de Causapscal 120 kV 115kV",
+    "bus": 610,
+    "pMw": 7.795426183572916,
+    "qMvar": 2.5622326796355446
+  },
+  {
+    "name": "Poste d'Amqui 120 kV 115kV",
+    "bus": 611,
+    "pMw": 29.36804887497704,
+    "qMvar": 9.65281086532095
+  },
+  {
+    "name": "Poste d'Uniboard Canada 120 kV 115kV",
+    "bus": 613,
+    "pMw": 3.8894016725783085,
+    "qMvar": 1.2783845084325751
+  },
+  {
+    "name": "Poste Aubertois 120 kV 115kV",
+    "bus": 614,
+    "pMw": 14.492894486481218,
+    "qMvar": 4.763584055740759
+  },
+  {
+    "name": "Poste de Provost 120 kV 115kV",
+    "bus": 617,
+    "pMw": 5.206757982981527,
+    "qMvar": 1.711378588519186
+  },
+  {
+    "name": "Poste Farnham 120 kV 115kV",
+    "bus": 619,
+    "pMw": 5.438057509110905,
+    "qMvar": 1.7874030662933156
+  },
+  {
+    "name": "Poste Leclerc 120 kV 115kV",
+    "bus": 620,
+    "pMw": 1.526824652873914,
+    "qMvar": 0.5018429947948908
+  },
+  {
+    "name": "Poste de Granby 120 kV 115kV",
+    "bus": 621,
+    "pMw": 3.565989223489451,
+    "qMvar": 1.1720839770000993
+  },
+  {
+    "name": "Poste de Cleveland 120 kV 115kV",
+    "bus": 622,
+    "pMw": 9.614176851562002,
+    "qMvar": 3.160027115486997
+  },
+  {
+    "name": "Poste de Waterloo 120 kV 115kV",
+    "bus": 623,
+    "pMw": 17.870104693963874,
+    "qMvar": 5.87361937078812
+  },
+  {
+    "name": "Poste Laurendeau 120 kV 115kV",
+    "bus": 631,
+    "pMw": 20.5023375712375,
+    "qMvar": 6.738792478677185
+  },
+  {
+    "name": "Poste de Sainte-Emelie 120 kV 115kV",
+    "bus": 632,
+    "pMw": 15.478835211565361,
+    "qMvar": 5.087647100724441
+  },
+  {
+    "name": "Substation 940515989 120 kV 115kV",
+    "bus": 636,
+    "pMw": 1.6411034737905716,
+    "qMvar": 0.539404626788778
+  },
+  {
+    "name": "Poste St-Evariste 120 kV 115kV",
+    "bus": 643,
+    "pMw": 6.376091782873046,
+    "qMvar": 2.0957200221919297
+  },
+  {
+    "name": "Poste de Sully 120 kV 115kV",
+    "bus": 646,
+    "pMw": 18.557419477805958,
+    "qMvar": 6.099528815491458
+  },
+  {
+    "name": "Poste des Bois-Franc 120 kV 115kV",
+    "bus": 656,
+    "pMw": 106.34245094721405,
+    "qMvar": 34.953073332112204
+  },
+  {
+    "name": "Poste d'Arthabaska 120 kV 115kV",
+    "bus": 657,
+    "pMw": 63.053182588386754,
+    "qMvar": 20.724578897743378
+  },
+  {
+    "name": "Poste de Plessisville 120 kV 115kV",
+    "bus": 658,
+    "pMw": 34.47662659848896,
+    "qMvar": 11.331919163110138
+  }
+]

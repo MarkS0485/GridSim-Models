@@ -1,0 +1,40 @@
+France transmission 400/225 kV winter peak 2026-01-06 (UnvalidatedAtScale)
+
+RELEASE STATUS
+--------------
+Included in the GridSim-Models repository PENDING JAO's written consent: this model uses JAO Static Grid Model data and is NOT cleared for public redistribution until that consent is held (see LICENSING.md). General-purpose fidelity, never planning grade.
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+PRIVATE - DO NOT SHARE OR PUBLISH
+---------------------------------
+This folder is NOT openly licensed. Every line and transformer impedance and rating in it comes from
+the JAO Core Static Grid Model (9th release, March 2026), RTE's rows. JAO's General Terms and
+Conditions allow educational, academic, research and internal-analysis use with JAO cited as the
+source; selling, commercialising or making the data available to third parties requires JAO's prior
+written authorisation (contact@jao.eu; https://www.jao.eu/static-grid-model). Keep this case inside the build pipeline.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
+approximation of the French 225/400 kV grid for one snapshot (2026-01-06 10:00 CET, the winter
+2025-26 consumption peak), with allocated demand and register-based generation. Do not use it for
+planning, operation or investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- JAO S.A. / Core TSOs (RTE): Core Static Grid Model, 9th release, lines, tie-lines, transformers and
+  publication map. Source: JAO. Terms as above.
+- RTE, via ODRE (Open Data Reseaux Energies, odre.opendatasoft.com), Licence Ouverte v2.0 (Etalab):
+  sites electriques RTE (names, codes, departement), registre national des installations de
+  production et de stockage (31/08/2026), eCO2mix national consolidated data (2026-01-06).
+- OpenStreetMap contributors: substation positions (tags ref:FR:RTE, ref:FR:RTE_nom), via the
+  Overpass API. ODbL 1.0, (c) OpenStreetMap contributors, openstreetmap.org/copyright.
+- DINUM API Geo (geo.api.gouv.fr; INSEE populations, IGN centres), Licence Ouverte v2.0.
+- france-geojson (github.com/gregoiredavid/france-geojson), IGN Admin Express COG outlines,
+  Licence Ouverte: the 13 regions in geography.json.
+- Natural Earth (public domain): France outline in geography.json. Made with Natural Earth.

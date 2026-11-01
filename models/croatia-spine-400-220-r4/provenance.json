@@ -1,0 +1,1361 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Croatia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): HOPS lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (HOPS for Croatia)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Croatia (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Croatia units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Croatia 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Croatia, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "model_assembly"
+  ],
+  "37": [
+   "model_assembly"
+  ],
+  "38": [
+   "model_assembly"
+  ],
+  "39": [
+   "model_assembly"
+  ],
+  "40": [
+   "model_assembly"
+  ],
+  "41": [
+   "model_assembly"
+  ],
+  "42": [
+   "model_assembly"
+  ],
+  "43": [
+   "model_assembly"
+  ],
+  "44": [
+   "model_assembly"
+  ],
+  "45": [
+   "model_assembly"
+  ],
+  "46": [
+   "model_assembly"
+  ],
+  "47": [
+   "model_assembly"
+  ],
+  "48": [
+   "model_assembly"
+  ],
+  "49": [
+   "model_assembly"
+  ],
+  "50": [
+   "model_assembly"
+  ],
+  "51": [
+   "model_assembly"
+  ],
+  "52": [
+   "model_assembly"
+  ],
+  "53": [
+   "model_assembly"
+  ],
+  "54": [
+   "model_assembly"
+  ],
+  "55": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:400 kV Zerjavinec - Ernestinovo 408:0": [
+   "jao_sgm"
+  ],
+  "jao:400 kV Melina - Velebit 434:1": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Brinje - VE Padene:2": [
+   "jao_sgm"
+  ],
+  "jao:400 kV Tumbri - Melina 456:3": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Mraclin -Brinje 208:4": [
+   "jao_sgm"
+  ],
+  "jao:400 kV Konjsko - Velebit 419:5": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Zakucac - Bilice 257:6": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Konjsko - VE Padene:7": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Melina - Plomin 287:8": [
+   "jao_sgm"
+  ],
+  "jao:400 kV Zerjavinec - Tumbri 477:9": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Mraclin - TE Sisak2 222:10": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Melina - Senj 241:11": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Konjsko - Bilice 271/1:12": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Konjsko - Bilice 271/2:13": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Pehlin - Plomin 284:14": [
+   "jao_sgm"
+  ],
+  "jao:220 kV TE Sisak - Meduric 246:15": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Mraclin - TE Sisak 249:16": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Zerjavinec - Mraclin 247:17": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Zakucac - Konjsko 274:18": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Melina - Pehlin2 286/2:19": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Senj - Brinje 235:20": [
+   "jao_sgm"
+  ],
+  "jao:220 kV Melina - Pehlin1 285:21": [
+   "jao_sgm"
+  ],
+  "jao:Zerjavinec-Cirkovce:22": [
+   "jao_sgm"
+  ],
+  "jao:Zerjavinec-Heviz:23": [
+   "jao_sgm"
+  ],
+  "jao:Mostar - Konjsko:24": [
+   "jao_sgm"
+  ],
+  "jao:Prijedor - Sisak:25": [
+   "jao_sgm"
+  ],
+  "jao:Ugljevik - Ernestinovo:26": [
+   "jao_sgm"
+  ],
+  "jao:Ernestinovo-S. Mitrovica:27": [
+   "jao_sgm"
+  ],
+  "jao:Mostar - Zakucac:28": [
+   "jao_sgm"
+  ],
+  "jao:Pecs - Ernestinovo1 491A:29": [
+   "jao_sgm"
+  ],
+  "jao:Pecs - Ernestinovo2 491B:30": [
+   "jao_sgm"
+  ],
+  "jao:Zerjavinec - Podlog:31": [
+   "jao_sgm"
+  ],
+  "jao:Prijedor - Meduric:32": [
+   "jao_sgm"
+  ],
+  "jao:Melina - Divaca:33": [
+   "jao_sgm"
+  ],
+  "jao:Pehlin - Divaca:34": [
+   "jao_sgm"
+  ],
+  "jao:Tumbri - Krsko 1:35": [
+   "jao_sgm"
+  ],
+  "jao:Tumbri - Krsko 2:36": [
+   "jao_sgm"
+  ],
+  "osm:osm ts te rijeka - melina 220 (OSM way/129255606-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm ts te rijeka - melina 220 (OSM way/158456022-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:konjsko - osm virtual_way/170507277:1 220 (OSM way/170507277-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:brinje - osm virtual_way/273337194:1 220 (OSM way/273337194-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:konjsko - osm virtual_way/45346365:1 220 (OSM way/45346365-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:krsko [SI]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:divaca [SI]:220~HR:podlog [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:divaca [SI]:hv~HR:krsko [SI]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:31T-0000-B-0004S:0": [
+   "jao_sgm"
+  ],
+  "jao:31T-0000-B-0005Q:1": [
+   "jao_sgm"
+  ],
+  "jao:31T-0000-B-0002W:2": [
+   "jao_sgm"
+  ],
+  "jao:31T-0000-B-0003U:3": [
+   "jao_sgm"
+  ],
+  "jao:31T-0000-B-0001Y:4": [
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:podlog [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:divaca [SI]:hv~HR:divaca [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:krsko [SI]:hv~HR:divaca [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:divaca [SI]:hv~HR:podlog [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:SI:HR:krsko [SI]:hv~HR:podlog [SI]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:HR:ernestinovo:hv": [
+   "model_assembly"
+  ],
+  "gsu:HR:melina:hv": [
+   "model_assembly"
+  ],
+  "emb:HR:tumbri:hv": [
+   "model_assembly"
+  ],
+  "emb:HR:velebit:hv": [
+   "model_assembly"
+  ],
+  "gsu:HR:zerjavinec:hv": [
+   "model_assembly"
+  ],
+  "emb:HR:bilice:220": [
+   "model_assembly"
+  ],
+  "emb:HR:brinje:220": [
+   "model_assembly"
+  ],
+  "emb:HR:konjsko:220": [
+   "model_assembly"
+  ],
+  "emb:HR:meduric:220": [
+   "model_assembly"
+  ],
+  "emb:HR:melina:220": [
+   "model_assembly"
+  ],
+  "emb:HR:mraclin:220": [
+   "model_assembly"
+  ],
+  "emb:HR:pehlin:220": [
+   "model_assembly"
+  ],
+  "emb:HR:plomin:220": [
+   "model_assembly"
+  ],
+  "gsu:HR:plomin:220": [
+   "model_assembly"
+  ],
+  "emb:HR:senj:220": [
+   "model_assembly"
+  ],
+  "emb:HR:te sisak:220": [
+   "model_assembly"
+  ],
+  "emb:HR:ve padene:220": [
+   "model_assembly"
+  ],
+  "emb:HR:zakucac:220": [
+   "model_assembly"
+  ],
+  "gsu:HR:zakucac:220": [
+   "model_assembly"
+  ],
+  "emb:HR:zerjavinec:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Import SI @ cirkovce [SI]": [
+   "energy_charts"
+  ],
+  "Import SI @ divaca [SI]": [
+   "energy_charts"
+  ],
+  "Osijek": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brod Posavina County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brod Posavina County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brod Posavina County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Osijek Baranja County Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Virovitica Podravina County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vukovar Srijem County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vukovar Srijem County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ernestinovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ ernestinovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ ernestinovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import HU @ heviz [HU]": [
+   "energy_charts"
+  ],
+  "Import SI @ krsko [SI]": [
+   "energy_charts"
+  ],
+  "Rijeka": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Import BA @ mostar [BA]": [
+   "energy_charts"
+  ],
+  "Import HU @ pecs [HU]": [
+   "energy_charts"
+  ],
+  "El To Zagreb": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ozalj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zagreb County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zagreb County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ tumbri": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ tumbri": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ tumbri": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import BA @ ugljevik [BA]": [
+   "energy_charts"
+  ],
+  "Velebit": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Obrovac Zelengrad Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Korlat Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jasenice Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Korlat Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lika Senj County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar Wind Farm #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar Wind Farm #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ velebit": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ velebit": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ velebit": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Te To Zagreb": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Orlice Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Glunca Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Danilo Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Crno Brdo Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Trtar Krtolin Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jaruga": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Boraja Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bilice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ bilice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ bilice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lesce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Gojak": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sklope": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Senj Norinco Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kosinj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ brinje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ brinje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ brinje": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import SI @ divaca [SI] #2": [
+   "energy_charts"
+  ],
+  "Peruca": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Orlovac": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pometeno Brdo Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ogorje Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jelinak Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Split Dalmatia County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ konjsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ konjsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ konjsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Velika Ciglena Geothermal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bjelovar Bilogora County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bjelovar Bilogora County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brod Posavina County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Petrokemija Kutina": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sisak Moslavina County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Virovitica Podravina County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Virovitica Podravina County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Virovitica Podravina County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ meduric": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ meduric": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ meduric": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Vinodol": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fuzine": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ melina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ melina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ melina": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import BA @ mostar [BA] #2": [
+   "energy_charts"
+  ],
+  "Zagreb County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zagreb County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ mraclin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ mraclin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ mraclin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Rijeka #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ pehlin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ pehlin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ pehlin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Istria County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Buje Istria County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Istria County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Istria County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Istria County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Istria County Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ plomin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ plomin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ plomin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Plomin Phase": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Import SI @ podlog [SI]": [
+   "energy_charts"
+  ],
+  "Import BA @ prijedor [BA]": [
+   "energy_charts"
+  ],
+  "Senj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Novalja Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Senj Wallenborn Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ senj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ senj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ senj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Sisak": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ te sisak": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ te sisak": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ te sisak": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Miljacka Maljacka": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Golubic": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ljubac Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krs Padene Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibenik Knin County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibenik Knin County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibenik Knin County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sibenik Knin Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Split Dalmatia County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zadar Wind Farm #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ ve padene": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ ve padene": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ ve padene": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dale": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kraljevac": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dubrovnik": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Rudine Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ponikve Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Lukovac Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kom Orjak Greda Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Katuni Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kamensko Vostane Wind Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Opor Wind Park": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Split Dalmatia County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vis Battery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zakucac": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ zakucac": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ zakucac": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Zakucac": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dubrava": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Cakovec": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Draskovec Geothermal": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jertovec": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Koprivnica Krizevci County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krapina Zagorje County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krapina Zagorje County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krapina Zagorje County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krapina Zagorje County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medimurje County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medimurje County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medimurje County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Medimurje County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin County Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin County Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin County Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin County Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Varazdin County Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ zerjavinec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ zerjavinec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ zerjavinec": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:cirkovce [SI]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:divaca [SI]:220": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:divaca [SI]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:heviz [HU]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:krsko [SI]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:mostar [BA]:220": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:mostar [BA]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:pecs [HU]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:podlog [SI]:220": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:prijedor [BA]:220": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:s. mitrovica [RS]:hv": [
+   "model_assembly"
+  ],
+  "Boundary voltage support HR:ugljevik [BA]:hv": [
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "3": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "10": [
+   "energy_charts"
+  ],
+  "11": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "13": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "16": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "18": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "19": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "20": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "22": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "27": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "28": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "31": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "32": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "33": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "34": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "35": [
+   "energy_charts",
+   "worldpop"
+  ]
+ },
+ "shunts": {}
+}

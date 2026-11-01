@@ -1,0 +1,1958 @@
+[
+  {
+    "name": "Cheekye Substation 500 kV 500kV",
+    "bus": 2,
+    "pMw": 22.34637948792185,
+    "qMvar": 7.344899745974897
+  },
+  {
+    "name": "Williston Substation 500 kV 500kV",
+    "bus": 3,
+    "pMw": 74.06231310781371,
+    "qMvar": 24.343105111318536
+  },
+  {
+    "name": "Substation 145535463 500 kV 500kV",
+    "bus": 6,
+    "pMw": 17.913504762684404,
+    "qMvar": 5.887884283540228
+  },
+  {
+    "name": "Dunsmuir Substation 500 kV 500kV",
+    "bus": 7,
+    "pMw": 19.74910958767966,
+    "qMvar": 6.491218412905797
+  },
+  {
+    "name": "Nile Creek Cable Terminal 500 kV 500kV",
+    "bus": 8,
+    "pMw": 7.287277127879615,
+    "qMvar": 2.3952121619675077
+  },
+  {
+    "name": "Cranbrook Substation 500 kV 500kV",
+    "bus": 10,
+    "pMw": 18.807585104092084,
+    "qMvar": 6.181754280513823
+  },
+  {
+    "name": "Malaspina Substation 500 kV 500kV",
+    "bus": 12,
+    "pMw": 5.277389091956876,
+    "qMvar": 1.7345939113705393
+  },
+  {
+    "name": "American Creek Capacitor Station 500 kV 500kV",
+    "bus": 13,
+    "pMw": 8.767515497300195,
+    "qMvar": 2.8817429858719303
+  },
+  {
+    "name": "Vaseaux Lake Substation 500 kV 500kV",
+    "bus": 14,
+    "pMw": 4.516884615405338,
+    "qMvar": 1.4846281780106774
+  },
+  {
+    "name": "Guichon Creek Capacitor Station 500 kV 500kV",
+    "bus": 16,
+    "pMw": 4.109204507204237,
+    "qMvar": 1.350630206447376
+  },
+  {
+    "name": "East Texada Island Cable Terminal 500 kV 500kV",
+    "bus": 18,
+    "pMw": 1.1540710857116914,
+    "qMvar": 0.37932482211994645
+  },
+  {
+    "name": "Cape Cockburn Cable Terminal 500 kV 500kV",
+    "bus": 19,
+    "pMw": 1.4743794370489678,
+    "qMvar": 0.48460508596055607
+  },
+  {
+    "name": "Creekside Capacitor Station 500 kV 500kV",
+    "bus": 20,
+    "pMw": 3.8550450712201125,
+    "qMvar": 1.2670920396581695
+  },
+  {
+    "name": "Kinbasket Mica Forebay 500 kV 500kV",
+    "bus": 23,
+    "pMw": 26.433329027838088,
+    "qMvar": 8.688215098413433
+  },
+  {
+    "name": "Clayburn Substation 500 kV 500kV",
+    "bus": 24,
+    "pMw": 144.17949106248844,
+    "qMvar": 47.38950700501792
+  },
+  {
+    "name": "Ingledow Substation 500 kV 500kV",
+    "bus": 25,
+    "pMw": 206.0386339513739,
+    "qMvar": 67.72162403258268
+  },
+  {
+    "name": "Meridian Substation 500 kV 500kV",
+    "bus": 26,
+    "pMw": 111.8996015627619,
+    "qMvar": 36.77962040952772
+  },
+  {
+    "name": "Heartland Substation 500 kV 500kV",
+    "bus": 29,
+    "pMw": 18.501766411403715,
+    "qMvar": 6.081236537160576
+  },
+  {
+    "name": "Heathfield Converter Station 500 kV 500kV",
+    "bus": 30,
+    "pMw": 8.245858867654917,
+    "qMvar": 2.7102827433463506
+  },
+  {
+    "name": "Ellerslie Substation 500 kV 500kV",
+    "bus": 31,
+    "pMw": 151.5150041167145,
+    "qMvar": 49.80057354927408
+  },
+  {
+    "name": "Telkwa Substation 500 kV 500kV",
+    "bus": 34,
+    "pMw": 5.6159128265124565,
+    "qMvar": 1.845861282144747
+  },
+  {
+    "name": "Ruby Creek Series Capacitor Station 500 kV 500kV",
+    "bus": 35,
+    "pMw": 6.411961173195739,
+    "qMvar": 2.1075097206534554
+  },
+  {
+    "name": "Selkirk Substation 500 kV 500kV",
+    "bus": 36,
+    "pMw": 3.3260323811268875,
+    "qMvar": 1.0932139769866147
+  },
+  {
+    "name": "Ashton Creek Substation 500 kV 500kV",
+    "bus": 39,
+    "pMw": 8.00367482464404,
+    "qMvar": 2.630680697880721
+  },
+  {
+    "name": "Site C Southbank Substation 500 kV 500kV",
+    "bus": 41,
+    "pMw": 21.373492484732168,
+    "qMvar": 7.025127251891351
+  },
+  {
+    "name": "Skeena Substation 500 kV 500kV",
+    "bus": 42,
+    "pMw": 83.1804315109,
+    "qMvar": 27.34008569955188
+  },
+  {
+    "name": "Rosedale Substation 360 kV 345kV",
+    "bus": 49,
+    "pMw": 58.43981116950327,
+    "qMvar": 19.208237041069918
+  },
+  {
+    "name": "Wahleach Substation 360 kV 345kV",
+    "bus": 50,
+    "pMw": 5.2684605332631165,
+    "qMvar": 1.731659236045744
+  },
+  {
+    "name": "Substation 335699602 360 kV 345kV",
+    "bus": 51,
+    "pMw": 4.360635285270614,
+    "qMvar": 1.4332715067505486
+  },
+  {
+    "name": "Substation 5813642233 230 kV 230kV",
+    "bus": 54,
+    "pMw": 2.8651252631120885,
+    "qMvar": 0.9417211333313518
+  },
+  {
+    "name": "Cheekye Substation 230 kV 230kV",
+    "bus": 56,
+    "pMw": 22.34637948792185,
+    "qMvar": 7.344899745974897
+  },
+  {
+    "name": "Upper Lillooet Substation 230 kV 230kV",
+    "bus": 57,
+    "pMw": 5.062589989098103,
+    "qMvar": 1.6639928604541807
+  },
+  {
+    "name": "Tumbler Ridge Substation 230 kV 230kV",
+    "bus": 58,
+    "pMw": 1.8296590854105341,
+    "qMvar": 0.6013798592705386
+  },
+  {
+    "name": "Langdon Sub / Crossings Converter Station 240 kV 230kV",
+    "bus": 59,
+    "pMw": 18.10981897286353,
+    "qMvar": 5.952409644046848
+  },
+  {
+    "name": "South Fraser Bank Cable Terminal 230 kV 230kV",
+    "bus": 60,
+    "pMw": 151.22555676547447,
+    "qMvar": 49.705436805635365
+  },
+  {
+    "name": "Saunders Lake Substation 240 kV 230kV",
+    "bus": 62,
+    "pMw": 33.280479089135135,
+    "qMvar": 10.93876448933625
+  },
+  {
+    "name": "Valley View Substation 230 kV 230kV",
+    "bus": 63,
+    "pMw": 196.00342594637192,
+    "qMvar": 64.42321066917485
+  },
+  {
+    "name": "Riverview Substation 240 kV 230kV",
+    "bus": 64,
+    "pMw": 129.1415574138889,
+    "qMvar": 42.44677723998886
+  },
+  {
+    "name": "Williston Substation 230 kV 230kV",
+    "bus": 65,
+    "pMw": 74.06231310781371,
+    "qMvar": 24.343105111318536
+  },
+  {
+    "name": "Brilliant Terminal Station 230 kV 230kV",
+    "bus": 67,
+    "pMw": 14.820065587028578,
+    "qMvar": 4.871119996164552
+  },
+  {
+    "name": "Hill Avenue Terminal Station 230 kV 230kV",
+    "bus": 68,
+    "pMw": 213.47345353806452,
+    "qMvar": 70.16533105560036
+  },
+  {
+    "name": "Barnard Substation 230 kV 230kV",
+    "bus": 69,
+    "pMw": 194.49200459403576,
+    "qMvar": 63.926430494433994
+  },
+  {
+    "name": "Substation 109645554 230 kV 230kV",
+    "bus": 70,
+    "pMw": 1.1780790433277595,
+    "qMvar": 0.3872158561861559
+  },
+  {
+    "name": "Wolf Creek Substation 240 kV 230kV",
+    "bus": 72,
+    "pMw": 22.3985026109854,
+    "qMvar": 7.362031788038167
+  },
+  {
+    "name": "Como Lake Substation 230 kV 230kV",
+    "bus": 73,
+    "pMw": 176.40715941075666,
+    "qMvar": 57.98222933806963
+  },
+  {
+    "name": "Bellamy Substation 240 kV 230kV",
+    "bus": 74,
+    "pMw": 399.1720989586937,
+    "qMvar": 131.20152415860687
+  },
+  {
+    "name": "Victoria Substation 240 kV 230kV",
+    "bus": 75,
+    "pMw": 486.4085477716191,
+    "qMvar": 159.87475827566496
+  },
+  {
+    "name": "North Lethbridge 240 kV 230kV",
+    "bus": 76,
+    "pMw": 285.2153457009253,
+    "qMvar": 93.74575068498876
+  },
+  {
+    "name": "Cypress (1&2) Wind Project Substation 240 kV 230kV",
+    "bus": 77,
+    "pMw": 3.6612936960264597,
+    "qMvar": 1.2034090422754697
+  },
+  {
+    "name": "Function Junction Substation 230 kV 230kV",
+    "bus": 78,
+    "pMw": 4.373213244417146,
+    "qMvar": 1.437405681997603
+  },
+  {
+    "name": "Barlow Substation 230 kV 230kV",
+    "bus": 79,
+    "pMw": 3.876657185134087,
+    "qMvar": 1.274195597981008
+  },
+  {
+    "name": "Sukunka & Zonnebeke IPP Substation 230 kV 230kV",
+    "bus": 83,
+    "pMw": 2.4795351473359815,
+    "qMvar": 0.8149837911616679
+  },
+  {
+    "name": "Lynn Valley Substation 230 kV 230kV",
+    "bus": 85,
+    "pMw": 146.4678065860948,
+    "qMvar": 48.14163994526138
+  },
+  {
+    "name": "Substation 1201549775 230 kV 230kV",
+    "bus": 87,
+    "pMw": 4.811781023867225,
+    "qMvar": 1.581555940146433
+  },
+  {
+    "name": "Kidd #2 Substation 230 kV 230kV",
+    "bus": 88,
+    "pMw": 183.3252914070501,
+    "qMvar": 60.2561093627806
+  },
+  {
+    "name": "Substation 1241245610 230 kV 230kV",
+    "bus": 89,
+    "pMw": 295.5478240306782,
+    "qMvar": 97.14187207908358
+  },
+  {
+    "name": "Sarcee Substation 240 kV 230kV",
+    "bus": 90,
+    "pMw": 1115.100778257195,
+    "qMvar": 366.5159014857201
+  },
+  {
+    "name": "Jasper Substation 240 kV 230kV",
+    "bus": 92,
+    "pMw": 179.52885758414783,
+    "qMvar": 59.008281908829204
+  },
+  {
+    "name": "Dome Substation 240 kV 230kV",
+    "bus": 94,
+    "pMw": 167.19739949038672,
+    "qMvar": 54.95512763973068
+  },
+  {
+    "name": "Forty Mile Bow Island Substation 240 kV 230kV",
+    "bus": 95,
+    "pMw": 6.8144482853433646,
+    "qMvar": 2.2398008369557223
+  },
+  {
+    "name": "Vernon Terminal Substation 230 kV 230kV",
+    "bus": 96,
+    "pMw": 109.58816860422986,
+    "qMvar": 36.019889135871686
+  },
+  {
+    "name": "Substation 1435711659 240 kV 230kV",
+    "bus": 97,
+    "pMw": 13.798004514589568,
+    "qMvar": 4.535184767131787
+  },
+  {
+    "name": "Red Deer Substation 240 kV 230kV",
+    "bus": 98,
+    "pMw": 226.64358625810496,
+    "qMvar": 74.49414434377373
+  },
+  {
+    "name": "Salmon Arm Substation 230 kV 230kV",
+    "bus": 99,
+    "pMw": 44.24597233032034,
+    "qMvar": 14.54294782316008
+  },
+  {
+    "name": "Substation 146201810 230 kV 230kV",
+    "bus": 100,
+    "pMw": 28.480442363999806,
+    "qMvar": 9.361068713509463
+  },
+  {
+    "name": "Aurum Substation 240 kV 230kV",
+    "bus": 102,
+    "pMw": 162.52357059877218,
+    "qMvar": 53.41891437273124
+  },
+  {
+    "name": "Galiano Cable Terminal (AC) 230 kV 230kV",
+    "bus": 103,
+    "pMw": 3.438077551706125,
+    "qMvar": 1.1300414436180644
+  },
+  {
+    "name": "Sahtlam Substation 230 kV 230kV",
+    "bus": 104,
+    "pMw": 52.420673301490226,
+    "qMvar": 17.22984209697384
+  },
+  {
+    "name": "Dunsmuir Substation 230 kV 230kV",
+    "bus": 105,
+    "pMw": 23.62564680771799,
+    "qMvar": 7.765374580266654
+  },
+  {
+    "name": "Dunsmuir Substation - 138 kV Adjunct 230 kV 230kV",
+    "bus": 106,
+    "pMw": 18.94113597203832,
+    "qMvar": 6.225650328040593
+  },
+  {
+    "name": "Tachick Substation 230 kV 230kV",
+    "bus": 107,
+    "pMw": 10.755232984152823,
+    "qMvar": 3.5350741293864654
+  },
+  {
+    "name": "Cranbrook Substation 230 kV 230kV",
+    "bus": 108,
+    "pMw": 32.739477097695485,
+    "qMvar": 10.760945733879927
+  },
+  {
+    "name": "Gold River Substation 230 kV 230kV",
+    "bus": 109,
+    "pMw": 18.57210329329111,
+    "qMvar": 6.104355152244808
+  },
+  {
+    "name": "Malaspina Substation 230 kV 230kV",
+    "bus": 110,
+    "pMw": 5.277389091956876,
+    "qMvar": 1.7345939113705393
+  },
+  {
+    "name": "Port Mellon Substation 230 kV 230kV",
+    "bus": 111,
+    "pMw": 22.641276274491812,
+    "qMvar": 7.441827632388767
+  },
+  {
+    "name": "Vaseaux Lake Substation 230 kV 230kV",
+    "bus": 112,
+    "pMw": 4.516884615405338,
+    "qMvar": 1.4846281780106774
+  },
+  {
+    "name": "Substation 169303429 230 kV 230kV",
+    "bus": 114,
+    "pMw": 10.47565696973573,
+    "qMvar": 3.44318193725831
+  },
+  {
+    "name": "Mount Lehman Substation 230 kV 230kV",
+    "bus": 115,
+    "pMw": 102.02460475371885,
+    "qMvar": 33.533865919703274
+  },
+  {
+    "name": "Soda Creek Substation 230 kV 230kV",
+    "bus": 116,
+    "pMw": 45.347604808270304,
+    "qMvar": 14.90503690841104
+  },
+  {
+    "name": "Trail Substation 230 kV 230kV",
+    "bus": 117,
+    "pMw": 12.753616612221286,
+    "qMvar": 4.191911063982238
+  },
+  {
+    "name": "Cambie Substation 230 kV 230kV",
+    "bus": 118,
+    "pMw": 201.31774858799983,
+    "qMvar": 66.16994405127008
+  },
+  {
+    "name": "Kidd #1 Substation 230 kV 230kV",
+    "bus": 120,
+    "pMw": 190.8187647686638,
+    "qMvar": 62.71909494932426
+  },
+  {
+    "name": "Tsawwassen Cable Terminal (AC) 230 kV 230kV",
+    "bus": 121,
+    "pMw": 20.732481851843406,
+    "qMvar": 6.81443724561017
+  },
+  {
+    "name": "Lee Terminal 230 kV 230kV",
+    "bus": 122,
+    "pMw": 360.78440303435184,
+    "qMvar": 118.58409867383627
+  },
+  {
+    "name": "Castle Downs Substation 240 kV 230kV",
+    "bus": 123,
+    "pMw": 214.65199253806173,
+    "qMvar": 70.55269809223284
+  },
+  {
+    "name": "Wabasca Substation 240 kV 230kV",
+    "bus": 127,
+    "pMw": 5.36406447745053,
+    "qMvar": 1.7630827328925538
+  },
+  {
+    "name": "Summerside Substation 240 kV 230kV",
+    "bus": 128,
+    "pMw": 149.77788436759846,
+    "qMvar": 49.229609898947345
+  },
+  {
+    "name": "Harewood West Substation 230 kV 230kV",
+    "bus": 129,
+    "pMw": 220.76231581559855,
+    "qMvar": 72.56106423106363
+  },
+  {
+    "name": "Rosedale Substation 230 kV 230kV",
+    "bus": 130,
+    "pMw": 58.43981116950327,
+    "qMvar": 19.208237041069918
+  },
+  {
+    "name": "Atchelitz Field Office Substation 230 kV 230kV",
+    "bus": 131,
+    "pMw": 117.73081515139532,
+    "qMvar": 38.69624763001452
+  },
+  {
+    "name": "Clayburn Substation 230 kV 230kV",
+    "bus": 132,
+    "pMw": 144.17949106248844,
+    "qMvar": 47.38950700501792
+  },
+  {
+    "name": "McLellan Substation 230 kV 230kV",
+    "bus": 133,
+    "pMw": 226.54644995765875,
+    "qMvar": 74.46221718578117
+  },
+  {
+    "name": "Ingledow Substation 230 kV 230kV",
+    "bus": 134,
+    "pMw": 206.0386339513739,
+    "qMvar": 67.72162403258268
+  },
+  {
+    "name": "High Power Lab 230 kV 230kV",
+    "bus": 135,
+    "pMw": 203.4232469659544,
+    "qMvar": 66.86198790158363
+  },
+  {
+    "name": "Strawberry Hill Substation 230 kV 230kV",
+    "bus": 136,
+    "pMw": 233.60357207870294,
+    "qMvar": 76.78178105527455
+  },
+  {
+    "name": "Arnott Substation 230 kV 230kV",
+    "bus": 137,
+    "pMw": 158.6616090189633,
+    "qMvar": 52.1495489866366
+  },
+  {
+    "name": "Goward Substation 230 kV 230kV",
+    "bus": 138,
+    "pMw": 288.8928888557563,
+    "qMvar": 94.95450066609106
+  },
+  {
+    "name": "Whalley Substation 230 kV 230kV",
+    "bus": 139,
+    "pMw": 205.07373776310916,
+    "qMvar": 67.40447799235238
+  },
+  {
+    "name": "Pike Lake Substation 230 kV 230kV",
+    "bus": 140,
+    "pMw": 263.058548339478,
+    "qMvar": 86.46316357061207
+  },
+  {
+    "name": "Argyll Substation 240 kV 230kV",
+    "bus": 141,
+    "pMw": 270.1650628359749,
+    "qMvar": 88.79896192883376
+  },
+  {
+    "name": "Meridian Substation 230 kV 230kV",
+    "bus": 142,
+    "pMw": 111.8996015627619,
+    "qMvar": 36.77962040952772
+  },
+  {
+    "name": "Gaetz Substation 240 kV 230kV",
+    "bus": 145,
+    "pMw": 234.67887210337256,
+    "qMvar": 77.13521508168189
+  },
+  {
+    "name": "Janet Substation 240 kV 230kV",
+    "bus": 146,
+    "pMw": 647.1358067963376,
+    "qMvar": 212.70325358605592
+  },
+  {
+    "name": "Substation No. 65 240 kV 230kV",
+    "bus": 147,
+    "pMw": 17.851416572586484,
+    "qMvar": 5.867476882335718
+  },
+  {
+    "name": "Benalto 240 kV 230kV",
+    "bus": 148,
+    "pMw": 46.26264071820161,
+    "qMvar": 15.205794667673338
+  },
+  {
+    "name": "Picture Butte Substation 240 kV 230kV",
+    "bus": 150,
+    "pMw": 104.40283823836093,
+    "qMvar": 34.315553464509264
+  },
+  {
+    "name": "Peigan 240 kV 230kV",
+    "bus": 151,
+    "pMw": 4.304172855174935,
+    "qMvar": 1.414713203438326
+  },
+  {
+    "name": "Goose Lake 240 kV 230kV",
+    "bus": 152,
+    "pMw": 8.11325653611259,
+    "qMvar": 2.6666984646587304
+  },
+  {
+    "name": "Castle Rock Ridge 240 kV 230kV",
+    "bus": 153,
+    "pMw": 4.859433903392924,
+    "qMvar": 1.5972186842125338
+  },
+  {
+    "name": "East Crossfield Substation 240 kV 230kV",
+    "bus": 154,
+    "pMw": 12.545315164325958,
+    "qMvar": 4.1234456889733
+  },
+  {
+    "name": "West Brooks Substation 240 kV 230kV",
+    "bus": 156,
+    "pMw": 24.953580602419276,
+    "qMvar": 8.201845311314816
+  },
+  {
+    "name": "Cassils Substation 240 kV 230kV",
+    "bus": 157,
+    "pMw": 23.676341457579234,
+    "qMvar": 7.782037105893652
+  },
+  {
+    "name": "Milo 240 kV 230kV",
+    "bus": 158,
+    "pMw": 4.058382534382271,
+    "qMvar": 1.3339258317869638
+  },
+  {
+    "name": "North Calder Substation 240 kV 230kV",
+    "bus": 164,
+    "pMw": 191.06152195772844,
+    "qMvar": 62.798885378787695
+  },
+  {
+    "name": "Petrolia Substation 240 kV 230kV",
+    "bus": 165,
+    "pMw": 163.71267431640075,
+    "qMvar": 53.80975386412484
+  },
+  {
+    "name": "Steveston Substation 230 kV 230kV",
+    "bus": 166,
+    "pMw": 103.4997422756505,
+    "qMvar": 34.018720176115146
+  },
+  {
+    "name": "Lamoureux Substation 240 kV 230kV",
+    "bus": 167,
+    "pMw": 15.495973944473356,
+    "qMvar": 5.093280329814204
+  },
+  {
+    "name": "Substation 334629189 230 kV 230kV",
+    "bus": 168,
+    "pMw": 4.836778634852968,
+    "qMvar": 1.5897722575448914
+  },
+  {
+    "name": "Bigstone Substation 240 kV 230kV",
+    "bus": 171,
+    "pMw": 48.791449723058484,
+    "qMvar": 16.036973992602974
+  },
+  {
+    "name": "Amelia Substation 240 kV 230kV",
+    "bus": 172,
+    "pMw": 7.811461129474027,
+    "qMvar": 2.5675031114806424
+  },
+  {
+    "name": "Josephburg Substation 240 kV 230kV",
+    "bus": 173,
+    "pMw": 7.438022684019784,
+    "qMvar": 2.444759830197129
+  },
+  {
+    "name": "Deerland Substation 240 kV 230kV",
+    "bus": 174,
+    "pMw": 7.070666303998994,
+    "qMvar": 2.324015627148249
+  },
+  {
+    "name": "North Barrhead Substation 240 kV 230kV",
+    "bus": 175,
+    "pMw": 15.409066023993713,
+    "qMvar": 5.064715077738398
+  },
+  {
+    "name": "Clover Bar Substation 240 kV 230kV",
+    "bus": 176,
+    "pMw": 221.38570418651034,
+    "qMvar": 72.76596207993566
+  },
+  {
+    "name": "Bannerman Substation 240 kV 230kV",
+    "bus": 177,
+    "pMw": 5.775767523432811,
+    "qMvar": 1.8984029801606523
+  },
+  {
+    "name": "East Edmonton Substation 240 kV 230kV",
+    "bus": 182,
+    "pMw": 248.838302405335,
+    "qMvar": 81.7891947603249
+  },
+  {
+    "name": "East Industrial Substation 240 kV 230kV",
+    "bus": 183,
+    "pMw": 238.82986054719163,
+    "qMvar": 78.49957900394637
+  },
+  {
+    "name": "Lambton Substation 240 kV 230kV",
+    "bus": 184,
+    "pMw": 234.55961285855625,
+    "qMvar": 77.09601646351514
+  },
+  {
+    "name": "Ellerslie Substation 240 kV 230kV",
+    "bus": 185,
+    "pMw": 151.5150041167145,
+    "qMvar": 49.80057354927408
+  },
+  {
+    "name": "Substation No. 25 240 kV 230kV",
+    "bus": 187,
+    "pMw": 575.0663074429871,
+    "qMvar": 189.01515468041126
+  },
+  {
+    "name": "Poundmaker Substation 240 kV 230kV",
+    "bus": 189,
+    "pMw": 196.39882653316556,
+    "qMvar": 64.5531725572323
+  },
+  {
+    "name": "Substation 162 240 kV 230kV",
+    "bus": 191,
+    "pMw": 830.9923097713558,
+    "qMvar": 273.13396374771486
+  },
+  {
+    "name": "Wesley Creek 240 kV 230kV",
+    "bus": 207,
+    "pMw": 9.79597973265903,
+    "qMvar": 3.219782832779313
+  },
+  {
+    "name": "Little Smoky Substation 240 kV 230kV",
+    "bus": 208,
+    "pMw": 6.269292422515895,
+    "qMvar": 2.060616769999265
+  },
+  {
+    "name": "Louise Creek 240 kV 230kV",
+    "bus": 209,
+    "pMw": 6.393803329457971,
+    "qMvar": 2.1015415260325296
+  },
+  {
+    "name": "Alberta Newsprint Substation 240 kV 230kV",
+    "bus": 210,
+    "pMw": 15.840869880819286,
+    "qMvar": 5.2066421420318925
+  },
+  {
+    "name": "Sagithwah Substation 240 kV 230kV",
+    "bus": 211,
+    "pMw": 18.090034840720048,
+    "qMvar": 5.945906914276529
+  },
+  {
+    "name": "Metiskow 240 kV 230kV",
+    "bus": 215,
+    "pMw": 7.006262385227104,
+    "qMvar": 2.3028470827366982
+  },
+  {
+    "name": "Sheerness 240 kV 230kV",
+    "bus": 218,
+    "pMw": 10.566601291841069,
+    "qMvar": 3.473073890390602
+  },
+  {
+    "name": "Bickerdike 240 kV 230kV",
+    "bus": 219,
+    "pMw": 13.039143670898497,
+    "qMvar": 4.285759269767911
+  },
+  {
+    "name": "Horne Payne Substation 230 kV 230kV",
+    "bus": 221,
+    "pMw": 182.72178066541403,
+    "qMvar": 60.05774497470012
+  },
+  {
+    "name": "Walters Substation 230 kV 230kV",
+    "bus": 222,
+    "pMw": 154.65308487596505,
+    "qMvar": 50.832010815607354
+  },
+  {
+    "name": "Fleetwood Substation 230 kV 230kV",
+    "bus": 226,
+    "pMw": 255.31131222724665,
+    "qMvar": 83.91677020145391
+  },
+  {
+    "name": "Series Capacitor SC1 266S 240 kV 230kV",
+    "bus": 227,
+    "pMw": 20.059716656262616,
+    "qMvar": 6.593310019305215
+  },
+  {
+    "name": "Foot Hills 240 kV 230kV",
+    "bus": 228,
+    "pMw": 48.20254678481894,
+    "qMvar": 15.843410957310503
+  },
+  {
+    "name": "Natal 230 kV 230kV",
+    "bus": 230,
+    "pMw": 17.335589242949744,
+    "qMvar": 5.697932638067264
+  },
+  {
+    "name": "Johnson Substation 240 kV 230kV",
+    "bus": 232,
+    "pMw": 58.62108105218835,
+    "qMvar": 19.267817570256142
+  },
+  {
+    "name": "Mitsue 240 kV 230kV",
+    "bus": 233,
+    "pMw": 23.00423134746037,
+    "qMvar": 7.561125195767565
+  },
+  {
+    "name": "Salt Creek 240 kV 230kV",
+    "bus": 238,
+    "pMw": 224.0287731852661,
+    "qMvar": 73.6346968487177
+  },
+  {
+    "name": "Nilrem 240 kV 230kV",
+    "bus": 249,
+    "pMw": 3.7218665696739563,
+    "qMvar": 1.2233183830484093
+  },
+  {
+    "name": "Newell Substation 230 kV 230kV",
+    "bus": 252,
+    "pMw": 209.82321058038548,
+    "qMvar": 68.96555421537018
+  },
+  {
+    "name": "Substation 538665951 230 kV 230kV",
+    "bus": 253,
+    "pMw": 7.576697625612195,
+    "qMvar": 2.4903400792851618
+  },
+  {
+    "name": "East Calgary Substation 240 kV 230kV",
+    "bus": 254,
+    "pMw": 1630.5525561422028,
+    "qMvar": 535.9367078627081
+  },
+  {
+    "name": "Boundary Rectifier Station 230 kV 230kV",
+    "bus": 256,
+    "pMw": 185.7652551323152,
+    "qMvar": 61.05808665648824
+  },
+  {
+    "name": "North Fraser Bank Cable Terminal 230 kV 230kV",
+    "bus": 258,
+    "pMw": 151.85706025951296,
+    "qMvar": 49.913001966490725
+  },
+  {
+    "name": "Montague Cable Terminal 230 kV 230kV",
+    "bus": 259,
+    "pMw": 14.334976579670066,
+    "qMvar": 4.7116789498488165
+  },
+  {
+    "name": "100 Mile House Substation 230 kV 230kV",
+    "bus": 260,
+    "pMw": 5.6722032992138836,
+    "qMvar": 1.864363065794711
+  },
+  {
+    "name": "Vancouver Island Terminal Substation 230 kV 230kV",
+    "bus": 261,
+    "pMw": 84.51079141550933,
+    "qMvar": 27.77735385436424
+  },
+  {
+    "name": "Selkirk Substation 230 kV 230kV",
+    "bus": 262,
+    "pMw": 3.3260323811268875,
+    "qMvar": 1.0932139769866147
+  },
+  {
+    "name": "Harry Smith Substation 240 kV 230kV",
+    "bus": 265,
+    "pMw": 153.18312991633627,
+    "qMvar": 50.348859985048534
+  },
+  {
+    "name": "Red Bluff Substation 230 kV 230kV",
+    "bus": 266,
+    "pMw": 8.457777288710162,
+    "qMvar": 2.779936959941811
+  },
+  {
+    "name": "Invermere 230 kV 230kV",
+    "bus": 268,
+    "pMw": 8.87513119592513,
+    "qMvar": 2.9171145554776654
+  },
+  {
+    "name": "Substation 753523016 230 kV 230kV",
+    "bus": 269,
+    "pMw": 17.378141137362164,
+    "qMvar": 5.711918769405874
+  },
+  {
+    "name": "Carmi Substation 230 kV 230kV",
+    "bus": 270,
+    "pMw": 90.19005113465494,
+    "qMvar": 29.644036253229974
+  },
+  {
+    "name": "Substation 753719369 230 kV 230kV",
+    "bus": 271,
+    "pMw": 6.202018186735956,
+    "qMvar": 2.0385047980103432
+  },
+  {
+    "name": "Quality Wind IPP Substation 230 kV 230kV",
+    "bus": 278,
+    "pMw": 1.596822538238508,
+    "qMvar": 0.524850187110365
+  },
+  {
+    "name": "Sundance Lakes Substation 230 kV 230kV",
+    "bus": 280,
+    "pMw": 2.37457994861715,
+    "qMvar": 0.7804866855868989
+  },
+  {
+    "name": "Ashton Creek Substation 230 kV 230kV",
+    "bus": 283,
+    "pMw": 8.00367482464404,
+    "qMvar": 2.630680697880721
+  },
+  {
+    "name": "Windy Flats 240 kV 230kV",
+    "bus": 286,
+    "pMw": 18.057312999692552,
+    "qMvar": 5.9351517652386
+  },
+  {
+    "name": "Cypress Substation 230 kV 230kV",
+    "bus": 287,
+    "pMw": 75.5049687091924,
+    "qMvar": 24.81728307673897
+  },
+  {
+    "name": "Glenannan Substation 230 kV 230kV",
+    "bus": 288,
+    "pMw": 10.211091748039019,
+    "qMvar": 3.356223554103479
+  },
+  {
+    "name": "Keating Substation 230 kV 230kV",
+    "bus": 289,
+    "pMw": 276.18241293453144,
+    "qMvar": 90.77676926152577
+  },
+  {
+    "name": "Site C Southbank Substation 230 kV 230kV",
+    "bus": 291,
+    "pMw": 21.373492484732168,
+    "qMvar": 7.025127251891351
+  },
+  {
+    "name": "Bear Mountain Terminal 230 kV 230kV",
+    "bus": 292,
+    "pMw": 23.12224983665653,
+    "qMvar": 7.599915997283568
+  },
+  {
+    "name": "Oakridge Rectifier Station 230 kV 230kV",
+    "bus": 294,
+    "pMw": 270.2789152601012,
+    "qMvar": 88.83638341098015
+  },
+  {
+    "name": "Knight Rectifier Station 230 kV 230kV",
+    "bus": 295,
+    "pMw": 183.96727761091626,
+    "qMvar": 60.467120023735525
+  },
+  {
+    "name": "Rainbow Substation 230 kV 230kV",
+    "bus": 296,
+    "pMw": 10.217929444470974,
+    "qMvar": 3.358470996236701
+  },
+  {
+    "name": "Substation 968932811 230 kV 230kV",
+    "bus": 297,
+    "pMw": 127.82105166222972,
+    "qMvar": 42.01274798862122
+  },
+  {
+    "name": "East Innisfail Substation 240 kV 230kV",
+    "bus": 298,
+    "pMw": 37.35202837072965,
+    "qMvar": 12.277018021648786
+  },
+  {
+    "name": "Nelway Substation 230 kV 230kV",
+    "bus": 299,
+    "pMw": 2.6898926696205745,
+    "qMvar": 0.8841249651414221
+  },
+  {
+    "name": "Substation 1150356574 161 kV 161kV",
+    "bus": 464,
+    "pMw": 3.6493259505621864,
+    "qMvar": 1.1994754345665366
+  },
+  {
+    "name": "Substation 753569578 161 kV 161kV",
+    "bus": 468,
+    "pMw": 6.441679455713788,
+    "qMvar": 2.117277647750353
+  },
+  {
+    "name": "Medicin Hat 138 kV 138kV",
+    "bus": 473,
+    "pMw": 96.91959413088746,
+    "qMvar": 31.855930071209347
+  },
+  {
+    "name": "Puntledge Substation 138 kV 138kV",
+    "bus": 475,
+    "pMw": 40.34385673001182,
+    "qMvar": 13.260384448768194
+  },
+  {
+    "name": "Substation 112596716 138 kV 138kV",
+    "bus": 497,
+    "pMw": 3.319356939128956,
+    "qMvar": 1.0910198653068512
+  },
+  {
+    "name": "Substation 1153340504 138 kV 138kV",
+    "bus": 504,
+    "pMw": 88.91290341642512,
+    "qMvar": 29.224258098282384
+  },
+  {
+    "name": "Enmax Substation No. 26 138 kV 138kV",
+    "bus": 506,
+    "pMw": 22.10931606614755,
+    "qMvar": 7.266980767318371
+  },
+  {
+    "name": "Substation 1215899594 138 kV 138kV",
+    "bus": 508,
+    "pMw": 0.6230269000463375,
+    "qMvar": 0.2047790391440915
+  },
+  {
+    "name": "Substation 1226045151 138 kV 138kV",
+    "bus": 510,
+    "pMw": 1.363931387479309,
+    "qMvar": 0.44830256761900206
+  },
+  {
+    "name": "Chase Substation 138 kV 138kV",
+    "bus": 518,
+    "pMw": 8.29010529952994,
+    "qMvar": 2.7248258422145497
+  },
+  {
+    "name": "Substation 1267698461 138 kV 138kV",
+    "bus": 519,
+    "pMw": 1.4095101001298314,
+    "qMvar": 0.4632835660017435
+  },
+  {
+    "name": "Sorrento Substation 138 kV 138kV",
+    "bus": 520,
+    "pMw": 7.27946751618093,
+    "qMvar": 2.392645266734531
+  },
+  {
+    "name": "Substation 1328655604 138 kV 138kV",
+    "bus": 526,
+    "pMw": 9.987413150583768,
+    "qMvar": 3.282703954451237
+  },
+  {
+    "name": "Substation 1435071294 138 kV 138kV",
+    "bus": 536,
+    "pMw": 0.4016818590371953,
+    "qMvar": 0.13202644240422282
+  },
+  {
+    "name": "Substation 1435073981 138 kV 138kV",
+    "bus": 537,
+    "pMw": 6.712894767678031,
+    "qMvar": 2.206421809874126
+  },
+  {
+    "name": "Substation 1435385301 138 kV 138kV",
+    "bus": 538,
+    "pMw": 3.5781970259585125,
+    "qMvar": 1.176096487630843
+  },
+  {
+    "name": "Elk Falls Mill Substation 138 kV 138kV",
+    "bus": 557,
+    "pMw": 9.66727981992911,
+    "qMvar": 3.1774812171270814
+  },
+  {
+    "name": "Campbell River Substation 138 kV 138kV",
+    "bus": 558,
+    "pMw": 30.70656815733085,
+    "qMvar": 10.092760877906066
+  },
+  {
+    "name": "John Hart Substation 138 kV 138kV",
+    "bus": 559,
+    "pMw": 11.02030674220651,
+    "qMvar": 3.62219966035874
+  },
+  {
+    "name": "Westbank Substation 138 kV 138kV",
+    "bus": 560,
+    "pMw": 9.393003544778267,
+    "qMvar": 3.0873309650573346
+  },
+  {
+    "name": "Gibsons Substation 138 kV 138kV",
+    "bus": 564,
+    "pMw": 1.7609695375294656,
+    "qMvar": 0.578802696690109
+  },
+  {
+    "name": "Courtenay Substation 138 kV 138kV",
+    "bus": 567,
+    "pMw": 40.37024293125307,
+    "qMvar": 13.269057173712243
+  },
+  {
+    "name": "Oyster River Substation 138 kV 138kV",
+    "bus": 568,
+    "pMw": 7.493048034216863,
+    "qMvar": 2.4628457881888095
+  },
+  {
+    "name": "Qualicum Substation 138 kV 138kV",
+    "bus": 569,
+    "pMw": 10.436837611766409,
+    "qMvar": 3.4304226313205457
+  },
+  {
+    "name": "Parksville Substation 138 kV 138kV",
+    "bus": 570,
+    "pMw": 22.475979090078628,
+    "qMvar": 7.387497075241334
+  },
+  {
+    "name": "Grief Point Substation 132 kV 138kV",
+    "bus": 572,
+    "pMw": 9.22760985232233,
+    "qMvar": 3.032968687250227
+  },
+  {
+    "name": "Forestview Substation 132 kV 138kV",
+    "bus": 573,
+    "pMw": 9.058798456226969,
+    "qMvar": 2.9774830645806287
+  },
+  {
+    "name": "Lantzville Substation 138 kV 138kV",
+    "bus": 574,
+    "pMw": 4.003450096514274,
+    "qMvar": 1.3158704126010274
+  },
+  {
+    "name": "Jingle Pot Substation 138 kV 138kV",
+    "bus": 575,
+    "pMw": 2.4829506028539226,
+    "qMvar": 0.8161063971023604
+  },
+  {
+    "name": "Northfield Substation 138 kV 138kV",
+    "bus": 576,
+    "pMw": 2.4865233359192644,
+    "qMvar": 0.8172806976729853
+  },
+  {
+    "name": "Pender Harbour Substation 138 kV 138kV",
+    "bus": 577,
+    "pMw": 0.7820323473373111,
+    "qMvar": 0.25704160230549006
+  },
+  {
+    "name": "Ladore Falls Substation 138 kV 138kV",
+    "bus": 579,
+    "pMw": 6.653670961679203,
+    "qMvar": 2.1869558861941147
+  },
+  {
+    "name": "Sooke Substation 138 kV 138kV",
+    "bus": 582,
+    "pMw": 24.974735126796205,
+    "qMvar": 8.208798467230135
+  },
+  {
+    "name": "Powell River Substation 132 kV 138kV",
+    "bus": 583,
+    "pMw": 6.40071666920693,
+    "qMvar": 2.1038138309217134
+  },
+  {
+    "name": "St. Paul 144 kV 138kV",
+    "bus": 586,
+    "pMw": 19.275634458492245,
+    "qMvar": 6.335594663744384
+  },
+  {
+    "name": "Smithers Substation 138 kV 138kV",
+    "bus": 592,
+    "pMw": 12.806082539574847,
+    "qMvar": 4.209155780366823
+  },
+  {
+    "name": "Vegreville Substation 144 kV 138kV",
+    "bus": 593,
+    "pMw": 19.20833126555058,
+    "qMvar": 6.313473173996673
+  },
+  {
+    "name": "Buckley Bay Substation 138 kV 138kV",
+    "bus": 611,
+    "pMw": 15.321199465551194,
+    "qMvar": 5.035834736601571
+  },
+  {
+    "name": "Springbank 138 kV 138kV",
+    "bus": 619,
+    "pMw": 12.90792621694063,
+    "qMvar": 4.24263017832992
+  },
+  {
+    "name": "Ghost 138 kV 138kV",
+    "bus": 626,
+    "pMw": 12.307566692553722,
+    "qMvar": 4.045301545271202
+  },
+  {
+    "name": "Substation 36 138 kV 138kV",
+    "bus": 628,
+    "pMw": 11.516762297851633,
+    "qMvar": 3.7853767104270326
+  },
+  {
+    "name": "Bearspaw Substation 138 kV 138kV",
+    "bus": 629,
+    "pMw": 13.086167406276678,
+    "qMvar": 4.3012152241528545
+  },
+  {
+    "name": "Sechelt Substation 138 kV 138kV",
+    "bus": 641,
+    "pMw": 16.139806004737142,
+    "qMvar": 5.304897694427471
+  },
+  {
+    "name": "Hill 144 kV 138kV",
+    "bus": 643,
+    "pMw": 57.25823093335119,
+    "qMvar": 18.81987039845324
+  },
+  {
+    "name": "Daishowa 144 kV 138kV",
+    "bus": 657,
+    "pMw": 6.35646861234816,
+    "qMvar": 2.0892701979471853
+  },
+  {
+    "name": "West Peace River Substation 144 kV 138kV",
+    "bus": 698,
+    "pMw": 25.282762389527548,
+    "qMvar": 8.310042132451679
+  },
+  {
+    "name": "Boucher Creek 144 kV 138kV",
+    "bus": 702,
+    "pMw": 2.040038920071361,
+    "qMvar": 0.6705283669737098
+  },
+  {
+    "name": "Donnelly Substation 144 kV 138kV",
+    "bus": 703,
+    "pMw": 3.3685248067302265,
+    "qMvar": 1.1071805618729276
+  },
+  {
+    "name": "Friedenstal 144 kV 138kV",
+    "bus": 704,
+    "pMw": 8.048709701883901,
+    "qMvar": 2.645482946208145
+  },
+  {
+    "name": "High Prairie Substation 144 kV 138kV",
+    "bus": 705,
+    "pMw": 9.684929464305286,
+    "qMvar": 3.1832823746955903
+  },
+  {
+    "name": "Rycroft Substation 144 kV 138kV",
+    "bus": 707,
+    "pMw": 3.8934897116751963,
+    "qMvar": 1.279728181905072
+  },
+  {
+    "name": "Hotchkiss 144 kV 138kV",
+    "bus": 710,
+    "pMw": 0.9213483370579733,
+    "qMvar": 0.30283255372393364
+  },
+  {
+    "name": "Grand Centre 144 kV 138kV",
+    "bus": 721,
+    "pMw": 40.26786721675166,
+    "qMvar": 13.2354079035993
+  },
+  {
+    "name": "Wescup 138 kV 138kV",
+    "bus": 725,
+    "pMw": 3.102300303148249,
+    "qMvar": 1.0196767991363982
+  },
+  {
+    "name": "Fort Nelson Generation 138 kV 138kV",
+    "bus": 726,
+    "pMw": 1.7968471709660245,
+    "qMvar": 0.5905951045321396
+  },
+  {
+    "name": "High Level Substation 144 kV 138kV",
+    "bus": 728,
+    "pMw": 10.630539325135649,
+    "qMvar": 3.494089305650927
+  },
+  {
+    "name": "Substation 401121457 144 kV 138kV",
+    "bus": 729,
+    "pMw": 20.56207404838109,
+    "qMvar": 6.7584269092136635
+  },
+  {
+    "name": "Crystal Substation 144 kV 138kV",
+    "bus": 730,
+    "pMw": 58.28841570683713,
+    "qMvar": 19.158475758895356
+  },
+  {
+    "name": "Substation 401121461 144 kV 138kV",
+    "bus": 731,
+    "pMw": 21.260896820016193,
+    "qMvar": 6.98811884658716
+  },
+  {
+    "name": "Substation 401121462 144 kV 138kV",
+    "bus": 732,
+    "pMw": 20.37171511803223,
+    "qMvar": 6.695858954529144
+  },
+  {
+    "name": "Clairmont Lake Substation 144 kV 138kV",
+    "bus": 733,
+    "pMw": 25.537904656080045,
+    "qMvar": 8.393903340026794
+  },
+  {
+    "name": "Flyingshot Lake Substation 144 kV 138kV",
+    "bus": 734,
+    "pMw": 51.80945260670203,
+    "qMvar": 17.02894356984058
+  },
+  {
+    "name": "Mercer Hill Substation 144 kV 138kV",
+    "bus": 735,
+    "pMw": 28.39157148385117,
+    "qMvar": 9.33185826779135
+  },
+  {
+    "name": "Goodfair Substation 144 kV 138kV",
+    "bus": 739,
+    "pMw": 4.387719435293077,
+    "qMvar": 1.442173636365212
+  },
+  {
+    "name": "Lowe Lake 144 kV 138kV",
+    "bus": 740,
+    "pMw": 3.2545581232327407,
+    "qMvar": 1.0697215244873537
+  },
+  {
+    "name": "Big Mountain Substation 144 kV 138kV",
+    "bus": 742,
+    "pMw": 21.085879920441805,
+    "qMvar": 6.930593573559373
+  },
+  {
+    "name": "Bridge Creek Substation 144 kV 138kV",
+    "bus": 743,
+    "pMw": 16.937885767215047,
+    "qMvar": 5.56721382701888
+  },
+  {
+    "name": "Fox Creek Substation 144 kV 138kV",
+    "bus": 745,
+    "pMw": 6.344972056012107,
+    "qMvar": 2.0854914626152317
+  },
+  {
+    "name": "H.R. Milner 144 kV 138kV",
+    "bus": 746,
+    "pMw": 11.024263003844377,
+    "qMvar": 3.6235000206750354
+  },
+  {
+    "name": "Clyde Substation 138 kV 138kV",
+    "bus": 749,
+    "pMw": 3.7445161061480516,
+    "qMvar": 1.2307629256771133
+  },
+  {
+    "name": "Westlock Substation 138 kV 138kV",
+    "bus": 756,
+    "pMw": 11.99770072290689,
+    "qMvar": 3.9434535263124513
+  },
+  {
+    "name": "St. Albert Substation 138 kV 138kV",
+    "bus": 764,
+    "pMw": 6.686015536304553,
+    "qMvar": 2.1975870337622387
+  },
+  {
+    "name": "Sturgeon Substation 138 kV 138kV",
+    "bus": 765,
+    "pMw": 6.1604626026186615,
+    "qMvar": 2.0248461380295653
+  },
+  {
+    "name": "Lac La Biche Substation 138 kV 138kV",
+    "bus": 768,
+    "pMw": 5.052661290272347,
+    "qMvar": 1.6607294549650466
+  },
+  {
+    "name": "Northwest Cardiff Substation 138 kV 138kV",
+    "bus": 783,
+    "pMw": 20.293614065551584,
+    "qMvar": 6.670188379981013
+  },
+  {
+    "name": "Bonnyville Substation 144 kV 138kV",
+    "bus": 804,
+    "pMw": 20.106828891321783,
+    "qMvar": 6.608795062128614
+  },
+  {
+    "name": "Ethel Lake 144 kV 138kV",
+    "bus": 805,
+    "pMw": 14.627109751201122,
+    "qMvar": 4.807698479926565
+  },
+  {
+    "name": "Irish Creek Substation 144 kV 138kV",
+    "bus": 807,
+    "pMw": 4.707858346269317,
+    "qMvar": 1.5473982078523731
+  },
+  {
+    "name": "Mahkeses 144 kV 138kV",
+    "bus": 812,
+    "pMw": 8.541647539211551,
+    "qMvar": 2.8075037781789876
+  },
+  {
+    "name": "Vermilion Substation 144 kV 138kV",
+    "bus": 816,
+    "pMw": 13.743311998687558,
+    "qMvar": 4.517208206482554
+  },
+  {
+    "name": "Watt Lake 144 kV 138kV",
+    "bus": 818,
+    "pMw": 4.549695842856409,
+    "qMvar": 1.4954127069452527
+  },
+  {
+    "name": "Lloydminster 144 kV 138kV",
+    "bus": 827,
+    "pMw": 49.02024104082864,
+    "qMvar": 16.112174062156946
+  },
+  {
+    "name": "Wainwright 138 kV 138kV",
+    "bus": 842,
+    "pMw": 21.09955098721131,
+    "qMvar": 6.935087035907348
+  },
+  {
+    "name": "Sedgewick 138 kV 138kV",
+    "bus": 845,
+    "pMw": 3.553608587319799,
+    "qMvar": 1.1680146586791322
+  },
+  {
+    "name": "Bardo 138 kV 138kV",
+    "bus": 847,
+    "pMw": 6.430820085575887,
+    "qMvar": 2.113708345393771
+  },
+  {
+    "name": "Buford 138 kV 138kV",
+    "bus": 849,
+    "pMw": 4.868572091152647,
+    "qMvar": 1.6002222612792945
+  },
+  {
+    "name": "Devon Substation 138 kV 138kV",
+    "bus": 851,
+    "pMw": 1.4169397885815436,
+    "qMvar": 0.46572558650225226
+  },
+  {
+    "name": "East Camrose Substation 138 kV 138kV",
+    "bus": 852,
+    "pMw": 39.39505538941869,
+    "qMvar": 12.948528529142834
+  },
+  {
+    "name": "Ervick Substation 138 kV 138kV",
+    "bus": 853,
+    "pMw": 29.271027209312848,
+    "qMvar": 9.62092138595915
+  },
+  {
+    "name": "Leduc Substation 138 kV 138kV",
+    "bus": 854,
+    "pMw": 1.2120638139670517,
+    "qMvar": 0.39838611011344055
+  },
+  {
+    "name": "Fox Creek Substation 138 kV 138kV",
+    "bus": 865,
+    "pMw": 1.9232251968711762,
+    "qMvar": 0.6321335528910457
+  },
+  {
+    "name": "Cold Creek 138 kV 138kV",
+    "bus": 870,
+    "pMw": 25.75875576353206,
+    "qMvar": 8.466493588657421
+  },
+  {
+    "name": "Watson Creek 138 kV 138kV",
+    "bus": 873,
+    "pMw": 7.519307986473136,
+    "qMvar": 2.471477017098202
+  },
+  {
+    "name": "Violet Grove Substation 138 kV 138kV",
+    "bus": 881,
+    "pMw": 20.524108687560087,
+    "qMvar": 6.745948298564421
+  },
+  {
+    "name": "Rocky Mountain House 138 kV 138kV",
+    "bus": 896,
+    "pMw": 21.964397016511676,
+    "qMvar": 7.219348179165434
+  },
+  {
+    "name": "Sundre 138 kV 138kV",
+    "bus": 897,
+    "pMw": 5.0673390441885005,
+    "qMvar": 1.665553799377013
+  },
+  {
+    "name": "Cochrane Substation 138 kV 138kV",
+    "bus": 900,
+    "pMw": 58.536352862807455,
+    "qMvar": 19.239968761146056
+  },
+  {
+    "name": "Harmattan Substation 138 kV 138kV",
+    "bus": 901,
+    "pMw": 3.9243675328176586,
+    "qMvar": 1.2898772309171553
+  },
+  {
+    "name": "Stettler 144 kV 138kV",
+    "bus": 905,
+    "pMw": 18.48818710107479,
+    "qMvar": 6.076773233696168
+  },
+  {
+    "name": "Three Hills 144 kV 138kV",
+    "bus": 907,
+    "pMw": 10.26710208325067,
+    "qMvar": 3.3746332610132885
+  },
+  {
+    "name": "Michichi Creek Substation 144 kV 138kV",
+    "bus": 910,
+    "pMw": 28.368295824910895,
+    "qMvar": 9.324207928660119
+  },
+  {
+    "name": "Bullshead 138 kV 138kV",
+    "bus": 925,
+    "pMw": 45.417908240593924,
+    "qMvar": 14.92814452915533
+  },
+  {
+    "name": "Vauxhall 138 kV 138kV",
+    "bus": 932,
+    "pMw": 2.5596804523204586,
+    "qMvar": 0.8413262790147779
+  },
+  {
+    "name": "Chin Chute 138 kV 138kV",
+    "bus": 934,
+    "pMw": 3.6803774023027325,
+    "qMvar": 1.2096815531963827
+  },
+  {
+    "name": "Fincastle 138 kV 138kV",
+    "bus": 936,
+    "pMw": 5.055908525898346,
+    "qMvar": 1.6617967697010831
+  },
+  {
+    "name": "Hillridge 138 kV 138kV",
+    "bus": 937,
+    "pMw": 4.093645635345009,
+    "qMvar": 1.3455162525727333
+  },
+  {
+    "name": "Taber 138 kV 138kV",
+    "bus": 938,
+    "pMw": 14.63986663559361,
+    "qMvar": 4.81189146505798
+  },
+  {
+    "name": "Garden City 138 kV 138kV",
+    "bus": 946,
+    "pMw": 2.360298874400062,
+    "qMvar": 0.7757927234868623
+  },
+  {
+    "name": "High River Substation 138 kV 138kV",
+    "bus": 947,
+    "pMw": 27.279764948616783,
+    "qMvar": 8.966425131625824
+  },
+  {
+    "name": "Magrath 138 kV 138kV",
+    "bus": 950,
+    "pMw": 10.014010026851945,
+    "qMvar": 3.291445924927996
+  },
+  {
+    "name": "Stirling 138 kV 138kV",
+    "bus": 953,
+    "pMw": 7.153712530771473,
+    "qMvar": 2.3513116018834426
+  },
+  {
+    "name": "Vulcan 138 kV 138kV",
+    "bus": 955,
+    "pMw": 6.451011043458386,
+    "qMvar": 2.120344792318084
+  },
+  {
+    "name": "Substation 432563279 138 kV 138kV",
+    "bus": 956,
+    "pMw": 6.840176934762308,
+    "qMvar": 2.248257435067449
+  },
+  {
+    "name": "Namaka Substation 138 kV 138kV",
+    "bus": 957,
+    "pMw": 6.4022446995757765,
+    "qMvar": 2.104316070216184
+  },
+  {
+    "name": "Strathmore 138 kV 138kV",
+    "bus": 960,
+    "pMw": 32.496828288816,
+    "qMvar": 10.681190927260653
+  },
+  {
+    "name": "Coleman 138 kV 138kV",
+    "bus": 965,
+    "pMw": 9.970968034307353,
+    "qMvar": 3.277298706123361
+  },
+  {
+    "name": "Merritt Substation 138 kV 138kV",
+    "bus": 968,
+    "pMw": 6.682361386171759,
+    "qMvar": 2.1963859726956527
+  },
+  {
+    "name": "Hull 138 kV 138kV",
+    "bus": 975,
+    "pMw": 1.5525446364151427,
+    "qMvar": 0.5102967445703547
+  },
+  {
+    "name": "Line Creek Coal 138 kV 138kV",
+    "bus": 976,
+    "pMw": 0.41032524322005676,
+    "qMvar": 0.13486738540008375
+  },
+  {
+    "name": "Elkford Tap 138 kV 138kV",
+    "bus": 981,
+    "pMw": 1.5732772383896776,
+    "qMvar": 0.5171112212983843
+  },
+  {
+    "name": "Elkford 138 kV 138kV",
+    "bus": 982,
+    "pMw": 2.0562259427166545,
+    "qMvar": 0.675848784027388
+  },
+  {
+    "name": "Greenhills 138 kV 138kV",
+    "bus": 984,
+    "pMw": 0.8105339734466485,
+    "qMvar": 0.26640963377938015
+  },
+  {
+    "name": "Baymag 138 kV 138kV",
+    "bus": 987,
+    "pMw": 3.4101976697021583,
+    "qMvar": 1.1208777695490983
+  },
+  {
+    "name": "Canmore Substation 138 kV 138kV",
+    "bus": 988,
+    "pMw": 9.695196931536737,
+    "qMvar": 3.1866571279750127
+  },
+  {
+    "name": "Banff 138 kV 138kV",
+    "bus": 989,
+    "pMw": 15.790587320316412,
+    "qMvar": 5.190115063626903
+  },
+  {
+    "name": "Cascade 138 kV 138kV",
+    "bus": 990,
+    "pMw": 8.63308074304094,
+    "qMvar": 2.8375564189632874
+  },
+  {
+    "name": "New Buchanan Creek 144 kV 138kV",
+    "bus": 1005,
+    "pMw": 3.651903623328018,
+    "qMvar": 1.2003226746330178
+  },
+  {
+    "name": "Thompson Substation 138 kV 138kV",
+    "bus": 1024,
+    "pMw": 2.7343181330780455,
+    "qMvar": 0.8987269088450972
+  },
+  {
+    "name": "Substation No. 54 138 kV 138kV",
+    "bus": 1032,
+    "pMw": 30.091050499107894,
+    "qMvar": 9.890450007191262
+  },
+  {
+    "name": "Substation 593426355 138 kV 138kV",
+    "bus": 1045,
+    "pMw": 1.5254595203135282,
+    "qMvar": 0.50139429742083
+  },
+  {
+    "name": "Black Diamond 138 kV 138kV",
+    "bus": 1046,
+    "pMw": 43.3078136888975,
+    "qMvar": 14.234589989588196
+  },
+  {
+    "name": "Rundle Substation 138 kV 138kV",
+    "bus": 1055,
+    "pMw": 13.940062618407499,
+    "qMvar": 4.581877007868589
+  },
+  {
+    "name": "Spray 138 kV 138kV",
+    "bus": 1056,
+    "pMw": 9.998229191466814,
+    "qMvar": 3.2862590151704585
+  },
+  {
+    "name": "Substation 753734735 138 kV 138kV",
+    "bus": 1062,
+    "pMw": 1.6490091293484108,
+    "qMvar": 0.5420030901116587
+  },
+  {
+    "name": "Morfee 138 kV 138kV",
+    "bus": 1067,
+    "pMw": 2.9461820820733196,
+    "qMvar": 0.9683632213402692
+  },
+  {
+    "name": "Ashcroft Substation 138 kV 138kV",
+    "bus": 1068,
+    "pMw": 4.51247640779746,
+    "qMvar": 1.4831792702376392
+  },
+  {
+    "name": "Substation 818090641 138 kV 138kV",
+    "bus": 1069,
+    "pMw": 3.360541220275245,
+    "qMvar": 1.1045564839028539
+  },
+  {
+    "name": "Colwood Substation 138 kV 138kV",
+    "bus": 1072,
+    "pMw": 6.14639088073323,
+    "qMvar": 2.0202209867133267
+  },
+  {
+    "name": "Substation 912758777 138 kV 138kV",
+    "bus": 1087,
+    "pMw": 0.4050012628794446,
+    "qMvar": 0.1331174776858398
+  },
+  {
+    "name": "Valemount Substation 138 kV 138kV",
+    "bus": 1088,
+    "pMw": 1.0980531550858867,
+    "qMvar": 0.3609126187182322
+  },
+  {
+    "name": "Substation 912758780 138 kV 138kV",
+    "bus": 1089,
+    "pMw": 0.47086482476473984,
+    "qMvar": 0.15476578358800075
+  },
+  {
+    "name": "Clearwater Substation 138 kV 138kV",
+    "bus": 1090,
+    "pMw": 3.167349900507601,
+    "qMvar": 1.0410575678367022
+  },
+  {
+    "name": "Vavenby Substation 138 kV 138kV",
+    "bus": 1091,
+    "pMw": 0.5234581064697056,
+    "qMvar": 0.1720523593236173
+  },
+  {
+    "name": "Barriere Substation 138 kV 138kV",
+    "bus": 1095,
+    "pMw": 2.6666092857647556,
+    "qMvar": 0.8764720869532362
+  },
+  {
+    "name": "Substation 912771689 138 kV 138kV",
+    "bus": 1096,
+    "pMw": 0.6451468581692521,
+    "qMvar": 0.2120495177863156
+  },
+  {
+    "name": "Substation 912771693 138 kV 138kV",
+    "bus": 1097,
+    "pMw": 0.789913620056354,
+    "qMvar": 0.2596320513768193
+  }
+]

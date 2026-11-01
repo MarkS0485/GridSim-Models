@@ -1,0 +1,2822 @@
+[
+  {
+    "name": "jao:Domnesti - Urechesti:0",
+    "from": 16,
+    "to": 60,
+    "rPu": 0.00584375,
+    "xPu": 0.05515625,
+    "bPu": 1.4035183999999998,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bradu - Tantareni:1",
+    "from": 5,
+    "to": 57,
+    "rPu": 0.004375,
+    "xPu": 0.0415625,
+    "bPu": 1.0576016,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:FAI - Gutinas:2",
+    "from": 81,
+    "to": 90,
+    "rPu": 0.027892561983471075,
+    "xPu": 0.16487603305785123,
+    "bPu": 0.248292,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slatina - Bucuresti Sud:3",
+    "from": 53,
+    "to": 8,
+    "rPu": 0.0038374999999999998,
+    "xPu": 0.03625,
+    "bPu": 0.9215968,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slatina - Portile de Fier:4",
+    "from": 53,
+    "to": 46,
+    "rPu": 0.0034999999999999996,
+    "xPu": 0.033,
+    "bPu": 0.8416,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Baia Mare 3 - Iernut:5",
+    "from": 66,
+    "to": 93,
+    "rPu": 0.022314049586776862,
+    "xPu": 0.1318181818181818,
+    "bPu": 0.19844,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bradu - Brasov:6",
+    "from": 5,
+    "to": 6,
+    "rPu": 0.0033750000000000004,
+    "xPu": 0.031625,
+    "bPu": 0.8,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Gura Ialomitei:7",
+    "from": 8,
+    "to": 19,
+    "rPu": 0.00311875,
+    "xPu": 0.029437500000000002,
+    "bPu": 0.7491216,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mintia - Arad:8",
+    "from": 26,
+    "to": 1,
+    "rPu": 0.00305625,
+    "xPu": 0.0288125,
+    "bPu": 0.7331215999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gutinas - Smardan:9",
+    "from": 20,
+    "to": 54,
+    "rPu": 0.0029812499999999995,
+    "xPu": 0.028149999999999998,
+    "bPu": 0.7168015999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Oradea Sud - Rosiori:10",
+    "from": 29,
+    "to": 50,
+    "rPu": 0.00294375,
+    "xPu": 0.02765,
+    "bPu": 0.7071999999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mintia - Timisoara:11",
+    "from": 98,
+    "to": 152,
+    "rPu": 0.019008264462809916,
+    "xPu": 0.11301652892561984,
+    "bPu": 0.170368,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sibiu Sud - Mintia:12",
+    "from": 52,
+    "to": 26,
+    "rPu": 0.0028875,
+    "xPu": 0.027237499999999998,
+    "bPu": 0.6927984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brasov - Sibiu Sud:13",
+    "from": 6,
+    "to": 52,
+    "rPu": 0.0028125,
+    "xPu": 0.0264375,
+    "bPu": 0.6735984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gutinas - Brasov:14",
+    "from": 20,
+    "to": 6,
+    "rPu": 0.0027500000000000003,
+    "xPu": 0.0258125,
+    "bPu": 0.656,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Pelicanu:15",
+    "from": 8,
+    "to": 45,
+    "rPu": 0.00239375,
+    "xPu": 0.02265625,
+    "bPu": 0.7140816,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Rosiori - Gadalin:16",
+    "from": 50,
+    "to": 18,
+    "rPu": 0.002625,
+    "xPu": 0.0248125,
+    "bPu": 0.6319984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Resita c1:17",
+    "from": 129,
+    "to": 132,
+    "rPu": 0.017148760330578515,
+    "xPu": 0.10152892561983472,
+    "bPu": 0.152944,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Resita c2:18",
+    "from": 129,
+    "to": 132,
+    "rPu": 0.017148760330578515,
+    "xPu": 0.10152892561983472,
+    "bPu": 0.152944,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:FAI - Suceava:19",
+    "from": 81,
+    "to": 144,
+    "rPu": 0.01700413223140496,
+    "xPu": 0.10072314049586777,
+    "bPu": 0.151492,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gutinas - Munteni:20",
+    "from": 90,
+    "to": 99,
+    "rPu": 0.017148760330578515,
+    "xPu": 0.10144628099173554,
+    "bPu": 0.152944,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Darste:21",
+    "from": 7,
+    "to": 13,
+    "rPu": 0.00253125,
+    "xPu": 0.0239,
+    "bPu": 0.6080015999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Roman Nord - Suceava:22",
+    "from": 49,
+    "to": 56,
+    "rPu": 0.00220625,
+    "xPu": 0.020837500000000002,
+    "bPu": 0.5296016,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cluj Floresti - Alba Iulia:23",
+    "from": 77,
+    "to": 63,
+    "rPu": 0.01487603305785124,
+    "xPu": 0.08347107438016528,
+    "bPu": 0.12584048399999997,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Pelicanu:24",
+    "from": 9,
+    "to": 45,
+    "rPu": 0.00201875,
+    "xPu": 0.018875,
+    "bPu": 0.55184,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cetate - Portile de Fier c1:25",
+    "from": 76,
+    "to": 129,
+    "rPu": 0.013553719008264463,
+    "xPu": 0.08024793388429753,
+    "bPu": 0.121,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cetate - Portile de Fier c2:26",
+    "from": 76,
+    "to": 129,
+    "rPu": 0.013553719008264463,
+    "xPu": 0.08024793388429753,
+    "bPu": 0.120999516,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Focsani Vest - Barbosi:27",
+    "from": 84,
+    "to": 67,
+    "rPu": 0.012004132231404958,
+    "xPu": 0.06299586776859503,
+    "bPu": 0.09917643999999999,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gutinas - Focsani Vest:28",
+    "from": 90,
+    "to": 84,
+    "rPu": 0.011471074380165288,
+    "xPu": 0.060227272727272727,
+    "bPu": 0.09493175999999999,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Lotru - Sibiu Sud c1:29",
+    "from": 96,
+    "to": 138,
+    "rPu": 0.012913223140495868,
+    "xPu": 0.07636363636363637,
+    "bPu": 0.11470751599999998,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Lotru - Sibiu Sud c2:30",
+    "from": 96,
+    "to": 138,
+    "rPu": 0.012913223140495868,
+    "xPu": 0.07636363636363637,
+    "bPu": 0.11470751599999998,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Urechesti:31",
+    "from": 46,
+    "to": 60,
+    "rPu": 0.0018937499999999998,
+    "xPu": 0.01775,
+    "bPu": 0.4511984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Alba Iulia - Mintia:32",
+    "from": 63,
+    "to": 98,
+    "rPu": 0.01322314049586777,
+    "xPu": 0.07396694214876033,
+    "bPu": 0.111319516,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iernut - Sibiu Sud:33",
+    "from": 21,
+    "to": 52,
+    "rPu": 0.0018625,
+    "xPu": 0.0175875,
+    "bPu": 0.4480015999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slatina - Tantareni:34",
+    "from": 53,
+    "to": 57,
+    "rPu": 0.0018625,
+    "xPu": 0.0175875,
+    "bPu": 0.4480015999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Stupina:35",
+    "from": 22,
+    "to": 55,
+    "rPu": 0.001,
+    "xPu": 0.014624999999999999,
+    "bPu": 0.5327999999999999,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ghizdaru - Turnu Magurele:36",
+    "from": 88,
+    "to": 153,
+    "rPu": 0.012045454545454545,
+    "xPu": 0.07136363636363637,
+    "bPu": 0.107448484,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arefu - Raureni:37",
+    "from": 65,
+    "to": 131,
+    "rPu": 0.006818181818181818,
+    "xPu": 0.04090909090909091,
+    "bPu": 0.06146751599999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gutinas - Dumbrava:38",
+    "from": 90,
+    "to": 80,
+    "rPu": 0.013285123966942149,
+    "xPu": 0.07871900826446282,
+    "bPu": 0.11857999999999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Medgidia Sud - Rahman:39",
+    "from": 25,
+    "to": 47,
+    "rPu": 0.00117125,
+    "xPu": 0.014396875,
+    "bPu": 0.48977424,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Fantanele - Gheorgheni:40",
+    "from": 82,
+    "to": 87,
+    "rPu": 0.0128099173553719,
+    "xPu": 0.06756198347107438,
+    "bPu": 0.10164,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tulcea Vest - Tariverde:41",
+    "from": 59,
+    "to": 58,
+    "rPu": 0.0014959374999999999,
+    "xPu": 0.01416425,
+    "bPu": 0.46165919999999994,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bradu - Arefu:42",
+    "from": 69,
+    "to": 65,
+    "rPu": 0.010950413223140495,
+    "xPu": 0.06446280991735537,
+    "bPu": 0.0968,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:FAI - Munteni:43",
+    "from": 81,
+    "to": 99,
+    "rPu": 0.01090909090909091,
+    "xPu": 0.06446280991735537,
+    "bPu": 0.0968,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Constanta Nord:44",
+    "from": 9,
+    "to": 11,
+    "rPu": 0.0014874999999999999,
+    "xPu": 0.0139875,
+    "bPu": 0.40303839999999996,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Resita - Timisoara c1:45",
+    "from": 132,
+    "to": 152,
+    "rPu": 0.010743801652892562,
+    "xPu": 0.0634297520661157,
+    "bPu": 0.095348,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Resita - Timisoara c2:46",
+    "from": 132,
+    "to": 152,
+    "rPu": 0.010743801652892562,
+    "xPu": 0.0634297520661157,
+    "bPu": 0.095348,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gura Ialomitei - Lacu Sarat:47",
+    "from": 19,
+    "to": 24,
+    "rPu": 0.0014874999999999999,
+    "xPu": 0.0148125,
+    "bPu": 0.3727984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Stuparei - Bradu:48",
+    "from": 143,
+    "to": 69,
+    "rPu": 0.010330578512396695,
+    "xPu": 0.06136363636363636,
+    "bPu": 0.09244351599999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tantareni - Urechesti:49",
+    "from": 57,
+    "to": 60,
+    "rPu": 0.0015625,
+    "xPu": 0.0145625,
+    "bPu": 0.3712,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Craiova Nord - Sardanesti:50",
+    "from": 78,
+    "to": 137,
+    "rPu": 0.011157024793388431,
+    "xPu": 0.060640495867768596,
+    "bPu": 0.09099151599999998,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Gura Ialomitei c4:51",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.0013701874999999999,
+    "xPu": 0.012806249999999998,
+    "bPu": 0.38215183999999996,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Fundeni c1:52",
+    "from": 70,
+    "to": 85,
+    "rPu": 0.009855371900826445,
+    "xPu": 0.05840909090909091,
+    "bPu": 0.08808751599999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Fundeni c2:53",
+    "from": 70,
+    "to": 85,
+    "rPu": 0.009855371900826445,
+    "xPu": 0.05840909090909091,
+    "bPu": 0.08808751599999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Gura Ialomitei c2:54",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.0013375000000000001,
+    "xPu": 0.0125375,
+    "bPu": 0.3636816,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Lacu Sarat:55",
+    "from": 22,
+    "to": 24,
+    "rPu": 0.0014874999999999999,
+    "xPu": 0.01405625,
+    "bPu": 0.3575984,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tihau - Cluj Floresti:56",
+    "from": 151,
+    "to": 77,
+    "rPu": 0.009710743801652892,
+    "xPu": 0.05785123966942149,
+    "bPu": 0.087120484,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sardanesti - Urechesti:57",
+    "from": 137,
+    "to": 156,
+    "rPu": 0.0106198347107438,
+    "xPu": 0.05855371900826446,
+    "bPu": 0.08808751599999999,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Domnesti - Brazi Vest:58",
+    "from": 16,
+    "to": 7,
+    "rPu": 0.00141875,
+    "xPu": 0.0134125,
+    "bPu": 0.3408,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Gura Ialomitei c1:59",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.0014125,
+    "xPu": 0.013000000000000001,
+    "bPu": 0.39375999999999994,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gradiste - Isalnita:60",
+    "from": 89,
+    "to": 94,
+    "rPu": 0.005297520661157025,
+    "xPu": 0.03133677685950413,
+    "bPu": 0.14083916,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gheorgheni - Stejaru:61",
+    "from": 87,
+    "to": 141,
+    "rPu": 0.010950413223140495,
+    "xPu": 0.05764462809917355,
+    "bPu": 0.087120484,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Alba Iulia - Galceag:62",
+    "from": 63,
+    "to": 86,
+    "rPu": 0.008471074380165288,
+    "xPu": 0.050413223140495865,
+    "bPu": 0.07598848400000001,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bacau Sud - Roman Nord:63",
+    "from": 3,
+    "to": 49,
+    "rPu": 0.0012875,
+    "xPu": 0.012150000000000001,
+    "bPu": 0.3088016,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Smardan c1:64",
+    "from": 22,
+    "to": 54,
+    "rPu": 0.00125,
+    "xPu": 0.011312500000000001,
+    "bPu": 0.3152,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Baia Mare 3 - Tihau:65",
+    "from": 66,
+    "to": 151,
+    "rPu": 0.008471074380165288,
+    "xPu": 0.049999999999999996,
+    "bPu": 0.07502,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Smardan c2:66",
+    "from": 22,
+    "to": 54,
+    "rPu": 0.00125,
+    "xPu": 0.011312500000000001,
+    "bPu": 0.3152,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Rahman:67",
+    "from": 22,
+    "to": 47,
+    "rPu": 0.0010375,
+    "xPu": 0.01055625,
+    "bPu": 0.368,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cernavoda - Gura Ialomitei c3:68",
+    "from": 9,
+    "to": 19,
+    "rPu": 0.00093425,
+    "xPu": 0.009519999999999999,
+    "bPu": 0.35912624,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bacau Sud - Gutinas:69",
+    "from": 3,
+    "to": 20,
+    "rPu": 0.00125,
+    "xPu": 0.011575,
+    "bPu": 0.2944,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arad - Timisoara:70",
+    "from": 64,
+    "to": 152,
+    "rPu": 0.007851239669421486,
+    "xPu": 0.04669421487603306,
+    "bPu": 0.07018,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bradu - Targoviste B:71",
+    "from": 69,
+    "to": 147,
+    "rPu": 0.007851239669421486,
+    "xPu": 0.04648760330578512,
+    "bPu": 0.069696484,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Stalpu - Teleajen:72",
+    "from": 140,
+    "to": 150,
+    "rPu": 0.003925619834710743,
+    "xPu": 0.036983471074380166,
+    "bPu": 0.08615151599999998,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Medgidia Sud - Stupina:73",
+    "from": 25,
+    "to": 55,
+    "rPu": 0.000605,
+    "xPu": 0.008901875,
+    "bPu": 0.32576847999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Campia Turzii - Iernut:74",
+    "from": 75,
+    "to": 93,
+    "rPu": 0.009917355371900825,
+    "xPu": 0.05557851239669421,
+    "bPu": 0.083732484,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iernut - Gadalin:75",
+    "from": 21,
+    "to": 18,
+    "rPu": 0.0011250000000000001,
+    "xPu": 0.010593749999999999,
+    "bPu": 0.2688,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Targoviste A:76",
+    "from": 70,
+    "to": 146,
+    "rPu": 0.00743801652892562,
+    "xPu": 0.04380165289256198,
+    "bPu": 0.065824,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Targoviste B:77",
+    "from": 70,
+    "to": 147,
+    "rPu": 0.00743801652892562,
+    "xPu": 0.04380165289256198,
+    "bPu": 0.065824,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tariverde - Constanta Nord:78",
+    "from": 58,
+    "to": 11,
+    "rPu": 0.0010480625,
+    "xPu": 0.0099141875,
+    "bPu": 0.2822384,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Craiova Nord - Slatina:79",
+    "from": 78,
+    "to": 139,
+    "rPu": 0.004132231404958678,
+    "xPu": 0.021322314049586778,
+    "bPu": 0.128743516,
+    "ratingMva": 678.2710962439724,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arad - Calea Aradului:80",
+    "from": 64,
+    "to": 73,
+    "rPu": 0.006991735537190082,
+    "xPu": 0.04132231404958678,
+    "bPu": 0.062242884,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Calea Aradului - Sacalaz:81",
+    "from": 73,
+    "to": 135,
+    "rPu": 0.0011425619834710744,
+    "xPu": 0.006754132231404959,
+    "bPu": 0.010174647999999998,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Alba Iulia - Sugag:82",
+    "from": 63,
+    "to": 145,
+    "rPu": 0.006900826446280992,
+    "xPu": 0.040785123966942144,
+    "bPu": 0.06146751599999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Baru Mare - Hasdat:83",
+    "from": 68,
+    "to": 91,
+    "rPu": 0.006074380165289256,
+    "xPu": 0.03599173553719009,
+    "bPu": 0.054208484,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Domnesti:84",
+    "from": 8,
+    "to": 16,
+    "rPu": 0.00075625,
+    "xPu": 0.007125,
+    "bPu": 0.18143839999999997,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cluj Floresti - Campia Turzii:85",
+    "from": 77,
+    "to": 75,
+    "rPu": 0.004090909090909091,
+    "xPu": 0.024297520661157024,
+    "bPu": 0.069211516,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Retezat - Hasdat:86",
+    "from": 133,
+    "to": 91,
+    "rPu": 0.002024793388429752,
+    "xPu": 0.02851239669421488,
+    "bPu": 0.066307516,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paroseni - Targiu Jiu Nord:87",
+    "from": 126,
+    "to": 149,
+    "rPu": 0.006198347107438017,
+    "xPu": 0.032706611570247936,
+    "bPu": 0.049368484000000004,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cetate - Calafat:88",
+    "from": 76,
+    "to": 72,
+    "rPu": 0.005165289256198347,
+    "xPu": 0.030537190082644626,
+    "bPu": 0.046042919999999994,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Rosiori - Vetis:89",
+    "from": 134,
+    "to": 157,
+    "rPu": 0.005061983471074381,
+    "xPu": 0.03037190082644628,
+    "bPu": 0.045737516,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slatina - Draganesti Olt:90",
+    "from": 53,
+    "to": 17,
+    "rPu": 0.00069375,
+    "xPu": 0.007156249999999999,
+    "bPu": 0.1831968,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Smardan - Lacu Sarat:91",
+    "from": 54,
+    "to": 24,
+    "rPu": 0.00075,
+    "xPu": 0.0070999999999999995,
+    "bPu": 0.1808,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Stejaru - Dumbrava:92",
+    "from": 141,
+    "to": 80,
+    "rPu": 0.004958677685950413,
+    "xPu": 0.02933884297520661,
+    "bPu": 0.04404351599999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arad - Nadab:93",
+    "from": 1,
+    "to": 28,
+    "rPu": 0.0006787500000000001,
+    "xPu": 0.0060999999999999995,
+    "bPu": 0.20959999999999998,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nadab - Oradea Sud:94",
+    "from": 28,
+    "to": 29,
+    "rPu": 0.0014674999999999998,
+    "xPu": 0.013161875,
+    "bPu": 0.45423983999999995,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Baia Mare 3 - Rosiori c1:95",
+    "from": 66,
+    "to": 134,
+    "rPu": 0.004855371900826446,
+    "xPu": 0.028739669421487604,
+    "bPu": 0.043278795999999994,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Baia Mare 3 - Rosiori c2:96",
+    "from": 66,
+    "to": 134,
+    "rPu": 0.004855371900826446,
+    "xPu": 0.028739669421487604,
+    "bPu": 0.043278795999999994,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brazi Vest - Teleajen:97",
+    "from": 70,
+    "to": 150,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.0256198347107438,
+    "bPu": 0.05953199999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iaz - Resita c1:98",
+    "from": 92,
+    "to": 132,
+    "rPu": 0.004504132231404959,
+    "xPu": 0.026673553719008265,
+    "bPu": 0.038720484,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iaz - Resita c2:99",
+    "from": 92,
+    "to": 132,
+    "rPu": 0.004504132231404959,
+    "xPu": 0.026673553719008265,
+    "bPu": 0.038720484,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Filesti - Lacu Sarat:100",
+    "from": 83,
+    "to": 95,
+    "rPu": 0.0043388429752066115,
+    "xPu": 0.025206611570247933,
+    "bPu": 0.037751516,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iernut - Ungheni c1:101",
+    "from": 93,
+    "to": 155,
+    "rPu": 0.004710743801652892,
+    "xPu": 0.02543388429752066,
+    "bPu": 0.038235032,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Iernut - Ungheni c2:102",
+    "from": 93,
+    "to": 155,
+    "rPu": 0.0023347107438016525,
+    "xPu": 0.02066115702479339,
+    "bPu": 0.046948,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Tulcea Vest:103",
+    "from": 22,
+    "to": 59,
+    "rPu": 0.000625,
+    "xPu": 0.0059812500000000005,
+    "bPu": 0.15199839999999998,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tihau - Salaj:104",
+    "from": 151,
+    "to": 136,
+    "rPu": 0.003966942148760331,
+    "xPu": 0.0234297520661157,
+    "bPu": 0.035332484,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hasdat - Mintia:105",
+    "from": 91,
+    "to": 98,
+    "rPu": 0.0037809917355371902,
+    "xPu": 0.022355371900826447,
+    "bPu": 0.033880483999999995,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ungheni - Fantanele:106",
+    "from": 155,
+    "to": 82,
+    "rPu": 0.004132231404958678,
+    "xPu": 0.02334710743801653,
+    "bPu": 0.035332484,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Fundeni c1:107",
+    "from": 71,
+    "to": 85,
+    "rPu": 0.00371900826446281,
+    "xPu": 0.02169421487603306,
+    "bPu": 0.032708235999999995,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Fundeni c2:108",
+    "from": 71,
+    "to": 85,
+    "rPu": 0.00371900826446281,
+    "xPu": 0.02169421487603306,
+    "bPu": 0.032708235999999995,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Cluj Floresti - Mariselu:109",
+    "from": 77,
+    "to": 97,
+    "rPu": 0.00371900826446281,
+    "xPu": 0.022107438016528924,
+    "bPu": 0.033395516,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sacalaz - Timisoara:110",
+    "from": 135,
+    "to": 152,
+    "rPu": 0.003512396694214876,
+    "xPu": 0.021280991735537193,
+    "bPu": 0.031943516,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Slatina - Gradiste:111",
+    "from": 139,
+    "to": 89,
+    "rPu": 0.0026095041322314045,
+    "xPu": 0.015433884297520661,
+    "bPu": 0.045036684,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Medgidia Sud - Cernavoda:112",
+    "from": 25,
+    "to": 9,
+    "rPu": 0.00044374999999999997,
+    "xPu": 0.00389375,
+    "bPu": 0.1288,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paroseni - Baru Mare:113",
+    "from": 126,
+    "to": 68,
+    "rPu": 0.0033057851239669425,
+    "xPu": 0.01756198347107438,
+    "bPu": 0.026619999999999998,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gadalin - Cluj Est:114",
+    "from": 18,
+    "to": 10,
+    "rPu": 0.00043125,
+    "xPu": 0.0040625,
+    "bPu": 0.104,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mintia - Pestis c1:115",
+    "from": 98,
+    "to": 127,
+    "rPu": 0.0027479338842975208,
+    "xPu": 0.016198347107438015,
+    "bPu": 0.024199032,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mintia - Pestis c2:116",
+    "from": 98,
+    "to": 127,
+    "rPu": 0.0027479338842975208,
+    "xPu": 0.016198347107438015,
+    "bPu": 0.024199032,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Urechesti - Targu Jiu Nord:117",
+    "from": 156,
+    "to": 149,
+    "rPu": 0.0027892561983471078,
+    "xPu": 0.015640495867768597,
+    "bPu": 0.023715516000000002,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hasdat - Pestis:118",
+    "from": 91,
+    "to": 127,
+    "rPu": 0.0026859504132231405,
+    "xPu": 0.014462809917355372,
+    "bPu": 0.021779999999999997,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Brasov - Darste:119",
+    "from": 6,
+    "to": 13,
+    "rPu": 0.0002875,
+    "xPu": 0.0027437499999999997,
+    "bPu": 0.0704016,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Turnu Severin Est c1:120",
+    "from": 129,
+    "to": 154,
+    "rPu": 0.0019008264462809918,
+    "xPu": 0.011260330578512397,
+    "bPu": 0.01694,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Turnu Severin Est c2:121",
+    "from": 129,
+    "to": 154,
+    "rPu": 0.0019008264462809918,
+    "xPu": 0.011260330578512397,
+    "bPu": 0.01694,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Raureni - Stuparei:122",
+    "from": 131,
+    "to": 143,
+    "rPu": 0.001859504132231405,
+    "xPu": 0.010537190082644627,
+    "bPu": 0.015971516,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pestis - Otelarie H:123",
+    "from": 127,
+    "to": 125,
+    "rPu": 0.001714876033057851,
+    "xPu": 0.009772727272727273,
+    "bPu": 0.014727635999999999,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Craiova Nord - Isalnita c1:124",
+    "from": 78,
+    "to": 94,
+    "rPu": 0.001177685950413223,
+    "xPu": 0.007663223140495868,
+    "bPu": 0.007259999999999999,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Craiova Nord - Isalnita c2:125",
+    "from": 78,
+    "to": 94,
+    "rPu": 0.0014049586776859505,
+    "xPu": 0.007933884297520661,
+    "bPu": 0.012584,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Barbosi - Filesti:126",
+    "from": 67,
+    "to": 83,
+    "rPu": 0.0010330578512396695,
+    "xPu": 0.005785123966942148,
+    "bPu": 0.008712484,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Hasdat - Otelarie H:127",
+    "from": 91,
+    "to": 125,
+    "rPu": 0.0010950413223140497,
+    "xPu": 0.006446280991735537,
+    "bPu": 0.009679515999999999,
+    "ratingMva": 339.1355481219862,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bradu - Pitesti Sud:128",
+    "from": 69,
+    "to": 128,
+    "rPu": 0.0009297520661157025,
+    "xPu": 0.0055785123966942156,
+    "bPu": 0.008227515999999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Ghizdaru d. Mostistea:129",
+    "from": 71,
+    "to": 79,
+    "rPu": 0.0007231404958677686,
+    "xPu": 0.004235537190082644,
+    "bPu": 0.006292,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arefu - Sibiu Sud:130",
+    "from": 2,
+    "to": 52,
+    "rPu": 0.0015146875000000002,
+    "xPu": 0.015,
+    "bPu": 0.3872,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arefu -Tantareni:131",
+    "from": 2,
+    "to": 57,
+    "rPu": 0.00384275,
+    "xPu": 0.03734875,
+    "bPu": 1.0508204799999998,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Turnu Magurele - Studina:132",
+    "from": 153,
+    "to": 142,
+    "rPu": 0.0076816115702479345,
+    "xPu": 0.047415289256198354,
+    "bPu": 0.07419095640000001,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Craiova Nord - Studina:133",
+    "from": 78,
+    "to": 142,
+    "rPu": 0.009371280991735538,
+    "xPu": 0.0570599173553719,
+    "bPu": 0.08969942959999999,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ratesti - Targoviste:134",
+    "from": 130,
+    "to": 148,
+    "rPu": 0.004149586776859504,
+    "xPu": 0.026219008264462808,
+    "bPu": 0.040534002959999996,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ratesti - Bradu:135",
+    "from": 69,
+    "to": 130,
+    "rPu": 0.0032489669421487603,
+    "xPu": 0.02043305785123967,
+    "bPu": 0.03145993224,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bucuresti Sud - Calugareni:136",
+    "from": 71,
+    "to": 74,
+    "rPu": 0.007600206611570248,
+    "xPu": 0.0467004132231405,
+    "bPu": 0.0749419308,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Calugareni - Ghizdaru:137",
+    "from": 88,
+    "to": 74,
+    "rPu": 0.002356404958677686,
+    "xPu": 0.014539462809917355,
+    "bPu": 0.02331140988,
+    "ratingMva": 369.6196423351984,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Medgidia Sud - Varna:138",
+    "from": 25,
+    "to": 61,
+    "rPu": 0.00077875,
+    "xPu": 0.011333125,
+    "bPu": 0.40098367999999995,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Medgidia Sud - Dobrudja:139",
+    "from": 25,
+    "to": 15,
+    "rPu": 0.0009106250000000001,
+    "xPu": 0.0113425,
+    "bPu": 0.38559999999999994,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tantareni - Kozlodui c1:140",
+    "from": 57,
+    "to": 23,
+    "rPu": 0.0011875,
+    "xPu": 0.0104625,
+    "bPu": 0.3424,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tantareni - Kozlodui c2:141",
+    "from": 57,
+    "to": 23,
+    "rPu": 0.0011875,
+    "xPu": 0.0104625,
+    "bPu": 0.3424,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Arad - Sandorfalva:142",
+    "from": 1,
+    "to": 51,
+    "rPu": 0.00105625,
+    "xPu": 0.0111875,
+    "bPu": 0.29696,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Rosiori - Mukacevo c1:143",
+    "from": 50,
+    "to": 27,
+    "rPu": 0.0012625,
+    "xPu": 0.011893750000000002,
+    "bPu": 0.302688,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Nadab - Bekescsaba:144",
+    "from": 28,
+    "to": 4,
+    "rPu": 0.0004125,
+    "xPu": 0.0034999999999999996,
+    "bPu": 0.138976,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Isaccea - Vulcanesti:145",
+    "from": 22,
+    "to": 62,
+    "rPu": 0.0003625,
+    "xPu": 0.00535625,
+    "bPu": 0.17992,
+    "ratingMva": 997.6612651596732,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Portile de Fier - Djerdap c1:146",
+    "from": 46,
+    "to": 14,
+    "rPu": 1.875e-05,
+    "xPu": 0.0002,
+    "bPu": 0.005296,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pancevo 2 - Resita c2:147",
+    "from": 48,
+    "to": 44,
+    "rPu": 0.0012793750000000001,
+    "xPu": 0.01199,
+    "bPu": 0.40429424,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pancevo 2 - Resita c1:148",
+    "from": 48,
+    "to": 44,
+    "rPu": 0.0012793750000000001,
+    "xPu": 0.01199,
+    "bPu": 0.40429424,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/127670521:0 - arad 220 (OSM merged_way/127670521-220+1 c1)",
+    "from": 104,
+    "to": 64,
+    "rPu": 0.006207762169898067,
+    "xPu": 0.03664112608400317,
+    "bPu": 0.05532696921518936,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/127670521:0 - arad 220 (OSM merged_way/127670521-220+1 c2)",
+    "from": 104,
+    "to": 64,
+    "rPu": 0.006207762169898067,
+    "xPu": 0.03664112608400317,
+    "bPu": 0.05532696921518936,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1381105767:1 - osm virtual_way/100606433:c:1 400 (OSM merged_way/1381105766-400+1)",
+    "from": 35,
+    "to": 33,
+    "rPu": 0.00024050627853260866,
+    "xPu": 0.002267754617647059,
+    "bPu": 0.057953409364745245,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/100606433:c:1 - osm virtual_way/1381105767:1 400 (OSM merged_way/1381105767-400+1)",
+    "from": 33,
+    "to": 35,
+    "rPu": 0.00024097933288043478,
+    "xPu": 0.0022722150882352942,
+    "bPu": 0.05806739853974144,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bucuresti sud - d. mostistea 400 (OSM merged_way/191185904-400+1 c1)",
+    "from": 8,
+    "to": 12,
+    "rPu": 0.00017132075135869562,
+    "xPu": 0.0016153982647058823,
+    "bPu": 0.04128217232723954,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bucuresti sud - d. mostistea 400 (OSM merged_way/191185904-400+1 c2)",
+    "from": 8,
+    "to": 12,
+    "rPu": 0.00017132075135869562,
+    "xPu": 0.0016153982647058823,
+    "bPu": 0.04128217232723954,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:d. mostistea - osm virtual_way/1080306965:1 220 (OSM merged_way/191185905-220+2)",
+    "from": 79,
+    "to": 102,
+    "rPu": 0.007523720052442521,
+    "xPu": 0.04440852718215781,
+    "bPu": 0.06705550508099209,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - gutinas 400 (OSM merged_way/196723099:b-400+1)",
+    "from": 37,
+    "to": 20,
+    "rPu": 0.002897087586956521,
+    "xPu": 0.027316890823529408,
+    "bPu": 0.6980944693701595,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:craiova nord - turnu magurele 220 (OSM merged_way/198777661-220+2)",
+    "from": 78,
+    "to": 153,
+    "rPu": 0.01772982178532581,
+    "xPu": 0.10464973008038038,
+    "bPu": 0.15801786171257623,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:craiova nord - osm virtual_way/198777686:0 220 (OSM merged_way/198777682-220+1 c1)",
+    "from": 78,
+    "to": 109,
+    "rPu": 0.005663708885045098,
+    "xPu": 0.0334298682327635,
+    "bPu": 0.05047806899661396,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:craiova nord - osm virtual_way/198777686:0 220 (OSM merged_way/198777682-220+1 c2)",
+    "from": 78,
+    "to": 109,
+    "rPu": 0.005663708885045098,
+    "xPu": 0.0334298682327635,
+    "bPu": 0.05047806899661396,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bradu - targoviste 220 (OSM merged_way/205384228-220+1 c1)",
+    "from": 69,
+    "to": 148,
+    "rPu": 0.007899202998250669,
+    "xPu": 0.046624803769953586,
+    "bPu": 0.07040201430847062,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bradu - targoviste 220 (OSM merged_way/205384228-220+1 c2)",
+    "from": 69,
+    "to": 148,
+    "rPu": 0.007899202998250669,
+    "xPu": 0.046624803769953586,
+    "bPu": 0.07040201430847062,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pelicanu - d. mostistea 400 (OSM merged_way/24730606-400+1)",
+    "from": 45,
+    "to": 12,
+    "rPu": 0.002430701179347826,
+    "xPu": 0.022919292823529412,
+    "bPu": 0.5857120294305095,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slatina - d. mostistea 400 (OSM merged_way/27928066-400+1)",
+    "from": 53,
+    "to": 12,
+    "rPu": 0.003612212880434782,
+    "xPu": 0.034059869411764705,
+    "bPu": 0.8704140825332319,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mintia - osm sibiu sud 400 (OSM merged_way/688001354-400+2)",
+    "from": 26,
+    "to": 32,
+    "rPu": 0.0027952203383152176,
+    "xPu": 0.026356375676470593,
+    "bPu": 0.6735481065999696,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gradiste - osm virtual_way/198777686:0 220 (OSM merged_way/957949134-220+1 c1)",
+    "from": 89,
+    "to": 109,
+    "rPu": 0.0017417669856016685,
+    "xPu": 0.010280726287784444,
+    "bPu": 0.015523579311673122,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gradiste - osm virtual_way/198777686:0 220 (OSM merged_way/957949134-220+1 c2)",
+    "from": 89,
+    "to": 109,
+    "rPu": 0.0017417669856016685,
+    "xPu": 0.010280726287784444,
+    "bPu": 0.015523579311673122,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rahman - osm virtual_way/100606433:c:1 400 (OSM way/100606433:c-400)",
+    "from": 47,
+    "to": 33,
+    "rPu": 0.0014380978410326087,
+    "xPu": 0.01355994961764706,
+    "bPu": 0.346530133834403,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:arad - osm virtual_way/852703146:1 400 (OSM way/101158755-400)",
+    "from": 1,
+    "to": 43,
+    "rPu": 0.0012060026725543476,
+    "xPu": 0.011371504088235293,
+    "bPu": 0.29060350109755123,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:iernut - osm sibiu sud 400 (OSM way/101343344-400)",
+    "from": 21,
+    "to": 32,
+    "rPu": 0.0018224669008152171,
+    "xPu": 0.017184198911764707,
+    "bPu": 0.43914932699905707,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/102265008:1 400 (OSM way/102265008-400 c1)",
+    "from": 57,
+    "to": 34,
+    "rPu": 0.0017937848804347825,
+    "xPu": 0.016913753647058823,
+    "bPu": 0.4322379861448516,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/102265008:1 400 (OSM way/102265008-400 c2)",
+    "from": 57,
+    "to": 34,
+    "rPu": 0.0017937848804347825,
+    "xPu": 0.016913753647058823,
+    "bPu": 0.4322379861448516,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mintia - otelarie h 220 (OSM way/104155442:a-220 c1)",
+    "from": 98,
+    "to": 125,
+    "rPu": 0.003015138367516287,
+    "xPu": 0.01779676187025925,
+    "bPu": 0.026872561008864995,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mintia - otelarie h 220 (OSM way/104155442:a-220 c2)",
+    "from": 98,
+    "to": 125,
+    "rPu": 0.003015138367516287,
+    "xPu": 0.01779676187025925,
+    "bPu": 0.026872561008864995,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:stuparei - osm virtual_way/205384252:0 220 (OSM way/1083327521-220 c1)",
+    "from": 143,
+    "to": 112,
+    "rPu": 0.00014756837403889642,
+    "xPu": 0.000871017808219178,
+    "bPu": 0.0013152100006627082,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:stuparei - osm virtual_way/205384252:0 220 (OSM way/1083327521-220 c2)",
+    "from": 143,
+    "to": 112,
+    "rPu": 0.00014756837403889642,
+    "xPu": 0.000871017808219178,
+    "bPu": 0.0013152100006627082,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:d. mostistea - osm virtual_way/1213747130:1 220 (OSM way/1213747130-220)",
+    "from": 79,
+    "to": 103,
+    "rPu": 0.0004827480252755755,
+    "xPu": 0.002849405434167327,
+    "bPu": 0.00430251423977375,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:darste - osm virtual_way/29976870:1 400 (OSM way/159860221-400)",
+    "from": 13,
+    "to": 42,
+    "rPu": 0.002395899350543478,
+    "xPu": 0.022591143352941177,
+    "bPu": 0.5773260336733688,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/127670521:0 - timisoara 220 (OSM way/191187235-220 c1)",
+    "from": 104,
+    "to": 152,
+    "rPu": 0.0017137977113867175,
+    "xPu": 0.010115638503339748,
+    "bPu": 0.01527430185369229,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/127670521:0 - timisoara 220 (OSM way/191187235-220 c2)",
+    "from": 104,
+    "to": 152,
+    "rPu": 0.0017137977113867175,
+    "xPu": 0.010115638503339748,
+    "bPu": 0.01527430185369229,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874199-400 c1)",
+    "from": 57,
+    "to": 36,
+    "rPu": 0.00021634241440217388,
+    "xPu": 0.0020399114411764705,
+    "bPu": 0.052130782536334595,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874199-400 c2)",
+    "from": 57,
+    "to": 36,
+    "rPu": 0.00021634241440217388,
+    "xPu": 0.0020399114411764705,
+    "bPu": 0.052130782536334595,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874200-400 c1)",
+    "from": 57,
+    "to": 36,
+    "rPu": 0.00021165682880434778,
+    "xPu": 0.0019957306470588234,
+    "bPu": 0.05100172402725474,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/195874200:1 400 (OSM way/195874200-400 c2)",
+    "from": 57,
+    "to": 36,
+    "rPu": 0.00021165682880434778,
+    "xPu": 0.0019957306470588234,
+    "bPu": 0.05100172402725474,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:galceag - sugag 220 (OSM way/196654359-220)",
+    "from": 86,
+    "to": 145,
+    "rPu": 0.0017562400404999793,
+    "xPu": 0.01036615305105853,
+    "bPu": 0.015652571086952706,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm sibiu sud - brasov 400 (OSM way/196654380-400)",
+    "from": 32,
+    "to": 6,
+    "rPu": 0.002780609913043478,
+    "xPu": 0.026218612705882355,
+    "bPu": 0.670027516776152,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:isaccea - osm virtual_way/24854202:1 400 (OSM way/196672666-400 c1)",
+    "from": 22,
+    "to": 41,
+    "rPu": 0.0010181865869565215,
+    "xPu": 0.00960056988235294,
+    "bPu": 0.2453465433152243,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:isaccea - osm virtual_way/24854202:1 400 (OSM way/196672666-400 c2)",
+    "from": 22,
+    "to": 41,
+    "rPu": 0.0010181865869565215,
+    "xPu": 0.00960056988235294,
+    "bPu": 0.2453465433152243,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lacu sarat - osm virtual_way/196672676:1 400 (OSM way/196672676-400)",
+    "from": 24,
+    "to": 38,
+    "rPu": 0.00020979583831521735,
+    "xPu": 0.001978183205882353,
+    "bPu": 0.05055329189359695,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672677-220)",
+    "from": 95,
+    "to": 105,
+    "rPu": 0.0013734014050708141,
+    "xPu": 0.00810645973055587,
+    "bPu": 0.012240503933432498,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672678-220)",
+    "from": 95,
+    "to": 105,
+    "rPu": 0.0013777191948783506,
+    "xPu": 0.008131945352654817,
+    "bPu": 0.01227898643601896,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lacu sarat - osm virtual_way/196672679:1 220 (OSM way/196672679-220)",
+    "from": 95,
+    "to": 105,
+    "rPu": 0.0013829888109228462,
+    "xPu": 0.008163049099966036,
+    "bPu": 0.012325952134235207,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lacu sarat - barbosi 220 (OSM way/196672689:a-220)",
+    "from": 95,
+    "to": 67,
+    "rPu": 0.003511420861694533,
+    "xPu": 0.02072605409260727,
+    "bPu": 0.031295701832555416,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gutinas - osm virtual_way/196723111:a:1 220 (OSM way/196723111:a-220)",
+    "from": 90,
+    "to": 106,
+    "rPu": 0.01017363519003405,
+    "xPu": 0.06004957012340087,
+    "bPu": 0.09067299705762143,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196723111:a:1 - barbosi 220 (OSM way/196723111:b-220)",
+    "from": 106,
+    "to": 67,
+    "rPu": 0.010288113258743847,
+    "xPu": 0.06072527341786482,
+    "bPu": 0.09169328817219312,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:cluj floresti - osm virtual_way/198283102:1 220 (OSM way/198283102-220 c1)",
+    "from": 77,
+    "to": 107,
+    "rPu": 0.005796399641256527,
+    "xPu": 0.03421307135740972,
+    "bPu": 0.05166068153606478,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:cluj floresti - osm virtual_way/198283102:1 220 (OSM way/198283102-220 c2)",
+    "from": 77,
+    "to": 107,
+    "rPu": 0.005796399641256527,
+    "xPu": 0.03421307135740972,
+    "bPu": 0.05166068153606478,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pelicanu - osm virtual_way/198741169:1 400 (OSM way/198741169-400 c1)",
+    "from": 45,
+    "to": 39,
+    "rPu": 7.900915624999999e-05,
+    "xPu": 0.0007449842058823529,
+    "bPu": 0.019038380218828897,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pelicanu - osm virtual_way/198741169:1 400 (OSM way/198741169-400 c2)",
+    "from": 45,
+    "to": 39,
+    "rPu": 7.900915624999999e-05,
+    "xPu": 0.0007449842058823529,
+    "bPu": 0.019038380218828897,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/102265008:1 - arefu 400 (OSM way/198777642-400)",
+    "from": 34,
+    "to": 2,
+    "rPu": 0.002287573448369565,
+    "xPu": 0.021569729,
+    "bPu": 0.5512233664507377,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:craiova nord - osm virtual_way/198777655:a:1 220 (OSM way/198777655:a-220 c1)",
+    "from": 78,
+    "to": 108,
+    "rPu": 0.0010468794005180707,
+    "xPu": 0.006179173599003735,
+    "bPu": 0.009330361373272499,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:craiova nord - osm virtual_way/198777655:a:1 220 (OSM way/198777655:a-220 c2)",
+    "from": 78,
+    "to": 108,
+    "rPu": 0.0010468794005180707,
+    "xPu": 0.006179173599003735,
+    "bPu": 0.009330361373272499,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/198777655:a:1 - isalnita 220 (OSM way/198777655:b-220 c1)",
+    "from": 108,
+    "to": 94,
+    "rPu": 0.0003652320567523016,
+    "xPu": 0.0021557710290954373,
+    "bPu": 0.0032551477017468745,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/198777655:a:1 - isalnita 220 (OSM way/198777655:b-220 c2)",
+    "from": 108,
+    "to": 94,
+    "rPu": 0.0003652320567523016,
+    "xPu": 0.0021557710290954373,
+    "bPu": 0.0032551477017468745,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/199657976:a:0 - osm virtual_way/199657976:a:1 220 (OSM way/199657976:a-220)",
+    "from": 110,
+    "to": 111,
+    "rPu": 0.005602106455607013,
+    "xPu": 0.0330662617796898,
+    "bPu": 0.0499290344776002,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/199657976:a:1 - targu jiu nord 220 (OSM way/199657976:b-220)",
+    "from": 111,
+    "to": 149,
+    "rPu": 0.0014541095027305246,
+    "xPu": 0.008582836805162457,
+    "bPu": 0.012959818609546874,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/199657976:a:0 - osm virtual_way/198777655:a:1 220 (OSM way/199657981-220)",
+    "from": 110,
+    "to": 108,
+    "rPu": 0.006671355979400517,
+    "xPu": 0.03937747434620174,
+    "bPu": 0.05945877061555062,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/199657985:1 400 (OSM way/199657985-400 c1)",
+    "from": 57,
+    "to": 40,
+    "rPu": 0.0010551399714673912,
+    "xPu": 0.009949006558823529,
+    "bPu": 0.2542509870288669,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tantareni - osm virtual_way/199657985:1 400 (OSM way/199657985-400 c2)",
+    "from": 57,
+    "to": 40,
+    "rPu": 0.0010551399714673912,
+    "xPu": 0.009949006558823529,
+    "bPu": 0.2542509870288669,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:urechesti - osm virtual_way/199657976:a:1 220 (OSM way/199657989-220 c1)",
+    "from": 156,
+    "to": 111,
+    "rPu": 0.0013883040322429923,
+    "xPu": 0.008194422031020037,
+    "bPu": 0.012373324291592915,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:urechesti - osm virtual_way/199657976:a:1 220 (OSM way/199657989-220 c2)",
+    "from": 156,
+    "to": 111,
+    "rPu": 0.0013883040322429923,
+    "xPu": 0.008194422031020037,
+    "bPu": 0.012373324291592915,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:urechesti - osm virtual_way/199657985:1 400 (OSM way/199657996-400)",
+    "from": 60,
+    "to": 40,
+    "rPu": 0.0005011636535326086,
+    "xPu": 0.004725515676470588,
+    "bPu": 0.12076251210202278,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205384252:0 - bradu 220 (OSM way/205384252-220)",
+    "from": 112,
+    "to": 69,
+    "rPu": 0.010017172316105424,
+    "xPu": 0.05912605280199253,
+    "bPu": 0.08927851441278917,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:iernut - osm virtual_way/205542337:1 220 (OSM way/205542337-220)",
+    "from": 93,
+    "to": 113,
+    "rPu": 0.005088417457509597,
+    "xPu": 0.03003422820106419,
+    "bPu": 0.04535075737772479,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205752836:0 - targoviste 220 (OSM way/205752836-220 c1)",
+    "from": 114,
+    "to": 148,
+    "rPu": 0.0022204443722409735,
+    "xPu": 0.013106104902071775,
+    "bPu": 0.019789813795175415,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205752836:0 - targoviste 220 (OSM way/205752836-220 c2)",
+    "from": 114,
+    "to": 148,
+    "rPu": 0.0022204443722409735,
+    "xPu": 0.013106104902071775,
+    "bPu": 0.019789813795175415,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lotru - osm sibiu sud 220 (OSM way/206558255-220 c1)",
+    "from": 96,
+    "to": 101,
+    "rPu": 0.012483521805790728,
+    "xPu": 0.07368360512849541,
+    "bPu": 0.11125996901029311,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lotru - osm sibiu sud 220 (OSM way/206558255-220 c2)",
+    "from": 96,
+    "to": 101,
+    "rPu": 0.012483521805790728,
+    "xPu": 0.07368360512849541,
+    "bPu": 0.11125996901029311,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/24854202:1 - osm virtual_way/196672670:1 400 (OSM way/206906349-400)",
+    "from": 41,
+    "to": 37,
+    "rPu": 0.00019294571331521734,
+    "xPu": 0.0018193019117647058,
+    "bPu": 0.04649301455726235,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/24854202:1 - lacu sarat 400 (OSM way/206906353-400)",
+    "from": 41,
+    "to": 24,
+    "rPu": 0.0005137861875,
+    "xPu": 0.004844534647058823,
+    "bPu": 0.12380409123540685,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906355-400 c1)",
+    "from": 37,
+    "to": 54,
+    "rPu": 5.191682880434782e-05,
+    "xPu": 0.000489528294117647,
+    "bPu": 0.012510098492958172,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906355-400 c2)",
+    "from": 37,
+    "to": 54,
+    "rPu": 5.191682880434782e-05,
+    "xPu": 0.000489528294117647,
+    "bPu": 0.012510098492958172,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906356-400 c1)",
+    "from": 37,
+    "to": 54,
+    "rPu": 5.5162654891304344e-05,
+    "xPu": 0.0005201334705882354,
+    "bPu": 0.013292226465216729,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - smardan 400 (OSM way/206906356-400 c2)",
+    "from": 37,
+    "to": 54,
+    "rPu": 5.5162654891304344e-05,
+    "xPu": 0.0005201334705882354,
+    "bPu": 0.013292226465216729,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/102265008:1 - slatina 400 (OSM way/206908615-400)",
+    "from": 34,
+    "to": 53,
+    "rPu": 6.302651902173912e-05,
+    "xPu": 0.0005942825294117647,
+    "bPu": 0.015187136402372622,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/198283102:1 - campia turzii 220 (OSM way/208263467-220 c1)",
+    "from": 107,
+    "to": 75,
+    "rPu": 0.001915309770830296,
+    "xPu": 0.011305057262538207,
+    "bPu": 0.017070287460774162,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/198283102:1 - campia turzii 220 (OSM way/208263467-220 c2)",
+    "from": 107,
+    "to": 75,
+    "rPu": 0.001915309770830296,
+    "xPu": 0.011305057262538207,
+    "bPu": 0.017070287460774162,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:raureni - osm virtual_way/208294447:1 220 (OSM way/208294447-220 c1)",
+    "from": 131,
+    "to": 115,
+    "rPu": 0.00030926702783976435,
+    "xPu": 0.0018254391599683006,
+    "bPu": 0.002756356777251458,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:raureni - osm virtual_way/208294447:1 220 (OSM way/208294447-220 c2)",
+    "from": 131,
+    "to": 115,
+    "rPu": 0.00030926702783976435,
+    "xPu": 0.0018254391599683006,
+    "bPu": 0.002756356777251458,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205384252:0 - osm virtual_way/208294447:1 220 (OSM way/208294481:a-220)",
+    "from": 112,
+    "to": 115,
+    "rPu": 0.0010214272432914316,
+    "xPu": 0.006028943020491338,
+    "bPu": 0.009103517837583125,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/208294447:1 - arefu 220 (OSM way/208294481:b-220)",
+    "from": 115,
+    "to": 65,
+    "rPu": 0.006244449407451847,
+    "xPu": 0.036857671380052075,
+    "bPu": 0.055653945927114784,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205542337:1 - alba iulia 220 (OSM way/208452702-220)",
+    "from": 113,
+    "to": 63,
+    "rPu": 0.005457636298036489,
+    "xPu": 0.03221353109928676,
+    "bPu": 0.04864143747538624,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205542337:1 - osm virtual_way/198283102:1 220 (OSM way/208452704-220 c1)",
+    "from": 113,
+    "to": 107,
+    "rPu": 0.002558133784776344,
+    "xPu": 0.01509930631721952,
+    "bPu": 0.022799486398651876,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/205542337:1 - osm virtual_way/198283102:1 220 (OSM way/208452704-220 c2)",
+    "from": 113,
+    "to": 107,
+    "rPu": 0.002558133784776344,
+    "xPu": 0.01509930631721952,
+    "bPu": 0.022799486398651876,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:brazi vest - osm brazi vest 220 (OSM way/209067420-220)",
+    "from": 70,
+    "to": 100,
+    "rPu": 0.0004189521291925048,
+    "xPu": 0.00247285211140043,
+    "bPu": 0.0037339303472143743,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:brazi vest - osm brazi vest 400 (OSM way/209067423-400 c1)",
+    "from": 7,
+    "to": 30,
+    "rPu": 6.415024456521738e-05,
+    "xPu": 0.0006048782352941176,
+    "bPu": 0.015457914058707221,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:brazi vest - osm brazi vest 400 (OSM way/209067423-400 c2)",
+    "from": 7,
+    "to": 30,
+    "rPu": 6.415024456521738e-05,
+    "xPu": 0.0006048782352941176,
+    "bPu": 0.015457914058707221,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:resita - osm virtual_way/209262452:1 220 (OSM way/209262452-220)",
+    "from": 132,
+    "to": 116,
+    "rPu": 0.0009725604548631745,
+    "xPu": 0.005740508298426354,
+    "bPu": 0.008667990311717914,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm rovinari - urechesti 400 (OSM way/210352248-400)",
+    "from": 31,
+    "to": 60,
+    "rPu": 0.0003167947078804348,
+    "xPu": 0.0029870848529411765,
+    "bPu": 0.07633619173019011,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/210352249:0 - urechesti 220 (OSM way/210352249-220 c1)",
+    "from": 117,
+    "to": 156,
+    "rPu": 0.002101117432933006,
+    "xPu": 0.012401781297407448,
+    "bPu": 0.01872630689575708,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/210352249:0 - urechesti 220 (OSM way/210352249-220 c2)",
+    "from": 117,
+    "to": 156,
+    "rPu": 0.002101117432933006,
+    "xPu": 0.012401781297407448,
+    "bPu": 0.01872630689575708,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm rovinari - urechesti 400 (OSM way/210352250-400)",
+    "from": 31,
+    "to": 60,
+    "rPu": 0.0003162162350543478,
+    "xPu": 0.0029816303823529413,
+    "bPu": 0.07619680047312546,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm sibiu sud - arefu 400 (OSM way/210831974:a-400)",
+    "from": 32,
+    "to": 2,
+    "rPu": 0.0015923746834239126,
+    "xPu": 0.015014639382352939,
+    "bPu": 0.3837053338215056,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:fundeni - d. mostistea 220 (OSM way/228286597-220 c1)",
+    "from": 85,
+    "to": 79,
+    "rPu": 0.0026735371992404615,
+    "xPu": 0.015780471436657985,
+    "bPu": 0.023828024700319583,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:fundeni - d. mostistea 220 (OSM way/228286597-220 c2)",
+    "from": 85,
+    "to": 79,
+    "rPu": 0.0026735371992404615,
+    "xPu": 0.015780471436657985,
+    "bPu": 0.023828024700319583,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:focsani vest - osm virtual_way/196723111:a:1 220 (OSM way/230377201-220 c1)",
+    "from": 84,
+    "to": 106,
+    "rPu": 0.0025672239460099943,
+    "xPu": 0.015152960715498695,
+    "bPu": 0.02288050288365416,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:focsani vest - osm virtual_way/196723111:a:1 220 (OSM way/230377201-220 c2)",
+    "from": 84,
+    "to": 106,
+    "rPu": 0.0025672239460099943,
+    "xPu": 0.015152960715498695,
+    "bPu": 0.02288050288365416,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pestis - alba iulia 220 (OSM way/230501102-220)",
+    "from": 127,
+    "to": 63,
+    "rPu": 0.010379728372973598,
+    "xPu": 0.061266028823729196,
+    "bPu": 0.09250981214104208,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/199657985:1 - bradu 400 (OSM way/238491874-400)",
+    "from": 40,
+    "to": 5,
+    "rPu": 0.0033045625611413045,
+    "xPu": 0.03115900779411765,
+    "bPu": 0.7962813613253232,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - osm virtual_way/24854202:1 400 (OSM way/24854202-400 c1)",
+    "from": 37,
+    "to": 41,
+    "rPu": 0.00019393500815217387,
+    "xPu": 0.0018286300588235293,
+    "bPu": 0.04673139922238782,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/196672670:1 - osm virtual_way/24854202:1 400 (OSM way/24854202-400 c2)",
+    "from": 37,
+    "to": 41,
+    "rPu": 0.00019393500815217387,
+    "xPu": 0.0018286300588235293,
+    "bPu": 0.04673139922238782,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ghizdaru - d. mostistea 220 (OSM way/27928907-220 c1)",
+    "from": 88,
+    "to": 79,
+    "rPu": 0.009550534722237797,
+    "xPu": 0.05637173869579983,
+    "bPu": 0.08511958514263186,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ghizdaru - d. mostistea 220 (OSM way/27928907-220 c2)",
+    "from": 88,
+    "to": 79,
+    "rPu": 0.009550534722237797,
+    "xPu": 0.05637173869579983,
+    "bPu": 0.08511958514263186,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bucuresti sud - osm virtual_way/28240911:b:1 220 (OSM way/28240911:b-220)",
+    "from": 71,
+    "to": 118,
+    "rPu": 0.0007652197469639032,
+    "xPu": 0.004516686120230953,
+    "bPu": 0.006820056604040624,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:domnesti - osm virtual_way/29976870:1 400 (OSM way/29976870-400)",
+    "from": 16,
+    "to": 42,
+    "rPu": 0.001298557881793478,
+    "xPu": 0.012244215205882352,
+    "bPu": 0.3129059954964562,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:targoviste - brazi vest 220 (OSM way/30621127-220 c1)",
+    "from": 148,
+    "to": 70,
+    "rPu": 0.0072528526667003075,
+    "xPu": 0.042809740733612586,
+    "bPu": 0.06464138690084853,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:targoviste - brazi vest 220 (OSM way/30621127-220 c2)",
+    "from": 148,
+    "to": 70,
+    "rPu": 0.0072528526667003075,
+    "xPu": 0.042809740733612586,
+    "bPu": 0.06464138690084853,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/29976870:1 - brazi vest 400 (OSM way/30621148-400 c1)",
+    "from": 42,
+    "to": 7,
+    "rPu": 0.00012362309782608694,
+    "xPu": 0.0011656529411764706,
+    "bPu": 0.029788744139923946,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/29976870:1 - brazi vest 400 (OSM way/30621148-400 c2)",
+    "from": 42,
+    "to": 7,
+    "rPu": 0.00012362309782608694,
+    "xPu": 0.0011656529411764706,
+    "bPu": 0.029788744139923946,
+    "ratingMva": 1330.2150202128978,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/30621209:0 - brazi vest 220 (OSM way/30621209-220 c1)",
+    "from": 119,
+    "to": 70,
+    "rPu": 0.0008208831926019789,
+    "xPu": 0.0048452379033171065,
+    "bPu": 0.007316159653568333,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/30621209:0 - brazi vest 220 (OSM way/30621209-220 c2)",
+    "from": 119,
+    "to": 70,
+    "rPu": 0.0008208831926019789,
+    "xPu": 0.0048452379033171065,
+    "bPu": 0.007316159653568333,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/30621348:0 - stalpu 220 (OSM way/30621348-220)",
+    "from": 120,
+    "to": 140,
+    "rPu": 0.006920587339691475,
+    "xPu": 0.040848554817162916,
+    "bPu": 0.061680056712035206,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:teleajen - osm virtual_way/30621348:0 220 (OSM way/30621502-220 c1)",
+    "from": 150,
+    "to": 120,
+    "rPu": 0.0010399532831709222,
+    "xPu": 0.006138292403486924,
+    "bPu": 0.009268632030111667,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:teleajen - osm virtual_way/30621348:0 220 (OSM way/30621502-220 c2)",
+    "from": 150,
+    "to": 120,
+    "rPu": 0.0010399532831709222,
+    "xPu": 0.006138292403486924,
+    "bPu": 0.009268632030111667,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:brazi vest - osm virtual_way/30621348:0 220 (OSM way/30621521-220)",
+    "from": 70,
+    "to": 120,
+    "rPu": 0.004157581416452673,
+    "xPu": 0.024539996977244426,
+    "bPu": 0.03705463784568563,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:isalnita - slatina 220 (OSM way/311051729-220 c1)",
+    "from": 94,
+    "to": 139,
+    "rPu": 0.00867519147481974,
+    "xPu": 0.05120505198686743,
+    "bPu": 0.07731804771623625,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:isalnita - slatina 220 (OSM way/311051729-220 c2)",
+    "from": 94,
+    "to": 139,
+    "rPu": 0.00867519147481974,
+    "xPu": 0.05120505198686743,
+    "bPu": 0.07731804771623625,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pestis - osm virtual_way/311562553:1 220 (OSM way/311562553-220)",
+    "from": 127,
+    "to": 121,
+    "rPu": 0.0018676066525000839,
+    "xPu": 0.011023491067587455,
+    "bPu": 0.016645131198808748,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:baru mare - osm virtual_way/311562553:1 220 (OSM way/311569354-220)",
+    "from": 68,
+    "to": 121,
+    "rPu": 0.005611846859803163,
+    "xPu": 0.03312375421714027,
+    "bPu": 0.05001584628326459,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hasdat - osm virtual_way/311562553:1 220 (OSM way/311574029-220 c1)",
+    "from": 91,
+    "to": 121,
+    "rPu": 0.0005848288146981097,
+    "xPu": 0.0034519341673270687,
+    "bPu": 0.00521231402579479,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:hasdat - osm virtual_way/311562553:1 220 (OSM way/311574029-220 c2)",
+    "from": 91,
+    "to": 121,
+    "rPu": 0.0005848288146981097,
+    "xPu": 0.0034519341673270687,
+    "bPu": 0.00521231402579479,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sardanesti - osm virtual_way/199657976:a:0 220 (OSM way/311667728-220 c1)",
+    "from": 137,
+    "to": 110,
+    "rPu": 0.0026745846494424944,
+    "xPu": 0.015786653979395448,
+    "bPu": 0.023837360148987914,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sardanesti - osm virtual_way/199657976:a:0 220 (OSM way/311667728-220 c2)",
+    "from": 137,
+    "to": 110,
+    "rPu": 0.0026745846494424944,
+    "xPu": 0.015786653979395448,
+    "bPu": 0.023837360148987914,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312061475:0 - arefu 220 (OSM way/312061475-220 c1)",
+    "from": 122,
+    "to": 65,
+    "rPu": 0.000428880839042952,
+    "xPu": 0.0025314560172081967,
+    "bPu": 0.003822420435785416,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312061475:0 - arefu 220 (OSM way/312061475-220 c2)",
+    "from": 122,
+    "to": 65,
+    "rPu": 0.000428880839042952,
+    "xPu": 0.0025314560172081967,
+    "bPu": 0.003822420435785416,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312427087:0 - resita 220 (OSM way/312427087-220)",
+    "from": 123,
+    "to": 132,
+    "rPu": 0.00604976342797657,
+    "xPu": 0.035708543348805605,
+    "bPu": 0.05391879807539957,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:calea aradului - osm virtual_way/127670521:0 220 (OSM way/697140144-220 c1)",
+    "from": 73,
+    "to": 104,
+    "rPu": 0.0008084814999009459,
+    "xPu": 0.004772037291973281,
+    "bPu": 0.007205628990262083,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:calea aradului - osm virtual_way/127670521:0 220 (OSM way/697140144-220 c2)",
+    "from": 73,
+    "to": 104,
+    "rPu": 0.0008084814999009459,
+    "xPu": 0.004772037291973281,
+    "bPu": 0.007205628990262083,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/779422574:0 - bucuresti sud 220 (OSM way/779422574-220)",
+    "from": 124,
+    "to": 71,
+    "rPu": 0.0005955033914761279,
+    "xPu": 0.003514940529831314,
+    "bPu": 0.0053074516880664575,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slatina - osm virtual_way/198777686:0 220 (OSM way/957994240-220 c1)",
+    "from": 139,
+    "to": 109,
+    "rPu": 0.0015713371282206547,
+    "xPu": 0.009274769274312237,
+    "bPu": 0.014004615276872915,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "osm:slatina - osm virtual_way/198777686:0 220 (OSM way/957994240-220 c2)",
+    "from": 139,
+    "to": 109,
+    "rPu": 0.0015713371282206547,
+    "xPu": 0.009274769274312237,
+    "bPu": 0.014004615276872915,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:HU:RO:bekescsaba [HU]:hv~RO:sandorfalva [HU]:hv",
+    "from": 4,
+    "to": 51,
+    "rPu": 0.001289621976790605,
+    "xPu": 0.01455764302199701,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

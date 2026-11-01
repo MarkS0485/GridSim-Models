@@ -1,0 +1,34 @@
+Australia WEM SWIS transmission 330/220/132 kV winter peak 2025-07-28 18:50 AWST (UnvalidatedAtScale)
+
+RELEASE STATUS
+--------------
+Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies (AEMO, the TNSPs' annual
+planning reports). It is a solvable rough map of the WEM South West Interconnected System (WA) for one snapshot (2025-07-28 18:50 AWST (UTC+8; the 5-minute interval ending 18:50), the highest WEM operational demand of June-August 2025 (AEMO WA: 4,016.35 MW)): topology
+from Geoscience Australia's drawn power lines, typical per-km line parameters, synthetic transformers,
+register-based generation and population-allocated demand. Do not use it for planning, operation or
+investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- Geoscience Australia: Electricity Infrastructure (Power Lines, Substations, Major Power Stations),
+  (c) Commonwealth of Australia (Geoscience Australia) 2026, released under the Creative Commons
+  Attribution 4.0 International Licence (CC BY 4.0). Queried 2026-10-31.
+- Australian Energy Market Operator (AEMO): WEM data. Used under AEMO's copyright permissions with
+  attribution ([VERIFY] the exact terms before any publication). Source: AEMO.
+- GeoNames (www.geonames.org): Australian populated places, CC BY 4.0.
+- Australian Bureau of Statistics: ASGS Edition 3 (2021) States and Territories (generalised), CC BY 4.0,
+  in geography.json. Source: ABS.
+- OpenStreetMap contributors: circuit counts of lines carried on multi-circuit towers (Overpass API,
+  2026-10-31). ODbL 1.0, (c) OpenStreetMap contributors, openstreetmap.org/copyright. A public release
+  of this case would carry the ODbL share-alike obligation for that derived part.
+- HVDC flows and large industrial loads: rounded public figures ([VERIFY]).

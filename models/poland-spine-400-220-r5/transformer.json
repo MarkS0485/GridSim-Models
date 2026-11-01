@@ -1,0 +1,1752 @@
+[
+  {
+    "name": "jao:19T1100000064579:0",
+    "from": 3,
+    "to": 122,
+    "rPu": 0.00025,
+    "xPu": 0.024859504132231404,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T1100000064587:1",
+    "from": 3,
+    "to": 122,
+    "rPu": 0.00025,
+    "xPu": 0.024859504132231404,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T0000000035667:2",
+    "from": 9,
+    "to": 129,
+    "rPu": 0.0005099173553719008,
+    "xPu": 0.02790082644628099,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "jao:19T110000006503S:3",
+    "from": 13,
+    "to": 131,
+    "rPu": 0.00039999999999999996,
+    "xPu": 0.039059917355371905,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 330.0
+  },
+  {
+    "name": "jao:19T110000006523M:4",
+    "from": 17,
+    "to": 141,
+    "rPu": 0.00024008264462809916,
+    "xPu": 0.023539256198347108,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006524K:5",
+    "from": 17,
+    "to": 141,
+    "rPu": 0.00024008264462809916,
+    "xPu": 0.023960743801652893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006530P:6",
+    "from": 19,
+    "to": 145,
+    "rPu": 0.0003,
+    "xPu": 0.02421900826446281,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006540M:7",
+    "from": 20,
+    "to": 151,
+    "rPu": 0.0003599173553719008,
+    "xPu": 0.02290082644628099,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000003616I:8",
+    "from": 21,
+    "to": 152,
+    "rPu": 0.0004599173553719008,
+    "xPu": 0.028390495867768595,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "jao:19T000000003617G:9",
+    "from": 21,
+    "to": 152,
+    "rPu": 0.0002599173553719008,
+    "xPu": 0.02659917355371901,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T1100000065478:10",
+    "from": 24,
+    "to": 154,
+    "rPu": 0.0002599173553719008,
+    "xPu": 0.0264400826446281,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000004057N:11",
+    "from": 28,
+    "to": 160,
+    "rPu": 0.00022004132231404958,
+    "xPu": 0.0195,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000004058L:12",
+    "from": 28,
+    "to": 160,
+    "rPu": 0.00022004132231404958,
+    "xPu": 0.0195,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T1100000065648:13",
+    "from": 29,
+    "to": 161,
+    "rPu": 0.0005299586776859504,
+    "xPu": 0.027450413223140496,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "jao:19T1100000065842:14",
+    "from": 36,
+    "to": 169,
+    "rPu": 0.0002599173553719008,
+    "xPu": 0.023760330578512397,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T1100000065850:15",
+    "from": 36,
+    "to": 169,
+    "rPu": 0.0002599173553719008,
+    "xPu": 0.023780991735537188,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000006378U:16",
+    "from": 85,
+    "to": 202,
+    "rPu": 0.00025,
+    "xPu": 0.0232995867768595,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006597U:17",
+    "from": 90,
+    "to": 205,
+    "rPu": 0.0003,
+    "xPu": 0.02653925619834711,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006601S:18",
+    "from": 95,
+    "to": 212,
+    "rPu": 0.0005599173553719009,
+    "xPu": 0.030489669421487602,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "jao:19T0000000064187:19",
+    "from": 96,
+    "to": 214,
+    "rPu": 0.00024008264462809916,
+    "xPu": 0.023630165289256197,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006626C:20",
+    "from": 97,
+    "to": 222,
+    "rPu": 0.0003200413223140496,
+    "xPu": 0.025739669421487605,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006627A:21",
+    "from": 97,
+    "to": 222,
+    "rPu": 0.00025,
+    "xPu": 0.02503099173553719,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000003947W:22",
+    "from": 105,
+    "to": 228,
+    "rPu": 0.00025,
+    "xPu": 0.0255599173553719,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T000000003959P:23",
+    "from": 110,
+    "to": 233,
+    "rPu": 0.0006,
+    "xPu": 0.03246074380165289,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.0
+  },
+  {
+    "name": "jao:19T110000006830D:24",
+    "from": 5,
+    "to": 124,
+    "rPu": 0.00027125,
+    "xPu": 0.02664375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "jao:19T110000006831B:25",
+    "from": 5,
+    "to": 124,
+    "rPu": 0.002043388429752066,
+    "xPu": 0.06650413223140496,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 160.0
+  },
+  {
+    "name": "synth:coupling:bydgoszcz zachod~bydgoszcz zachod",
+    "from": 4,
+    "to": 123,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:grudziadz~grudziadz",
+    "from": 14,
+    "to": 135,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:jasiniec~jasiniec",
+    "from": 16,
+    "to": 140,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:kromolice~kromolice",
+    "from": 22,
+    "to": 153,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:morzyczyn~morzyczyn",
+    "from": 30,
+    "to": 164,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:olsztyn matki~olsztyn matki",
+    "from": 34,
+    "to": 167,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:osm virtual_way/146491141:1~osm virtual_way/146491141:1",
+    "from": 74,
+    "to": 180,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:ostrowiec~ostrowiec",
+    "from": 88,
+    "to": 203,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:pelplin~pelplin",
+    "from": 91,
+    "to": 206,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:pila krzewina~pila krzewina",
+    "from": 92,
+    "to": 208,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:plewiska~plewiska",
+    "from": 93,
+    "to": 210,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:skawina~skawina",
+    "from": 101,
+    "to": 225,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:zydowo kierzkowo~zydowo kierzkowo",
+    "from": 113,
+    "to": 240,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "synth:coupling:joachimow~t joa-lag",
+    "from": 17,
+    "to": 230,
+    "rPu": 0.00026340777096555215,
+    "xPu": 0.02408987603305785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "emb:PL:baczyna:hv",
+    "from": 241,
+    "to": 2,
+    "rPu": 0.002055263706361665,
+    "xPu": 0.0411052741272333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 486.55556798122626
+  },
+  {
+    "name": "gsu:PL:byczyna:hv",
+    "from": 242,
+    "to": 3,
+    "rPu": 0.00012550916496945007,
+    "xPu": 0.005020366598778003,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2888.2352941176473
+  },
+  {
+    "name": "emb:PL:czarna:hv",
+    "from": 243,
+    "to": 6,
+    "rPu": 0.002273933286610212,
+    "xPu": 0.045478665732204236,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 439.7666395440808
+  },
+  {
+    "name": "emb:PL:dobrzen:hv",
+    "from": 244,
+    "to": 8,
+    "rPu": 0.002475989890342494,
+    "xPu": 0.049519797806849876,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 403.8788703865321
+  },
+  {
+    "name": "emb:PL:elk bis:hv",
+    "from": 245,
+    "to": 10,
+    "rPu": 0.005023264600514767,
+    "xPu": 0.10046529201029533,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 199.07372585898094
+  },
+  {
+    "name": "emb:PL:gdansk przyjazn:hv",
+    "from": 246,
+    "to": 11,
+    "rPu": 0.010931343742640235,
+    "xPu": 0.21862687485280471,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 91.48006169628246
+  },
+  {
+    "name": "emb:PL:gdansk-blonia:hv",
+    "from": 247,
+    "to": 12,
+    "rPu": 0.003384900458342493,
+    "xPu": 0.06769800916684986,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 295.4296624987539
+  },
+  {
+    "name": "gsu:PL:kozienice:hv",
+    "from": 248,
+    "to": 20,
+    "rPu": 0.00014037585421412298,
+    "xPu": 0.0056150341685649195,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2582.3529411764707
+  },
+  {
+    "name": "gsu:PL:krajnik:hv",
+    "from": 249,
+    "to": 21,
+    "rPu": 9.756966434452183e-05,
+    "xPu": 0.003902786573780873,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3715.294117647059
+  },
+  {
+    "name": "emb:PL:krosno iskrzynia:hv",
+    "from": 250,
+    "to": 23,
+    "rPu": 0.0021990513505336035,
+    "xPu": 0.04398102701067207,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 454.74154105466806
+  },
+  {
+    "name": "gsu:PL:lagisza:hv",
+    "from": 251,
+    "to": 24,
+    "rPu": 0.00026112288135593216,
+    "xPu": 0.010444915254237287,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1388.235294117647
+  },
+  {
+    "name": "emb:PL:lomza systemowa:hv",
+    "from": 252,
+    "to": 26,
+    "rPu": 0.006616366300492227,
+    "xPu": 0.13232732600984454,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 151.14036233538107
+  },
+  {
+    "name": "emb:PL:lublin systemowa:hv",
+    "from": 253,
+    "to": 27,
+    "rPu": 0.019839990685686322,
+    "xPu": 0.39679981371372647,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.403249469338505
+  },
+  {
+    "name": "gsu:PL:milosna:hv",
+    "from": 254,
+    "to": 29,
+    "rPu": 0.0005213620981387478,
+    "xPu": 0.02085448392554991,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 695.2941176470589
+  },
+  {
+    "name": "emb:PL:mosciska:hv",
+    "from": 255,
+    "to": 31,
+    "rPu": 0.013982769428699485,
+    "xPu": 0.2796553885739897,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 71.51659083697044
+  },
+  {
+    "name": "emb:PL:narew:hv",
+    "from": 256,
+    "to": 32,
+    "rPu": 0.003992742211256461,
+    "xPu": 0.07985484422512922,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 250.45443634722258
+  },
+  {
+    "name": "emb:PL:ostrow wlkp:hv",
+    "from": 257,
+    "to": 86,
+    "rPu": 0.004461610971517096,
+    "xPu": 0.08923221943034193,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 224.1342883510004
+  },
+  {
+    "name": "emb:PL:ostrow:hv",
+    "from": 258,
+    "to": 87,
+    "rPu": 0.005416648603728041,
+    "xPu": 0.10833297207456083,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 184.61600025368895
+  },
+  {
+    "name": "emb:PL:pasikurowice:hv",
+    "from": 259,
+    "to": 89,
+    "rPu": 0.004928964608614484,
+    "xPu": 0.09857929217228968,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 202.88236564983103
+  },
+  {
+    "name": "emb:PL:plock:hv",
+    "from": 260,
+    "to": 94,
+    "rPu": 0.004084391357272765,
+    "xPu": 0.08168782714545529,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 244.8345206243217
+  },
+  {
+    "name": "gsu:PL:plock:hv",
+    "from": 261,
+    "to": 94,
+    "rPu": 0.0004890873015873015,
+    "xPu": 0.01956349206349206,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 741.1764705882354
+  },
+  {
+    "name": "gsu:PL:rogowiec:hv",
+    "from": 262,
+    "to": 97,
+    "rPu": 5.706018518518518e-05,
+    "xPu": 0.002282407407407407,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6352.941176470588
+  },
+  {
+    "name": "emb:PL:rokitnica:hv",
+    "from": 263,
+    "to": 98,
+    "rPu": 0.024430576691530738,
+    "xPu": 0.48861153383061473,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 40.932312512568174
+  },
+  {
+    "name": "emb:PL:rzeszow:hv",
+    "from": 264,
+    "to": 99,
+    "rPu": 0.01825554930187515,
+    "xPu": 0.36511098603750297,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 54.777864169624486
+  },
+  {
+    "name": "emb:PL:siedlce ujrzanow:hv",
+    "from": 265,
+    "to": 100,
+    "rPu": 0.0030310751925035767,
+    "xPu": 0.060621503850071534,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 329.91593295777994
+  },
+  {
+    "name": "emb:PL:slupsk:hv",
+    "from": 266,
+    "to": 102,
+    "rPu": 0.0008098248821754321,
+    "xPu": 0.016196497643508643,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1234.8348661672392
+  },
+  {
+    "name": "emb:PL:stanislawow:hv",
+    "from": 267,
+    "to": 103,
+    "rPu": 0.007627750428440462,
+    "xPu": 0.15255500856880924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 131.1002515592865
+  },
+  {
+    "name": "emb:PL:tarnow:hv",
+    "from": 268,
+    "to": 106,
+    "rPu": 0.007970562027632955,
+    "xPu": 0.15941124055265912,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 125.46166713628516
+  },
+  {
+    "name": "emb:PL:trebaczew:hv",
+    "from": 269,
+    "to": 107,
+    "rPu": 0.0040506244656320755,
+    "xPu": 0.08101248931264152,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 246.87551474707146
+  },
+  {
+    "name": "emb:PL:tucznawa:hv",
+    "from": 270,
+    "to": 108,
+    "rPu": 0.39284183209071466,
+    "xPu": 7.856836641814293,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.54555375296458
+  },
+  {
+    "name": "gsu:PL:wielopole:hv",
+    "from": 271,
+    "to": 110,
+    "rPu": 0.0001735915492957746,
+    "xPu": 0.006943661971830984,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2088.2352941176473
+  },
+  {
+    "name": "emb:PL:wroclaw:hv",
+    "from": 272,
+    "to": 111,
+    "rPu": 0.011969672651455227,
+    "xPu": 0.23939345302910453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 83.54447353064613
+  },
+  {
+    "name": "emb:PL:zarnowiec:hv",
+    "from": 273,
+    "to": 112,
+    "rPu": 0.0012364646883639828,
+    "xPu": 0.024729293767279656,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 808.7574270504571
+  },
+  {
+    "name": "gsu:PL:zarnowiec:hv",
+    "from": 274,
+    "to": 112,
+    "rPu": 0.0003950320512820513,
+    "xPu": 0.01580128205128205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 917.6470588235294
+  },
+  {
+    "name": "emb:PL:abramowice:220",
+    "from": 275,
+    "to": 114,
+    "rPu": 0.002671300736704306,
+    "xPu": 0.053426014734086126,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 374.3494643863054
+  },
+  {
+    "name": "emb:PL:adamow:220",
+    "from": 276,
+    "to": 115,
+    "rPu": 0.001609830370670218,
+    "xPu": 0.03219660741340436,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 621.1834602074699
+  },
+  {
+    "name": "emb:PL:aniolow:220",
+    "from": 277,
+    "to": 116,
+    "rPu": 0.027593855007620897,
+    "xPu": 0.551877100152418,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 36.23995268960495
+  },
+  {
+    "name": "emb:PL:bierun:220",
+    "from": 278,
+    "to": 117,
+    "rPu": 0.16039592039675393,
+    "xPu": 3.2079184079350784,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6.234572534802687
+  },
+  {
+    "name": "emb:PL:blachownia:220",
+    "from": 279,
+    "to": 118,
+    "rPu": 0.0037089748096139803,
+    "xPu": 0.0741794961922796,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 269.61628248536886
+  },
+  {
+    "name": "emb:PL:boguchwala:220",
+    "from": 280,
+    "to": 119,
+    "rPu": 0.003199517294815176,
+    "xPu": 0.06399034589630352,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 312.54714629000506
+  },
+  {
+    "name": "emb:PL:boguszow:220",
+    "from": 281,
+    "to": 120,
+    "rPu": 0.03177176016571475,
+    "xPu": 0.635435203314295,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.47449164869093
+  },
+  {
+    "name": "emb:PL:bujakow:220",
+    "from": 282,
+    "to": 121,
+    "rPu": 0.1086230723956367,
+    "xPu": 2.172461447912734,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9.20614725716568
+  },
+  {
+    "name": "emb:PL:byczyna:220",
+    "from": 283,
+    "to": 122,
+    "rPu": 0.0057989147242409386,
+    "xPu": 0.11597829448481878,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 172.44606060850413
+  },
+  {
+    "name": "emb:PL:bydgoszcz zachod:220",
+    "from": 284,
+    "to": 123,
+    "rPu": 0.0025703966010071325,
+    "xPu": 0.05140793202014265,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 389.0450211489465
+  },
+  {
+    "name": "emb:PL:chelm:220",
+    "from": 285,
+    "to": 124,
+    "rPu": 0.013995650345083955,
+    "xPu": 0.2799130069016791,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 71.4507704424936
+  },
+  {
+    "name": "emb:PL:chmielow:220",
+    "from": 286,
+    "to": 125,
+    "rPu": 0.036662936057477155,
+    "xPu": 0.733258721149543,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 27.27550238835978
+  },
+  {
+    "name": "emb:PL:cieplice:220",
+    "from": 287,
+    "to": 126,
+    "rPu": 0.015720336559022028,
+    "xPu": 0.31440673118044055,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 63.611869647033224
+  },
+  {
+    "name": "emb:PL:czerwonak:220",
+    "from": 288,
+    "to": 127,
+    "rPu": 0.0056810885383967264,
+    "xPu": 0.11362177076793453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 176.02260433740966
+  },
+  {
+    "name": "gsu:PL:czerwonak:220",
+    "from": 289,
+    "to": 127,
+    "rPu": 0.0009844249201277954,
+    "xPu": 0.039376996805111815,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 368.2352941176471
+  },
+  {
+    "name": "emb:PL:dunowo:220",
+    "from": 290,
+    "to": 129,
+    "rPu": 0.0008602110708955489,
+    "xPu": 0.01720422141791098,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1162.5053824974834
+  },
+  {
+    "name": "emb:PL:elk:220",
+    "from": 291,
+    "to": 130,
+    "rPu": 0.001571980612799916,
+    "xPu": 0.03143961225599832,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 636.1401609265785
+  },
+  {
+    "name": "emb:PL:gdansk:220",
+    "from": 292,
+    "to": 131,
+    "rPu": 0.03186221077402847,
+    "xPu": 0.6372442154805693,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.385141699430356
+  },
+  {
+    "name": "emb:PL:glinki:220",
+    "from": 293,
+    "to": 132,
+    "rPu": 0.00355624673904919,
+    "xPu": 0.07112493478098379,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 281.195336931926
+  },
+  {
+    "name": "emb:PL:gorzow:220",
+    "from": 294,
+    "to": 133,
+    "rPu": 0.0016068149828996682,
+    "xPu": 0.03213629965799336,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 622.3491880785142
+  },
+  {
+    "name": "emb:PL:groszowice:220",
+    "from": 295,
+    "to": 134,
+    "rPu": 0.008540360880528605,
+    "xPu": 0.1708072176105721,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 117.09107073916823
+  },
+  {
+    "name": "emb:PL:grudziadz:220",
+    "from": 296,
+    "to": 135,
+    "rPu": 0.0016859207251179592,
+    "xPu": 0.033718414502359184,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 593.1476997117007
+  },
+  {
+    "name": "emb:PL:halemba:220",
+    "from": 297,
+    "to": 136,
+    "rPu": 0.08590141970855142,
+    "xPu": 1.7180283941710284,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.641251138721875
+  },
+  {
+    "name": "emb:PL:huta czestochowa:220",
+    "from": 298,
+    "to": 137,
+    "rPu": 0.3881073755714186,
+    "xPu": 7.762147511428372,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.5766065345387448
+  },
+  {
+    "name": "emb:PL:jamki:220",
+    "from": 299,
+    "to": 138,
+    "rPu": 0.2070272860293473,
+    "xPu": 4.140545720586946,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.830281163316048
+  },
+  {
+    "name": "emb:PL:janow:220",
+    "from": 300,
+    "to": 139,
+    "rPu": 0.005599413684636538,
+    "xPu": 0.11198827369273076,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 178.59012680984128
+  },
+  {
+    "name": "emb:PL:jasiniec:220",
+    "from": 301,
+    "to": 140,
+    "rPu": 0.0034795732980032142,
+    "xPu": 0.06959146596006428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 287.391560503657
+  },
+  {
+    "name": "emb:PL:joachimow:220",
+    "from": 302,
+    "to": 141,
+    "rPu": 0.09069874570928742,
+    "xPu": 1.8139749141857484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.025510795984486
+  },
+  {
+    "name": "emb:PL:katowice:220",
+    "from": 303,
+    "to": 142,
+    "rPu": 0.03864795940660807,
+    "xPu": 0.7729591881321614,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 25.874587309492437
+  },
+  {
+    "name": "emb:PL:kedzierzyn:220",
+    "from": 304,
+    "to": 143,
+    "rPu": 0.0051907158297344064,
+    "xPu": 0.10381431659468812,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 192.65165591836436
+  },
+  {
+    "name": "emb:PL:kielce piaski:220",
+    "from": 305,
+    "to": 144,
+    "rPu": 0.02261721912315625,
+    "xPu": 0.452344382463125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 44.214100529103824
+  },
+  {
+    "name": "emb:PL:kielce:220",
+    "from": 306,
+    "to": 145,
+    "rPu": 0.014363454236619406,
+    "xPu": 0.2872690847323881,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 69.62113594169537
+  },
+  {
+    "name": "emb:PL:klikowa:220",
+    "from": 307,
+    "to": 146,
+    "rPu": 0.016229985231999516,
+    "xPu": 0.3245997046399903,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 61.61435058045343
+  },
+  {
+    "name": "emb:PL:koksochemia:220",
+    "from": 308,
+    "to": 147,
+    "rPu": 0.031952092900675216,
+    "xPu": 0.6390418580135043,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 31.296854422292565
+  },
+  {
+    "name": "emb:PL:komorowice:220",
+    "from": 309,
+    "to": 148,
+    "rPu": 0.06734579210170745,
+    "xPu": 1.346915842034149,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 14.848737668565436
+  },
+  {
+    "name": "emb:PL:konin:220",
+    "from": 310,
+    "to": 149,
+    "rPu": 0.003903268574717155,
+    "xPu": 0.0780653714943431,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 256.1955399321871
+  },
+  {
+    "name": "emb:PL:kopanina:220",
+    "from": 311,
+    "to": 150,
+    "rPu": 0.015247240870173725,
+    "xPu": 0.3049448174034745,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 65.58563667451304
+  },
+  {
+    "name": "gsu:PL:kopanina:220",
+    "from": 312,
+    "to": 150,
+    "rPu": 0.00026677489177489173,
+    "xPu": 0.01067099567099567,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1358.8235294117646
+  },
+  {
+    "name": "emb:PL:kozienice:220",
+    "from": 313,
+    "to": 151,
+    "rPu": 0.022722975032283592,
+    "xPu": 0.4544595006456718,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 44.00832191116055
+  },
+  {
+    "name": "gsu:PL:kozienice:220",
+    "from": 314,
+    "to": 151,
+    "rPu": 0.00017127570872707058,
+    "xPu": 0.006851028349082823,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2116.470588235294
+  },
+  {
+    "name": "emb:PL:krajnik:220",
+    "from": 315,
+    "to": 152,
+    "rPu": 0.0019510378300567357,
+    "xPu": 0.039020756601134715,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 512.5477243928788
+  },
+  {
+    "name": "emb:PL:kromolice:220",
+    "from": 316,
+    "to": 153,
+    "rPu": 0.0023108144561835137,
+    "xPu": 0.046216289123670276,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 432.7478553390981
+  },
+  {
+    "name": "emb:PL:lagisza:220",
+    "from": 317,
+    "to": 154,
+    "rPu": 0.1212208859804178,
+    "xPu": 2.424417719608356,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 8.249403491090979
+  },
+  {
+    "name": "emb:PL:lesniow:220",
+    "from": 318,
+    "to": 155,
+    "rPu": 0.0011276090546841345,
+    "xPu": 0.02255218109368269,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 886.8321834114038
+  },
+  {
+    "name": "emb:PL:leszno:220",
+    "from": 319,
+    "to": 156,
+    "rPu": 0.002099238887747842,
+    "xPu": 0.04198477775495684,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 476.3631265771972
+  },
+  {
+    "name": "emb:PL:losnice:220",
+    "from": 320,
+    "to": 158,
+    "rPu": 0.028839550909512186,
+    "xPu": 0.5767910181902437,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.67460374600247
+  },
+  {
+    "name": "emb:PL:lubocza:220",
+    "from": 321,
+    "to": 159,
+    "rPu": 0.029154870848624725,
+    "xPu": 0.5830974169724945,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.29958600029852
+  },
+  {
+    "name": "emb:PL:mikulowa:220",
+    "from": 322,
+    "to": 160,
+    "rPu": 0.004187908482694396,
+    "xPu": 0.08375816965388792,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 238.78267735130277
+  },
+  {
+    "name": "emb:PL:milosna:220",
+    "from": 323,
+    "to": 161,
+    "rPu": 0.08184642650287513,
+    "xPu": 1.6369285300575025,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 12.218004410551409
+  },
+  {
+    "name": "emb:PL:mokre:220",
+    "from": 324,
+    "to": 162,
+    "rPu": 0.012089650050333443,
+    "xPu": 0.24179300100666884,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.71538016705614
+  },
+  {
+    "name": "emb:PL:mory:220",
+    "from": 325,
+    "to": 163,
+    "rPu": 0.049998016160856605,
+    "xPu": 0.9999603232171321,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 20.00079356714355
+  },
+  {
+    "name": "emb:PL:morzyczyn:220",
+    "from": 326,
+    "to": 164,
+    "rPu": 0.0019986251179980865,
+    "xPu": 0.03997250235996173,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.34395695058885
+  },
+  {
+    "name": "emb:PL:moszczenica:220",
+    "from": 327,
+    "to": 165,
+    "rPu": 0.07685304262159517,
+    "xPu": 1.5370608524319036,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 13.011846582623221
+  },
+  {
+    "name": "emb:PL:nysa:220",
+    "from": 328,
+    "to": 166,
+    "rPu": 0.004420290313610054,
+    "xPu": 0.08840580627220108,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 226.22948472886597
+  },
+  {
+    "name": "emb:PL:olsztyn matki:220",
+    "from": 329,
+    "to": 167,
+    "rPu": 0.0035655559590703017,
+    "xPu": 0.07131111918140604,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 280.4611711270812
+  },
+  {
+    "name": "emb:PL:olsztyn:220",
+    "from": 330,
+    "to": 168,
+    "rPu": 0.0016561005042335674,
+    "xPu": 0.03312201008467135,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 603.8280873918299
+  },
+  {
+    "name": "emb:PL:oltarzew:220",
+    "from": 331,
+    "to": 169,
+    "rPu": 0.048467131689149845,
+    "xPu": 0.9693426337829969,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 20.632539313727662
+  },
+  {
+    "name": "emb:PL:ostroleka:220",
+    "from": 332,
+    "to": 202,
+    "rPu": 0.006381568658692075,
+    "xPu": 0.1276313731738415,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 156.70128356888253
+  },
+  {
+    "name": "emb:PL:ostrowiec:220",
+    "from": 333,
+    "to": 203,
+    "rPu": 0.02013303485574285,
+    "xPu": 0.40266069711485697,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.66961052644058
+  },
+  {
+    "name": "emb:PL:pabianice:220",
+    "from": 334,
+    "to": 204,
+    "rPu": 0.013423171934647801,
+    "xPu": 0.268463438692956,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 74.49804002128637
+  },
+  {
+    "name": "gsu:PL:pabianice:220",
+    "from": 335,
+    "to": 204,
+    "rPu": 0.0006500527426160337,
+    "xPu": 0.026002109704641348,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 557.6470588235294
+  },
+  {
+    "name": "emb:PL:patnow:220",
+    "from": 336,
+    "to": 205,
+    "rPu": 0.002947815391050057,
+    "xPu": 0.058956307821001135,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 339.23426922734967
+  },
+  {
+    "name": "emb:PL:pelplin:220",
+    "from": 337,
+    "to": 206,
+    "rPu": 0.0019374138511097673,
+    "xPu": 0.03874827702219535,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 516.1519824105683
+  },
+  {
+    "name": "emb:PL:piaseczno:220",
+    "from": 338,
+    "to": 207,
+    "rPu": 0.02878468357755588,
+    "xPu": 0.5756936715511176,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.74069802802086
+  },
+  {
+    "name": "emb:PL:pila krzewina:220",
+    "from": 339,
+    "to": 208,
+    "rPu": 0.0008447263007820664,
+    "xPu": 0.01689452601564133,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1183.8153956780768
+  },
+  {
+    "name": "emb:PL:piotrkow:220",
+    "from": 340,
+    "to": 209,
+    "rPu": 0.007355717999789263,
+    "xPu": 0.14711435999578526,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 135.94865926462236
+  },
+  {
+    "name": "emb:PL:plewiska:220",
+    "from": 341,
+    "to": 210,
+    "rPu": 0.0024143932147652355,
+    "xPu": 0.04828786429530471,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 414.18274118917094
+  },
+  {
+    "name": "emb:PL:podolszyce:220",
+    "from": 342,
+    "to": 211,
+    "rPu": 0.011249758579777858,
+    "xPu": 0.22499517159555715,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 88.89079644762887
+  },
+  {
+    "name": "emb:PL:polaniec:220",
+    "from": 343,
+    "to": 212,
+    "rPu": 0.002632976223340953,
+    "xPu": 0.05265952446681906,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 379.798340423717
+  },
+  {
+    "name": "emb:PL:police:220",
+    "from": 344,
+    "to": 213,
+    "rPu": 0.336362953626293,
+    "xPu": 6.72725907252586,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.9729790074058604
+  },
+  {
+    "name": "emb:PL:polkowice:220",
+    "from": 345,
+    "to": 214,
+    "rPu": 0.010193448254446551,
+    "xPu": 0.20386896508893101,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 98.10222949469366
+  },
+  {
+    "name": "emb:PL:porabka-zar:220",
+    "from": 346,
+    "to": 215,
+    "rPu": 0.027323077743065576,
+    "xPu": 0.5464615548613115,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 36.59909800072921
+  },
+  {
+    "name": "gsu:PL:porabka-zar:220",
+    "from": 347,
+    "to": 215,
+    "rPu": 0.0005581974637681159,
+    "xPu": 0.022327898550724635,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 649.4117647058823
+  },
+  {
+    "name": "emb:PL:poreba:220",
+    "from": 348,
+    "to": 216,
+    "rPu": 0.055734610230408946,
+    "xPu": 1.1146922046081789,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 17.94217266194135
+  },
+  {
+    "name": "emb:PL:poznan pld:220",
+    "from": 349,
+    "to": 217,
+    "rPu": 0.020591003366812733,
+    "xPu": 0.41182006733625465,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 48.56489905740758
+  },
+  {
+    "name": "emb:PL:praga:220",
+    "from": 350,
+    "to": 218,
+    "rPu": 0.008725065569960814,
+    "xPu": 0.17450131139921626,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 114.61231918334929
+  },
+  {
+    "name": "gsu:PL:praga:220",
+    "from": 351,
+    "to": 218,
+    "rPu": 0.0006288265306122448,
+    "xPu": 0.025153061224489792,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 576.4705882352941
+  },
+  {
+    "name": "emb:PL:pulawy:220",
+    "from": 352,
+    "to": 219,
+    "rPu": 0.009959150033169294,
+    "xPu": 0.19918300066338587,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 100.41017523277242
+  },
+  {
+    "name": "emb:PL:radkowice:220",
+    "from": 353,
+    "to": 220,
+    "rPu": 0.015568072818493955,
+    "xPu": 0.3113614563698791,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 64.23402637300481
+  },
+  {
+    "name": "emb:PL:reclaw:220",
+    "from": 354,
+    "to": 221,
+    "rPu": 0.0014814063395296952,
+    "xPu": 0.029628126790593904,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 675.0342382883766
+  },
+  {
+    "name": "emb:PL:rogowiec:220",
+    "from": 355,
+    "to": 222,
+    "rPu": 0.008375363953613825,
+    "xPu": 0.1675072790722765,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 119.39779638692804
+  },
+  {
+    "name": "emb:PL:rozki:220",
+    "from": 356,
+    "to": 223,
+    "rPu": 0.006626545776179255,
+    "xPu": 0.1325309155235851,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 150.90818561832705
+  },
+  {
+    "name": "emb:PL:siersza:220",
+    "from": 357,
+    "to": 224,
+    "rPu": 0.03114497434405828,
+    "xPu": 0.6228994868811656,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.10790893429573
+  },
+  {
+    "name": "gsu:PL:siersza:220",
+    "from": 358,
+    "to": 224,
+    "rPu": 0.00038660602258469253,
+    "xPu": 0.015464240903387702,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 937.6470588235294
+  },
+  {
+    "name": "emb:PL:skawina:220",
+    "from": 359,
+    "to": 225,
+    "rPu": 0.007131626784484753,
+    "xPu": 0.14263253568969506,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 140.22046164495808
+  },
+  {
+    "name": "emb:PL:sochaczew:220",
+    "from": 360,
+    "to": 226,
+    "rPu": 0.008882233786384173,
+    "xPu": 0.17764467572768344,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 112.5842917502271
+  },
+  {
+    "name": "emb:PL:stalowa wola:220",
+    "from": 361,
+    "to": 227,
+    "rPu": 0.0022381048683894826,
+    "xPu": 0.044762097367789654,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 446.806588075379
+  },
+  {
+    "name": "gsu:PL:stalowa wola:220",
+    "from": 362,
+    "to": 227,
+    "rPu": 0.0006847222222222222,
+    "xPu": 0.027388888888888886,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 529.4117647058823
+  },
+  {
+    "name": "emb:PL:swiebodzice:220",
+    "from": 363,
+    "to": 228,
+    "rPu": 0.010796252478643038,
+    "xPu": 0.21592504957286077,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 92.62473270036828
+  },
+  {
+    "name": "emb:PL:torun elana:220",
+    "from": 364,
+    "to": 231,
+    "rPu": 0.00704180296967095,
+    "xPu": 0.140836059393419,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 142.0090855008299
+  },
+  {
+    "name": "emb:PL:wanda:220",
+    "from": 365,
+    "to": 232,
+    "rPu": 0.027317464888386676,
+    "xPu": 0.5463492977677336,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 36.606617930535876
+  },
+  {
+    "name": "gsu:PL:wanda:220",
+    "from": 366,
+    "to": 232,
+    "rPu": 0.0006698369565217389,
+    "xPu": 0.026793478260869558,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 541.1764705882354
+  },
+  {
+    "name": "emb:PL:wielopole:220",
+    "from": 367,
+    "to": 233,
+    "rPu": 0.0069847388231119465,
+    "xPu": 0.13969477646223893,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 143.16927594931386
+  },
+  {
+    "name": "emb:PL:wloclawek azoty:220",
+    "from": 368,
+    "to": 234,
+    "rPu": 0.0018415214091385048,
+    "xPu": 0.036830428182770096,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 543.0292556130624
+  },
+  {
+    "name": "gsu:PL:wloclawek azoty:220",
+    "from": 369,
+    "to": 234,
+    "rPu": 0.0006626344086021503,
+    "xPu": 0.026505376344086014,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 547.0588235294118
+  },
+  {
+    "name": "emb:PL:wrzosowa:220",
+    "from": 370,
+    "to": 235,
+    "rPu": 0.031028685301288737,
+    "xPu": 0.6205737060257748,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.22824268221465
+  },
+  {
+    "name": "emb:PL:zabkowice:220",
+    "from": 371,
+    "to": 236,
+    "rPu": 0.011474329132746744,
+    "xPu": 0.22948658265493488,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 87.1510646444755
+  },
+  {
+    "name": "emb:PL:zamosc:220",
+    "from": 372,
+    "to": 237,
+    "rPu": 0.0037391767629381366,
+    "xPu": 0.07478353525876273,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 267.43854687795744
+  },
+  {
+    "name": "emb:PL:zgierz:220",
+    "from": 373,
+    "to": 238,
+    "rPu": 0.003667740834717075,
+    "xPu": 0.0733548166943415,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 272.64739932944
+  },
+  {
+    "name": "emb:PL:zukowice:220",
+    "from": 374,
+    "to": 239,
+    "rPu": 0.003224579890974301,
+    "xPu": 0.06449159781948602,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 310.11791731351764
+  },
+  {
+    "name": "emb:PL:zydowo kierzkowo:220",
+    "from": 375,
+    "to": 240,
+    "rPu": 0.001306940877531678,
+    "xPu": 0.02613881755063356,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 765.1455526348105
+  }
+]

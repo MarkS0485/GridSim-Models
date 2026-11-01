@@ -1,0 +1,202 @@
+[
+  {
+    "name": "jao:28T-0000001324-8:0",
+    "from": 1,
+    "to": 15,
+    "rPu": 0.00035006840201645396,
+    "xPu": 0.029523434718239913,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "jao:28T-0000002374-J:1",
+    "from": 10,
+    "to": 23,
+    "rPu": 0.00036637244429452224,
+    "xPu": 0.029622758194186766,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "synth:coupling:cirkovce~cirkovce",
+    "from": 2,
+    "to": 16,
+    "rPu": 0.00035804859065627175,
+    "xPu": 0.029573096456213338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "synth:coupling:divaca~divaca",
+    "from": 3,
+    "to": 17,
+    "rPu": 0.00035804859065627175,
+    "xPu": 0.029573096456213338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "synth:coupling:sostanj~sostanj",
+    "from": 12,
+    "to": 24,
+    "rPu": 0.00035804859065627175,
+    "xPu": 0.029573096456213338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 400.1037365484106
+  },
+  {
+    "name": "equiv:AT:SI:kainachtal [AT]:hv~SI:obersielach [AT]:220",
+    "from": 5,
+    "to": 19,
+    "rPu": 0.0012268274114053332,
+    "xPu": 0.036723096456213335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:HR:SI:melina [HR]:hv~SI:pehlin [HR]:220",
+    "from": 8,
+    "to": 22,
+    "rPu": 0.002020216572494019,
+    "xPu": 0.03502512030450832,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:HR:SI:melina [HR]:hv~SI:zerjavinec [HR]:220",
+    "from": 8,
+    "to": 25,
+    "rPu": 0.055795100436951156,
+    "xPu": 0.4352920366681132,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:HR:SI:zerjavinec [HR]:hv~SI:zerjavinec [HR]:220",
+    "from": 14,
+    "to": 25,
+    "rPu": 0.0007393274114053334,
+    "xPu": 0.029573096456213338,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:SI:krsko:hv",
+    "from": 26,
+    "to": 6,
+    "rPu": 0.0031826564252031334,
+    "xPu": 0.06365312850406267,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 314.20293817488476
+  },
+  {
+    "name": "gsu:SI:krsko:hv",
+    "from": 27,
+    "to": 6,
+    "rPu": 0.0004238308115543328,
+    "xPu": 0.016953232462173312,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 855.2941176470589
+  },
+  {
+    "name": "emb:SI:maribor:hv",
+    "from": 28,
+    "to": 7,
+    "rPu": 0.003531459084723333,
+    "xPu": 0.07062918169446666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 283.1690743143194
+  },
+  {
+    "name": "emb:SI:okroglo:hv",
+    "from": 29,
+    "to": 9,
+    "rPu": 0.005241703925447483,
+    "xPu": 0.10483407850894966,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 190.77765822392004
+  },
+  {
+    "name": "gsu:SI:sostanj:hv",
+    "from": 30,
+    "to": 12,
+    "rPu": 0.0002273985239852398,
+    "xPu": 0.009095940959409592,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1594.1176470588236
+  },
+  {
+    "name": "emb:SI:bericevo:220",
+    "from": 31,
+    "to": 15,
+    "rPu": 0.004173954615398088,
+    "xPu": 0.08347909230796176,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 239.58094712168443
+  },
+  {
+    "name": "emb:SI:cirkovce:220",
+    "from": 32,
+    "to": 16,
+    "rPu": 0.0032187374524896006,
+    "xPu": 0.06437474904979201,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 310.6808227637606
+  },
+  {
+    "name": "emb:SI:divaca:220",
+    "from": 33,
+    "to": 17,
+    "rPu": 0.0029136193734538214,
+    "xPu": 0.058272387469076425,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 343.2157299306375
+  },
+  {
+    "name": "emb:SI:klece:220",
+    "from": 34,
+    "to": 18,
+    "rPu": 0.012980702233664931,
+    "xPu": 0.2596140446732986,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 77.03743464714412
+  },
+  {
+    "name": "emb:SI:podlog:220",
+    "from": 35,
+    "to": 23,
+    "rPu": 0.0307414005526581,
+    "xPu": 0.614828011053162,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.52942227817703
+  },
+  {
+    "name": "emb:SI:sostanj:220",
+    "from": 36,
+    "to": 24,
+    "rPu": 0.0033585585557033637,
+    "xPu": 0.06717117111406727,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 297.74678136900184
+  }
+]

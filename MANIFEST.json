@@ -1,6 +1,6 @@
 {
  "format": "gridsim-models-manifest/1",
- "generated_utc": "2026-11-01T08:45:20Z",
+ "generated_utc": "2026-11-01T09:04:53Z",
  "solver_check": "gridsim 2.1.000+f85f6e7390bb45962af1753dea399ffcdc6c333f",
  "models": [
   {
@@ -224,9 +224,736 @@
    "vmin_pu": 0.8677674935189529,
    "vmax_pu": 1.055017559758071,
    "rounds_resolved": 3
+  },
+  {
+   "id": "switzerland",
+   "case": "switzerland-spine-380-220-hv-r6",
+   "category": "check",
+   "title": "Switzerland",
+   "name": "Swiss 380/220/150/132/110 kV transmission grid winter peak 2026-01-06 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 737,
+   "kv_levels": [
+    380.0,
+    220.0,
+    150.0,
+    132.0,
+    110.0,
+    20.0
+   ],
+   "losses_mw": 340.44061762817387,
+   "iterations": 1,
+   "vmin_pu": 0.951184398861363,
+   "vmax_pu": 1.0267400948134284,
+   "rounds_resolved": 6
+  },
+  {
+   "id": "sweden",
+   "case": "sweden-spine-400-220-r5",
+   "category": "check",
+   "title": "Sweden",
+   "name": "Swedish 400/220 kV transmission grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 320,
+   "kv_levels": [
+    400.0,
+    220.0,
+    20.0
+   ],
+   "losses_mw": 1235.3188185801566,
+   "iterations": 5,
+   "vmin_pu": 0.9521128892391545,
+   "vmax_pu": 1.0325323288202803,
+   "rounds_resolved": 5
+  },
+  {
+   "id": "denmark-dk1",
+   "case": "denmark-dk1-spine-400-220-150-132-r4",
+   "category": "check",
+   "title": "Denmark DK1 (Jutland and Funen)",
+   "name": "Danish DK1 (Jutland and Funen, Continental Europe synchronous area) 400/220/150 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 179,
+   "kv_levels": [
+    400.0,
+    220.0,
+    150.0,
+    20.0
+   ],
+   "losses_mw": 153.04219585573946,
+   "iterations": 4,
+   "vmin_pu": 1.0126084155813904,
+   "vmax_pu": 1.033043335296995,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "denmark-dk2",
+   "case": "denmark-dk2-spine-400-220-132-r4",
+   "category": "check",
+   "title": "Denmark DK2 (Zealand)",
+   "name": "Danish DK2 (Zealand, Nordic synchronous area) 400/220/150/132 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 153,
+   "kv_levels": [
+    400.0,
+    220.0,
+    150.0,
+    132.0,
+    20.0
+   ],
+   "losses_mw": 31.734571253423326,
+   "iterations": 6,
+   "vmin_pu": 1.0106033050177488,
+   "vmax_pu": 1.0325612198510083,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "australia-nem",
+   "case": "australia-nem-spine-500-110-r9",
+   "category": "check",
+   "title": "Australia, National Electricity Market (eastern states)",
+   "name": "Australia NEM mainland transmission 500/330/275/220/132/110 kV winter peak 2025-07-01 18:00 AEST (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 1038,
+   "kv_levels": [
+    500.0,
+    330.0,
+    275.0,
+    220.0,
+    132.0,
+    110.0,
+    20.0
+   ],
+   "losses_mw": 1208.8658290344465,
+   "iterations": 9,
+   "vmin_pu": 0.9845983634414288,
+   "vmax_pu": 1.043944488454642,
+   "rounds_resolved": 9
+  },
+  {
+   "id": "australia-wem",
+   "case": "australia-wem-spine-330-132-r2",
+   "category": "check",
+   "title": "Australia, Wholesale Electricity Market (south-west WA)",
+   "name": "Australia WEM SWIS transmission 330/220/132 kV winter peak 2025-07-28 18:50 AWST (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 188,
+   "kv_levels": [
+    330.0,
+    220.0,
+    132.0,
+    20.0
+   ],
+   "losses_mw": 109.60563982553117,
+   "iterations": 4,
+   "vmin_pu": 1.0054408407087172,
+   "vmax_pu": 1.0464934064401774,
+   "rounds_resolved": 2
+  },
+  {
+   "id": "japan-east",
+   "case": "japan-east-spine-500-66-r5",
+   "category": "check",
+   "title": "Japan east (50 Hz)",
+   "name": "Japan east 50 Hz transmission 500/275/220/154/66 kV winter evening 2025-01-15 18:00 JST (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 4551,
+   "kv_levels": [
+    500.0,
+    275.0,
+    220.0,
+    154.0,
+    66.0,
+    20.0
+   ],
+   "losses_mw": 2701.646753516421,
+   "iterations": 1,
+   "vmin_pu": 0.9756703377243321,
+   "vmax_pu": 1.03653016865674,
+   "rounds_resolved": 5
+  },
+  {
+   "id": "japan-west",
+   "case": "japan-west-spine-500-66-r4",
+   "category": "check",
+   "title": "Japan west (60 Hz)",
+   "name": "Japan west 60 Hz transmission 500/275/220/187/154/110/77/66 kV winter evening 2025-01-15 18:00 JST (UnvalidatedAtScale)",
+   "frequency_hz": 60.0,
+   "buses": 3611,
+   "kv_levels": [
+    500.0,
+    275.0,
+    220.0,
+    187.0,
+    154.0,
+    110.0,
+    77.0,
+    66.0,
+    20.0
+   ],
+   "losses_mw": 2227.3081879655983,
+   "iterations": 1,
+   "vmin_pu": 1.0002249832167573,
+   "vmax_pu": 1.0507424143099575,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "canada-quebec",
+   "case": "canada-quebec-spine-735-315-120-r3",
+   "category": "check",
+   "title": "Canada, Quebec interconnection",
+   "name": "Canada Quebec 735-315-230-161-115 kV 2023-02-03 (UnvalidatedAtScale)",
+   "frequency_hz": 60.0,
+   "buses": 843,
+   "kv_levels": [
+    735.0,
+    315.0,
+    230.0,
+    161.0,
+    115.0,
+    13.8
+   ],
+   "losses_mw": 2299.3979863666254,
+   "iterations": 4,
+   "vmin_pu": 0.9501663718527771,
+   "vmax_pu": 1.0502815337327516,
+   "rounds_resolved": 3
+  },
+  {
+   "id": "canada-ontario",
+   "case": "canada-ontario-spine-500-230-115-r2",
+   "category": "check",
+   "title": "Canada, Ontario",
+   "name": "Canada Ontario 500-345-230-115 kV 2025-06-24 (UnvalidatedAtScale)",
+   "frequency_hz": 60.0,
+   "buses": 1071,
+   "kv_levels": [
+    500.0,
+    345.0,
+    230.0,
+    115.0,
+    13.8
+   ],
+   "losses_mw": 581.0017395999349,
+   "iterations": 4,
+   "vmin_pu": 0.9499488192458505,
+   "vmax_pu": 1.02,
+   "rounds_resolved": 2
+  },
+  {
+   "id": "canada-west",
+   "case": "canada-west-spine-500-240-138-r4",
+   "category": "check",
+   "title": "Canada, Alberta and British Columbia",
+   "name": "Canada West 500-345-230-161-138 kV 2025-12-11 (UnvalidatedAtScale)",
+   "frequency_hz": 60.0,
+   "buses": 1371,
+   "kv_levels": [
+    500.0,
+    345.0,
+    230.0,
+    161.0,
+    138.0,
+    13.8
+   ],
+   "losses_mw": 752.924306934181,
+   "iterations": 4,
+   "vmin_pu": 0.9491266439782303,
+   "vmax_pu": 1.0223139378580204,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "india-765-400",
+   "case": "india-spine-765-400-r8",
+   "category": "check",
+   "title": "India, 765 / 400 kV",
+   "name": "India transmission spine 765/400 kV (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 1657,
+   "kv_levels": [
+    765.0,
+    400.0,
+    21.0
+   ],
+   "losses_mw": 4480.745633639468,
+   "iterations": 8,
+   "vmin_pu": 0.9494544833826073,
+   "vmax_pu": 1.0491459030388535,
+   "rounds_resolved": 8
+  },
+  {
+   "id": "india-220",
+   "case": "india-spine-220-r10",
+   "category": "check",
+   "title": "India, 765 / 400 / 220 kV",
+   "name": "India transmission spine 765/400/220 kV (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 5318,
+   "kv_levels": [
+    765.0,
+    400.0,
+    230.0,
+    220.0,
+    21.0
+   ],
+   "losses_mw": 7141.448543266524,
+   "iterations": 11,
+   "vmin_pu": 0.8994289038733322,
+   "vmax_pu": 1.0528123829876057,
+   "rounds_resolved": 9
+  },
+  {
+   "id": "germany",
+   "case": "germany-spine-380-220-r6",
+   "category": "jao",
+   "title": "Germany",
+   "name": "Germany transmission 380/220 kV winter evening 2025-11-27 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 986,
+   "kv_levels": [
+    380.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 2209.9401533438236,
+   "iterations": 10,
+   "vmin_pu": 0.9749036306420883,
+   "vmax_pu": 1.0309312262979466,
+   "rounds_resolved": 6
+  },
+  {
+   "id": "netherlands",
+   "case": "netherlands-spine-380-220-r4",
+   "category": "jao",
+   "title": "Netherlands",
+   "name": "Netherlands transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 138,
+   "kv_levels": [
+    380.0,
+    220.0,
+    150.0,
+    21.0
+   ],
+   "losses_mw": 325.8533093590271,
+   "iterations": 1,
+   "vmin_pu": 0.9556383161728323,
+   "vmax_pu": 1.0463344254336582,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "france",
+   "case": "france-spine-400-225-r10",
+   "category": "jao",
+   "title": "France",
+   "name": "France transmission 400/225 kV winter peak 2026-01-06 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 1781,
+   "kv_levels": [
+    400.0,
+    225.0,
+    63.0,
+    21.0
+   ],
+   "losses_mw": 2607.4099035267054,
+   "iterations": 4,
+   "vmin_pu": 0.9493453089356214,
+   "vmax_pu": 1.022096031493284,
+   "rounds_resolved": 10
+  },
+  {
+   "id": "belgium",
+   "case": "belgium-spine-380-220-r5",
+   "category": "jao",
+   "title": "Belgium",
+   "name": "Belgium transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 165,
+   "kv_levels": [
+    380.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 78.96553436319313,
+   "iterations": 7,
+   "vmin_pu": 1.005101309227537,
+   "vmax_pu": 1.0503291681530291,
+   "rounds_resolved": 5
+  },
+  {
+   "id": "austria",
+   "case": "austria-spine-380-220-r4",
+   "category": "jao",
+   "title": "Austria",
+   "name": "Austria transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 189,
+   "kv_levels": [
+    380.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 332.83035730822917,
+   "iterations": 4,
+   "vmin_pu": 0.9791665065363309,
+   "vmax_pu": 1.0208295964418537,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "czechia",
+   "case": "czechia-spine-400-220-r3",
+   "category": "jao",
+   "title": "Czechia",
+   "name": "Czechia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 120,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 222.6789277535462,
+   "iterations": 4,
+   "vmin_pu": 0.9511230122810386,
+   "vmax_pu": 1.0289727977491123,
+   "rounds_resolved": 3
+  },
+  {
+   "id": "poland",
+   "case": "poland-spine-400-220-r5",
+   "category": "jao",
+   "title": "Poland",
+   "name": "Poland transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 375,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 388.0133328640492,
+   "iterations": 5,
+   "vmin_pu": 0.9564171322994615,
+   "vmax_pu": 1.0467067866332376,
+   "rounds_resolved": 5
+  },
+  {
+   "id": "slovakia",
+   "case": "slovakia-spine-400-220-r4",
+   "category": "jao",
+   "title": "Slovakia",
+   "name": "Slovakia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 83,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 91.22894311712433,
+   "iterations": 4,
+   "vmin_pu": 0.9925157778008237,
+   "vmax_pu": 1.036077784503395,
+   "rounds_resolved": 4
+  },
+  {
+   "id": "hungary",
+   "case": "hungary-spine-400-220-r5",
+   "category": "jao",
+   "title": "Hungary",
+   "name": "Hungary transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 110,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 88.42404281008669,
+   "iterations": 4,
+   "vmin_pu": 0.9618191471128195,
+   "vmax_pu": 1.0505489355686652,
+   "rounds_resolved": 5
+  },
+  {
+   "id": "slovenia",
+   "case": "slovenia-spine-400-220-r3",
+   "category": "jao",
+   "title": "Slovenia",
+   "name": "Slovenia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 36,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 34.73969022128628,
+   "iterations": 1,
+   "vmin_pu": 0.9926388578872452,
+   "vmax_pu": 1.02,
+   "rounds_resolved": 3
+  },
+  {
+   "id": "croatia",
+   "case": "croatia-spine-400-220-r4",
+   "category": "jao",
+   "title": "Croatia",
+   "name": "Croatia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 55,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 26.417564574521435,
+   "iterations": 1,
+   "vmin_pu": 0.9886700857373686,
+   "vmax_pu": 1.02,
+   "rounds_resolved": 3
+  },
+  {
+   "id": "romania",
+   "case": "romania-spine-400-220-r5",
+   "category": "jao",
+   "title": "Romania",
+   "name": "Romania transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+   "frequency_hz": 50.0,
+   "buses": 260,
+   "kv_levels": [
+    400.0,
+    220.0,
+    110.0,
+    21.0
+   ],
+   "losses_mw": 152.20550931938686,
+   "iterations": 4,
+   "vmin_pu": 0.9587791329793073,
+   "vmax_pu": 1.047765354953155,
+   "rounds_resolved": 5
   }
  ],
  "files": [
+  {
+   "path": "models/australia-nem-spine-500-110-r9/ATTRIBUTION.txt",
+   "bytes": 2601,
+   "sha256": "d3badd1c24d0762b9878e44c940410612f4052d3b240167451fc608a5d709374"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/BUILD_README.md",
+   "bytes": 38772,
+   "sha256": "99dbb982e76b625b86929011254f8b0b1c4d9e5e9ab0adc5b130dbab83ef7cca"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/buses.json",
+   "bytes": 251647,
+   "sha256": "446547ad3b0cd02a8bb49226b1b97c7249f25c01f33728592bda33c4f9048a2d"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/demand.json",
+   "bytes": 83396,
+   "sha256": "2602ec19f74a654cb37a318aaac7d3b430f93c086b0a5687c476ed5da04b05b4"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/evidence_tags.json",
+   "bytes": 463779,
+   "sha256": "bf4cefe79e22de1dff0f1f3857af00b409fda20a4cde7d906849f9b35a95bbcd"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/generation.json",
+   "bytes": 102532,
+   "sha256": "1c907315dfd0760f3385e8ead2ee7a37b997079fee44fb51f6c66dd276f66412"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/geography.json",
+   "bytes": 163905,
+   "sha256": "ba7751fa1207dbaa2b9af430dc75485bfd7982b07d4f2a7b30c806a4d6d5d05a"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/MODEL_CARD.md",
+   "bytes": 21360,
+   "sha256": "177ed897634d69bff695a1ad60ef40e1aa6224ab3838509b58d3af1d5d397c8f"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/provenance.json",
+   "bytes": 124489,
+   "sha256": "68bd93ecdead8389d2559ebf1837609f0f1a42db19d14e2e352f7dafe5284828"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/system.json",
+   "bytes": 180,
+   "sha256": "d87f743b84dbdb838c22e0ecbdd1770156d1637e04cb81edf847c5cab30f8f46"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/transformer.json",
+   "bytes": 47470,
+   "sha256": "bd635d352b71d2d875f164d26a1d37da12558e202678189bd30e50117bc7fdfd"
+  },
+  {
+   "path": "models/australia-nem-spine-500-110-r9/transmission.json",
+   "bytes": 282366,
+   "sha256": "62b1b204c97e0dd4be6855b616e3f04f86f549aa4a76a1339e40a6efaf9c539d"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/ATTRIBUTION.txt",
+   "bytes": 2485,
+   "sha256": "c90a6f98a986dc253f7397ca9e8a62aedf5a9fcb78f916db37706756c5baecdd"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/BUILD_README.md",
+   "bytes": 21921,
+   "sha256": "9d196eac764d82cdbcd22ca1b39d16df60284ae2be3591b3f1822f44472549d0"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/buses.json",
+   "bytes": 45914,
+   "sha256": "824a89ba301246f104cdf4788759dd1b8fd9c3d5a12b5d831843d61f8cf3f383"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/demand.json",
+   "bytes": 15963,
+   "sha256": "c13f71d0f21b902f0a134034020156b7a47d8a71b53214a7f3b66120d7f57ca8"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/evidence_tags.json",
+   "bytes": 84989,
+   "sha256": "e7cf902861a81e7ac018c99d8de21c91f73e9d7e9de05f1e4c4f5a86281684b2"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/generation.json",
+   "bytes": 17615,
+   "sha256": "fd70e9ca516659c61ae54cddc6536f48f95b92f10e46ef550b0f577be2791ba8"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/geography.json",
+   "bytes": 15869,
+   "sha256": "3d703fcfd6c5ab1b9dd6b6dd939345d1f9b2e1a79b13b3c9c2e46f9b8397cf33"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/MODEL_CARD.md",
+   "bytes": 15981,
+   "sha256": "872ee4ae862fa7dbfd2674101f98bbc58d0fd6c28c8281ed671465592a57376b"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/provenance.json",
+   "bytes": 24708,
+   "sha256": "75497539563e2d42a5d69896fb112dbc77d2f16adede13bfdcef9f3ea27c1568"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/system.json",
+   "bytes": 164,
+   "sha256": "2570e7182a31afabc107461d9e2393a12689b40e1d0de7bfcb95835b0a60d9c6"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/transformer.json",
+   "bytes": 7864,
+   "sha256": "490f5980e114e9fd6c3153ccb6fd1a591ce2afd211a27a8fe6d84938d88027af"
+  },
+  {
+   "path": "models/australia-wem-spine-330-132-r2/transmission.json",
+   "bytes": 44599,
+   "sha256": "440e3c0b9ad0b6948f3d4f1451b325b8d880f2ead410d572582bef4fdc19394d"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/ATTRIBUTION.txt",
+   "bytes": 2863,
+   "sha256": "28313b873291c41752d39ede1ca23537894b204b8429532763a1b3d92c488288"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/BUILD_README.md",
+   "bytes": 21473,
+   "sha256": "ecb84cb6fb72cf8faf83bd45e9e9881dff4474eb10c144e94d20512071ead957"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/buses.json",
+   "bytes": 46397,
+   "sha256": "0fbc43f879b92ece08d1e611dcc1c3a90d0293f4a26afc88ac83aebb4582458f"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/demand.json",
+   "bytes": 6082,
+   "sha256": "22f82ade3355188552b21dc79ac8834c47f70303cc8e2b112fce27d64e042974"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/evidence_tags.json",
+   "bytes": 305552,
+   "sha256": "be580ea99037446eac883dd973794fe7fb90d476bdb03855f113b7755f9514d0"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/generation.json",
+   "bytes": 169425,
+   "sha256": "26e263ddcbee7b8d6061aae981edf3fa09c1cec16d755b935f7a3f45ae43aabb"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/geography.json",
+   "bytes": 55239,
+   "sha256": "166804fd16d939c10deb8ea50c621c7293450be36c378f7e753bd2343e9e2e65"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/MODEL_CARD.md",
+   "bytes": 17875,
+   "sha256": "e97007c135de78a0d2a2898f226ed8823691bb6d6bba4f6f5bed259bbaff12d8"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/provenance.json",
+   "bytes": 85378,
+   "sha256": "d353ba64f8c4664cb0598d362d069867e872e8fc8c7b922792dc70fbe2b8bb8b"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/system.json",
+   "bytes": 141,
+   "sha256": "1948a1e0617d1f78457b2a8bf3054b3f511a7d99d22658a04f7b1272519800ab"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/transformer.json",
+   "bytes": 19591,
+   "sha256": "cf0cedb471c06798f91f583b1079c74f0bc08114a044531a3f38374a0a4ed3e4"
+  },
+  {
+   "path": "models/austria-spine-380-220-r4/transmission.json",
+   "bytes": 73501,
+   "sha256": "f2023255af4437289d40479ea3c7bc8922c6afab7aa7591b3bb5249bf39e241a"
+  },
   {
    "path": "models/baltics-spine-400-330-r3/ATTRIBUTION.txt",
    "bytes": 2037,
@@ -298,6 +1025,76 @@
    "sha256": "ab0d773b05bb35b2dee37dd9e6925f59d84b11167b7f4c891e92efc0308fa612"
   },
   {
+   "path": "models/belgium-spine-380-220-r5/ATTRIBUTION.txt",
+   "bytes": 3049,
+   "sha256": "be7a33dff531f3c2996402f1b098ea246ef88318a32379c7660f10cb381b9a59"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/BUILD_README.md",
+   "bytes": 21130,
+   "sha256": "049f5642961bf66729464266400ad3a550ac6523c20e10a2f917bba80c25bcfb"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/buses.json",
+   "bytes": 40173,
+   "sha256": "7ea24e4427feffcb98ed151e343e5fc5986a54f8035a806e5ceefdc7490d3e12"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/demand.json",
+   "bytes": 6421,
+   "sha256": "2a7650ba33a02369c4366c8d61c8e1dba342368a7e113a8e77a60b8e1719426c"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/evidence_tags.json",
+   "bytes": 241210,
+   "sha256": "6d4ea7f37c26cd99ff9a86919e77be41afaab46c7f3e26abe9900c05403da38d"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/generation.json",
+   "bytes": 128188,
+   "sha256": "6ffdd3940dd18121f4f69519728bd032a56499a030243ebfc2445e6d7aea6bf4"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/geography.json",
+   "bytes": 12408,
+   "sha256": "0c68f6c0a55c71332161e51ea0f4a983ac9b3a313d68f4b977b17fc4b39c7376"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/MODEL_CARD.md",
+   "bytes": 17696,
+   "sha256": "51e415b00571f9772607eda3e702122fd7049247ad6a1eaf20c3c90b892356b5"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/provenance.json",
+   "bytes": 63562,
+   "sha256": "bb1b66bcbf62cd25334ebd2a70e4aa0ca2169dbd6cd32843db1e06cc0a6148d9"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/system.json",
+   "bytes": 141,
+   "sha256": "d69fde6535f770bd8bb298292a590b8e39c797b134678483366df6c8db249a68"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/transformer.json",
+   "bytes": 19814,
+   "sha256": "60f82b7726c1f36bcd6e56941fbb24718ea4556e880ff8167e5579436019a254"
+  },
+  {
+   "path": "models/belgium-spine-380-220-r5/transmission.json",
+   "bytes": 48689,
+   "sha256": "aa4a2e1a14278bbce65d13e0472309d90b883b32d0dc44e4ecf81dcc2ab63ecf"
+  },
+  {
    "path": "models/bulgaria-spine-400-220-r3/ATTRIBUTION.txt",
    "bytes": 1845,
    "sha256": "65897a9c55e77131e0387e701c17a660daf2815a8a2aa672beb6d88ce7abf1ff"
@@ -366,6 +1163,496 @@
    "path": "models/bulgaria-spine-400-220-r3/transmission.json",
    "bytes": 49263,
    "sha256": "fc443aac53b5a4c6808332108c6bd52b2a50d9de0ebc5b0d5377bb6f6bf8346f"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/ATTRIBUTION.txt",
+   "bytes": 2002,
+   "sha256": "135fe007f30664083c90aec01d97f6db3045c38024f02bb8949f7c4baed77125"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/BUILD_README.md",
+   "bytes": 30346,
+   "sha256": "84b04d39b32170db4bca18ff8dc05cdb86a964512c59916a67b678736fc0abe5"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/buses.json",
+   "bytes": 272238,
+   "sha256": "27c4eb1e2f2d3b26d888dd162a8d4c5d1943ec4a71834f807cc999b846065c40"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/demand.json",
+   "bytes": 44475,
+   "sha256": "de16f4c7b978276fd16a4172d8b367527aa1104d15f9411576d49f02db6a1744"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/evidence_tags.json",
+   "bytes": 712896,
+   "sha256": "e2dae780e23893456cc9a446ba89e5efaf16ea2c333eabbe702f5e4ca9d7eae2"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/generation.json",
+   "bytes": 25877,
+   "sha256": "7c512e20b5ab261cd41a3dc6e47ae9934cbdff8b247e0c99bb995d18043dec95"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/geography.json",
+   "bytes": 29373,
+   "sha256": "903f89e5efe42023f89e9e8d6c2a85e0449abd8d2ea0a5cd7f7fd19ea940b6d9"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/MODEL_CARD.md",
+   "bytes": 26724,
+   "sha256": "a2f8322c6ba2288ad476dface7b388732fec98b1fff576629ffd6417990e1ffd"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/provenance.json",
+   "bytes": 128205,
+   "sha256": "3513406d5cc243f83e8f073b219240d895be95fb3a7ffe562b8cfad74fda0e99"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/system.json",
+   "bytes": 128,
+   "sha256": "5c4f7fef69f82f01762a75b19494452da0bcc5de5cbf60091f6fa5b3b028085e"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/transformer.json",
+   "bytes": 28261,
+   "sha256": "48abd0327dc6be913edf6b751f3fe310a8189131643e1b81374d82d2a433dba4"
+  },
+  {
+   "path": "models/canada-ontario-spine-500-230-115-r2/transmission.json",
+   "bytes": 323927,
+   "sha256": "8a7b54465b0e7b342d348fa492c16fc677b8beecdb2350b4d06105b45d4af6b6"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/ATTRIBUTION.txt",
+   "bytes": 2005,
+   "sha256": "8d96ee241d13b0b6065eb5fc43bf9da4bafb16695354cfa27f546ab5d8ebac40"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/BUILD_README.md",
+   "bytes": 25308,
+   "sha256": "6cf29c6bf6c4e9e1f490ca09076587d33c242b0636f59e09abc2eda431d95437"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/buses.json",
+   "bytes": 213831,
+   "sha256": "120855b463eae4872164068a4190254c7a3c4c3e3518bafa675ecba212a1ca46"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/demand.json",
+   "bytes": 38913,
+   "sha256": "c234b9034c352b3d4cd0048c9286b56e7bdaa7335ea248c29f18f1d9f167e208"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/evidence_tags.json",
+   "bytes": 567085,
+   "sha256": "95f1bab443f798a41b0d30966d99527680a10a9f0555d777ba6b7d4c1e9bd1fa"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/generation.json",
+   "bytes": 37077,
+   "sha256": "743b5c62b9a5cd95ffcf2d3758d596620680fca3d556fa25d5a482ff09f37e6e"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/geography.json",
+   "bytes": 161418,
+   "sha256": "392478e69138041eea150aa2de85910bf045000cd9ec0061cefccb9ddc6a63ab"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/MODEL_CARD.md",
+   "bytes": 21846,
+   "sha256": "bc327c3ea29d3c2d171b4021a849473e1b8599a3ca4eff10d88a251665659059"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/provenance.json",
+   "bytes": 102780,
+   "sha256": "c31b1c1b51bf21b4bce6f9c2096e323b4cdcfdb0d9f8b3b7ea3364db3e247a28"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/system.json",
+   "bytes": 131,
+   "sha256": "6e705be92c93b8a9fbd3af37b9633b0b50da4d683d47036dac2ffe4c51d29b0a"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/transformer.json",
+   "bytes": 23450,
+   "sha256": "4c2278ce378957e424dbbcdf5712008681a062ee5928148e9d4566c903d6f981"
+  },
+  {
+   "path": "models/canada-quebec-spine-735-315-120-r3/transmission.json",
+   "bytes": 241417,
+   "sha256": "7d64087c3e9a0fff1bb615d7abeeb4d70528bb658a1832e5c0d1d39dc3305f4f"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/ATTRIBUTION.txt",
+   "bytes": 2003,
+   "sha256": "df53e7b6f96608895942686bb0b2fe389c75f6cf4d9e32180a9732807cc20785"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/BUILD_README.md",
+   "bytes": 32915,
+   "sha256": "4516aff3bd7bb9d34f192d9a898c4848360c49a20b0eb411f42b409daa9eeaa0"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/buses.json",
+   "bytes": 348791,
+   "sha256": "27e2bde2acccfbeae01eb8e42be4ea4abd16fb1f1140c395f51c7ed4b70bae9c"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/demand.json",
+   "bytes": 45777,
+   "sha256": "b10123f982c8d10df865964005cba406afabc03d50b7dffde0d317444278b557"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/evidence_tags.json",
+   "bytes": 865717,
+   "sha256": "10f22014d6380312a9535fa9270475a9fdb4747edbb9679202308242300f3ebc"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/generation.json",
+   "bytes": 30963,
+   "sha256": "68fe9d9c51e7ca0bc892ac7acdae85a8c24c0f9e782aaac5a5bacabee509dcc6"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/geography.json",
+   "bytes": 117629,
+   "sha256": "eab082fc5c864d0e1afed8b74b2858f9151e527096fb9732f72d4306910e41d0"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/MODEL_CARD.md",
+   "bytes": 24917,
+   "sha256": "8e1c54e8e0be3c19dba84118bd075cf89652a0ea9ce7c8aa6a4df1da8495085f"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/provenance.json",
+   "bytes": 149133,
+   "sha256": "e3dacc4ba8dd8a95b30b8f6ae637fe28b13db1c1fb2e39a9e7f8c1ac0f4745f2"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/system.json",
+   "bytes": 129,
+   "sha256": "dd19550d241648aec6478f82be9a2546d72a9a3775a891d563b3180f335fe82f"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/transformer.json",
+   "bytes": 38711,
+   "sha256": "6686dcf1b3cdd328ced9fb4e0c81d7bec73822a5f65e1f4cdff450959adc20cd"
+  },
+  {
+   "path": "models/canada-west-spine-500-240-138-r4/transmission.json",
+   "bytes": 405307,
+   "sha256": "652d54962d3511c9ee73f32307b258848c4fd4e07230480b46d50e13e5fc5391"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/ATTRIBUTION.txt",
+   "bytes": 2865,
+   "sha256": "ec4db3d92f859a860b9aaf7e3e42fabd2413834332ed045cf1069717655b4879"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/BUILD_README.md",
+   "bytes": 20753,
+   "sha256": "4f22859c7c2399cd784b1e9ca1f5dfd3fb52ca4a13937ea1494a6e82aab42c0b"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/buses.json",
+   "bytes": 13220,
+   "sha256": "9855e2cd35404162137f3d79b5f476d1979dd9e617da68db0ad599aaf3289c98"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/demand.json",
+   "bytes": 2036,
+   "sha256": "9b5f9c1e1b6c5b5680b49d7ce3dc64b173dcca34e6d03873832755bc0940270f"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/evidence_tags.json",
+   "bytes": 83066,
+   "sha256": "9fbcdf53fd996075f9525aa4ac1e86c520f767ee11acaf2710734c626bde3b61"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/generation.json",
+   "bytes": 58637,
+   "sha256": "7351d8326c857cdd3ade54d15310daca4ab3bd9351e9bd2b9ab72fa6c4b5b60e"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/geography.json",
+   "bytes": 97901,
+   "sha256": "3823068874b8c30dddf606e037084a76131b30793ffaae98022f7d187d0cbf60"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/MODEL_CARD.md",
+   "bytes": 16429,
+   "sha256": "59ccfe095511b75827d00f6a9378f535ba89122e73349b7184cff77e652128d5"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/provenance.json",
+   "bytes": 23946,
+   "sha256": "f03e19bfd3791f12136ed5f6bcada6013e9749779f742bef77c5a9b860d058fc"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/system.json",
+   "bytes": 141,
+   "sha256": "f1483532c5c9c4a19392364105fcd07ee732a8f8bd922787a175eb016b1a4b99"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/transformer.json",
+   "bytes": 7247,
+   "sha256": "967d4b99bffb0075cc7957493f8aa8ecb93711683f1f695eed7cc6953c39bde0"
+  },
+  {
+   "path": "models/croatia-spine-400-220-r4/transmission.json",
+   "bytes": 10944,
+   "sha256": "afd2cc4902c2581fa9dc3b4337c8ae73c1839065d7060203c3da897f0b4f4764"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/ATTRIBUTION.txt",
+   "bytes": 2865,
+   "sha256": "7d7f1f39128da17ba30ad0dcd82df9885c417d59686e36f4b927f7ef39831495"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/BUILD_README.md",
+   "bytes": 20644,
+   "sha256": "15eba20461e8bb6fecdb1041440ca80365eae1d1cc6ef10906524e0ea9ce21c5"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/buses.json",
+   "bytes": 29245,
+   "sha256": "e45d24fd022a2e2cfbf4a53966bdda7e430b04795f1bc345bd623d5f3fb5b4b5"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/demand.json",
+   "bytes": 4668,
+   "sha256": "0dfb97279bd8c375f352e02e1973f43f1abf16f38410b82c8edbfc50e578b979"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/evidence_tags.json",
+   "bytes": 316427,
+   "sha256": "b2ab805d30e237415979774038a4ddf1de942c776bdf8d49c17b20a2a2fa4a77"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/generation.json",
+   "bytes": 264273,
+   "sha256": "f59b087ac8238d809c2f78fa86b207bb09396cc1ffa291aaf885d1ab7f45dae2"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/geography.json",
+   "bytes": 74954,
+   "sha256": "6347c2f5cbdb67fe839562260ec2587e948cd280058d1ff5bada3601e5d4079d"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/MODEL_CARD.md",
+   "bytes": 17123,
+   "sha256": "dd63e5b54c1514355ceea26fc64d1132ac2a23f25fda681bfd212f820a771a82"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/provenance.json",
+   "bytes": 86570,
+   "sha256": "7a41b4ed5f06598b25b905f198d06d96478e5bfc32d0d4085644780594e8f401"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/system.json",
+   "bytes": 141,
+   "sha256": "9735a3f209a01d7cfe5bb2e9d3f0ac1fec8f35cb17c7a499816e9e795950169b"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/transformer.json",
+   "bytes": 13998,
+   "sha256": "41ef98c61ef7ed67bbafed3f25135052d13ad8653eb800023ca154d748eb2ced"
+  },
+  {
+   "path": "models/czechia-spine-400-220-r3/transmission.json",
+   "bytes": 33591,
+   "sha256": "81688992fc45f92b9413b59ae1b392922846c1eff6fd481a57a5c5d972a354b7"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/ATTRIBUTION.txt",
+   "bytes": 2090,
+   "sha256": "03cf2e564328d15919eb4fb9407dfdca62fb147a5865fc0a98f29368f404e4dd"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/BUILD_README.md",
+   "bytes": 24495,
+   "sha256": "930d2b183f2a40ed40a1eab98de43282e1e0a0e1b18c6a5cb9a004f8f99e0b4e"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/buses.json",
+   "bytes": 44344,
+   "sha256": "6bab54c68164490fd78a90968df5828642a87639fdd6636451dc568b403de9db"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/demand.json",
+   "bytes": 13339,
+   "sha256": "ae5922d9d03c662ebd04c7039654c1685d6d2c940d9931b993e5d20cf13f4ec8"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/evidence_tags.json",
+   "bytes": 178839,
+   "sha256": "86ac56d0941f6390d10459a541a163e6715154ee8b3191bce1fcb189c726cdfb"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/generation.json",
+   "bytes": 128140,
+   "sha256": "5aef2962fa211f46775bb473afd00aaac938b7bd119bb11c1de9abe29036a637"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/geography.json",
+   "bytes": 25571,
+   "sha256": "b2d030b6a6e1cf805e6183ec59ee766a151db9433703f186bcf68e11eccc2638"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/MODEL_CARD.md",
+   "bytes": 15976,
+   "sha256": "2c9f4bad133c2b005638159f3d2f24d395a990719a369b6d11ff71fcdf6db13b"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/provenance.json",
+   "bytes": 46968,
+   "sha256": "38be3d6d331d89a482406fb0348314113f304c9fa001bfb063ca9b67f291bffa"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/system.json",
+   "bytes": 194,
+   "sha256": "af178bc1806a2fa048afa96a3329f246c5030c0646b65a9a2033616fd907c01d"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/transformer.json",
+   "bytes": 9632,
+   "sha256": "92bf8a6c885034fb06218a2e08c6b7425c9217de03d0c9c3b63953569498472b"
+  },
+  {
+   "path": "models/denmark-dk1-spine-400-220-150-132-r4/transmission.json",
+   "bytes": 48153,
+   "sha256": "dc9e38c749603cf90b4a69114ff676edd7df330afc4d9d6e7fc73aa20e582422"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/ATTRIBUTION.txt",
+   "bytes": 2054,
+   "sha256": "aa7cac57382ed1f20f5c9e05529f3abbb4d8626e504e690bfe51d912b820252d"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/BUILD_README.md",
+   "bytes": 24563,
+   "sha256": "90f814d11bc9646d426451612a34cbf94b806754eb3569a342956801eb41b117"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/buses.json",
+   "bytes": 38110,
+   "sha256": "5623d3adce1ed2a5d751dacaa74ddc7e5494b1405eeb0248158a909b0945b19e"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/demand.json",
+   "bytes": 10370,
+   "sha256": "55f18a2a7862c2a3ffdc892d32b2b47213caf9dae33507d09bb5a18d32ba3143"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/evidence_tags.json",
+   "bytes": 109999,
+   "sha256": "67fc0a9b18b0656a1530d84fa577d3a49772889ff845aeb7f7d6843c7a82862c"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/generation.json",
+   "bytes": 27962,
+   "sha256": "fb70fd651138e1f025dce0ac82bb5e49a69bb6ec3cecc498f34eddb8aa7b6fb3"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/geography.json",
+   "bytes": 12318,
+   "sha256": "fa25e448539ad2419ac6805846e73e35b06c10225c2e87eefb41c08f3294b087"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/MODEL_CARD.md",
+   "bytes": 15332,
+   "sha256": "27ab3674540d2898edab5e95eb7302cdb892b69134fba834a35a77a3adf59877"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/provenance.json",
+   "bytes": 24558,
+   "sha256": "cfa751bb2d1b2fe97bc413b4e2b0f9e6a34ec9923dd13643dc280662e0a445c5"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/system.json",
+   "bytes": 176,
+   "sha256": "51cdb02221c0d5a0e3eaf2a23fd5526c51bd42359dd397140c48583970ab3acc"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/transformer.json",
+   "bytes": 4631,
+   "sha256": "fa5fc80b94392abb072374990bd8efb68f2efb295daac012f0370bc6a5397206"
+  },
+  {
+   "path": "models/denmark-dk2-spine-400-220-132-r4/transmission.json",
+   "bytes": 51006,
+   "sha256": "d999095bea10f37f85909738cff45922e002dbe219307c5dd0770347d083bbcb"
   },
   {
    "path": "models/ercot-spine-345-138-r3/ATTRIBUTION.txt",
@@ -508,6 +1795,146 @@
    "sha256": "6a76d3d379e8d6a6a097af1ce6a726dcbb1d4afe35b6766a046a86eb1fe52710"
   },
   {
+   "path": "models/france-spine-400-225-r10/ATTRIBUTION.txt",
+   "bytes": 2720,
+   "sha256": "43408ac95b43aeda900711a40d1f9799c77866d110490760b79dd890bc42d411"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/BUILD_README.md",
+   "bytes": 33271,
+   "sha256": "7192451d03ef41e1215d61e1569d6cab1cbcaca30c4719117cea466dccde9f03"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/buses.json",
+   "bytes": 435045,
+   "sha256": "bf5fda912d657b231ad4250ad12e74a74adbee0e05ae9c9c019157c7d86fdcd6"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/demand.json",
+   "bytes": 80961,
+   "sha256": "6d5e90c9aaba766eb5532ac873e6cc43a2e8e708c9edb241aaa3982bcff2f1ae"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/evidence_tags.json",
+   "bytes": 2656182,
+   "sha256": "c48fae5e82d405b13c81567ab97466f480deaf4eafa5121afd052de93260115c"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/generation.json",
+   "bytes": 1662856,
+   "sha256": "34ceeb5f11c741f7dff228f04ad88cca31d78655367a65c97da50f276b15c88b"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/geography.json",
+   "bytes": 264069,
+   "sha256": "683966d697001078c1fae870346d3b7572e2b589a616ecc8c59d238046ae44a1"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/MODEL_CARD.md",
+   "bytes": 21226,
+   "sha256": "079f960310c44c29529dd0ce74946bea4ec521d3b6a7ac97023302fe132b2c90"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/provenance.json",
+   "bytes": 836324,
+   "sha256": "ecc71fc25496e763c3b1bde3b04061ca852cae9133dc61cd7347958e9ecaa707"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/system.json",
+   "bytes": 137,
+   "sha256": "2988fd3fa89fce6534fa4129d711139c458d24912a88c5c78f7ee78778044aff"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/transformer.json",
+   "bytes": 234560,
+   "sha256": "2b2b1f5fcb2ec20d19e21e7720997edf02c4b4cbee52e6adfcd594111eb991bd"
+  },
+  {
+   "path": "models/france-spine-400-225-r10/transmission.json",
+   "bytes": 367130,
+   "sha256": "f09ca55b79e0e94504e2673a67db362281c70fe3695cb2cc714235217549fa8f"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/ATTRIBUTION.txt",
+   "bytes": 2799,
+   "sha256": "fb1ac0b264e0c25be3dafdf1729f493ad9ad4485f6f8ac188b6edc2e8dd56a53"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/BUILD_README.md",
+   "bytes": 42815,
+   "sha256": "bfca6313e4ddc5a63e8b0caec2f7c90741f10402c95d05c0554482b8046fbe6c"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/buses.json",
+   "bytes": 240345,
+   "sha256": "5a3e2b6717e285f8cacc3e6f08033de29916844a43bb4a3d5fdd0c1a2f868806"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/demand.json",
+   "bytes": 49300,
+   "sha256": "10ea09892d11f0f81d9b7532a3082360e6937af8b95209af21cb625ae39d7a19"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/evidence_tags.json",
+   "bytes": 2281782,
+   "sha256": "f8a60636897c2113d8675b5fe8dd78f91ea8ce21c8d7a1deb3d1f23293b94c98"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/generation.json",
+   "bytes": 1711384,
+   "sha256": "12c2066370a40c737462a0ffd5c8bfdab305eb4090ef231453ee7090142a52bd"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/geography.json",
+   "bytes": 290043,
+   "sha256": "c8b5fe19b811e351bfad106d6031e23dc3c16483778aa7e2376773271e97415f"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/MODEL_CARD.md",
+   "bytes": 20229,
+   "sha256": "8a9fe89de75fbde350bc01f308091007b028e81286bafb6cdd9dd44cf7f92256"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/provenance.json",
+   "bytes": 736551,
+   "sha256": "1240d8d28dc8da3ea3a06e4efcbc7d1ae4ed3a1a4dc7213a8ce30c229f66515e"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/system.json",
+   "bytes": 141,
+   "sha256": "a25911c0c7cf959c94ea08326efca0da7cf3724bab13ef05ed2b04550cad5148"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/transformer.json",
+   "bytes": 130266,
+   "sha256": "332f9083b12b8def98a3df061aa89df51b3bd6696c7ee6f08d036aecb29da268"
+  },
+  {
+   "path": "models/germany-spine-380-220-r6/transmission.json",
+   "bytes": 225839,
+   "sha256": "48b16215dc7970e2c0367fa4133651b073ddc92d46cd0b2628a65048c265d00a"
+  },
+  {
    "path": "models/greece-spine-400-150-r4/ATTRIBUTION.txt",
    "bytes": 1961,
    "sha256": "98edb41d2da0f3139bcf6d044f5aa0f231c96d49595466259489ea0857fbed32"
@@ -578,6 +2005,76 @@
    "sha256": "af85aff9cc1d03d56faa6f6a204e4168ad525065ab3e1673e0a9db212e2f6cc1"
   },
   {
+   "path": "models/hungary-spine-400-220-r5/ATTRIBUTION.txt",
+   "bytes": 3051,
+   "sha256": "2a063b2b96ee6e51c7a62e046766f45fe64e783e6aced460fb2d1d7fd8771eee"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/BUILD_README.md",
+   "bytes": 20671,
+   "sha256": "b32078d6749bc87ff745dafd7be57b06b6c0428457359a6031789f39096e483f"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/buses.json",
+   "bytes": 26807,
+   "sha256": "2f9d82ebbd5c5743d5b6a7c2c7a775e6f188b04a8996f14c56ae3f708e7f8105"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/demand.json",
+   "bytes": 4771,
+   "sha256": "5a26c75a7925cb3ec52f7f58ba0e3ddda1d46ab27a905d6d1c40cf653e07ad1b"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/evidence_tags.json",
+   "bytes": 249487,
+   "sha256": "a715bec816c3f868cdbed1799f27eb759957c6b94f873c81a81fd729e959a479"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/generation.json",
+   "bytes": 217161,
+   "sha256": "678a1c077a1e2a0f58f9e984e10a9e0a5560d338d747136c7a196322b4390500"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/geography.json",
+   "bytes": 58056,
+   "sha256": "a89f99de90e42ba9173b80357e56b993a77ad2a1896bc018d487816017afa0ee"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/MODEL_CARD.md",
+   "bytes": 15990,
+   "sha256": "8aefcf2d5275b5b90aa7a7505fd18fd4757a8f2ada1f31c48fa16a6d6f397cbf"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/provenance.json",
+   "bytes": 65347,
+   "sha256": "ddcf1956c7d80dc4c67632c2b5803a6b5b2eb6c40cec0015170aaa19b9637b3a"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/system.json",
+   "bytes": 141,
+   "sha256": "d999c9da3bdcfde1282f1ef3e732d887c214304e0edae664d711172df2a363dc"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/transformer.json",
+   "bytes": 11398,
+   "sha256": "f6780bf83ae8258e88c1b5ba7c6362dd2c1b40735d2672f4ce07648b92801b6d"
+  },
+  {
+   "path": "models/hungary-spine-400-220-r5/transmission.json",
+   "bytes": 25554,
+   "sha256": "886d078038fce57b095a5dc4898bc2a94e9945ec6ac1f997760e31001707036a"
+  },
+  {
    "path": "models/iberia-spine-400-220-132-r8/ATTRIBUTION.txt",
    "bytes": 1633,
    "sha256": "63ecb66c4e5100328c1b9fea3e0ff7ec31a35a0ebff377093ff32ae952d8c737"
@@ -646,6 +2143,146 @@
    "path": "models/iberia-spine-400-220-132-r8/transmission.json",
    "bytes": 967144,
    "sha256": "2847ec67650c1af65cf35bfa1b772907ca6bbba7decea73bb35e456fd3d656dd"
+  },
+  {
+   "path": "models/india-spine-220-r10/ATTRIBUTION.txt",
+   "bytes": 2418,
+   "sha256": "1cabe16ad5dc5fff69c4cf399e04528a0c3dc50b0d921874a8c198d1f333fc05"
+  },
+  {
+   "path": "models/india-spine-220-r10/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/india-spine-220-r10/BUILD_README.md",
+   "bytes": 97111,
+   "sha256": "9fdb91133f712e330fef5fe4e1ca6fa9cc54e93959bf64006485d20d10712de9"
+  },
+  {
+   "path": "models/india-spine-220-r10/buses.json",
+   "bytes": 1323679,
+   "sha256": "40eb2e579be0746cf78da76c87b28485f7444717af06340625e1ed6017e94eb2"
+  },
+  {
+   "path": "models/india-spine-220-r10/demand.json",
+   "bytes": 354129,
+   "sha256": "c5f386a4f6f901652d0d567a74bf60477b883f737b9f8a237f0510377968506b"
+  },
+  {
+   "path": "models/india-spine-220-r10/evidence_tags.json",
+   "bytes": 3387855,
+   "sha256": "87f69305eac5b55a28bbbee0302680a22d7f719216bdcb1e1678edb96f229ce7"
+  },
+  {
+   "path": "models/india-spine-220-r10/generation.json",
+   "bytes": 822793,
+   "sha256": "7a025d9f9f4e3cc66a55a2e14bea75b524a7837365ecbd88e029bc82c9caf4b2"
+  },
+  {
+   "path": "models/india-spine-220-r10/geography.json",
+   "bytes": 551841,
+   "sha256": "b32416af32e2d817f14cce2ed81c2efe628bafa39757914021f54e9ee0254308"
+  },
+  {
+   "path": "models/india-spine-220-r10/MODEL_CARD.md",
+   "bytes": 25771,
+   "sha256": "ff207c82a07a9dad992b482e0863589dcdeb4b5d7c15722641d7762dd72e5741"
+  },
+  {
+   "path": "models/india-spine-220-r10/onloadtapchanger.json",
+   "bytes": 100351,
+   "sha256": "d54c11ed81780135a04b0133cd292e3f1a9fae22d7adcf01c47d4687ed79c4ef"
+  },
+  {
+   "path": "models/india-spine-220-r10/provenance.json",
+   "bytes": 1166496,
+   "sha256": "6e8a7185821555cf426c775cc13fb4c6de9cbab4b475eb84e561669b088bb56d"
+  },
+  {
+   "path": "models/india-spine-220-r10/system.json",
+   "bytes": 123,
+   "sha256": "6482711221fb7323730c9fc1d287c4bc256bc141d3dd840bd1317b13507dadfe"
+  },
+  {
+   "path": "models/india-spine-220-r10/transformer.json",
+   "bytes": 271220,
+   "sha256": "75a0e28b10d1166fc9acd2ad2c01bae0ec2d303dc5bac11df670813a17b94e88"
+  },
+  {
+   "path": "models/india-spine-220-r10/transmission.json",
+   "bytes": 1643514,
+   "sha256": "e0938f178f5ef5024571a05b7877a8e0b391202a1f6b0583cce89bff1999ec3c"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/ATTRIBUTION.txt",
+   "bytes": 2414,
+   "sha256": "c6c0a03329310fae67377bde396c44c00c239e517a1ec50e1a8084ba19a71310"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/BUILD_README.md",
+   "bytes": 92152,
+   "sha256": "4928be4d391a2b7f5f7f7734821eea699206e847a571574afabafc992793ee94"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/buses.json",
+   "bytes": 424523,
+   "sha256": "4d8182fc5592aa00eb5c893681a58ed3bd5a70875e9f60429dcaefda479490eb"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/demand.json",
+   "bytes": 101626,
+   "sha256": "f22fdeda446cdae41d1c97ce9becf081445aa21d59f1795de6d199d5f3df5a79"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/evidence_tags.json",
+   "bytes": 1562290,
+   "sha256": "29a60b9bd933938a258c47bb437f454d99e87f72ecab894ebb634669c1943a2f"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/generation.json",
+   "bytes": 811221,
+   "sha256": "00bee54d5415325839bf8600a411aee189f351b9dba6b6c50d5991e4ad0f48a6"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/geography.json",
+   "bytes": 551841,
+   "sha256": "b32416af32e2d817f14cce2ed81c2efe628bafa39757914021f54e9ee0254308"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/MODEL_CARD.md",
+   "bytes": 20710,
+   "sha256": "43bab283d9676329427213d21c92875aafcf98a8b1f54d018334b69e07b3b125"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/onloadtapchanger.json",
+   "bytes": 17992,
+   "sha256": "1ea5d22f047edc511d6acf37018ab025824a220b4c107000e36ac71b1fb3920c"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/provenance.json",
+   "bytes": 565867,
+   "sha256": "e91da20d717697e01f36ede3be35f40d21466ba64e9c62c020d052a3190cd81d"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/system.json",
+   "bytes": 119,
+   "sha256": "1827b6ffdf71885dcb2a13f632bcf72ab81f718f2b70f4bf30c8f180b813b840"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/transformer.json",
+   "bytes": 122552,
+   "sha256": "1b8a50613f806c3a1f7c14d274512faa8d3c211268fe35d23c979a142f767e63"
+  },
+  {
+   "path": "models/india-spine-765-400-r8/transmission.json",
+   "bytes": 517567,
+   "sha256": "3d9d27bae03fbef773ec31bd41fa288f4008c38702468bbae891d3d1171636b5"
   },
   {
    "path": "models/ireland-spine-400-275-220-110-r5/ATTRIBUTION.txt",
@@ -858,6 +2495,216 @@
    "sha256": "cd7c34f1dffc296b1fb5186b8af4c2d471219d651a3021f10ab4bbef611fa262"
   },
   {
+   "path": "models/japan-east-spine-500-66-r5/ATTRIBUTION.txt",
+   "bytes": 2185,
+   "sha256": "40d6b3f0183083a9b8d70fa51565513d1f6a66a634bfeb63df6be4f6cfa4210b"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/BUILD_README.md",
+   "bytes": 28224,
+   "sha256": "036b1b3a5aed7a623e7599b84e4ff49b4b4c8efb7c436bd011c6b5597050abd2"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/buses.json",
+   "bytes": 1124860,
+   "sha256": "7e306a6f2acacafcfc392056c910895174ed395092917f8115dd96dd8fdc4dd7"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/demand.json",
+   "bytes": 63853,
+   "sha256": "b45f13d892cefadc3535392b63f15f442021280feafd1dc6417d4e970aa00e2c"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/evidence_tags.json",
+   "bytes": 978074,
+   "sha256": "214acaea076eb45eb3bf524b1519ad4c80a1267b0a9d987493d2306b4e856f64"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/generation.json",
+   "bytes": 64311,
+   "sha256": "4f98969ba23ef8e46955ee313603d0a9a901addcd103cc9f111d1496e13c0d39"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/geography.json",
+   "bytes": 105079,
+   "sha256": "e6434e143128f5f7fc175c539c66d843f3e602593ad1236e1ef131bde3f47e01"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/MODEL_CARD.md",
+   "bytes": 21920,
+   "sha256": "0250d7ab9b5861dce9a56f049d4ce6cc7fcc4949cc2f3785e42e31696ed1793d"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/provenance.json",
+   "bytes": 200963,
+   "sha256": "3f8c87f6756c8cdff5497ab7d6205c7bc277dbf045fb327989edfee7eff6123a"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/system.json",
+   "bytes": 171,
+   "sha256": "182107b220ea1f3f84146369450f01e7b23ce5aa547af35600be8390434eb84a"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/transformer.json",
+   "bytes": 89282,
+   "sha256": "3d8e2fcc672e5abaf924034a4256ac90aca5938ffdae17b2c522750523f7d1d7"
+  },
+  {
+   "path": "models/japan-east-spine-500-66-r5/transmission.json",
+   "bytes": 1281951,
+   "sha256": "f6b08ee8451da106d0cbd9f3e0f08cb2ccf77731c4b4078e37b1e37db508163c"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/ATTRIBUTION.txt",
+   "bytes": 2192,
+   "sha256": "73265f26177d2eb992149befcf98cd5949e1d01f66eaf3a8cac117d1f8d90b44"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/BUILD_README.md",
+   "bytes": 28514,
+   "sha256": "89a47b43fe17fa52b46277154b432094b1e68b0013b761f81fd7bcde533ac306"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/buses.json",
+   "bytes": 895201,
+   "sha256": "f9ad19a2bab0246382df1abc672b56141e34d5dc067aad2016ae1a958c52c23b"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/demand.json",
+   "bytes": 69146,
+   "sha256": "38c682b1569ce215cd65d64a6f63c0588bf37ec58df3fc9190e700f854094462"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/evidence_tags.json",
+   "bytes": 873179,
+   "sha256": "80c783f31484f7e31f21954198fec85499125eae7f894cb0b0e349d0d264d830"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/generation.json",
+   "bytes": 57843,
+   "sha256": "628b10d9a03893973d658acd03dae0e284645e59ec9a6425b4970def60998298"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/geography.json",
+   "bytes": 307000,
+   "sha256": "167db5843379a1628f9130386463e13f7fe52f365fc6838aa5fa6ba2a7d6233d"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/MODEL_CARD.md",
+   "bytes": 22120,
+   "sha256": "930778af30c9edc5a0552950ec60414796d05a919ba948a11cdcd9a74bb2a3cb"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/provenance.json",
+   "bytes": 183719,
+   "sha256": "557ac556628f44324efe8a7f3f4e7097e385e5619c85b9f0e0c5ba0b54529afa"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/system.json",
+   "bytes": 182,
+   "sha256": "3896766af60d57ccedc717083d87f64b84a19ae0eb4621927dca4871ecec07b1"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/transformer.json",
+   "bytes": 95920,
+   "sha256": "9699af2f45f2714edb11c7558faf5760440103df6463e9482e1548bcf9c9fce0"
+  },
+  {
+   "path": "models/japan-west-spine-500-66-r4/transmission.json",
+   "bytes": 931968,
+   "sha256": "9a00eae883a5a50d84d6de4acc8e6d212a5b1ac79834a81930d08996ee573b95"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/ATTRIBUTION.txt",
+   "bytes": 2807,
+   "sha256": "8794bf15a39139a501d1fcb253674659a2a90458fad784421842bbffbdfb1951"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/BUILD_README.md",
+   "bytes": 19121,
+   "sha256": "44cb71c786a02a6093e4a542d51712a7d1aa4517871fca85c8c3d6e2a28001c9"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/buses.json",
+   "bytes": 33980,
+   "sha256": "e4ce8983688b11b9e4545c9121174a4d04e8b6943968fddf6c5144d0f246ad40"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/demand.json",
+   "bytes": 5451,
+   "sha256": "4e11bb1ca8370fa4a0eaf95ea927145d993e1c350caa249674d654ea465d4bac"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/evidence_tags.json",
+   "bytes": 291294,
+   "sha256": "f60f097f4dfaae44aa7aede1b6423538a81c0a1d32bd10feb0953000e28a65b2"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/generation.json",
+   "bytes": 245199,
+   "sha256": "18b13fcb8a8a1e62b8ce390ba5f9c12b2ff9efdb60958355f8483d4f2734a7e4"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/geography.json",
+   "bytes": 102128,
+   "sha256": "b46a5b7a8de656b561383148c83701bcedd6ffd73a5f98a054101493fd4e483b"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/MODEL_CARD.md",
+   "bytes": 18823,
+   "sha256": "e53dfb0a9f53db510d478f6b356fa94a9fadc94aeed5caeb3ab9100b62a91337"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/provenance.json",
+   "bytes": 73801,
+   "sha256": "145f548b6f2c690880669fa42cdfac783627c3f0b10e5abd4b595b89f5642bd4"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/system.json",
+   "bytes": 145,
+   "sha256": "0aa465f59397b154014aebe42a33b138b4628a367ac2d71b85e504265c018fae"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/transformer.json",
+   "bytes": 21194,
+   "sha256": "9352a49475dd96ae654719ff80a8dcf2313d20b9add572193d5ff6f27d7943b7"
+  },
+  {
+   "path": "models/netherlands-spine-380-220-r4/transmission.json",
+   "bytes": 27713,
+   "sha256": "e7cfe4fb38350f20fa8fff3bdd27e6a481897981eed0564b607a74ab7f8cdb8b"
+  },
+  {
    "path": "models/norway-spine-420-300-132-r6/ATTRIBUTION.txt",
    "bytes": 1898,
    "sha256": "dc4f964f0d93c98fdf867d5186e4256fce464fb79feae3f3569ce6cb00b39f50"
@@ -926,6 +2773,426 @@
    "path": "models/norway-spine-420-300-132-r6/transmission.json",
    "bytes": 367818,
    "sha256": "a920f10b1f9f8103aca636a82f53a1979bdf657f3d66577e9880a72b43ed4935"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/ATTRIBUTION.txt",
+   "bytes": 3042,
+   "sha256": "05da06002da7b607f7037854c4260476242f054054efbfbbfa25865a563785e9"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/BUILD_README.md",
+   "bytes": 20870,
+   "sha256": "ee41e78ac2c3d55ff73d5aff8281f353b8c276fe4731dc1b82c051b2c73e6ddb"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/buses.json",
+   "bytes": 92685,
+   "sha256": "da7dd8ac40c384fcb5d4a435ea16803cde5e86e7c0bc0b1f58d473841e350a86"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/demand.json",
+   "bytes": 14977,
+   "sha256": "185f2902f795db2a4d8f56b6b73172696392bcfbd32e959b852ab6a94b0b4846"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/evidence_tags.json",
+   "bytes": 1059168,
+   "sha256": "8df8a394b3f4b309a41ff287dbb25ad3732eab775cdaa23190309bbc00efa2d5"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/generation.json",
+   "bytes": 905555,
+   "sha256": "59046d83b0546e3408b0e4063c697dfaa3e2c94a03374b00d2d8ea1adc0f1850"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/geography.json",
+   "bytes": 140062,
+   "sha256": "f16fcaaad5c6753f98da8681ce039366f48a47706c9ce16f8ad4f24d2e5d785b"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/MODEL_CARD.md",
+   "bytes": 17284,
+   "sha256": "939844ab744fda01cc9498dda188b726fc53ee4a7b7c11af206f5876cf9f5cbe"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/provenance.json",
+   "bytes": 280036,
+   "sha256": "2868cb0882d8024ec3911a0f074914fc984f23662f59ec597ead64edb3330014"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/system.json",
+   "bytes": 140,
+   "sha256": "fc2aac366356206ee235b94f8d8bd18313991e56dc363294b0e79fa8500aca36"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/transformer.json",
+   "bytes": 40570,
+   "sha256": "ed850422dea7b50b4ac8ef4cf2a5ad2c223b2fc820d72cbfce5d8eff6d2b8a43"
+  },
+  {
+   "path": "models/poland-spine-400-220-r5/transmission.json",
+   "bytes": 113755,
+   "sha256": "7b463fb39c442e1c6e03910de9330354aa03701adc2ff8a665cf28e19b246595"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/ATTRIBUTION.txt",
+   "bytes": 3047,
+   "sha256": "69afbe0b74f169e87ca42a769cceb721cfc4051ec1db292ef036fc6706585772"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/BUILD_README.md",
+   "bytes": 20090,
+   "sha256": "1a3b0ad15e4b357c7ba92314acb1a8d8445c12dbeed5284c5a29cdda59668e02"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/buses.json",
+   "bytes": 63795,
+   "sha256": "16d5a47b6a4f4bc12a4e5568ee5717d3f5a9d8ae9daa41fa8dc53baa6b1952ba"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/demand.json",
+   "bytes": 11249,
+   "sha256": "fa7b5629197345d556b6573b55c58d58d3eab1c10c11338013266026cb64bda8"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/evidence_tags.json",
+   "bytes": 367732,
+   "sha256": "e3dbc7c4e445a9b199263d81c3e442bd1b64d9e64234d687645d56f21b64677b"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/generation.json",
+   "bytes": 203593,
+   "sha256": "03814e71440b5e3f0bb6a0ac0c985c6d6dfc8971d990d8b2fb028fcbef17b752"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/geography.json",
+   "bytes": 175928,
+   "sha256": "ef16ff3e8e8ae6e7471ef2fe26cfcb828daaa53e5efdfad4121469273a3ebac6"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/MODEL_CARD.md",
+   "bytes": 16499,
+   "sha256": "d02f64eb572af5f1bc7911726070aa594bb7d94f2d78694246239d808f9fc4e2"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/provenance.json",
+   "bytes": 95517,
+   "sha256": "7041026b9ece2131a8c8484e15194be4420af999070d2ce2e846724f46ba1850"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/system.json",
+   "bytes": 141,
+   "sha256": "f78d5dd9470373b61f4563593c82f8906b079c7eb8303d9728057bb32c586910"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/transformer.json",
+   "bytes": 30145,
+   "sha256": "7692dbdcb6c5ed5ce92bd961ef651cf50df4ccd940646f26a2a4e205fb0e4206"
+  },
+  {
+   "path": "models/romania-spine-400-220-r5/transmission.json",
+   "bytes": 73330,
+   "sha256": "81b6f866523d5eb2aebc6436b02f4a3d926fa7265f1a799955e9b3b089939e64"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/ATTRIBUTION.txt",
+   "bytes": 2870,
+   "sha256": "17b302587277b5d390d58f3dcb47e3f260cf31c3adf92372ec6f7f9c8f216e03"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/BUILD_README.md",
+   "bytes": 20264,
+   "sha256": "b8743f2bdbf576fafa53b4cb7a0aad421b7c86e1a44f36379ef56c238efec7ff"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/buses.json",
+   "bytes": 20192,
+   "sha256": "47a12897802d197c0dd3a4290bf40695af11e67b451add302cb51368ada3deca"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/demand.json",
+   "bytes": 3895,
+   "sha256": "5ff730ce86bc422d9460a894881b1c57b2fbdf7e38dba55a480e90d803002422"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/evidence_tags.json",
+   "bytes": 150924,
+   "sha256": "4f9203367264b69e78fbb4e37194dbfa0d9c58809f84ebe0fdd9244a19fb98ed"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/generation.json",
+   "bytes": 114014,
+   "sha256": "c29cc71c119e7d3314855b255d0e25a69e1c6b3ddd494df546c7d4ffe5a4dbb0"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/geography.json",
+   "bytes": 38902,
+   "sha256": "d076a456f8d45446a6466cb0c9d6694992e328b13af8455a74c7fc13214b5491"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/MODEL_CARD.md",
+   "bytes": 15756,
+   "sha256": "06aa57fac0ea3c7924fe3ae14e0fc97084debf6e71ecc53a87b84d365b9dd19e"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/provenance.json",
+   "bytes": 43608,
+   "sha256": "168b4f931f176d28c41f78ac8e0d5902114927186a9727bc21ee07f12a2a9c35"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/system.json",
+   "bytes": 142,
+   "sha256": "1569c87bfd9e7931ce3d6fd08ff550035e4cb863afffc4e3fadf77791b2b93b4"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/transformer.json",
+   "bytes": 9610,
+   "sha256": "52ef88140e0a7d00a212cc153b5cf408362af8e62f81d867f05018bed3daea35"
+  },
+  {
+   "path": "models/slovakia-spine-400-220-r4/transmission.json",
+   "bytes": 18995,
+   "sha256": "fdd27a521077522d2c38715b9f17496a2b4c0888e77793d92460261652f12559"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/ATTRIBUTION.txt",
+   "bytes": 2870,
+   "sha256": "e7db0d2292bd157eb33178ee2902a6e2aa3c79c95afa14bca3346019cdacb607"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/BUILD_README.md",
+   "bytes": 20432,
+   "sha256": "e483f45c46ca232af6dc0eeb8996e8cc656f7fa72d9ccc4dd0ce1b5a8cb6acb7"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/buses.json",
+   "bytes": 8650,
+   "sha256": "31437801437feee3af0d6f809f1b979126d63d0c29a511a8a923c112f2bdaae2"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/demand.json",
+   "bytes": 1976,
+   "sha256": "503c2d51db5b61a54d6cd4011f7620fbc6daba3f1f26c492b810c4205e05f068"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/evidence_tags.json",
+   "bytes": 59088,
+   "sha256": "1beecdef344035a93cb8b3bbb579a3d51aa64ea6c2c48eae0980f9ffa233138a"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/generation.json",
+   "bytes": 39355,
+   "sha256": "43c890da63aab670c38019c7eba5cd5f34ba90239501f95984f0182e69f3cc7b"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/geography.json",
+   "bytes": 8917,
+   "sha256": "e02f4984386ab79f53c3751545112761da4cdec85a12454f514455a8e727643b"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/MODEL_CARD.md",
+   "bytes": 17460,
+   "sha256": "291716c2ec5531c626fb1c431470c34bf5c1b1a0e1594329698573e58fb78c9e"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/provenance.json",
+   "bytes": 17794,
+   "sha256": "c45556b732c5b2c3d1593dca5e9501f769e09dd154646666b252b0b28f2f2c05"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/system.json",
+   "bytes": 142,
+   "sha256": "31f200b16e0520e8e1ffb7dd53790d031d8334deb194c4757f817dc8f916800c"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/transformer.json",
+   "bytes": 4738,
+   "sha256": "7e19a955c6040f194f9fc9fac8031ad7cab9e55cb3fade95ef91cf5b1ed501a4"
+  },
+  {
+   "path": "models/slovenia-spine-400-220-r3/transmission.json",
+   "bytes": 7927,
+   "sha256": "4dae51da2da4dea36a1c119ca9c4b2c2857751de4857569217b37322e2da549d"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/ATTRIBUTION.txt",
+   "bytes": 1814,
+   "sha256": "3b4e60c8d6eda65bacd9523ac5b8c750e7143c64e9438eb01b978ed2795a9ff4"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/BUILD_README.md",
+   "bytes": 25332,
+   "sha256": "0994affca8de53cf932bdb4d30c5b1ab28c22650bbdd996edd663d8560542865"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/buses.json",
+   "bytes": 77902,
+   "sha256": "2312b6781e46c3092ee272d3868e7b0ba289686928375206021f6b8e97439c46"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/demand.json",
+   "bytes": 26879,
+   "sha256": "8ab2331397234657dfd0db8262ba475826307ca6df3adbdf799f23342850677d"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/evidence_tags.json",
+   "bytes": 355085,
+   "sha256": "0317059476de702f809f2d7018c38da88faba556d91107f157d27d37fcee3aa5"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/generation.json",
+   "bytes": 259747,
+   "sha256": "367ce2e058dd76f19582d85e4f23b3ce0fea3b0567b848bac19eb915959727f7"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/geography.json",
+   "bytes": 84470,
+   "sha256": "34130a294982b8c9381e2823eadcb375ec62be5acbcc00a920d079deed621eeb"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/MODEL_CARD.md",
+   "bytes": 15629,
+   "sha256": "9e9af1e3e1672ffc91bd79e066a56ba0f2052290d1f03665993ddb10d5350bde"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/provenance.json",
+   "bytes": 77636,
+   "sha256": "e8bf83709baba0bc938302210035c12a21e3af3f441016fd3d1c8ebb32ebbb0b"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/system.json",
+   "bytes": 143,
+   "sha256": "f442315bb8e3adcd1178a3a16fa787b184f16df32fa8f6f32070abcbff31ad32"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/transformer.json",
+   "bytes": 31008,
+   "sha256": "c0020d33c93375fc5336ddf03335913f587620917ffa3ea55fb1e7ccad6b27ce"
+  },
+  {
+   "path": "models/sweden-spine-400-220-r5/transmission.json",
+   "bytes": 55783,
+   "sha256": "4c61e8b3a6815eb2de2b0e0c075b18eeca275d2d21afb66cb3b4d1e4f6735bd3"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/ATTRIBUTION.txt",
+   "bytes": 1834,
+   "sha256": "11d602cf5d69b7d27342b7355ab478312c7b3c6a39e34ac6b905c1964e3ba700"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/boundaries.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/BUILD_README.md",
+   "bytes": 26149,
+   "sha256": "a31e6eb1fb6dc82f1f2a5bc5170c0eab39f404875c84122fe1ad192dc1d7c46d"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/buses.json",
+   "bytes": 183640,
+   "sha256": "4e67da6d77f4b30463e8dbed29fdc337ec906cdd0a8bc59444dbf80347f92614"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/demand.json",
+   "bytes": 31123,
+   "sha256": "bd9cf64b8cb6317d9a428c5e355580998f5cb0aa75b5eeaba88723dc73d40bff"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/evidence_tags.json",
+   "bytes": 613814,
+   "sha256": "da38404d242371846674fd710bd1a41ff3ed1d13bbd641239b25bea7ca9337c9"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/generation.json",
+   "bytes": 352337,
+   "sha256": "c9e2feaba83a143a3ec6b65d84df3ef0a74fb2bf53a998f4ac35b233bc575f5c"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/geography.json",
+   "bytes": 22302,
+   "sha256": "329c5141367b38e43da0e44df5b3a7cb24447bb21fdfe04acd9a8cd342e8acc3"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/MODEL_CARD.md",
+   "bytes": 18695,
+   "sha256": "fdc30b34f06d687e33ec1431d27cadcfc4cca49deb0dd78e2eb37b8216ff32c3"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/onloadtapchanger.json",
+   "bytes": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/provenance.json",
+   "bytes": 157623,
+   "sha256": "a9728461ae1e38d490a0cac5adc4b8e3feaf7bde8e7f773ddd79e0d423340dac"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/system.json",
+   "bytes": 153,
+   "sha256": "7c6d52222e05496da814d20d1dda8afe8b2a3854f9bdefdb0ccc63cc219d5f78"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/transformer.json",
+   "bytes": 58485,
+   "sha256": "58c257a9c8712e545de996ebb3b12f8f665616f7d8e9c0ee326ac059d8f32feb"
+  },
+  {
+   "path": "models/switzerland-spine-380-220-hv-r6/transmission.json",
+   "bytes": 185882,
+   "sha256": "0cc02ce33ac9c75a9082df5251a4287e0122490d8d949cd4717790a6309152c6"
   },
   {
    "path": "models/wbalkans-spine-400-220-r2/ATTRIBUTION.txt",

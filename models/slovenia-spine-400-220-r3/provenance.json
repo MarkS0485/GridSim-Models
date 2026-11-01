@@ -1,0 +1,1013 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Slovenia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): ELES lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (ELES for Slovenia)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Slovenia (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Slovenia units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Slovenia 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Slovenia, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "model_assembly"
+  ],
+  "27": [
+   "model_assembly"
+  ],
+  "28": [
+   "model_assembly"
+  ],
+  "29": [
+   "model_assembly"
+  ],
+  "30": [
+   "model_assembly"
+  ],
+  "31": [
+   "model_assembly"
+  ],
+  "32": [
+   "model_assembly"
+  ],
+  "33": [
+   "model_assembly"
+  ],
+  "34": [
+   "model_assembly"
+  ],
+  "35": [
+   "model_assembly"
+  ],
+  "36": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Bericevo - Krsko:0": [
+   "jao_sgm"
+  ],
+  "jao:Bericevo - Krsko:1": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Bericevo:2": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Klece:3": [
+   "jao_sgm"
+  ],
+  "jao:Podlog - Bericevo:4": [
+   "jao_sgm"
+  ],
+  "jao:Cirkovce - Krsko:5": [
+   "jao_sgm"
+  ],
+  "jao:Podlog - Cirkovce:6": [
+   "jao_sgm"
+  ],
+  "jao:Bericevo - Podlog:7": [
+   "jao_sgm"
+  ],
+  "jao:Okroglo - Bericevo:8": [
+   "jao_sgm"
+  ],
+  "jao:Okroglo - Bericevo:9": [
+   "jao_sgm"
+  ],
+  "jao:Maribor - Cirkovce:10": [
+   "jao_sgm"
+  ],
+  "jao:Maribor - Cirkovce:11": [
+   "jao_sgm"
+  ],
+  "jao:Bericevo - Klece:12": [
+   "jao_sgm"
+  ],
+  "jao:Podlog - Sostanj:13": [
+   "jao_sgm"
+  ],
+  "jao:Cirkovce - Zerjavinec:14": [
+   "jao_sgm"
+  ],
+  "jao:Cirkovce - Hevitz:15": [
+   "jao_sgm"
+  ],
+  "jao:Podlog - Zerjavinec:16": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Melina:17": [
+   "jao_sgm"
+  ],
+  "jao:Podlog - Obersielach:18": [
+   "jao_sgm"
+  ],
+  "jao:Maribor - Kainachtal:19": [
+   "jao_sgm"
+  ],
+  "jao:Maribor - Kainachtal:20": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Pehlin:21": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Redipuglia:22": [
+   "jao_sgm"
+  ],
+  "jao:Krsko - Tumbri:23": [
+   "jao_sgm"
+  ],
+  "jao:Krsko - Tumbri:24": [
+   "jao_sgm"
+  ],
+  "jao:Divaca - Padriciano:25": [
+   "jao_sgm"
+  ],
+  "osm:podlog - cirkovce 220 (OSM way/1055663994-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:klece - osm virtual_way/54933954:1 220 (OSM way/167068866-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:podlog - osm virtual_way/54933954:1 220 (OSM way/198587969-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sostanj - podlog 220 (OSM way/198587971-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:bericevo - osm virtual_way/54933954:1 220 (OSM way/54933954-220)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:HR:SI:melina [HR]:hv~SI:tumbri [HR]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HR:SI:pehlin [HR]:220~SI:zerjavinec [HR]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HR:SI:tumbri [HR]:hv~SI:zerjavinec [HR]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:28T-0000001324-8:0": [
+   "jao_sgm"
+  ],
+  "jao:28T-0000002374-J:1": [
+   "jao_sgm"
+  ],
+  "synth:coupling:cirkovce~cirkovce": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:divaca~divaca": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:sostanj~sostanj": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:AT:SI:kainachtal [AT]:hv~SI:obersielach [AT]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HR:SI:melina [HR]:hv~SI:pehlin [HR]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HR:SI:melina [HR]:hv~SI:zerjavinec [HR]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HR:SI:zerjavinec [HR]:hv~SI:zerjavinec [HR]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:SI:krsko:hv": [
+   "model_assembly"
+  ],
+  "gsu:SI:krsko:hv": [
+   "model_assembly"
+  ],
+  "emb:SI:maribor:hv": [
+   "model_assembly"
+  ],
+  "emb:SI:okroglo:hv": [
+   "model_assembly"
+  ],
+  "gsu:SI:sostanj:hv": [
+   "model_assembly"
+  ],
+  "emb:SI:bericevo:220": [
+   "model_assembly"
+  ],
+  "emb:SI:cirkovce:220": [
+   "model_assembly"
+  ],
+  "emb:SI:divaca:220": [
+   "model_assembly"
+  ],
+  "emb:SI:klece:220": [
+   "model_assembly"
+  ],
+  "emb:SI:podlog:220": [
+   "model_assembly"
+  ],
+  "emb:SI:sostanj:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Import AT @ kainachtal [AT]": [
+   "energy_charts"
+  ],
+  "Arto Blanca": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bostanj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vrhovo": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krsko": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brezice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mokrice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Brezice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ krsko": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Krsko 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Fala": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mariborski Otok": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ozbalt": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Melje Poqwer Melje Poqwer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bezirk Sudoststeiermark Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Maribor Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bess Pekre": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ maribor": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Doblar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mavcice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "He Moste": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Pluzna": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kranj Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bess Okroglo": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ okroglo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Sostanj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Te Tol": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ljubljana Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ljubljana Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xx": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Te Tol #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ngen": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sincro Grid": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ bericevo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Formin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlatolicje": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zlatolicje Formin Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Markovci": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ cirkovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Avce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solkan": [
+   "energy_charts",
+   "ppm"
+  ],
+  "He Plave Poqwer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Hubelj": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kanalski Vrh Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxix": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bess Nedo Idrija": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ divaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Medvode He Medvode Poqwer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bess Nedo Ljubljana": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ klece": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import AT @ obersielach [AT]": [
+   "energy_charts"
+  ],
+  "Celje Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxvii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ podlog": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Vuzenica": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Vuhred": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dravograd He Dravograd Poqwer": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sostanj #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Solar Xxiii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "nuclear register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ror register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "gas register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "hydro_ps register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "waste register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ sostanj": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "4": [
+   "energy_charts"
+  ],
+  "6": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "7": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "8": [
+   "energy_charts"
+  ],
+  "9": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "11": [
+   "energy_charts"
+  ],
+  "13": [
+   "energy_charts"
+  ],
+  "14": [
+   "energy_charts"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "16": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "17": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "18": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "21": [
+   "energy_charts"
+  ],
+  "22": [
+   "energy_charts"
+  ],
+  "23": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "24": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "25": [
+   "energy_charts"
+  ]
+ },
+ "shunts": {}
+}

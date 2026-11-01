@@ -1,0 +1,1714 @@
+{
+ "format": "croatia-evidence-tags/1",
+ "mapping": {
+  "attested": "Recorded",
+  "derived": "DerivedFromRecorded",
+  "estimated": "CuratedPlaceholder",
+  "synthetic": "Synthetic"
+ },
+ "rule": "CuratedPlaceholder notes carry [VERIFY]; UnvalidatedAtScale is never an element tag",
+ "buses": {
+  "1": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:cirkovce [SI]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "2": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:divaca [SI]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:ernestinovo:hv (HR-14): position OSM way/89823918 'TS Ernestinovo' (whole-word name match, 1.9 km from the JAO map point)"
+  },
+  "4": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:heviz [HU]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:konjsko:hv (HR-17): position OSM way/43337263 'TS Konjsko' (whole-word name match, 0.1 km from the JAO map point)"
+  },
+  "6": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:krsko [SI]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "7": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:melina:hv (HR-08): position OSM way/89817617 'TS Melina' (whole-word name match, single-place 220 kV-plus whole-word match; 20.4 km from the JAO map point, which is taken to be the misplaced one)"
+  },
+  "8": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:mostar [BA]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "9": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:pecs [HU]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "10": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:s. mitrovica [RS]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:tumbri:hv (HR-21): position OSM way/89818719 'TS Tumbri' (whole-word name match, 0.5 km from the JAO map point)"
+  },
+  "12": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:ugljevik [BA]:hv (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:velebit:hv (HR-13): position OSM way/163860997 'TS Velebit' (whole-word name match, 0.0 km from the JAO map point)"
+  },
+  "14": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:zerjavinec:hv (HR-21): position OSM way/89820062 'TS Zerjavinec' (whole-word name match, 0.4 km from the JAO map point)"
+  },
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:bilice:220 (HR-15): position OSM way/162022271 'TS Bilice' (whole-word name match, 0.0 km from the JAO map point)"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:brinje:220 (HR-09): position OSM way/273326173 'RP Brinje' (whole-word name match, 0.3 km from the JAO map point)"
+  },
+  "17": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:divaca [SI]:220 (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:konjsko:220 (HR-17): position OSM way/43337263 'TS Konjsko' (whole-word name match, 0.1 km from the JAO map point)"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:meduric:220 (HR-03): position JAO map polyline ends (no whole-word OSM match)"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:melina:220 (HR-08): position OSM way/89817617 'TS Melina' (whole-word name match, single-place 220 kV-plus whole-word match; 20.4 km from the JAO map point, which is taken to be the misplaced one)"
+  },
+  "21": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:mostar [BA]:220 (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:mraclin:220 (HR-01): position OSM way/89819945 'TS Mraclin' (whole-word name match, 0.0 km from the JAO map point)"
+  },
+  "23": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:osm ts te rijeka:220 (HR-08): position PyPSA-Eur OSM v0.7 substation way/129122541 'TS TE Rijeka'"
+  },
+  "24": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:osm virtual_way/170507277:1:220 (HR-17): position PyPSA-Eur OSM v0.7 substation virtual_way/170507277:1"
+  },
+  "25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:osm virtual_way/273337194:1:220 (HR-09): position PyPSA-Eur OSM v0.7 substation virtual_way/273337194:1"
+  },
+  "26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:osm virtual_way/45346365:1:220 (HR-17): position PyPSA-Eur OSM v0.7 substation virtual_way/45346365:1"
+  },
+  "27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:pehlin:220 (HR-08): position OSM way/96722667 'TS Pehlin' (whole-word name match, 0.3 km from the JAO map point)"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:plomin:220 (HR-18): position OSM way/210745193 'TS Plomin' (whole-word name match, 0.0 km from the JAO map point)"
+  },
+  "29": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:podlog [SI]:220 (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "30": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "boundary bus (foreign end of a tie-line) HR:prijedor [BA]:220 (abroad): position JAO map polyline far end (boundary bus)"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:senj:220 (HR-09): position OSM way/173272584 'TS HE Senj' (whole-word name match, 5.8 km from the JAO map point)"
+  },
+  "32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:te sisak:220 (HR-03): position OSM way/170366194 'TS TE Sisak' (whole-word name match, 6.0 km from the JAO map point)"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:ve padene:220 (HR-15): position JAO map polyline ends (no whole-word OSM match)"
+  },
+  "34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:zakucac:220 (HR-17): position OSM way/59683455 'TS HE Zakucac' (whole-word name match, 0.1 km from the JAO map point)"
+  },
+  "35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station HR:zerjavinec:220 (HR-21): position OSM way/89820062 'TS Zerjavinec' (whole-word name match, 0.4 km from the JAO map point)"
+  },
+  "36": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:ernestinovo:hv"
+  },
+  "37": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at HR:melina:hv"
+  },
+  "38": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:tumbri:hv"
+  },
+  "39": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:velebit:hv"
+  },
+  "40": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at HR:zerjavinec:hv"
+  },
+  "41": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:bilice:220"
+  },
+  "42": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:brinje:220"
+  },
+  "43": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:konjsko:220"
+  },
+  "44": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:meduric:220"
+  },
+  "45": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:melina:220"
+  },
+  "46": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:mraclin:220"
+  },
+  "47": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:pehlin:220"
+  },
+  "48": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:plomin:220"
+  },
+  "49": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at HR:plomin:220"
+  },
+  "50": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:senj:220"
+  },
+  "51": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:te sisak:220"
+  },
+  "52": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:ve padene:220"
+  },
+  "53": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:zakucac:220"
+  },
+  "54": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at HR:zakucac:220"
+  },
+  "55": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "embedded generation bus at HR:zerjavinec:220"
+  }
+ },
+ "branches": {
+  "jao:400 kV Zerjavinec - Ernestinovo 408:0": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400 kV Zerjavinec - Ernestinovo 408 (internal); 400 kV 231.20 km; Lines row 790: 400 kV Zerjavinec - Ernestinovo 408 (HOPS)"
+  },
+  "jao:400 kV Melina - Velebit 434:1": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400 kV Melina - Velebit 434 (internal); 400 kV 178.80 km; Lines row 791: 400 kV Melina - Velebit 434 (HOPS)"
+  },
+  "jao:220 kV Brinje - VE Padene:2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Brinje - VE Padene (internal); 220 kV 144.82 km; Lines row 792: 220 kV Brinje - VE Padene (HOPS)"
+  },
+  "jao:400 kV Tumbri - Melina 456:3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400 kV Tumbri - Melina 456 (internal); 400 kV 127.56 km; Lines row 793: 400 kV Tumbri - Melina 456 (HOPS)"
+  },
+  "jao:220 kV Mraclin -Brinje 208:4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Mraclin -Brinje 208 (internal); 220 kV 117.80 km; Lines row 794: 220 kV Mraclin -Brinje 208 (HOPS)"
+  },
+  "jao:400 kV Konjsko - Velebit 419:5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400 kV Konjsko - Velebit 419 (internal); 400 kV 100.83 km; Lines row 795: 400 kV Konjsko - Velebit 419 (HOPS)"
+  },
+  "jao:220 kV Zakucac - Bilice 257:6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Zakucac - Bilice 257 (internal); 220 kV 75.20 km; Lines row 796: 220 kV Zakucac - Bilice 257 (HOPS)"
+  },
+  "jao:220 kV Konjsko - VE Padene:7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Konjsko - VE Padene (internal); 220 kV 65.76 km; Lines row 797: 220 kV Konjsko - VE Padene (HOPS)"
+  },
+  "jao:220 kV Melina - Plomin 287:8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Melina - Plomin 287 (internal); 220 kV 64.16 km; Lines row 798: 220 kV Melina - Plomin 287 (HOPS)"
+  },
+  "jao:400 kV Zerjavinec - Tumbri 477:9": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "400 kV Zerjavinec - Tumbri 477 (internal); 400 kV 61.00 km; Lines row 799: 400 kV Zerjavinec - Tumbri 477 (HOPS)"
+  },
+  "jao:220 kV Mraclin - TE Sisak2 222:10": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Mraclin - TE Sisak2 222 (internal); 220 kV 58.64 km; Lines row 800: 220 kV Mraclin - TE Sisak2 222 (HOPS)"
+  },
+  "jao:220 kV Melina - Senj 241:11": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Melina - Senj 241 (internal); 220 kV 55.24 km; Lines row 801: 220 kV Melina - Senj 241 (HOPS)"
+  },
+  "jao:220 kV Konjsko - Bilice 271/1:12": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Konjsko - Bilice 271/1 (internal); 220 kV 53.13 km; Lines row 802: 220 kV Konjsko - Bilice 271/1 (HOPS)"
+  },
+  "jao:220 kV Konjsko - Bilice 271/2:13": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Konjsko - Bilice 271/2 (internal); 220 kV 53.13 km; Lines row 803: 220 kV Konjsko - Bilice 271/2 (HOPS)"
+  },
+  "jao:220 kV Pehlin - Plomin 284:14": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Pehlin - Plomin 284 (internal); 220 kV 46.22 km; Lines row 804: 220 kV Pehlin - Plomin 284 (HOPS)"
+  },
+  "jao:220 kV TE Sisak - Meduric 246:15": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV TE Sisak - Meduric 246 (internal); 220 kV 45.00 km; Lines row 805: 220 kV TE Sisak - Meduric 246 (HOPS)"
+  },
+  "jao:220 kV Mraclin - TE Sisak 249:16": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Mraclin - TE Sisak 249 (internal); 220 kV 44.00 km; Lines row 806: 220 kV Mraclin - TE Sisak 249 (HOPS)"
+  },
+  "jao:220 kV Zerjavinec - Mraclin 247:17": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Zerjavinec - Mraclin 247 (internal); 220 kV 26.40 km; Lines row 807: 220 kV Zerjavinec - Mraclin 247 (HOPS)"
+  },
+  "jao:220 kV Zakucac - Konjsko 274:18": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Zakucac - Konjsko 274 (internal); 220 kV 24.92 km; Lines row 808: 220 kV Zakucac - Konjsko 274 (HOPS)"
+  },
+  "jao:220 kV Melina - Pehlin2 286/2:19": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Melina - Pehlin2 286/2 (internal); 220 kV 17.94 km; Lines row 809: 220 kV Melina - Pehlin2 286/2 (HOPS)"
+  },
+  "jao:220 kV Senj - Brinje 235:20": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Senj - Brinje 235 (internal); 220 kV 15.53 km; Lines row 810: 220 kV Senj - Brinje 235 (HOPS)"
+  },
+  "jao:220 kV Melina - Pehlin1 285:21": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "220 kV Melina - Pehlin1 285 (internal); 220 kV 13.69 km; Lines row 811: 220 kV Melina - Pehlin1 285 (HOPS)"
+  },
+  "jao:Zerjavinec-Cirkovce:22": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Zerjavinec-Cirkovce (foreign_tie); 400 kV 97.80 km; Tielines row 147: Zerjavinec-Cirkovce (HOPS)"
+  },
+  "jao:Zerjavinec-Heviz:23": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Zerjavinec-Heviz (foreign_tie); 400 kV 97.67 km; Tielines row 148: Zerjavinec-Heviz (HOPS)"
+  },
+  "jao:Mostar - Konjsko:24": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Mostar - Konjsko (foreign_tie); 400 kV 68.56 km; Tielines row 149: Mostar - Konjsko (HOPS)"
+  },
+  "jao:Prijedor - Sisak:25": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Prijedor - Sisak (foreign_tie); 220 kV 60.80 km; Tielines row 150: Prijedor - Sisak (HOPS)"
+  },
+  "jao:Ugljevik - Ernestinovo:26": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Ugljevik - Ernestinovo (foreign_tie); 400 kV 52.60 km; Tielines row 151: Ugljevik - Ernestinovo (HOPS)"
+  },
+  "jao:Ernestinovo-S. Mitrovica:27": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Ernestinovo-S. Mitrovica (foreign_tie); 400 kV 51.53 km; Tielines row 152: Ernestinovo-S. Mitrovica (HOPS)"
+  },
+  "jao:Mostar - Zakucac:28": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Mostar - Zakucac (foreign_tie); 220 kV 49.46 km; Tielines row 153: Mostar - Zakucac (HOPS)"
+  },
+  "jao:Pecs - Ernestinovo1 491A:29": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Pecs - Ernestinovo1 491A (foreign_tie); 400 kV 43.70 km; Tielines row 154: Pecs - Ernestinovo1 491A (HOPS)"
+  },
+  "jao:Pecs - Ernestinovo2 491B:30": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Pecs - Ernestinovo2 491B (foreign_tie); 400 kV 43.70 km; Tielines row 155: Pecs - Ernestinovo2 491B (HOPS)"
+  },
+  "jao:Zerjavinec - Podlog:31": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Zerjavinec - Podlog (foreign_tie); 220 kV 37.50 km; Tielines row 156: Zerjavinec - Podlog (HOPS)"
+  },
+  "jao:Prijedor - Meduric:32": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Prijedor - Meduric (foreign_tie); 220 kV 32.40 km; Tielines row 157: Prijedor - Meduric (HOPS)"
+  },
+  "jao:Melina - Divaca:33": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Melina - Divaca (foreign_tie); 400 kV 25.74 km; Tielines row 160: Melina - Divaca (HOPS)"
+  },
+  "jao:Pehlin - Divaca:34": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Pehlin - Divaca (foreign_tie); 220 kV 24.61 km; Tielines row 161: Pehlin - Divaca (HOPS)"
+  },
+  "jao:Tumbri - Krsko 1:35": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Tumbri - Krsko 1 (foreign_tie); 400 kV 16.00 km; Tielines row 162: Tumbri - Krsko 1 (HOPS)"
+  },
+  "jao:Tumbri - Krsko 2:36": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "Tumbri - Krsko 2 (foreign_tie); 400 kV 16.00 km; Tielines row 163: Tumbri - Krsko 2 (HOPS)"
+  },
+  "osm:osm ts te rijeka - melina 220 (OSM way/129255606-220)": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] osm ts te rijeka - melina 220 (OSM way/129255606-220) (osm_added); 220 kV 6.16 km; PyPSA-Eur OSM v0.7 line way/129255606-220 (1 circuits, 6.2 km); R/X/B/Imax = median per km of 17 JAO Croatia lines"
+  },
+  "osm:osm ts te rijeka - melina 220 (OSM way/158456022-220)": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] osm ts te rijeka - melina 220 (OSM way/158456022-220) (osm_added); 220 kV 6.32 km; PyPSA-Eur OSM v0.7 line way/158456022-220 (1 circuits, 6.3 km); R/X/B/Imax = median per km of 17 JAO Croatia lines"
+  },
+  "osm:konjsko - osm virtual_way/170507277:1 220 (OSM way/170507277-220)": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] konjsko - osm virtual_way/170507277:1 220 (OSM way/170507277-220) (osm_added); 220 kV 28.83 km; PyPSA-Eur OSM v0.7 line way/170507277-220 (1 circuits, 28.8 km); R/X/B/Imax = median per km of 17 JAO Croatia lines"
+  },
+  "osm:brinje - osm virtual_way/273337194:1 220 (OSM way/273337194-220)": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] brinje - osm virtual_way/273337194:1 220 (OSM way/273337194-220) (osm_added); 220 kV 6.78 km; PyPSA-Eur OSM v0.7 line way/273337194-220 (1 circuits, 6.8 km); R/X/B/Imax = median per km of 17 JAO Croatia lines"
+  },
+  "osm:konjsko - osm virtual_way/45346365:1 220 (OSM way/45346365-220)": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] konjsko - osm virtual_way/45346365:1 220 (OSM way/45346365-220) (osm_added); 220 kV 17.89 km; PyPSA-Eur OSM v0.7 line way/45346365-220 (1 circuits, 17.9 km); R/X/B/Imax = median per km of 17 JAO Croatia lines"
+  },
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:hv": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:cirkovce [SI]:hv - HR:divaca [SI]:hv (neighbour_equiv); 400 kV nan km; Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.01120 + j0.10570 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out; estimated fields {\"existence\": \"synthetic\", \"x1_pu100\": \"derived\"}"
+  },
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:krsko [SI]:hv": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:cirkovce [SI]:hv - HR:krsko [SI]:hv (neighbour_equiv); 400 kV nan km; Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.00091 + j0.00933 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out; estimated fields {\"existence\": \"synthetic\", \"x1_pu100\": \"derived\"}"
+  },
+  "equiv:SI:HR:divaca [SI]:220~HR:podlog [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:divaca [SI]:220 - HR:podlog [SI]:220 (neighbour_equiv); 220 kV nan km; Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.03855 + j0.20933 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out; estimated fields {\"existence\": \"synthetic\", \"x1_pu100\": \"derived\"}"
+  },
+  "equiv:SI:HR:divaca [SI]:hv~HR:krsko [SI]:hv": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:divaca [SI]:hv - HR:krsko [SI]:hv (neighbour_equiv); 400 kV nan km; Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.00295 + j0.03077 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out; estimated fields {\"existence\": \"synthetic\", \"x1_pu100\": \"derived\"}"
+  },
+  "jao:31T-0000-B-0004S:0": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "TR 1 400/220 Konjsko: 400 MVA, x 11.7 % own rating (Transformers row 149: TR 1 400/220 Konjsko (HOPS); impedance base 231 kV (x 11.7 % on 400 MVA); placement: station named in the unit name)"
+  },
+  "jao:31T-0000-B-0005Q:1": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "TR 2 400/220 Konjsko: 400 MVA, x 11.7 % own rating (Transformers row 150: TR 2 400/220 Konjsko (HOPS); impedance base 231 kV (x 11.7 % on 400 MVA); placement: station named in the unit name)"
+  },
+  "jao:31T-0000-B-0002W:2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "TR1 400/220 kV Melina: 400 MVA, x 11.6 % own rating (Transformers row 151: TR1 400/220 kV Melina (HOPS); impedance base 231 kV (x 11.6 % on 400 MVA); placement: station named in the unit name)"
+  },
+  "jao:31T-0000-B-0003U:3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "TR2 400/220 kV Melina: 400 MVA, x 11.9 % own rating (Transformers row 152: TR2 400/220 kV Melina (HOPS); impedance base 231 kV (x 11.9 % on 400 MVA); placement: station named in the unit name)"
+  },
+  "jao:31T-0000-B-0001Y:4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "TR4 400/220 kV Zerjavinec: 400 MVA, x 12.2 % own rating (Transformers row 153: TR4 400/220 kV Zerjavinec (HOPS); impedance base 231 kV (x 12.2 % on 400 MVA); placement: station named in the unit name)"
+  },
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:divaca [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:cirkovce [SI]:hv - HR:divaca [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.08849 + j0.90744 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "equiv:SI:HR:cirkovce [SI]:hv~HR:podlog [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:cirkovce [SI]:hv - HR:podlog [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.00234 + j0.05637 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "equiv:SI:HR:divaca [SI]:hv~HR:divaca [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:divaca [SI]:hv - HR:divaca [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.00078 + j0.02782 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "equiv:SI:HR:krsko [SI]:hv~HR:divaca [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:krsko [SI]:hv - HR:divaca [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.02311 + j0.26413 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "equiv:SI:HR:divaca [SI]:hv~HR:podlog [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:divaca [SI]:hv - HR:podlog [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.01010 + j0.17676 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "equiv:SI:HR:krsko [SI]:hv~HR:podlog [SI]:220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "SI network equivalent HR:krsko [SI]:hv - HR:podlog [SI]:220: 9999 MVA, x nan % own rating (Kron reduction of 14 SI internal JAO lines onto the SI boundary stations; z = 0.00466 + j0.08159 pu on 100 MVA; no thermal rating (9999 MVA); shunt B left out)"
+  },
+  "emb:HR:ernestinovo:hv": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 80 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 17 generator row(s)"
+  },
+  "gsu:HR:melina:hv": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 376 MVA, x 14.5 % own rating, 1 generator row(s)"
+  },
+  "emb:HR:tumbri:hv": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 305 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 7 generator row(s)"
+  },
+  "emb:HR:velebit:hv": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 728 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 13 generator row(s)"
+  },
+  "gsu:HR:zerjavinec:hv": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 494 MVA, x 14.5 % own rating, 1 generator row(s)"
+  },
+  "emb:HR:bilice:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 184 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 12 generator row(s)"
+  },
+  "emb:HR:brinje:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 369 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 8 generator row(s)"
+  },
+  "emb:HR:konjsko:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 468 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 10 generator row(s)"
+  },
+  "emb:HR:meduric:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 119 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 12 generator row(s)"
+  },
+  "emb:HR:melina:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 116 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 5 generator row(s)"
+  },
+  "emb:HR:mraclin:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 9 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 5 generator row(s)"
+  },
+  "emb:HR:pehlin:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 51 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 4 generator row(s)"
+  },
+  "emb:HR:plomin:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 28 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 9 generator row(s)"
+  },
+  "gsu:HR:plomin:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 402 MVA, x 14.5 % own rating, 1 generator row(s)"
+  },
+  "emb:HR:senj:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 330 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 6 generator row(s)"
+  },
+  "emb:HR:te sisak:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 5 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 4 generator row(s)"
+  },
+  "emb:HR:ve padene:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 316 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 13 generator row(s)"
+  },
+  "emb:HR:zakucac:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 670 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 16 generator row(s)"
+  },
+  "gsu:HR:zakucac:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 633 MVA, x 14.5 % own rating, 1 generator row(s)"
+  },
+  "emb:HR:zerjavinec:220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped supply equivalent for embedded plant 552 MVA, x 20 % own rating (EHV/110 kV transformers plus the 110 kV network), 22 generator row(s)"
+  }
+ },
+ "generators": {
+  "Import SI @ cirkovce [SI]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 141.2 MW interconnector (operating); dispatch 141.2 MW (energy-charts fuel share); placement: AC boundary bus, share 0.222 of the SI border by tie rating"
+  },
+  "Import SI @ divaca [SI]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 141.2 MW interconnector (operating); dispatch 141.2 MW (energy-charts fuel share); placement: AC boundary bus, share 0.222 of the SI border by tie rating"
+  },
+  "Osijek": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 95.0 MW oil (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.9 km)"
+  },
+  "Brod Posavina County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (50.3 km)"
+  },
+  "Brod Posavina County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (38.0 km)"
+  },
+  "Brod Posavina County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (40.3 km)"
+  },
+  "Osijek Baranja County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 13.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (5.0 km)"
+  },
+  "Osijek Baranja County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (28.8 km)"
+  },
+  "Osijek Baranja County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (37.9 km)"
+  },
+  "Osijek Baranja County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (23.8 km)"
+  },
+  "Osijek Baranja County Solar #5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.9 km)"
+  },
+  "Osijek Baranja County Solar #6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.6 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (11.8 km)"
+  },
+  "Osijek Baranja County Solar #7": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (20.8 km)"
+  },
+  "Virovitica Podravina County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (60.4 km)"
+  },
+  "Vukovar Srijem County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.9 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (24.1 km)"
+  },
+  "Vukovar Srijem County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (42.8 km)"
+  },
+  "biomass register gap @ ernestinovo": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.6 MW biomass (operating); dispatch 9.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ ernestinovo": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.8 MW gas (operating); dispatch 6.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ ernestinovo": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW waste (operating); dispatch 0.6 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Import HU @ heviz [HU]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 54.0 MW interconnector (operating); dispatch 54.0 MW (energy-charts fuel share); placement: AC boundary bus, share 0.333 of the HU border by tie rating"
+  },
+  "Import SI @ krsko [SI]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 282.3 MW interconnector (operating); dispatch 282.3 MW (energy-charts fuel share); placement: AC boundary bus, share 0.445 of the SI border by tie rating"
+  },
+  "Rijeka": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 320.0 MW oil (operating); dispatch 0.0 MW (energy-charts fuel share); placement: EHV unit at nearest station (4.7 km; HV preferred within 3 km)"
+  },
+  "Import BA @ mostar [BA]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 84.6 MW interconnector (operating); dispatch 84.6 MW (energy-charts fuel share); placement: AC boundary bus, share 0.374 of the BA border by tie rating"
+  },
+  "Import HU @ pecs [HU]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 108.0 MW interconnector (operating); dispatch 108.0 MW (energy-charts fuel share); placement: AC boundary bus, share 0.667 of the HU border by tie rating"
+  },
+  "El To Zagreb": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 227.8 MW gas (operating); dispatch 212.1 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (15.3 km)"
+  },
+  "Ozalj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.5 MW hydro_ror (operating); dispatch 3.7 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (31.3 km)"
+  },
+  "Zagreb County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.7 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.6 km)"
+  },
+  "Zagreb County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (23.8 km)"
+  },
+  "biomass register gap @ tumbri": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.5 MW biomass (operating); dispatch 10.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ tumbri": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.3 MW gas (operating); dispatch 6.8 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ tumbri": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW waste (operating); dispatch 0.7 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Import BA @ ugljevik [BA]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 84.6 MW interconnector (operating); dispatch 84.6 MW (energy-charts fuel share); placement: AC boundary bus, share 0.374 of the BA border by tie rating"
+  },
+  "Velebit": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 240.0 MW hydro_ps (operating); dispatch 183.9 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (0.1 km)"
+  },
+  "Obrovac Zelengrad Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW wind_onshore (operating); dispatch 1.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (8.8 km)"
+  },
+  "Korlat Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 58.0 MW wind_onshore (operating); dispatch 2.1 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (18.6 km)"
+  },
+  "Jasenice Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.0 MW wind_onshore (operating); dispatch 0.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.4 km)"
+  },
+  "Korlat Solar Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 99.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (18.6 km)"
+  },
+  "Lika Senj County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (37.4 km)"
+  },
+  "Zadar County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 13.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.2 km)"
+  },
+  "Zadar Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 18.0 MW wind_onshore (operating); dispatch 0.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (15.6 km)"
+  },
+  "Zadar Wind Farm #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 18.0 MW wind_onshore (operating); dispatch 0.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (11.6 km)"
+  },
+  "Zadar Wind Farm #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 111.0 MW wind_onshore (operating); dispatch 4.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (42.1 km)"
+  },
+  "biomass register gap @ velebit": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.8 MW biomass (operating); dispatch 3.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ velebit": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.2 MW gas (operating); dispatch 2.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ velebit": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW waste (operating); dispatch 0.2 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Te To Zagreb": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 420.0 MW oil (operating); dispatch 0.0 MW (energy-charts fuel share); placement: EHV unit at nearest station (15.4 km; HV preferred within 3 km)"
+  },
+  "Orlice Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.0 MW wind_onshore (operating); dispatch 0.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (16.2 km)"
+  },
+  "Glunca Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 21.0 MW wind_onshore (operating); dispatch 0.8 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (18.8 km)"
+  },
+  "Danilo Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 44.0 MW wind_onshore (operating); dispatch 1.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (14.2 km)"
+  },
+  "Crno Brdo Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.0 MW wind_onshore (operating); dispatch 0.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (10.0 km)"
+  },
+  "Zadar County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.6 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (18.2 km)"
+  },
+  "Trtar Krtolin Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.0 MW wind_onshore (operating); dispatch 0.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (5.2 km)"
+  },
+  "Jaruga": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.9 MW hydro_ror (operating); dispatch 3.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.2 km)"
+  },
+  "Boraja Wind Park": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 45.0 MW wind_onshore (operating); dispatch 1.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (23.5 km)"
+  },
+  "Zadar County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (19.0 km)"
+  },
+  "biomass register gap @ bilice": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW biomass (operating); dispatch 1.4 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ bilice": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW gas (operating); dispatch 1.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ bilice": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW waste (operating); dispatch 0.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Lesce": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW hydro_ror (operating); dispatch 28.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (43.8 km)"
+  },
+  "Gojak": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 56.0 MW hydro_res (operating); dispatch 24.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (36.2 km)"
+  },
+  "Sklope": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 22.5 MW hydro_ror (operating); dispatch 15.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (36.2 km)"
+  },
+  "Senj Norinco Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 156.0 MW wind_onshore (operating); dispatch 5.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.9 km)"
+  },
+  "Kosinj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 35.0 MW hydro_res (operating); dispatch 15.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (31.6 km)"
+  },
+  "biomass register gap @ brinje": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW biomass (operating); dispatch 0.9 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ brinje": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.7 MW gas (operating); dispatch 0.6 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ brinje": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW waste (operating); dispatch 0.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Import SI @ divaca [SI] #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 38.8 MW interconnector (operating); dispatch 38.8 MW (energy-charts fuel share); placement: AC boundary bus, share 0.061 of the SI border by tie rating"
+  },
+  "Peruca": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW hydro_res (operating); dispatch 18.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (23.0 km)"
+  },
+  "Orlovac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 237.0 MW hydro_res (operating); dispatch 103.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (24.2 km)"
+  },
+  "Pometeno Brdo Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 15.0 MW wind_onshore (operating); dispatch 0.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (2.3 km)"
+  },
+  "Ogorje Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW wind_onshore (operating); dispatch 1.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (13.3 km)"
+  },
+  "Jelinak Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 30.0 MW wind_onshore (operating); dispatch 1.1 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (27.6 km)"
+  },
+  "Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 8.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (30.5 km)"
+  },
+  "Split Dalmatia County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.9 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (4.4 km)"
+  },
+  "biomass register gap @ konjsko": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.4 MW biomass (operating); dispatch 5.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ konjsko": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.7 MW gas (operating); dispatch 3.5 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ konjsko": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW waste (operating); dispatch 0.4 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Velika Ciglena Geothermal": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 17.5 MW other (operating); dispatch 15.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (45.5 km)"
+  },
+  "Bjelovar Bilogora County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (29.7 km)"
+  },
+  "Bjelovar Bilogora County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (42.9 km)"
+  },
+  "Brod Posavina County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (42.4 km)"
+  },
+  "Petrokemija Kutina": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 35.0 MW gas (operating); dispatch 32.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.9 km)"
+  },
+  "Sisak Moslavina County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (14.8 km)"
+  },
+  "Virovitica Podravina County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (63.4 km)"
+  },
+  "Virovitica Podravina County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.5 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (70.8 km)"
+  },
+  "Virovitica Podravina County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.5 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (61.6 km)"
+  },
+  "biomass register gap @ meduric": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.6 MW biomass (operating); dispatch 5.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ meduric": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.9 MW gas (operating); dispatch 3.6 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ meduric": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW waste (operating); dispatch 0.4 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Vinodol": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 90.0 MW hydro_ps (operating); dispatch 69.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (13.0 km)"
+  },
+  "Fuzine": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.7 MW hydro_ps (operating); dispatch 4.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (11.8 km)"
+  },
+  "biomass register gap @ melina": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.6 MW biomass (operating); dispatch 1.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ melina": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW gas (operating); dispatch 0.9 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ melina": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW waste (operating); dispatch 0.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Import BA @ mostar [BA] #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 18.9 MW interconnector (operating); dispatch 18.9 MW (energy-charts fuel share); placement: AC boundary bus, share 0.084 of the BA border by tie rating"
+  },
+  "Zagreb County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (2.2 km)"
+  },
+  "Zagreb County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.7 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (21.2 km)"
+  },
+  "biomass register gap @ mraclin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.3 MW biomass (operating); dispatch 1.8 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ mraclin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW gas (operating); dispatch 1.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ mraclin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.2 MW waste (operating); dispatch 0.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Rijeka #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 37.0 MW hydro_ror (operating); dispatch 25.2 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (4.0 km)"
+  },
+  "biomass register gap @ pehlin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.7 MW biomass (operating); dispatch 3.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ pehlin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.2 MW gas (operating); dispatch 2.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ pehlin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW waste (operating); dispatch 0.2 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Istria County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (43.9 km)"
+  },
+  "Buje Istria County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (50.5 km)"
+  },
+  "Istria County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (25.5 km)"
+  },
+  "Istria County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (15.6 km)"
+  },
+  "Istria County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.6 km)"
+  },
+  "Istria County Solar #5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.9 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (5.3 km)"
+  },
+  "biomass register gap @ plomin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.4 MW biomass (operating); dispatch 3.5 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ plomin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.6 MW gas (operating); dispatch 2.4 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ plomin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW waste (operating); dispatch 0.2 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Plomin Phase": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 342.0 MW coal (operating); dispatch 0.0 MW (energy-charts fuel share); placement: EHV unit at nearest station (0.3 km; HV preferred within 3 km)"
+  },
+  "Import SI @ podlog [SI]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 31.5 MW interconnector (operating); dispatch 31.5 MW (energy-charts fuel share); placement: AC boundary bus, share 0.050 of the SI border by tie rating"
+  },
+  "Import BA @ prijedor [BA]": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 37.8 MW interconnector (operating); dispatch 37.8 MW (energy-charts fuel share); placement: AC boundary bus, share 0.167 of the BA border by tie rating"
+  },
+  "Senj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 216.0 MW hydro_res (operating); dispatch 94.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (0.1 km)"
+  },
+  "Novalja Solar Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 21.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (41.8 km)"
+  },
+  "Senj Wallenborn Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW wind_onshore (operating); dispatch 1.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (11.5 km)"
+  },
+  "biomass register gap @ senj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass (operating); dispatch 0.7 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ senj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW gas (operating); dispatch 0.5 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ senj": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW waste (operating); dispatch 0.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Sisak": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 235.0 MW oil (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (0.2 km)"
+  },
+  "biomass register gap @ te sisak": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.4 MW biomass (operating); dispatch 1.9 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ te sisak": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW gas (operating); dispatch 1.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ te sisak": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.2 MW waste (operating); dispatch 0.1 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Miljacka Maljacka": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 24.0 MW hydro_ror (operating); dispatch 16.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.6 km)"
+  },
+  "Golubic": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.4 MW hydro_res (operating); dispatch 3.2 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.9 km)"
+  },
+  "Ljubac Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 30.0 MW wind_onshore (operating); dispatch 1.1 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (7.5 km)"
+  },
+  "Krs Padene Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 130.0 MW wind_onshore (operating); dispatch 4.7 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (0.1 km)"
+  },
+  "Sibenik Knin County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.4 km)"
+  },
+  "Sibenik Knin County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.6 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (12.1 km)"
+  },
+  "Sibenik Knin County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.2 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.5 km)"
+  },
+  "Sibenik Knin Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 14.0 MW wind_onshore (operating); dispatch 0.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (15.2 km)"
+  },
+  "Split Dalmatia County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (28.6 km)"
+  },
+  "Zadar Wind Farm #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 44.0 MW wind_onshore (operating); dispatch 1.6 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (22.7 km)"
+  },
+  "biomass register gap @ ve padene": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW biomass (operating); dispatch 0.5 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ ve padene": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW gas (operating); dispatch 0.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ ve padene": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW waste (operating); dispatch 0.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Dale": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 41.0 MW hydro_ror (operating); dispatch 27.9 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (13.3 km)"
+  },
+  "Kraljevac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 46.0 MW hydro_ror (operating); dispatch 31.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (15.0 km)"
+  },
+  "Dubrovnik": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 216.0 MW hydro_res (operating); dispatch 94.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (156.5 km)"
+  },
+  "Rudine Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 34.0 MW wind_onshore (operating); dispatch 1.2 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (113.4 km)"
+  },
+  "Ponikve Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 37.0 MW wind_onshore (operating); dispatch 1.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (98.6 km)"
+  },
+  "Lukovac Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 49.0 MW wind_onshore (operating); dispatch 1.8 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (19.9 km)"
+  },
+  "Kom Orjak Greda Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.0 MW wind_onshore (operating); dispatch 0.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (9.3 km)"
+  },
+  "Katuni Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 34.0 MW wind_onshore (operating); dispatch 1.2 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (16.6 km)"
+  },
+  "Kamensko Vostane Wind Farm": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 42.0 MW wind_onshore (operating); dispatch 1.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (24.5 km)"
+  },
+  "Opor Wind Park": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 30.0 MW wind_onshore (operating); dispatch 1.1 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (13.1 km)"
+  },
+  "Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (64.3 km)"
+  },
+  "Split Dalmatia County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 16.3 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (23.8 km)"
+  },
+  "Vis Battery": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW battery (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (61.0 km)"
+  },
+  "biomass register gap @ zakucac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.5 MW biomass (operating); dispatch 4.4 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ zakucac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.2 MW gas (operating); dispatch 3.0 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ zakucac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW waste (operating); dispatch 0.3 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Zakucac": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 538.0 MW hydro_res (operating); dispatch 235.1 MW (energy-charts fuel share); placement: EHV unit at nearest station (0.3 km; HV preferred within 3 km)"
+  },
+  "Dubrava": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 76.0 MW hydro_ror (operating); dispatch 51.7 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (67.0 km)"
+  },
+  "Varazdin": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 95.0 MW hydro_res (operating); dispatch 41.5 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (53.1 km)"
+  },
+  "Cakovec": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 77.0 MW hydro_ror (operating); dispatch 52.4 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (54.7 km)"
+  },
+  "Draskovec Geothermal": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 18.6 MW other (operating); dispatch 16.3 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (64.9 km)"
+  },
+  "Jertovec": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 88.0 MW gas (operating); dispatch 81.9 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (18.1 km)"
+  },
+  "Koprivnica Krizevci County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 8.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (69.9 km)"
+  },
+  "Krapina Zagorje County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.5 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (37.9 km)"
+  },
+  "Krapina Zagorje County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (52.2 km)"
+  },
+  "Krapina Zagorje County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (19.5 km)"
+  },
+  "Krapina Zagorje County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (20.1 km)"
+  },
+  "Medimurje County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.9 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (67.4 km)"
+  },
+  "Medimurje County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (67.1 km)"
+  },
+  "Medimurje County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (62.6 km)"
+  },
+  "Medimurje County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.9 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (72.2 km)"
+  },
+  "Varazdin County Solar": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.4 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (39.3 km)"
+  },
+  "Varazdin County Solar #2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.8 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (54.4 km)"
+  },
+  "Varazdin County Solar #3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.1 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (46.5 km)"
+  },
+  "Varazdin County Solar #4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.5 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (52.3 km)"
+  },
+  "Varazdin County Solar #5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.0 MW solar (operating); dispatch 0.0 MW (energy-charts fuel share); placement: embedded (110 kV and below) at nearest demand station (42.1 km)"
+  },
+  "biomass register gap @ zerjavinec": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 21.1 MW biomass (operating); dispatch 16.9 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "gas register gap @ zerjavinec": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.3 MW gas (operating); dispatch 11.5 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "waste register gap @ zerjavinec": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.5 MW waste (operating); dispatch 1.2 MW (energy-charts fuel share); placement: spread by population to the nearest demand station"
+  },
+  "Boundary voltage support HR:cirkovce [SI]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:cirkovce [SI]:hv: 0 MW, 1.0 pu, Q +/-665 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:divaca [SI]:220": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:divaca [SI]:220: 0 MW, 1.0 pu, Q +/-183 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:divaca [SI]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:divaca [SI]:hv: 0 MW, 1.0 pu, Q +/-665 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:heviz [HU]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:heviz [HU]:hv: 0 MW, 1.0 pu, Q +/-665 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:krsko [SI]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:krsko [SI]:hv: 0 MW, 1.0 pu, Q +/-1330 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:mostar [BA]:220": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:mostar [BA]:220: 0 MW, 1.0 pu, Q +/-149 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:mostar [BA]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:mostar [BA]:hv: 0 MW, 1.0 pu, Q +/-665 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:pecs [HU]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:pecs [HU]:hv: 0 MW, 1.0 pu, Q +/-1330 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:podlog [SI]:220": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:podlog [SI]:220: 0 MW, 1.0 pu, Q +/-149 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:prijedor [BA]:220": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:prijedor [BA]:220: 0 MW, 1.0 pu, Q +/-297 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:s. mitrovica [RS]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:s. mitrovica [RS]:hv: 0 MW, 1.0 pu, Q +/-603 MVAr (0.5 x tie rating)"
+  },
+  "Boundary voltage support HR:ugljevik [BA]:hv": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "external-grid voltage equivalent at boundary bus HR:ugljevik [BA]:hv: 0 MW, 1.0 pu, Q +/-665 MVAr (0.5 x tie rating)"
+  }
+ },
+ "demand": {
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 86372 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 57018 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 307943 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 319893 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 78022 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 213907 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 180888 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 111583 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 116611 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 29534 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 42724 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 265543 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 1022623 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 561986 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 182921 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: population 604844 of 4182413 (WorldPop 2020 1 km grid (CC BY 4.0), cell -> nearest demand station)"
+  },
+  "10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] boundary_export: export to RS: AC boundary bus, share 1.000 of the RS border by tie rating"
+  }
+ },
+ "shunts": {}
+}

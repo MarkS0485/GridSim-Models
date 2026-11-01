@@ -1,0 +1,2431 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Slovakia transmission 400/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "jao_sgm",
+   "title": "Core Static Grid Model, 9th release (2026-03): SEPS lines, tie-lines, transformers (R, X, B, Imax) and its publication map",
+   "publisher": "JAO S.A. on behalf of the Core TSOs (SEPS for Slovakia)",
+   "url": "https://www.jao.eu/static-grid-model",
+   "licence": "JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent",
+   "published": false
+  },
+  {
+   "id": "osm_overpass",
+   "title": "OpenStreetMap substations of 110 kV and more in Slovakia (Overpass API, 2026-11-01): names and positions",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "pypsa_osm",
+   "title": "PyPSA-Eur prebuilt OSM network v0.7: 220 kV-and-above lines and substations missing from JAO",
+   "publisher": "PyPSA-Eur / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching powerplants.csv (Slovakia units: capacity, fuel, location)",
+   "publisher": "PyPSA powerplantmatching (merging ENTSO-E, GEM, OPSD, JRC, OSM and others)",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "worldpop",
+   "title": "WorldPop Global 2000-2020 1 km population grid, Slovakia 2020 (ppp_2020_1km_Aggregated): demand shares, each cell to its nearest demand station (from the round with pop_grid)",
+   "publisher": "WorldPop, University of Southampton (doi:10.5258/SOTON/WP00647)",
+   "url": "https://www.the build rules/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "Public net generation by type, load and cross-border physical flows, Slovakia, 2025-11-19 16:30 UTC",
+   "publisher": "Fraunhofer ISE, energy-charts.info (ENTSO-E based)",
+   "url": "https://api.energy-charts.info/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: name resolution, coordinates, added corridors, couplings, GSUs, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "2": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "3": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "4": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "5": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "6": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "7": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "8": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "9": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "10": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "11": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "12": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "13": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "14": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "15": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "16": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "17": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "18": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "19": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "20": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "21": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "22": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "23": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "24": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "25": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "26": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "27": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "28": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "29": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "30": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "31": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "32": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "33": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "34": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "35": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "36": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "37": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "38": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "39": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "40": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "41": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "42": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "43": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "44": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "45": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "46": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "47": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "48": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "49": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "50": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "51": [
+   "model_assembly"
+  ],
+  "52": [
+   "model_assembly"
+  ],
+  "53": [
+   "model_assembly"
+  ],
+  "54": [
+   "model_assembly"
+  ],
+  "55": [
+   "model_assembly"
+  ],
+  "56": [
+   "model_assembly"
+  ],
+  "57": [
+   "model_assembly"
+  ],
+  "58": [
+   "model_assembly"
+  ],
+  "59": [
+   "model_assembly"
+  ],
+  "60": [
+   "model_assembly"
+  ],
+  "61": [
+   "model_assembly"
+  ],
+  "62": [
+   "model_assembly"
+  ],
+  "63": [
+   "model_assembly"
+  ],
+  "64": [
+   "model_assembly"
+  ],
+  "65": [
+   "model_assembly"
+  ],
+  "66": [
+   "model_assembly"
+  ],
+  "67": [
+   "model_assembly"
+  ],
+  "68": [
+   "model_assembly"
+  ],
+  "69": [
+   "model_assembly"
+  ],
+  "70": [
+   "model_assembly"
+  ],
+  "71": [
+   "model_assembly"
+  ],
+  "72": [
+   "model_assembly"
+  ],
+  "73": [
+   "model_assembly"
+  ],
+  "74": [
+   "model_assembly"
+  ],
+  "75": [
+   "model_assembly"
+  ],
+  "76": [
+   "model_assembly"
+  ],
+  "77": [
+   "model_assembly"
+  ],
+  "78": [
+   "model_assembly"
+  ],
+  "79": [
+   "model_assembly"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "82": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "jao:Lemesany - Sucany:0": [
+   "jao_sgm"
+  ],
+  "jao:Levice - R. Sobota:1": [
+   "jao_sgm"
+  ],
+  "jao:Bosaca - Varin:2": [
+   "jao_sgm"
+  ],
+  "jao:Moldava - R. Sobota:3": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Gabcikovo:4": [
+   "jao_sgm"
+  ],
+  "jao:Moldava - V. Kapusany:5": [
+   "jao_sgm"
+  ],
+  "jao:L. Mara - S. Nova Ves:6": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - Vojany:7": [
+   "jao_sgm"
+  ],
+  "jao:Bystricany - Krizovany:8": [
+   "jao_sgm"
+  ],
+  "jao:Bystricany - Krizovany:9": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - Vola:10": [
+   "jao_sgm"
+  ],
+  "jao:H. Zdana - Sucany:11": [
+   "jao_sgm"
+  ],
+  "jao:Bystricany - P. Bystrica:12": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Krizovany:13": [
+   "jao_sgm"
+  ],
+  "jao:L. Mara - Varin:14": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - H. Zdana:15": [
+   "jao_sgm"
+  ],
+  "jao:Medzibrod - Sucany:16": [
+   "jao_sgm"
+  ],
+  "jao:Bystricany - Sucany:17": [
+   "jao_sgm"
+  ],
+  "jao:Bosaca - Krizovany:18": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - S. Nova Ves:19": [
+   "jao_sgm"
+  ],
+  "jao:L. Mara - Medzibrod:20": [
+   "jao_sgm"
+  ],
+  "jao:Krizovany - Senica:21": [
+   "jao_sgm"
+  ],
+  "jao:Vola - V. Kapusany:22": [
+   "jao_sgm"
+  ],
+  "jao:Krizovany - P. Biskupice:23": [
+   "jao_sgm"
+  ],
+  "jao:P. Biskuipice - Stupava:24": [
+   "jao_sgm"
+  ],
+  "jao:Gabcikovo - P. Biskupice:25": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - Moldava:26": [
+   "jao_sgm"
+  ],
+  "jao:J. Bohunice - Bosaca:27": [
+   "jao_sgm"
+  ],
+  "jao:J. Bohunice - Krizovany:28": [
+   "jao_sgm"
+  ],
+  "jao:Cierny Vah - L. Mara:29": [
+   "jao_sgm"
+  ],
+  "jao:Siroka - Sucany:30": [
+   "jao_sgm"
+  ],
+  "jao:Siroka - Sucany:31": [
+   "jao_sgm"
+  ],
+  "jao:Kosice - Lemesany:32": [
+   "jao_sgm"
+  ],
+  "jao:Sala - Krizovany:33": [
+   "jao_sgm"
+  ],
+  "jao:Sucany - Varin:34": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Levice:35": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Levice:36": [
+   "jao_sgm"
+  ],
+  "jao:Kosice - Moldava:37": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Mochovce:38": [
+   "jao_sgm"
+  ],
+  "jao:V. Dur - Mochovce:39": [
+   "jao_sgm"
+  ],
+  "jao:Velky Dur - Mochovce:40": [
+   "jao_sgm"
+  ],
+  "jao:Velky Dur - Mochovce:41": [
+   "jao_sgm"
+  ],
+  "jao:V.Dur - Gonyu:42": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - Krosno 1:43": [
+   "jao_sgm"
+  ],
+  "jao:Lemesany - Krosno 2:44": [
+   "jao_sgm"
+  ],
+  "jao:Stupava - Sokolnice:45": [
+   "jao_sgm"
+  ],
+  "jao:Levice - God:46": [
+   "jao_sgm"
+  ],
+  "jao:Nosovice - Varin:47": [
+   "jao_sgm"
+  ],
+  "jao:Liskovec - P. Bystrica:48": [
+   "jao_sgm"
+  ],
+  "jao:Gabcikovo - Gonyu:49": [
+   "jao_sgm"
+  ],
+  "jao:R.Sobota - Sajoivanka:50": [
+   "jao_sgm"
+  ],
+  "jao:Gabcikovo - Gyor:51": [
+   "jao_sgm"
+  ],
+  "jao:V.Kapusany - Mukachevo:52": [
+   "jao_sgm"
+  ],
+  "jao:Sokolnice - Senica:53": [
+   "jao_sgm"
+  ],
+  "osm:osm virtual_way/211769226:1 - medzibrod 400 (OSM merged_way/242679228-400+1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:lemesany - osm virtual_way/100978616:1 400 (OSM way/100978616-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/1144171086:1 - osm virtual_way/211769226:1 400 (OSM way/1144171088-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:gabcikovo - osm virtual_way/1150527220:0 400 (OSM way/1150527223-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:v. kapusany - vojany 400 (OSM way/157304464-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vojany - v. kapusany 400 (OSM way/157304521-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:levice - h. zdana 400 (OSM way/190399471-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:krizovany - osm virtual_way/190427837:1 400 (OSM way/190427837-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/100978616:1 - v. kapusany 400 (OSM way/204647469-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:l. mara - osm virtual_way/1144171086:1 400 (OSM way/211512791-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:sucany - osm virtual_way/211512792:1 400 (OSM way/211512792-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/211769226:1 - l. mara 400 (OSM way/211512796-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:medzibrod - osm virtual_way/211769226:1 400 (OSM way/211769226-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/211769226:1 - osm virtual_way/211512792:1 400 (OSM way/281433185-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/211769226:1 - osm virtual_way/211512792:1 400 (OSM way/281433185-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vola - osm virtual_way/100978616:1 400 (OSM way/701151533-400 c1)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:vola - osm virtual_way/100978616:1 400 (OSM way/701151533-400 c2)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "osm:osm virtual_way/211512792:1 - sucany 400 (OSM way/928364789-400)": [
+   "jao_sgm",
+   "osm_overpass",
+   "pypsa_osm"
+  ],
+  "equiv:CZ:SK:nosovice [CZ]:hv~SK:sokolnice [CZ]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:god [HU]:hv~SK:gonyu [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:god [HU]:hv~SK:gyor [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:god [HU]:hv~SK:sajoivanka [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:gonyu [HU]:hv~SK:gyor [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:gonyu [HU]:hv~SK:sajoivanka [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:HU:SK:gyor [HU]:hv~SK:sajoivanka [HU]:hv": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "jao:24T-KRIZ-T401-02:0": [
+   "jao_sgm"
+  ],
+  "jao:24T-BYST-T402-1I:1": [
+   "jao_sgm"
+  ],
+  "jao:24T-BYST-T401-0O:2": [
+   "jao_sgm"
+  ],
+  "synth:coupling:lemesany~lemesany": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:senica~senica": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:sucany~sucany": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "synth:coupling:vojany~vojany": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:CZ:SK:nosovice [CZ]:hv~SK:liskovec [CZ]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "equiv:CZ:SK:sokolnice [CZ]:hv~SK:liskovec [CZ]:220": [
+   "model_assembly",
+   "jao_sgm"
+  ],
+  "emb:SK:bosaca:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:cierny vah:hv": [
+   "model_assembly"
+  ],
+  "gsu:SK:cierny vah:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:gabcikovo:hv": [
+   "model_assembly"
+  ],
+  "gsu:SK:gabcikovo:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:h. zdana:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:j. bohunice:hv": [
+   "model_assembly"
+  ],
+  "gsu:SK:j. bohunice:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:kosice:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:l. mara:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:levice:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:medzibrod:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:mochovce:hv": [
+   "model_assembly"
+  ],
+  "gsu:SK:mochovce:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:moldava:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:p. biskupice:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:r. sobota:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:s. nova ves:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:stupava:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:v. dur:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:v. kapusany:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:varin:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:velky dur:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:vola:hv": [
+   "model_assembly"
+  ],
+  "emb:SK:bystricany:220": [
+   "model_assembly"
+  ],
+  "emb:SK:krizovany:220": [
+   "model_assembly"
+  ],
+  "emb:SK:lemesany:220": [
+   "model_assembly"
+  ],
+  "emb:SK:p. bystrica:220": [
+   "model_assembly"
+  ],
+  "emb:SK:sala:220": [
+   "model_assembly"
+  ],
+  "emb:SK:senica:220": [
+   "model_assembly"
+  ],
+  "emb:SK:siroka:220": [
+   "model_assembly"
+  ],
+  "emb:SK:sucany:220": [
+   "model_assembly"
+  ],
+  "emb:SK:vojany:220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Trencin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nove Mesto Nove Mesto Nove Mesto": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kostolna": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Horna Streda Horna Streda Horna Streda": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nove Mesto Nad Vahom Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Topolcany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trencin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bosaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ bosaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ bosaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bosaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ bosaca": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Brezno Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Liptovsky Mikulas Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ cierny vah": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ cierny vah": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ cierny vah": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ cierny vah": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ cierny vah": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Cierny Vah": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ gabcikovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ gabcikovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ gabcikovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ gabcikovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ gabcikovo": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Gabcikovo": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Banska Stiavnica Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Krupina Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zarnovica Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Ziar Nad Hronom Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Ziar Nad Hronom Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Ziar Nad Hronom Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zvolen Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ h. zdana": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ h. zdana": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ h. zdana": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ h. zdana": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ h. zdana": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Madunice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Piestany Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Topolcany Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Jaslovske Bohunice Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ j. bohunice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ j. bohunice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ j. bohunice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ j. bohunice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ j. bohunice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Bohunice 3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Malzenice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bohunice 4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kosice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kosice #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kosice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kosice Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Steel Kosice Works": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ kosice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ kosice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ kosice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ kosice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ kosice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import PL @ krosno [PL]": [
+   "energy_charts"
+  ],
+  "Liptovska Mara": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Besenova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Liptovsky Mikulas Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Liptovsky Mikulas Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Liptovsky Mikulas Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ l. mara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ l. mara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ l. mara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ l. mara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ l. mara": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Badin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Levice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Krupina Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Krupina Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Krupina Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar Xv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ levice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ levice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ levice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ levice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ levice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Brezno Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Brezno Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Detva Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Detva Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Detva Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zvolen Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Veolia Gas": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ medzibrod": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ medzibrod": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ medzibrod": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ medzibrod": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ medzibrod": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Farmhispania Kozmalovce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levice Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nitra Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zlate Moravce Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zlate Moravce Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Kozmalovce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ mochovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ mochovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ mochovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ mochovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ mochovce": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Mochovce 1": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mochovce 2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mochovce 3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Mochovce 4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Roznava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ moldava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ moldava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ moldava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ moldava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ moldava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import CZ @ nosovice [CZ]": [
+   "energy_charts"
+  ],
+  "Cunovo": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ppc Bratislava": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Moson": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Bratislava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dunajska Streda Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Senec Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Senec Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Slovnaft Refinery": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ p. biskupice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ p. biskupice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ p. biskupice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ p. biskupice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ p. biskupice": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Kralova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ladovo Solar Farm": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Lucenec Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Poltar Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Poltar Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Revuca Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Revuca Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Revuca Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Revuca Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar Xii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar Xiv": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar Xvi": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Rimavska Sobota Solar Xviii": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Roznava Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Velky Krtis Solar #9": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Panicke Dravce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ r. sobota": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ r. sobota": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ r. sobota": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ r. sobota": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ r. sobota": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Dobsina": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kezmarok Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Levoca Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Roznava Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Sabinov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Spisska Nova Ves Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Stara Lubovna Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Stara Lubovna Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dobsina #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ s. nova ves": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ s. nova ves": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ s. nova ves": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ s. nova ves": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ s. nova ves": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import CZ @ sokolnice [CZ]": [
+   "energy_charts"
+  ],
+  "District Of Malacky Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Malacky Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ stupava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ stupava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ stupava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ stupava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ stupava": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Komarno Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Sobrance Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Sobrance Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ v. kapusany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ v. kapusany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ v. kapusany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ v. kapusany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ v. kapusany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Hricov": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Zilina": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ varin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ varin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ varin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ varin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ varin": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "biomass register gap @ velky dur": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ velky dur": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ velky dur": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ velky dur": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ velky dur": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Domasa": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Humenne Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Humenne Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Stropkov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Vranov Nad Toplou Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Vranov Nad Toplou Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Vranov Nad Toplou Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ vola": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ vola": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ vola": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ vola": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ vola": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Prievidza Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Prievidza Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Prievidza Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Zarnovica Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ bystricany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ bystricany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ bystricany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ bystricany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ bystricany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Galanta Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Galanta Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Senec Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trnava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Trnava District Of Trnava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ krizovany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ krizovany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ krizovany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ krizovany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ krizovany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Ruzin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Bardejov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Gelnica Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Kosice Okolie Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Presov Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Sabinov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ lemesany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ lemesany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ lemesany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ lemesany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ lemesany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Import CZ @ liskovec [CZ]": [
+   "energy_charts"
+  ],
+  "Miksova": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Nosice": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Povazska Bystrica": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ladce": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Ilava": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Dubnica Nad Vahom Dubnica Nad Vahom": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Bytca Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Ilava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trencin Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Povazska Bystrica #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ p. bystrica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ p. bystrica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ p. bystrica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ p. bystrica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ p. bystrica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Komarno Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Komarno Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nitra Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nitra Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nitra Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Nove Zamky Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Sala Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sala": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ sala": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ sala": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sala": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ sala": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Myjava Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Myjava Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Myjava Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Senica Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Senica Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Skalica Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "South Moravian Region Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ senica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ senica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ senica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ senica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ senica": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Orava": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tvrdosin": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Dolny Kubin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Tvrdosin #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ siroka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ siroka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ siroka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ siroka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ siroka": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "Lipovec": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Sucany": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Krpelany Kreplany": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Martin Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Martin Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Turcianske Teplice Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "Martinska": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ sucany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ sucany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ sucany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ sucany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ sucany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "District Of Michalovce Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Michalovce Solar #8": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #2": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #3": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #4": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #5": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #6": [
+   "energy_charts",
+   "ppm"
+  ],
+  "District Of Trebisov Solar #7": [
+   "energy_charts",
+   "ppm"
+  ],
+  "biomass register gap @ vojany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "lignite register gap @ vojany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "oil register gap @ vojany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "other register gap @ vojany": [
+   "energy_charts",
+   "model_assembly"
+  ],
+  "wind_onshore register gap @ vojany": [
+   "energy_charts",
+   "model_assembly"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "3": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "4": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "5": [
+   "energy_charts"
+  ],
+  "6": [
+   "energy_charts"
+  ],
+  "7": [
+   "energy_charts"
+  ],
+  "8": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "9": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "10": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "13": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "15": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "16": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "17": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "18": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "19": [
+   "energy_charts"
+  ],
+  "27": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "28": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "29": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "30": [
+   "energy_charts"
+  ],
+  "33": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "36": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "37": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "38": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "40": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "41": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "42": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "43": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "45": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "46": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "47": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "48": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "49": [
+   "energy_charts",
+   "worldpop"
+  ],
+  "50": [
+   "energy_charts",
+   "worldpop"
+  ]
+ },
+ "shunts": {}
+}

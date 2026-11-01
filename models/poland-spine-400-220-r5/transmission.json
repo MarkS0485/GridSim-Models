@@ -1,0 +1,4352 @@
+[
+  {
+    "name": "jao:KRAJNIK-PLEWISKA:0",
+    "from": 21,
+    "to": 93,
+    "rPu": 0.00373,
+    "xPu": 0.043440000000000006,
+    "bPu": 1.172,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KRAJNIK-PLEWISKA c.2:1",
+    "from": 21,
+    "to": 93,
+    "rPu": 0.0028499999999999997,
+    "xPu": 0.03835,
+    "bPu": 1.321024,
+    "ratingMva": 1558.8457268119894,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PLOCK-ROGOWIEC:2",
+    "from": 94,
+    "to": 97,
+    "rPu": 0.00358,
+    "xPu": 0.041639999999999996,
+    "bPu": 1.13882,
+    "ratingMva": 1312.4788199433924,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SIEDLCE UJRZANOW-NAREW:3",
+    "from": 100,
+    "to": 32,
+    "rPu": 0.00331,
+    "xPu": 0.03817,
+    "bPu": 1.09532992,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RZESZOW-SKAWINA:4",
+    "from": 99,
+    "to": 101,
+    "rPu": 0.00331,
+    "xPu": 0.038220000000000004,
+    "bPu": 1.0626200000000001,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WLOCLAWEK AZOTY-OLSZTYN:5",
+    "from": 234,
+    "to": 168,
+    "rPu": 0.027090909090909093,
+    "xPu": 0.1599194214876033,
+    "bPu": 0.26124998679999994,
+    "ratingMva": 244.8253816498608,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROGOWIEC-OLTARZEW:6",
+    "from": 97,
+    "to": 36,
+    "rPu": 0.00317,
+    "xPu": 0.0368,
+    "bPu": 1.00893008,
+    "ratingMva": 1312.4788199433924,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TREBACZEW-DOBRZEN:7",
+    "from": 107,
+    "to": 8,
+    "rPu": 0.0035499999999999998,
+    "xPu": 0.03617,
+    "bPu": 0.95894,
+    "ratingMva": 890.2741150904029,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-PASIKUROWICE:8",
+    "from": 28,
+    "to": 89,
+    "rPu": 0.00223,
+    "xPu": 0.02724,
+    "bPu": 0.95984,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SOCHACZEW-KONIN:9",
+    "from": 226,
+    "to": 149,
+    "rPu": 0.01697995867768595,
+    "xPu": 0.12459090909090909,
+    "bPu": 0.19569997919999998,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WIELOPOLE-JOACHIMOW:10",
+    "from": 110,
+    "to": 17,
+    "rPu": 0.00241,
+    "xPu": 0.02782,
+    "bPu": 0.77072,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK-BLONIA-OLSZTYN-MATKI:11",
+    "from": 12,
+    "to": 35,
+    "rPu": 0.0024,
+    "xPu": 0.02795,
+    "bPu": 0.75408,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROLEKA-OLSZTYN-MATKI:12",
+    "from": 85,
+    "to": 35,
+    "rPu": 0.00231,
+    "xPu": 0.02366,
+    "bPu": 0.84435008,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TUCZNAWA-ROGOWIEC:13",
+    "from": 108,
+    "to": 97,
+    "rPu": 0.00234,
+    "xPu": 0.02704,
+    "bPu": 0.74918,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZARNA-MIKULOWA:14",
+    "from": 6,
+    "to": 28,
+    "rPu": 0.0020399999999999997,
+    "xPu": 0.02472,
+    "bPu": 0.8123800000000001,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROW WLKP-TREBACZEW:15",
+    "from": 86,
+    "to": 107,
+    "rPu": 0.00228,
+    "xPu": 0.02453,
+    "bPu": 0.7942399999999998,
+    "ratingMva": 1524.204710660612,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORZYCZYN-DUNOWO:16",
+    "from": 30,
+    "to": 9,
+    "rPu": 0.0022500000000000003,
+    "xPu": 0.026469999999999997,
+    "bPu": 0.7061399999999999,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZYDOWO KIERZKOWO-GDANSK:17",
+    "from": 240,
+    "to": 131,
+    "rPu": 0.009479958677685951,
+    "xPu": 0.0821900826446281,
+    "bPu": 0.2206199776,
+    "ratingMva": 244.8253816498608,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRUDZIADZ-GDANSK-BLONIA:18",
+    "from": 14,
+    "to": 12,
+    "rPu": 0.0022400000000000002,
+    "xPu": 0.02606,
+    "bPu": 0.7030399999999999,
+    "ratingMva": 1222.8278701436273,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MILOSNA-OSTROLEKA:19",
+    "from": 161,
+    "to": 202,
+    "rPu": 0.015578512396694215,
+    "xPu": 0.11702479338842975,
+    "bPu": 0.17330104,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROW WLKP-ROGOWIEC:20",
+    "from": 86,
+    "to": 97,
+    "rPu": 0.0022,
+    "xPu": 0.023540000000000002,
+    "bPu": 0.7671399999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-KIELCE:21",
+    "from": 95,
+    "to": 19,
+    "rPu": 0.00218,
+    "xPu": 0.02536,
+    "bPu": 0.6857900800000001,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROLEKA-OLSZTYN:22",
+    "from": 202,
+    "to": 168,
+    "rPu": 0.007090082644628099,
+    "xPu": 0.0714504132231405,
+    "bPu": 0.15949000319999998,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PODOLSZYCE-PATNOW:23",
+    "from": 211,
+    "to": 205,
+    "rPu": 0.0143599173553719,
+    "xPu": 0.1072892561983471,
+    "bPu": 0.1608100164,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GRUDZIADZ-PLOCK:24",
+    "from": 14,
+    "to": 94,
+    "rPu": 0.00217,
+    "xPu": 0.02513,
+    "bPu": 0.67098,
+    "ratingMva": 1312.4788199433924,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WIELOPOLE-DOBRZEN:25",
+    "from": 110,
+    "to": 8,
+    "rPu": 0.00213,
+    "xPu": 0.024319999999999998,
+    "bPu": 0.6774399999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK PRZYJAZN-ZYDOWO KIERZKOWO:26",
+    "from": 11,
+    "to": 113,
+    "rPu": 0.0020399999999999997,
+    "xPu": 0.02089,
+    "bPu": 0.7306199999999999,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLKOWICE-PLEWISKA:27",
+    "from": 214,
+    "to": 210,
+    "rPu": 0.0173599173553719,
+    "xPu": 0.10969008264462811,
+    "bPu": 0.16267999879999998,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PILA KRZEWINA-ZYDOWO KIERZKOWO:28",
+    "from": 208,
+    "to": 240,
+    "rPu": 0.015557851239669422,
+    "xPu": 0.10148760330578512,
+    "bPu": 0.14819111999999998,
+    "ratingMva": 245.01590723869336,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROMOLICE-OSTROW c.1:29",
+    "from": 22,
+    "to": 86,
+    "rPu": 0.00196,
+    "xPu": 0.02051,
+    "bPu": 0.70886,
+    "ratingMva": 1247.0765814495915,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROMOLICE-OSTROW c.2:30",
+    "from": 22,
+    "to": 87,
+    "rPu": 0.00168125,
+    "xPu": 0.02089375,
+    "bPu": 0.696192,
+    "ratingMva": 1558.8457268119894,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOBRZEN-PASIKUROWICE:31",
+    "from": 8,
+    "to": 89,
+    "rPu": 0.00194,
+    "xPu": 0.02061,
+    "bPu": 0.69043008,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SIEDLCE UJRZANOW-STANISLAWOW:32",
+    "from": 100,
+    "to": 103,
+    "rPu": 0.0017699999999999999,
+    "xPu": 0.02067,
+    "bPu": 0.6690899199999999,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORY-PODOLSZYCE:33",
+    "from": 163,
+    "to": 211,
+    "rPu": 0.01262004132231405,
+    "xPu": 0.0932603305785124,
+    "bPu": 0.1432300232,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-STANISLAWOW:34",
+    "from": 20,
+    "to": 103,
+    "rPu": 0.00179,
+    "xPu": 0.01991,
+    "bPu": 0.6753600000000001,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-LESNIOW:35",
+    "from": 160,
+    "to": 155,
+    "rPu": 0.0124,
+    "xPu": 0.0924400826446281,
+    "bPu": 0.1571899868,
+    "ratingMva": 438.20885431492593,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-OSTROWIEC:36",
+    "from": 20,
+    "to": 88,
+    "rPu": 0.00184,
+    "xPu": 0.02139,
+    "bPu": 0.5777,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROLEKA-STANISLAWOW:37",
+    "from": 85,
+    "to": 103,
+    "rPu": 0.00134375,
+    "xPu": 0.0189375,
+    "bPu": 0.657792,
+    "ratingMva": 1558.8457268119894,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PATNOW-JASINIEC:38",
+    "from": 90,
+    "to": 16,
+    "rPu": 0.00151,
+    "xPu": 0.01891,
+    "bPu": 0.6361,
+    "ratingMva": 2078.460969082653,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JASINIEC-PATNOW:39",
+    "from": 140,
+    "to": 205,
+    "rPu": 0.01681818181818182,
+    "xPu": 0.08909090909090908,
+    "bPu": 0.12993464,
+    "ratingMva": 337.2302922336604,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OLTARZEW-JANOW:40",
+    "from": 169,
+    "to": 139,
+    "rPu": 0.0118599173553719,
+    "xPu": 0.08915082644628099,
+    "bPu": 0.12660999559999997,
+    "ratingMva": 359.1407349494067,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TARNOW-SKAWINA:41",
+    "from": 106,
+    "to": 101,
+    "rPu": 0.0017399999999999998,
+    "xPu": 0.02009,
+    "bPu": 0.5604499199999999,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-SIEDLCE UJRZANOW:42",
+    "from": 20,
+    "to": 100,
+    "rPu": 0.00161,
+    "xPu": 0.01696,
+    "bPu": 0.5724499200000001,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOBRZEN-PASIKUROWICE:43",
+    "from": 8,
+    "to": 89,
+    "rPu": 0.00191,
+    "xPu": 0.02025,
+    "bPu": 0.54381008,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-SWIEBODZICE c.1:44",
+    "from": 160,
+    "to": 228,
+    "rPu": 0.01455,
+    "xPu": 0.0812995867768595,
+    "bPu": 0.13278999800000002,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-SWIEBODZICE c.2:45",
+    "from": 160,
+    "to": 228,
+    "rPu": 0.0046487603305785125,
+    "xPu": 0.06710743801652892,
+    "bPu": 0.26279264,
+    "ratingMva": 548.7136958378203,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-LUBLIN SYSTEMOWA:46",
+    "from": 20,
+    "to": 27,
+    "rPu": 0.0017000000000000001,
+    "xPu": 0.01977,
+    "bPu": 0.53386,
+    "ratingMva": 692.8203230275509,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-TARNOW:47",
+    "from": 95,
+    "to": 106,
+    "rPu": 0.00169,
+    "xPu": 0.0195,
+    "bPu": 0.5400999999999999,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OLTARZEW-PLOCK:48",
+    "from": 36,
+    "to": 94,
+    "rPu": 0.00168,
+    "xPu": 0.019710000000000002,
+    "bPu": 0.5266899199999999,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZERWONAK-PATNOW:49",
+    "from": 127,
+    "to": 205,
+    "rPu": 0.01105,
+    "xPu": 0.0810702479338843,
+    "bPu": 0.1282400108,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOSNICE-KIELCE:50",
+    "from": 158,
+    "to": 145,
+    "rPu": 0.015099999999999999,
+    "xPu": 0.0844400826446281,
+    "bPu": 0.1171799816,
+    "ratingMva": 223.86756687827736,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORY-KOZIENICE:51",
+    "from": 163,
+    "to": 151,
+    "rPu": 0.0146099173553719,
+    "xPu": 0.07733057851239669,
+    "bPu": 0.1273499832,
+    "ratingMva": 593.5253143312423,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PILA KRZEWINA-PLEWISKA:52",
+    "from": 208,
+    "to": 210,
+    "rPu": 0.0045,
+    "xPu": 0.05516942148760331,
+    "bPu": 0.17775998679999996,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ELK-OSTROLEKA:53",
+    "from": 130,
+    "to": 202,
+    "rPu": 0.01067995867768595,
+    "xPu": 0.0793595041322314,
+    "bPu": 0.12155001759999999,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SKAWINA-KLIKOWA:54",
+    "from": 225,
+    "to": 146,
+    "rPu": 0.015809917355371902,
+    "xPu": 0.08315909090909092,
+    "bPu": 0.11454000359999998,
+    "ratingMva": 298.1725465229822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOBRZEN-WROCLAW:55",
+    "from": 8,
+    "to": 111,
+    "rPu": 0.00159,
+    "xPu": 0.016890000000000002,
+    "bPu": 0.56562992,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GORZOW-KRAJNIK:56",
+    "from": 133,
+    "to": 152,
+    "rPu": 0.01062004132231405,
+    "xPu": 0.07890082644628099,
+    "bPu": 0.12085000839999999,
+    "ratingMva": 361.236516426565,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GORZOW-LESNIOW:57",
+    "from": 133,
+    "to": 155,
+    "rPu": 0.010579958677685951,
+    "xPu": 0.0776198347107438,
+    "bPu": 0.12203000039999999,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-POLKOWICE c.1:58",
+    "from": 160,
+    "to": 214,
+    "rPu": 0.0103900826446281,
+    "xPu": 0.0898305785123967,
+    "bPu": 0.11421998280000001,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-POLKOWICE c.2:59",
+    "from": 160,
+    "to": 214,
+    "rPu": 0.0103900826446281,
+    "xPu": 0.0898305785123967,
+    "bPu": 0.11421998280000001,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PIASECZNO-KOZIENICE:60",
+    "from": 207,
+    "to": 151,
+    "rPu": 0.012,
+    "xPu": 0.0735103305785124,
+    "bPu": 0.1215799772,
+    "ratingMva": 500.1296706855133,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SLUPSK-ZARNOWIEC:61",
+    "from": 102,
+    "to": 112,
+    "rPu": 0.0015,
+    "xPu": 0.01768,
+    "bPu": 0.46943999999999997,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RZESZOW-TARNOW:62",
+    "from": 99,
+    "to": 106,
+    "rPu": 0.00151,
+    "xPu": 0.01757,
+    "bPu": 0.48188991999999997,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ABRAMOWICE-STALOWA WOLA:63",
+    "from": 114,
+    "to": 227,
+    "rPu": 0.01237995867768595,
+    "xPu": 0.0756404958677686,
+    "bPu": 0.10986001399999999,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SKAWINA-TUCZNAWA:64",
+    "from": 101,
+    "to": 108,
+    "rPu": 0.00149,
+    "xPu": 0.01717,
+    "bPu": 0.47712,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BIERUN-KOMOROWICE:65",
+    "from": 117,
+    "to": 148,
+    "rPu": 0.01122004132231405,
+    "xPu": 0.0707396694214876,
+    "bPu": 0.11570997679999999,
+    "ratingMva": 223.86756687827736,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZARNA-PASIKUROWICE:66",
+    "from": 6,
+    "to": 89,
+    "rPu": 0.0017100000000000001,
+    "xPu": 0.0175875,
+    "bPu": 0.45456,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOMZA SYSTEMOWA-ELK BIS:67",
+    "from": 26,
+    "to": 10,
+    "rPu": 0.00146,
+    "xPu": 0.01543,
+    "bPu": 0.51741008,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOMZA SYSTEMOWA-ELK BIS:68",
+    "from": 26,
+    "to": 10,
+    "rPu": 0.00146,
+    "xPu": 0.01542,
+    "bPu": 0.51709008,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYDGOSZCZ ZACHOD-PILA KRZEWINA:69",
+    "from": 123,
+    "to": 208,
+    "rPu": 0.004790082644628099,
+    "xPu": 0.0500206611570248,
+    "bPu": 0.15731001879999998,
+    "ratingMva": 571.5767664977294,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYDGOSZCZ ZACHOD-PILA KRZEWINA:70",
+    "from": 123,
+    "to": 208,
+    "rPu": 0.004790082644628099,
+    "xPu": 0.05003925619834711,
+    "bPu": 0.1573999944,
+    "ratingMva": 571.5767664977294,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-KIELCE:71",
+    "from": 141,
+    "to": 145,
+    "rPu": 0.01217004132231405,
+    "xPu": 0.0733698347107438,
+    "bPu": 0.10553000480000001,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TARNOW-KROSNO ISKRZYNIA:72",
+    "from": 106,
+    "to": 23,
+    "rPu": 0.0014399999999999999,
+    "xPu": 0.014459999999999999,
+    "bPu": 0.51213008,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOMZA SYSTEMOWA-NAREW:73",
+    "from": 26,
+    "to": 32,
+    "rPu": 0.0014000000000000002,
+    "xPu": 0.01516,
+    "bPu": 0.4848,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PATNOW-KROMOLICE:74",
+    "from": 90,
+    "to": 22,
+    "rPu": 0.0013800000000000002,
+    "xPu": 0.01471,
+    "bPu": 0.49356992,
+    "ratingMva": 1605.12612439023,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PATNOW-KROMOLICE:75",
+    "from": 90,
+    "to": 22,
+    "rPu": 0.0013800000000000002,
+    "xPu": 0.01471,
+    "bPu": 0.49356992,
+    "ratingMva": 1605.12612439023,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ABRAMOWICE-MOKRE:76",
+    "from": 114,
+    "to": 162,
+    "rPu": 0.0107,
+    "xPu": 0.06628099173553718,
+    "bPu": 0.10824998799999999,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZGIERZ-ADAMOW:77",
+    "from": 238,
+    "to": 115,
+    "rPu": 0.013040082644628099,
+    "xPu": 0.06873966942148761,
+    "bPu": 0.10093999079999999,
+    "ratingMva": 299.12517446714514,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DUNOWO-ZYDOWO KIERZKOWO:78",
+    "from": 129,
+    "to": 240,
+    "rPu": 0.013037190082644628,
+    "xPu": 0.06873966942148761,
+    "bPu": 0.10094304,
+    "ratingMva": 365.8091305585469,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-ROGOWIEC:79",
+    "from": 141,
+    "to": 222,
+    "rPu": 0.0091900826446281,
+    "xPu": 0.06615909090909092,
+    "bPu": 0.1045199936,
+    "ratingMva": 359.1407349494067,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-ROGOWIEC:80",
+    "from": 17,
+    "to": 97,
+    "rPu": 0.0013700000000000001,
+    "xPu": 0.01569,
+    "bPu": 0.43743999999999994,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-RADKOWICE:81",
+    "from": 212,
+    "to": 220,
+    "rPu": 0.00905,
+    "xPu": 0.0672293388429752,
+    "bPu": 0.1029600132,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PASIKUROWICE-OSTROW WLKP:82",
+    "from": 89,
+    "to": 86,
+    "rPu": 0.00136,
+    "xPu": 0.01599,
+    "bPu": 0.41964992,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MILOSNA-OLTARZEW:83",
+    "from": 29,
+    "to": 36,
+    "rPu": 0.00132,
+    "xPu": 0.015300000000000001,
+    "bPu": 0.42406,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PATNOW-WLOCLAWEK AZOTY:84",
+    "from": 205,
+    "to": 234,
+    "rPu": 0.011179958677685951,
+    "xPu": 0.0671095041322314,
+    "bPu": 0.09482000439999999,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PELPLIN-GRUDZIADZ:85",
+    "from": 91,
+    "to": 14,
+    "rPu": 0.001,
+    "xPu": 0.012470000000000002,
+    "bPu": 0.45458992,
+    "ratingMva": 2057.7456414241287,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PELPLIN-GRUDZIADZ:86",
+    "from": 91,
+    "to": 14,
+    "rPu": 0.001,
+    "xPu": 0.012410000000000001,
+    "bPu": 0.45186992000000004,
+    "ratingMva": 2057.7456414241287,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JASINIEC-GRUDZIADZ:87",
+    "from": 140,
+    "to": 135,
+    "rPu": 0.0047099173553719,
+    "xPu": 0.045309917355371904,
+    "bPu": 0.1307999836,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JASINIEC-GRUDZIADZ:88",
+    "from": 16,
+    "to": 14,
+    "rPu": 0.00132,
+    "xPu": 0.013340000000000001,
+    "bPu": 0.48582000000000003,
+    "ratingMva": 1558.8457268119894,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DUNOWO-SLUPSK:89",
+    "from": 9,
+    "to": 102,
+    "rPu": 0.00131,
+    "xPu": 0.01548,
+    "bPu": 0.41151999999999994,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KIELCE-ROZKI:90",
+    "from": 145,
+    "to": 223,
+    "rPu": 0.012440082644628099,
+    "xPu": 0.0650805785123967,
+    "bPu": 0.09047997640000001,
+    "ratingMva": 298.9346488783125,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PABIANICE-ADAMOW:91",
+    "from": 204,
+    "to": 115,
+    "rPu": 0.0106599173553719,
+    "xPu": 0.06361983471074381,
+    "bPu": 0.0921299808,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MILOSNA-KOZIENICE:92",
+    "from": 29,
+    "to": 20,
+    "rPu": 0.00095,
+    "xPu": 0.013525,
+    "bPu": 0.45856,
+    "ratingMva": 1732.0508075688772,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PULAWY-ROZKI:93",
+    "from": 219,
+    "to": 223,
+    "rPu": 0.010540082644628098,
+    "xPu": 0.0615103305785124,
+    "bPu": 0.09305998679999998,
+    "ratingMva": 244.8253816498608,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-ROGOWIEC:94",
+    "from": 141,
+    "to": 222,
+    "rPu": 0.00822004132231405,
+    "xPu": 0.058080578512396695,
+    "bPu": 0.09753998759999999,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KLIKOWA-LUBOCZA:95",
+    "from": 146,
+    "to": 159,
+    "rPu": 0.0117099173553719,
+    "xPu": 0.06280991735537189,
+    "bPu": 0.08810000319999998,
+    "ratingMva": 283.883127360539,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LUBLIN SYSTEMOWA-CHELM:96",
+    "from": 27,
+    "to": 5,
+    "rPu": 0.00109625,
+    "xPu": 0.0131725,
+    "bPu": 0.40243199999999996,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BOGUCHWALA-CHMIELOW:97",
+    "from": 119,
+    "to": 125,
+    "rPu": 0.007890082644628099,
+    "xPu": 0.058679752066115705,
+    "bPu": 0.089850002,
+    "ratingMva": 342.9460598986377,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RZESZOW-KROSNO ISKRZYNIA:98",
+    "from": 99,
+    "to": 23,
+    "rPu": 0.0011899999999999999,
+    "xPu": 0.01428,
+    "bPu": 0.36666,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZUKOWICE-LESNIOW:99",
+    "from": 239,
+    "to": 155,
+    "rPu": 0.007690082644628099,
+    "xPu": 0.05690082644628099,
+    "bPu": 0.0867299928,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LAGISZA-BLACHOWNIA:100",
+    "from": 154,
+    "to": 118,
+    "rPu": 0.01092995867768595,
+    "xPu": 0.058679752066115705,
+    "bPu": 0.0844299764,
+    "ratingMva": 223.86756687827736,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLKOWICE-LESZNO:101",
+    "from": 214,
+    "to": 156,
+    "rPu": 0.009379958677685951,
+    "xPu": 0.0609297520661157,
+    "bPu": 0.0893400112,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORZYCZYN-POLICE:102",
+    "from": 164,
+    "to": 213,
+    "rPu": 0.00737995867768595,
+    "xPu": 0.0544194214876033,
+    "bPu": 0.11859998919999999,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LESZNO-PLEWISKA:103",
+    "from": 156,
+    "to": 210,
+    "rPu": 0.009340082644628099,
+    "xPu": 0.053900826446281,
+    "bPu": 0.0868299872,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-KLIKOWA:104",
+    "from": 212,
+    "to": 146,
+    "rPu": 0.0037200413223140495,
+    "xPu": 0.04321900826446281,
+    "bPu": 0.1083799904,
+    "ratingMva": 476.3139720814412,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WLOCLAWEK AZOTY-TORUN ELANA:105",
+    "from": 234,
+    "to": 231,
+    "rPu": 0.00737995867768595,
+    "xPu": 0.0548595041322314,
+    "bPu": 0.0931800188,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MOSCISKA-MILOSNA:106",
+    "from": 31,
+    "to": 29,
+    "rPu": 0.0011,
+    "xPu": 0.012709999999999999,
+    "bPu": 0.35206,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OSTROWIEC-POLANIEC:107",
+    "from": 88,
+    "to": 95,
+    "rPu": 0.00116,
+    "xPu": 0.013000000000000001,
+    "bPu": 0.33855999999999997,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZYDOWO KIERZKOWO-SLUPSK:108",
+    "from": 113,
+    "to": 102,
+    "rPu": 0.00089,
+    "xPu": 0.01058,
+    "bPu": 0.3929,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZYDOWO KIERZKOWO-SLUPSK:109",
+    "from": 113,
+    "to": 102,
+    "rPu": 0.00089,
+    "xPu": 0.01056,
+    "bPu": 0.40706992,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHELM-MOKRE:110",
+    "from": 124,
+    "to": 162,
+    "rPu": 0.007,
+    "xPu": 0.051380165289256194,
+    "bPu": 0.0808400032,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TREBACZEW-JOACHIMOW:111",
+    "from": 107,
+    "to": 17,
+    "rPu": 0.00121,
+    "xPu": 0.0124,
+    "bPu": 0.32883007999999997,
+    "ratingMva": 890.2741150904029,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZARNOWIEC-GDANSK PRZYJAZN:112",
+    "from": 112,
+    "to": 11,
+    "rPu": 0.0008699999999999999,
+    "xPu": 0.01098,
+    "bPu": 0.36934,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JANOW-ROGOWIEC:113",
+    "from": 139,
+    "to": 222,
+    "rPu": 0.0092400826446281,
+    "xPu": 0.0505206611570248,
+    "bPu": 0.0769899768,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SKAWINA-BYCZYNA:114",
+    "from": 101,
+    "to": 3,
+    "rPu": 0.00098,
+    "xPu": 0.011279999999999998,
+    "bPu": 0.31613008,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ABRAMOWICE-PULAWY:115",
+    "from": 114,
+    "to": 219,
+    "rPu": 0.006570041322314049,
+    "xPu": 0.04809917355371901,
+    "bPu": 0.0726999944,
+    "ratingMva": 359.1407349494067,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZARNOWIEC-GDANSK:116",
+    "from": 112,
+    "to": 13,
+    "rPu": 0.00095,
+    "xPu": 0.01099,
+    "bPu": 0.30469999999999997,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-ROZKI c.1:117",
+    "from": 151,
+    "to": 223,
+    "rPu": 0.00617995867768595,
+    "xPu": 0.043530991735537185,
+    "bPu": 0.07649000480000001,
+    "ratingMva": 361.236516426565,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-ROZKI c.2:118",
+    "from": 151,
+    "to": 223,
+    "rPu": 0.00617995867768595,
+    "xPu": 0.043530991735537185,
+    "bPu": 0.07649000480000001,
+    "ratingMva": 298.3630721118148,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-RZESZOW:119",
+    "from": 95,
+    "to": 99,
+    "rPu": 0.00105,
+    "xPu": 0.01123,
+    "bPu": 0.28195008,
+    "ratingMva": 1292.1099024463824,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WIELOPOLE-ROKITNICA:120",
+    "from": 110,
+    "to": 98,
+    "rPu": 0.00092,
+    "xPu": 0.010620000000000001,
+    "bPu": 0.29404992,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SIERSZA-LUBOCZA:121",
+    "from": 224,
+    "to": 159,
+    "rPu": 0.0060099173553719,
+    "xPu": 0.042150826446280994,
+    "bPu": 0.07191000959999999,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SIERSZA-LUBOCZA:122",
+    "from": 224,
+    "to": 159,
+    "rPu": 0.0060099173553719,
+    "xPu": 0.042150826446280994,
+    "bPu": 0.07191000959999999,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-CIEPLICE:123",
+    "from": 160,
+    "to": 126,
+    "rPu": 0.005970041322314049,
+    "xPu": 0.04472933884297521,
+    "bPu": 0.06735000359999999,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BLACHOWNIA-WIELOPOLE:124",
+    "from": 118,
+    "to": 233,
+    "rPu": 0.00592995867768595,
+    "xPu": 0.0409297520661157,
+    "bPu": 0.0721499768,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PABIANICE-ROGOWIEC 1:125",
+    "from": 204,
+    "to": 222,
+    "rPu": 0.00585,
+    "xPu": 0.040270661157024795,
+    "bPu": 0.07160997799999999,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PABIANICE-ROGOWIEC 2:126",
+    "from": 204,
+    "to": 222,
+    "rPu": 0.00585,
+    "xPu": 0.040270661157024795,
+    "bPu": 0.07160997799999999,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHMIELOW-POLANIEC:127",
+    "from": 125,
+    "to": 212,
+    "rPu": 0.00557995867768595,
+    "xPu": 0.040619834710743805,
+    "bPu": 0.06491001440000001,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KEDZIERZYN-GROSZOWICE:128",
+    "from": 143,
+    "to": 134,
+    "rPu": 0.0057,
+    "xPu": 0.0420206611570248,
+    "bPu": 0.06470997719999999,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GLINKI-KRAJNIK:129",
+    "from": 132,
+    "to": 152,
+    "rPu": 0.0056799586776859505,
+    "xPu": 0.0401198347107438,
+    "bPu": 0.0703299916,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CHMIELOW-STALOWA WOLA:130",
+    "from": 125,
+    "to": 227,
+    "rPu": 0.005659917355371901,
+    "xPu": 0.04246074380165289,
+    "bPu": 0.06326000999999999,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:TORUN ELANA-GRUDZIADZ:131",
+    "from": 231,
+    "to": 135,
+    "rPu": 0.0055599173553719005,
+    "xPu": 0.04197933884297521,
+    "bPu": 0.06157999759999999,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-SKAWINA:132",
+    "from": 122,
+    "to": 225,
+    "rPu": 0.008199999999999999,
+    "xPu": 0.04302066115702479,
+    "bPu": 0.0636799768,
+    "ratingMva": 298.1725465229822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-SKAWINA:133",
+    "from": 122,
+    "to": 225,
+    "rPu": 0.008199999999999999,
+    "xPu": 0.04302066115702479,
+    "bPu": 0.0636799768,
+    "ratingMva": 298.1725465229822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RECLAW-GLINKI:134",
+    "from": 221,
+    "to": 132,
+    "rPu": 0.0054900826446280995,
+    "xPu": 0.04078925619834711,
+    "bPu": 0.0668799912,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-PULAWY:135",
+    "from": 151,
+    "to": 219,
+    "rPu": 0.00542995867768595,
+    "xPu": 0.0373305785123967,
+    "bPu": 0.0666800024,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOZIENICE-PULAWY:136",
+    "from": 151,
+    "to": 219,
+    "rPu": 0.00542995867768595,
+    "xPu": 0.0373305785123967,
+    "bPu": 0.0666800024,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:T JOA-LAG-LAGISZA:137",
+    "from": 230,
+    "to": 154,
+    "rPu": 0.0053700413223140495,
+    "xPu": 0.04114049586776859,
+    "bPu": 0.0584799776,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SWIEBODZICE-ZABKOWICE:138",
+    "from": 228,
+    "to": 236,
+    "rPu": 0.0051900826446280995,
+    "xPu": 0.0387603305785124,
+    "bPu": 0.0868799844,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BUJAKOW-BYCZYNA:139",
+    "from": 121,
+    "to": 122,
+    "rPu": 0.00517004132231405,
+    "xPu": 0.0388595041322314,
+    "bPu": 0.0596699884,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CIEPLICE-BOGUSZOW:140",
+    "from": 126,
+    "to": 120,
+    "rPu": 0.005140082644628099,
+    "xPu": 0.0382603305785124,
+    "bPu": 0.059329978400000004,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK PRZYJAZN-PELPLIN:141",
+    "from": 11,
+    "to": 91,
+    "rPu": 0.00064,
+    "xPu": 0.00808,
+    "bPu": 0.30729999999999996,
+    "ratingMva": 2057.7456414241287,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK PRZYJAZN-PELPLIN:142",
+    "from": 11,
+    "to": 91,
+    "rPu": 0.00063,
+    "xPu": 0.00805,
+    "bPu": 0.30723007999999996,
+    "ratingMva": 2057.7456414241287,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SWIEBODZICE-WROCLAW:143",
+    "from": 105,
+    "to": 111,
+    "rPu": 0.00075,
+    "xPu": 0.00781,
+    "bPu": 0.27014,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROGOWIEC-TREBACZEW:144",
+    "from": 97,
+    "to": 107,
+    "rPu": 0.0007599999999999999,
+    "xPu": 0.00869,
+    "bPu": 0.24089999999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ADAMOW-KONIN:145",
+    "from": 115,
+    "to": 149,
+    "rPu": 0.00697995867768595,
+    "xPu": 0.03740082644628099,
+    "bPu": 0.0546299996,
+    "ratingMva": 341.9934319544748,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WIELOPOLE-KEDZIERZYN:146",
+    "from": 233,
+    "to": 143,
+    "rPu": 0.00487995867768595,
+    "xPu": 0.0336198347107438,
+    "bPu": 0.05961002079999999,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ROKITNICA-LAGISZA:147",
+    "from": 98,
+    "to": 24,
+    "rPu": 0.00074,
+    "xPu": 0.008329999999999999,
+    "bPu": 0.24035007999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KRAJNIK-MORZYCZYN:148",
+    "from": 21,
+    "to": 30,
+    "rPu": 0.00073,
+    "xPu": 0.00859,
+    "bPu": 0.22921999999999998,
+    "ratingMva": 1392.5688492853774,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KRAJNIK-MORZYCZYN:149",
+    "from": 152,
+    "to": 164,
+    "rPu": 0.004690082644628099,
+    "xPu": 0.034859504132231406,
+    "bPu": 0.053380021199999995,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOSNICE-SIERSZA:150",
+    "from": 158,
+    "to": 224,
+    "rPu": 0.005890082644628099,
+    "xPu": 0.0350599173553719,
+    "bPu": 0.052350020799999994,
+    "ratingMva": 304.8409421321224,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JANOW-PIOTRKOW:151",
+    "from": 139,
+    "to": 209,
+    "rPu": 0.00457004132231405,
+    "xPu": 0.0335103305785124,
+    "bPu": 0.0524500152,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MOSZCZENICA-WIELOPOLE:152",
+    "from": 165,
+    "to": 233,
+    "rPu": 0.00455,
+    "xPu": 0.0315702479338843,
+    "bPu": 0.055310019599999996,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ADAMOW-KONIN:153",
+    "from": 115,
+    "to": 149,
+    "rPu": 0.004359917355371901,
+    "xPu": 0.032020661157024795,
+    "bPu": 0.050299990399999994,
+    "ratingMva": 438.20885431492593,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOMZA SYSTEMOWA-OSTROLEKA 1:154",
+    "from": 26,
+    "to": 85,
+    "rPu": 0.00065,
+    "xPu": 0.00699,
+    "bPu": 0.2279,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LOMZA SYSTEMOWA-OSTROLEKA 2:155",
+    "from": 26,
+    "to": 85,
+    "rPu": 0.00065,
+    "xPu": 0.00699,
+    "bPu": 0.2279,
+    "ratingMva": 1839.4379576381475,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SOCHACZEW-OLTARZEW:156",
+    "from": 226,
+    "to": 169,
+    "rPu": 0.00412995867768595,
+    "xPu": 0.030849173553719005,
+    "bPu": 0.0465599772,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PIOTRKOW-ROGOWIEC:157",
+    "from": 209,
+    "to": 222,
+    "rPu": 0.003990082644628099,
+    "xPu": 0.0290103305785124,
+    "bPu": 0.048079979200000005,
+    "ratingMva": 420.07081825806466,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-LOSNICE:158",
+    "from": 141,
+    "to": 158,
+    "rPu": 0.0039,
+    "xPu": 0.02846900826446281,
+    "bPu": 0.0449800076,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-POREBA:159",
+    "from": 122,
+    "to": 216,
+    "rPu": 0.00432004132231405,
+    "xPu": 0.028099173553719006,
+    "bPu": 0.048909990800000004,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KATOWICE-KOPANINA:160",
+    "from": 142,
+    "to": 150,
+    "rPu": 0.003840082644628099,
+    "xPu": 0.027210743801652892,
+    "bPu": 0.0451699776,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORY-PRAGA:161",
+    "from": 163,
+    "to": 218,
+    "rPu": 0.00371900826446281,
+    "xPu": 0.027646694214876033,
+    "bPu": 0.04235968,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYDGOSZCZ ZACHOD-JASINIEC:162",
+    "from": 123,
+    "to": 140,
+    "rPu": 0.0018200413223140497,
+    "xPu": 0.0208099173553719,
+    "bPu": 0.053170013599999996,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROMOLICE-PLEWISKA c.1:163",
+    "from": 22,
+    "to": 93,
+    "rPu": 0.00054,
+    "xPu": 0.005620000000000001,
+    "bPu": 0.19427007999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROMOLICE-PLEWISKA c.2:164",
+    "from": 22,
+    "to": 93,
+    "rPu": 0.00054,
+    "xPu": 0.005620000000000001,
+    "bPu": 0.19427007999999998,
+    "ratingMva": 1605.6110986163492,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORY-PIASECZNO:165",
+    "from": 163,
+    "to": 207,
+    "rPu": 0.0038200413223140497,
+    "xPu": 0.025349173553719007,
+    "bPu": 0.0424199864,
+    "ratingMva": 476.3139720814412,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLANIEC-CHMIELOW:166",
+    "from": 212,
+    "to": 125,
+    "rPu": 0.0032900826446280993,
+    "xPu": 0.0250599173553719,
+    "bPu": 0.043900009999999996,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JANOW-ZGIERZ:167",
+    "from": 139,
+    "to": 238,
+    "rPu": 0.004790082644628099,
+    "xPu": 0.026710743801652895,
+    "bPu": 0.03983997599999999,
+    "ratingMva": 344.6607901981309,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZERWONAK-PLEWISKA:168",
+    "from": 127,
+    "to": 210,
+    "rPu": 0.0035499999999999998,
+    "xPu": 0.026070247933884298,
+    "bPu": 0.0409600004,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-KOKSOCHEMIA:169",
+    "from": 122,
+    "to": 147,
+    "rPu": 0.00345,
+    "xPu": 0.0250599173553719,
+    "bPu": 0.0459100136,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-TUCZNAWA:170",
+    "from": 3,
+    "to": 108,
+    "rPu": 0.0005099999999999999,
+    "xPu": 0.00599,
+    "bPu": 0.16352,
+    "ratingMva": 831.384387633061,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK PRZYJAZN-GDANSK-BLONIA:171",
+    "from": 11,
+    "to": 12,
+    "rPu": 0.00043,
+    "xPu": 0.0053300000000000005,
+    "bPu": 0.1792,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SKAWINA-WANDA:172",
+    "from": 225,
+    "to": 232,
+    "rPu": 0.00457004132231405,
+    "xPu": 0.025169421487603306,
+    "bPu": 0.0362800108,
+    "ratingMva": 298.1725465229822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-JAMKI:173",
+    "from": 122,
+    "to": 138,
+    "rPu": 0.003309917355371901,
+    "xPu": 0.023969008264462813,
+    "bPu": 0.0437299808,
+    "ratingMva": 273.40421997474726,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOPANINA-WIELOPOLE:174",
+    "from": 150,
+    "to": 233,
+    "rPu": 0.0031400826446280994,
+    "xPu": 0.02159090909090909,
+    "bPu": 0.0383900088,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOKSOCHEMIA-LOSNICE:175",
+    "from": 147,
+    "to": 158,
+    "rPu": 0.003159917355371901,
+    "xPu": 0.023780991735537188,
+    "bPu": 0.0352699996,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LAGISZA-TUCZNAWA:176",
+    "from": 24,
+    "to": 108,
+    "rPu": 0.00043999999999999996,
+    "xPu": 0.00491,
+    "bPu": 0.14565999999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GDANSK-GDANSK-BLONIA:177",
+    "from": 13,
+    "to": 12,
+    "rPu": 0.0003625,
+    "xPu": 0.0038687500000000002,
+    "bPu": 0.176608,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PRAGA-MILOSNA:178",
+    "from": 218,
+    "to": 161,
+    "rPu": 0.0027933884297520663,
+    "xPu": 0.020762396694214875,
+    "bPu": 0.03194399999999999,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:T HAL-BYC-LAGISZA:179",
+    "from": 229,
+    "to": 154,
+    "rPu": 0.0027900826446280993,
+    "xPu": 0.02017004132231405,
+    "bPu": 0.0320399772,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZARNA-POLKOWICE:180",
+    "from": 6,
+    "to": 96,
+    "rPu": 0.00041,
+    "xPu": 0.00433,
+    "bPu": 0.14522000000000002,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:CZARNA-POLKOWICE:181",
+    "from": 6,
+    "to": 96,
+    "rPu": 0.00041,
+    "xPu": 0.00433,
+    "bPu": 0.14515008,
+    "ratingMva": 1662.768775266122,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MOKRE-ZAMOSC:182",
+    "from": 162,
+    "to": 237,
+    "rPu": 0.00302004132231405,
+    "xPu": 0.0201,
+    "bPu": 0.0306900044,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KIELCE-RADKOWICE:183",
+    "from": 145,
+    "to": 220,
+    "rPu": 0.002459917355371901,
+    "xPu": 0.0182599173553719,
+    "bPu": 0.027979991599999997,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KIELCE PIASKI-RADKOWICE:184",
+    "from": 144,
+    "to": 220,
+    "rPu": 0.00245,
+    "xPu": 0.01822004132231405,
+    "bPu": 0.029879982,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HALEMBA-T HAL-BYC:185",
+    "from": 136,
+    "to": 229,
+    "rPu": 0.00237995867768595,
+    "xPu": 0.01667004132231405,
+    "bPu": 0.0284600228,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:POLKOWICE-ZUKOWICE:186",
+    "from": 214,
+    "to": 239,
+    "rPu": 0.002359917355371901,
+    "xPu": 0.0174599173553719,
+    "bPu": 0.026760021199999998,
+    "ratingMva": 381.051177665153,
+    "circuits": 1
+  },
+  {
+    "name": "jao:STANISLAWOW-MILOSNA c.2:187",
+    "from": 103,
+    "to": 29,
+    "rPu": 0.00035000000000000005,
+    "xPu": 0.004050000000000001,
+    "bPu": 0.11173999999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:STANISLAWOW-MILOSNA c.1:188",
+    "from": 103,
+    "to": 29,
+    "rPu": 0.00035000000000000005,
+    "xPu": 0.0040100000000000005,
+    "bPu": 0.1119,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BOGUSZOW-SWIEBODZICE:189",
+    "from": 120,
+    "to": 228,
+    "rPu": 0.0022099173553719012,
+    "xPu": 0.01617995867768595,
+    "bPu": 0.02541,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JANOW-PABIANICE:190",
+    "from": 139,
+    "to": 204,
+    "rPu": 0.0028700413223140494,
+    "xPu": 0.0167099173553719,
+    "bPu": 0.0246700124,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KIELCE-KIELCE PIASKI:191",
+    "from": 145,
+    "to": 144,
+    "rPu": 0.0024200413223140495,
+    "xPu": 0.015309917355371901,
+    "bPu": 0.0224899796,
+    "ratingMva": 274.35684791891015,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KATOWICE-LAGISZA:192",
+    "from": 142,
+    "to": 154,
+    "rPu": 0.001940082644628099,
+    "xPu": 0.014150000000000001,
+    "bPu": 0.022300009599999997,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BIERUN-BYCZYNA:193",
+    "from": 117,
+    "to": 122,
+    "rPu": 0.00225,
+    "xPu": 0.014240082644628099,
+    "bPu": 0.0262600008,
+    "ratingMva": 298.1725465229822,
+    "circuits": 1
+  },
+  {
+    "name": "jao:T HAL-BYC-BYCZYNA:194",
+    "from": 229,
+    "to": 122,
+    "rPu": 0.0019200413223140495,
+    "xPu": 0.0134900826446281,
+    "bPu": 0.028480012,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:LUBOCZA-WANDA:195",
+    "from": 159,
+    "to": 232,
+    "rPu": 0.0021299586776859503,
+    "xPu": 0.0133900826446281,
+    "bPu": 0.021500006000000002,
+    "ratingMva": 283.883127360539,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-SIERSZA:196",
+    "from": 122,
+    "to": 224,
+    "rPu": 0.0018200413223140497,
+    "xPu": 0.0128099173553719,
+    "bPu": 0.0255200132,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BYCZYNA-SIERSZA:197",
+    "from": 122,
+    "to": 224,
+    "rPu": 0.0018200413223140497,
+    "xPu": 0.0127900826446281,
+    "bPu": 0.0247799772,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ANIOLOW-JOACHIMOW:198",
+    "from": 116,
+    "to": 141,
+    "rPu": 0.002090082644628099,
+    "xPu": 0.013,
+    "bPu": 0.0200199824,
+    "ratingMva": 244.8253816498608,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OLSZTYN MATKI-OLSZTYN:199",
+    "from": 167,
+    "to": 168,
+    "rPu": 0.0007599173553719009,
+    "xPu": 0.007790082644628099,
+    "bPu": 0.025060019599999997,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OLTARZEW-MOSCISKA:200",
+    "from": 36,
+    "to": 31,
+    "rPu": 0.00024,
+    "xPu": 0.0028399999999999996,
+    "bPu": 0.07858992,
+    "ratingMva": 1046.1586877716018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BUJAKOW-KOMOROWICE:201",
+    "from": 121,
+    "to": 148,
+    "rPu": 0.0015700413223140497,
+    "xPu": 0.01122004132231405,
+    "bPu": 0.018540007199999996,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HALEMBA-KOPANINA:202",
+    "from": 136,
+    "to": 150,
+    "rPu": 0.00145,
+    "xPu": 0.01007995867768595,
+    "bPu": 0.017189985999999997,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JOACHIMOW-HUTA CZESTOCHOWA:203",
+    "from": 141,
+    "to": 137,
+    "rPu": 0.0013799586776859505,
+    "xPu": 0.009899999999999999,
+    "bPu": 0.0158400132,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORY-OLTARZEW:204",
+    "from": 163,
+    "to": 169,
+    "rPu": 0.001340082644628099,
+    "xPu": 0.00992004132231405,
+    "bPu": 0.015200020000000002,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:JAMKI-LAGISZA:205",
+    "from": 138,
+    "to": 154,
+    "rPu": 0.0017099173553719008,
+    "xPu": 0.00975,
+    "bPu": 0.013910014799999999,
+    "ratingMva": 223.86756687827736,
+    "circuits": 1
+  },
+  {
+    "name": "jao:OLTARZEW-MORY:206",
+    "from": 169,
+    "to": 163,
+    "rPu": 0.0011799586776859506,
+    "xPu": 0.008820041322314051,
+    "bPu": 0.012499977599999998,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:GLINKI-POLICE:207",
+    "from": 132,
+    "to": 213,
+    "rPu": 0.00105,
+    "xPu": 0.00732995867768595,
+    "bPu": 0.0125799828,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BUJAKOW-PORABKA-ZAR:208",
+    "from": 121,
+    "to": 215,
+    "rPu": 0.00085,
+    "xPu": 0.00632004132231405,
+    "bPu": 0.009309982,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BUJAKOW-PORABKA-ZAR:209",
+    "from": 121,
+    "to": 215,
+    "rPu": 0.00085,
+    "xPu": 0.006120041322314049,
+    "bPu": 0.0096400216,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:T JOA-LAG-JOACHIMOW:210",
+    "from": 230,
+    "to": 141,
+    "rPu": 0.0007438016528925619,
+    "xPu": 0.00532995867768595,
+    "bPu": 0.00847,
+    "ratingMva": 409.63001599003945,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WRZOSOWA-T JOA-LAG:211",
+    "from": 235,
+    "to": 230,
+    "rPu": 0.0006599173553719008,
+    "xPu": 0.00502004132231405,
+    "bPu": 0.0074000212,
+    "ratingMva": 434.3983425382744,
+    "circuits": 1
+  },
+  {
+    "name": "jao:HUTA CZESTOCHOWA-WRZOSOWA:212",
+    "from": 137,
+    "to": 235,
+    "rPu": 0.0005799586776859504,
+    "xPu": 0.00417004132231405,
+    "bPu": 0.006839984799999999,
+    "ratingMva": 359.1407349494067,
+    "circuits": 1
+  },
+  {
+    "name": "jao:PLEWISKA-POZNAN PLD:213",
+    "from": 210,
+    "to": 217,
+    "rPu": 0.0023299586776859504,
+    "xPu": 0.01642995867768595,
+    "bPu": 0.023289983199999996,
+    "ratingMva": 223.9056719960439,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KONIN-PATNOW:214",
+    "from": 149,
+    "to": 205,
+    "rPu": 0.0006,
+    "xPu": 0.003509917355371901,
+    "bPu": 0.0055499796,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KONIN-PATNOW:215",
+    "from": 149,
+    "to": 205,
+    "rPu": 0.0006,
+    "xPu": 0.003509917355371901,
+    "bPu": 0.0055499796,
+    "ratingMva": 382.95643355347875,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MORZYCZYN-RECLAW:216",
+    "from": 164,
+    "to": 221,
+    "rPu": 0.00852004132231405,
+    "xPu": 0.06334917355371901,
+    "bPu": 0.10388000039999999,
+    "ratingMva": 287.6936391371905,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MOSZCZENICA-POREBA:217",
+    "from": 165,
+    "to": 216,
+    "rPu": 0.008987603305785123,
+    "xPu": 0.056260330578512395,
+    "bPu": 0.0870716,
+    "ratingMva": 244.8253816498608,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZABKOWICE-NYSA:218",
+    "from": 166,
+    "to": 236,
+    "rPu": 0.004669421487603305,
+    "xPu": 0.035,
+    "bPu": 0.05448872,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:NYSA-GROSZOWICE:219",
+    "from": 166,
+    "to": 134,
+    "rPu": 0.00609504132231405,
+    "xPu": 0.045371900826446286,
+    "bPu": 0.0684376,
+    "ratingMva": 361.04599083773246,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-SWIEBODZICE c.1:220",
+    "from": 28,
+    "to": 105,
+    "rPu": 0.00139375,
+    "xPu": 0.020181249999999998,
+    "bPu": 0.66096,
+    "ratingMva": 1558.8457268119894,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BACZYNA-PLEWISKA c.3:221",
+    "from": 2,
+    "to": 93,
+    "rPu": 0.00250625,
+    "xPu": 0.029437500000000002,
+    "bPu": 0.721504,
+    "ratingMva": 1454.9226783578567,
+    "circuits": 1
+  },
+  {
+    "name": "jao:DOBRZEN-DETMAROVICE:222",
+    "from": 8,
+    "to": 7,
+    "rPu": 0.0024375,
+    "xPu": 0.026618750000000004,
+    "bPu": 0.752288,
+    "ratingMva": 1392.5688492853774,
+    "circuits": 1
+  },
+  {
+    "name": "jao:RZESZOW-KHMELNYTSKYI:223",
+    "from": 99,
+    "to": 18,
+    "rPu": 0.00395625,
+    "xPu": 0.071,
+    "bPu": 2.5664,
+    "ratingMva": 1039.2304845413264,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ELK BIS-ALYTUS:224",
+    "from": 10,
+    "to": 1,
+    "rPu": 0.00134,
+    "xPu": 0.01451,
+    "bPu": 0.51332992,
+    "ratingMva": 1818.6533479473212,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ELK BIS-ALYTUS:225",
+    "from": 10,
+    "to": 1,
+    "rPu": 0.00134,
+    "xPu": 0.01451,
+    "bPu": 0.51332992,
+    "ratingMva": 1818.6533479473212,
+    "circuits": 1
+  },
+  {
+    "name": "jao:ZAMOSC-DOBROTWOR:226",
+    "from": 237,
+    "to": 128,
+    "rPu": 0.0073700413223140495,
+    "xPu": 0.04296900826446281,
+    "bPu": 0.0651799896,
+    "ratingMva": 338.41155088442235,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KOPANINA-LISKOWIEC:227",
+    "from": 150,
+    "to": 157,
+    "rPu": 0.0060400826446281,
+    "xPu": 0.03627066115702479,
+    "bPu": 0.0572900152,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:BUJAKOW-LISKOWIEC:228",
+    "from": 121,
+    "to": 157,
+    "rPu": 0.0062200413223140495,
+    "xPu": 0.03478925619834711,
+    "bPu": 0.054209984399999994,
+    "ratingMva": 400.1037365484106,
+    "circuits": 1
+  },
+  {
+    "name": "jao:WIELOPOLE-NOSOVICE:229",
+    "from": 110,
+    "to": 33,
+    "rPu": 0.00084,
+    "xPu": 0.00801,
+    "bPu": 0.25744,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROSNO-LEMESANY 2:230",
+    "from": 23,
+    "to": 25,
+    "rPu": 0.0022312499999999997,
+    "xPu": 0.022087500000000003,
+    "bPu": 0.3696,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KROSNO-LEMESANY 1:231",
+    "from": 23,
+    "to": 25,
+    "rPu": 0.0022312499999999997,
+    "xPu": 0.022087500000000003,
+    "bPu": 0.3696,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KRAJNIK-VIERRADEN c.1:232",
+    "from": 21,
+    "to": 109,
+    "rPu": 0.00021999999999999998,
+    "xPu": 0.00243,
+    "bPu": 0.0808,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:KRAJNIK-VIERRADEN c.2:233",
+    "from": 21,
+    "to": 109,
+    "rPu": 0.00021999999999999998,
+    "xPu": 0.00243,
+    "bPu": 0.0808,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:SLUPSK-STARNO:234",
+    "from": 102,
+    "to": 104,
+    "rPu": 1e-05,
+    "xPu": 0.0001,
+    "bPu": 1.9999999999999998e-05,
+    "ratingMva": 923.5294905957254,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-HAGENWERDER:235",
+    "from": 28,
+    "to": 15,
+    "rPu": 0.00014000000000000001,
+    "xPu": 0.00145,
+    "bPu": 0.0484,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "jao:MIKULOWA-HAGENWERDER:236",
+    "from": 28,
+    "to": 15,
+    "rPu": 0.00014000000000000001,
+    "xPu": 0.0014399999999999999,
+    "bPu": 0.04538992,
+    "ratingMva": 1579.6303365028161,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mory - osm stacja elektroenergetyczna 220/110/15 kv se warszawa towarowa 220 (OSM merged_relation/5284713-220+1)",
+    "from": 163,
+    "to": 170,
+    "rPu": 0.0009060338675489862,
+    "xPu": 0.006669984420911002,
+    "bPu": 0.010424126057827898,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39992876:0 - baczyna 400 (OSM merged_way/1415598441-400+1)",
+    "from": 79,
+    "to": 2,
+    "rPu": 0.0011528908831168832,
+    "xPu": 0.013148051396542692,
+    "bPu": 0.3781056358516363,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/146491141:1 220 (OSM merged_way/146491141-220+1)",
+    "from": 122,
+    "to": 180,
+    "rPu": 0.0009639639062449578,
+    "xPu": 0.0070964502181004325,
+    "bPu": 0.011090624350585157,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/169288047:1 - kromolice 220 (OSM merged_way/169293856-220+1)",
+    "from": 182,
+    "to": 153,
+    "rPu": 0.00206237671912031,
+    "xPu": 0.015182678130779996,
+    "bPu": 0.023728114001960617,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/171092657:1 220 (OSM merged_way/171092663-220+2)",
+    "from": 222,
+    "to": 185,
+    "rPu": 0.0006862219812480952,
+    "xPu": 0.005051786790921487,
+    "bPu": 0.007895140228624847,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594443:b:1 - lagisza 400 (OSM merged_way/172088702-400+2 c1)",
+    "from": 41,
+    "to": 24,
+    "rPu": 0.0001321699090909091,
+    "xPu": 0.00150732110319539,
+    "bPu": 0.0433468494279043,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594443:b:1 - lagisza 400 (OSM merged_way/172088702-400+2 c2)",
+    "from": 41,
+    "to": 24,
+    "rPu": 0.0001321699090909091,
+    "xPu": 0.00150732110319539,
+    "bPu": 0.0433468494279043,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/41454613:0 - jamki 220 (OSM merged_way/312667143-220+2)",
+    "from": 197,
+    "to": 138,
+    "rPu": 0.0015548568253840914,
+    "xPu": 0.011446449380655529,
+    "bPu": 0.01788898200188036,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/172089700:1 - lagisza 220 (OSM merged_way/375221662-220+2)",
+    "from": 186,
+    "to": 154,
+    "rPu": 0.005379493003903659,
+    "xPu": 0.039602420851555145,
+    "bPu": 0.0618922925603144,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/375527889:1 220 (OSM merged_way/375533488-220+1 c1)",
+    "from": 222,
+    "to": 194,
+    "rPu": 0.00287615150670031,
+    "xPu": 0.021173475329092556,
+    "bPu": 0.033090778326379376,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/375527889:1 220 (OSM merged_way/375533488-220+1 c2)",
+    "from": 222,
+    "to": 194,
+    "rPu": 0.00287615150670031,
+    "xPu": 0.021173475329092556,
+    "bPu": 0.033090778326379376,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/409617080:0 - osm virtual_way/556002424:1 220 (OSM merged_way/409617079-220+4)",
+    "from": 196,
+    "to": 199,
+    "rPu": 0.0009029312632079022,
+    "xPu": 0.006647143859028626,
+    "bPu": 0.010388429888051689,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/148989154:1 - wroclaw 400 (OSM merged_way/498440954-400+2)",
+    "from": 76,
+    "to": 111,
+    "rPu": 0.00024138561038961038,
+    "xPu": 0.0027528627888947096,
+    "bPu": 0.07916556635008612,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ostroleka - olsztyn matki 400 (OSM merged_way/520860592-400+4)",
+    "from": 85,
+    "to": 34,
+    "rPu": 0.002386744246753247,
+    "xPu": 0.027219432893661605,
+    "bPu": 0.7827639755412823,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/556002424:1 - osm virtual_way/281264247:1 220 (OSM merged_way/556002424-220+1)",
+    "from": 199,
+    "to": 189,
+    "rPu": 0.0063487964654228134,
+    "xPu": 0.04673817947938405,
+    "bPu": 0.07304434971078104,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bydgoszcz zachod - pila krzewina 400 (OSM merged_way/657657500-400+2)",
+    "from": 4,
+    "to": 92,
+    "rPu": 0.0014541141038961038,
+    "xPu": 0.016583327402828706,
+    "bPu": 0.47689572873370334,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:plock - osm stacja elektroenergetyczna pkn orlen 400 (OSM merged_way/658600173-400+4)",
+    "from": 94,
+    "to": 38,
+    "rPu": 0.0001254142987012987,
+    "xPu": 0.001430277287585123,
+    "bPu": 0.04113125869044976,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wloclawek azoty - osm virtual_way/665974764:1 220 (OSM merged_way/665974770-220+3)",
+    "from": 234,
+    "to": 200,
+    "rPu": 0.00013911388138882416,
+    "xPu": 0.0010241200189415106,
+    "bPu": 0.0016005368981556495,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:plewiska - osm virtual_way/169288047:1 220 (OSM merged_way/859474318-220+1)",
+    "from": 210,
+    "to": 182,
+    "rPu": 0.0015894654855237444,
+    "xPu": 0.011701229287045298,
+    "bPu": 0.018287162521295395,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:krajnik - baczyna 400 (OSM merged_way/912975315-400+2)",
+    "from": 21,
+    "to": 2,
+    "rPu": 0.0012229257272727272,
+    "xPu": 0.01394675814667365,
+    "bPu": 0.40107447849676553,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:tarnow - osm virtual_relation/2674035:b:1 400 (OSM relation/2674035:b-400)",
+    "from": 106,
+    "to": 39,
+    "rPu": 0.00011436095454545456,
+    "xPu": 0.0013042203127291777,
+    "bPu": 0.03750616998384689,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/2674035:b:1 - krosno iskrzynia 400 (OSM relation/2674035:c-400)",
+    "from": 39,
+    "to": 23,
+    "rPu": 0.0013214343506493505,
+    "xPu": 0.015070191822943948,
+    "bPu": 0.43338166925014354,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_relation/5594443:d:1 400 (OSM relation/3263160:a-400)",
+    "from": 97,
+    "to": 42,
+    "rPu": 0.00214164262987013,
+    "xPu": 0.02442419120743845,
+    "bPu": 0.7023796962855502,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594443:d:1 - tucznawa 400 (OSM relation/3263160:b-400)",
+    "from": 42,
+    "to": 108,
+    "rPu": 0.00019262746753246753,
+    "xPu": 0.0021968044683080144,
+    "bPu": 0.0631746960275598,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gdansk-blonia - olsztyn matki 400 (OSM relation/5436818-400)",
+    "from": 12,
+    "to": 34,
+    "rPu": 0.002395933714285714,
+    "xPu": 0.027324233437401778,
+    "bPu": 0.785777781544421,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5589533:0 - narew 400 (OSM relation/5589533-400)",
+    "from": 40,
+    "to": 32,
+    "rPu": 0.0002298041883116883,
+    "xPu": 0.002620783391828182,
+    "bPu": 0.07536728758583731,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rokitnica - osm virtual_relation/5594443:b:1 400 (OSM relation/5594443:b-400)",
+    "from": 98,
+    "to": 41,
+    "rPu": 0.0006027970909090909,
+    "xPu": 0.00687455096490309,
+    "bPu": 0.19769518580241147,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594443:b:1 - osm virtual_relation/5594443:d:1 400 (OSM relation/5594443:d-400)",
+    "from": 41,
+    "to": 42,
+    "rPu": 0.00011367876623376622,
+    "xPu": 0.0012964403509690937,
+    "bPu": 0.037282437409377985,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594443:d:1 - joachimow 400 (OSM relation/5594443:e-400)",
+    "from": 42,
+    "to": 17,
+    "rPu": 0.0007836004870129869,
+    "xPu": 0.00893650876113148,
+    "bPu": 0.25699202303923446,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:trebaczew - osm virtual_relation/5594532:b:1 400 (OSM relation/5594532:b-400)",
+    "from": 107,
+    "to": 43,
+    "rPu": 0.00046401638961038956,
+    "xPu": 0.005291837613410162,
+    "bPu": 0.15218024065286126,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5594532:b:1 - joachimow 400 (OSM relation/5594532:c-400)",
+    "from": 43,
+    "to": 17,
+    "rPu": 0.000580748435064935,
+    "xPu": 0.00662309884180199,
+    "bPu": 0.19046404089554067,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pasikurowice - ostrow 400 (OSM relation/5594640-400)",
+    "from": 89,
+    "to": 87,
+    "rPu": 0.0013527352402597401,
+    "xPu": 0.015427160302252487,
+    "bPu": 0.44364720516700473,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ostrow - trebaczew 400 (OSM relation/5594641-400)",
+    "from": 87,
+    "to": 107,
+    "rPu": 0.0022847571818181813,
+    "xPu": 0.02605632961026715,
+    "bPu": 0.7493159844081912,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ostrow - rogowiec 400 (OSM relation/5594642-400)",
+    "from": 87,
+    "to": 97,
+    "rPu": 0.00219700612987013,
+    "xPu": 0.02505557979256155,
+    "bPu": 0.7205368798291292,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pila krzewina - osm virtual_relation/5596461:1 220 (OSM relation/5596461-220)",
+    "from": 208,
+    "to": 173,
+    "rPu": 0.013178255432441152,
+    "xPu": 0.09701487061069035,
+    "bPu": 0.151618831006441,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dunowo - osm virtual_relation/5596461:1 220 (OSM relation/5596466-220)",
+    "from": 129,
+    "to": 173,
+    "rPu": 0.005710776116468869,
+    "xPu": 0.042041240501529645,
+    "bPu": 0.06570378024294524,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bydgoszcz zachod - osm virtual_relation/5596469:a:1 400 (OSM relation/5596469:a-400)",
+    "from": 4,
+    "to": 44,
+    "rPu": 0.0004610344675324676,
+    "xPu": 0.0052578305227868,
+    "bPu": 0.15120228032734928,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596469:a:1 - osm virtual_relation/5596469:b:1 400 (OSM relation/5596469:b-400)",
+    "from": 44,
+    "to": 45,
+    "rPu": 3.173885064935065e-05,
+    "xPu": 0.00036196317077003665,
+    "bPu": 0.010409170964669857,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596469:b:1 - jasiniec 400 (OSM relation/5596469:c-400)",
+    "from": 45,
+    "to": 16,
+    "rPu": 3.370757142857143e-05,
+    "xPu": 0.000384415288632792,
+    "bPu": 0.011054838679578946,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:patnow - osm virtual_relation/5596643:a:1 220 (OSM relation/5596643:a-220)",
+    "from": 205,
+    "to": 174,
+    "rPu": 0.012585317800339722,
+    "xPu": 0.09264981880596344,
+    "bPu": 0.1447969484666902,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596643:a:1 - podolszyce 220 (OSM relation/5596643:b-220)",
+    "from": 174,
+    "to": 211,
+    "rPu": 0.0018306856913016976,
+    "xPu": 0.013477029367124426,
+    "bPu": 0.021062455943302732,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lesniow - osm virtual_way/1445384724:0 220 (OSM relation/5597986:a-220)",
+    "from": 155,
+    "to": 178,
+    "rPu": 0.002225238397837077,
+    "xPu": 0.01638162322401683,
+    "bPu": 0.025601874718572306,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:glinki - osm virtual_relation/5598027:b:1 220 (OSM relation/5598027:b-220)",
+    "from": 132,
+    "to": 175,
+    "rPu": 0.0015402280983444184,
+    "xPu": 0.011338756517345314,
+    "bPu": 0.01772067516458781,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5598027:b:1 - osm virtual_relation/5598027:c:1 220 (OSM relation/5598027:c-220)",
+    "from": 175,
+    "to": 176,
+    "rPu": 0.004101962170452304,
+    "xPu": 0.030197572907619683,
+    "bPu": 0.04719400927573416,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5598027:c:1 - morzyczyn 220 (OSM relation/5598027:d-220)",
+    "from": 176,
+    "to": 164,
+    "rPu": 0.0009293703921272477,
+    "xPu": 0.0068417818127637885,
+    "bPu": 0.010692618089603126,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mory - osm virtual_way/338117837:0 220 (OSM relation/5598506:a-220)",
+    "from": 163,
+    "to": 192,
+    "rPu": 0.0026658047190351556,
+    "xPu": 0.019624957280301846,
+    "bPu": 0.030670690613309216,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/338117837:0 - praga 220 (OSM relation/5598506:c-220)",
+    "from": 192,
+    "to": 218,
+    "rPu": 0.00047468331816389095,
+    "xPu": 0.003494494466950278,
+    "bPu": 0.005461339717326732,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM relation/7300985-220)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.0026140356160341337,
+    "xPu": 0.019243846680721877,
+    "bPu": 0.030075075289300205,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM relation/7300989-220)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.0026140356160341337,
+    "xPu": 0.019243846680721877,
+    "bPu": 0.030075075289300205,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:lomza systemowa - osm virtual_relation/5589533:0 400 (OSM relation/7671134:a-400)",
+    "from": 26,
+    "to": 40,
+    "rPu": 0.0011709693116883117,
+    "xPu": 0.013354225381875327,
+    "bPu": 0.38403469282511,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5589533:0 - narew 400 (OSM relation/7671134:b-400)",
+    "from": 40,
+    "to": 32,
+    "rPu": 0.0002298041883116883,
+    "xPu": 0.002620783391828182,
+    "bPu": 0.07536728758583731,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:skawina - osm virtual_relation/9313232:a:1 400 (OSM relation/9313232:a-400)",
+    "from": 101,
+    "to": 46,
+    "rPu": 0.002288856798701299,
+    "xPu": 0.026103083361445782,
+    "bPu": 0.7506605073557129,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/9313232:a:1 - rzeszow 400 (OSM relation/9313232:b-400)",
+    "from": 46,
+    "to": 99,
+    "rPu": 0.001001557987012987,
+    "xPu": 0.011422187548454688,
+    "bPu": 0.32847403433186606,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:krajnik - osm virtual_way/39992876:0 400 (OSM way/1025172792-400 c1)",
+    "from": 21,
+    "to": 79,
+    "rPu": 5.9570064935064935e-05,
+    "xPu": 0.000679362016762703,
+    "bPu": 0.01953678150277512,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:krajnik - osm virtual_way/39992876:0 400 (OSM way/1025172792-400 c2)",
+    "from": 21,
+    "to": 79,
+    "rPu": 5.9570064935064935e-05,
+    "xPu": 0.000679362016762703,
+    "bPu": 0.01953678150277512,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596469:a:1 - osm virtual_relation/5596469:b:1 400 (OSM way/1050276663-400)",
+    "from": 44,
+    "to": 45,
+    "rPu": 3.021633116883117e-05,
+    "xPu": 0.00034459971974855943,
+    "bPu": 0.0099098407984689,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596469:b:1 - jasiniec 400 (OSM way/1050276664-400 c1)",
+    "from": 45,
+    "to": 16,
+    "rPu": 3.352242857142857e-05,
+    "xPu": 0.00038230384180199054,
+    "bPu": 0.01099411865936842,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596469:b:1 - jasiniec 400 (OSM way/1050276664-400 c2)",
+    "from": 45,
+    "to": 16,
+    "rPu": 3.352242857142857e-05,
+    "xPu": 0.00038230384180199054,
+    "bPu": 0.01099411865936842,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pasikurowice - osm virtual_way/130849502:1 400 (OSM way/130849502-400)",
+    "from": 89,
+    "to": 47,
+    "rPu": 0.0007806297857142856,
+    "xPu": 0.008902629636982712,
+    "bPu": 0.2560177427149473,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm stacja elektroenergetyczna choczewo - zarnowiec 400 (OSM way/1353125916-400 c1)",
+    "from": 37,
+    "to": 112,
+    "rPu": 0.000349738012987013,
+    "xPu": 0.00398855905395495,
+    "bPu": 0.1147011531780287,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm stacja elektroenergetyczna choczewo - zarnowiec 400 (OSM way/1353125916-400 c2)",
+    "from": 37,
+    "to": 112,
+    "rPu": 0.000349738012987013,
+    "xPu": 0.00398855905395495,
+    "bPu": 0.1147011531780287,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rzeszow - osm virtual_way/1446862282:1 400 (OSM way/1446862282-400)",
+    "from": 99,
+    "to": 48,
+    "rPu": 3.948241558441559e-05,
+    "xPu": 0.00045027403457307484,
+    "bPu": 0.012948774309971293,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rzeszow - osm virtual_way/1446862282:1 400 (OSM way/1446862283-400)",
+    "from": 99,
+    "to": 48,
+    "rPu": 3.9456116883116876e-05,
+    "xPu": 0.00044997411314824507,
+    "bPu": 0.012940149307100478,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rzeszow - osm virtual_way/1446862282:1 400 (OSM way/1446862284-400)",
+    "from": 99,
+    "to": 48,
+    "rPu": 3.954605844155844e-05,
+    "xPu": 0.0004509998444211629,
+    "bPu": 0.01296964681691866,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446862282:1 - osm virtual_way/1446862292:0 400 (OSM way/1446862298-400)",
+    "from": 48,
+    "to": 50,
+    "rPu": 5.3111454545454546e-05,
+    "xPu": 0.0006057053137768465,
+    "bPu": 0.017418595797741628,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446862292:0 - osm virtual_way/1446862288:1 400 (OSM way/1446862300-400)",
+    "from": 50,
+    "to": 49,
+    "rPu": 5.313056493506493e-05,
+    "xPu": 0.0006059232566788894,
+    "bPu": 0.017424863299827748,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446862288:1 - osm virtual_way/1446901978:1 400 (OSM way/1446901980-400)",
+    "from": 49,
+    "to": 51,
+    "rPu": 6.415042207792207e-05,
+    "xPu": 0.0007315983315872184,
+    "bPu": 0.021038969502775118,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901978:1 - osm virtual_way/1446901982:1 400 (OSM way/1446901982-400)",
+    "from": 51,
+    "to": 52,
+    "rPu": 5.573922077922077e-05,
+    "xPu": 0.0006356734625458354,
+    "bPu": 0.0182804060845933,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901982:1 - osm virtual_way/1446901986:1 400 (OSM way/1446901986-400)",
+    "from": 52,
+    "to": 53,
+    "rPu": 2.4690798701298698e-05,
+    "xPu": 0.00028158422891566266,
+    "bPu": 0.008097670195291866,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901986:1 - osm virtual_way/1446901987:1 400 (OSM way/1446901987-400)",
+    "from": 53,
+    "to": 54,
+    "rPu": 1.8822681818181816e-05,
+    "xPu": 0.00021466176165531686,
+    "bPu": 0.006173144554717702,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901986:1 - osm virtual_way/1446901987:1 400 (OSM way/1446901988-400)",
+    "from": 53,
+    "to": 54,
+    "rPu": 1.8828993506493505e-05,
+    "xPu": 0.00021473374279727605,
+    "bPu": 0.006175214555406698,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901986:1 - osm virtual_way/1446901987:1 400 (OSM way/1446901989-400)",
+    "from": 53,
+    "to": 54,
+    "rPu": 1.8841616883116883e-05,
+    "xPu": 0.0002148777050811943,
+    "bPu": 0.006179354556784689,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901987:1 - osm virtual_way/1446901995:1 400 (OSM way/1446901990-400)",
+    "from": 54,
+    "to": 55,
+    "rPu": 3.4434292207792206e-05,
+    "xPu": 0.00039270311733892086,
+    "bPu": 0.01129317625890909,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901995:1 - osm virtual_way/1446901999:1 400 (OSM way/1446901998-400)",
+    "from": 55,
+    "to": 56,
+    "rPu": 6.354029220779222e-05,
+    "xPu": 0.0007246401545311682,
+    "bPu": 0.020838869436172247,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446901999:1 - osm virtual_way/1446902006:1 400 (OSM way/1446902006-400)",
+    "from": 56,
+    "to": 57,
+    "rPu": 5.9717688311688304e-05,
+    "xPu": 0.0006810455756940805,
+    "bPu": 0.01958519651888995,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902006:1 - osm virtual_way/1446902007:1 400 (OSM way/1446902007-400)",
+    "from": 57,
+    "to": 58,
+    "rPu": 2.0773519480519476e-05,
+    "xPu": 0.00023690993294918803,
+    "bPu": 0.00681294726767464,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902006:1 - osm virtual_way/1446902007:1 400 (OSM way/1446902008-400)",
+    "from": 57,
+    "to": 58,
+    "rPu": 2.0784915584415582e-05,
+    "xPu": 0.0002370398988999476,
+    "bPu": 0.006816684768918661,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902006:1 - osm virtual_way/1446902007:1 400 (OSM way/1446902009-400)",
+    "from": 57,
+    "to": 58,
+    "rPu": 2.081752597402597e-05,
+    "xPu": 0.00023741180146673646,
+    "bPu": 0.006827379772478467,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902007:1 - osm virtual_way/1446902010:1 400 (OSM way/1446902010-400)",
+    "from": 58,
+    "to": 59,
+    "rPu": 5.77956038961039e-05,
+    "xPu": 0.0006591253184913566,
+    "bPu": 0.018954823809071767,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902010:1 - osm virtual_way/1446902014:1 400 (OSM way/1446902016-400)",
+    "from": 59,
+    "to": 60,
+    "rPu": 5.311934415584416e-05,
+    "xPu": 0.0006057952902042954,
+    "bPu": 0.01742118329860287,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902014:1 - osm virtual_way/1446902018:1 400 (OSM way/1446902020-400)",
+    "from": 60,
+    "to": 61,
+    "rPu": 5.407837012987012e-05,
+    "xPu": 0.0006167324248297537,
+    "bPu": 0.01773570840329186,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902018:1 - osm virtual_way/1446902023:1 400 (OSM way/1446902022-400)",
+    "from": 61,
+    "to": 62,
+    "rPu": 3.2995753246753245e-05,
+    "xPu": 0.00037629741540073333,
+    "bPu": 0.010821388601875597,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446902023:1 - osm virtual_way/1446962811:0 400 (OSM way/1446962813-400)",
+    "from": 62,
+    "to": 63,
+    "rPu": 7.859156493506494e-05,
+    "xPu": 0.0008962911843897328,
+    "bPu": 0.02577513107919617,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962811:0 - osm virtual_way/1446962815:1 400 (OSM way/1446962815-400)",
+    "from": 63,
+    "to": 64,
+    "rPu": 5.0076409090909083e-05,
+    "xPu": 0.0005710923818753273,
+    "bPu": 0.016423212966430623,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962815:1 - osm virtual_way/1446962816:1 400 (OSM way/1446962816-400)",
+    "from": 64,
+    "to": 65,
+    "rPu": 1.9643025974025978e-05,
+    "xPu": 0.00022401731063383972,
+    "bPu": 0.0064421871442679425,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962815:1 - osm virtual_way/1446962816:1 400 (OSM way/1446962817-400)",
+    "from": 64,
+    "to": 65,
+    "rPu": 1.969737662337662e-05,
+    "xPu": 0.0002246371482451545,
+    "bPu": 0.006460012150200957,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962815:1 - osm virtual_way/1446962816:1 400 (OSM way/1446962818-400)",
+    "from": 64,
+    "to": 65,
+    "rPu": 1.9615324675324675e-05,
+    "xPu": 0.0002237013933996857,
+    "bPu": 0.006433102141244019,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962816:1 - osm virtual_way/1446962823:1 400 (OSM way/1446962821-400)",
+    "from": 65,
+    "to": 66,
+    "rPu": 5.026400649350649e-05,
+    "xPu": 0.0005732318213724463,
+    "bPu": 0.01648473798690909,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962823:1 - osm virtual_way/1446962824:1 400 (OSM way/1446962824-400)",
+    "from": 66,
+    "to": 67,
+    "rPu": 3.0122707792207786e-05,
+    "xPu": 0.00034353199947616546,
+    "bPu": 0.009879135788248802,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962823:1 - osm virtual_way/1446962824:1 400 (OSM way/1446962825-400)",
+    "from": 66,
+    "to": 67,
+    "rPu": 3.022334415584415e-05,
+    "xPu": 0.0003446796987951807,
+    "bPu": 0.00991214079923445,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962823:1 - osm virtual_way/1446962824:1 400 (OSM way/1446962826-400)",
+    "from": 66,
+    "to": 67,
+    "rPu": 3.004766883116883e-05,
+    "xPu": 0.0003426762236773179,
+    "bPu": 0.009854525780057416,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962824:1 - osm virtual_way/1446962835:1 400 (OSM way/1446962837-400)",
+    "from": 67,
+    "to": 68,
+    "rPu": 7.189959740259739e-05,
+    "xPu": 0.0008199731786275535,
+    "bPu": 0.023580412848688993,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1446962835:1 - osm virtual_way/1447360670:1 400 (OSM way/1446962839-400)",
+    "from": 68,
+    "to": 69,
+    "rPu": 0.00011941574025974025,
+    "xPu": 0.0013618672100576218,
+    "bPu": 0.03916395303563636,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1447360670:1 - osm virtual_way/1447360682:0 400 (OSM way/1447360678-400)",
+    "from": 69,
+    "to": 70,
+    "rPu": 3.0159175324675327e-05,
+    "xPu": 0.0003439478905185961,
+    "bPu": 0.009891095792229666,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1447360682:0 - osm virtual_way/1447360686:1 400 (OSM way/1447360688-400)",
+    "from": 70,
+    "to": 71,
+    "rPu": 0.00011877966233766235,
+    "xPu": 0.0013546131105290726,
+    "bPu": 0.038955342966200956,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1447360686:1 - osm virtual_way/1447360690:1 400 (OSM way/1447360692-400)",
+    "from": 71,
+    "to": 72,
+    "rPu": 4.1429746753246756e-05,
+    "xPu": 0.0004724822163436354,
+    "bPu": 0.013587427022545456,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1447360690:1 - osm virtual_way/1447360698:1 400 (OSM way/1447360696-400)",
+    "from": 72,
+    "to": 73,
+    "rPu": 3.702190909090909e-05,
+    "xPu": 0.00042221338606600306,
+    "bPu": 0.01214181904137799,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1447360698:1 - osm virtual_way/166838340:0 400 (OSM way/1447360704-400)",
+    "from": 73,
+    "to": 77,
+    "rPu": 9.647801298701297e-05,
+    "xPu": 0.0011002757433211103,
+    "bPu": 0.03164122553171292,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/145735629:0 - byczyna 220 (OSM way/145735629-220 c1)",
+    "from": 179,
+    "to": 122,
+    "rPu": 0.0013161962973144978,
+    "xPu": 0.00968949297855446,
+    "bPu": 0.015143138255050764,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/145735629:0 - byczyna 220 (OSM way/145735629-220 c2)",
+    "from": 179,
+    "to": 122,
+    "rPu": 0.0013161962973144978,
+    "xPu": 0.00968949297855446,
+    "bPu": 0.015143138255050764,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/41454613:0 220 (OSM way/145735630-220 c1)",
+    "from": 122,
+    "to": 197,
+    "rPu": 0.0017346843788341908,
+    "xPu": 0.012770292807400118,
+    "bPu": 0.01995793897244666,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/41454613:0 220 (OSM way/145735630-220 c2)",
+    "from": 122,
+    "to": 197,
+    "rPu": 0.0017346843788341908,
+    "xPu": 0.012770292807400118,
+    "bPu": 0.01995793897244666,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/145735629:0 - byczyna 220 (OSM way/145749825-220 c1)",
+    "from": 179,
+    "to": 122,
+    "rPu": 0.001062564509093598,
+    "xPu": 0.007822322073941745,
+    "bPu": 0.012225046749443752,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/145735629:0 - byczyna 220 (OSM way/145749825-220 c2)",
+    "from": 179,
+    "to": 122,
+    "rPu": 0.001062564509093598,
+    "xPu": 0.007822322073941745,
+    "bPu": 0.012225046749443752,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/146491141:1 400 (OSM way/146491141-400)",
+    "from": 3,
+    "to": 74,
+    "rPu": 0.00014579964935064935,
+    "xPu": 0.0016627603803038237,
+    "bPu": 0.04781690091575119,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/146982503-220 c1)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.002692191419417006,
+    "xPu": 0.019819209268853118,
+    "bPu": 0.03097427561259257,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/146982503-220 c2)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.002692191419417006,
+    "xPu": 0.019819209268853118,
+    "bPu": 0.03097427561259257,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/146982504:0 - mikulowa 400 (OSM way/146982504-400)",
+    "from": 75,
+    "to": 28,
+    "rPu": 0.00041487130519480517,
+    "xPu": 0.004731366448926138,
+    "bPu": 0.1360624677880957,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pasikurowice - osm virtual_way/148989154:1 400 (OSM way/148989154-400)",
+    "from": 89,
+    "to": 76,
+    "rPu": 0.0005927923636363636,
+    "xPu": 0.00676045285699319,
+    "bPu": 0.19441400471027753,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39025982:1 - osm virtual_way/160595147:1 220 (OSM way/160595147-220 c1)",
+    "from": 195,
+    "to": 181,
+    "rPu": 0.0008854049856626808,
+    "xPu": 0.00651811998655526,
+    "bPu": 0.010186786072075916,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39025982:1 - osm virtual_way/160595147:1 220 (OSM way/160595147-220 c2)",
+    "from": 195,
+    "to": 181,
+    "rPu": 0.0008854049856626808,
+    "xPu": 0.00651811998655526,
+    "bPu": 0.010186786072075916,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:poznan pld - osm virtual_way/169288047:1 220 (OSM way/169288047-220)",
+    "from": 217,
+    "to": 182,
+    "rPu": 0.0005479725881886305,
+    "xPu": 0.004034030909012166,
+    "bPu": 0.006304549465645293,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/170000475:0 - osm virtual_way/170000475:1 220 (OSM way/170000475-220)",
+    "from": 183,
+    "to": 184,
+    "rPu": 0.010044616892396156,
+    "xPu": 0.07394584307046283,
+    "bPu": 0.11556560570100757,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/171092657:1 220 (OSM way/171089556-220 c1)",
+    "from": 222,
+    "to": 185,
+    "rPu": 0.0006907354957870959,
+    "xPu": 0.005085014104752625,
+    "bPu": 0.007947069241660155,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/171092657:1 220 (OSM way/171089556-220 c2)",
+    "from": 222,
+    "to": 185,
+    "rPu": 0.0006907354957870959,
+    "xPu": 0.005085014104752625,
+    "bPu": 0.007947069241660155,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/171092657:1 220 (OSM way/171092657-220 c1)",
+    "from": 222,
+    "to": 185,
+    "rPu": 0.0006876119200310142,
+    "xPu": 0.005062019156796694,
+    "bPu": 0.007911131790976711,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm virtual_way/171092657:1 220 (OSM way/171092657-220 c2)",
+    "from": 222,
+    "to": 185,
+    "rPu": 0.0006876119200310142,
+    "xPu": 0.005062019156796694,
+    "bPu": 0.007911131790976711,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dobrzen - osm virtual_way/130849502:1 400 (OSM way/171281722-400 c1)",
+    "from": 8,
+    "to": 47,
+    "rPu": 0.000945991461038961,
+    "xPu": 0.010788483569931902,
+    "bPu": 0.3102502657661244,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dobrzen - osm virtual_way/130849502:1 400 (OSM way/171281722-400 c2)",
+    "from": 8,
+    "to": 47,
+    "rPu": 0.000945991461038961,
+    "xPu": 0.010788483569931902,
+    "bPu": 0.3102502657661244,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:wrzosowa - osm virtual_way/172089700:1 220 (OSM way/172089700-220)",
+    "from": 235,
+    "to": 186,
+    "rPu": 0.0006751747058586257,
+    "xPu": 0.004970459638173203,
+    "bPu": 0.007768038808490412,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:klikowa - osm virtual_way/172279656:1 220 (OSM way/172279656-220)",
+    "from": 146,
+    "to": 187,
+    "rPu": 0.00192477627484717,
+    "xPu": 0.014169699640146858,
+    "bPu": 0.022144989542610554,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm stacja elektroenergetyczna azoty tarnow 220/ - klikowa 220 (OSM way/172279658-220)",
+    "from": 171,
+    "to": 146,
+    "rPu": 0.0006467176607850344,
+    "xPu": 0.004760966313360204,
+    "bPu": 0.007440634021864853,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm stacja elektroenergetyczna azoty tarnow 220/ - klikowa 220 (OSM way/172279659-220)",
+    "from": 171,
+    "to": 146,
+    "rPu": 0.0006396106812579553,
+    "xPu": 0.004708646588432496,
+    "bPu": 0.007358866603301252,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kopanina - osm virtual_way/172447170:0 220 (OSM way/172446375-220 c1)",
+    "from": 150,
+    "to": 188,
+    "rPu": 0.000898974656244958,
+    "xPu": 0.006618016353150839,
+    "bPu": 0.010342908223553004,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kopanina - osm virtual_way/172447170:0 220 (OSM way/172446375-220 c2)",
+    "from": 150,
+    "to": 188,
+    "rPu": 0.000898974656244958,
+    "xPu": 0.006618016353150839,
+    "bPu": 0.010342908223553004,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/172447170:0 - halemba 220 (OSM way/172447170-220 c1)",
+    "from": 188,
+    "to": 136,
+    "rPu": 0.000551219662277478,
+    "xPu": 0.004057935019401268,
+    "bPu": 0.0063419077927824655,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/172447170:0 - halemba 220 (OSM way/172447170-220 c2)",
+    "from": 188,
+    "to": 136,
+    "rPu": 0.000551219662277478,
+    "xPu": 0.004057935019401268,
+    "bPu": 0.0063419077927824655,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/178619699-220 c1)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.0026563139886699766,
+    "xPu": 0.019555089005013133,
+    "bPu": 0.030561497598289696,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/178619699-220 c2)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.0026563139886699766,
+    "xPu": 0.019555089005013133,
+    "bPu": 0.030561497598289696,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/178619702-220 c1)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.002661073334795898,
+    "xPu": 0.01959012606670653,
+    "bPu": 0.030616254959737615,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/1098227269:b:1 - mikulowa 220 (OSM way/178619702-220 c2)",
+    "from": 177,
+    "to": 160,
+    "rPu": 0.002661073334795898,
+    "xPu": 0.01959012606670653,
+    "bPu": 0.030616254959737615,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/9313232:a:1 - osm virtual_relation/2674035:b:1 400 (OSM way/199050901-400)",
+    "from": 46,
+    "to": 39,
+    "rPu": 0.00038879894805194797,
+    "xPu": 0.004434026347826086,
+    "bPu": 0.12751169744199042,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/171092657:1 - rogowiec 220 (OSM way/267040086-220 c1)",
+    "from": 185,
+    "to": 222,
+    "rPu": 0.0007077188466995931,
+    "xPu": 0.005210041093321676,
+    "bPu": 0.008142466563037465,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/171092657:1 - rogowiec 220 (OSM way/267040086-220 c2)",
+    "from": 185,
+    "to": 222,
+    "rPu": 0.0007077188466995931,
+    "xPu": 0.005210041093321676,
+    "bPu": 0.008142466563037465,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ostrowiec - osm virtual_way/281264247:1 220 (OSM way/281264247-220)",
+    "from": 203,
+    "to": 189,
+    "rPu": 0.0036119231161954785,
+    "xPu": 0.02659003352680921,
+    "bPu": 0.04155599831633067,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/172089700:1 - osm virtual_way/312025417:1 220 (OSM way/312025417-220)",
+    "from": 186,
+    "to": 190,
+    "rPu": 0.00022487182270844908,
+    "xPu": 0.001655447558737226,
+    "bPu": 0.002587201550321365,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312025417:1 - wrzosowa 220 (OSM way/317656130-220)",
+    "from": 190,
+    "to": 235,
+    "rPu": 0.0004931824363492945,
+    "xPu": 0.003630680137835877,
+    "bPu": 0.005674176286499327,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:aniolow - osm virtual_way/317833627:1 220 (OSM way/317833627-220)",
+    "from": 116,
+    "to": 191,
+    "rPu": 0.0010881566258627488,
+    "xPu": 0.008010724545706015,
+    "bPu": 0.012519489883241789,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm stacja elektroenergetyczna kopalnia belchatow 220/ 220 (OSM way/330815961-220)",
+    "from": 222,
+    "to": 172,
+    "rPu": 0.0012376164053172227,
+    "xPu": 0.009111008360935731,
+    "bPu": 0.014239058695634285,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:rogowiec - osm stacja elektroenergetyczna kopalnia belchatow 220/ 220 (OSM way/331369656-220)",
+    "from": 222,
+    "to": 172,
+    "rPu": 0.001242303516569262,
+    "xPu": 0.009145513648375759,
+    "bPu": 0.01429298497840172,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/338117837:0 - milosna 220 (OSM way/338117837-220)",
+    "from": 192,
+    "to": 161,
+    "rPu": 0.0029486858057851243,
+    "xPu": 0.021707453872506388,
+    "bPu": 0.03392530196203741,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:torun elana - osm virtual_way/353297400:1 220 (OSM way/353297400-220)",
+    "from": 231,
+    "to": 193,
+    "rPu": 0.005335371476905218,
+    "xPu": 0.03927760970679903,
+    "bPu": 0.061384664340477756,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/317833627:1 - joachimow 220 (OSM way/375221658-220 c1)",
+    "from": 191,
+    "to": 141,
+    "rPu": 0.0006871878314166114,
+    "xPu": 0.005058897127309203,
+    "bPu": 0.007906252554852587,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/317833627:1 - joachimow 220 (OSM way/375221658-220 c2)",
+    "from": 191,
+    "to": 141,
+    "rPu": 0.0006871878314166114,
+    "xPu": 0.005058897127309203,
+    "bPu": 0.007906252554852587,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312025417:1 - joachimow 220 (OSM way/375221659-220 c1)",
+    "from": 190,
+    "to": 141,
+    "rPu": 0.0005370697825469245,
+    "xPu": 0.0039537673047706084,
+    "bPu": 0.006179110202871823,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/312025417:1 - joachimow 220 (OSM way/375221659-220 c2)",
+    "from": 190,
+    "to": 141,
+    "rPu": 0.0005370697825469245,
+    "xPu": 0.0039537673047706084,
+    "bPu": 0.006179110202871823,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:joachimow - osm virtual_way/375527889:1 220 (OSM way/375527889-220)",
+    "from": 141,
+    "to": 194,
+    "rPu": 0.005894421632527205,
+    "xPu": 0.04339319077066573,
+    "bPu": 0.06781666374312349,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/375527889:1 - osm virtual_way/317833627:1 220 (OSM way/375533487-220)",
+    "from": 194,
+    "to": 191,
+    "rPu": 0.005583916531910507,
+    "xPu": 0.041107333411570045,
+    "bPu": 0.06424423182158498,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/130849502:1 - osm virtual_relation/5594532:b:1 400 (OSM way/375693077-400)",
+    "from": 47,
+    "to": 43,
+    "rPu": 0.0016554145324675323,
+    "xPu": 0.018879041958093243,
+    "bPu": 0.5429148357080191,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5596643:a:1 - mory 220 (OSM way/378922783-220)",
+    "from": 174,
+    "to": 163,
+    "rPu": 0.010817823642741255,
+    "xPu": 0.07963798898648311,
+    "bPu": 0.1244615255148715,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:jasiniec - osm virtual_way/170000475:1 220 (OSM way/380961054-220)",
+    "from": 140,
+    "to": 184,
+    "rPu": 0.01038495033561159,
+    "xPu": 0.07645128888818134,
+    "bPu": 0.11948121949960597,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:patnow - osm virtual_way/170000475:1 220 (OSM way/380961068-220)",
+    "from": 205,
+    "to": 184,
+    "rPu": 0.0013083110452752728,
+    "xPu": 0.009631443814896962,
+    "bPu": 0.015052416633929706,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:stanislawow - osm virtual_way/384345923:1 400 (OSM way/384345923-400)",
+    "from": 103,
+    "to": 78,
+    "rPu": 0.00030102317532467533,
+    "xPu": 0.003432994603981142,
+    "bPu": 0.09872448536022967,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:katowice - osm virtual_way/39025982:1 220 (OSM way/39025982-220 c1)",
+    "from": 142,
+    "to": 195,
+    "rPu": 0.0010090780802199674,
+    "xPu": 0.00742856897033826,
+    "bPu": 0.011609673200031012,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:katowice - osm virtual_way/39025982:1 220 (OSM way/39025982-220 c2)",
+    "from": 142,
+    "to": 195,
+    "rPu": 0.0010090780802199674,
+    "xPu": 0.00742856897033826,
+    "bPu": 0.011609673200031012,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39025982:1 - osm virtual_way/172447170:0 220 (OSM way/39480264-220 c1)",
+    "from": 195,
+    "to": 188,
+    "rPu": 0.001787686135005647,
+    "xPu": 0.013160477877303615,
+    "bPu": 0.02056773625200326,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39025982:1 - osm virtual_way/172447170:0 220 (OSM way/39480264-220 c2)",
+    "from": 195,
+    "to": 188,
+    "rPu": 0.001787686135005647,
+    "xPu": 0.013160477877303615,
+    "bPu": 0.02056773625200326,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/39992876:0 - morzyczyn 400 (OSM way/39992876-400)",
+    "from": 79,
+    "to": 30,
+    "rPu": 0.0006646675909090908,
+    "xPu": 0.007580148108433734,
+    "bPu": 0.21798642505630617,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/41454613:0 - koksochemia 220 (OSM way/41454613-220)",
+    "from": 197,
+    "to": 147,
+    "rPu": 0.0017050587599137697,
+    "xPu": 0.01255219674748835,
+    "bPu": 0.01961708947749007,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:jasiniec - pelplin 220 (OSM way/435984625-220)",
+    "from": 140,
+    "to": 206,
+    "rPu": 0.012382265569858017,
+    "xPu": 0.09115500137975836,
+    "bPu": 0.14246078629585393,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:radkowice - osm virtual_way/451058808:1 220 (OSM way/451058808-220)",
+    "from": 220,
+    "to": 198,
+    "rPu": 0.007457407211380219,
+    "xPu": 0.05489948190883284,
+    "bPu": 0.08579916890554783,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dobrzen - osm virtual_way/148989154:1 400 (OSM way/471386598-400 c1)",
+    "from": 8,
+    "to": 76,
+    "rPu": 0.001360620292207792,
+    "xPu": 0.01551708474332111,
+    "bPu": 0.44623321102775115,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dobrzen - osm virtual_way/148989154:1 400 (OSM way/471386598-400 c2)",
+    "from": 8,
+    "to": 76,
+    "rPu": 0.001360620292207792,
+    "xPu": 0.01551708474332111,
+    "bPu": 0.44623321102775115,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/451058808:1 - chmielow 220 (OSM way/500730701-220)",
+    "from": 198,
+    "to": 125,
+    "rPu": 0.004170998903546906,
+    "xPu": 0.030705803284765815,
+    "bPu": 0.047988292617863026,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:polaniec - osm virtual_way/451058808:1 220 (OSM way/514444076-220 c1)",
+    "from": 212,
+    "to": 198,
+    "rPu": 0.0014140104721007153,
+    "xPu": 0.010409575356637378,
+    "bPu": 0.01626851261988798,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:polaniec - osm virtual_way/451058808:1 220 (OSM way/514444076-220 c2)",
+    "from": 212,
+    "to": 198,
+    "rPu": 0.0014140104721007153,
+    "xPu": 0.010409575356637378,
+    "bPu": 0.01626851261988798,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/145735629:0 220 (OSM way/516114853-220 c1)",
+    "from": 122,
+    "to": 179,
+    "rPu": 0.0010726855469873253,
+    "xPu": 0.007896830508441253,
+    "bPu": 0.012341491596175225,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:byczyna - osm virtual_way/145735629:0 220 (OSM way/516114853-220 c2)",
+    "from": 122,
+    "to": 179,
+    "rPu": 0.0010726855469873253,
+    "xPu": 0.007896830508441253,
+    "bPu": 0.012341491596175225,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kozienice - osm virtual_way/617971664:1 400 (OSM way/617971664-400 c1)",
+    "from": 20,
+    "to": 80,
+    "rPu": 0.0009302613311688311,
+    "xPu": 0.010609090568360397,
+    "bPu": 0.30509136404899523,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:kozienice - osm virtual_way/617971664:1 400 (OSM way/617971664-400 c2)",
+    "from": 20,
+    "to": 80,
+    "rPu": 0.0009302613311688311,
+    "xPu": 0.010609090568360397,
+    "bPu": 0.30509136404899523,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/816139316:1 - stanislawow 400 (OSM way/617980104-400)",
+    "from": 81,
+    "to": 103,
+    "rPu": 0.00029705101948051946,
+    "xPu": 0.003387694471974856,
+    "bPu": 0.09742176492662201,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:reclaw - osm virtual_relation/5598027:b:1 220 (OSM way/646815615-220)",
+    "from": 221,
+    "to": 175,
+    "rPu": 0.0037339254880245968,
+    "xPu": 0.027488183086732156,
+    "bPu": 0.04295966339867589,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:patnow - osm virtual_relation/5596469:a:1 400 (OSM way/740842833-400 c1)",
+    "from": 90,
+    "to": 44,
+    "rPu": 0.0016806526948051946,
+    "xPu": 0.019166868551597695,
+    "bPu": 0.5511920209630621,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:patnow - osm virtual_relation/5596469:a:1 400 (OSM way/740842833-400 c2)",
+    "from": 90,
+    "to": 44,
+    "rPu": 0.0016806526948051946,
+    "xPu": 0.019166868551597695,
+    "bPu": 0.5511920209630621,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/617971664:1 - osm virtual_way/816139316:1 400 (OSM way/798827638-400 c1)",
+    "from": 80,
+    "to": 81,
+    "rPu": 0.0006540948116883116,
+    "xPu": 0.00745957169774751,
+    "bPu": 0.21451894390216264,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/617971664:1 - osm virtual_way/816139316:1 400 (OSM way/798827638-400 c2)",
+    "from": 80,
+    "to": 81,
+    "rPu": 0.0006540948116883116,
+    "xPu": 0.00745957169774751,
+    "bPu": 0.21451894390216264,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/617971664:1 - siedlce ujrzanow 400 (OSM way/816139315-400 c1)",
+    "from": 80,
+    "to": 100,
+    "rPu": 0.0006783725454545455,
+    "xPu": 0.007736445160817181,
+    "bPu": 0.22248114405236363,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/617971664:1 - siedlce ujrzanow 400 (OSM way/816139315-400 c2)",
+    "from": 80,
+    "to": 100,
+    "rPu": 0.0006783725454545455,
+    "xPu": 0.007736445160817181,
+    "bPu": 0.22248114405236363,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/816139316:1 - osm virtual_way/384345923:1 400 (OSM way/816139317-400 c1)",
+    "from": 81,
+    "to": 78,
+    "rPu": 0.00023637833766233763,
+    "xPu": 0.002695757749607124,
+    "bPu": 0.07752336580348324,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/816139316:1 - osm virtual_way/384345923:1 400 (OSM way/816139317-400 c2)",
+    "from": 81,
+    "to": 78,
+    "rPu": 0.00023637833766233763,
+    "xPu": 0.002695757749607124,
+    "bPu": 0.07752336580348324,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:siedlce ujrzanow - osm virtual_way/816139316:1 400 (OSM way/816139318-400)",
+    "from": 100,
+    "to": 81,
+    "rPu": 0.0008935243246753246,
+    "xPu": 0.010190126331063386,
+    "bPu": 0.29304298253871774,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/384345923:1 - osm virtual_relation/5589533:0 400 (OSM way/816139319-400)",
+    "from": 78,
+    "to": 40,
+    "rPu": 0.001980069896103896,
+    "xPu": 0.02258154795390257,
+    "bPu": 0.6493898061479809,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:pila krzewina - plewiska 400 (OSM way/821243578-400)",
+    "from": 92,
+    "to": 93,
+    "rPu": 0.0016207523181818182,
+    "xPu": 0.01848373952173913,
+    "bPu": 0.5315469094242297,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zydowo kierzkowo - osm virtual_relation/5596461:1 220 (OSM way/839953071-220)",
+    "from": 240,
+    "to": 173,
+    "rPu": 0.00025850531205069823,
+    "xPu": 0.0019030485127065862,
+    "bPu": 0.002974162507549888,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zydowo kierzkowo - osm virtual_way/839953071:1 400 (OSM way/839953071-400)",
+    "from": 113,
+    "to": 82,
+    "rPu": 3.891576623376623e-05,
+    "xPu": 0.0004438117276060764,
+    "bPu": 0.012762934248114833,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:ostroleka - osm virtual_way/845649424:1 400 (OSM way/845649424-400)",
+    "from": 85,
+    "to": 83,
+    "rPu": 6.124494155844155e-05,
+    "xPu": 0.0006984630125720272,
+    "bPu": 0.020086079185607654,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gdansk przyjazn - gdansk 400 (OSM way/856149005-400)",
+    "from": 11,
+    "to": 13,
+    "rPu": 0.00013107553246753244,
+    "xPu": 0.0014948403729701414,
+    "bPu": 0.04298793430844019,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/160595147:1 - osm virtual_way/145735629:0 220 (OSM way/858101589-220)",
+    "from": 181,
+    "to": 179,
+    "rPu": 0.00021165051063085994,
+    "xPu": 0.0015581157163635144,
+    "bPu": 0.002435087342803377,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mikulowa - osm virtual_way/868341019:1 400 (OSM way/868297714-400 c1)",
+    "from": 28,
+    "to": 84,
+    "rPu": 0.0017436657857142857,
+    "xPu": 0.019885496281299108,
+    "bPu": 0.5718579878416842,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:mikulowa - osm virtual_way/868341019:1 400 (OSM way/868297714-400 c2)",
+    "from": 28,
+    "to": 84,
+    "rPu": 0.0017436657857142857,
+    "xPu": 0.019885496281299108,
+    "bPu": 0.5718579878416842,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:czarna - osm virtual_way/868341019:1 400 (OSM way/868341019-400)",
+    "from": 6,
+    "to": 84,
+    "rPu": 0.0005830353701298701,
+    "xPu": 0.006649180008905186,
+    "bPu": 0.1912140711451866,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/868341019:1 - pasikurowice 400 (OSM way/868341021-400 c1)",
+    "from": 84,
+    "to": 89,
+    "rPu": 0.0009030255194805195,
+    "xPu": 0.010298481943425877,
+    "bPu": 0.2961590235758852,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/868341019:1 - pasikurowice 400 (OSM way/868341021-400 c2)",
+    "from": 84,
+    "to": 89,
+    "rPu": 0.0009030255194805195,
+    "xPu": 0.010298481943425877,
+    "bPu": 0.2961590235758852,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:czarna - osm virtual_way/868341019:1 400 (OSM way/868341022-400)",
+    "from": 6,
+    "to": 84,
+    "rPu": 0.0005775242142857142,
+    "xPu": 0.0065863284751178615,
+    "bPu": 0.18940661554357893,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:reclaw - osm virtual_relation/5598027:c:1 220 (OSM way/93353662-220)",
+    "from": 221,
+    "to": 176,
+    "rPu": 0.007380823099043581,
+    "xPu": 0.054335689699214304,
+    "bPu": 0.0849180512458034,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_way/281264247:1 - osm virtual_way/987365192:1 220 (OSM way/987365192-220)",
+    "from": 189,
+    "to": 201,
+    "rPu": 0.0005344623366155143,
+    "xPu": 0.0039345719696250005,
+    "bPu": 0.006149110943405376,
+    "ratingMva": 322.94087307121714,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:CZ:PL:detmarovice [CZ]:hv~PL:nosovice [CZ]:hv",
+    "from": 7,
+    "to": 33,
+    "rPu": 0.0007100000000000001,
+    "xPu": 0.007601250000000001,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:DE:PL:hagenwerder [DE]:hv~PL:vierraden [DE]:hv",
+    "from": 15,
+    "to": 109,
+    "rPu": 0.0024356946683240827,
+    "xPu": 0.02170034246404272,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]

@@ -1,0 +1,31 @@
+Canada Ontario 500-345-230-115 kV 2025-06-24 (UnvalidatedAtScale)
+
+RELEASE STATUS
+--------------
+Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
+approximation of one Canadian synchronous system for one snapshot, with OSM-mapped connectivity,
+standard per-km line parameters, register-based generation and population-allocated demand. Do not
+use it for planning, operation or investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- (c) OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright): lines,
+  substations and plants; Geofabrik provincial extracts.
+- Contains information licensed under the Open Government Licence - Canada: NACEI Power Plants
+  100 MW or more (Natural Resources Canada, 2017-08).
+- Hydro-Quebec open data, hourly Quebec demand 2023, CC BY-NC 4.0 (Quebec case).
+- IESO public reports (Ontario demand, output by fuel, intertie flows) (Ontario and Quebec cases).
+- U.S. Energy Information Administration, EIA-930 interchange (public domain).
+- GeoNames (www.geonames.org), CC BY 4.0: places and population for demand allocation.
+- OPAL-RT HYPERSIM documentation: 735 kV line constants example (cited values).
+- Natural Earth (public domain): outline and provinces in geography.json. Made with Natural Earth.

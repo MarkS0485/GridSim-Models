@@ -1,0 +1,28 @@
+Swiss 380/220/150/132/110 kV transmission grid winter peak 2026-01-06 (UnvalidatedAtScale)
+
+RELEASE STATUS
+--------------
+Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
+approximation of the Swiss 380/220/150/132/110 kV transmission grid for one snapshot (2026-01-06T15:00:00+00:00), with allocated demand and register-based
+generation. Do not use it for planning, operation or investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- OpenStreetMap contributors (c), ODbL 1.0, openstreetmap.org/copyright: substations, lines,
+  circuits, lengths, names; via the PyPSA-Eur prebuilt network v0.7 (Zenodo record 18619025,
+  ODbL 1.0, PyPSA-Eur contributors) and the Overpass API.
+- powerplantmatching (PyPSA / FIAS), CC BY 4.0: power plant list.
+- Fraunhofer ISE, energy-charts.info, CC BY 4.0: generation by type and cross-border flows.
+- Eurostat, CC BY 4.0: population by NUTS 3 region; GISCO NUTS label points and NUTS region
+  polygons (c) EuroGeographics for the administrative boundaries.
+- Natural Earth (public domain): country outline in geography.json. Made with Natural Earth.

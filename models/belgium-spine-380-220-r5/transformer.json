@@ -1,0 +1,862 @@
+[
+  {
+    "name": "jao:22T20211201T---A:0",
+    "from": 5,
+    "to": 55,
+    "rPu": 0.00070625,
+    "xPu": 0.05139375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201V---0:1",
+    "from": 5,
+    "to": 55,
+    "rPu": 0.0007312499999999999,
+    "xPu": 0.04859375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201W---W:2",
+    "from": 9,
+    "to": 61,
+    "rPu": 0.0007000000000000001,
+    "xPu": 0.051331249999999995,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201X---R:3",
+    "from": 25,
+    "to": 72,
+    "rPu": 0.000625,
+    "xPu": 0.04879375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201Y---M:4",
+    "from": 25,
+    "to": 72,
+    "rPu": 0.000625,
+    "xPu": 0.048718750000000005,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201Z---H:5",
+    "from": 38,
+    "to": 85,
+    "rPu": 0.00055,
+    "xPu": 0.0491625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201AA--O:6",
+    "from": 38,
+    "to": 85,
+    "rPu": 0.00040625000000000004,
+    "xPu": 0.049400000000000006,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "jao:22T20211201AB--K:7",
+    "from": 40,
+    "to": 93,
+    "rPu": 0.00023125,
+    "xPu": 0.024849999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 642.00195233348
+  },
+  {
+    "name": "jao:22T20211201AC--G:8",
+    "from": 40,
+    "to": 93,
+    "rPu": 0.00023125,
+    "xPu": 0.0249125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 642.00195233348
+  },
+  {
+    "name": "jao:22T20211201AD--C:9",
+    "from": 40,
+    "to": 93,
+    "rPu": 0.00023125,
+    "xPu": 0.024900000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 642.00195233348
+  },
+  {
+    "name": "jao:22T20211201AE--8:10",
+    "from": 40,
+    "to": 93,
+    "rPu": 0.000225,
+    "xPu": 0.02486875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 642.00195233348
+  },
+  {
+    "name": "jao:22T202509091---F:11",
+    "from": 38,
+    "to": 85,
+    "rPu": 0.00040625000000000004,
+    "xPu": 0.04913125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "synth:coupling:gouy~gouy",
+    "from": 18,
+    "to": 64,
+    "rPu": 0.000503442413904451,
+    "xPu": 0.04955026817318484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "synth:coupling:centrale awirs~awirs",
+    "from": 10,
+    "to": 56,
+    "rPu": 0.000503442413904451,
+    "xPu": 0.04955026817318484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "synth:coupling:aubange~belval",
+    "from": 5,
+    "to": 58,
+    "rPu": 0.000503442413904451,
+    "xPu": 0.04955026817318484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "synth:coupling:brume~brume sncb",
+    "from": 9,
+    "to": 60,
+    "rPu": 0.000503442413904451,
+    "xPu": 0.04955026817318484,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 320.99751206512485
+  },
+  {
+    "name": "equiv:FR:BE:avelin [FR]:hv~BE:chooz [FR]:220",
+    "from": 7,
+    "to": 62,
+    "rPu": 0.4172188864147548,
+    "xPu": 3.4161337955810493,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:FR:BE:avelin [FR]:hv~BE:moulaine [FR]:220",
+    "from": 7,
+    "to": 74,
+    "rPu": 0.01800914725847096,
+    "xPu": 0.2385677596931106,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:FR:BE:lonny [FR]:hv~BE:chooz [FR]:220",
+    "from": 26,
+    "to": 62,
+    "rPu": 0.0021972686828945643,
+    "xPu": 0.060976116645249503,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:FR:BE:lonny [FR]:hv~BE:moulaine [FR]:220",
+    "from": 26,
+    "to": 74,
+    "rPu": 0.002545970975060097,
+    "xPu": 0.045722330692616414,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "equiv:FR:BE:mastaing [FR]:hv~BE:moulaine [FR]:220",
+    "from": 30,
+    "to": 74,
+    "rPu": 0.6107931993911748,
+    "xPu": 5.573992609135357,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9999.0
+  },
+  {
+    "name": "emb:BE:achene:hv",
+    "from": 101,
+    "to": 2,
+    "rPu": 0.009057652004414971,
+    "xPu": 0.18115304008829944,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 110.40388828280993
+  },
+  {
+    "name": "emb:BE:andre dumont:hv",
+    "from": 102,
+    "to": 4,
+    "rPu": 0.009631320054125512,
+    "xPu": 0.19262640108251022,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 103.82792746791306
+  },
+  {
+    "name": "emb:BE:avelgem:hv",
+    "from": 103,
+    "to": 6,
+    "rPu": 0.00260823985342596,
+    "xPu": 0.0521647970685192,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 383.40032213160373
+  },
+  {
+    "name": "emb:BE:bruegel:hv",
+    "from": 104,
+    "to": 8,
+    "rPu": 0.03050005334941161,
+    "xPu": 0.6100010669882322,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.786827896459776
+  },
+  {
+    "name": "emb:BE:centrale awirs:hv",
+    "from": 105,
+    "to": 10,
+    "rPu": 1.222719755043835,
+    "xPu": 24.4543951008767,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.8178488945442365
+  },
+  {
+    "name": "gsu:BE:centrale awirs:hv",
+    "from": 106,
+    "to": 10,
+    "rPu": 0.0003521428571428571,
+    "xPu": 0.014085714285714283,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1029.4117647058824
+  },
+  {
+    "name": "emb:BE:centrale coo:hv",
+    "from": 107,
+    "to": 11,
+    "rPu": 0.01767159885320166,
+    "xPu": 0.3534319770640332,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 56.58797533302
+  },
+  {
+    "name": "gsu:BE:centrale coo:hv",
+    "from": 108,
+    "to": 11,
+    "rPu": 0.0002647121993127147,
+    "xPu": 0.01058848797250859,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1369.4117647058824
+  },
+  {
+    "name": "emb:BE:champion:hv",
+    "from": 109,
+    "to": 12,
+    "rPu": 0.007045608118919406,
+    "xPu": 0.1409121623783881,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 141.93239009628192
+  },
+  {
+    "name": "emb:BE:courcelles:hv",
+    "from": 110,
+    "to": 13,
+    "rPu": 0.01359550643786176,
+    "xPu": 0.2719101287572352,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 73.5537145725684
+  },
+  {
+    "name": "emb:BE:doel:hv",
+    "from": 111,
+    "to": 14,
+    "rPu": 0.9168263727696383,
+    "xPu": 18.336527455392766,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1.090719060555711
+  },
+  {
+    "name": "gsu:BE:doel:hv",
+    "from": 112,
+    "to": 14,
+    "rPu": 0.00015421671671671667,
+    "xPu": 0.006168668668668667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2350.588235294118
+  },
+  {
+    "name": "emb:BE:drogenbos:hv",
+    "from": 113,
+    "to": 15,
+    "rPu": 0.006143584360153715,
+    "xPu": 0.1228716872030743,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 162.7714281073174
+  },
+  {
+    "name": "gsu:BE:drogenbos:hv",
+    "from": 114,
+    "to": 15,
+    "rPu": 0.0006698369565217389,
+    "xPu": 0.026793478260869558,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 541.1764705882354
+  },
+  {
+    "name": "emb:BE:eeklo noord:hv",
+    "from": 115,
+    "to": 16,
+    "rPu": 0.019334168287661147,
+    "xPu": 0.38668336575322293,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 51.72190420201261
+  },
+  {
+    "name": "emb:BE:gezelle:hv",
+    "from": 116,
+    "to": 17,
+    "rPu": 0.0049815187079247526,
+    "xPu": 0.09963037415849504,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.7419942856321
+  },
+  {
+    "name": "gsu:BE:gezelle:hv",
+    "from": 117,
+    "to": 17,
+    "rPu": 0.0006626344086021503,
+    "xPu": 0.026505376344086014,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 547.0588235294118
+  },
+  {
+    "name": "gsu:BE:gouy:hv",
+    "from": 118,
+    "to": 18,
+    "rPu": 0.0004038335517693316,
+    "xPu": 0.016153342070773263,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 897.6470588235294
+  },
+  {
+    "name": "emb:BE:gramme:hv",
+    "from": 119,
+    "to": 19,
+    "rPu": 0.019614219801591497,
+    "xPu": 0.39228439603182996,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.983419688141765
+  },
+  {
+    "name": "emb:BE:horta:hv",
+    "from": 120,
+    "to": 20,
+    "rPu": 0.01569278639247442,
+    "xPu": 0.31385572784948845,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 63.72354628363236
+  },
+  {
+    "name": "emb:BE:izegem:hv",
+    "from": 121,
+    "to": 21,
+    "rPu": 0.006009820364660412,
+    "xPu": 0.12019640729320824,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 166.39432450931594
+  },
+  {
+    "name": "emb:BE:kallo:hv",
+    "from": 122,
+    "to": 22,
+    "rPu": 0.0029808240003272287,
+    "xPu": 0.05961648000654458,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 335.4777067985973
+  },
+  {
+    "name": "emb:BE:lillo:hv",
+    "from": 123,
+    "to": 23,
+    "rPu": 0.014909188280832758,
+    "xPu": 0.29818376561665516,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 67.07273267757972
+  },
+  {
+    "name": "emb:BE:lint:hv",
+    "from": 124,
+    "to": 24,
+    "rPu": 0.02574116473378072,
+    "xPu": 0.5148232946756144,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 38.848280967165294
+  },
+  {
+    "name": "emb:BE:maerlant:hv",
+    "from": 125,
+    "to": 28,
+    "rPu": 0.223329820024763,
+    "xPu": 4.46659640049526,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.477682379760656
+  },
+  {
+    "name": "emb:BE:massenhoven:hv",
+    "from": 126,
+    "to": 29,
+    "rPu": 0.008256623731003205,
+    "xPu": 0.1651324746200641,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 121.11488092221647
+  },
+  {
+    "name": "emb:BE:meerhout:hv",
+    "from": 127,
+    "to": 31,
+    "rPu": 0.002708720764075926,
+    "xPu": 0.05417441528151852,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 369.1779578251019
+  },
+  {
+    "name": "gsu:BE:meerhout:hv",
+    "from": 128,
+    "to": 31,
+    "rPu": 0.0007301540284360188,
+    "xPu": 0.029206161137440755,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 496.47058823529414
+  },
+  {
+    "name": "emb:BE:mercator:hv",
+    "from": 129,
+    "to": 32,
+    "rPu": 0.022817661657355808,
+    "xPu": 0.4563532331471162,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 43.82570024118254
+  },
+  {
+    "name": "emb:BE:rodenhuize:hv",
+    "from": 130,
+    "to": 39,
+    "rPu": 0.0026760893320343236,
+    "xPu": 0.05352178664068647,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 373.6796033037562
+  },
+  {
+    "name": "gsu:BE:rodenhuize:hv",
+    "from": 131,
+    "to": 39,
+    "rPu": 0.0008003246753246751,
+    "xPu": 0.03201298701298701,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 452.94117647058823
+  },
+  {
+    "name": "emb:BE:tergnee:hv",
+    "from": 132,
+    "to": 41,
+    "rPu": 0.0025004249754207266,
+    "xPu": 0.05000849950841453,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.93201548938214
+  },
+  {
+    "name": "emb:BE:tihange 1:hv",
+    "from": 133,
+    "to": 42,
+    "rPu": 0.12699590592330595,
+    "xPu": 2.5399181184661193,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 7.874269589477235
+  },
+  {
+    "name": "emb:BE:tihange 2:hv",
+    "from": 134,
+    "to": 43,
+    "rPu": 1.4136328834114344,
+    "xPu": 28.27265766822869,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.7073972399303281
+  },
+  {
+    "name": "gsu:BE:tihange 3:hv",
+    "from": 135,
+    "to": 44,
+    "rPu": 0.00014686606291706387,
+    "xPu": 0.005874642516682555,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2468.235294117647
+  },
+  {
+    "name": "emb:BE:tihange bis:hv",
+    "from": 136,
+    "to": 45,
+    "rPu": 0.004979244094483981,
+    "xPu": 0.09958488188967962,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 200.8336970480725
+  },
+  {
+    "name": "emb:BE:van eyck:hv",
+    "from": 137,
+    "to": 46,
+    "rPu": 0.02330215637030613,
+    "xPu": 0.4660431274061226,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 42.914483282512734
+  },
+  {
+    "name": "emb:BE:verbrande brug:hv",
+    "from": 138,
+    "to": 47,
+    "rPu": 0.008672727099706455,
+    "xPu": 0.1734545419941291,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 115.30398552882482
+  },
+  {
+    "name": "emb:BE:zandvliet:hv",
+    "from": 139,
+    "to": 54,
+    "rPu": 0.0606092207965121,
+    "xPu": 1.212184415930242,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 16.49913968300921
+  },
+  {
+    "name": "gsu:BE:zandvliet:hv",
+    "from": 140,
+    "to": 54,
+    "rPu": 0.0007978379078197824,
+    "xPu": 0.031913516312791296,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 454.3529411764706
+  },
+  {
+    "name": "emb:BE:aubange:220",
+    "from": 141,
+    "to": 55,
+    "rPu": 0.2125,
+    "xPu": 4.25,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.705882352941177
+  },
+  {
+    "name": "emb:BE:awirs:220",
+    "from": 142,
+    "to": 56,
+    "rPu": 0.3847887253313752,
+    "xPu": 7.6957745066275045,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.5988287446281397
+  },
+  {
+    "name": "emb:BE:bastogne:220",
+    "from": 143,
+    "to": 57,
+    "rPu": 0.012927592870194845,
+    "xPu": 0.2585518574038969,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 77.35392118555541
+  },
+  {
+    "name": "emb:BE:belval:220",
+    "from": 144,
+    "to": 58,
+    "rPu": 0.8806447826361623,
+    "xPu": 17.612895652723246,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1.1355316237797428
+  },
+  {
+    "name": "emb:BE:berneau:220",
+    "from": 145,
+    "to": 59,
+    "rPu": 0.08757748989897962,
+    "xPu": 1.7515497979795924,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.418459254238698
+  },
+  {
+    "name": "emb:BE:brume:220",
+    "from": 146,
+    "to": 61,
+    "rPu": 0.033459026411591444,
+    "xPu": 0.6691805282318288,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 29.88730119336536
+  },
+  {
+    "name": "emb:BE:duval:220",
+    "from": 147,
+    "to": 63,
+    "rPu": 0.07771671570563418,
+    "xPu": 1.5543343141126835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 12.867244722328168
+  },
+  {
+    "name": "gsu:BE:duval:220",
+    "from": 148,
+    "to": 63,
+    "rPu": 0.0002633547008547008,
+    "xPu": 0.010534188034188032,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1376.4705882352941
+  },
+  {
+    "name": "emb:BE:gouy:220",
+    "from": 149,
+    "to": 64,
+    "rPu": 0.0018846979187501906,
+    "xPu": 0.03769395837500381,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 530.5890084831924
+  },
+  {
+    "name": "emb:BE:heinsch:220",
+    "from": 150,
+    "to": 66,
+    "rPu": 0.12980974783116778,
+    "xPu": 2.5961949566233558,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 7.7035817163793645
+  },
+  {
+    "name": "emb:BE:houffalize:220",
+    "from": 151,
+    "to": 67,
+    "rPu": 0.027700127679566484,
+    "xPu": 0.5540025535913297,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 36.1009166299861
+  },
+  {
+    "name": "emb:BE:jupille:220",
+    "from": 152,
+    "to": 68,
+    "rPu": 0.00951275650124838,
+    "xPu": 0.1902551300249676,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 105.12200116430687
+  },
+  {
+    "name": "emb:BE:la troque:220",
+    "from": 153,
+    "to": 69,
+    "rPu": 0.960046605428766,
+    "xPu": 19.20093210857532,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1.0416160989948926
+  },
+  {
+    "name": "emb:BE:latour:220",
+    "from": 154,
+    "to": 70,
+    "rPu": 2.031440571460312,
+    "xPu": 40.62881142920624,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.4922615084334683
+  },
+  {
+    "name": "emb:BE:le val:220",
+    "from": 155,
+    "to": 71,
+    "rPu": 2.560073014723953,
+    "xPu": 51.20146029447906,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.39061385915503966
+  },
+  {
+    "name": "emb:BE:lixhe:220",
+    "from": 156,
+    "to": 72,
+    "rPu": 0.011065149184611694,
+    "xPu": 0.2213029836922339,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 90.37383801302022
+  },
+  {
+    "name": "emb:BE:marcourt:220",
+    "from": 157,
+    "to": 73,
+    "rPu": 0.4238639314958211,
+    "xPu": 8.477278629916421,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.3592476870371764
+  },
+  {
+    "name": "emb:BE:rimiere:220",
+    "from": 158,
+    "to": 85,
+    "rPu": 0.554704922498796,
+    "xPu": 11.09409844997592,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1.802760277473778
+  },
+  {
+    "name": "emb:BE:romsee:220",
+    "from": 159,
+    "to": 87,
+    "rPu": 0.031136067300737296,
+    "xPu": 0.6227213460147459,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.11709399074687
+  },
+  {
+    "name": "emb:BE:rouvroy:220",
+    "from": 160,
+    "to": 88,
+    "rPu": 0.019057283806181432,
+    "xPu": 0.38114567612362865,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 52.47337501872325
+  },
+  {
+    "name": "emb:BE:sart-tilman:220",
+    "from": 161,
+    "to": 89,
+    "rPu": 0.33851615696517134,
+    "xPu": 6.770323139303427,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.954068748047634
+  },
+  {
+    "name": "emb:BE:seraing:220",
+    "from": 162,
+    "to": 90,
+    "rPu": 0.13342894764070576,
+    "xPu": 2.6685789528141153,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 7.494625549268183
+  },
+  {
+    "name": "emb:BE:st-mard:220",
+    "from": 163,
+    "to": 92,
+    "rPu": 0.39249683890421927,
+    "xPu": 7.849936778084385,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.547791219903377
+  },
+  {
+    "name": "emb:BE:stevin:220",
+    "from": 164,
+    "to": 93,
+    "rPu": 0.000306516404250921,
+    "xPu": 0.006130328085018419,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3262.4681293774356
+  },
+  {
+    "name": "emb:BE:villeroux:220",
+    "from": 165,
+    "to": 94,
+    "rPu": 0.03692735437146488,
+    "xPu": 0.7385470874292976,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 27.080196158670294
+  }
+]

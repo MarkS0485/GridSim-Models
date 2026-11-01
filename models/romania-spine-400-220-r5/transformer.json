@@ -1,0 +1,1312 @@
+[
+  {
+    "name": "jao:30T-BRAD400AT3-3:0",
+    "from": 5,
+    "to": 69,
+    "rPu": 0.0003,
+    "xPu": 0.0286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-BRAD400AT4-0:1",
+    "from": 5,
+    "to": 69,
+    "rPu": 0.0003,
+    "xPu": 0.0286,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-BRAZ400AT3-R:2",
+    "from": 7,
+    "to": 70,
+    "rPu": 0.00030625,
+    "xPu": 0.029750000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-BUCU400AT3-J:3",
+    "from": 8,
+    "to": 71,
+    "rPu": 0.00031875,
+    "xPu": 0.0325,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-BUCU400AT4-R:4",
+    "from": 8,
+    "to": 71,
+    "rPu": 0.00031875,
+    "xPu": 0.0325,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-GUTI400AT5-2:5",
+    "from": 20,
+    "to": 90,
+    "rPu": 0.0004125,
+    "xPu": 0.02656875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-GUTI400AT61W:6",
+    "from": 20,
+    "to": 90,
+    "rPu": 0.0004125,
+    "xPu": 0.02656875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-IERN400AT1-U:7",
+    "from": 21,
+    "to": 93,
+    "rPu": 0.00053125,
+    "xPu": 0.02541875,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-LACS400AT3-Q:8",
+    "from": 24,
+    "to": 95,
+    "rPu": 0.00030625,
+    "xPu": 0.029725,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-LACS400AT4-N:9",
+    "from": 24,
+    "to": 95,
+    "rPu": 0.00030625,
+    "xPu": 0.0297,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-MINT400AT3-T:10",
+    "from": 26,
+    "to": 98,
+    "rPu": 0.0003375,
+    "xPu": 0.02955,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-PDFE400AT1-A:11",
+    "from": 46,
+    "to": 129,
+    "rPu": 0.0002875,
+    "xPu": 0.0254,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 499.5234529028642
+  },
+  {
+    "name": "jao:30T-PDFE400AT2-7:12",
+    "from": 46,
+    "to": 129,
+    "rPu": 0.0002875,
+    "xPu": 0.0254,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 499.5234529028642
+  },
+  {
+    "name": "jao:30T-PDFE400AT3-4:13",
+    "from": 46,
+    "to": 129,
+    "rPu": 0.00031875,
+    "xPu": 0.02555625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 499.5234529028642
+  },
+  {
+    "name": "jao:30T-ROSI400AT--1:14",
+    "from": 50,
+    "to": 134,
+    "rPu": 0.00030625,
+    "xPu": 0.029750000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-SIBI400AT5-M:15",
+    "from": 52,
+    "to": 138,
+    "rPu": 0.000375,
+    "xPu": 0.0273,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-SIBI400AT6-J:16",
+    "from": 52,
+    "to": 138,
+    "rPu": 0.000375,
+    "xPu": 0.0273,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-SLAT400AT1-N:17",
+    "from": 53,
+    "to": 139,
+    "rPu": 0.00043749999999999995,
+    "xPu": 0.02674375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30T-SLAT400AT2-K:18",
+    "from": 53,
+    "to": 139,
+    "rPu": 0.00043749999999999995,
+    "xPu": 0.02674375,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30TIERN400AT2--1:19",
+    "from": 21,
+    "to": 93,
+    "rPu": 0.00031875,
+    "xPu": 0.029500000000000002,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30TRESI400AT3--U:20",
+    "from": 48,
+    "to": 132,
+    "rPu": 0.00030849999999999996,
+    "xPu": 0.029498125,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "jao:30TAREFU300AT3-N:21",
+    "from": 2,
+    "to": 65,
+    "rPu": 0.00030625,
+    "xPu": 0.0294,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:arad~arad",
+    "from": 1,
+    "to": 64,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:d. mostistea~d. mostistea",
+    "from": 12,
+    "to": 79,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:osm brazi vest~osm brazi vest",
+    "from": 30,
+    "to": 100,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:osm sibiu sud~osm sibiu sud",
+    "from": 32,
+    "to": 101,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:suceava~suceava",
+    "from": 56,
+    "to": 144,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "synth:coupling:urechesti~urechesti",
+    "from": 60,
+    "to": 156,
+    "rPu": 0.0003261423645801915,
+    "xPu": 0.0294990625,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 399.7573263868969
+  },
+  {
+    "name": "emb:RO:bacau sud:hv",
+    "from": 158,
+    "to": 3,
+    "rPu": 0.008484702578729561,
+    "xPu": 0.16969405157459122,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 117.85916957265141
+  },
+  {
+    "name": "emb:RO:brasov:hv",
+    "from": 159,
+    "to": 6,
+    "rPu": 0.0044856775949215335,
+    "xPu": 0.08971355189843067,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 222.93175977073153
+  },
+  {
+    "name": "gsu:RO:brazi vest:hv",
+    "from": 160,
+    "to": 7,
+    "rPu": 0.00028113594890510945,
+    "xPu": 0.011245437956204378,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1289.4117647058824
+  },
+  {
+    "name": "gsu:RO:bucuresti sud:hv",
+    "from": 161,
+    "to": 8,
+    "rPu": 0.0007062227824891128,
+    "xPu": 0.028248911299564514,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 513.2941176470589
+  },
+  {
+    "name": "emb:RO:cernavoda:hv",
+    "from": 162,
+    "to": 9,
+    "rPu": 0.003357129991425477,
+    "xPu": 0.06714259982850954,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 297.87348197839316
+  },
+  {
+    "name": "gsu:RO:cernavoda:hv",
+    "from": 163,
+    "to": 9,
+    "rPu": 0.0002183734939759036,
+    "xPu": 0.008734939759036144,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1660.0
+  },
+  {
+    "name": "emb:RO:cluj est:hv",
+    "from": 164,
+    "to": 10,
+    "rPu": 0.20661724125002962,
+    "xPu": 4.132344825000592,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.839867157019534
+  },
+  {
+    "name": "emb:RO:constanta nord:hv",
+    "from": 165,
+    "to": 11,
+    "rPu": 0.014245535175540603,
+    "xPu": 0.28491070351081205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 70.197432927405
+  },
+  {
+    "name": "emb:RO:darste:hv",
+    "from": 166,
+    "to": 13,
+    "rPu": 0.005355255685459461,
+    "xPu": 0.10710511370918921,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 186.73244728822016
+  },
+  {
+    "name": "emb:RO:domnesti:hv",
+    "from": 167,
+    "to": 16,
+    "rPu": 0.004683152940327619,
+    "xPu": 0.09366305880655237,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 213.53135649036548
+  },
+  {
+    "name": "emb:RO:draganesti olt:hv",
+    "from": 168,
+    "to": 17,
+    "rPu": 0.0033175098707004117,
+    "xPu": 0.06635019741400823,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 301.4309041946797
+  },
+  {
+    "name": "emb:RO:gadalin:hv",
+    "from": 169,
+    "to": 18,
+    "rPu": 0.008151031722918475,
+    "xPu": 0.16302063445836948,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 122.68385573672512
+  },
+  {
+    "name": "emb:RO:gura ialomitei:hv",
+    "from": 170,
+    "to": 19,
+    "rPu": 0.00246032825808488,
+    "xPu": 0.0492065651616976,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 406.4498290884161
+  },
+  {
+    "name": "gsu:RO:iernut:hv",
+    "from": 171,
+    "to": 21,
+    "rPu": 0.0004890873015873015,
+    "xPu": 0.01956349206349206,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 741.1764705882354
+  },
+  {
+    "name": "emb:RO:isaccea:hv",
+    "from": 172,
+    "to": 22,
+    "rPu": 0.030394517378104578,
+    "xPu": 0.6078903475620916,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 32.9006704584286
+  },
+  {
+    "name": "emb:RO:medgidia sud:hv",
+    "from": 173,
+    "to": 25,
+    "rPu": 0.007874631834789536,
+    "xPu": 0.15749263669579072,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 126.99006391410892
+  },
+  {
+    "name": "emb:RO:nadab:hv",
+    "from": 174,
+    "to": 28,
+    "rPu": 0.009974251638444901,
+    "xPu": 0.199485032768898,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 100.25814830514055
+  },
+  {
+    "name": "emb:RO:oradea sud:hv",
+    "from": 175,
+    "to": 29,
+    "rPu": 0.0030057688329940342,
+    "xPu": 0.06011537665988068,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 332.6935820955679
+  },
+  {
+    "name": "emb:RO:pelicanu:hv",
+    "from": 176,
+    "to": 45,
+    "rPu": 0.013329993724240458,
+    "xPu": 0.26659987448480915,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 75.01879000749342
+  },
+  {
+    "name": "gsu:RO:portile de fier:hv",
+    "from": 177,
+    "to": 46,
+    "rPu": 0.00010636002761477389,
+    "xPu": 0.004254401104590955,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3408.2352941176473
+  },
+  {
+    "name": "emb:RO:rahman:hv",
+    "from": 178,
+    "to": 47,
+    "rPu": 0.007021653776371819,
+    "xPu": 0.1404330755274364,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 142.41659185262665
+  },
+  {
+    "name": "emb:RO:roman nord:hv",
+    "from": 179,
+    "to": 49,
+    "rPu": 0.001930804707383676,
+    "xPu": 0.03861609414767352,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 517.9187704358993
+  },
+  {
+    "name": "emb:RO:smardan:hv",
+    "from": 180,
+    "to": 54,
+    "rPu": 0.005040976077279768,
+    "xPu": 0.10081952154559536,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 198.37428003420007
+  },
+  {
+    "name": "gsu:RO:smardan:hv",
+    "from": 181,
+    "to": 54,
+    "rPu": 0.0008216666666666665,
+    "xPu": 0.03286666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 441.1764705882353
+  },
+  {
+    "name": "emb:RO:stupina:hv",
+    "from": 182,
+    "to": 55,
+    "rPu": 0.0010528512078209025,
+    "xPu": 0.02105702415641805,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 949.8018262900707
+  },
+  {
+    "name": "emb:RO:tantareni:hv",
+    "from": 183,
+    "to": 57,
+    "rPu": 0.026313509216597288,
+    "xPu": 0.5262701843319457,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 38.00329297656918
+  },
+  {
+    "name": "gsu:RO:tantareni:hv",
+    "from": 184,
+    "to": 57,
+    "rPu": 0.00013338744588744586,
+    "xPu": 0.005335497835497835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2717.6470588235293
+  },
+  {
+    "name": "emb:RO:tariverde:hv",
+    "from": 185,
+    "to": 58,
+    "rPu": 0.0012264189151388071,
+    "xPu": 0.02452837830277614,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 815.3820751262787
+  },
+  {
+    "name": "emb:RO:tulcea vest:hv",
+    "from": 186,
+    "to": 59,
+    "rPu": 0.0028226330090387166,
+    "xPu": 0.05645266018077433,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 354.27914177924345
+  },
+  {
+    "name": "gsu:RO:urechesti:hv",
+    "from": 187,
+    "to": 60,
+    "rPu": 0.00023342803030303026,
+    "xPu": 0.00933712121212121,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1552.9411764705883
+  },
+  {
+    "name": "emb:RO:alba iulia:220",
+    "from": 188,
+    "to": 63,
+    "rPu": 0.00980709297629329,
+    "xPu": 0.1961418595258658,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.96701534463908
+  },
+  {
+    "name": "emb:RO:arad:220",
+    "from": 189,
+    "to": 64,
+    "rPu": 0.009865493547081656,
+    "xPu": 0.1973098709416331,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 101.36340318177122
+  },
+  {
+    "name": "emb:RO:arefu:220",
+    "from": 190,
+    "to": 65,
+    "rPu": 0.0012974603795363458,
+    "xPu": 0.025949207590726917,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 770.7364446514777
+  },
+  {
+    "name": "emb:RO:baia mare 3:220",
+    "from": 191,
+    "to": 66,
+    "rPu": 0.09018667769669204,
+    "xPu": 1.8037335539338408,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.08811218618245
+  },
+  {
+    "name": "emb:RO:barbosi:220",
+    "from": 192,
+    "to": 67,
+    "rPu": 6.017362708462068,
+    "xPu": 120.34725416924137,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.16618576084731018
+  },
+  {
+    "name": "emb:RO:baru mare:220",
+    "from": 193,
+    "to": 68,
+    "rPu": 40.92415200111374,
+    "xPu": 818.4830400222748,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.024435448289137063
+  },
+  {
+    "name": "emb:RO:bradu:220",
+    "from": 194,
+    "to": 69,
+    "rPu": 0.14599805547024963,
+    "xPu": 2.919961109404993,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 6.849406293659659
+  },
+  {
+    "name": "emb:RO:brazi vest:220",
+    "from": 195,
+    "to": 70,
+    "rPu": 0.0020095536614465202,
+    "xPu": 0.0401910732289304,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 497.6229394542161
+  },
+  {
+    "name": "emb:RO:bucuresti sud:220",
+    "from": 196,
+    "to": 71,
+    "rPu": 0.05383710427453531,
+    "xPu": 1.0767420854907062,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 18.57455027485561
+  },
+  {
+    "name": "emb:RO:calafat:220",
+    "from": 197,
+    "to": 72,
+    "rPu": 0.04668134949808831,
+    "xPu": 0.9336269899617662,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 21.42183143272137
+  },
+  {
+    "name": "emb:RO:calea aradului:220",
+    "from": 198,
+    "to": 73,
+    "rPu": 0.014584258676638925,
+    "xPu": 0.2916851735327785,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 68.56707784549931
+  },
+  {
+    "name": "emb:RO:calugareni:220",
+    "from": 199,
+    "to": 74,
+    "rPu": 0.002752790868936945,
+    "xPu": 0.0550558173787389,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 363.2676972610613
+  },
+  {
+    "name": "emb:RO:campia turzii:220",
+    "from": 200,
+    "to": 75,
+    "rPu": 0.018824979875490488,
+    "xPu": 0.37649959750980977,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 53.12090672149761
+  },
+  {
+    "name": "emb:RO:cetate:220",
+    "from": 201,
+    "to": 76,
+    "rPu": 0.017074452094781783,
+    "xPu": 0.34148904189563567,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.56703304146524
+  },
+  {
+    "name": "emb:RO:cluj floresti:220",
+    "from": 202,
+    "to": 77,
+    "rPu": 0.003649053738642325,
+    "xPu": 0.0729810747728465,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 274.04364846982554
+  },
+  {
+    "name": "emb:RO:craiova nord:220",
+    "from": 203,
+    "to": 78,
+    "rPu": 0.007030603736523535,
+    "xPu": 0.1406120747304707,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 142.23529549888644
+  },
+  {
+    "name": "gsu:RO:craiova nord:220",
+    "from": 204,
+    "to": 78,
+    "rPu": 0.0010270833333333332,
+    "xPu": 0.041083333333333326,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 352.94117647058823
+  },
+  {
+    "name": "emb:RO:d. mostistea:220",
+    "from": 205,
+    "to": 79,
+    "rPu": 0.01289237194649864,
+    "xPu": 0.2578474389299728,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 77.56524587948952
+  },
+  {
+    "name": "emb:RO:dumbrava:220",
+    "from": 206,
+    "to": 80,
+    "rPu": 0.012586187007750873,
+    "xPu": 0.2517237401550175,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 79.4521803453402
+  },
+  {
+    "name": "emb:RO:fai:220",
+    "from": 207,
+    "to": 81,
+    "rPu": 0.018595231864061677,
+    "xPu": 0.3719046372812335,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 53.77722672728074
+  },
+  {
+    "name": "emb:RO:fantanele:220",
+    "from": 208,
+    "to": 82,
+    "rPu": 0.021149531906929083,
+    "xPu": 0.4229906381385817,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 47.28237033333
+  },
+  {
+    "name": "emb:RO:filesti:220",
+    "from": 209,
+    "to": 83,
+    "rPu": 0.012057900187568886,
+    "xPu": 0.24115800375137772,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.93317944619842
+  },
+  {
+    "name": "emb:RO:focsani vest:220",
+    "from": 210,
+    "to": 84,
+    "rPu": 0.007056839721269148,
+    "xPu": 0.14113679442538296,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 141.70649178640457
+  },
+  {
+    "name": "emb:RO:fundeni:220",
+    "from": 211,
+    "to": 85,
+    "rPu": 0.02618565664410068,
+    "xPu": 0.5237131328820136,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 38.18884565666556
+  },
+  {
+    "name": "emb:RO:galceag:220",
+    "from": 212,
+    "to": 86,
+    "rPu": 0.0028523071929302387,
+    "xPu": 0.05704614385860477,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 350.59337313968547
+  },
+  {
+    "name": "emb:RO:gheorgheni:220",
+    "from": 213,
+    "to": 87,
+    "rPu": 0.027294501653391978,
+    "xPu": 0.5458900330678396,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 36.637415575445274
+  },
+  {
+    "name": "emb:RO:ghizdaru:220",
+    "from": 214,
+    "to": 88,
+    "rPu": 0.004172701667204256,
+    "xPu": 0.08345403334408513,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 239.65288672794284
+  },
+  {
+    "name": "emb:RO:gradiste:220",
+    "from": 215,
+    "to": 89,
+    "rPu": 0.008000726991731471,
+    "xPu": 0.1600145398346294,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 124.98864178636171
+  },
+  {
+    "name": "emb:RO:gutinas:220",
+    "from": 216,
+    "to": 90,
+    "rPu": 0.0072458129228367115,
+    "xPu": 0.14491625845673423,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 138.01073953321216
+  },
+  {
+    "name": "emb:RO:hasdat:220",
+    "from": 217,
+    "to": 91,
+    "rPu": 0.014179544827167139,
+    "xPu": 0.2835908965433428,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 70.52412557588318
+  },
+  {
+    "name": "emb:RO:iaz:220",
+    "from": 218,
+    "to": 92,
+    "rPu": 0.004377884159510694,
+    "xPu": 0.08755768319021388,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 228.4208452221284
+  },
+  {
+    "name": "emb:RO:iernut:220",
+    "from": 219,
+    "to": 93,
+    "rPu": 0.05355456473639394,
+    "xPu": 1.0710912947278788,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 18.67254462662886
+  },
+  {
+    "name": "emb:RO:isalnita:220",
+    "from": 220,
+    "to": 94,
+    "rPu": 0.029246044957203537,
+    "xPu": 0.5849208991440707,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 34.192657552955446
+  },
+  {
+    "name": "gsu:RO:isalnita:220",
+    "from": 221,
+    "to": 94,
+    "rPu": 0.0004890873015873015,
+    "xPu": 0.01956349206349206,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 741.1764705882354
+  },
+  {
+    "name": "emb:RO:lacu sarat:220",
+    "from": 222,
+    "to": 95,
+    "rPu": 0.01125856481176725,
+    "xPu": 0.225171296235345,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 88.82126778315634
+  },
+  {
+    "name": "emb:RO:lotru:220",
+    "from": 223,
+    "to": 96,
+    "rPu": 0.005945089987371839,
+    "xPu": 0.1189017997474368,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 168.20603256201886
+  },
+  {
+    "name": "gsu:RO:lotru:220",
+    "from": 224,
+    "to": 96,
+    "rPu": 0.000605353634577603,
+    "xPu": 0.02421414538310412,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 598.8235294117648
+  },
+  {
+    "name": "emb:RO:mariselu:220",
+    "from": 225,
+    "to": 97,
+    "rPu": 0.0019358976691633875,
+    "xPu": 0.03871795338326775,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 516.5562291482883
+  },
+  {
+    "name": "emb:RO:mintia:220",
+    "from": 226,
+    "to": 98,
+    "rPu": 2.703264876791401,
+    "xPu": 54.06529753582802,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.3699230543722873
+  },
+  {
+    "name": "emb:RO:munteni:220",
+    "from": 227,
+    "to": 99,
+    "rPu": 0.00434099855477666,
+    "xPu": 0.0868199710955332,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 230.36174451144203
+  },
+  {
+    "name": "emb:RO:otelarie h:220",
+    "from": 228,
+    "to": 125,
+    "rPu": 15.390822620895367,
+    "xPu": 307.8164524179073,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.06497378500369103
+  },
+  {
+    "name": "emb:RO:paroseni:220",
+    "from": 229,
+    "to": 126,
+    "rPu": 0.005656260785769142,
+    "xPu": 0.11312521571538285,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 176.79524298383623
+  },
+  {
+    "name": "emb:RO:pestis:220",
+    "from": 230,
+    "to": 127,
+    "rPu": 5.292388277776832,
+    "xPu": 105.84776555553663,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.1889506112389904
+  },
+  {
+    "name": "emb:RO:pitesti sud:220",
+    "from": 231,
+    "to": 128,
+    "rPu": 0.00897388205826015,
+    "xPu": 0.17947764116520298,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 111.43449328928214
+  },
+  {
+    "name": "emb:RO:portile de fier:220",
+    "from": 232,
+    "to": 129,
+    "rPu": 0.017218652532357992,
+    "xPu": 0.34437305064715984,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.07655379076611
+  },
+  {
+    "name": "emb:RO:ratesti:220",
+    "from": 233,
+    "to": 130,
+    "rPu": 0.020144449728418185,
+    "xPu": 0.4028889945683637,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 49.64146519173863
+  },
+  {
+    "name": "emb:RO:raureni:220",
+    "from": 234,
+    "to": 131,
+    "rPu": 0.002969298375376191,
+    "xPu": 0.05938596750752382,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 336.7798966559925
+  },
+  {
+    "name": "emb:RO:resita:220",
+    "from": 235,
+    "to": 132,
+    "rPu": 0.0914940335461091,
+    "xPu": 1.8298806709221822,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 10.929674441514729
+  },
+  {
+    "name": "emb:RO:retezat:220",
+    "from": 236,
+    "to": 133,
+    "rPu": 0.0018832777338483116,
+    "xPu": 0.03766555467696623,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 530.9891271090369
+  },
+  {
+    "name": "emb:RO:rosiori:220",
+    "from": 237,
+    "to": 134,
+    "rPu": 0.09041465763432847,
+    "xPu": 1.8082931526865695,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.060153587534261
+  },
+  {
+    "name": "emb:RO:sacalaz:220",
+    "from": 238,
+    "to": 135,
+    "rPu": 0.048608044668350614,
+    "xPu": 0.9721608933670123,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 20.572726321803973
+  },
+  {
+    "name": "emb:RO:salaj:220",
+    "from": 239,
+    "to": 136,
+    "rPu": 0.10676350715634622,
+    "xPu": 2.1352701431269243,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9.366496349127832
+  },
+  {
+    "name": "emb:RO:sardanesti:220",
+    "from": 240,
+    "to": 137,
+    "rPu": 0.3557213723234198,
+    "xPu": 7.1144274464683965,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2.8111889748665586
+  },
+  {
+    "name": "emb:RO:sibiu sud:220",
+    "from": 241,
+    "to": 138,
+    "rPu": 0.0003782438729574949,
+    "xPu": 0.007564877459149898,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2643.7969561304035
+  },
+  {
+    "name": "emb:RO:slatina:220",
+    "from": 242,
+    "to": 139,
+    "rPu": 0.006785051735162498,
+    "xPu": 0.13570103470324996,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 147.38281136717828
+  },
+  {
+    "name": "emb:RO:stalpu:220",
+    "from": 243,
+    "to": 140,
+    "rPu": 0.00599937918906333,
+    "xPu": 0.1199875837812666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 166.68391319938019
+  },
+  {
+    "name": "emb:RO:stejaru:220",
+    "from": 244,
+    "to": 141,
+    "rPu": 0.0037070109543893897,
+    "xPu": 0.0741402190877878,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 269.7591165237648
+  },
+  {
+    "name": "emb:RO:studina:220",
+    "from": 245,
+    "to": 142,
+    "rPu": 0.015430700033581188,
+    "xPu": 0.30861400067162376,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 64.80587386338544
+  },
+  {
+    "name": "emb:RO:stuparei:220",
+    "from": 246,
+    "to": 143,
+    "rPu": 0.004621329995320568,
+    "xPu": 0.09242659990641135,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 216.38792317635242
+  },
+  {
+    "name": "emb:RO:suceava:220",
+    "from": 247,
+    "to": 144,
+    "rPu": 0.020919489179924176,
+    "xPu": 0.4183897835984835,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 47.802314454201436
+  },
+  {
+    "name": "emb:RO:sugag:220",
+    "from": 248,
+    "to": 145,
+    "rPu": 0.0038447247128865227,
+    "xPu": 0.07689449425773046,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 260.0966453198219
+  },
+  {
+    "name": "emb:RO:targoviste a:220",
+    "from": 249,
+    "to": 146,
+    "rPu": 0.002974107767669699,
+    "xPu": 0.05948215535339398,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 336.2352941176471
+  },
+  {
+    "name": "emb:RO:targoviste b:220",
+    "from": 250,
+    "to": 147,
+    "rPu": 3.5212532570849255,
+    "xPu": 70.42506514169851,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.2839897976630773
+  },
+  {
+    "name": "emb:RO:targoviste:220",
+    "from": 251,
+    "to": 148,
+    "rPu": 0.002974756440631177,
+    "xPu": 0.05949512881262354,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 336.1619749238436
+  },
+  {
+    "name": "emb:RO:targu jiu nord:220",
+    "from": 252,
+    "to": 149,
+    "rPu": 0.016757228019122543,
+    "xPu": 0.3351445603824509,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 59.67574105089744
+  },
+  {
+    "name": "emb:RO:teleajen:220",
+    "from": 253,
+    "to": 150,
+    "rPu": 0.006801329407958777,
+    "xPu": 0.13602658815917554,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 147.03007897688656
+  },
+  {
+    "name": "emb:RO:tihau:220",
+    "from": 254,
+    "to": 151,
+    "rPu": 4.652490654494562,
+    "xPu": 93.04981308989124,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 0.21493863701455154
+  },
+  {
+    "name": "emb:RO:timisoara:220",
+    "from": 255,
+    "to": 152,
+    "rPu": 0.004471517651707358,
+    "xPu": 0.08943035303414715,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 223.63771718941342
+  },
+  {
+    "name": "emb:RO:turnu magurele:220",
+    "from": 256,
+    "to": 153,
+    "rPu": 0.0061625098819828115,
+    "xPu": 0.12325019763965622,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 162.27154506050806
+  },
+  {
+    "name": "emb:RO:turnu severin est:220",
+    "from": 257,
+    "to": 154,
+    "rPu": 0.00850172126491764,
+    "xPu": 0.1700344252983528,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 117.62323991101671
+  },
+  {
+    "name": "emb:RO:ungheni:220",
+    "from": 258,
+    "to": 155,
+    "rPu": 0.0050623939749656005,
+    "xPu": 0.10124787949931201,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 197.53500121586154
+  },
+  {
+    "name": "emb:RO:urechesti:220",
+    "from": 259,
+    "to": 156,
+    "rPu": 0.006083039158033594,
+    "xPu": 0.12166078316067189,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 164.39151122006922
+  },
+  {
+    "name": "emb:RO:vetis:220",
+    "from": 260,
+    "to": 157,
+    "rPu": 0.004108703615125475,
+    "xPu": 0.0821740723025095,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 243.3857716868831
+  }
+]

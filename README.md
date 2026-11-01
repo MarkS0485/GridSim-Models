@@ -68,15 +68,40 @@ generator terminal level behind the modelled step-up transformers, not a distrib
 <!-- MODELS-TABLE-START (written by the export tool) -->
 | Folder (models/...) | Coverage | Frequency | Buses | Voltage levels (kV) | Licence status |
 |---|---|---:|---:|---|---|
+| `australia-nem-spine-500-110-r9` | Australia, National Electricity Market (eastern states) | 50 Hz | 1,038 | 500 / 330 / 275 / 220 / 132 / 110 / 20 | (c) check |
+| `australia-wem-spine-330-132-r2` | Australia, Wholesale Electricity Market (south-west WA) | 50 Hz | 188 | 330 / 220 / 132 / 20 | (c) check |
+| `austria-spine-380-220-r4` | Austria | 50 Hz | 189 | 380 / 220 / 110 / 21 | (b) needs JAO consent |
 | `baltics-spine-400-330-r3` | Baltic states (Estonia, Latvia, Lithuania) | 50 Hz | 87 | 400 / 330 / 220 / 20 | (a) open |
+| `belgium-spine-380-220-r5` | Belgium | 50 Hz | 165 | 380 / 220 / 110 / 21 | (b) needs JAO consent |
 | `bulgaria-spine-400-220-r3` | Bulgaria | 50 Hz | 185 | 400 / 220 / 20 | (a) open |
+| `canada-west-spine-500-240-138-r4` | Canada, Alberta and British Columbia | 60 Hz | 1,371 | 500 / 345 / 230 / 161 / 138 / 13.8 | (c) check |
+| `canada-ontario-spine-500-230-115-r2` | Canada, Ontario | 60 Hz | 1,071 | 500 / 345 / 230 / 115 / 13.8 | (c) check |
+| `canada-quebec-spine-735-315-120-r3` | Canada, Quebec interconnection | 60 Hz | 843 | 735 / 315 / 230 / 161 / 115 / 13.8 | (c) check |
+| `croatia-spine-400-220-r4` | Croatia | 50 Hz | 55 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `czechia-spine-400-220-r3` | Czechia | 50 Hz | 120 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `denmark-dk1-spine-400-220-150-132-r4` | Denmark DK1 (Jutland and Funen) | 50 Hz | 179 | 400 / 220 / 150 / 20 | (c) check |
+| `denmark-dk2-spine-400-220-132-r4` | Denmark DK2 (Zealand) | 50 Hz | 153 | 400 / 220 / 150 / 132 / 20 | (c) check |
 | `finland-spine-400-220-110-r6` | Finland | 50 Hz | 1,391 | 400 / 220 / 110 / 20 | (a) open |
+| `france-spine-400-225-r10` | France | 50 Hz | 1,781 | 400 / 225 / 63 / 21 | (b) needs JAO consent |
+| `germany-spine-380-220-r6` | Germany | 50 Hz | 986 | 380 / 220 / 110 / 21 | (b) needs JAO consent |
 | `greece-spine-400-150-r4` | Greece, interconnected system with Crete | 50 Hz | 450 | 400 / 150 / 20 | (a) open |
+| `hungary-spine-400-220-r5` | Hungary | 50 Hz | 110 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
 | `iberia-spine-400-220-132-r8` | Iberian peninsula (Spain and Portugal) | 50 Hz | 3,688 | 400 / 220 / 150 / 132 / 110 / 20 | (a) open |
+| `india-spine-220-r10` | India, 765 / 400 / 220 kV | 50 Hz | 5,318 | 765 / 400 / 230 / 220 / 21 | (c) check |
+| `india-spine-765-400-r8` | India, 765 / 400 kV | 50 Hz | 1,657 | 765 / 400 / 21 | (c) check |
 | `ireland-spine-400-275-220-110-r5` | Ireland, all-island (Ireland and Northern Ireland) | 50 Hz | 513 | 400 / 275 / 220 / 110 / 20 | (a) open |
 | `italy-spine-sardinia-380-220-150-r1` | Italy, Sardinia | 50 Hz | 168 | 380 / 220 / 150 / 20 | (a) open |
 | `italy-spine-380-220-150-r5` | Italy, mainland and Sicily | 50 Hz | 5,006 | 380 / 220 / 150 / 132 / 20 | (a) open |
+| `japan-east-spine-500-66-r5` | Japan east (50 Hz) | 50 Hz | 4,551 | 500 / 275 / 220 / 154 / 66 / 20 | (c) check |
+| `japan-west-spine-500-66-r4` | Japan west (60 Hz) | 60 Hz | 3,611 | 500 / 275 / 220 / 187 / 154 / 110 / 77 / 66 / 20 | (c) check |
+| `netherlands-spine-380-220-r4` | Netherlands | 50 Hz | 138 | 380 / 220 / 150 / 21 | (b) needs JAO consent |
 | `norway-spine-420-300-132-r6` | Norway | 50 Hz | 1,349 | 420 / 300 / 220 / 132 / 110 / 13.8 | (a) open |
+| `poland-spine-400-220-r5` | Poland | 50 Hz | 375 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `romania-spine-400-220-r5` | Romania | 50 Hz | 260 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `slovakia-spine-400-220-r4` | Slovakia | 50 Hz | 83 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `slovenia-spine-400-220-r3` | Slovenia | 50 Hz | 36 | 400 / 220 / 110 / 21 | (b) needs JAO consent |
+| `sweden-spine-400-220-r5` | Sweden | 50 Hz | 320 | 400 / 220 / 20 | (c) check |
+| `switzerland-spine-380-220-hv-r6` | Switzerland | 50 Hz | 737 | 380 / 220 / 150 / 132 / 110 / 20 | (c) check |
 | `ercot-spine-345-138-r3` | Texas (ERCOT interconnection, 60 Hz) | 60 Hz | 5,771 | 345 / 138 / 22 | (a) open |
 | `wbalkans-spine-400-220-r2` | Western Balkans (Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo) | 50 Hz | 198 | 400 / 220 / 20 | (a) open |
 <!-- MODELS-TABLE-END -->

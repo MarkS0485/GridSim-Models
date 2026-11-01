@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "jao:Albertirsa - Jozsa:0",
+    "from": 1,
+    "to": 15,
+    "rPu": 0.0015435625,
+    "xPu": 0.0296756875,
+    "bPu": 1.0549216803342238,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - God Kelet:1",
+    "from": 33,
+    "to": 10,
+    "rPu": 0.002260625,
+    "xPu": 0.026648125,
+    "bPu": 0.9831999999999999,
+    "ratingMva": 1849.830262483561,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Szolnok - Szeged:2",
+    "from": 67,
+    "to": 66,
+    "rPu": 0.013471074380165288,
+    "xPu": 0.09900826446280991,
+    "bPu": 0.09471879999999999,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bekescsaba - Szolnok:3",
+    "from": 3,
+    "to": 38,
+    "rPu": 0.0019493750000000002,
+    "xPu": 0.024139374999999998,
+    "bPu": 0.6036884443138145,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Szombathely:4",
+    "from": 13,
+    "to": 41,
+    "rPu": 0.00194375,
+    "xPu": 0.022000000000000002,
+    "bPu": 0.5157238500133005,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paks - Sandorfalva:5",
+    "from": 27,
+    "to": 34,
+    "rPu": 0.00200625,
+    "xPu": 0.02374375,
+    "bPu": 0.5966512767697736,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bicske Del - Gonyu:6",
+    "from": 4,
+    "to": 12,
+    "rPu": 0.0019304843750000001,
+    "xPu": 0.02109897196904437,
+    "bPu": 0.6186052596437003,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Toponar:7",
+    "from": 14,
+    "to": 42,
+    "rPu": 0.00201875,
+    "xPu": 0.020706250000000002,
+    "bPu": 0.5790583579096706,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liter - Paks:8",
+    "from": 18,
+    "to": 27,
+    "rPu": 0.00295,
+    "xPu": 0.02055625,
+    "bPu": 0.509691992118408,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kisvarda - Sajoszoged:9",
+    "from": 52,
+    "to": 65,
+    "rPu": 0.014793388429752067,
+    "xPu": 0.08382231404958677,
+    "bPu": 0.12513968848897294,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Mezocsat - Szolnok:10",
+    "from": 54,
+    "to": 67,
+    "rPu": 0.015066115702479338,
+    "xPu": 0.08892561983471074,
+    "bPu": 0.10933559999999999,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Detk - Zuglo I.:11",
+    "from": 46,
+    "to": 70,
+    "rPu": 0.014669421487603305,
+    "xPu": 0.06388429752066116,
+    "bPu": 0.10704537144135715,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bekescsaba - Sandorfalva:12",
+    "from": 3,
+    "to": 34,
+    "rPu": 0.0016312499999999999,
+    "xPu": 0.018175,
+    "bPu": 0.521403849530991,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paks - Toponar:13",
+    "from": 27,
+    "to": 42,
+    "rPu": 0.00164375,
+    "xPu": 0.01924375,
+    "bPu": 0.49310438290745395,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Liter:14",
+    "from": 14,
+    "to": 18,
+    "rPu": 0.00175625,
+    "xPu": 0.0179625,
+    "bPu": 0.5021521697497925,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Detk - Zuglo II.:15",
+    "from": 46,
+    "to": 70,
+    "rPu": 0.013925619834710743,
+    "xPu": 0.07247933884297521,
+    "bPu": 0.11023848621446583,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paks - Pecs 1:16",
+    "from": 27,
+    "to": 28,
+    "rPu": 0.00149,
+    "xPu": 0.016004375,
+    "bPu": 0.3729698798341802,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paks - Pecs 2:17",
+    "from": 27,
+    "to": 29,
+    "rPu": 0.00149,
+    "xPu": 0.016004375,
+    "bPu": 0.3729698798341802,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Szabolcsbaka - Jozsa:18",
+    "from": 36,
+    "to": 15,
+    "rPu": 0.0007501249999999999,
+    "xPu": 0.014374437499999998,
+    "bPu": 0.5103454433903548,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Detk I.:19",
+    "from": 65,
+    "to": 46,
+    "rPu": 0.012479338842975207,
+    "xPu": 0.05549586776859504,
+    "bPu": 0.12316299839133421,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Szombathely 1:20",
+    "from": 14,
+    "to": 39,
+    "rPu": 0.00139375,
+    "xPu": 0.015262500000000002,
+    "bPu": 0.44545270553780386,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Szombathely 2:21",
+    "from": 14,
+    "to": 40,
+    "rPu": 0.00139375,
+    "xPu": 0.015262500000000002,
+    "bPu": 0.44545270553780386,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Liter:22",
+    "from": 13,
+    "to": 18,
+    "rPu": 0.001330434375,
+    "xPu": 0.0152940193041416,
+    "bPu": 0.40497446932023184,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Liter - Martonvasar:23",
+    "from": 18,
+    "to": 19,
+    "rPu": 0.00126875,
+    "xPu": 0.0151875,
+    "bPu": 0.37799642807992395,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Detk II.:24",
+    "from": 65,
+    "to": 46,
+    "rPu": 0.011673553719008266,
+    "xPu": 0.060826446280991736,
+    "bPu": 0.09229622225128381,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albertirsa - Martonvasar:25",
+    "from": 1,
+    "to": 19,
+    "rPu": 0.00107625,
+    "xPu": 0.012815624999999999,
+    "bPu": 0.40051536422085554,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albertirsa - God:26",
+    "from": 1,
+    "to": 11,
+    "rPu": 0.00092125,
+    "xPu": 0.01129125,
+    "bPu": 0.42021943334417067,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Detk - Szolnok:27",
+    "from": 46,
+    "to": 67,
+    "rPu": 0.00762396694214876,
+    "xPu": 0.05597107438016529,
+    "bPu": 0.08347714335412654,
+    "ratingMva": 342.9460598986377,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dunamenti - Oroszlany:28",
+    "from": 47,
+    "to": 58,
+    "rPu": 0.005823150826446281,
+    "xPu": 0.04368328466604091,
+    "bPu": 0.09532535678159483,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Paks - Perkata:29",
+    "from": 27,
+    "to": 30,
+    "rPu": 0.00070625,
+    "xPu": 0.0112483125,
+    "bPu": 0.3479879350528342,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Jozsa - Sajoszoged:30",
+    "from": 15,
+    "to": 33,
+    "rPu": 0.0010382103125,
+    "xPu": 0.012266273112826367,
+    "bPu": 0.3079755568916326,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Buj - Sajoszoged:31",
+    "from": 5,
+    "to": 33,
+    "rPu": 0.0008325625000000001,
+    "xPu": 0.0102906875,
+    "bPu": 0.33024421968,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albertirsa - Szigetcsep:32",
+    "from": 1,
+    "to": 37,
+    "rPu": 0.000874375,
+    "xPu": 0.010093125000000001,
+    "bPu": 0.3081274074640869,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Oroszlany:33",
+    "from": 50,
+    "to": 58,
+    "rPu": 0.002959710743801653,
+    "xPu": 0.03191363636363636,
+    "bPu": 0.08428302470162542,
+    "ratingMva": 381.051177665153,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albertirsa - Szolnok:34",
+    "from": 1,
+    "to": 38,
+    "rPu": 0.0008325,
+    "xPu": 0.00965125,
+    "bPu": 0.2412743157956961,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Szabolcsbaka - Buj:35",
+    "from": 36,
+    "to": 5,
+    "rPu": 0.00068875,
+    "xPu": 0.008225749999999999,
+    "bPu": 0.26122971232000003,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Albertirsa - Kerepes:36",
+    "from": 1,
+    "to": 16,
+    "rPu": 0.000601875,
+    "xPu": 0.0073775,
+    "bPu": 0.2744495342176043,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Martonvasar - Perkata:37",
+    "from": 19,
+    "to": 30,
+    "rPu": 0.00043400000000000003,
+    "xPu": 0.0069116875,
+    "bPu": 0.21382936237393566,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Ocsa - Kerepes:38",
+    "from": 57,
+    "to": 51,
+    "rPu": 0.004173553719008264,
+    "xPu": 0.022644628099173555,
+    "bPu": 0.057934799999999995,
+    "ratingMva": 495.3665309646989,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Tiszalok:39",
+    "from": 65,
+    "to": 68,
+    "rPu": 0.004896694214876034,
+    "xPu": 0.02597107438016529,
+    "bPu": 0.03862148344617148,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Felsozsolca - Sajoivanka:40",
+    "from": 8,
+    "to": 32,
+    "rPu": 0.0005124999999999999,
+    "xPu": 0.0060750000000000005,
+    "bPu": 0.154816,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dunamenti - Ocsa I.:41",
+    "from": 47,
+    "to": 57,
+    "rPu": 0.0034917355371900825,
+    "xPu": 0.018140495867768593,
+    "bPu": 0.05032957094756992,
+    "ratingMva": 495.3665309646989,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dunamenti - Ocsa II.:42",
+    "from": 47,
+    "to": 57,
+    "rPu": 0.0034917355371900825,
+    "xPu": 0.018140495867768593,
+    "bPu": 0.05032957094756992,
+    "ratingMva": 495.3665309646989,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Felsozsolca I.:43",
+    "from": 33,
+    "to": 8,
+    "rPu": 0.00045,
+    "xPu": 0.0052812499999999995,
+    "bPu": 0.134704,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Felsozsolca II.:44",
+    "from": 33,
+    "to": 8,
+    "rPu": 0.00045,
+    "xPu": 0.005274999999999999,
+    "bPu": 0.134704,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bicske Del - Martonvasar:45",
+    "from": 4,
+    "to": 19,
+    "rPu": 0.00032025328125,
+    "xPu": 0.0035880853584275775,
+    "bPu": 0.20775140799943778,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kerepes - God Kelet:46",
+    "from": 16,
+    "to": 10,
+    "rPu": 0.00029749999999999997,
+    "xPu": 0.00377,
+    "bPu": 0.14727999999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Martonvasar - Szigetcsep:47",
+    "from": 19,
+    "to": 37,
+    "rPu": 0.0002825,
+    "xPu": 0.0036043750000000004,
+    "bPu": 0.11812388377497622,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoszoged - Mezocsat:48",
+    "from": 65,
+    "to": 54,
+    "rPu": 0.003066115702479339,
+    "xPu": 0.018099173553719008,
+    "bPu": 0.02402576,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kerepes - Zuglo I.:49",
+    "from": 51,
+    "to": 70,
+    "rPu": 0.0022520661157024793,
+    "xPu": 0.011404958677685949,
+    "bPu": 0.033454080000000004,
+    "ratingMva": 495.3665309646989,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kerepes - Zuglo II.:50",
+    "from": 51,
+    "to": 70,
+    "rPu": 0.0022520661157024793,
+    "xPu": 0.011404958677685949,
+    "bPu": 0.033454080000000004,
+    "ratingMva": 495.3665309646989,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gonyu - Gyor:51",
+    "from": 12,
+    "to": 13,
+    "rPu": 0.000265,
+    "xPu": 0.0028925,
+    "bPu": 0.08494866535306801,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dunamenti - Martonvasar II.:52",
+    "from": 47,
+    "to": 53,
+    "rPu": 0.0008677685950413223,
+    "xPu": 0.0062603305785123966,
+    "bPu": 0.009579344319325998,
+    "ratingMva": 472.5034603047897,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Dunamenti - Martonvasar I.:53",
+    "from": 47,
+    "to": 53,
+    "rPu": 0.0008677685950413223,
+    "xPu": 0.0062603305785123966,
+    "bPu": 0.009579344319325998,
+    "ratingMva": 472.5034603047897,
+    "circuits": 1
+  },
+  {
+    "name": "jao:God Kelet - God I.:54",
+    "from": 10,
+    "to": 11,
+    "rPu": 4.625e-05,
+    "xPu": 0.000515625,
+    "bPu": 1.8064,
+    "ratingMva": 1849.830262483561,
+    "circuits": 1
+  },
+  {
+    "name": "jao:God Kelet - God II.:55",
+    "from": 10,
+    "to": 11,
+    "rPu": 4.0625e-05,
+    "xPu": 0.00048875,
+    "bPu": 0.0176,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Szombathely - Zurndorf:56",
+    "from": 41,
+    "to": 45,
+    "rPu": 0.0011056249999999998,
+    "xPu": 0.0121625,
+    "bPu": 0.376496,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Tiszalok - Mukachevo:57",
+    "from": 68,
+    "to": 55,
+    "rPu": 0.010010330578512396,
+    "xPu": 0.052272727272727276,
+    "bPu": 0.08028591999999998,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Zerjavinec:58",
+    "from": 14,
+    "to": 44,
+    "rPu": 0.0015768750000000002,
+    "xPu": 0.01638125,
+    "bPu": 0.4820479999999999,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Heviz - Cirkovce:59",
+    "from": 14,
+    "to": 6,
+    "rPu": 0.000835625,
+    "xPu": 0.011085624999999998,
+    "bPu": 0.45967783712,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Zurndorf:60",
+    "from": 13,
+    "to": 45,
+    "rPu": 0.00046499999999999997,
+    "xPu": 0.0065249999999999996,
+    "bPu": 0.20508800000000002,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Neusiedl:61",
+    "from": 50,
+    "to": 56,
+    "rPu": 0.006818181818181818,
+    "xPu": 0.03543388429752066,
+    "bPu": 0.053065760000000003,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Wien:62",
+    "from": 50,
+    "to": 69,
+    "rPu": 0.010237603305785124,
+    "xPu": 0.052954545454545456,
+    "bPu": 0.079981,
+    "ratingMva": 228.63070659909178,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sandorfalva - Arad:63",
+    "from": 34,
+    "to": 2,
+    "rPu": 0.001059375,
+    "xPu": 0.01119375,
+    "bPu": 0.293552,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Levice - God:64",
+    "from": 11,
+    "to": 17,
+    "rPu": 0.0007843749999999999,
+    "xPu": 0.0088125,
+    "bPu": 0.24731199999999998,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pecs - Ernestinovo1 491A:65",
+    "from": 29,
+    "to": 7,
+    "rPu": 0.0007975,
+    "xPu": 0.008418750000000001,
+    "bPu": 0.256864,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Pecs - Ernestinovo2 491B:66",
+    "from": 29,
+    "to": 7,
+    "rPu": 0.0007975,
+    "xPu": 0.008418750000000001,
+    "bPu": 0.25684799999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Bekescsaba - Nadab:67",
+    "from": 3,
+    "to": 21,
+    "rPu": 0.00056125,
+    "xPu": 0.00556875,
+    "bPu": 0.12768,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gyor - Gabcikovo:68",
+    "from": 13,
+    "to": 9,
+    "rPu": 0.000359375,
+    "xPu": 0.00429375,
+    "bPu": 0.130688,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Kisvarda - Mukachevo:69",
+    "from": 52,
+    "to": 55,
+    "rPu": 0.004456611570247934,
+    "xPu": 0.02303719008264463,
+    "bPu": 0.035883759999999994,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Szabolcsbaka - Mukachevo:70",
+    "from": 36,
+    "to": 20,
+    "rPu": 0.000435625,
+    "xPu": 0.0049625,
+    "bPu": 0.163872,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sajoivanka - Rimavska Sobota:71",
+    "from": 32,
+    "to": 31,
+    "rPu": 0.00039,
+    "xPu": 0.00455,
+    "bPu": 0.152816,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Sandorfalva - Subotica:72",
+    "from": 34,
+    "to": 35,
+    "rPu": 0.000446875,
+    "xPu": 0.00509375,
+    "bPu": 0.12968,
+    "ratingMva": 1108.5125168440813,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gonyu - Gabcikovo:73",
+    "from": 12,
+    "to": 9,
+    "rPu": 0.00025,
+    "xPu": 0.0030625,
+    "bPu": 0.112896,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "jao:Gonyu - Velky Dur:74",
+    "from": 12,
+    "to": 43,
+    "rPu": 0.00068,
+    "xPu": 0.008481250000000001,
+    "bPu": 0.31596799999999997,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:god - god kelet 220 (OSM merged_relation/4744535:b-220+1)",
+    "from": 49,
+    "to": 48,
+    "rPu": 0.00020211705651910992,
+    "xPu": 0.0014045981221575627,
+    "bPu": 0.0021606963209521057,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:gyor - osm virtual_relation/5233619:c:1 400 (OSM merged_relation/5233619:b-400+3)",
+    "from": 13,
+    "to": 25,
+    "rPu": 4.667865610938041e-05,
+    "xPu": 0.0005158945483431337,
+    "bPu": 0.015065863221191245,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:detk - osm virtual_way/1262212256:1 220 (OSM merged_way/251991300-220+2)",
+    "from": 46,
+    "to": 63,
+    "rPu": 0.0004207547493638788,
+    "xPu": 0.002924005232529708,
+    "bPu": 0.004498003556111068,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:oroszlany - osm virtual_way/1116111030:1 220 (OSM merged_way/254897391-220+2)",
+    "from": 58,
+    "to": 62,
+    "rPu": 0.005639953930513074,
+    "xPu": 0.03919445907379334,
+    "bPu": 0.06029292093340364,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/4791312:b:1 - osm virtual_relation/5233619:c:1 400 (OSM merged_way/254897391-400+4)",
+    "from": 23,
+    "to": 25,
+    "rPu": 0.0015063176834544823,
+    "xPu": 0.01664788890121585,
+    "bPu": 0.48617458337722724,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sajoszoged - osm debrecen ovit alallomas 220 (OSM relation/12155330-220)",
+    "from": 65,
+    "to": 60,
+    "rPu": 0.008301135304651642,
+    "xPu": 0.05768814993398209,
+    "bPu": 0.08874180547345638,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sajoszoged - osm virtual_way/155668544:0 400 (OSM relation/12155335:a-400)",
+    "from": 33,
+    "to": 26,
+    "rPu": 0.00019898677310488058,
+    "xPu": 0.002199210517043367,
+    "bPu": 0.06422437482774697,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:szabolcsbaka - osm virtual_relation/12163552:a:1 400 (OSM relation/12163552:a-400)",
+    "from": 36,
+    "to": 22,
+    "rPu": 0.00011591511768778124,
+    "xPu": 0.0012810989490689697,
+    "bPu": 0.037412416164257445,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:zuglo - god kelet 220 (OSM relation/4744535:a-220)",
+    "from": 70,
+    "to": 48,
+    "rPu": 0.002451456308481518,
+    "xPu": 0.017036221419140296,
+    "bPu": 0.026206856155210408,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:bicske del - osm virtual_relation/4791312:b:1 400 (OSM relation/4791312:b-400)",
+    "from": 4,
+    "to": 23,
+    "rPu": 0.0001972209631360332,
+    "xPu": 0.0021796947080576995,
+    "bPu": 0.06365444729163856,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/4791312:b:1 - martonvasar 400 (OSM relation/4791312:c-400)",
+    "from": 23,
+    "to": 19,
+    "rPu": 0.0002379197429906542,
+    "xPu": 0.0026294994025633954,
+    "bPu": 0.07679026356540385,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/4791312:b:1 - bicske del 400 (OSM relation/4791313-400)",
+    "from": 23,
+    "to": 4,
+    "rPu": 0.0001972209631360332,
+    "xPu": 0.0021796947080576995,
+    "bPu": 0.06365444729163856,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:heviz - osm virtual_relation/5203259:1 400 (OSM relation/5203261-400)",
+    "from": 14,
+    "to": 24,
+    "rPu": 0.0012071849688473518,
+    "xPu": 0.013341861059812568,
+    "bPu": 0.3896274044547173,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:osm virtual_relation/5233619:c:1 - gonyu 400 (OSM relation/5233619:d-400)",
+    "from": 25,
+    "to": 12,
+    "rPu": 0.0002103730010384216,
+    "xPu": 0.0023250516060271957,
+    "bPu": 0.06789935964843383,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:szombathely - heviz 400 (OSM relation/5711600-400)",
+    "from": 41,
+    "to": 14,
+    "rPu": 0.001379602634994808,
+    "xPu": 0.015247428645029402,
+    "bPu": 0.44527641390793876,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:szombathely - heviz 400 (OSM relation/5711601-400)",
+    "from": 41,
+    "to": 14,
+    "rPu": 0.001379602634994808,
+    "xPu": 0.015247428645029402,
+    "bPu": 0.44527641390793876,
+    "ratingMva": 1385.6406460551018,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dunamenti - osm albertfalva alallomas 220 (OSM relation/8506090-220)",
+    "from": 47,
+    "to": 59,
+    "rPu": 0.0021823791442819205,
+    "xPu": 0.015166288786737736,
+    "bPu": 0.02333033475344872,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dunamenti - osm albertfalva alallomas 220 (OSM relation/8506091-220)",
+    "from": 47,
+    "to": 59,
+    "rPu": 0.0021823791442819205,
+    "xPu": 0.015166288786737736,
+    "bPu": 0.02333033475344872,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dunamenti - osm dunaujvaros ovit alallomas 220 (OSM way/350041164-220 c1)",
+    "from": 47,
+    "to": 61,
+    "rPu": 0.006022251452634899,
+    "xPu": 0.041851208538314824,
+    "bPu": 0.06437980436513237,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:dunamenti - osm dunaujvaros ovit alallomas 220 (OSM way/350041164-220 c2)",
+    "from": 47,
+    "to": 61,
+    "rPu": 0.006022251452634899,
+    "xPu": 0.041851208538314824,
+    "bPu": 0.06437980436513237,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sajoszoged - osm virtual_way/422146475:1 220 (OSM way/422146476-220 c1)",
+    "from": 65,
+    "to": 64,
+    "rPu": 0.0013832098703218435,
+    "xPu": 0.009612518705071153,
+    "bPu": 0.014786958257659313,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:sajoszoged - osm virtual_way/422146475:1 220 (OSM way/422146476-220 c2)",
+    "from": 65,
+    "to": 64,
+    "rPu": 0.0013832098703218435,
+    "xPu": 0.009612518705071153,
+    "bPu": 0.014786958257659313,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:detk - osm virtual_way/1262212256:1 220 (OSM way/841063416-220 c1)",
+    "from": 46,
+    "to": 63,
+    "rPu": 0.0004228418913905273,
+    "xPu": 0.002938509677734853,
+    "bPu": 0.004520315775455395,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "osm:detk - osm virtual_way/1262212256:1 220 (OSM way/841063416-220 c2)",
+    "from": 46,
+    "to": 63,
+    "rPu": 0.0004228418913905273,
+    "xPu": 0.002938509677734853,
+    "bPu": 0.004520315775455395,
+    "ratingMva": 278.1673596955617,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:HR:HU:ernestinovo [HR]:hv~HU:zerjavinec [HR]:hv",
+    "from": 7,
+    "to": 44,
+    "rPu": 0.00448125,
+    "xPu": 0.04768125,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:RO:HU:arad [RO]:hv~HU:nadab [RO]:hv",
+    "from": 2,
+    "to": 21,
+    "rPu": 0.0006458959270804514,
+    "xPu": 0.005801347098579874,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:HU:gabcikovo [SK]:hv~HU:levice [SK]:hv",
+    "from": 9,
+    "to": 17,
+    "rPu": 0.0018900291216486177,
+    "xPu": 0.021553741545228093,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:HU:gabcikovo [SK]:hv~HU:velky dur [SK]:hv",
+    "from": 9,
+    "to": 43,
+    "rPu": 0.001599431667986091,
+    "xPu": 0.02046267752690735,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  },
+  {
+    "name": "equiv:SK:HU:levice [SK]:hv~HU:velky dur [SK]:hv",
+    "from": 17,
+    "to": 43,
+    "rPu": 0.00023580813761640997,
+    "xPu": 0.002831527644253222,
+    "bPu": 0.0,
+    "ratingMva": 9999.0,
+    "circuits": 1
+  }
+]
