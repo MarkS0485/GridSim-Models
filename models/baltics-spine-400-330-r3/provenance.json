@@ -1,0 +1,2822 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Baltic states (Estonia, Latvia, Lithuania; Continental Europe synchronous area since 9 February 2025) 400/330/220 kV grid winter peak 2026-01-30 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "energy-charts public net generation by type and cross-border physical flows (snapshot hour)",
+   "publisher": "Fraunhofer ISE (ENTSO-E based)",
+   "url": "https://energy-charts.info",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "geonames",
+   "title": "GeoNames per-country dumps: populated places with population and position (demand shares)",
+   "publisher": "GeoNames",
+   "url": "https://www.geonames.org/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "ghsl",
+   "title": "GHSL GHS-POP R2023A epoch 2020, 30 arc-second population grid (demand shares, from the round with pop_grid)",
+   "publisher": "European Commission, Joint Research Centre (Schiavina et al. 2023, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)",
+   "url": "https://ghsl.jrc.ec.europa.eu/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "pypsa_osm"
+  ],
+  "42": [
+   "pypsa_osm"
+  ],
+  "43": [
+   "pypsa_osm"
+  ],
+  "44": [
+   "pypsa_osm"
+  ],
+  "45": [
+   "pypsa_osm"
+  ],
+  "46": [
+   "pypsa_osm"
+  ],
+  "47": [
+   "pypsa_osm"
+  ],
+  "48": [
+   "pypsa_osm"
+  ],
+  "49": [
+   "pypsa_osm"
+  ],
+  "50": [
+   "pypsa_osm"
+  ],
+  "51": [
+   "pypsa_osm"
+  ],
+  "52": [
+   "pypsa_osm"
+  ],
+  "53": [
+   "pypsa_osm"
+  ],
+  "54": [
+   "pypsa_osm"
+  ],
+  "55": [
+   "pypsa_osm"
+  ],
+  "56": [
+   "pypsa_osm"
+  ],
+  "57": [
+   "pypsa_osm"
+  ],
+  "58": [
+   "pypsa_osm"
+  ],
+  "59": [
+   "pypsa_osm"
+  ],
+  "60": [
+   "pypsa_osm"
+  ],
+  "61": [
+   "pypsa_osm"
+  ],
+  "62": [
+   "pypsa_osm"
+  ],
+  "63": [
+   "pypsa_osm"
+  ],
+  "64": [
+   "pypsa_osm"
+  ],
+  "65": [
+   "pypsa_osm"
+  ],
+  "66": [
+   "pypsa_osm"
+  ],
+  "67": [
+   "pypsa_osm"
+  ],
+  "68": [
+   "pypsa_osm"
+  ],
+  "69": [
+   "pypsa_osm"
+  ],
+  "70": [
+   "model_assembly"
+  ],
+  "71": [
+   "model_assembly"
+  ],
+  "72": [
+   "model_assembly"
+  ],
+  "73": [
+   "model_assembly"
+  ],
+  "74": [
+   "model_assembly"
+  ],
+  "75": [
+   "model_assembly"
+  ],
+  "76": [
+   "model_assembly"
+  ],
+  "77": [
+   "model_assembly"
+  ],
+  "78": [
+   "model_assembly"
+  ],
+  "79": [
+   "model_assembly"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "82": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ],
+  "84": [
+   "model_assembly"
+  ],
+  "85": [
+   "model_assembly"
+  ],
+  "86": [
+   "model_assembly"
+  ],
+  "87": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_relation/5946099-330+16": [
+   "pypsa_osm"
+  ],
+  "merged_way/1219766212-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/131542604-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1328993408-330+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/152614336-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/172286298-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/264955493-330+8": [
+   "pypsa_osm"
+  ],
+  "merged_way/34682052-330+9": [
+   "pypsa_osm"
+  ],
+  "merged_way/396751274-330+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/67508461-330+6": [
+   "pypsa_osm"
+  ],
+  "merged_way/67508480-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/67596994-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/682956983-330+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/692649166-330+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/723852301-330+7": [
+   "pypsa_osm"
+  ],
+  "merged_way/729390017-330+9": [
+   "pypsa_osm"
+  ],
+  "merged_way/808198742-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/976643905-330+8": [
+   "pypsa_osm"
+  ],
+  "merged_way/99049805-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/99057162-330+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/99207899-330+2": [
+   "pypsa_osm"
+  ],
+  "relation/10460907-330": [
+   "pypsa_osm"
+  ],
+  "relation/5941413-330": [
+   "pypsa_osm"
+  ],
+  "relation/5941415:b-330": [
+   "pypsa_osm"
+  ],
+  "relation/5942607-330": [
+   "pypsa_osm"
+  ],
+  "relation/5942608-330": [
+   "pypsa_osm"
+  ],
+  "relation/5942635-330": [
+   "pypsa_osm"
+  ],
+  "relation/5942639-330": [
+   "pypsa_osm"
+  ],
+  "relation/5948395-330": [
+   "pypsa_osm"
+  ],
+  "relation/5950641-220": [
+   "pypsa_osm"
+  ],
+  "relation/8705261:a-330": [
+   "pypsa_osm"
+  ],
+  "relation/8705262-330": [
+   "pypsa_osm"
+  ],
+  "relation/8705263-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711899:a-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711899:b-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711900:a-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711901-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711903-330": [
+   "pypsa_osm"
+  ],
+  "relation/8711904-330": [
+   "pypsa_osm"
+  ],
+  "relation/9176020-330": [
+   "pypsa_osm"
+  ],
+  "relation/9176021-330": [
+   "pypsa_osm"
+  ],
+  "relation/9352340-330": [
+   "pypsa_osm"
+  ],
+  "way/1005083766-330": [
+   "pypsa_osm"
+  ],
+  "way/100783016-330": [
+   "pypsa_osm"
+  ],
+  "way/1253886387-330": [
+   "pypsa_osm"
+  ],
+  "way/1278357607-330": [
+   "pypsa_osm"
+  ],
+  "way/1278357608-330": [
+   "pypsa_osm"
+  ],
+  "way/1393155434-330": [
+   "pypsa_osm"
+  ],
+  "way/1393155458-330": [
+   "pypsa_osm"
+  ],
+  "way/141554665-330": [
+   "pypsa_osm"
+  ],
+  "way/1429133003-330": [
+   "pypsa_osm"
+  ],
+  "way/148748128-330": [
+   "pypsa_osm"
+  ],
+  "way/152614333-330": [
+   "pypsa_osm"
+  ],
+  "way/155690040-330": [
+   "pypsa_osm"
+  ],
+  "way/172286283-330": [
+   "pypsa_osm"
+  ],
+  "way/172286301-330": [
+   "pypsa_osm"
+  ],
+  "way/172394894-330": [
+   "pypsa_osm"
+  ],
+  "way/172394895-330": [
+   "pypsa_osm"
+  ],
+  "way/172394914-330": [
+   "pypsa_osm"
+  ],
+  "way/172590052-330": [
+   "pypsa_osm"
+  ],
+  "way/192764281-330": [
+   "pypsa_osm"
+  ],
+  "way/192764286-330": [
+   "pypsa_osm"
+  ],
+  "way/199536393-330": [
+   "pypsa_osm"
+  ],
+  "way/240596353-330": [
+   "pypsa_osm"
+  ],
+  "way/257999110-330": [
+   "pypsa_osm"
+  ],
+  "way/258320720-330": [
+   "pypsa_osm"
+  ],
+  "way/262191428-330": [
+   "pypsa_osm"
+  ],
+  "way/262215666-330": [
+   "pypsa_osm"
+  ],
+  "way/264184261-330": [
+   "pypsa_osm"
+  ],
+  "way/266399608-330": [
+   "pypsa_osm"
+  ],
+  "way/299051887-330": [
+   "pypsa_osm"
+  ],
+  "way/34685084-330": [
+   "pypsa_osm"
+  ],
+  "way/34920722-330": [
+   "pypsa_osm"
+  ],
+  "way/34935443-330": [
+   "pypsa_osm"
+  ],
+  "way/396145425-330": [
+   "pypsa_osm"
+  ],
+  "way/481285437-330": [
+   "pypsa_osm"
+  ],
+  "way/552905484-330": [
+   "pypsa_osm"
+  ],
+  "way/580385013-330": [
+   "pypsa_osm"
+  ],
+  "way/65080454-330": [
+   "pypsa_osm"
+  ],
+  "way/73600834-330": [
+   "pypsa_osm"
+  ],
+  "way/802302816-330": [
+   "pypsa_osm"
+  ],
+  "way/868802309-330": [
+   "pypsa_osm"
+  ],
+  "way/91968589-330": [
+   "pypsa_osm"
+  ],
+  "way/945621137-330": [
+   "pypsa_osm"
+  ],
+  "way/948692674-330": [
+   "pypsa_osm"
+  ],
+  "way/971483946-330": [
+   "pypsa_osm"
+  ],
+  "way/971483948-330": [
+   "pypsa_osm"
+  ],
+  "way/997803612-330": [
+   "pypsa_osm"
+  ],
+  "way/997803613-330": [
+   "pypsa_osm"
+  ],
+  "relation/18986190-330-220": [
+   "pypsa_osm"
+  ],
+  "way/256339597-400-330": [
+   "pypsa_osm"
+  ],
+  "gsu:relation/12048419-330": [
+   "model_assembly"
+  ],
+  "gsu:relation/12970096-330": [
+   "model_assembly"
+  ],
+  "gsu:relation/13530288-330": [
+   "model_assembly"
+  ],
+  "gsu:relation/6495601-330": [
+   "model_assembly"
+  ],
+  "gsu:relation/8034395-330": [
+   "model_assembly"
+  ],
+  "gsu:way/1377236428-330": [
+   "model_assembly"
+  ],
+  "gsu:way/1379260309-330": [
+   "model_assembly"
+  ],
+  "gsu:way/158505202-330": [
+   "model_assembly"
+  ],
+  "gsu:way/183128353-330": [
+   "model_assembly"
+  ],
+  "gsu:way/192764283-330": [
+   "model_assembly"
+  ],
+  "gsu:way/204914596-330": [
+   "model_assembly"
+  ],
+  "gsu:way/220065689-330": [
+   "model_assembly"
+  ],
+  "gsu:way/34935436-330": [
+   "model_assembly"
+  ],
+  "gsu:way/34968224-330": [
+   "model_assembly"
+  ],
+  "gsu:way/35450930-330": [
+   "model_assembly"
+  ],
+  "gsu:way/816676940-330": [
+   "model_assembly"
+  ],
+  "gsu:way/89088068-330": [
+   "model_assembly"
+  ],
+  "gsu:way/90098783-330": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Silavoto Seniunija Solar": [
+   "ppm"
+  ],
+  "Aloves Seniunija Solar": [
+   "ppm"
+  ],
+  "Alytaus Seniunija Solar": [
+   "ppm"
+  ],
+  "Alytus County Solar": [
+   "ppm"
+  ],
+  "Varenos Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/256339597-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Poland at way/256339597-400": [
+   "energy_charts"
+  ],
+  "Alojas Pagasts Solar": [
+   "ppm"
+  ],
+  "Brengulu Pagasts Valmieras Novads Solar": [
+   "ppm"
+  ],
+  "Jeru Pagasts Solar": [
+   "ppm"
+  ],
+  "Kocenu Pagasts Solar": [
+   "ppm"
+  ],
+  "Matisi Solar Farm": [
+   "ppm"
+  ],
+  "Priekulu Pagasts Solar": [
+   "ppm"
+  ],
+  "Smiltenes Pagasts Solar": [
+   "ppm"
+  ],
+  "Valmiera Ventus": [
+   "ppm"
+  ],
+  "embedded biomass at relation/11980722-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at relation/11980722-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Babtu Seniunija Solar": [
+   "ppm"
+  ],
+  "Vilkijos Apylinkiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Karmelavos Seniunija Solar": [
+   "ppm"
+  ],
+  "Kaunas Solar": [
+   "ppm"
+  ],
+  "Vandziogalos Seniunija Solar": [
+   "ppm"
+  ],
+  "Vilkijos Apylinkiu Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Zapyskio Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at relation/12048419-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kaunas Algirdas Brazauskas": [
+   "ppm"
+  ],
+  "Kaunas Cogeneration": [
+   "ppm"
+  ],
+  "Iecavas Pagasts Solar": [
+   "ppm"
+  ],
+  "Kekava Solar": [
+   "ppm"
+  ],
+  "embedded biomass at relation/12970096-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at relation/12970096-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Riga": [
+   "ppm"
+  ],
+  "Aizkraukles Pagasts Solar": [
+   "ppm"
+  ],
+  "Aizkraukles Pagasts Solar #2": [
+   "ppm"
+  ],
+  "Birzgales Pagasts Solar": [
+   "ppm"
+  ],
+  "Kokneses Pagasts Solar": [
+   "ppm"
+  ],
+  "Ogres Novads Solar": [
+   "ppm"
+  ],
+  "Parovejos Seniunija Solar": [
+   "ppm"
+  ],
+  "Saukas Pagasts Solar": [
+   "ppm"
+  ],
+  "Serenes Pagasts Solar": [
+   "ppm"
+  ],
+  "Stelpe Solar Farm": [
+   "ppm"
+  ],
+  "embedded biomass at relation/13530288-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at relation/13530288-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plavinas": [
+   "ppm"
+  ],
+  "Ida Viru County Solar": [
+   "ppm"
+  ],
+  "Ida Viru County Solar #2": [
+   "ppm"
+  ],
+  "Ida Viru County Solar #3": [
+   "ppm"
+  ],
+  "Ida Viru Maakond Solar": [
+   "ppm"
+  ],
+  "Auvere Bess": [
+   "ppm"
+  ],
+  "embedded hydro at relation/18986190-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at relation/18986190-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at relation/18986190-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Stopinu Pagasts Solar": [
+   "ppm"
+  ],
+  "embedded biomass at relation/6495601-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at relation/6495601-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Riga #2": [
+   "ppm"
+  ],
+  "Kruonio Seniunija Solar": [
+   "ppm"
+  ],
+  "Prienu Seniunija Solar": [
+   "ppm"
+  ],
+  "Rumsiskiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Taurakiemio Seniunija Solar": [
+   "ppm"
+  ],
+  "Ziezmariu Apylinkes Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at relation/8034395-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kruonis": [
+   "ppm"
+  ],
+  "Priekules Seniunija Solar": [
+   "ppm"
+  ],
+  "Mockiai Wind Farm": [
+   "ppm"
+  ],
+  "Ciuteliai Wind Farm": [
+   "ppm"
+  ],
+  "Agluonenu Seniunija Solar": [
+   "ppm"
+  ],
+  "Priekules Seniunija Solar #2": [
+   "ppm"
+  ],
+  "embedded other at virtual_relation/8711899:a:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_relation/9352340:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_relation/9352340:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jurmala Solar": [
+   "ppm"
+  ],
+  "Jurmala Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1213611601:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/1213611601:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Incukalna Pagasts Solar": [
+   "ppm"
+  ],
+  "Ropazu Pagasts Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/152614333:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/152614333:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/152614333:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/152614333:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Elektrenu Seniunija Solar": [
+   "ppm"
+  ],
+  "Ziezmariu Apylinkes Seniunija Solar #2": [
+   "ppm"
+  ],
+  "embedded other at virtual_way/172394894:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Harju Maakond Solar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/262191428:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/262191428:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at virtual_way/262191428:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Harju County Solar": [
+   "ppm"
+  ],
+  "Harju County Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/34920722:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/34920722:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at virtual_way/34920722:0-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Dauparu Kvietiniu Seniunija Solar": [
+   "ppm"
+  ],
+  "Dovilu Seniunija Solar": [
+   "ppm"
+  ],
+  "Gargzdu Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at virtual_way/552905484:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/868802309:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/868802309:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/945621137:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/945621137:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/948692672:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/948692672:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jurbarkas Green Genius Wind Farm": [
+   "ppm"
+  ],
+  "embedded other at virtual_way/99207899:1-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Daugavpils Solar": [
+   "ppm"
+  ],
+  "Kalkunes Pagasts Solar": [
+   "ppm"
+  ],
+  "Tabores Pagasts Solar": [
+   "ppm"
+  ],
+  "Hybrid Bess Pv Kraslava": [
+   "ppm"
+  ],
+  "embedded biomass at way/115788081-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/115788081-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Laukzeme Wind Farm": [
+   "ppm"
+  ],
+  "Vydmantai Wind Farm": [
+   "ppm"
+  ],
+  "Benaiciai Wind Farm": [
+   "ppm"
+  ],
+  "Darbenu Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/1182807118-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Baisogalos Seniunija Solar": [
+   "ppm"
+  ],
+  "Kelme Enefit Green Wind Farm": [
+   "ppm"
+  ],
+  "embedded other at way/1233470023-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Taurage Wind Farm": [
+   "ppm"
+  ],
+  "Kreivenai Wind Farm": [
+   "ppm"
+  ],
+  "Lauksargiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Mazonu Seniunija Solar": [
+   "ppm"
+  ],
+  "Mazonu Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Pagegiai Wind Farm": [
+   "ppm"
+  ],
+  "Taurage Solar Farm": [
+   "ppm"
+  ],
+  "Taurages Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/1239120856-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mazeikiai Wind Farm": [
+   "ppm"
+  ],
+  "Mazeikiu Apylinkes Seniunija Solar": [
+   "ppm"
+  ],
+  "Papiles Seniunija Solar": [
+   "ppm"
+  ],
+  "Tryskiu Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/1302167069-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vejo": [
+   "ppm"
+  ],
+  "Akmene Wind Farm": [
+   "ppm"
+  ],
+  "Dobeles Novads Solar": [
+   "ppm"
+  ],
+  "Mazeikiu Apylinkes Seniunija Solar #2": [
+   "ppm"
+  ],
+  "embedded other at way/1317034700-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jogeva County Solar": [
+   "ppm"
+  ],
+  "Jogeva County Solar #2": [
+   "ppm"
+  ],
+  "Jogeva County Solar #3": [
+   "ppm"
+  ],
+  "Jogeva County Solar #4": [
+   "ppm"
+  ],
+  "Jogeva Maakond Solar": [
+   "ppm"
+  ],
+  "Jogeva Maakond Solar #2": [
+   "ppm"
+  ],
+  "Tartu County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/1328993407-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/1328993407-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/1328993407-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Anyksciai Solar Farm": [
+   "ppm"
+  ],
+  "Balninku Seniunija Solar": [
+   "ppm"
+  ],
+  "Moletai Solar Farm": [
+   "ppm"
+  ],
+  "Rokiskio Kaimiskoji Seniunija Solar": [
+   "ppm"
+  ],
+  "Suginciai Eldership Solar": [
+   "ppm"
+  ],
+  "Utenos Miesto Seniunija Solar": [
+   "ppm"
+  ],
+  "Anyksciai": [
+   "ppm"
+  ],
+  "embedded other at way/1340185230-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Riga Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/1377236428-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/1377236428-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Imanta": [
+   "ppm"
+  ],
+  "Elektrenu Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Vievio Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/1379260309-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lietuvos": [
+   "ppm"
+  ],
+  "Kabaldiku Wind Farm": [
+   "ppm"
+  ],
+  "Ranku Pagasts Solar": [
+   "ppm"
+  ],
+  "Solar": [
+   "ppm"
+  ],
+  "Solar #2": [
+   "ppm"
+  ],
+  "Varme Solar Farm": [
+   "ppm"
+  ],
+  "embedded biomass at way/156541987-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/156541987-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Matuizu Seniunija Solar": [
+   "ppm"
+  ],
+  "Baltoji Voke Eldership Solar": [
+   "ppm"
+  ],
+  "Lentvaris Eldership Solar": [
+   "ppm"
+  ],
+  "Rudamina Eldership Solar": [
+   "ppm"
+  ],
+  "Rukainiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Senuju Traku Seniunija Solar": [
+   "ppm"
+  ],
+  "Traku Seniunija Solar": [
+   "ppm"
+  ],
+  "Vilnius County Solar": [
+   "ppm"
+  ],
+  "Vilnius Solar": [
+   "ppm"
+  ],
+  "Vilnius Solar #2": [
+   "ppm"
+  ],
+  "Zujunai Eldership Solar": [
+   "ppm"
+  ],
+  "embedded other at way/158505202-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vilniaus Kogeneracine": [
+   "ppm"
+  ],
+  "Vilniaus Kogeneracine #2": [
+   "ppm"
+  ],
+  "Solar #3": [
+   "ppm"
+  ],
+  "embedded biomass at way/172286289-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/172286289-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Berzes Pagasts Solar": [
+   "ppm"
+  ],
+  "Codes Pagasts Solar": [
+   "ppm"
+  ],
+  "Codes Pagasts Solar #2": [
+   "ppm"
+  ],
+  "Elejas Pagasts Solar": [
+   "ppm"
+  ],
+  "Gludas Pagasts Solar": [
+   "ppm"
+  ],
+  "Iecavas Pagasts Bauskas Novads Solar": [
+   "ppm"
+  ],
+  "Jelgava Solar": [
+   "ppm"
+  ],
+  "Jelgavas Novads Solar": [
+   "ppm"
+  ],
+  "Mezotnes Pagasts Solar": [
+   "ppm"
+  ],
+  "Platones Pagasts Solar": [
+   "ppm"
+  ],
+  "Svetes Pagasts Solar": [
+   "ppm"
+  ],
+  "Tervetes Pagasts Dobeles Novads Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/183128353-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/183128353-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gren Jelgava": [
+   "ppm"
+  ],
+  "Bikstu Pagasts Solar": [
+   "ppm"
+  ],
+  "Kandavas Pagasts Tukuma Novads Solar": [
+   "ppm"
+  ],
+  "Libagu Pagasts Solar": [
+   "ppm"
+  ],
+  "Smardes Pagasts Solar": [
+   "ppm"
+  ],
+  "Talsu Novads Solar": [
+   "ppm"
+  ],
+  "Tume Bess": [
+   "ppm"
+  ],
+  "embedded biomass at way/183386421-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/183386421-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Grobina Wind Farm": [
+   "ppm"
+  ],
+  "Nicas Pagasts Solar": [
+   "ppm"
+  ],
+  "Priekules Pagasts Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/184063224-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/184063224-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Baisogalos Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Kupiskis Eldership Solar": [
+   "ppm"
+  ],
+  "Naujamiescio Seniunija Solar": [
+   "ppm"
+  ],
+  "Panevezys Eldership Solar": [
+   "ppm"
+  ],
+  "Panevezys Solar": [
+   "ppm"
+  ],
+  "Pusalotas Eldership Solar": [
+   "ppm"
+  ],
+  "Rokiskis Wind Farm": [
+   "ppm"
+  ],
+  "Sirvenos Seniunija Solar": [
+   "ppm"
+  ],
+  "Subacius Eldership Solar": [
+   "ppm"
+  ],
+  "Upytes Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/192764283-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Panevezys": [
+   "ppm"
+  ],
+  "Harju County Solar #3": [
+   "ppm"
+  ],
+  "Harju County Solar #4": [
+   "ppm"
+  ],
+  "Harju County Solar #5": [
+   "ppm"
+  ],
+  "Harju County Solar #6": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #2": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #3": [
+   "ppm"
+  ],
+  "Pihlaka Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/204914596-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/204914596-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/204914596-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Iru Elektrijaam": [
+   "ppm"
+  ],
+  "Vao": [
+   "ppm"
+  ],
+  "Mazeikiu Apylinkes Seniunija Solar #3": [
+   "ppm"
+  ],
+  "Degaiciu Seniunija Solar": [
+   "ppm"
+  ],
+  "Ryskenu Seniunija Solar": [
+   "ppm"
+  ],
+  "Sedos Seniunija Solar": [
+   "ppm"
+  ],
+  "Telsiai Encavis Wind Farm": [
+   "ppm"
+  ],
+  "Zidiku Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/210457037-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Zeimiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Ukmerges Miesto Seniunija Solar": [
+   "ppm"
+  ],
+  "Kedainiu Miesto Seniunija Solar": [
+   "ppm"
+  ],
+  "Anyksciai Wind Farm": [
+   "ppm"
+  ],
+  "Bukoniu Seniunija Solar": [
+   "ppm"
+  ],
+  "Jonava Wind Farm": [
+   "ppm"
+  ],
+  "Jonavos Seniunija Solar": [
+   "ppm"
+  ],
+  "Kedainiu Miesto Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Truskavos Seniunija Solar": [
+   "ppm"
+  ],
+  "Ukmerges Miesto Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Litgrid Vulinius": [
+   "ppm"
+  ],
+  "embedded other at way/220065689-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jonavos Achema": [
+   "ppm"
+  ],
+  "Gizu Seniunija Solar": [
+   "ppm"
+  ],
+  "Igliaukos Seniunija Solar": [
+   "ppm"
+  ],
+  "Lazdijai Eldership Solar": [
+   "ppm"
+  ],
+  "Lazdijai Eldership Solar #2": [
+   "ppm"
+  ],
+  "Leipalingio Seniunija Solar": [
+   "ppm"
+  ],
+  "Sasnavos Seniunija Solar": [
+   "ppm"
+  ],
+  "Simno Seniunija Solar": [
+   "ppm"
+  ],
+  "Suwalki County Solar": [
+   "ppm"
+  ],
+  "embedded other at way/256339597-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lavoriskiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Masionys Avizieniu Seniunija Solar": [
+   "ppm"
+  ],
+  "Svencionys Solar Farm": [
+   "ppm"
+  ],
+  "embedded other at way/25698690-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jurbarkas Ignitis Wind Farm": [
+   "ppm"
+  ],
+  "Jurbarku Seniunija Solar": [
+   "ppm"
+  ],
+  "Otada Wind Farm": [
+   "ppm"
+  ],
+  "Sakiu Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/258321412-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Salako Seniunija Solar": [
+   "ppm"
+  ],
+  "Kazitiskio Seniunija Solar": [
+   "ppm"
+  ],
+  "embedded other at way/266535277-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Strepeikiu Wind Farm": [
+   "ppm"
+  ],
+  "embedded other at way/268781050-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Targale Wind Farm": [
+   "ppm"
+  ],
+  "Pope Wind Farm": [
+   "ppm"
+  ],
+  "Dundagas Pagasts Solar": [
+   "ppm"
+  ],
+  "Targales Pagasts Solar": [
+   "ppm"
+  ],
+  "Hybrid Bess Pv Ventspils": [
+   "ppm"
+  ],
+  "Targale": [
+   "ppm"
+  ],
+  "embedded biomass at way/27296443-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/27296443-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Narva Wind Farm": [
+   "ppm"
+  ],
+  "Narva Ida Viru Maakond Solar": [
+   "ppm"
+  ],
+  "Udria Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/34682059-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34682059-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34682059-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Estiko Raadi Solar Farm": [
+   "ppm"
+  ],
+  "Jogeva County Solar #5": [
+   "ppm"
+  ],
+  "Jogeva County Solar #6": [
+   "ppm"
+  ],
+  "Polva Maakond Solar": [
+   "ppm"
+  ],
+  "Polva Maakond Solar #2": [
+   "ppm"
+  ],
+  "Polva Maakond Solar #3": [
+   "ppm"
+  ],
+  "Tartu": [
+   "ppm"
+  ],
+  "Tartu County Solar #2": [
+   "ppm"
+  ],
+  "Tartu County Solar #3": [
+   "ppm"
+  ],
+  "Tartu County Solar #4": [
+   "ppm"
+  ],
+  "Tartu County Solar #5": [
+   "ppm"
+  ],
+  "Tartu County Solar #6": [
+   "ppm"
+  ],
+  "Tartu County Solar #7": [
+   "ppm"
+  ],
+  "Tartu County Solar #8": [
+   "ppm"
+  ],
+  "Tartu County Solar Xii": [
+   "ppm"
+  ],
+  "Tartu County Solar Xiv": [
+   "ppm"
+  ],
+  "Tartu County Solar Xv": [
+   "ppm"
+  ],
+  "Tartu County Solar Xvi": [
+   "ppm"
+  ],
+  "Tartu Maakond Solar": [
+   "ppm"
+  ],
+  "Tartu Maakond Solar #2": [
+   "ppm"
+  ],
+  "Tartu Maakond Solar #3": [
+   "ppm"
+  ],
+  "Tartu Maakond Solar #4": [
+   "ppm"
+  ],
+  "Tartu Maakond Solar #5": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar": [
+   "ppm"
+  ],
+  "Voru County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/34682089-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34682089-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34682089-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aidu Wind Farm": [
+   "ppm"
+  ],
+  "Ida Viru County Solar #4": [
+   "ppm"
+  ],
+  "embedded hydro at way/34685101-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34685101-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34685101-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Polva County Solar": [
+   "ppm"
+  ],
+  "Polva County Solar #2": [
+   "ppm"
+  ],
+  "Solar #4": [
+   "ppm"
+  ],
+  "Tartu County Solar #9": [
+   "ppm"
+  ],
+  "Tartu County Solar Xvii": [
+   "ppm"
+  ],
+  "Valga County Solar": [
+   "ppm"
+  ],
+  "Valga County Solar #2": [
+   "ppm"
+  ],
+  "Valga County Solar #3": [
+   "ppm"
+  ],
+  "Valga Maakond Solar": [
+   "ppm"
+  ],
+  "Valga Maakond Solar #2": [
+   "ppm"
+  ],
+  "Viljandi County Solar": [
+   "ppm"
+  ],
+  "Viljandi County Solar #2": [
+   "ppm"
+  ],
+  "Voru County Solar #2": [
+   "ppm"
+  ],
+  "Voru County Solar #3": [
+   "ppm"
+  ],
+  "Voru County Solar #4": [
+   "ppm"
+  ],
+  "Voru County Solar #5": [
+   "ppm"
+  ],
+  "Voru Maakond Solar": [
+   "ppm"
+  ],
+  "Voru Maakond Solar #2": [
+   "ppm"
+  ],
+  "Voru Maakond Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at way/34685113-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34685113-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34685113-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Laane Viru County Solar": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #2": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #3": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #4": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #5": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #6": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #7": [
+   "ppm"
+  ],
+  "Laane Viru County Solar Xii": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #2": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #3": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #4": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #5": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #6": [
+   "ppm"
+  ],
+  "embedded hydro at way/34920699-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34920699-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34920699-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Harju Maakond Solar #4": [
+   "ppm"
+  ],
+  "Laane County Solar": [
+   "ppm"
+  ],
+  "Laane Maakond Solar": [
+   "ppm"
+  ],
+  "Rapla County Solar": [
+   "ppm"
+  ],
+  "Rapla County Solar #2": [
+   "ppm"
+  ],
+  "Rapla County Solar #3": [
+   "ppm"
+  ],
+  "Rapla Maakond Solar": [
+   "ppm"
+  ],
+  "Rapla Maakond Solar #2": [
+   "ppm"
+  ],
+  "Risti Solar Farm": [
+   "ppm"
+  ],
+  "Kiisa Hertz": [
+   "ppm"
+  ],
+  "embedded hydro at way/34935436-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34935436-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34935436-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kiisa Erpp": [
+   "ppm"
+  ],
+  "Aulepa Wind Farm": [
+   "ppm"
+  ],
+  "Paldiski Wind Farm": [
+   "ppm"
+  ],
+  "Vanakula": [
+   "ppm"
+  ],
+  "Pakri": [
+   "ppm"
+  ],
+  "Harju County Solar #7": [
+   "ppm"
+  ],
+  "Harju County Solar #8": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #5": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #6": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #7": [
+   "ppm"
+  ],
+  "Harju Maakond Solar #8": [
+   "ppm"
+  ],
+  "Hiiu County Solar": [
+   "ppm"
+  ],
+  "Hiiu Maakond Solar": [
+   "ppm"
+  ],
+  "Laane County Solar #2": [
+   "ppm"
+  ],
+  "Rummu Solar Farm": [
+   "ppm"
+  ],
+  "Tallinn Harju County Solar": [
+   "ppm"
+  ],
+  "Rummu": [
+   "ppm"
+  ],
+  "embedded hydro at way/34968224-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/34968224-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/34968224-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mustamae": [
+   "ppm"
+  ],
+  "Jarva County Solar": [
+   "ppm"
+  ],
+  "Jarva County Solar #2": [
+   "ppm"
+  ],
+  "Jarva County Solar #3": [
+   "ppm"
+  ],
+  "Jarva County Solar #4": [
+   "ppm"
+  ],
+  "Jarva Maakond Solar": [
+   "ppm"
+  ],
+  "Jarva Maakond Solar #2": [
+   "ppm"
+  ],
+  "Jarva Maakond Solar #3": [
+   "ppm"
+  ],
+  "Jogeva County Solar #7": [
+   "ppm"
+  ],
+  "Viljandi County Solar #3": [
+   "ppm"
+  ],
+  "Viljandi County Solar #4": [
+   "ppm"
+  ],
+  "Viljandi County Solar #5": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #2": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at way/35343343-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/35343343-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/35343343-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Tooma Wind Farm": [
+   "ppm"
+  ],
+  "Tamba Mali Wind Farm": [
+   "ppm"
+  ],
+  "Esivere Wind Farm": [
+   "ppm"
+  ],
+  "Virtsu": [
+   "ppm"
+  ],
+  "Tamba": [
+   "ppm"
+  ],
+  "Laaneranna Solar Farm": [
+   "ppm"
+  ],
+  "Parnu County Solar": [
+   "ppm"
+  ],
+  "Parnu County Solar #2": [
+   "ppm"
+  ],
+  "Parnu Linn Parnu Maakond Solar": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar #2": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar #3": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar #4": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar Xiii": [
+   "ppm"
+  ],
+  "Raba Solar Farm": [
+   "ppm"
+  ],
+  "Saare County Solar": [
+   "ppm"
+  ],
+  "Saare County Solar #2": [
+   "ppm"
+  ],
+  "Saare County Solar #3": [
+   "ppm"
+  ],
+  "Saare Maakond Solar": [
+   "ppm"
+  ],
+  "Saare Maakond Solar #2": [
+   "ppm"
+  ],
+  "embedded hydro at way/35450930-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/35450930-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/35450930-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Parnu": [
+   "ppm"
+  ],
+  "Zalesjes Pagasts Solar": [
+   "ppm"
+  ],
+  "Dagda Solar Farm": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Lendzu Pagasts Solar": [
+   "ppm"
+  ],
+  "Ozolmuizas Pagasts Solar": [
+   "ppm"
+  ],
+  "Veremu Pagasts Solar": [
+   "ppm"
+  ],
+  "Rezekne Bess": [
+   "ppm"
+  ],
+  "embedded biomass at way/41683954-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/41683954-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aiviekstes Pagasts Solar": [
+   "ppm"
+  ],
+  "Barkava Solar Farm": [
+   "ppm"
+  ],
+  "Kuku Pagasts Solar": [
+   "ppm"
+  ],
+  "Selpils Pagasts Solar": [
+   "ppm"
+  ],
+  "Selpils Pagasts Solar #2": [
+   "ppm"
+  ],
+  "Hybrid Bess Pv Livani": [
+   "ppm"
+  ],
+  "embedded biomass at way/514772639-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/514772639-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Silute Wind Farm": [
+   "ppm"
+  ],
+  "Didsiliai Wind Farm": [
+   "ppm"
+  ],
+  "Pajurio Seniunija Solar": [
+   "ppm"
+  ],
+  "Silale Wind Farm": [
+   "ppm"
+  ],
+  "embedded other at way/626451207-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Siauliu Kaimiskoji Seniunija Solar": [
+   "ppm"
+  ],
+  "Kursenu Miesto Seniunija Solar": [
+   "ppm"
+  ],
+  "Bubiu Seniunija Solar": [
+   "ppm"
+  ],
+  "Ginkunu Seniunija Solar": [
+   "ppm"
+  ],
+  "Seduvos Miesto Seniunija Solar": [
+   "ppm"
+  ],
+  "Siauliai Solar": [
+   "ppm"
+  ],
+  "Siauliai Solar #2": [
+   "ppm"
+  ],
+  "Siauliu Kaimiskoji Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Grid Battery": [
+   "ppm"
+  ],
+  "embedded other at way/626451210-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kirikmae Solar Farm": [
+   "ppm"
+  ],
+  "Parnu County Solar #3": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar #5": [
+   "ppm"
+  ],
+  "Parnu Maakond Solar #6": [
+   "ppm"
+  ],
+  "Rapla County Solar #4": [
+   "ppm"
+  ],
+  "Rapla County Solar #5": [
+   "ppm"
+  ],
+  "Rapla Maakond Solar #3": [
+   "ppm"
+  ],
+  "Sopi Solar Farm": [
+   "ppm"
+  ],
+  "Sopi Tootsi Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/743155118-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/743155118-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/743155118-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Parnu County Solar #4": [
+   "ppm"
+  ],
+  "Parnu County Solar #5": [
+   "ppm"
+  ],
+  "Saarde Wind Farm": [
+   "ppm"
+  ],
+  "Viljandi County Solar #6": [
+   "ppm"
+  ],
+  "Viljandi County Solar #7": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #4": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #5": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #6": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar #7": [
+   "ppm"
+  ],
+  "Viljandi Maakond Solar Xv": [
+   "ppm"
+  ],
+  "embedded hydro at way/768781614-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/768781614-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at way/768781614-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Olaines Pagasts Solar": [
+   "ppm"
+  ],
+  "Olaines Pagasts Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at way/81243950-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/81243950-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Carnikavas Pagasts Solar": [
+   "ppm"
+  ],
+  "Riga Solar #2": [
+   "ppm"
+  ],
+  "Skultes Pagasts Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/816676940-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/816676940-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Riga #3": [
+   "ppm"
+  ],
+  "Barbeles Pagasts Solar": [
+   "ppm"
+  ],
+  "Ogresgala Pagasts Solar": [
+   "ppm"
+  ],
+  "Salaspils Novads Solar": [
+   "ppm"
+  ],
+  "Salaspils Pagasts Solar": [
+   "ppm"
+  ],
+  "Tomes Pagasts Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/89088068-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/89088068-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kegums": [
+   "ppm"
+  ],
+  "Dovilu Seniunija Solar #2": [
+   "ppm"
+  ],
+  "Dovilu Seniunija Solar #3": [
+   "ppm"
+  ],
+  "Sendvario Seniunija Solar": [
+   "ppm"
+  ],
+  "Sendvario Seniunija Solar #2": [
+   "ppm"
+  ],
+  "embedded other at way/90098783-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Sweden at way/90098783-330": [
+   "energy_charts"
+  ],
+  "Klaipeda": [
+   "ppm"
+  ],
+  "Ramonaiciai Solar Farm": [
+   "ppm"
+  ],
+  "embedded other at way/971483945-330": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Viru Nigula Wind Farm": [
+   "ppm"
+  ],
+  "Aseriaru Wind Farm": [
+   "ppm"
+  ],
+  "Purtse Wind Farm": [
+   "ppm"
+  ],
+  "Ida Viru County Solar #5": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #8": [
+   "ppm"
+  ],
+  "Purtse Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_relation/5950641:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_relation/5950641:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at virtual_relation/5950641:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Jarva County Solar #5": [
+   "ppm"
+  ],
+  "Jarva Maakond Solar #4": [
+   "ppm"
+  ],
+  "Laane Viru County Solar #9": [
+   "ppm"
+  ],
+  "Laane Viru Maakond Solar #7": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_relation/5950641:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_relation/5950641:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded oil at virtual_relation/5950641:1-220": [
+   "energy_charts",
+   "geonames"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "2": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "3": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "4": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "5": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "6": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "7": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "8": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "9": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "10": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "11": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "12": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "13": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "14": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "15": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "16": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "17": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "18": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "19": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "20": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "21": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "22": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "23": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "24": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "25": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "26": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "27": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "28": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "29": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "30": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "31": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "32": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "33": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "34": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "35": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "36": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "37": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "38": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "39": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "40": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "41": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "42": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "43": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "44": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "45": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "46": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "47": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "48": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "49": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "50": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "51": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "52": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "53": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "54": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "55": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "56": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "57": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "58": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "59": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "60": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "61": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "62": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "63": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "64": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "65": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "66": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "67": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "68": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "69": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ]
+ },
+ "shunts": {
+  "1": [
+   "model_assembly"
+  ],
+  "3": [
+   "model_assembly"
+  ],
+  "5": [
+   "model_assembly"
+  ],
+  "8": [
+   "model_assembly"
+  ],
+  "9": [
+   "model_assembly"
+  ],
+  "15": [
+   "model_assembly"
+  ],
+  "17": [
+   "model_assembly"
+  ],
+  "21": [
+   "model_assembly"
+  ],
+  "22": [
+   "model_assembly"
+  ],
+  "33": [
+   "model_assembly"
+  ],
+  "37": [
+   "model_assembly"
+  ],
+  "45": [
+   "model_assembly"
+  ],
+  "47": [
+   "model_assembly"
+  ],
+  "48": [
+   "model_assembly"
+  ],
+  "50": [
+   "model_assembly"
+  ],
+  "51": [
+   "model_assembly"
+  ],
+  "52": [
+   "model_assembly"
+  ],
+  "54": [
+   "model_assembly"
+  ],
+  "55": [
+   "model_assembly"
+  ],
+  "60": [
+   "model_assembly"
+  ],
+  "62": [
+   "model_assembly"
+  ],
+  "64": [
+   "model_assembly"
+  ],
+  "65": [
+   "model_assembly"
+  ]
+ }
+}

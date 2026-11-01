@@ -1,0 +1,4109 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Bulgarian 400/220 kV grid winter peak 2026-01-21 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "energy-charts public net generation by type and cross-border physical flows (snapshot hour)",
+   "publisher": "Fraunhofer ISE (ENTSO-E based)",
+   "url": "https://energy-charts.info",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "geonames",
+   "title": "GeoNames per-country dumps: populated places with population and position (demand shares)",
+   "publisher": "GeoNames",
+   "url": "https://www.geonames.org/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "ghsl",
+   "title": "GHSL GHS-POP R2023A epoch 2020, 30 arc-second population grid (demand shares, from the round with pop_grid)",
+   "publisher": "European Commission, Joint Research Centre (Schiavina et al. 2023, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)",
+   "url": "https://ghsl.jrc.ec.europa.eu/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "pypsa_osm"
+  ],
+  "42": [
+   "pypsa_osm"
+  ],
+  "43": [
+   "pypsa_osm"
+  ],
+  "44": [
+   "pypsa_osm"
+  ],
+  "45": [
+   "pypsa_osm"
+  ],
+  "46": [
+   "pypsa_osm"
+  ],
+  "47": [
+   "pypsa_osm"
+  ],
+  "48": [
+   "pypsa_osm"
+  ],
+  "49": [
+   "pypsa_osm"
+  ],
+  "50": [
+   "pypsa_osm"
+  ],
+  "51": [
+   "pypsa_osm"
+  ],
+  "52": [
+   "pypsa_osm"
+  ],
+  "53": [
+   "pypsa_osm"
+  ],
+  "54": [
+   "pypsa_osm"
+  ],
+  "55": [
+   "pypsa_osm"
+  ],
+  "56": [
+   "pypsa_osm"
+  ],
+  "57": [
+   "pypsa_osm"
+  ],
+  "58": [
+   "pypsa_osm"
+  ],
+  "59": [
+   "pypsa_osm"
+  ],
+  "60": [
+   "pypsa_osm"
+  ],
+  "61": [
+   "pypsa_osm"
+  ],
+  "62": [
+   "pypsa_osm"
+  ],
+  "63": [
+   "pypsa_osm"
+  ],
+  "64": [
+   "pypsa_osm"
+  ],
+  "65": [
+   "pypsa_osm"
+  ],
+  "66": [
+   "pypsa_osm"
+  ],
+  "67": [
+   "pypsa_osm"
+  ],
+  "68": [
+   "pypsa_osm"
+  ],
+  "69": [
+   "pypsa_osm"
+  ],
+  "70": [
+   "pypsa_osm"
+  ],
+  "71": [
+   "pypsa_osm"
+  ],
+  "72": [
+   "pypsa_osm"
+  ],
+  "73": [
+   "pypsa_osm"
+  ],
+  "74": [
+   "pypsa_osm"
+  ],
+  "75": [
+   "pypsa_osm"
+  ],
+  "76": [
+   "pypsa_osm"
+  ],
+  "77": [
+   "pypsa_osm"
+  ],
+  "78": [
+   "pypsa_osm"
+  ],
+  "79": [
+   "pypsa_osm"
+  ],
+  "80": [
+   "pypsa_osm"
+  ],
+  "81": [
+   "pypsa_osm"
+  ],
+  "82": [
+   "pypsa_osm"
+  ],
+  "83": [
+   "pypsa_osm"
+  ],
+  "84": [
+   "pypsa_osm"
+  ],
+  "85": [
+   "pypsa_osm"
+  ],
+  "86": [
+   "pypsa_osm"
+  ],
+  "87": [
+   "pypsa_osm"
+  ],
+  "88": [
+   "pypsa_osm"
+  ],
+  "89": [
+   "pypsa_osm"
+  ],
+  "90": [
+   "pypsa_osm"
+  ],
+  "91": [
+   "pypsa_osm"
+  ],
+  "92": [
+   "pypsa_osm"
+  ],
+  "93": [
+   "pypsa_osm"
+  ],
+  "94": [
+   "pypsa_osm"
+  ],
+  "95": [
+   "pypsa_osm"
+  ],
+  "96": [
+   "pypsa_osm"
+  ],
+  "97": [
+   "pypsa_osm"
+  ],
+  "98": [
+   "pypsa_osm"
+  ],
+  "99": [
+   "pypsa_osm"
+  ],
+  "100": [
+   "pypsa_osm"
+  ],
+  "101": [
+   "pypsa_osm"
+  ],
+  "102": [
+   "pypsa_osm"
+  ],
+  "103": [
+   "pypsa_osm"
+  ],
+  "104": [
+   "pypsa_osm"
+  ],
+  "105": [
+   "pypsa_osm"
+  ],
+  "106": [
+   "pypsa_osm"
+  ],
+  "107": [
+   "pypsa_osm"
+  ],
+  "108": [
+   "pypsa_osm"
+  ],
+  "109": [
+   "pypsa_osm"
+  ],
+  "110": [
+   "pypsa_osm"
+  ],
+  "111": [
+   "pypsa_osm"
+  ],
+  "112": [
+   "pypsa_osm"
+  ],
+  "113": [
+   "pypsa_osm"
+  ],
+  "114": [
+   "pypsa_osm"
+  ],
+  "115": [
+   "pypsa_osm"
+  ],
+  "116": [
+   "pypsa_osm"
+  ],
+  "117": [
+   "pypsa_osm"
+  ],
+  "118": [
+   "pypsa_osm"
+  ],
+  "119": [
+   "pypsa_osm"
+  ],
+  "120": [
+   "pypsa_osm"
+  ],
+  "121": [
+   "pypsa_osm"
+  ],
+  "122": [
+   "pypsa_osm"
+  ],
+  "123": [
+   "pypsa_osm"
+  ],
+  "124": [
+   "pypsa_osm"
+  ],
+  "125": [
+   "pypsa_osm"
+  ],
+  "126": [
+   "pypsa_osm"
+  ],
+  "127": [
+   "pypsa_osm"
+  ],
+  "128": [
+   "pypsa_osm"
+  ],
+  "129": [
+   "pypsa_osm"
+  ],
+  "130": [
+   "pypsa_osm"
+  ],
+  "131": [
+   "pypsa_osm"
+  ],
+  "132": [
+   "pypsa_osm"
+  ],
+  "133": [
+   "pypsa_osm"
+  ],
+  "134": [
+   "pypsa_osm"
+  ],
+  "135": [
+   "pypsa_osm"
+  ],
+  "136": [
+   "pypsa_osm"
+  ],
+  "137": [
+   "pypsa_osm"
+  ],
+  "138": [
+   "pypsa_osm"
+  ],
+  "139": [
+   "pypsa_osm"
+  ],
+  "140": [
+   "pypsa_osm"
+  ],
+  "141": [
+   "pypsa_osm"
+  ],
+  "142": [
+   "pypsa_osm"
+  ],
+  "143": [
+   "pypsa_osm"
+  ],
+  "144": [
+   "pypsa_osm"
+  ],
+  "145": [
+   "pypsa_osm"
+  ],
+  "146": [
+   "pypsa_osm"
+  ],
+  "147": [
+   "pypsa_osm"
+  ],
+  "148": [
+   "pypsa_osm"
+  ],
+  "149": [
+   "pypsa_osm"
+  ],
+  "150": [
+   "pypsa_osm"
+  ],
+  "151": [
+   "pypsa_osm"
+  ],
+  "152": [
+   "pypsa_osm"
+  ],
+  "153": [
+   "pypsa_osm"
+  ],
+  "154": [
+   "model_assembly"
+  ],
+  "155": [
+   "model_assembly"
+  ],
+  "156": [
+   "model_assembly"
+  ],
+  "157": [
+   "model_assembly"
+  ],
+  "158": [
+   "model_assembly"
+  ],
+  "159": [
+   "model_assembly"
+  ],
+  "160": [
+   "model_assembly"
+  ],
+  "161": [
+   "model_assembly"
+  ],
+  "162": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "165": [
+   "model_assembly"
+  ],
+  "166": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "168": [
+   "model_assembly"
+  ],
+  "169": [
+   "model_assembly"
+  ],
+  "170": [
+   "model_assembly"
+  ],
+  "171": [
+   "model_assembly"
+  ],
+  "172": [
+   "model_assembly"
+  ],
+  "173": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "176": [
+   "model_assembly"
+  ],
+  "177": [
+   "model_assembly"
+  ],
+  "178": [
+   "model_assembly"
+  ],
+  "179": [
+   "model_assembly"
+  ],
+  "180": [
+   "model_assembly"
+  ],
+  "181": [
+   "model_assembly"
+  ],
+  "182": [
+   "model_assembly"
+  ],
+  "183": [
+   "model_assembly"
+  ],
+  "184": [
+   "model_assembly"
+  ],
+  "185": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_way/101011963-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1029250569-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/1389597519-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1435263312:a-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/1457230342-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/146669845:c-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/226086267-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/227063136-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/285453499:b-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/455598115-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/661601898-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/675407496-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/89449463-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/89571771-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/97115177-400+3": [
+   "pypsa_osm"
+  ],
+  "relation/20007950-400": [
+   "pypsa_osm"
+  ],
+  "relation/20009832:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/20009832:c-400": [
+   "pypsa_osm"
+  ],
+  "relation/20009833:a-220": [
+   "pypsa_osm"
+  ],
+  "relation/20009833:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/3517963:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/3517963:g-400": [
+   "pypsa_osm"
+  ],
+  "relation/3517964:b-400": [
+   "pypsa_osm"
+  ],
+  "way/100148645-220": [
+   "pypsa_osm"
+  ],
+  "way/1023909998-220": [
+   "pypsa_osm"
+  ],
+  "way/1023909999-220": [
+   "pypsa_osm"
+  ],
+  "way/1023910000-220": [
+   "pypsa_osm"
+  ],
+  "way/1090025042-400": [
+   "pypsa_osm"
+  ],
+  "way/1097505501-400": [
+   "pypsa_osm"
+  ],
+  "way/1097505502-400": [
+   "pypsa_osm"
+  ],
+  "way/1097505503-400": [
+   "pypsa_osm"
+  ],
+  "way/1097505504-400": [
+   "pypsa_osm"
+  ],
+  "way/111567582-220": [
+   "pypsa_osm"
+  ],
+  "way/1122919885-400": [
+   "pypsa_osm"
+  ],
+  "way/1142603363-220": [
+   "pypsa_osm"
+  ],
+  "way/1170367700-400": [
+   "pypsa_osm"
+  ],
+  "way/1170367707-400": [
+   "pypsa_osm"
+  ],
+  "way/1170367717-400": [
+   "pypsa_osm"
+  ],
+  "way/1170367737-400": [
+   "pypsa_osm"
+  ],
+  "way/1196883677-220": [
+   "pypsa_osm"
+  ],
+  "way/128052108-400": [
+   "pypsa_osm"
+  ],
+  "way/1300886245-400": [
+   "pypsa_osm"
+  ],
+  "way/132607990-220": [
+   "pypsa_osm"
+  ],
+  "way/137605015-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549654:b-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549686-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549688-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549693-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549696-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549697-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549700-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549701-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549705-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549709-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549714-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549715-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549719-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549723-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549725-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549727-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549728-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549729-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549730-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549731-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549733-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549734-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549741-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549742-400": [
+   "pypsa_osm"
+  ],
+  "way/1389549743-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597524-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597526-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597529-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597532-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597542-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597544-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597548-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597551-400": [
+   "pypsa_osm"
+  ],
+  "way/1389597553-400": [
+   "pypsa_osm"
+  ],
+  "way/1392210250-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210251-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210252-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210253-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210254-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210255:a-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210255:b-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210256-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210257-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210258-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210259-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210260-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210270-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210272-220": [
+   "pypsa_osm"
+  ],
+  "way/1392210274-220": [
+   "pypsa_osm"
+  ],
+  "way/1396685141-400": [
+   "pypsa_osm"
+  ],
+  "way/1396685145-400": [
+   "pypsa_osm"
+  ],
+  "way/1443669580-220": [
+   "pypsa_osm"
+  ],
+  "way/1443669581-220": [
+   "pypsa_osm"
+  ],
+  "way/1443669582-220": [
+   "pypsa_osm"
+  ],
+  "way/1443669583-220": [
+   "pypsa_osm"
+  ],
+  "way/1461488636-220": [
+   "pypsa_osm"
+  ],
+  "way/1462546122-400": [
+   "pypsa_osm"
+  ],
+  "way/1464546564-400": [
+   "pypsa_osm"
+  ],
+  "way/1464546565-400": [
+   "pypsa_osm"
+  ],
+  "way/1465409859-220": [
+   "pypsa_osm"
+  ],
+  "way/146645339-400": [
+   "pypsa_osm"
+  ],
+  "way/146669845:a-400": [
+   "pypsa_osm"
+  ],
+  "way/146669846-400": [
+   "pypsa_osm"
+  ],
+  "way/176754571-400": [
+   "pypsa_osm"
+  ],
+  "way/178747350-400": [
+   "pypsa_osm"
+  ],
+  "way/179323109-220": [
+   "pypsa_osm"
+  ],
+  "way/179323113-220": [
+   "pypsa_osm"
+  ],
+  "way/179323115-400": [
+   "pypsa_osm"
+  ],
+  "way/188481603-400": [
+   "pypsa_osm"
+  ],
+  "way/188481609-400": [
+   "pypsa_osm"
+  ],
+  "way/190337060-400": [
+   "pypsa_osm"
+  ],
+  "way/190339728-220": [
+   "pypsa_osm"
+  ],
+  "way/190339730-220": [
+   "pypsa_osm"
+  ],
+  "way/190339732-400": [
+   "pypsa_osm"
+  ],
+  "way/194174458-220": [
+   "pypsa_osm"
+  ],
+  "way/196558057-400": [
+   "pypsa_osm"
+  ],
+  "way/196558061-400": [
+   "pypsa_osm"
+  ],
+  "way/196558063-400": [
+   "pypsa_osm"
+  ],
+  "way/196558083-400": [
+   "pypsa_osm"
+  ],
+  "way/196558088-400": [
+   "pypsa_osm"
+  ],
+  "way/196558092-400": [
+   "pypsa_osm"
+  ],
+  "way/196558095-400": [
+   "pypsa_osm"
+  ],
+  "way/196558098-400": [
+   "pypsa_osm"
+  ],
+  "way/196561161-220": [
+   "pypsa_osm"
+  ],
+  "way/196561162-400": [
+   "pypsa_osm"
+  ],
+  "way/196561163-400": [
+   "pypsa_osm"
+  ],
+  "way/196561164-400": [
+   "pypsa_osm"
+  ],
+  "way/196574335-400": [
+   "pypsa_osm"
+  ],
+  "way/196574340-400": [
+   "pypsa_osm"
+  ],
+  "way/196574343-400": [
+   "pypsa_osm"
+  ],
+  "way/196574355-400": [
+   "pypsa_osm"
+  ],
+  "way/196574366:a-400": [
+   "pypsa_osm"
+  ],
+  "way/196574366:c-400": [
+   "pypsa_osm"
+  ],
+  "way/196574366:e-400": [
+   "pypsa_osm"
+  ],
+  "way/196578884-400": [
+   "pypsa_osm"
+  ],
+  "way/196578885-400": [
+   "pypsa_osm"
+  ],
+  "way/196578897-400": [
+   "pypsa_osm"
+  ],
+  "way/196581439-220": [
+   "pypsa_osm"
+  ],
+  "way/198233166-400": [
+   "pypsa_osm"
+  ],
+  "way/204971169-400": [
+   "pypsa_osm"
+  ],
+  "way/205122960-400": [
+   "pypsa_osm"
+  ],
+  "way/226086266-400": [
+   "pypsa_osm"
+  ],
+  "way/226112273-220": [
+   "pypsa_osm"
+  ],
+  "way/226125705-400": [
+   "pypsa_osm"
+  ],
+  "way/226153348-220": [
+   "pypsa_osm"
+  ],
+  "way/226154396-220": [
+   "pypsa_osm"
+  ],
+  "way/226600469-220": [
+   "pypsa_osm"
+  ],
+  "way/226664555-220": [
+   "pypsa_osm"
+  ],
+  "way/226829892-220": [
+   "pypsa_osm"
+  ],
+  "way/226911592-220": [
+   "pypsa_osm"
+  ],
+  "way/227069212-220": [
+   "pypsa_osm"
+  ],
+  "way/227121571-220": [
+   "pypsa_osm"
+  ],
+  "way/227121573-220": [
+   "pypsa_osm"
+  ],
+  "way/227152337-400": [
+   "pypsa_osm"
+  ],
+  "way/235044648-400": [
+   "pypsa_osm"
+  ],
+  "way/235044650-400": [
+   "pypsa_osm"
+  ],
+  "way/235044652-400": [
+   "pypsa_osm"
+  ],
+  "way/235044668-400": [
+   "pypsa_osm"
+  ],
+  "way/235044679-400": [
+   "pypsa_osm"
+  ],
+  "way/235044683-400": [
+   "pypsa_osm"
+  ],
+  "way/246439630-220": [
+   "pypsa_osm"
+  ],
+  "way/246479816-220": [
+   "pypsa_osm"
+  ],
+  "way/246912877-220": [
+   "pypsa_osm"
+  ],
+  "way/246912882-220": [
+   "pypsa_osm"
+  ],
+  "way/246994522-220": [
+   "pypsa_osm"
+  ],
+  "way/246994525-220": [
+   "pypsa_osm"
+  ],
+  "way/247774984-220": [
+   "pypsa_osm"
+  ],
+  "way/247775338-220": [
+   "pypsa_osm"
+  ],
+  "way/251564318-220": [
+   "pypsa_osm"
+  ],
+  "way/259639514-220": [
+   "pypsa_osm"
+  ],
+  "way/259639515-220": [
+   "pypsa_osm"
+  ],
+  "way/261267120-400": [
+   "pypsa_osm"
+  ],
+  "way/261267122-400": [
+   "pypsa_osm"
+  ],
+  "way/261267123-400": [
+   "pypsa_osm"
+  ],
+  "way/261379803-400": [
+   "pypsa_osm"
+  ],
+  "way/261379804-400": [
+   "pypsa_osm"
+  ],
+  "way/261379805-400": [
+   "pypsa_osm"
+  ],
+  "way/261874855-400": [
+   "pypsa_osm"
+  ],
+  "way/262545229:a-220": [
+   "pypsa_osm"
+  ],
+  "way/262545229:b-220": [
+   "pypsa_osm"
+  ],
+  "way/264555503-400": [
+   "pypsa_osm"
+  ],
+  "way/285453499:a-220": [
+   "pypsa_osm"
+  ],
+  "way/335787753-400": [
+   "pypsa_osm"
+  ],
+  "way/37028934-400": [
+   "pypsa_osm"
+  ],
+  "way/37030096-220": [
+   "pypsa_osm"
+  ],
+  "way/37333896-400": [
+   "pypsa_osm"
+  ],
+  "way/37376396-220": [
+   "pypsa_osm"
+  ],
+  "way/37376405-220": [
+   "pypsa_osm"
+  ],
+  "way/37376634-220": [
+   "pypsa_osm"
+  ],
+  "way/450314209-400": [
+   "pypsa_osm"
+  ],
+  "way/450314212-400": [
+   "pypsa_osm"
+  ],
+  "way/450516959-400": [
+   "pypsa_osm"
+  ],
+  "way/450516963-220": [
+   "pypsa_osm"
+  ],
+  "way/450516970-220": [
+   "pypsa_osm"
+  ],
+  "way/450516981-220": [
+   "pypsa_osm"
+  ],
+  "way/450516983-220": [
+   "pypsa_osm"
+  ],
+  "way/450516986-400": [
+   "pypsa_osm"
+  ],
+  "way/450516991-220": [
+   "pypsa_osm"
+  ],
+  "way/459097437-220": [
+   "pypsa_osm"
+  ],
+  "way/459097438-220": [
+   "pypsa_osm"
+  ],
+  "way/459097439-220": [
+   "pypsa_osm"
+  ],
+  "way/459097440-220": [
+   "pypsa_osm"
+  ],
+  "way/459117273-220": [
+   "pypsa_osm"
+  ],
+  "way/459117276-220": [
+   "pypsa_osm"
+  ],
+  "way/459117278-220": [
+   "pypsa_osm"
+  ],
+  "way/459117281-220": [
+   "pypsa_osm"
+  ],
+  "way/478457850-400": [
+   "pypsa_osm"
+  ],
+  "way/478457851-400": [
+   "pypsa_osm"
+  ],
+  "way/478457854-220": [
+   "pypsa_osm"
+  ],
+  "way/478457856-220": [
+   "pypsa_osm"
+  ],
+  "way/484337873-400": [
+   "pypsa_osm"
+  ],
+  "way/484337874-400": [
+   "pypsa_osm"
+  ],
+  "way/484370556-400": [
+   "pypsa_osm"
+  ],
+  "way/484370557:a-400": [
+   "pypsa_osm"
+  ],
+  "way/562612601-400": [
+   "pypsa_osm"
+  ],
+  "way/625783733-220": [
+   "pypsa_osm"
+  ],
+  "way/661609186-220": [
+   "pypsa_osm"
+  ],
+  "way/94754373-400": [
+   "pypsa_osm"
+  ],
+  "way/94773675-400": [
+   "pypsa_osm"
+  ],
+  "way/97851309-220": [
+   "pypsa_osm"
+  ],
+  "way/98755069-220": [
+   "pypsa_osm"
+  ],
+  "way/98905471-220": [
+   "pypsa_osm"
+  ],
+  "way/99057296-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/450516948:0-400-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/478457842:1-400-220": [
+   "pypsa_osm"
+  ],
+  "way/1287693974-400-220": [
+   "pypsa_osm"
+  ],
+  "way/144787750-400-220": [
+   "pypsa_osm"
+  ],
+  "way/157471230-400-220": [
+   "pypsa_osm"
+  ],
+  "way/157660797-400-220": [
+   "pypsa_osm"
+  ],
+  "way/179323117-400-220": [
+   "pypsa_osm"
+  ],
+  "way/200516868-400-220": [
+   "pypsa_osm"
+  ],
+  "way/220458404-400-220": [
+   "pypsa_osm"
+  ],
+  "way/253597954-400-220": [
+   "pypsa_osm"
+  ],
+  "way/37031322-400-220": [
+   "pypsa_osm"
+  ],
+  "way/37031469-400-220": [
+   "pypsa_osm"
+  ],
+  "way/96974919-400-220": [
+   "pypsa_osm"
+  ],
+  "gsu:virtual_way/1170367700:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1389549722:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/196574335:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/196574344:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/196574366:b:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/37028934:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/484167693:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/484337873:0-400": [
+   "model_assembly"
+  ],
+  "gsu:way/157471230-400": [
+   "model_assembly"
+  ],
+  "gsu:way/157660797-400": [
+   "model_assembly"
+  ],
+  "gsu:way/176754569-400": [
+   "model_assembly"
+  ],
+  "gsu:way/235044638-400": [
+   "model_assembly"
+  ],
+  "gsu:way/243752614-400": [
+   "model_assembly"
+  ],
+  "gsu:way/253244460-400": [
+   "model_assembly"
+  ],
+  "gsu:way/253597954-400": [
+   "model_assembly"
+  ],
+  "gsu:way/743374599-400": [
+   "model_assembly"
+  ],
+  "gsu:way/96974919-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1023909999:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/190339730:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/246439630:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/262545229:a:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/286439823:0-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1256110252-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1457230346-220": [
+   "model_assembly"
+  ],
+  "gsu:way/147907110-220": [
+   "model_assembly"
+  ],
+  "gsu:way/200514079-220": [
+   "model_assembly"
+  ],
+  "gsu:way/261495737-220": [
+   "model_assembly"
+  ],
+  "gsu:way/285893870-220": [
+   "model_assembly"
+  ],
+  "gsu:way/37376386-220": [
+   "model_assembly"
+  ],
+  "gsu:way/751225324-220": [
+   "model_assembly"
+  ],
+  "gsu:way/85721962-220": [
+   "model_assembly"
+  ],
+  "gsu:way/98755129-220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "embedded biomass at virtual_way/1097505501:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1122919885:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv Solar": [
+   "ppm"
+  ],
+  "Stara Zagora Solar": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #2": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xix": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1122919886:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Montana Solar": [
+   "ppm"
+  ],
+  "Montana Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/114515157:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Romania at virtual_way/114515157:1-400": [
+   "energy_charts"
+  ],
+  "embedded biomass at virtual_way/114515997:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1170367700:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kalin Kamenitsa Pastra Rila Hpp": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1170367717:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1170367717:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/137605015:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sofia Solar": [
+   "ppm"
+  ],
+  "Verila Solar Farm": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389549654:a:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549654:b:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Blagoevgrad Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389549685:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549690:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549697:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549702:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549707:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549710:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549713:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kyustendil Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389549718:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549722:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bobov Dol": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389549723:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sapareva Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389549725:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549727:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549728:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389549729:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597519:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Asenovgrad Solar": [
+   "ppm"
+  ],
+  "Plovdiv Solar #3": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxv": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597524:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv Solar #4": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxiv": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597528:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Karadzhalovo Solar Farm": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxiii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597529:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Voivodino Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597534:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv Solar #5": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxii": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxxiii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597543:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1389597544:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv Solar Xxxviii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1389597548:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1435263312:a:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Hrabrovo Wind Farm": [
+   "ppm"
+  ],
+  "Varna Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/146669845:b:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/146669846:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/176754571:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/188481602:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196558061:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196558069:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196558098:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196574335:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196574335:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Petrohan Hpp": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196574338:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196574340:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/196574344:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Klisoura Hpp": [
+   "ppm"
+  ],
+  "Vratsa Solar": [
+   "ppm"
+  ],
+  "Montana Solar #3": [
+   "ppm"
+  ],
+  "Montana Solar #4": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196574366:b:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Barzia Hpp": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196574366:d:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vratsa Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196578885:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vratsa Solar #3": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196578891:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vratsa Solar #4": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/196578892:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kyustendil Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/198233166:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/204971169:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/204971169:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/235044648:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/235044648:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/235044650:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Shumen Solar": [
+   "ppm"
+  ],
+  "Varna Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/261267120:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/261379798:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Krupen Wind Farm": [
+   "ppm"
+  ],
+  "Krapelit Wind Farm": [
+   "ppm"
+  ],
+  "Karnobat Wind Park": [
+   "ppm"
+  ],
+  "Silistra Solar": [
+   "ppm"
+  ],
+  "Montan Renar Solar": [
+   "ppm"
+  ],
+  "Balchik Wind Farm": [
+   "ppm"
+  ],
+  "Dobrich Solar": [
+   "ppm"
+  ],
+  "Dobrich Solar #2": [
+   "ppm"
+  ],
+  "Dobrich Solar #3": [
+   "ppm"
+  ],
+  "Dobrich Solar #4": [
+   "ppm"
+  ],
+  "Dobrich Solar #5": [
+   "ppm"
+  ],
+  "Dobrich Solar #6": [
+   "ppm"
+  ],
+  "Dobrich Solar #7": [
+   "ppm"
+  ],
+  "Dobrich Solar #8": [
+   "ppm"
+  ],
+  "Kardam Wind Farm": [
+   "ppm"
+  ],
+  "Silistra Solar #2": [
+   "ppm"
+  ],
+  "Silistra Solar #3": [
+   "ppm"
+  ],
+  "Silistra Solar #4": [
+   "ppm"
+  ],
+  "Silistra Solar #5": [
+   "ppm"
+  ],
+  "St George Solar Farm": [
+   "ppm"
+  ],
+  "St George": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/261379799:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Romania at virtual_way/261379799:0-400": [
+   "energy_charts"
+  ],
+  "Suvorovo Wind Farm": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/261379806:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/335787753:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kyustendil Solar #3": [
+   "ppm"
+  ],
+  "Pernik Solar": [
+   "ppm"
+  ],
+  "Pernik Solar #2": [
+   "ppm"
+  ],
+  "Pernik Hybrid Park": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/37028934:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pernik Solar #3": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/37028934:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Republika": [
+   "ppm"
+  ],
+  "Selanovtsi Solar Farm": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/450314208:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/450314211:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/450516948:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vratsa Solar #5": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/455598114:b:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/478457848:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Yerusalimovo Solar": [
+   "ppm"
+  ],
+  "Haskovo Solar": [
+   "ppm"
+  ],
+  "Haskovo Solar #2": [
+   "ppm"
+  ],
+  "Haskovo Solar #3": [
+   "ppm"
+  ],
+  "Haskovo Solar #4": [
+   "ppm"
+  ],
+  "Haskovo Solar #5": [
+   "ppm"
+  ],
+  "Haskovo Solar Xix": [
+   "ppm"
+  ],
+  "Haskovo Solar Xvi": [
+   "ppm"
+  ],
+  "Haskovo Solar Xviii": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxiii": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxv": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxvi": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxvii": [
+   "ppm"
+  ],
+  "Kardzhali Solar": [
+   "ppm"
+  ],
+  "Ostar Kamak Solar": [
+   "ppm"
+  ],
+  "Yambol Solar Xxviii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/484167693:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ivailovgrad": [
+   "ppm"
+  ],
+  "Studen Kladenets": [
+   "ppm"
+  ],
+  "Zdravets Solar": [
+   "ppm"
+  ],
+  "Dimitrovgrad Solar": [
+   "ppm"
+  ],
+  "Haskovo Solar #6": [
+   "ppm"
+  ],
+  "Haskovo Solar #7": [
+   "ppm"
+  ],
+  "Haskovo Solar #8": [
+   "ppm"
+  ],
+  "Haskovo Solar #9": [
+   "ppm"
+  ],
+  "Haskovo Solar #10": [
+   "ppm"
+  ],
+  "Haskovo Solar Xii": [
+   "ppm"
+  ],
+  "Haskovo Solar Xiv": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxi": [
+   "ppm"
+  ],
+  "Haskovo Solar Xxii": [
+   "ppm"
+  ],
+  "Kardzhali Solar #2": [
+   "ppm"
+  ],
+  "Kardzhali Solar #3": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #3": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #4": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xvii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/484337873:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kardjali": [
+   "ppm"
+  ],
+  "Maritsa": [
+   "ppm"
+  ],
+  "Haskovo Solar Xiii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/484337873:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Karlovo Solar Farm": [
+   "ppm"
+  ],
+  "Kaloyanovo Solar Farm": [
+   "ppm"
+  ],
+  "Plovdiv Solar #6": [
+   "ppm"
+  ],
+  "Plovdiv Solar #7": [
+   "ppm"
+  ],
+  "Plovdiv Solar #8": [
+   "ppm"
+  ],
+  "Plovdiv Solar #9": [
+   "ppm"
+  ],
+  "Plovdiv Solar #10": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xiii": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xiv": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxvii": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxx": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxxii": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxxix": [
+   "ppm"
+  ],
+  "Vedrare Solar Farm": [
+   "ppm"
+  ],
+  "Dalgo Pole Kaloyan": [
+   "ppm"
+  ],
+  "Karlovo Photovoltaic": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/94754373:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Galabovo Solar Bg": [
+   "ppm"
+  ],
+  "embedded biomass at way/1287693974-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Greece at way/1287693974-400": [
+   "energy_charts"
+  ],
+  "Asm Pv Solar Farm": [
+   "ppm"
+  ],
+  "Pleven Solar": [
+   "ppm"
+  ],
+  "Pleven Solar Xiii": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xiv": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xxi": [
+   "ppm"
+  ],
+  "embedded biomass at way/144024767-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/144787750-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pazardzhik Solar": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #2": [
+   "ppm"
+  ],
+  "Pirdop Solar": [
+   "ppm"
+  ],
+  "Sofia Solar #2": [
+   "ppm"
+  ],
+  "Sofia Solar #3": [
+   "ppm"
+  ],
+  "embedded biomass at way/148478396-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/157471230-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kozloduy 5": [
+   "ppm"
+  ],
+  "Kozloduy 6": [
+   "ppm"
+  ],
+  "embedded biomass at way/157660797-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Maritsa Iztok": [
+   "ppm"
+  ],
+  "Pernik Solar #4": [
+   "ppm"
+  ],
+  "embedded biomass at way/176656979-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import North Macedonia at way/176656979-400": [
+   "energy_charts"
+  ],
+  "Burgas Solar": [
+   "ppm"
+  ],
+  "Burgas Solar #2": [
+   "ppm"
+  ],
+  "Burgas Solar #3": [
+   "ppm"
+  ],
+  "Burgas Solar #4": [
+   "ppm"
+  ],
+  "Burgas Solar #5": [
+   "ppm"
+  ],
+  "Burgas Solar #6": [
+   "ppm"
+  ],
+  "Burgas Solar Xix": [
+   "ppm"
+  ],
+  "Burgas Solar Xv": [
+   "ppm"
+  ],
+  "Burgas Solar Xvii": [
+   "ppm"
+  ],
+  "Burgas Solar Xx": [
+   "ppm"
+  ],
+  "Burgas Solar Xxi": [
+   "ppm"
+  ],
+  "Burgas Solar Xxv": [
+   "ppm"
+  ],
+  "Burgas Solar Xxvi": [
+   "ppm"
+  ],
+  "Burgas Solar Xxxi": [
+   "ppm"
+  ],
+  "Burgas Solar Xxxii": [
+   "ppm"
+  ],
+  "Burgas Solar Xxxiii": [
+   "ppm"
+  ],
+  "Kameno Solar": [
+   "ppm"
+  ],
+  "Burgas Bess": [
+   "ppm"
+  ],
+  "Malko Tarnovo Solar Plus": [
+   "ppm"
+  ],
+  "embedded biomass at way/176754569-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Neftochim Refinery": [
+   "ppm"
+  ],
+  "Lovech Solar": [
+   "ppm"
+  ],
+  "Pleven Solar #2": [
+   "ppm"
+  ],
+  "Pleven Solar Xxi": [
+   "ppm"
+  ],
+  "embedded biomass at way/179323117-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/200516868-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Romania at way/200516868-400": [
+   "energy_charts"
+  ],
+  "Razlog Solar Farm": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar #2": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar #3": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar #4": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar #5": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar #6": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar Xii": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar Xiii": [
+   "ppm"
+  ],
+  "embedded biomass at way/235044638-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Greece at way/235044638-400": [
+   "energy_charts"
+  ],
+  "Popina Laka": [
+   "ppm"
+  ],
+  "Pirin Hpp": [
+   "ppm"
+  ],
+  "Lilyanovo": [
+   "ppm"
+  ],
+  "Spanchevo Hpp": [
+   "ppm"
+  ],
+  "Sandanski": [
+   "ppm"
+  ],
+  "Apriltsi Solar Farm": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #3": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #4": [
+   "ppm"
+  ],
+  "Pazardzhik Solar Xiv": [
+   "ppm"
+  ],
+  "Sofia Solar #4": [
+   "ppm"
+  ],
+  "Sofia Solar #5": [
+   "ppm"
+  ],
+  "Sofia Solar #6": [
+   "ppm"
+  ],
+  "embedded biomass at way/243752614-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Momina Klisura": [
+   "ppm"
+  ],
+  "embedded biomass at way/253244460-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Turkey at way/253244460-400": [
+   "energy_charts",
+   "pypsa_osm"
+  ],
+  "Brikel": [
+   "ppm"
+  ],
+  "Aes Galabovo": [
+   "ppm"
+  ],
+  "Yambol Solar": [
+   "ppm"
+  ],
+  "Skobelevo Solar": [
+   "ppm"
+  ],
+  "Bezmer Solar": [
+   "ppm"
+  ],
+  "Yambol Solar #2": [
+   "ppm"
+  ],
+  "Haskovo Solar #11": [
+   "ppm"
+  ],
+  "Sliven Solar Xii": [
+   "ppm"
+  ],
+  "Sliven Solar Xviii": [
+   "ppm"
+  ],
+  "Tenevo Solar Farm": [
+   "ppm"
+  ],
+  "Yambol Solar #3": [
+   "ppm"
+  ],
+  "Yambol Solar #4": [
+   "ppm"
+  ],
+  "Yambol Solar #5": [
+   "ppm"
+  ],
+  "Yambol Solar #6": [
+   "ppm"
+  ],
+  "Yambol Solar Xiii": [
+   "ppm"
+  ],
+  "Yambol Solar Xvii": [
+   "ppm"
+  ],
+  "Yambol Solar Xviii": [
+   "ppm"
+  ],
+  "Yambol Solar Xxi": [
+   "ppm"
+  ],
+  "Yambol Solar Xxii": [
+   "ppm"
+  ],
+  "Yambol Solar Xxiii": [
+   "ppm"
+  ],
+  "Yambol Solar Xxix": [
+   "ppm"
+  ],
+  "Yambol Solar Xxv": [
+   "ppm"
+  ],
+  "Tenevo Hybrid": [
+   "ppm"
+  ],
+  "embedded biomass at way/253597954-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Maritsa Iztok #2": [
+   "ppm"
+  ],
+  "Maritsa East": [
+   "ppm"
+  ],
+  "embedded biomass at way/37028932-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Serbia at way/37028932-400": [
+   "energy_charts"
+  ],
+  "Sofia Solar Xiv": [
+   "ppm"
+  ],
+  "embedded biomass at way/37031322-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/37031469-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/743374599-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chaira": [
+   "ppm"
+  ],
+  "Belmeken": [
+   "ppm"
+  ],
+  "Beli Iskar Mala Tsarkva Simeonovo Hpp": [
+   "ppm"
+  ],
+  "Plovdiv Solar #11": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xx": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxi": [
+   "ppm"
+  ],
+  "embedded biomass at way/96974919-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plovdiv North": [
+   "ppm"
+  ],
+  "Palauzovo Solar": [
+   "ppm"
+  ],
+  "Burgas Solar #7": [
+   "ppm"
+  ],
+  "Burgas Solar #8": [
+   "ppm"
+  ],
+  "Burgas Solar Xxiii": [
+   "ppm"
+  ],
+  "Burgas Solar Xxiv": [
+   "ppm"
+  ],
+  "Burgas Solar Xxx": [
+   "ppm"
+  ],
+  "Sliven Solar": [
+   "ppm"
+  ],
+  "Sliven Solar Xvi": [
+   "ppm"
+  ],
+  "Sliven Solar Xxi": [
+   "ppm"
+  ],
+  "Sliven Solar Xxviii": [
+   "ppm"
+  ],
+  "Yambol Solar #7": [
+   "ppm"
+  ],
+  "Yambol Solar #8": [
+   "ppm"
+  ],
+  "Yambol Solar #9": [
+   "ppm"
+  ],
+  "Yambol Solar #10": [
+   "ppm"
+  ],
+  "Yambol Solar #11": [
+   "ppm"
+  ],
+  "Yambol Solar Xiv": [
+   "ppm"
+  ],
+  "Yambol Solar Xix": [
+   "ppm"
+  ],
+  "Yambol Solar Xv": [
+   "ppm"
+  ],
+  "Yambol Solar Xxiv": [
+   "ppm"
+  ],
+  "Yambol Solar Xxvi": [
+   "ppm"
+  ],
+  "Yambol Solar Xxxii": [
+   "ppm"
+  ],
+  "Yambol Solar Xxxiv": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_relation/20009833:a:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1023909998:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1023909999:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Alexander Stambolyski Site": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1023909999:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1392210250:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1392210250:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gabrovo Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1392210254:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gabrovo Solar #2": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/1392210254:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1392210255:b:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/1392210257:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vratsa Solar #6": [
+   "ppm"
+  ],
+  "Vratsa Solar #7": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/179323113:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Letnitsa Solar": [
+   "ppm"
+  ],
+  "Lovech Solar #2": [
+   "ppm"
+  ],
+  "Pleven Solar #3": [
+   "ppm"
+  ],
+  "Pleven Solar #4": [
+   "ppm"
+  ],
+  "Pleven Solar Xii": [
+   "ppm"
+  ],
+  "Pleven Solar Xvii": [
+   "ppm"
+  ],
+  "Pleven Solar Xx": [
+   "ppm"
+  ],
+  "Lovech Bess": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/190339730:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Toplofikacia Pleven": [
+   "ppm"
+  ],
+  "Targovishte Solar": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/194174458:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/226153348:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/227121573:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/246439630:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sliven Solar #2": [
+   "ppm"
+  ],
+  "Sliven Solar #3": [
+   "ppm"
+  ],
+  "Sliven Solar #4": [
+   "ppm"
+  ],
+  "Sliven Solar #5": [
+   "ppm"
+  ],
+  "Sliven Solar #6": [
+   "ppm"
+  ],
+  "Sliven Solar #7": [
+   "ppm"
+  ],
+  "Sliven Solar #8": [
+   "ppm"
+  ],
+  "Sliven Solar #9": [
+   "ppm"
+  ],
+  "Sliven Solar Xiii": [
+   "ppm"
+  ],
+  "Sliven Solar Xiv": [
+   "ppm"
+  ],
+  "Sliven Solar Xv": [
+   "ppm"
+  ],
+  "Sliven Solar Xxiv": [
+   "ppm"
+  ],
+  "Sliven Solar Xxix": [
+   "ppm"
+  ],
+  "Sliven Solar Xxx": [
+   "ppm"
+  ],
+  "Sliven Solar Xxxi": [
+   "ppm"
+  ],
+  "Sliven Solar Xxxvi": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #5": [
+   "ppm"
+  ],
+  "Nova Zagora": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/246439630:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sliven": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/246912877:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/246912877:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/247774984:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vetrocom Wind Farm": [
+   "ppm"
+  ],
+  "Kazanlak Solar Farm": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #6": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #7": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xxiv": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/262545229:a:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Koprinka Hpp Kaplan": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/285453499:a:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/286439823:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Orfeus": [
+   "ppm"
+  ],
+  "Krichim": [
+   "ppm"
+  ],
+  "Tsankov Kamak": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/37030096:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/450516951:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Veliko Tarnovo Solar Xvii": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/459097437:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/459097437:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gabrovo Solar #3": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/459097439:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Veliko Tarnovo Solar Xx": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/459117273:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sofia Serdika Solar": [
+   "ppm"
+  ],
+  "embedded biomass at virtual_way/625783733:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/1256110252-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sestrimo": [
+   "ppm"
+  ],
+  "embedded biomass at way/1287693974-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/144787750-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Hadjidimovo Solar": [
+   "ppm"
+  ],
+  "Blagoevgrad Solar Xvi": [
+   "ppm"
+  ],
+  "embedded biomass at way/1457230346-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Teshel": [
+   "ppm"
+  ],
+  "Dupinovi Solar": [
+   "ppm"
+  ],
+  "embedded biomass at way/147907110-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sofia": [
+   "ppm"
+  ],
+  "embedded biomass at way/157471230-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Galabovo Solar Farm": [
+   "ppm"
+  ],
+  "Maritsa East Bess": [
+   "ppm"
+  ],
+  "embedded biomass at way/157660797-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Burgas Solar #9": [
+   "ppm"
+  ],
+  "Burgas Solar #10": [
+   "ppm"
+  ],
+  "Burgas Solar #11": [
+   "ppm"
+  ],
+  "Burgas Solar Xii": [
+   "ppm"
+  ],
+  "embedded biomass at way/178747356-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lovech Solar #3": [
+   "ppm"
+  ],
+  "Lovech Solar #4": [
+   "ppm"
+  ],
+  "Lovech Solar #5": [
+   "ppm"
+  ],
+  "Lovech Solar #6": [
+   "ppm"
+  ],
+  "Pleven Solar #5": [
+   "ppm"
+  ],
+  "Vratsa Solar #8": [
+   "ppm"
+  ],
+  "embedded biomass at way/179323117-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kolarovo Solar": [
+   "ppm"
+  ],
+  "Razgrad Solar": [
+   "ppm"
+  ],
+  "Ruse Solar": [
+   "ppm"
+  ],
+  "Ruse Solar #2": [
+   "ppm"
+  ],
+  "Ruse Solar #3": [
+   "ppm"
+  ],
+  "Ruse Solar #4": [
+   "ppm"
+  ],
+  "Ruse Solar #5": [
+   "ppm"
+  ],
+  "Silistra Solar #6": [
+   "ppm"
+  ],
+  "Silistra Solar #7": [
+   "ppm"
+  ],
+  "Tsenovo Solar Farm": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xiii": [
+   "ppm"
+  ],
+  "embedded biomass at way/200514079-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ruse Iztok": [
+   "ppm"
+  ],
+  "embedded biomass at way/200516868-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Cherganovo Solar Farm": [
+   "ppm"
+  ],
+  "Apriltsi Solar Farm #2": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #8": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xii": [
+   "ppm"
+  ],
+  "Maglizh Solar Park": [
+   "ppm"
+  ],
+  "embedded biomass at way/204958592-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/220458404-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Montana Solar #5": [
+   "ppm"
+  ],
+  "Montana Solar #6": [
+   "ppm"
+  ],
+  "Vidin Solar": [
+   "ppm"
+  ],
+  "Vidin Solar #2": [
+   "ppm"
+  ],
+  "Vidin Solar #3": [
+   "ppm"
+  ],
+  "Vidin Solar #4": [
+   "ppm"
+  ],
+  "Vidin Solar #5": [
+   "ppm"
+  ],
+  "Vidin Solar #6": [
+   "ppm"
+  ],
+  "Vidin Solar #7": [
+   "ppm"
+  ],
+  "Vidin Solar #8": [
+   "ppm"
+  ],
+  "embedded biomass at way/232685942-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pes Pv Solar Farm": [
+   "ppm"
+  ],
+  "Resen Solar": [
+   "ppm"
+  ],
+  "Ruse Solar #6": [
+   "ppm"
+  ],
+  "Targovishte Solar #2": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #2": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #3": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #4": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #5": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #6": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar #7": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xix": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xv": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xvi": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xxii": [
+   "ppm"
+  ],
+  "Veliko Tarnovo Solar Xxv": [
+   "ppm"
+  ],
+  "embedded biomass at way/235026409-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sliven Solar #10": [
+   "ppm"
+  ],
+  "embedded biomass at way/253597954-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kamenyak Solar Farm": [
+   "ppm"
+  ],
+  "Kaolinovo Solar": [
+   "ppm"
+  ],
+  "Shumen Solar #2": [
+   "ppm"
+  ],
+  "Shumen Solar #3": [
+   "ppm"
+  ],
+  "Shumen Solar #4": [
+   "ppm"
+  ],
+  "Shumen Solar #5": [
+   "ppm"
+  ],
+  "Shumen Solar #6": [
+   "ppm"
+  ],
+  "Shumen Solar #7": [
+   "ppm"
+  ],
+  "Shumen Solar #8": [
+   "ppm"
+  ],
+  "Shumen Solar #9": [
+   "ppm"
+  ],
+  "Targovishte Solar #3": [
+   "ppm"
+  ],
+  "Targovishte Solar #4": [
+   "ppm"
+  ],
+  "Kaolinovo Pv Park": [
+   "ppm"
+  ],
+  "embedded biomass at way/259759898-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kaliakra Cape Wind Farm": [
+   "ppm"
+  ],
+  "Varna Solar #3": [
+   "ppm"
+  ],
+  "Evn Bulgarevo Wind Farm": [
+   "ppm"
+  ],
+  "Kamen Bryag Enel Wind Farm": [
+   "ppm"
+  ],
+  "Long Man Wind Park": [
+   "ppm"
+  ],
+  "Mogilishte Zapad Wind Farm": [
+   "ppm"
+  ],
+  "Saint Nikola Wind Farm": [
+   "ppm"
+  ],
+  "Shabla Wind Farm": [
+   "ppm"
+  ],
+  "Tcherga Wind Farm": [
+   "ppm"
+  ],
+  "Varna Solar #4": [
+   "ppm"
+  ],
+  "Varna Solar #5": [
+   "ppm"
+  ],
+  "Varna Solar #6": [
+   "ppm"
+  ],
+  "Vranino Wind Farm": [
+   "ppm"
+  ],
+  "embedded biomass at way/261495737-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Varna": [
+   "ppm"
+  ],
+  "Lovech Solar #7": [
+   "ppm"
+  ],
+  "embedded biomass at way/262539285-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Smolyan Solar": [
+   "ppm"
+  ],
+  "Smolyan Solar #2": [
+   "ppm"
+  ],
+  "Smolyan Bess": [
+   "ppm"
+  ],
+  "embedded biomass at way/285893870-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Devin": [
+   "ppm"
+  ],
+  "Deven": [
+   "ppm"
+  ],
+  "Sofia Solar #7": [
+   "ppm"
+  ],
+  "embedded biomass at way/37031322-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sofia Solar #8": [
+   "ppm"
+  ],
+  "embedded biomass at way/37376386-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pasarel": [
+   "ppm"
+  ],
+  "Kokalyane Hpp": [
+   "ppm"
+  ],
+  "Sofia Iztok": [
+   "ppm"
+  ],
+  "Selanovtsi Solar Farm #2": [
+   "ppm"
+  ],
+  "embedded biomass at way/450344719-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pobeda Solar Farm": [
+   "ppm"
+  ],
+  "Pleven Solar #6": [
+   "ppm"
+  ],
+  "Pleven Solar #7": [
+   "ppm"
+  ],
+  "Pleven Solar #8": [
+   "ppm"
+  ],
+  "Pleven Solar #9": [
+   "ppm"
+  ],
+  "Pleven Solar Xiv": [
+   "ppm"
+  ],
+  "Pleven Solar Xix": [
+   "ppm"
+  ],
+  "Pleven Solar Xviii": [
+   "ppm"
+  ],
+  "Pleven Solar Xxii": [
+   "ppm"
+  ],
+  "embedded biomass at way/462198915-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/59467541-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sofia Solar #9": [
+   "ppm"
+  ],
+  "Sofia Solar Xiii": [
+   "ppm"
+  ],
+  "embedded biomass at way/743367793-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pazardzhik Solar #5": [
+   "ppm"
+  ],
+  "embedded biomass at way/751225324-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Peshtera": [
+   "ppm"
+  ],
+  "Batak": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #9": [
+   "ppm"
+  ],
+  "Stara Zagora Solar #10": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xiii": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xvi": [
+   "ppm"
+  ],
+  "Stara Zagora Solar Xxiii": [
+   "ppm"
+  ],
+  "embedded biomass at way/85721962-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Stara Zagora Hpp": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xii": [
+   "ppm"
+  ],
+  "Plovdiv Solar Xxxvi": [
+   "ppm"
+  ],
+  "embedded biomass at way/96974919-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Solsbor Solar": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #6": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #7": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #8": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #9": [
+   "ppm"
+  ],
+  "Pazardzhik Solar #10": [
+   "ppm"
+  ],
+  "Pazardzhik Solar Xvii": [
+   "ppm"
+  ],
+  "Plovdiv Solar #12": [
+   "ppm"
+  ],
+  "embedded biomass at way/98755129-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aleko": [
+   "ppm"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "2": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "3": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "4": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "5": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "6": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "7": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "8": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "9": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "10": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "11": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "12": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "13": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "14": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "15": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "16": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "17": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "18": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "19": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "20": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "21": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "22": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "23": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "24": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "25": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "26": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "27": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "28": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "29": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "30": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "31": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "32": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "33": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "34": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "35": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "36": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "37": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "38": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "39": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "40": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "41": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "42": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "43": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "44": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "45": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "46": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "47": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "48": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "49": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "50": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "51": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "53": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "54": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "55": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "56": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "57": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "58": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "59": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "60": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "61": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "62": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "63": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "64": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "65": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "66": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "67": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "68": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "69": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "70": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "71": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "72": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "73": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "74": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "75": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "76": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "77": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "78": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "79": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "80": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "81": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "82": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "83": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "84": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "85": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "86": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "87": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "88": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "89": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "90": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "91": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "92": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "93": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "94": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "95": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "96": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "97": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "98": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "99": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "100": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "101": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "102": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "103": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "104": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "105": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "106": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "107": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "108": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "109": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "110": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "111": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "112": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "113": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "114": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "115": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "116": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "117": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "118": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "119": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "120": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "121": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "122": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "123": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "124": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "125": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "126": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "127": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "128": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "129": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "130": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "131": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "132": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "133": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "134": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "135": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "136": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "137": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "138": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "139": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "140": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "141": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "142": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "143": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "144": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "145": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "146": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "147": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "148": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "149": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "150": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "151": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "152": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "153": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ]
+ },
+ "shunts": {
+  "10": [
+   "model_assembly"
+  ],
+  "29": [
+   "model_assembly"
+  ],
+  "62": [
+   "model_assembly"
+  ],
+  "88": [
+   "model_assembly"
+  ],
+  "114": [
+   "model_assembly"
+  ],
+  "133": [
+   "model_assembly"
+  ],
+  "140": [
+   "model_assembly"
+  ],
+  "141": [
+   "model_assembly"
+  ],
+  "146": [
+   "model_assembly"
+  ],
+  "147": [
+   "model_assembly"
+  ]
+ }
+}

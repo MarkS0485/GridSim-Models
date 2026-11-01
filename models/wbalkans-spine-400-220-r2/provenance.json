@@ -1,0 +1,3956 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Western Balkans (Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo) 400/220 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "energy-charts public net generation by type and cross-border physical flows (snapshot hour)",
+   "publisher": "Fraunhofer ISE (ENTSO-E based)",
+   "url": "https://energy-charts.info",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "geonames",
+   "title": "GeoNames per-country dumps: populated places with population and position (demand shares)",
+   "publisher": "GeoNames",
+   "url": "https://www.geonames.org/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "ghsl",
+   "title": "GHSL GHS-POP R2023A epoch 2020, 30 arc-second population grid (demand shares, from the round with pop_grid)",
+   "publisher": "European Commission, Joint Research Centre (Schiavina et al. 2023, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)",
+   "url": "https://ghsl.jrc.ec.europa.eu/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "pypsa_osm"
+  ],
+  "42": [
+   "pypsa_osm"
+  ],
+  "43": [
+   "pypsa_osm"
+  ],
+  "44": [
+   "pypsa_osm"
+  ],
+  "45": [
+   "pypsa_osm"
+  ],
+  "46": [
+   "pypsa_osm"
+  ],
+  "47": [
+   "pypsa_osm"
+  ],
+  "48": [
+   "pypsa_osm"
+  ],
+  "49": [
+   "pypsa_osm"
+  ],
+  "50": [
+   "pypsa_osm"
+  ],
+  "51": [
+   "pypsa_osm"
+  ],
+  "52": [
+   "pypsa_osm"
+  ],
+  "53": [
+   "pypsa_osm"
+  ],
+  "54": [
+   "pypsa_osm"
+  ],
+  "55": [
+   "pypsa_osm"
+  ],
+  "56": [
+   "pypsa_osm"
+  ],
+  "57": [
+   "pypsa_osm"
+  ],
+  "58": [
+   "pypsa_osm"
+  ],
+  "59": [
+   "pypsa_osm"
+  ],
+  "60": [
+   "pypsa_osm"
+  ],
+  "61": [
+   "pypsa_osm"
+  ],
+  "62": [
+   "pypsa_osm"
+  ],
+  "63": [
+   "pypsa_osm"
+  ],
+  "64": [
+   "pypsa_osm"
+  ],
+  "65": [
+   "pypsa_osm"
+  ],
+  "66": [
+   "pypsa_osm"
+  ],
+  "67": [
+   "pypsa_osm"
+  ],
+  "68": [
+   "pypsa_osm"
+  ],
+  "69": [
+   "pypsa_osm"
+  ],
+  "70": [
+   "pypsa_osm"
+  ],
+  "71": [
+   "pypsa_osm"
+  ],
+  "72": [
+   "pypsa_osm"
+  ],
+  "73": [
+   "pypsa_osm"
+  ],
+  "74": [
+   "pypsa_osm"
+  ],
+  "75": [
+   "pypsa_osm"
+  ],
+  "76": [
+   "pypsa_osm"
+  ],
+  "77": [
+   "pypsa_osm"
+  ],
+  "78": [
+   "pypsa_osm"
+  ],
+  "79": [
+   "pypsa_osm"
+  ],
+  "80": [
+   "pypsa_osm"
+  ],
+  "81": [
+   "pypsa_osm"
+  ],
+  "82": [
+   "pypsa_osm"
+  ],
+  "83": [
+   "pypsa_osm"
+  ],
+  "84": [
+   "pypsa_osm"
+  ],
+  "85": [
+   "pypsa_osm"
+  ],
+  "86": [
+   "pypsa_osm"
+  ],
+  "87": [
+   "pypsa_osm"
+  ],
+  "88": [
+   "pypsa_osm"
+  ],
+  "89": [
+   "pypsa_osm"
+  ],
+  "90": [
+   "pypsa_osm"
+  ],
+  "91": [
+   "pypsa_osm"
+  ],
+  "92": [
+   "pypsa_osm"
+  ],
+  "93": [
+   "pypsa_osm"
+  ],
+  "94": [
+   "pypsa_osm"
+  ],
+  "95": [
+   "pypsa_osm"
+  ],
+  "96": [
+   "pypsa_osm"
+  ],
+  "97": [
+   "pypsa_osm"
+  ],
+  "98": [
+   "pypsa_osm"
+  ],
+  "99": [
+   "pypsa_osm"
+  ],
+  "100": [
+   "pypsa_osm"
+  ],
+  "101": [
+   "pypsa_osm"
+  ],
+  "102": [
+   "pypsa_osm"
+  ],
+  "103": [
+   "pypsa_osm"
+  ],
+  "104": [
+   "pypsa_osm"
+  ],
+  "105": [
+   "pypsa_osm"
+  ],
+  "106": [
+   "pypsa_osm"
+  ],
+  "107": [
+   "pypsa_osm"
+  ],
+  "108": [
+   "pypsa_osm"
+  ],
+  "109": [
+   "pypsa_osm"
+  ],
+  "110": [
+   "pypsa_osm"
+  ],
+  "111": [
+   "pypsa_osm"
+  ],
+  "112": [
+   "pypsa_osm"
+  ],
+  "113": [
+   "pypsa_osm"
+  ],
+  "114": [
+   "pypsa_osm"
+  ],
+  "115": [
+   "pypsa_osm"
+  ],
+  "116": [
+   "pypsa_osm"
+  ],
+  "117": [
+   "pypsa_osm"
+  ],
+  "118": [
+   "pypsa_osm"
+  ],
+  "119": [
+   "pypsa_osm"
+  ],
+  "120": [
+   "pypsa_osm"
+  ],
+  "121": [
+   "pypsa_osm"
+  ],
+  "122": [
+   "pypsa_osm"
+  ],
+  "123": [
+   "pypsa_osm"
+  ],
+  "124": [
+   "pypsa_osm"
+  ],
+  "125": [
+   "pypsa_osm"
+  ],
+  "126": [
+   "pypsa_osm"
+  ],
+  "127": [
+   "pypsa_osm"
+  ],
+  "128": [
+   "pypsa_osm"
+  ],
+  "129": [
+   "pypsa_osm"
+  ],
+  "130": [
+   "pypsa_osm"
+  ],
+  "131": [
+   "pypsa_osm"
+  ],
+  "132": [
+   "pypsa_osm"
+  ],
+  "133": [
+   "pypsa_osm"
+  ],
+  "134": [
+   "pypsa_osm"
+  ],
+  "135": [
+   "pypsa_osm"
+  ],
+  "136": [
+   "pypsa_osm"
+  ],
+  "137": [
+   "pypsa_osm"
+  ],
+  "138": [
+   "pypsa_osm"
+  ],
+  "139": [
+   "pypsa_osm"
+  ],
+  "140": [
+   "pypsa_osm"
+  ],
+  "141": [
+   "pypsa_osm"
+  ],
+  "142": [
+   "model_assembly"
+  ],
+  "143": [
+   "model_assembly"
+  ],
+  "144": [
+   "model_assembly"
+  ],
+  "145": [
+   "model_assembly"
+  ],
+  "146": [
+   "model_assembly"
+  ],
+  "147": [
+   "model_assembly"
+  ],
+  "148": [
+   "model_assembly"
+  ],
+  "149": [
+   "model_assembly"
+  ],
+  "150": [
+   "model_assembly"
+  ],
+  "151": [
+   "model_assembly"
+  ],
+  "152": [
+   "model_assembly"
+  ],
+  "153": [
+   "model_assembly"
+  ],
+  "154": [
+   "model_assembly"
+  ],
+  "155": [
+   "model_assembly"
+  ],
+  "156": [
+   "model_assembly"
+  ],
+  "157": [
+   "model_assembly"
+  ],
+  "158": [
+   "model_assembly"
+  ],
+  "159": [
+   "model_assembly"
+  ],
+  "160": [
+   "model_assembly"
+  ],
+  "161": [
+   "model_assembly"
+  ],
+  "162": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "165": [
+   "model_assembly"
+  ],
+  "166": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "168": [
+   "model_assembly"
+  ],
+  "169": [
+   "model_assembly"
+  ],
+  "170": [
+   "model_assembly"
+  ],
+  "171": [
+   "model_assembly"
+  ],
+  "172": [
+   "model_assembly"
+  ],
+  "173": [
+   "model_assembly"
+  ],
+  "174": [
+   "model_assembly"
+  ],
+  "175": [
+   "model_assembly"
+  ],
+  "176": [
+   "model_assembly"
+  ],
+  "177": [
+   "model_assembly"
+  ],
+  "178": [
+   "model_assembly"
+  ],
+  "179": [
+   "model_assembly"
+  ],
+  "180": [
+   "model_assembly"
+  ],
+  "181": [
+   "model_assembly"
+  ],
+  "182": [
+   "model_assembly"
+  ],
+  "183": [
+   "model_assembly"
+  ],
+  "184": [
+   "model_assembly"
+  ],
+  "185": [
+   "model_assembly"
+  ],
+  "186": [
+   "model_assembly"
+  ],
+  "187": [
+   "model_assembly"
+  ],
+  "188": [
+   "model_assembly"
+  ],
+  "189": [
+   "model_assembly"
+  ],
+  "190": [
+   "model_assembly"
+  ],
+  "191": [
+   "model_assembly"
+  ],
+  "192": [
+   "model_assembly"
+  ],
+  "193": [
+   "model_assembly"
+  ],
+  "194": [
+   "model_assembly"
+  ],
+  "195": [
+   "model_assembly"
+  ],
+  "196": [
+   "model_assembly"
+  ],
+  "197": [
+   "model_assembly"
+  ],
+  "198": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_way/183089073-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/184457365-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/196642666-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/196701431:b-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/236110935-220+5": [
+   "pypsa_osm"
+  ],
+  "merged_way/236110948-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/238210470-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/239947117-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/251735976-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/266506449:b-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/268775666-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/335747286-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/354649124-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/359581510-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/360691777-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/398566680-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/408332925-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/544612108-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/577299814-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/616298930-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/642522117-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/654823314-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/655046624-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/656792209-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/658972121-220+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/680204409-220+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/709679619-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/777540784-220+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/863004596-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/974993259-220+2": [
+   "pypsa_osm"
+  ],
+  "relation/13529551-220": [
+   "pypsa_osm"
+  ],
+  "relation/13529552-220": [
+   "pypsa_osm"
+  ],
+  "relation/13529849-400": [
+   "pypsa_osm"
+  ],
+  "relation/13548010-400": [
+   "pypsa_osm"
+  ],
+  "relation/13561362:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/13561363-400": [
+   "pypsa_osm"
+  ],
+  "relation/4743310:b-220": [
+   "pypsa_osm"
+  ],
+  "relation/5511183-220": [
+   "pypsa_osm"
+  ],
+  "relation/5511184-220": [
+   "pypsa_osm"
+  ],
+  "relation/8600945-400": [
+   "pypsa_osm"
+  ],
+  "way/1211057580-220": [
+   "pypsa_osm"
+  ],
+  "way/1253054929-220": [
+   "pypsa_osm"
+  ],
+  "way/1253054930-220": [
+   "pypsa_osm"
+  ],
+  "way/1254740083-400": [
+   "pypsa_osm"
+  ],
+  "way/1302364572-220": [
+   "pypsa_osm"
+  ],
+  "way/1302366556-400": [
+   "pypsa_osm"
+  ],
+  "way/1302366557-400": [
+   "pypsa_osm"
+  ],
+  "way/1348589034-400": [
+   "pypsa_osm"
+  ],
+  "way/1354168641-220": [
+   "pypsa_osm"
+  ],
+  "way/152688948-400": [
+   "pypsa_osm"
+  ],
+  "way/156723492-220": [
+   "pypsa_osm"
+  ],
+  "way/160223591-400": [
+   "pypsa_osm"
+  ],
+  "way/163936517-220": [
+   "pypsa_osm"
+  ],
+  "way/174920694-400": [
+   "pypsa_osm"
+  ],
+  "way/174920697-400": [
+   "pypsa_osm"
+  ],
+  "way/183035795-400": [
+   "pypsa_osm"
+  ],
+  "way/183089071-400": [
+   "pypsa_osm"
+  ],
+  "way/184631098-220": [
+   "pypsa_osm"
+  ],
+  "way/184631104-400": [
+   "pypsa_osm"
+  ],
+  "way/184631491-400": [
+   "pypsa_osm"
+  ],
+  "way/191212861-220": [
+   "pypsa_osm"
+  ],
+  "way/194500169-220": [
+   "pypsa_osm"
+  ],
+  "way/194503371-220": [
+   "pypsa_osm"
+  ],
+  "way/194537932-220": [
+   "pypsa_osm"
+  ],
+  "way/194537934-400": [
+   "pypsa_osm"
+  ],
+  "way/194537935-220": [
+   "pypsa_osm"
+  ],
+  "way/196590423-400": [
+   "pypsa_osm"
+  ],
+  "way/196629387-400": [
+   "pypsa_osm"
+  ],
+  "way/196631289-400": [
+   "pypsa_osm"
+  ],
+  "way/208938440-220": [
+   "pypsa_osm"
+  ],
+  "way/216454856-220": [
+   "pypsa_osm"
+  ],
+  "way/223674099-400": [
+   "pypsa_osm"
+  ],
+  "way/235971077-400": [
+   "pypsa_osm"
+  ],
+  "way/236110939-400": [
+   "pypsa_osm"
+  ],
+  "way/236110940-400": [
+   "pypsa_osm"
+  ],
+  "way/236110947-400": [
+   "pypsa_osm"
+  ],
+  "way/236134507-220": [
+   "pypsa_osm"
+  ],
+  "way/236134510-220": [
+   "pypsa_osm"
+  ],
+  "way/237532242-220": [
+   "pypsa_osm"
+  ],
+  "way/237532244-400": [
+   "pypsa_osm"
+  ],
+  "way/237532245-220": [
+   "pypsa_osm"
+  ],
+  "way/237532246-220": [
+   "pypsa_osm"
+  ],
+  "way/237583896-400": [
+   "pypsa_osm"
+  ],
+  "way/237583901-400": [
+   "pypsa_osm"
+  ],
+  "way/237952002-400": [
+   "pypsa_osm"
+  ],
+  "way/239925653-220": [
+   "pypsa_osm"
+  ],
+  "way/239947119-220": [
+   "pypsa_osm"
+  ],
+  "way/239998426-400": [
+   "pypsa_osm"
+  ],
+  "way/239998427-400": [
+   "pypsa_osm"
+  ],
+  "way/239998428-220": [
+   "pypsa_osm"
+  ],
+  "way/239998430-400": [
+   "pypsa_osm"
+  ],
+  "way/240179358-400": [
+   "pypsa_osm"
+  ],
+  "way/266501993-220": [
+   "pypsa_osm"
+  ],
+  "way/266504593-220": [
+   "pypsa_osm"
+  ],
+  "way/266504595-220": [
+   "pypsa_osm"
+  ],
+  "way/266506449:a-220": [
+   "pypsa_osm"
+  ],
+  "way/266506502-220": [
+   "pypsa_osm"
+  ],
+  "way/266654073-220": [
+   "pypsa_osm"
+  ],
+  "way/273527461-400": [
+   "pypsa_osm"
+  ],
+  "way/281014573-220": [
+   "pypsa_osm"
+  ],
+  "way/282359673-400": [
+   "pypsa_osm"
+  ],
+  "way/282359678-400": [
+   "pypsa_osm"
+  ],
+  "way/305331747-220": [
+   "pypsa_osm"
+  ],
+  "way/305361284-220": [
+   "pypsa_osm"
+  ],
+  "way/309703539-220": [
+   "pypsa_osm"
+  ],
+  "way/330729173-220": [
+   "pypsa_osm"
+  ],
+  "way/330729174-220": [
+   "pypsa_osm"
+  ],
+  "way/331981834-220": [
+   "pypsa_osm"
+  ],
+  "way/334770502-220": [
+   "pypsa_osm"
+  ],
+  "way/335563390-220": [
+   "pypsa_osm"
+  ],
+  "way/335652489-220": [
+   "pypsa_osm"
+  ],
+  "way/335734924-220": [
+   "pypsa_osm"
+  ],
+  "way/337230377-220": [
+   "pypsa_osm"
+  ],
+  "way/337589887-220": [
+   "pypsa_osm"
+  ],
+  "way/349642760-220": [
+   "pypsa_osm"
+  ],
+  "way/349886247-400": [
+   "pypsa_osm"
+  ],
+  "way/354673745-220": [
+   "pypsa_osm"
+  ],
+  "way/354673746-220": [
+   "pypsa_osm"
+  ],
+  "way/355321457-400": [
+   "pypsa_osm"
+  ],
+  "way/355323955-400": [
+   "pypsa_osm"
+  ],
+  "way/355834397-220": [
+   "pypsa_osm"
+  ],
+  "way/355998734-220": [
+   "pypsa_osm"
+  ],
+  "way/356027203-220": [
+   "pypsa_osm"
+  ],
+  "way/359202489-220": [
+   "pypsa_osm"
+  ],
+  "way/359202491-220": [
+   "pypsa_osm"
+  ],
+  "way/360890127-220": [
+   "pypsa_osm"
+  ],
+  "way/360890128-220": [
+   "pypsa_osm"
+  ],
+  "way/366225646-220": [
+   "pypsa_osm"
+  ],
+  "way/366225647-220": [
+   "pypsa_osm"
+  ],
+  "way/366535052-220": [
+   "pypsa_osm"
+  ],
+  "way/366535850-220": [
+   "pypsa_osm"
+  ],
+  "way/366669093-220": [
+   "pypsa_osm"
+  ],
+  "way/366669094-220": [
+   "pypsa_osm"
+  ],
+  "way/366669096:a-220": [
+   "pypsa_osm"
+  ],
+  "way/366669096:b-220": [
+   "pypsa_osm"
+  ],
+  "way/366708562-220": [
+   "pypsa_osm"
+  ],
+  "way/366737813-220": [
+   "pypsa_osm"
+  ],
+  "way/368921905-220": [
+   "pypsa_osm"
+  ],
+  "way/368921913-220": [
+   "pypsa_osm"
+  ],
+  "way/369657175-220": [
+   "pypsa_osm"
+  ],
+  "way/369657176-220": [
+   "pypsa_osm"
+  ],
+  "way/380912853-220": [
+   "pypsa_osm"
+  ],
+  "way/420544510-220": [
+   "pypsa_osm"
+  ],
+  "way/423423576-220": [
+   "pypsa_osm"
+  ],
+  "way/509244710-220": [
+   "pypsa_osm"
+  ],
+  "way/511081961-220": [
+   "pypsa_osm"
+  ],
+  "way/511081962:a-220": [
+   "pypsa_osm"
+  ],
+  "way/511081962:b-220": [
+   "pypsa_osm"
+  ],
+  "way/52456885-220": [
+   "pypsa_osm"
+  ],
+  "way/52564134-220": [
+   "pypsa_osm"
+  ],
+  "way/52564137-220": [
+   "pypsa_osm"
+  ],
+  "way/584975623-400": [
+   "pypsa_osm"
+  ],
+  "way/606639749-400": [
+   "pypsa_osm"
+  ],
+  "way/616233879-220": [
+   "pypsa_osm"
+  ],
+  "way/616241695-220": [
+   "pypsa_osm"
+  ],
+  "way/62300890-400": [
+   "pypsa_osm"
+  ],
+  "way/623828196-220": [
+   "pypsa_osm"
+  ],
+  "way/623828197-220": [
+   "pypsa_osm"
+  ],
+  "way/623857033-220": [
+   "pypsa_osm"
+  ],
+  "way/642529768-400": [
+   "pypsa_osm"
+  ],
+  "way/655764544-220": [
+   "pypsa_osm"
+  ],
+  "way/655766388-220": [
+   "pypsa_osm"
+  ],
+  "way/656271188-220": [
+   "pypsa_osm"
+  ],
+  "way/656372534-220": [
+   "pypsa_osm"
+  ],
+  "way/661248034-400": [
+   "pypsa_osm"
+  ],
+  "way/661602956-220": [
+   "pypsa_osm"
+  ],
+  "way/666594585-400": [
+   "pypsa_osm"
+  ],
+  "way/677871047-220": [
+   "pypsa_osm"
+  ],
+  "way/677871882-220": [
+   "pypsa_osm"
+  ],
+  "way/766176984-400": [
+   "pypsa_osm"
+  ],
+  "way/767826897-400": [
+   "pypsa_osm"
+  ],
+  "way/767826909-220": [
+   "pypsa_osm"
+  ],
+  "way/767850424-220": [
+   "pypsa_osm"
+  ],
+  "way/806282517:a-400": [
+   "pypsa_osm"
+  ],
+  "way/806282517:b-400": [
+   "pypsa_osm"
+  ],
+  "way/808253263-400": [
+   "pypsa_osm"
+  ],
+  "way/839904123-220": [
+   "pypsa_osm"
+  ],
+  "way/839904124-220": [
+   "pypsa_osm"
+  ],
+  "way/856645981-400": [
+   "pypsa_osm"
+  ],
+  "way/857254625-220": [
+   "pypsa_osm"
+  ],
+  "way/862985780-400": [
+   "pypsa_osm"
+  ],
+  "way/962641666-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/184631098:1-400-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/666433879:1-400-220": [
+   "pypsa_osm"
+  ],
+  "virtual_way/713012097:b:1-400-220": [
+   "pypsa_osm"
+  ],
+  "way/1256076415-400-220": [
+   "pypsa_osm"
+  ],
+  "way/1256107398-400-220": [
+   "pypsa_osm"
+  ],
+  "way/144936638-400-220": [
+   "pypsa_osm"
+  ],
+  "way/150003587-400-220": [
+   "pypsa_osm"
+  ],
+  "way/152481174-400-220": [
+   "pypsa_osm"
+  ],
+  "way/184631102-400-220": [
+   "pypsa_osm"
+  ],
+  "way/236110936-400-220": [
+   "pypsa_osm"
+  ],
+  "way/239947121-400-220": [
+   "pypsa_osm"
+  ],
+  "way/239998425-400-220": [
+   "pypsa_osm"
+  ],
+  "way/245190169-400-220": [
+   "pypsa_osm"
+  ],
+  "way/273601210-400-220": [
+   "pypsa_osm"
+  ],
+  "way/281014574-400-220": [
+   "pypsa_osm"
+  ],
+  "way/317499556-400-220": [
+   "pypsa_osm"
+  ],
+  "way/351672823-400-220": [
+   "pypsa_osm"
+  ],
+  "way/419803318-400-220": [
+   "pypsa_osm"
+  ],
+  "way/52456886-400-220": [
+   "pypsa_osm"
+  ],
+  "way/52564762-400-220": [
+   "pypsa_osm"
+  ],
+  "way/89827347-400-220": [
+   "pypsa_osm"
+  ],
+  "gsu:virtual_way/184631104:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/237952002:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/282359678:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/584975623:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/661248034:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/666433879:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/806282517:a:1-400": [
+   "model_assembly"
+  ],
+  "gsu:way/144936638-400": [
+   "model_assembly"
+  ],
+  "gsu:way/150003587-400": [
+   "model_assembly"
+  ],
+  "gsu:way/152481174-400": [
+   "model_assembly"
+  ],
+  "gsu:way/174921474-400": [
+   "model_assembly"
+  ],
+  "gsu:way/175002028-400": [
+   "model_assembly"
+  ],
+  "gsu:way/184631102-400": [
+   "model_assembly"
+  ],
+  "gsu:way/196590421-400": [
+   "model_assembly"
+  ],
+  "gsu:way/196590422-400": [
+   "model_assembly"
+  ],
+  "gsu:way/196633567-400": [
+   "model_assembly"
+  ],
+  "gsu:way/196634265-400": [
+   "model_assembly"
+  ],
+  "gsu:way/222962996-400": [
+   "model_assembly"
+  ],
+  "gsu:way/232243950-400": [
+   "model_assembly"
+  ],
+  "gsu:way/238249884-400": [
+   "model_assembly"
+  ],
+  "gsu:way/239998425-400": [
+   "model_assembly"
+  ],
+  "gsu:way/245190169-400": [
+   "model_assembly"
+  ],
+  "gsu:way/267325562-400": [
+   "model_assembly"
+  ],
+  "gsu:way/281014574-400": [
+   "model_assembly"
+  ],
+  "gsu:way/498961839-400": [
+   "model_assembly"
+  ],
+  "gsu:way/52564762-400": [
+   "model_assembly"
+  ],
+  "gsu:way/89827347-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_relation/4743310:a:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1255791856:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1255791867:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/184631098:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/349642760:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/355998734:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/366737813:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/408332925:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/423423576:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/511081961:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/623828197:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/656372534:1-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/767850424:0-220": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/857254625:1-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1256089443-220": [
+   "model_assembly"
+  ],
+  "gsu:way/1256102385-220": [
+   "model_assembly"
+  ],
+  "gsu:way/150003587-220": [
+   "model_assembly"
+  ],
+  "gsu:way/196695540-220": [
+   "model_assembly"
+  ],
+  "gsu:way/220277360-220": [
+   "model_assembly"
+  ],
+  "gsu:way/251735977-220": [
+   "model_assembly"
+  ],
+  "gsu:way/254397982-220": [
+   "model_assembly"
+  ],
+  "gsu:way/273601208-220": [
+   "model_assembly"
+  ],
+  "gsu:way/281014574-220": [
+   "model_assembly"
+  ],
+  "gsu:way/281014575-220": [
+   "model_assembly"
+  ],
+  "gsu:way/281014579-220": [
+   "model_assembly"
+  ],
+  "gsu:way/302973449-220": [
+   "model_assembly"
+  ],
+  "gsu:way/317496363-220": [
+   "model_assembly"
+  ],
+  "gsu:way/351672823-220": [
+   "model_assembly"
+  ],
+  "gsu:way/411530745-220": [
+   "model_assembly"
+  ],
+  "gsu:way/655756809-220": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "embedded hydro at virtual_way/152688948:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/152688948:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/152688948:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/174920695:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/174920695:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/174920695:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/174920697:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/174920697:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/174920697:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Republika Srpska Solar": [
+   "ppm"
+  ],
+  "Town Of Gradiska Solar": [
+   "ppm"
+  ],
+  "Town Of Gradiska Solar #2": [
+   "ppm"
+  ],
+  "Town Of Gradiska Solar #3": [
+   "ppm"
+  ],
+  "Town Of Gradiska Solar #4": [
+   "ppm"
+  ],
+  "Town Of Gradiska Solar #5": [
+   "ppm"
+  ],
+  "Town Of Laktasi Solar": [
+   "ppm"
+  ],
+  "Town Of Prnjavor Solar": [
+   "ppm"
+  ],
+  "Stanari": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/223674099:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/223674099:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/223674099:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Republika Srpska Solar #2": [
+   "ppm"
+  ],
+  "Republika Srpska Solar #3": [
+   "ppm"
+  ],
+  "Gacko": [
+   "ppm"
+  ],
+  "Dabar": [
+   "ppm"
+  ],
+  "Ulog": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/282359673:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/282359678:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mratinje": [
+   "ppm"
+  ],
+  "Lezhe Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/584975623:0-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vau Dejes": [
+   "ppm"
+  ],
+  "Bajina Basta": [
+   "ppm"
+  ],
+  "Visegrad": [
+   "ppm"
+  ],
+  "Rhe Bajina Basta Bajina Basta": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/666433879:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/666433879:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/666433879:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Nikola Tesla Phase": [
+   "ppm"
+  ],
+  "Old Royal Capital Cetinje Solar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/766176984:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/806282517:a:1-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Perucica": [
+   "ppm"
+  ],
+  "embedded hydro at way/1256007960-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Podgorica Capital City Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/1256060610-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/1256076415-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kumanovo Solar": [
+   "ppm"
+  ],
+  "Kumanovo Solar #2": [
+   "ppm"
+  ],
+  "embedded gas at way/1256107398-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Temerin Municipality South Backa Administrative District Sol": [
+   "ppm"
+  ],
+  "embedded hydro at way/144936638-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/144936638-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/144936638-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Novi Sad": [
+   "ppm"
+  ],
+  "embedded hydro at way/150003587-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Qarrishta": [
+   "ppm"
+  ],
+  "embedded hydro at way/152481174-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/152481174-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/152481174-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Bulgaria at way/152481174-400": [
+   "energy_charts"
+  ],
+  "Pirot": [
+   "ppm"
+  ],
+  "Krivaca Wind Farm": [
+   "ppm"
+  ],
+  "Kostolac Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/174921474-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/174921474-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/174921474-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kostolac Phase": [
+   "ppm"
+  ],
+  "Federation Of Solar Xiii": [
+   "ppm"
+  ],
+  "Ivan Sedlo Wind Farm": [
+   "ppm"
+  ],
+  "Kakanj": [
+   "ppm"
+  ],
+  "Tuzla": [
+   "ppm"
+  ],
+  "Bogoslovec Wind Farm": [
+   "ppm"
+  ],
+  "Eastern Region Solar": [
+   "ppm"
+  ],
+  "Eastern Region Solar #2": [
+   "ppm"
+  ],
+  "Eastern Region Solar #3": [
+   "ppm"
+  ],
+  "Eastern Region Solar #4": [
+   "ppm"
+  ],
+  "Eastern Region Solar #5": [
+   "ppm"
+  ],
+  "Eastern Region Solar #6": [
+   "ppm"
+  ],
+  "Kochani Solar": [
+   "ppm"
+  ],
+  "North Solar": [
+   "ppm"
+  ],
+  "North Solar #2": [
+   "ppm"
+  ],
+  "North Solar #3": [
+   "ppm"
+  ],
+  "North Solar #4": [
+   "ppm"
+  ],
+  "North Solar Xii": [
+   "ppm"
+  ],
+  "North Solar Xl": [
+   "ppm"
+  ],
+  "North Solar Xli": [
+   "ppm"
+  ],
+  "North Solar Xlvii": [
+   "ppm"
+  ],
+  "North Solar Xvi": [
+   "ppm"
+  ],
+  "North Solar Xvii": [
+   "ppm"
+  ],
+  "North Solar Xviii": [
+   "ppm"
+  ],
+  "North Solar Xxiii": [
+   "ppm"
+  ],
+  "North Solar Xxxi": [
+   "ppm"
+  ],
+  "North Solar Xxxii": [
+   "ppm"
+  ],
+  "North Solar Xxxiv": [
+   "ppm"
+  ],
+  "Probistip Solar": [
+   "ppm"
+  ],
+  "Shtip Solar": [
+   "ppm"
+  ],
+  "Shtip Solar #2": [
+   "ppm"
+  ],
+  "Shtip Solar #3": [
+   "ppm"
+  ],
+  "Skopje Solar Farm": [
+   "ppm"
+  ],
+  "Stip Wind Farm": [
+   "ppm"
+  ],
+  "Vardar Region Solar": [
+   "ppm"
+  ],
+  "Vardar Region Solar #2": [
+   "ppm"
+  ],
+  "embedded gas at way/196590421-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kalimantsi": [
+   "ppm"
+  ],
+  "Bogdanci Esm Wind Farm": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Kavadarci Solar": [
+   "ppm"
+  ],
+  "Negotino Solar": [
+   "ppm"
+  ],
+  "North Solar #5": [
+   "ppm"
+  ],
+  "North Solar Xix": [
+   "ppm"
+  ],
+  "North Solar Xliii": [
+   "ppm"
+  ],
+  "North Solar Xxii": [
+   "ppm"
+  ],
+  "North Solar Xxviii": [
+   "ppm"
+  ],
+  "North Solar Xxxv": [
+   "ppm"
+  ],
+  "Perun Wind Farm": [
+   "ppm"
+  ],
+  "Southeastern Region Solar": [
+   "ppm"
+  ],
+  "Southeastern Region Solar #2": [
+   "ppm"
+  ],
+  "Southeastern Region Solar #3": [
+   "ppm"
+  ],
+  "Strumica Solar": [
+   "ppm"
+  ],
+  "Vardar Region Solar #3": [
+   "ppm"
+  ],
+  "Vardar Region Solar #4": [
+   "ppm"
+  ],
+  "Vardar Region Solar #5": [
+   "ppm"
+  ],
+  "Makedonski Brod": [
+   "ppm"
+  ],
+  "embedded gas at way/196590422-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Greece at way/196590422-400": [
+   "energy_charts"
+  ],
+  "Tikves": [
+   "ppm"
+  ],
+  "Negotino": [
+   "ppm"
+  ],
+  "Bitola Solar": [
+   "ppm"
+  ],
+  "North Solar #6": [
+   "ppm"
+  ],
+  "North Solar #7": [
+   "ppm"
+  ],
+  "North Solar Xiv": [
+   "ppm"
+  ],
+  "North Solar Xlii": [
+   "ppm"
+  ],
+  "North Solar Xlv": [
+   "ppm"
+  ],
+  "North Solar Xx": [
+   "ppm"
+  ],
+  "North Solar Xxiv": [
+   "ppm"
+  ],
+  "Novaci Solar Farm": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar #2": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar #3": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar #4": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar #5": [
+   "ppm"
+  ],
+  "Pelagonia Region Solar #6": [
+   "ppm"
+  ],
+  "Prilep Solar": [
+   "ppm"
+  ],
+  "Bitola": [
+   "ppm"
+  ],
+  "embedded gas at way/196633567-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Greece at way/196633567-400": [
+   "energy_charts"
+  ],
+  "Bitola #2": [
+   "ppm"
+  ],
+  "North Solar #8": [
+   "ppm"
+  ],
+  "North Solar #9": [
+   "ppm"
+  ],
+  "North Solar Xxxiii": [
+   "ppm"
+  ],
+  "Skopje Region Solar": [
+   "ppm"
+  ],
+  "embedded gas at way/196634265-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Sveta Petka": [
+   "ppm"
+  ],
+  "Kozjak North": [
+   "ppm"
+  ],
+  "Matka": [
+   "ppm"
+  ],
+  "Republika Srpska Solar Xv": [
+   "ppm"
+  ],
+  "Ugljevik": [
+   "ppm"
+  ],
+  "Lebane Municipality Jablanica Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/232243950-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/232243950-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/232243950-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "He Vrla": [
+   "ppm"
+  ],
+  "embedded hydro at way/236110936-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/236110936-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/236110936-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Croatia at way/236110936-400": [
+   "energy_charts"
+  ],
+  "embedded hydro at way/236110952-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/236110952-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/236110952-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bor Administrative District Solar": [
+   "ppm"
+  ],
+  "Kladovo Municipality Bor Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/238249884-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/238249884-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/238249884-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "He Derdap Djerdap Iron Gate": [
+   "ppm"
+  ],
+  "Boljevac Pellets": [
+   "ppm"
+  ],
+  "He Djerdap": [
+   "ppm"
+  ],
+  "embedded hydro at way/238954545-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/238954545-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/238954545-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/239947121-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/239947121-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/239947121-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/239998425-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/239998425-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/239998425-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vinca Waste To Energy": [
+   "ppm"
+  ],
+  "embedded hydro at way/240179355-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/240179355-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/240179355-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "City Of Trebinje Solar": [
+   "ppm"
+  ],
+  "Dubrovnik": [
+   "ppm"
+  ],
+  "Erseka Solar Farm": [
+   "ppm"
+  ],
+  "North Solar Xlvi": [
+   "ppm"
+  ],
+  "Qender Bilisht Korce County Solar": [
+   "ppm"
+  ],
+  "Qender Bulgarec Korce County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/249066440-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Greece at way/249066440-400": [
+   "energy_charts"
+  ],
+  "Kitka Wind Farm": [
+   "ppm"
+  ],
+  "Kosovo Solar": [
+   "ppm"
+  ],
+  "Northeastern Region Solar": [
+   "ppm"
+  ],
+  "Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/267325562-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/267325562-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/267325562-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lisina": [
+   "ppm"
+  ],
+  "Vlasina": [
+   "ppm"
+  ],
+  "Vlasina #2": [
+   "ppm"
+  ],
+  "Vlasina #3": [
+   "ppm"
+  ],
+  "Ada Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/273601210-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/273601210-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/273601210-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/281014574-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Fierza": [
+   "ppm"
+  ],
+  "Komani": [
+   "ppm"
+  ],
+  "embedded coal at way/317499556-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/330729171-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/330729171-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/330729171-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/351672823-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Grebak Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/419803318-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/419803318-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/419803318-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lapovo Municipality Sumadija Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/498961839-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/498961839-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/498961839-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Morava": [
+   "ppm"
+  ],
+  "embedded hydro at way/52456886-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/52456886-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/52456886-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/52564762-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/52564762-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/52564762-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kolubara": [
+   "ppm"
+  ],
+  "Nikola Tesla Phase #2": [
+   "ppm"
+  ],
+  "embedded hydro at way/665827369-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "import Italy at way/665827369-400": [
+   "energy_charts"
+  ],
+  "Kosava Wind Farm": [
+   "ppm"
+  ],
+  "Cibuk Wind Farm": [
+   "ppm"
+  ],
+  "Alibunar Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/808253261-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/808253261-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/808253261-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Coka Municipality North Banat Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/89109496-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/89109496-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/89109496-400": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Capljina": [
+   "ppm"
+  ],
+  "Mesihovina Wind Farm": [
+   "ppm"
+  ],
+  "Jelovaca Wind Farm": [
+   "ppm"
+  ],
+  "City Of Siroki Brijeg Solar": [
+   "ppm"
+  ],
+  "Federation Of Solar": [
+   "ppm"
+  ],
+  "Federation Of Solar #2": [
+   "ppm"
+  ],
+  "Federation Of Solar #3": [
+   "ppm"
+  ],
+  "Grad Ljubuski Solar": [
+   "ppm"
+  ],
+  "Ivovik Wind Farm": [
+   "ppm"
+  ],
+  "Petjnik Solar Farm": [
+   "ppm"
+  ],
+  "Posusje Solar Farm": [
+   "ppm"
+  ],
+  "Siroka Draga Wind Farm": [
+   "ppm"
+  ],
+  "Zvizdan Solar Farm": [
+   "ppm"
+  ],
+  "Pec Mlini": [
+   "ppm"
+  ],
+  "Kula Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_relation/5511184:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_relation/5511184:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_relation/5511184:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/1255791856:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Shkopet": [
+   "ppm"
+  ],
+  "Ulza Uleza": [
+   "ppm"
+  ],
+  "Fang": [
+   "ppm"
+  ],
+  "Prelle": [
+   "ppm"
+  ],
+  "Shkalle": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/1255791867:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Peshqeshit": [
+   "ppm"
+  ],
+  "Durres County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/1354168641:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Federation Of Solar #4": [
+   "ppm"
+  ],
+  "Federation Of Solar #5": [
+   "ppm"
+  ],
+  "Zvornik": [
+   "ppm"
+  ],
+  "Federation Of Solar #6": [
+   "ppm"
+  ],
+  "Federation Of Solar #7": [
+   "ppm"
+  ],
+  "Federation Of Solar Xvi": [
+   "ppm"
+  ],
+  "Mz Brezicani City Of Prijedor Solar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/237532245:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/237532245:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/237532245:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at virtual_way/266501993:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bajgora Wind Farm": [
+   "ppm"
+  ],
+  "Kursumlija Municipality Toplica Administrative District Sola": [
+   "ppm"
+  ],
+  "embedded coal at virtual_way/266506449:a:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/349642760:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/349642760:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/349642760:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Medjuvrsje": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/354667037:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/354667037:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/354667037:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Republika Srpska Solar #4": [
+   "ppm"
+  ],
+  "Republika Srpska Solar Xiv": [
+   "ppm"
+  ],
+  "Skrobotno Solar Farm": [
+   "ppm"
+  ],
+  "Trebinje": [
+   "ppm"
+  ],
+  "Federation Of Solar Xvii": [
+   "ppm"
+  ],
+  "City Of Capljina Solar": [
+   "ppm"
+  ],
+  "Federation Of Solar #8": [
+   "ppm"
+  ],
+  "Grad Ljubuski Solar #2": [
+   "ppm"
+  ],
+  "Hodovo Solar Farm": [
+   "ppm"
+  ],
+  "Republika Srpska Solar #5": [
+   "ppm"
+  ],
+  "Grabovica": [
+   "ppm"
+  ],
+  "Local Community Rastani City Of Mostar Solar": [
+   "ppm"
+  ],
+  "Salakovac": [
+   "ppm"
+  ],
+  "Mostar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/423423576:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bistrica": [
+   "ppm"
+  ],
+  "Ftere": [
+   "ppm"
+  ],
+  "Bishnica": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/423423576:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Federation Of Solar #9": [
+   "ppm"
+  ],
+  "Rama": [
+   "ppm"
+  ],
+  "Kovacica Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/52456885:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/52456885:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/52456885:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Surcin Urban Municipality City Of Belgrade Solar": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/52564134:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/52564134:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/52564134:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "North Solar Xxvii": [
+   "ppm"
+  ],
+  "embedded coal at virtual_way/623828196:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Goldwind Wind Farm": [
+   "ppm"
+  ],
+  "embedded gas at virtual_way/623828197:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Skopje Chp": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/655764544:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at virtual_way/656372534:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at virtual_way/656372534:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at virtual_way/656372534:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bistrica Eps": [
+   "ppm"
+  ],
+  "Uvac": [
+   "ppm"
+  ],
+  "Kokin Brod Kokin Brod": [
+   "ppm"
+  ],
+  "Potpec": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/767850424:0-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Moglice": [
+   "ppm"
+  ],
+  "Lenie": [
+   "ppm"
+  ],
+  "Langarica": [
+   "ppm"
+  ],
+  "Vlushe": [
+   "ppm"
+  ],
+  "Stravaj": [
+   "ppm"
+  ],
+  "Sllabinje": [
+   "ppm"
+  ],
+  "Rajan": [
+   "ppm"
+  ],
+  "Krnovo Wind Farm": [
+   "ppm"
+  ],
+  "Gvozd Wind Farm": [
+   "ppm"
+  ],
+  "Zeljezara Niksic Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at virtual_way/857254625:1-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "He Glava Zete": [
+   "ppm"
+  ],
+  "Podgorica Capital City Solar #2": [
+   "ppm"
+  ],
+  "Podgorica Capital City Solar #3": [
+   "ppm"
+  ],
+  "embedded hydro at way/1255787053-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/1256076415-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/1256089443-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lanabregas": [
+   "ppm"
+  ],
+  "North Solar #10": [
+   "ppm"
+  ],
+  "North Solar Xiii": [
+   "ppm"
+  ],
+  "Oslomej Solar Farm": [
+   "ppm"
+  ],
+  "Polog Region Solar": [
+   "ppm"
+  ],
+  "Southwestern Region Solar": [
+   "ppm"
+  ],
+  "Tetovo Solar": [
+   "ppm"
+  ],
+  "embedded gas at way/1256102385-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vrutok": [
+   "ppm"
+  ],
+  "Globocica": [
+   "ppm"
+  ],
+  "Spilje": [
+   "ppm"
+  ],
+  "Oslomej": [
+   "ppm"
+  ],
+  "Vrben": [
+   "ppm"
+  ],
+  "Raven": [
+   "ppm"
+  ],
+  "Kosovo Solar #2": [
+   "ppm"
+  ],
+  "Solar #2": [
+   "ppm"
+  ],
+  "embedded coal at way/1302365574-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Beocin Municipality South Backa Administrative District Sola": [
+   "ppm"
+  ],
+  "Indjija Municipality Srem Administrative District Solar": [
+   "ppm"
+  ],
+  "Indjija Municipality Srem Administrative District Solar #2": [
+   "ppm"
+  ],
+  "Novi Sad South Backa Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/144936638-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/144936638-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/144936638-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/150003587-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Banje": [
+   "ppm"
+  ],
+  "Holta": [
+   "ppm"
+  ],
+  "Aleksinac Municipality Nisava Administrative District Solar": [
+   "ppm"
+  ],
+  "Doljevac Municipality Nisava Administrative District Solar": [
+   "ppm"
+  ],
+  "Jablanica Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/152481174-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/152481174-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/152481174-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Fier County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/174609198-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at way/196695540-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ujmani": [
+   "ppm"
+  ],
+  "Jablanica": [
+   "ppm"
+  ],
+  "Kosovo Solar #3": [
+   "ppm"
+  ],
+  "Solar #3": [
+   "ppm"
+  ],
+  "embedded coal at way/235291237-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Backa Palanka Municipality South Backa Administrative Distri": [
+   "ppm"
+  ],
+  "embedded hydro at way/236110936-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/236110936-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/236110936-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Stara Pazova Municipality Srem Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/236134509-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/236134509-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/236134509-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bogatic Municipality Macva Administrative District Solar": [
+   "ppm"
+  ],
+  "Macva Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/237532249-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/237532249-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/237532249-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Podunavlje Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/239947121-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/239947121-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/239947121-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/239998425-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/239998425-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/239998425-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Federation Of Solar Xii": [
+   "ppm"
+  ],
+  "Jajce": [
+   "ppm"
+  ],
+  "Bocac": [
+   "ppm"
+  ],
+  "Krupa": [
+   "ppm"
+  ],
+  "Jajce #2": [
+   "ppm"
+  ],
+  "embedded hydro at way/254397982-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/254397982-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/254397982-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pancevo": [
+   "ppm"
+  ],
+  "Belo Blato Wind Farm": [
+   "ppm"
+  ],
+  "Central Banat Administrative District Solar": [
+   "ppm"
+  ],
+  "City Of Kikinda North Banat Administrative District Solar": [
+   "ppm"
+  ],
+  "Kikinda North Banat Administrative District Solar": [
+   "ppm"
+  ],
+  "Nova Crnja Municipality Central Banat Administrative Distric": [
+   "ppm"
+  ],
+  "embedded hydro at way/273601208-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/273601208-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/273601208-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Zrenjanin": [
+   "ppm"
+  ],
+  "embedded hydro at way/281014574-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pobreg": [
+   "ppm"
+  ],
+  "Vau Dejes Floating Solar Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/281014575-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ashta": [
+   "ppm"
+  ],
+  "embedded hydro at way/281014579-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Hc Lumbardhi Belaja Decani": [
+   "ppm"
+  ],
+  "embedded hydro at way/288282829-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/288282829-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/288282829-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mozura Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/297775062-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Podvelezje Wind Farm": [
+   "ppm"
+  ],
+  "City Of Mostar Solar": [
+   "ppm"
+  ],
+  "City Of Mostar Solar #2": [
+   "ppm"
+  ],
+  "Republika Srpska Solar #6": [
+   "ppm"
+  ],
+  "Republika Srpska Solar #7": [
+   "ppm"
+  ],
+  "Stolac Solarni Solar Farm": [
+   "ppm"
+  ],
+  "Town Of Stolac Solar": [
+   "ppm"
+  ],
+  "City Of Capljina Solar #2": [
+   "ppm"
+  ],
+  "Federation Of Solar #10": [
+   "ppm"
+  ],
+  "Local Community Krusevo City Of Mostar Solar": [
+   "ppm"
+  ],
+  "Local Community Slipcici City Of Mostar Solar": [
+   "ppm"
+  ],
+  "Stolac Solar Farm": [
+   "ppm"
+  ],
+  "Mostarsko Blato": [
+   "ppm"
+  ],
+  "embedded hydro at way/307090968-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/307090968-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/307090968-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/317496363-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/317496363-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/317496363-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ovcar Banja Ovcar Banja": [
+   "ppm"
+  ],
+  "embedded hydro at way/317497727-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/317497727-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/317497727-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Arandjelovac Municipality Sumadija Administrative District S": [
+   "ppm"
+  ],
+  "Barajevo Urban Municipality City Of Belgrade Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/330729178-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/330729178-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/330729178-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/351672823-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pljevlja": [
+   "ppm"
+  ],
+  "Blue Solar Farm": [
+   "ppm"
+  ],
+  "Dermenas Fier County Solar": [
+   "ppm"
+  ],
+  "Fier County Solar #2": [
+   "ppm"
+  ],
+  "Grennat Solar Park": [
+   "ppm"
+  ],
+  "Gryka Solar": [
+   "ppm"
+  ],
+  "Karavasta Solar Farm": [
+   "ppm"
+  ],
+  "Topoje Fier County Solar": [
+   "ppm"
+  ],
+  "Sineng Electric Fier": [
+   "ppm"
+  ],
+  "embedded hydro at way/353712441-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bashkia Durres County Solar": [
+   "ppm"
+  ],
+  "Spitalle Solar Farm": [
+   "ppm"
+  ],
+  "Xhafzotaj Durres County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/353712449-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Federation Of Solar Xiv": [
+   "ppm"
+  ],
+  "Cicevac Municipality Rasina Administrative District Solar": [
+   "ppm"
+  ],
+  "Rasina Administrative District Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/411530745-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/411530745-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/411530745-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Krusevac": [
+   "ppm"
+  ],
+  "embedded hydro at way/419803318-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/419803318-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/419803318-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/52456886-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/52456886-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/52456886-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded hydro at way/52564762-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/52564762-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/52564762-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at way/613473916-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at way/616236270-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gjakova Solar Farm": [
+   "ppm"
+  ],
+  "Solar #4": [
+   "ppm"
+  ],
+  "embedded coal at way/616241694-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kukes County Solar": [
+   "ppm"
+  ],
+  "embedded hydro at way/655756809-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Oresheke": [
+   "ppm"
+  ],
+  "Lura": [
+   "ppm"
+  ],
+  "Cernaleve": [
+   "ppm"
+  ],
+  "Bele": [
+   "ppm"
+  ],
+  "Topojan": [
+   "ppm"
+  ],
+  "City Of Doboj Solar": [
+   "ppm"
+  ],
+  "Republika Srpska Solar #8": [
+   "ppm"
+  ],
+  "Republika Srpska Solar Xiii": [
+   "ppm"
+  ],
+  "Republika Srpska Solar Xviii": [
+   "ppm"
+  ],
+  "Pupin Wind Farm": [
+   "ppm"
+  ],
+  "embedded hydro at way/839904125-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded biomass at way/839904125-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded other at way/839904125-220": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Deling Invest Solar Farm": [
+   "ppm"
+  ],
+  "City Of Siroki Brijeg Solar #2": [
+   "ppm"
+  ],
+  "Grad Ljubuski Solar #3": [
+   "ppm"
+  ]
+ },
+ "demand": {
+  "1": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "2": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "3": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "4": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "5": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "6": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "7": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "8": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "9": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "10": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "11": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "12": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "13": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "14": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "15": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "16": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "17": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "18": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "19": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "20": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "21": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "22": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "23": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "24": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "25": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "26": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "27": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "28": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "29": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "30": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "31": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "32": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "33": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "34": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "35": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "36": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "37": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "38": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "39": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "40": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "41": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "42": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "43": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "44": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "45": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "46": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "47": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "48": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "49": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "50": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "51": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "52": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "53": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "54": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "55": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "56": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "57": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "58": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "59": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "60": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "61": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "62": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "63": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "64": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "65": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "66": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "67": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "68": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "69": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "70": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "71": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "72": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "73": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "74": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "75": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "76": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "77": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "78": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "79": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "80": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "81": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "82": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "83": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "84": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "85": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "86": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "87": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "88": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "89": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "90": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "91": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "92": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "93": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "94": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "95": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "96": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "97": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "98": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "99": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "100": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "101": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "102": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "103": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "104": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "105": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "106": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "107": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "108": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "109": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "110": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "111": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "112": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "113": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "114": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "115": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "116": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "117": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "118": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "119": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "120": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "121": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "122": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "123": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "124": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "125": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "126": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "127": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "128": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "129": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "130": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "131": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "132": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "133": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "134": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "135": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "136": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "137": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "138": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "139": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "140": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "141": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ]
+ },
+ "shunts": {
+  "9": [
+   "model_assembly"
+  ],
+  "63": [
+   "model_assembly"
+  ],
+  "65": [
+   "model_assembly"
+  ],
+  "138": [
+   "model_assembly"
+  ]
+ }
+}

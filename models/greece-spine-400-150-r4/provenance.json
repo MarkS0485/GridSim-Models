@@ -1,0 +1,11795 @@
+{
+ "schema": "gridsim-provenance/1",
+ "case": "Greek interconnected system (mainland and AC- or DC-linked islands) 400/150 kV grid winter peak 2026-01-21 (UnvalidatedAtScale)",
+ "sources": [
+  {
+   "id": "pypsa_osm",
+   "title": "Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links",
+   "publisher": "PyPSA-Eur contributors / OpenStreetMap contributors",
+   "url": "https://zenodo.org/records/18619025",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01)",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0",
+   "published": true
+  },
+  {
+   "id": "ppm",
+   "title": "powerplantmatching matched power plant list (master, fetched 2026-10-31)",
+   "publisher": "PyPSA / FIAS powerplantmatching contributors",
+   "url": "https://github.com/PyPSA/powerplantmatching",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "energy_charts",
+   "title": "energy-charts public net generation by type and cross-border physical flows (snapshot hour)",
+   "publisher": "Fraunhofer ISE (ENTSO-E based)",
+   "url": "https://energy-charts.info",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "geonames",
+   "title": "GeoNames per-country dumps: populated places with population and position (demand shares)",
+   "publisher": "GeoNames",
+   "url": "https://www.geonames.org/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "ghsl",
+   "title": "GHSL GHS-POP R2023A epoch 2020, 30 arc-second population grid (demand shares, from the round with pop_grid)",
+   "publisher": "European Commission, Joint Research Centre (Schiavina et al. 2023, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)",
+   "url": "https://ghsl.jrc.ec.europa.eu/",
+   "licence": "CC BY 4.0",
+   "published": true
+  },
+  {
+   "id": "model_assembly",
+   "title": "Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs",
+   "publisher": "a private build pipeline using GridSim's solver",
+   "url": "-",
+   "licence": "private",
+   "published": false
+  }
+ ],
+ "buses": {
+  "1": [
+   "pypsa_osm"
+  ],
+  "2": [
+   "pypsa_osm"
+  ],
+  "3": [
+   "pypsa_osm"
+  ],
+  "4": [
+   "pypsa_osm"
+  ],
+  "5": [
+   "pypsa_osm"
+  ],
+  "6": [
+   "pypsa_osm"
+  ],
+  "7": [
+   "pypsa_osm"
+  ],
+  "8": [
+   "pypsa_osm"
+  ],
+  "9": [
+   "pypsa_osm"
+  ],
+  "10": [
+   "pypsa_osm"
+  ],
+  "11": [
+   "pypsa_osm"
+  ],
+  "12": [
+   "pypsa_osm"
+  ],
+  "13": [
+   "pypsa_osm"
+  ],
+  "14": [
+   "pypsa_osm"
+  ],
+  "15": [
+   "pypsa_osm"
+  ],
+  "16": [
+   "pypsa_osm"
+  ],
+  "17": [
+   "pypsa_osm"
+  ],
+  "18": [
+   "pypsa_osm"
+  ],
+  "19": [
+   "pypsa_osm"
+  ],
+  "20": [
+   "pypsa_osm"
+  ],
+  "21": [
+   "pypsa_osm"
+  ],
+  "22": [
+   "pypsa_osm"
+  ],
+  "23": [
+   "pypsa_osm"
+  ],
+  "24": [
+   "pypsa_osm"
+  ],
+  "25": [
+   "pypsa_osm"
+  ],
+  "26": [
+   "pypsa_osm"
+  ],
+  "27": [
+   "pypsa_osm"
+  ],
+  "28": [
+   "pypsa_osm"
+  ],
+  "29": [
+   "pypsa_osm"
+  ],
+  "30": [
+   "pypsa_osm"
+  ],
+  "31": [
+   "pypsa_osm"
+  ],
+  "32": [
+   "pypsa_osm"
+  ],
+  "33": [
+   "pypsa_osm"
+  ],
+  "34": [
+   "pypsa_osm"
+  ],
+  "35": [
+   "pypsa_osm"
+  ],
+  "36": [
+   "pypsa_osm"
+  ],
+  "37": [
+   "pypsa_osm"
+  ],
+  "38": [
+   "pypsa_osm"
+  ],
+  "39": [
+   "pypsa_osm"
+  ],
+  "40": [
+   "pypsa_osm"
+  ],
+  "41": [
+   "osm"
+  ],
+  "42": [
+   "osm"
+  ],
+  "43": [
+   "osm"
+  ],
+  "44": [
+   "osm"
+  ],
+  "45": [
+   "osm"
+  ],
+  "46": [
+   "osm"
+  ],
+  "47": [
+   "osm"
+  ],
+  "48": [
+   "osm"
+  ],
+  "49": [
+   "osm"
+  ],
+  "50": [
+   "osm"
+  ],
+  "51": [
+   "osm"
+  ],
+  "52": [
+   "osm"
+  ],
+  "53": [
+   "osm"
+  ],
+  "54": [
+   "osm"
+  ],
+  "55": [
+   "osm"
+  ],
+  "56": [
+   "osm"
+  ],
+  "57": [
+   "osm"
+  ],
+  "58": [
+   "osm"
+  ],
+  "59": [
+   "osm"
+  ],
+  "60": [
+   "osm"
+  ],
+  "61": [
+   "osm"
+  ],
+  "62": [
+   "osm"
+  ],
+  "63": [
+   "osm"
+  ],
+  "64": [
+   "osm"
+  ],
+  "65": [
+   "osm"
+  ],
+  "66": [
+   "osm"
+  ],
+  "67": [
+   "osm"
+  ],
+  "68": [
+   "osm"
+  ],
+  "69": [
+   "osm"
+  ],
+  "70": [
+   "osm"
+  ],
+  "71": [
+   "osm"
+  ],
+  "72": [
+   "osm"
+  ],
+  "73": [
+   "osm"
+  ],
+  "74": [
+   "osm"
+  ],
+  "75": [
+   "osm"
+  ],
+  "76": [
+   "osm"
+  ],
+  "77": [
+   "osm"
+  ],
+  "78": [
+   "osm"
+  ],
+  "79": [
+   "osm"
+  ],
+  "80": [
+   "osm"
+  ],
+  "81": [
+   "osm"
+  ],
+  "82": [
+   "osm"
+  ],
+  "83": [
+   "osm"
+  ],
+  "84": [
+   "osm"
+  ],
+  "85": [
+   "osm"
+  ],
+  "86": [
+   "osm"
+  ],
+  "87": [
+   "osm"
+  ],
+  "88": [
+   "osm"
+  ],
+  "89": [
+   "osm"
+  ],
+  "90": [
+   "osm"
+  ],
+  "91": [
+   "osm"
+  ],
+  "92": [
+   "osm"
+  ],
+  "93": [
+   "osm"
+  ],
+  "94": [
+   "osm"
+  ],
+  "95": [
+   "osm"
+  ],
+  "96": [
+   "osm"
+  ],
+  "97": [
+   "osm"
+  ],
+  "98": [
+   "osm"
+  ],
+  "99": [
+   "osm"
+  ],
+  "100": [
+   "osm"
+  ],
+  "101": [
+   "osm"
+  ],
+  "102": [
+   "osm"
+  ],
+  "103": [
+   "osm"
+  ],
+  "104": [
+   "osm"
+  ],
+  "105": [
+   "osm"
+  ],
+  "106": [
+   "osm"
+  ],
+  "107": [
+   "osm"
+  ],
+  "108": [
+   "osm"
+  ],
+  "109": [
+   "osm"
+  ],
+  "110": [
+   "osm"
+  ],
+  "111": [
+   "osm"
+  ],
+  "112": [
+   "osm"
+  ],
+  "113": [
+   "osm"
+  ],
+  "114": [
+   "osm"
+  ],
+  "115": [
+   "osm"
+  ],
+  "116": [
+   "osm"
+  ],
+  "117": [
+   "osm"
+  ],
+  "118": [
+   "osm"
+  ],
+  "119": [
+   "osm"
+  ],
+  "120": [
+   "osm"
+  ],
+  "121": [
+   "osm"
+  ],
+  "122": [
+   "osm"
+  ],
+  "123": [
+   "osm"
+  ],
+  "124": [
+   "osm"
+  ],
+  "125": [
+   "osm"
+  ],
+  "126": [
+   "osm"
+  ],
+  "127": [
+   "osm"
+  ],
+  "128": [
+   "osm"
+  ],
+  "129": [
+   "osm"
+  ],
+  "130": [
+   "osm"
+  ],
+  "131": [
+   "osm"
+  ],
+  "132": [
+   "osm"
+  ],
+  "133": [
+   "osm"
+  ],
+  "134": [
+   "osm"
+  ],
+  "135": [
+   "osm"
+  ],
+  "136": [
+   "osm"
+  ],
+  "137": [
+   "osm"
+  ],
+  "138": [
+   "osm"
+  ],
+  "139": [
+   "osm"
+  ],
+  "140": [
+   "osm"
+  ],
+  "141": [
+   "osm"
+  ],
+  "142": [
+   "osm"
+  ],
+  "143": [
+   "osm"
+  ],
+  "144": [
+   "osm"
+  ],
+  "145": [
+   "osm"
+  ],
+  "146": [
+   "osm"
+  ],
+  "147": [
+   "osm"
+  ],
+  "148": [
+   "osm"
+  ],
+  "149": [
+   "osm"
+  ],
+  "150": [
+   "osm"
+  ],
+  "151": [
+   "osm"
+  ],
+  "152": [
+   "osm"
+  ],
+  "153": [
+   "osm"
+  ],
+  "154": [
+   "osm"
+  ],
+  "155": [
+   "osm"
+  ],
+  "156": [
+   "osm"
+  ],
+  "157": [
+   "osm"
+  ],
+  "158": [
+   "osm"
+  ],
+  "159": [
+   "osm"
+  ],
+  "160": [
+   "osm"
+  ],
+  "161": [
+   "osm"
+  ],
+  "162": [
+   "osm"
+  ],
+  "163": [
+   "osm"
+  ],
+  "164": [
+   "osm"
+  ],
+  "165": [
+   "osm"
+  ],
+  "166": [
+   "osm"
+  ],
+  "167": [
+   "osm"
+  ],
+  "168": [
+   "osm"
+  ],
+  "169": [
+   "osm"
+  ],
+  "170": [
+   "osm"
+  ],
+  "171": [
+   "osm"
+  ],
+  "172": [
+   "osm"
+  ],
+  "173": [
+   "osm"
+  ],
+  "174": [
+   "osm"
+  ],
+  "175": [
+   "osm"
+  ],
+  "176": [
+   "osm"
+  ],
+  "177": [
+   "osm"
+  ],
+  "178": [
+   "osm"
+  ],
+  "179": [
+   "osm"
+  ],
+  "180": [
+   "osm"
+  ],
+  "181": [
+   "osm"
+  ],
+  "182": [
+   "osm"
+  ],
+  "183": [
+   "osm"
+  ],
+  "184": [
+   "osm"
+  ],
+  "185": [
+   "osm"
+  ],
+  "186": [
+   "osm"
+  ],
+  "187": [
+   "osm"
+  ],
+  "188": [
+   "osm"
+  ],
+  "189": [
+   "osm"
+  ],
+  "190": [
+   "osm"
+  ],
+  "191": [
+   "osm"
+  ],
+  "192": [
+   "osm"
+  ],
+  "193": [
+   "osm"
+  ],
+  "194": [
+   "osm"
+  ],
+  "195": [
+   "osm"
+  ],
+  "196": [
+   "osm"
+  ],
+  "197": [
+   "osm"
+  ],
+  "198": [
+   "osm"
+  ],
+  "199": [
+   "osm"
+  ],
+  "200": [
+   "osm"
+  ],
+  "201": [
+   "osm"
+  ],
+  "202": [
+   "osm"
+  ],
+  "203": [
+   "osm"
+  ],
+  "204": [
+   "osm"
+  ],
+  "205": [
+   "osm"
+  ],
+  "206": [
+   "osm"
+  ],
+  "207": [
+   "osm"
+  ],
+  "208": [
+   "osm"
+  ],
+  "209": [
+   "osm"
+  ],
+  "210": [
+   "osm"
+  ],
+  "211": [
+   "osm"
+  ],
+  "212": [
+   "osm"
+  ],
+  "213": [
+   "osm"
+  ],
+  "214": [
+   "osm"
+  ],
+  "215": [
+   "osm"
+  ],
+  "216": [
+   "osm"
+  ],
+  "217": [
+   "osm"
+  ],
+  "218": [
+   "osm"
+  ],
+  "219": [
+   "osm"
+  ],
+  "220": [
+   "osm"
+  ],
+  "221": [
+   "osm"
+  ],
+  "222": [
+   "osm"
+  ],
+  "223": [
+   "osm"
+  ],
+  "224": [
+   "osm"
+  ],
+  "225": [
+   "osm"
+  ],
+  "226": [
+   "osm"
+  ],
+  "227": [
+   "osm"
+  ],
+  "228": [
+   "osm"
+  ],
+  "229": [
+   "osm"
+  ],
+  "230": [
+   "osm"
+  ],
+  "231": [
+   "osm"
+  ],
+  "232": [
+   "osm"
+  ],
+  "233": [
+   "osm"
+  ],
+  "234": [
+   "osm"
+  ],
+  "235": [
+   "osm"
+  ],
+  "236": [
+   "osm"
+  ],
+  "237": [
+   "osm"
+  ],
+  "238": [
+   "osm"
+  ],
+  "239": [
+   "osm"
+  ],
+  "240": [
+   "osm"
+  ],
+  "241": [
+   "osm"
+  ],
+  "242": [
+   "osm"
+  ],
+  "243": [
+   "osm"
+  ],
+  "244": [
+   "osm"
+  ],
+  "245": [
+   "osm"
+  ],
+  "246": [
+   "osm"
+  ],
+  "247": [
+   "osm"
+  ],
+  "248": [
+   "osm"
+  ],
+  "249": [
+   "osm"
+  ],
+  "250": [
+   "osm"
+  ],
+  "251": [
+   "osm"
+  ],
+  "252": [
+   "osm"
+  ],
+  "253": [
+   "osm"
+  ],
+  "254": [
+   "osm"
+  ],
+  "255": [
+   "osm"
+  ],
+  "256": [
+   "osm"
+  ],
+  "257": [
+   "osm"
+  ],
+  "258": [
+   "osm"
+  ],
+  "259": [
+   "osm"
+  ],
+  "260": [
+   "osm"
+  ],
+  "261": [
+   "osm"
+  ],
+  "262": [
+   "osm"
+  ],
+  "263": [
+   "osm"
+  ],
+  "264": [
+   "osm"
+  ],
+  "265": [
+   "osm"
+  ],
+  "266": [
+   "osm"
+  ],
+  "267": [
+   "osm"
+  ],
+  "268": [
+   "osm"
+  ],
+  "269": [
+   "osm"
+  ],
+  "270": [
+   "osm"
+  ],
+  "271": [
+   "osm"
+  ],
+  "272": [
+   "osm"
+  ],
+  "273": [
+   "osm"
+  ],
+  "274": [
+   "osm"
+  ],
+  "275": [
+   "osm"
+  ],
+  "276": [
+   "osm"
+  ],
+  "277": [
+   "osm"
+  ],
+  "278": [
+   "osm"
+  ],
+  "279": [
+   "osm"
+  ],
+  "280": [
+   "osm"
+  ],
+  "281": [
+   "osm"
+  ],
+  "282": [
+   "osm"
+  ],
+  "283": [
+   "osm"
+  ],
+  "284": [
+   "osm"
+  ],
+  "285": [
+   "osm"
+  ],
+  "286": [
+   "osm"
+  ],
+  "287": [
+   "osm"
+  ],
+  "288": [
+   "osm"
+  ],
+  "289": [
+   "osm"
+  ],
+  "290": [
+   "osm"
+  ],
+  "291": [
+   "osm"
+  ],
+  "292": [
+   "osm"
+  ],
+  "293": [
+   "osm"
+  ],
+  "294": [
+   "osm"
+  ],
+  "295": [
+   "osm"
+  ],
+  "296": [
+   "osm"
+  ],
+  "297": [
+   "osm"
+  ],
+  "298": [
+   "osm"
+  ],
+  "299": [
+   "osm"
+  ],
+  "300": [
+   "osm"
+  ],
+  "301": [
+   "osm"
+  ],
+  "302": [
+   "osm"
+  ],
+  "303": [
+   "osm"
+  ],
+  "304": [
+   "osm"
+  ],
+  "305": [
+   "osm"
+  ],
+  "306": [
+   "osm"
+  ],
+  "307": [
+   "osm"
+  ],
+  "308": [
+   "osm"
+  ],
+  "309": [
+   "osm"
+  ],
+  "310": [
+   "osm"
+  ],
+  "311": [
+   "osm"
+  ],
+  "312": [
+   "osm"
+  ],
+  "313": [
+   "osm"
+  ],
+  "314": [
+   "osm"
+  ],
+  "315": [
+   "osm"
+  ],
+  "316": [
+   "osm"
+  ],
+  "317": [
+   "osm"
+  ],
+  "318": [
+   "osm"
+  ],
+  "319": [
+   "osm"
+  ],
+  "320": [
+   "osm"
+  ],
+  "321": [
+   "osm"
+  ],
+  "322": [
+   "osm"
+  ],
+  "323": [
+   "osm"
+  ],
+  "324": [
+   "osm"
+  ],
+  "325": [
+   "osm"
+  ],
+  "326": [
+   "osm"
+  ],
+  "327": [
+   "osm"
+  ],
+  "328": [
+   "osm"
+  ],
+  "329": [
+   "osm"
+  ],
+  "330": [
+   "osm"
+  ],
+  "331": [
+   "osm"
+  ],
+  "332": [
+   "osm"
+  ],
+  "333": [
+   "osm"
+  ],
+  "334": [
+   "osm"
+  ],
+  "335": [
+   "osm"
+  ],
+  "336": [
+   "osm"
+  ],
+  "337": [
+   "osm"
+  ],
+  "338": [
+   "osm"
+  ],
+  "339": [
+   "osm"
+  ],
+  "340": [
+   "osm"
+  ],
+  "341": [
+   "osm"
+  ],
+  "342": [
+   "osm"
+  ],
+  "343": [
+   "osm"
+  ],
+  "344": [
+   "osm"
+  ],
+  "345": [
+   "osm"
+  ],
+  "346": [
+   "osm"
+  ],
+  "347": [
+   "osm"
+  ],
+  "348": [
+   "osm"
+  ],
+  "349": [
+   "osm"
+  ],
+  "350": [
+   "osm"
+  ],
+  "351": [
+   "osm"
+  ],
+  "352": [
+   "osm"
+  ],
+  "353": [
+   "osm"
+  ],
+  "354": [
+   "osm"
+  ],
+  "355": [
+   "osm"
+  ],
+  "356": [
+   "osm"
+  ],
+  "357": [
+   "osm"
+  ],
+  "358": [
+   "osm"
+  ],
+  "359": [
+   "osm"
+  ],
+  "360": [
+   "osm"
+  ],
+  "361": [
+   "osm"
+  ],
+  "362": [
+   "osm"
+  ],
+  "363": [
+   "osm"
+  ],
+  "364": [
+   "osm"
+  ],
+  "365": [
+   "osm"
+  ],
+  "366": [
+   "osm"
+  ],
+  "367": [
+   "osm"
+  ],
+  "368": [
+   "osm"
+  ],
+  "369": [
+   "osm"
+  ],
+  "370": [
+   "osm"
+  ],
+  "371": [
+   "osm"
+  ],
+  "372": [
+   "osm"
+  ],
+  "373": [
+   "osm"
+  ],
+  "374": [
+   "osm"
+  ],
+  "375": [
+   "osm"
+  ],
+  "376": [
+   "osm"
+  ],
+  "377": [
+   "osm"
+  ],
+  "378": [
+   "osm"
+  ],
+  "379": [
+   "osm"
+  ],
+  "380": [
+   "osm"
+  ],
+  "381": [
+   "osm"
+  ],
+  "382": [
+   "osm"
+  ],
+  "383": [
+   "osm"
+  ],
+  "384": [
+   "osm"
+  ],
+  "385": [
+   "osm"
+  ],
+  "386": [
+   "osm"
+  ],
+  "387": [
+   "osm"
+  ],
+  "388": [
+   "osm"
+  ],
+  "389": [
+   "osm"
+  ],
+  "390": [
+   "osm"
+  ],
+  "391": [
+   "osm"
+  ],
+  "392": [
+   "osm"
+  ],
+  "393": [
+   "osm"
+  ],
+  "394": [
+   "osm"
+  ],
+  "395": [
+   "osm"
+  ],
+  "396": [
+   "osm"
+  ],
+  "397": [
+   "osm"
+  ],
+  "398": [
+   "osm"
+  ],
+  "399": [
+   "osm"
+  ],
+  "400": [
+   "osm"
+  ],
+  "401": [
+   "osm"
+  ],
+  "402": [
+   "osm"
+  ],
+  "403": [
+   "osm"
+  ],
+  "404": [
+   "osm"
+  ],
+  "405": [
+   "osm"
+  ],
+  "406": [
+   "osm"
+  ],
+  "407": [
+   "osm"
+  ],
+  "408": [
+   "osm"
+  ],
+  "409": [
+   "osm"
+  ],
+  "410": [
+   "osm"
+  ],
+  "411": [
+   "osm"
+  ],
+  "412": [
+   "osm"
+  ],
+  "413": [
+   "osm"
+  ],
+  "414": [
+   "osm"
+  ],
+  "415": [
+   "osm"
+  ],
+  "416": [
+   "osm"
+  ],
+  "417": [
+   "osm"
+  ],
+  "418": [
+   "osm"
+  ],
+  "419": [
+   "osm"
+  ],
+  "420": [
+   "osm"
+  ],
+  "421": [
+   "osm"
+  ],
+  "422": [
+   "osm"
+  ],
+  "423": [
+   "model_assembly"
+  ],
+  "424": [
+   "model_assembly"
+  ],
+  "425": [
+   "model_assembly"
+  ],
+  "426": [
+   "model_assembly"
+  ],
+  "427": [
+   "model_assembly"
+  ],
+  "428": [
+   "model_assembly"
+  ],
+  "429": [
+   "model_assembly"
+  ],
+  "430": [
+   "model_assembly"
+  ],
+  "431": [
+   "model_assembly"
+  ],
+  "432": [
+   "model_assembly"
+  ],
+  "433": [
+   "model_assembly"
+  ],
+  "434": [
+   "model_assembly"
+  ],
+  "435": [
+   "model_assembly"
+  ],
+  "436": [
+   "model_assembly"
+  ],
+  "437": [
+   "model_assembly"
+  ],
+  "438": [
+   "model_assembly"
+  ],
+  "439": [
+   "model_assembly"
+  ],
+  "440": [
+   "model_assembly"
+  ],
+  "441": [
+   "model_assembly"
+  ],
+  "442": [
+   "model_assembly"
+  ],
+  "443": [
+   "model_assembly"
+  ],
+  "444": [
+   "model_assembly"
+  ],
+  "445": [
+   "model_assembly"
+  ],
+  "446": [
+   "model_assembly"
+  ],
+  "447": [
+   "model_assembly"
+  ],
+  "448": [
+   "model_assembly"
+  ],
+  "449": [
+   "model_assembly"
+  ],
+  "450": [
+   "model_assembly"
+  ]
+ },
+ "branches": {
+  "merged_way/162957654-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/191211976-400+2": [
+   "pypsa_osm"
+  ],
+  "merged_way/234809196-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/249414225-400+1": [
+   "pypsa_osm"
+  ],
+  "merged_way/302950603-400+3": [
+   "pypsa_osm"
+  ],
+  "merged_way/93119209-400+2": [
+   "pypsa_osm"
+  ],
+  "relation/13083197-400": [
+   "pypsa_osm"
+  ],
+  "relation/13083367-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096306:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096306:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096306:c-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096307:a-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096307:b-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096307:c-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096313-400": [
+   "pypsa_osm"
+  ],
+  "relation/13096314-400": [
+   "pypsa_osm"
+  ],
+  "way/1054073400-400": [
+   "pypsa_osm"
+  ],
+  "way/1099397272-400": [
+   "pypsa_osm"
+  ],
+  "way/1132459987-400": [
+   "pypsa_osm"
+  ],
+  "way/1251995799-400": [
+   "pypsa_osm"
+  ],
+  "way/1251995800-400": [
+   "pypsa_osm"
+  ],
+  "way/1251995801-400": [
+   "pypsa_osm"
+  ],
+  "way/1255381989-400": [
+   "pypsa_osm"
+  ],
+  "way/1330765242-400": [
+   "pypsa_osm"
+  ],
+  "way/135177713-400": [
+   "pypsa_osm"
+  ],
+  "way/135710700:a-400": [
+   "pypsa_osm"
+  ],
+  "way/135710702-400": [
+   "pypsa_osm"
+  ],
+  "way/1373178359-400": [
+   "pypsa_osm"
+  ],
+  "way/251734378-400": [
+   "pypsa_osm"
+  ],
+  "way/251907259-400": [
+   "pypsa_osm"
+  ],
+  "way/252078731-400": [
+   "pypsa_osm"
+  ],
+  "way/492670621-400": [
+   "pypsa_osm"
+  ],
+  "way/492670622-400": [
+   "pypsa_osm"
+  ],
+  "way/664219903-400": [
+   "pypsa_osm"
+  ],
+  "way/727737636-400": [
+   "pypsa_osm"
+  ],
+  "way/727737638-400": [
+   "pypsa_osm"
+  ],
+  "way/781413942-400": [
+   "pypsa_osm"
+  ],
+  "way/85494881-400": [
+   "pypsa_osm"
+  ],
+  "way/85526072-400": [
+   "pypsa_osm"
+  ],
+  "way/85526074-400": [
+   "pypsa_osm"
+  ],
+  "way/85583902-400": [
+   "pypsa_osm"
+  ],
+  "way/85585501:a-400": [
+   "pypsa_osm"
+  ],
+  "way/85585501:b-400": [
+   "pypsa_osm"
+  ],
+  "way/85612094-400": [
+   "pypsa_osm"
+  ],
+  "way/85612095:a-400": [
+   "pypsa_osm"
+  ],
+  "way/85612095:b-400": [
+   "pypsa_osm"
+  ],
+  "way/85646784-400": [
+   "pypsa_osm"
+  ],
+  "way/85646786-400": [
+   "pypsa_osm"
+  ],
+  "way/85646788-400": [
+   "pypsa_osm"
+  ],
+  "way/85705638-400": [
+   "pypsa_osm"
+  ],
+  "way/862793227-400": [
+   "pypsa_osm"
+  ],
+  "way/86577269-400": [
+   "pypsa_osm"
+  ],
+  "way/86577270-400": [
+   "pypsa_osm"
+  ],
+  "way/93119211-400": [
+   "pypsa_osm"
+  ],
+  "way/93119213-400": [
+   "pypsa_osm"
+  ],
+  "hv:way/55093943": [
+   "osm"
+  ],
+  "hv:way/71214459": [
+   "osm"
+  ],
+  "hv:way/71214459:p1": [
+   "osm"
+  ],
+  "hv:way/71216195": [
+   "osm"
+  ],
+  "hv:way/71216195:p1": [
+   "osm"
+  ],
+  "hv:way/72180973": [
+   "osm"
+  ],
+  "hv:way/72180973:p1": [
+   "osm"
+  ],
+  "hv:way/72181103": [
+   "osm"
+  ],
+  "hv:way/85646790+1": [
+   "osm"
+  ],
+  "hv:way/85667971": [
+   "osm"
+  ],
+  "hv:way/85667972": [
+   "osm"
+  ],
+  "hv:way/86466245": [
+   "osm"
+  ],
+  "hv:way/86577271": [
+   "osm"
+  ],
+  "hv:way/86614467": [
+   "osm"
+  ],
+  "hv:way/86614469": [
+   "osm"
+  ],
+  "hv:way/86614707+1": [
+   "osm"
+  ],
+  "hv:way/92055299+1": [
+   "osm"
+  ],
+  "hv:way/92055299:p1": [
+   "osm"
+  ],
+  "hv:way/92055299:p2": [
+   "osm"
+  ],
+  "hv:way/92055302": [
+   "osm"
+  ],
+  "hv:way/92055327": [
+   "osm"
+  ],
+  "hv:way/92143130+1": [
+   "osm"
+  ],
+  "hv:way/92190819": [
+   "osm"
+  ],
+  "hv:way/92340185": [
+   "osm"
+  ],
+  "hv:way/92340185:p1+1": [
+   "osm"
+  ],
+  "hv:way/92352833+1": [
+   "osm"
+  ],
+  "hv:way/92352835": [
+   "osm"
+  ],
+  "hv:way/92352838+2": [
+   "osm"
+  ],
+  "hv:way/92352842": [
+   "osm"
+  ],
+  "hv:way/92352844+1": [
+   "osm"
+  ],
+  "hv:way/92367039+1": [
+   "osm"
+  ],
+  "hv:way/92421828": [
+   "osm"
+  ],
+  "hv:way/92421831": [
+   "osm"
+  ],
+  "hv:way/92421831:p1+1": [
+   "osm"
+  ],
+  "hv:way/92508648": [
+   "osm"
+  ],
+  "hv:way/92508654+1": [
+   "osm"
+  ],
+  "hv:way/92611142": [
+   "osm"
+  ],
+  "hv:way/92611146": [
+   "osm"
+  ],
+  "hv:way/92611146:p1": [
+   "osm"
+  ],
+  "hv:way/92611152": [
+   "osm"
+  ],
+  "hv:way/92611155": [
+   "osm"
+  ],
+  "hv:way/92611155:p1": [
+   "osm"
+  ],
+  "hv:way/92996459": [
+   "osm"
+  ],
+  "hv:way/93061382": [
+   "osm"
+  ],
+  "hv:way/93061384": [
+   "osm"
+  ],
+  "hv:way/93061387": [
+   "osm"
+  ],
+  "hv:way/93061392": [
+   "osm"
+  ],
+  "hv:way/93085788": [
+   "osm"
+  ],
+  "hv:way/93085812+1": [
+   "osm"
+  ],
+  "hv:way/93126856": [
+   "osm"
+  ],
+  "hv:way/93171838": [
+   "osm"
+  ],
+  "hv:way/93172458:p1": [
+   "osm"
+  ],
+  "hv:way/93368206+1": [
+   "osm"
+  ],
+  "hv:way/93383673": [
+   "osm"
+  ],
+  "hv:way/93383676+1": [
+   "osm"
+  ],
+  "hv:way/93383683": [
+   "osm"
+  ],
+  "hv:way/93383699": [
+   "osm"
+  ],
+  "hv:way/93383728+1": [
+   "osm"
+  ],
+  "hv:way/93475868": [
+   "osm"
+  ],
+  "hv:way/93582993": [
+   "osm"
+  ],
+  "hv:way/93638075": [
+   "osm"
+  ],
+  "hv:way/93638076": [
+   "osm"
+  ],
+  "hv:way/93638078": [
+   "osm"
+  ],
+  "hv:way/93638080": [
+   "osm"
+  ],
+  "hv:way/93701816": [
+   "osm"
+  ],
+  "hv:way/93702882": [
+   "osm"
+  ],
+  "hv:way/95989832": [
+   "osm"
+  ],
+  "hv:way/96020497": [
+   "osm"
+  ],
+  "hv:way/96020497:p1": [
+   "osm"
+  ],
+  "hv:way/96040674": [
+   "osm"
+  ],
+  "hv:way/96040688": [
+   "osm"
+  ],
+  "hv:way/96040690": [
+   "osm"
+  ],
+  "hv:way/96314291": [
+   "osm"
+  ],
+  "hv:way/96314300": [
+   "osm"
+  ],
+  "hv:way/96314310": [
+   "osm"
+  ],
+  "hv:way/96327234": [
+   "osm"
+  ],
+  "hv:way/96759613": [
+   "osm"
+  ],
+  "hv:way/96865507": [
+   "osm"
+  ],
+  "hv:way/115026025": [
+   "osm"
+  ],
+  "hv:way/117678824": [
+   "osm"
+  ],
+  "hv:way/118876141": [
+   "osm"
+  ],
+  "hv:way/118876154": [
+   "osm"
+  ],
+  "hv:way/118876154:p1": [
+   "osm"
+  ],
+  "hv:way/118876154:p2": [
+   "osm"
+  ],
+  "hv:way/118876158": [
+   "osm"
+  ],
+  "hv:way/118901220": [
+   "osm"
+  ],
+  "hv:way/120772088": [
+   "osm"
+  ],
+  "hv:way/120861855": [
+   "osm"
+  ],
+  "hv:way/120864739": [
+   "osm"
+  ],
+  "hv:way/120944407": [
+   "osm"
+  ],
+  "hv:way/123525999+1": [
+   "osm"
+  ],
+  "hv:way/127731860": [
+   "osm"
+  ],
+  "hv:way/128342490": [
+   "osm"
+  ],
+  "hv:way/128678883": [
+   "osm"
+  ],
+  "hv:way/128678883:p1+1": [
+   "osm"
+  ],
+  "hv:way/128797767": [
+   "osm"
+  ],
+  "hv:way/128797768": [
+   "osm"
+  ],
+  "hv:way/128797769": [
+   "osm"
+  ],
+  "hv:way/128799209": [
+   "osm"
+  ],
+  "hv:way/128799210": [
+   "osm"
+  ],
+  "hv:way/128799212": [
+   "osm"
+  ],
+  "hv:way/128799451+2": [
+   "osm"
+  ],
+  "hv:way/128801383": [
+   "osm"
+  ],
+  "hv:way/128801384+1": [
+   "osm"
+  ],
+  "hv:way/128811824+1": [
+   "osm"
+  ],
+  "hv:way/129395664+1": [
+   "osm"
+  ],
+  "hv:way/129452796": [
+   "osm"
+  ],
+  "hv:way/129452796:p1": [
+   "osm"
+  ],
+  "hv:way/129452796:p2": [
+   "osm"
+  ],
+  "hv:way/129452796:p3": [
+   "osm"
+  ],
+  "hv:way/129452800": [
+   "osm"
+  ],
+  "hv:way/129452803": [
+   "osm"
+  ],
+  "hv:way/129453966": [
+   "osm"
+  ],
+  "hv:way/129453969": [
+   "osm"
+  ],
+  "hv:way/129461671": [
+   "osm"
+  ],
+  "hv:way/129461673": [
+   "osm"
+  ],
+  "hv:way/129545262": [
+   "osm"
+  ],
+  "hv:way/134396252": [
+   "osm"
+  ],
+  "hv:way/134442870": [
+   "osm"
+  ],
+  "hv:way/134630650": [
+   "osm"
+  ],
+  "hv:way/134685179": [
+   "osm"
+  ],
+  "hv:way/134935125+1": [
+   "osm"
+  ],
+  "hv:way/134959552": [
+   "osm"
+  ],
+  "hv:way/134959566": [
+   "osm"
+  ],
+  "hv:way/134959567": [
+   "osm"
+  ],
+  "hv:way/135116235:p1": [
+   "osm"
+  ],
+  "hv:way/135177706": [
+   "osm"
+  ],
+  "hv:way/135177706:p1": [
+   "osm"
+  ],
+  "hv:way/135177717": [
+   "osm"
+  ],
+  "hv:way/135177718": [
+   "osm"
+  ],
+  "hv:way/135177718:p1": [
+   "osm"
+  ],
+  "hv:way/135199701": [
+   "osm"
+  ],
+  "hv:way/135266024": [
+   "osm"
+  ],
+  "hv:way/135266025": [
+   "osm"
+  ],
+  "hv:way/135710701": [
+   "osm"
+  ],
+  "hv:way/135710703": [
+   "osm"
+  ],
+  "hv:way/135710705": [
+   "osm"
+  ],
+  "hv:way/135784419+1": [
+   "osm"
+  ],
+  "hv:way/136348165": [
+   "osm"
+  ],
+  "hv:way/136348166": [
+   "osm"
+  ],
+  "hv:way/136348172": [
+   "osm"
+  ],
+  "hv:way/136363785": [
+   "osm"
+  ],
+  "hv:way/136369139": [
+   "osm"
+  ],
+  "hv:way/136369140": [
+   "osm"
+  ],
+  "hv:way/136370144+1": [
+   "osm"
+  ],
+  "hv:way/136456616": [
+   "osm"
+  ],
+  "hv:way/136543636": [
+   "osm"
+  ],
+  "hv:way/136543638": [
+   "osm"
+  ],
+  "hv:way/136543642": [
+   "osm"
+  ],
+  "hv:way/136543642:p1": [
+   "osm"
+  ],
+  "hv:way/136549171": [
+   "osm"
+  ],
+  "hv:way/136549172": [
+   "osm"
+  ],
+  "hv:way/136549178": [
+   "osm"
+  ],
+  "hv:way/136549182": [
+   "osm"
+  ],
+  "hv:way/137056445+1": [
+   "osm"
+  ],
+  "hv:way/137266424+1": [
+   "osm"
+  ],
+  "hv:way/140343650": [
+   "osm"
+  ],
+  "hv:way/140461600+1": [
+   "osm"
+  ],
+  "hv:way/140465671+1": [
+   "osm"
+  ],
+  "hv:way/140465677": [
+   "osm"
+  ],
+  "hv:way/140505543": [
+   "osm"
+  ],
+  "hv:way/140638158": [
+   "osm"
+  ],
+  "hv:way/140724311": [
+   "osm"
+  ],
+  "hv:way/140724349": [
+   "osm"
+  ],
+  "hv:way/140890159": [
+   "osm"
+  ],
+  "hv:way/141029838": [
+   "osm"
+  ],
+  "hv:way/141113248": [
+   "osm"
+  ],
+  "hv:way/141220242": [
+   "osm"
+  ],
+  "hv:way/141220246": [
+   "osm"
+  ],
+  "hv:way/141533839": [
+   "osm"
+  ],
+  "hv:way/141758400": [
+   "osm"
+  ],
+  "hv:way/141764453": [
+   "osm"
+  ],
+  "hv:way/141764455+2": [
+   "osm"
+  ],
+  "hv:way/142042551": [
+   "osm"
+  ],
+  "hv:way/142066762": [
+   "osm"
+  ],
+  "hv:way/142066766": [
+   "osm"
+  ],
+  "hv:way/142066779": [
+   "osm"
+  ],
+  "hv:way/142066786+1": [
+   "osm"
+  ],
+  "hv:way/142131060": [
+   "osm"
+  ],
+  "hv:way/142131060:p1": [
+   "osm"
+  ],
+  "hv:way/142131060:p2": [
+   "osm"
+  ],
+  "hv:way/142131060:p3": [
+   "osm"
+  ],
+  "hv:way/142131068+2": [
+   "osm"
+  ],
+  "hv:way/142180033": [
+   "osm"
+  ],
+  "hv:way/142656544": [
+   "osm"
+  ],
+  "hv:way/143520199+1": [
+   "osm"
+  ],
+  "hv:way/143520201": [
+   "osm"
+  ],
+  "hv:way/143520202": [
+   "osm"
+  ],
+  "hv:way/143658733": [
+   "osm"
+  ],
+  "hv:way/143658734": [
+   "osm"
+  ],
+  "hv:way/143658735": [
+   "osm"
+  ],
+  "hv:way/146392786": [
+   "osm"
+  ],
+  "hv:way/146392790+1": [
+   "osm"
+  ],
+  "hv:way/146392793": [
+   "osm"
+  ],
+  "hv:way/146420413": [
+   "osm"
+  ],
+  "hv:way/146621417": [
+   "osm"
+  ],
+  "hv:way/148881243": [
+   "osm"
+  ],
+  "hv:way/148899576": [
+   "osm"
+  ],
+  "hv:way/148899583+4": [
+   "osm"
+  ],
+  "hv:way/148899594": [
+   "osm"
+  ],
+  "hv:way/149026586": [
+   "osm"
+  ],
+  "hv:way/149069219": [
+   "osm"
+  ],
+  "hv:way/149069220": [
+   "osm"
+  ],
+  "hv:way/149069224": [
+   "osm"
+  ],
+  "hv:way/149468823": [
+   "osm"
+  ],
+  "hv:way/149481029+3": [
+   "osm"
+  ],
+  "hv:way/149672238": [
+   "osm"
+  ],
+  "hv:way/149672240": [
+   "osm"
+  ],
+  "hv:way/149672246": [
+   "osm"
+  ],
+  "hv:way/149816565": [
+   "osm"
+  ],
+  "hv:way/149816565:p1": [
+   "osm"
+  ],
+  "hv:way/149816566": [
+   "osm"
+  ],
+  "hv:way/149922047": [
+   "osm"
+  ],
+  "hv:way/150067717+1": [
+   "osm"
+  ],
+  "hv:way/150067719": [
+   "osm"
+  ],
+  "hv:way/150067720+1": [
+   "osm"
+  ],
+  "hv:way/158105057": [
+   "osm"
+  ],
+  "hv:way/159110516": [
+   "osm"
+  ],
+  "hv:way/159413445": [
+   "osm"
+  ],
+  "hv:way/159413449": [
+   "osm"
+  ],
+  "hv:way/162958006": [
+   "osm"
+  ],
+  "hv:way/174413646": [
+   "osm"
+  ],
+  "hv:way/174415668": [
+   "osm"
+  ],
+  "hv:way/174415670+1": [
+   "osm"
+  ],
+  "hv:way/174415674": [
+   "osm"
+  ],
+  "hv:way/174415696": [
+   "osm"
+  ],
+  "hv:way/174415702+1": [
+   "osm"
+  ],
+  "hv:way/178234510": [
+   "osm"
+  ],
+  "hv:way/178234510:p1": [
+   "osm"
+  ],
+  "hv:way/190884240": [
+   "osm"
+  ],
+  "hv:way/190884244": [
+   "osm"
+  ],
+  "hv:way/196753690": [
+   "osm"
+  ],
+  "hv:way/196753715": [
+   "osm"
+  ],
+  "hv:way/196753717": [
+   "osm"
+  ],
+  "hv:way/196753719": [
+   "osm"
+  ],
+  "hv:way/196753722": [
+   "osm"
+  ],
+  "hv:way/196753739+1": [
+   "osm"
+  ],
+  "hv:way/196753746": [
+   "osm"
+  ],
+  "hv:way/196767240": [
+   "osm"
+  ],
+  "hv:way/196768951": [
+   "osm"
+  ],
+  "hv:way/196768951:p1": [
+   "osm"
+  ],
+  "hv:way/196768952": [
+   "osm"
+  ],
+  "hv:way/196768953": [
+   "osm"
+  ],
+  "hv:way/196768954": [
+   "osm"
+  ],
+  "hv:way/196769412": [
+   "osm"
+  ],
+  "hv:way/196769412:p1": [
+   "osm"
+  ],
+  "hv:way/196769413": [
+   "osm"
+  ],
+  "hv:way/208158834": [
+   "osm"
+  ],
+  "hv:way/221605464": [
+   "osm"
+  ],
+  "hv:way/229901382": [
+   "osm"
+  ],
+  "hv:way/231765133": [
+   "osm"
+  ],
+  "hv:way/240678930:p1": [
+   "osm"
+  ],
+  "hv:way/241553157": [
+   "osm"
+  ],
+  "hv:way/243555395:p1": [
+   "osm"
+  ],
+  "hv:way/245493526": [
+   "osm"
+  ],
+  "hv:way/245676783": [
+   "osm"
+  ],
+  "hv:way/245676786": [
+   "osm"
+  ],
+  "hv:way/248889400": [
+   "osm"
+  ],
+  "hv:way/248906652": [
+   "osm"
+  ],
+  "hv:way/248906654": [
+   "osm"
+  ],
+  "hv:way/249066437": [
+   "osm"
+  ],
+  "hv:way/249108721": [
+   "osm"
+  ],
+  "hv:way/249108722": [
+   "osm"
+  ],
+  "hv:way/249115248": [
+   "osm"
+  ],
+  "hv:way/249200394": [
+   "osm"
+  ],
+  "hv:way/249200395": [
+   "osm"
+  ],
+  "hv:way/249320427": [
+   "osm"
+  ],
+  "hv:way/249320429": [
+   "osm"
+  ],
+  "hv:way/249320430": [
+   "osm"
+  ],
+  "hv:way/249407507": [
+   "osm"
+  ],
+  "hv:way/249407512": [
+   "osm"
+  ],
+  "hv:way/249407515": [
+   "osm"
+  ],
+  "hv:way/249407524": [
+   "osm"
+  ],
+  "hv:way/249414230": [
+   "osm"
+  ],
+  "hv:way/249627637": [
+   "osm"
+  ],
+  "hv:way/249627641": [
+   "osm"
+  ],
+  "hv:way/250746366": [
+   "osm"
+  ],
+  "hv:way/250746367": [
+   "osm"
+  ],
+  "hv:way/250746369": [
+   "osm"
+  ],
+  "hv:way/250746380": [
+   "osm"
+  ],
+  "hv:way/250746387": [
+   "osm"
+  ],
+  "hv:way/250746388": [
+   "osm"
+  ],
+  "hv:way/250746405": [
+   "osm"
+  ],
+  "hv:way/250856323": [
+   "osm"
+  ],
+  "hv:way/250856325": [
+   "osm"
+  ],
+  "hv:way/250856336": [
+   "osm"
+  ],
+  "hv:way/251579386+1": [
+   "osm"
+  ],
+  "hv:way/251734379": [
+   "osm"
+  ],
+  "hv:way/251735414": [
+   "osm"
+  ],
+  "hv:way/251962229+1": [
+   "osm"
+  ],
+  "hv:way/251962230": [
+   "osm"
+  ],
+  "hv:way/251962240": [
+   "osm"
+  ],
+  "hv:way/251962241": [
+   "osm"
+  ],
+  "hv:way/251962246": [
+   "osm"
+  ],
+  "hv:way/251962256": [
+   "osm"
+  ],
+  "hv:way/251962257": [
+   "osm"
+  ],
+  "hv:way/252221235": [
+   "osm"
+  ],
+  "hv:way/253820947": [
+   "osm"
+  ],
+  "hv:way/253912196": [
+   "osm"
+  ],
+  "hv:way/253912196:p1": [
+   "osm"
+  ],
+  "hv:way/254057188": [
+   "osm"
+  ],
+  "hv:way/254371182": [
+   "osm"
+  ],
+  "hv:way/254371201": [
+   "osm"
+  ],
+  "hv:way/254371204": [
+   "osm"
+  ],
+  "hv:way/254371204:p1": [
+   "osm"
+  ],
+  "hv:way/254371209:p1": [
+   "osm"
+  ],
+  "hv:way/254371222": [
+   "osm"
+  ],
+  "hv:way/255599061": [
+   "osm"
+  ],
+  "hv:way/255599069": [
+   "osm"
+  ],
+  "hv:way/258217624": [
+   "osm"
+  ],
+  "hv:way/259445388": [
+   "osm"
+  ],
+  "hv:way/269028454+1": [
+   "osm"
+  ],
+  "hv:way/269738911": [
+   "osm"
+  ],
+  "hv:way/269738911:p1": [
+   "osm"
+  ],
+  "hv:way/278071525": [
+   "osm"
+  ],
+  "hv:way/288235598": [
+   "osm"
+  ],
+  "hv:way/295137047+1": [
+   "osm"
+  ],
+  "hv:way/299806906": [
+   "osm"
+  ],
+  "hv:way/304295880+1": [
+   "osm"
+  ],
+  "hv:way/311816639": [
+   "osm"
+  ],
+  "hv:way/320717947": [
+   "osm"
+  ],
+  "hv:way/339977320": [
+   "osm"
+  ],
+  "hv:way/345656984": [
+   "osm"
+  ],
+  "hv:way/348683397": [
+   "osm"
+  ],
+  "hv:way/348683397:p1": [
+   "osm"
+  ],
+  "hv:way/356596531": [
+   "osm"
+  ],
+  "hv:way/366929270+1": [
+   "osm"
+  ],
+  "hv:way/366930533": [
+   "osm"
+  ],
+  "hv:way/369545778": [
+   "osm"
+  ],
+  "hv:way/369696424": [
+   "osm"
+  ],
+  "hv:way/426953110+5": [
+   "osm"
+  ],
+  "hv:way/451613986": [
+   "osm"
+  ],
+  "hv:way/452113735": [
+   "osm"
+  ],
+  "hv:way/452129663": [
+   "osm"
+  ],
+  "hv:way/452129664": [
+   "osm"
+  ],
+  "hv:way/452129665": [
+   "osm"
+  ],
+  "hv:way/453726969": [
+   "osm"
+  ],
+  "hv:way/539669300": [
+   "osm"
+  ],
+  "hv:way/562507040": [
+   "osm"
+  ],
+  "hv:way/562576396": [
+   "osm"
+  ],
+  "hv:way/562608847": [
+   "osm"
+  ],
+  "hv:way/562608848": [
+   "osm"
+  ],
+  "hv:way/563487790": [
+   "osm"
+  ],
+  "hv:way/602702821": [
+   "osm"
+  ],
+  "hv:way/602702823": [
+   "osm"
+  ],
+  "hv:way/638878097": [
+   "osm"
+  ],
+  "hv:way/638878098": [
+   "osm"
+  ],
+  "hv:way/664299445": [
+   "osm"
+  ],
+  "hv:way/664299446": [
+   "osm"
+  ],
+  "hv:way/664414466": [
+   "osm"
+  ],
+  "hv:way/664504635": [
+   "osm"
+  ],
+  "hv:way/664504637+1": [
+   "osm"
+  ],
+  "hv:way/692434746": [
+   "osm"
+  ],
+  "hv:way/703462529": [
+   "osm"
+  ],
+  "hv:way/703463328": [
+   "osm"
+  ],
+  "hv:way/727744044": [
+   "osm"
+  ],
+  "hv:way/774629666": [
+   "osm"
+  ],
+  "hv:way/784504717": [
+   "osm"
+  ],
+  "hv:way/784509919": [
+   "osm"
+  ],
+  "hv:way/784509920": [
+   "osm"
+  ],
+  "hv:way/784626060": [
+   "osm"
+  ],
+  "hv:way/799492838:p1": [
+   "osm"
+  ],
+  "hv:way/822685209": [
+   "osm"
+  ],
+  "hv:way/860237723": [
+   "osm"
+  ],
+  "hv:way/862192424": [
+   "osm"
+  ],
+  "hv:way/862793226": [
+   "osm"
+  ],
+  "hv:way/864828740": [
+   "osm"
+  ],
+  "hv:way/866130939": [
+   "osm"
+  ],
+  "hv:way/925519061": [
+   "osm"
+  ],
+  "hv:way/963762447": [
+   "osm"
+  ],
+  "hv:way/963762448": [
+   "osm"
+  ],
+  "hv:way/963762449": [
+   "osm"
+  ],
+  "hv:way/972633180": [
+   "osm"
+  ],
+  "hv:way/972633181": [
+   "osm"
+  ],
+  "hv:way/972652093": [
+   "osm"
+  ],
+  "hv:way/972652095": [
+   "osm"
+  ],
+  "hv:way/972652100": [
+   "osm"
+  ],
+  "hv:way/972652104": [
+   "osm"
+  ],
+  "hv:way/972652105": [
+   "osm"
+  ],
+  "hv:way/972661463": [
+   "osm"
+  ],
+  "hv:way/972661464": [
+   "osm"
+  ],
+  "hv:way/972661467": [
+   "osm"
+  ],
+  "hv:way/972661471": [
+   "osm"
+  ],
+  "hv:way/972661473": [
+   "osm"
+  ],
+  "hv:way/972661474": [
+   "osm"
+  ],
+  "hv:way/972661475": [
+   "osm"
+  ],
+  "hv:way/972661476": [
+   "osm"
+  ],
+  "hv:way/973164275": [
+   "osm"
+  ],
+  "hv:way/973167752": [
+   "osm"
+  ],
+  "hv:way/973167753": [
+   "osm"
+  ],
+  "hv:way/973594158+1": [
+   "osm"
+  ],
+  "hv:way/973594159": [
+   "osm"
+  ],
+  "hv:way/973594159:p1": [
+   "osm"
+  ],
+  "hv:way/973594159:p2+1": [
+   "osm"
+  ],
+  "hv:way/973784345": [
+   "osm"
+  ],
+  "hv:way/974138251": [
+   "osm"
+  ],
+  "hv:way/974138252": [
+   "osm"
+  ],
+  "hv:way/974138253": [
+   "osm"
+  ],
+  "hv:way/974138254": [
+   "osm"
+  ],
+  "hv:way/974138255": [
+   "osm"
+  ],
+  "hv:way/974138256": [
+   "osm"
+  ],
+  "hv:way/974138257": [
+   "osm"
+  ],
+  "hv:way/974138258": [
+   "osm"
+  ],
+  "hv:way/974138259": [
+   "osm"
+  ],
+  "hv:way/974138260": [
+   "osm"
+  ],
+  "hv:way/974138263": [
+   "osm"
+  ],
+  "hv:way/974138264": [
+   "osm"
+  ],
+  "hv:way/974138265": [
+   "osm"
+  ],
+  "hv:way/974138266": [
+   "osm"
+  ],
+  "hv:way/974139318": [
+   "osm"
+  ],
+  "hv:way/974139319": [
+   "osm"
+  ],
+  "hv:way/1005173570": [
+   "osm"
+  ],
+  "hv:way/1005173571": [
+   "osm"
+  ],
+  "hv:way/1005175466": [
+   "osm"
+  ],
+  "hv:way/1005175467": [
+   "osm"
+  ],
+  "hv:way/1005197418": [
+   "osm"
+  ],
+  "hv:way/1005197421": [
+   "osm"
+  ],
+  "hv:way/1005197422": [
+   "osm"
+  ],
+  "hv:way/1005197423": [
+   "osm"
+  ],
+  "hv:way/1005243065": [
+   "osm"
+  ],
+  "hv:way/1005243065:p1": [
+   "osm"
+  ],
+  "hv:way/1005510756": [
+   "osm"
+  ],
+  "hv:way/1005511888": [
+   "osm"
+  ],
+  "hv:way/1005512891": [
+   "osm"
+  ],
+  "hv:way/1005512892": [
+   "osm"
+  ],
+  "hv:way/1005802935": [
+   "osm"
+  ],
+  "hv:way/1005813173": [
+   "osm"
+  ],
+  "hv:way/1005813174": [
+   "osm"
+  ],
+  "hv:way/1005813175": [
+   "osm"
+  ],
+  "hv:way/1028432835": [
+   "osm"
+  ],
+  "hv:way/1029561063": [
+   "osm"
+  ],
+  "hv:way/1030675662": [
+   "osm"
+  ],
+  "hv:way/1042619990": [
+   "osm"
+  ],
+  "hv:way/1132468398": [
+   "osm"
+  ],
+  "hv:way/1132468399+1": [
+   "osm"
+  ],
+  "hv:way/1187741536+1": [
+   "osm"
+  ],
+  "hv:way/1187741538": [
+   "osm"
+  ],
+  "hv:way/1187741539": [
+   "osm"
+  ],
+  "hv:way/1191280357": [
+   "osm"
+  ],
+  "hv:way/1191280357:p1": [
+   "osm"
+  ],
+  "hv:way/1195269023": [
+   "osm"
+  ],
+  "hv:way/1217880482+1": [
+   "osm"
+  ],
+  "hv:way/1218789032": [
+   "osm"
+  ],
+  "hv:way/1218789033": [
+   "osm"
+  ],
+  "hv:way/1218789034": [
+   "osm"
+  ],
+  "hv:way/1255381967": [
+   "osm"
+  ],
+  "hv:way/1255381971": [
+   "osm"
+  ],
+  "hv:way/1256844053": [
+   "osm"
+  ],
+  "hv:way/1256844053:p1": [
+   "osm"
+  ],
+  "hv:way/1256844054": [
+   "osm"
+  ],
+  "hv:way/1256844054:p1": [
+   "osm"
+  ],
+  "hv:way/1256844068": [
+   "osm"
+  ],
+  "hv:way/1256844097": [
+   "osm"
+  ],
+  "hv:way/1256844101": [
+   "osm"
+  ],
+  "hv:way/1256844102": [
+   "osm"
+  ],
+  "hv:way/1256846110": [
+   "osm"
+  ],
+  "hv:way/1265269322": [
+   "osm"
+  ],
+  "hv:way/1265269339": [
+   "osm"
+  ],
+  "hv:way/1269324561": [
+   "osm"
+  ],
+  "hv:way/1290645477": [
+   "osm"
+  ],
+  "hv:way/1324002175": [
+   "osm"
+  ],
+  "hv:way/1324002177+1": [
+   "osm"
+  ],
+  "hv:way/1333252172": [
+   "osm"
+  ],
+  "hv:way/1339271921+1": [
+   "osm"
+  ],
+  "hv:way/1339290120": [
+   "osm"
+  ],
+  "hv:way/1373012169": [
+   "osm"
+  ],
+  "hv:way/1373016927": [
+   "osm"
+  ],
+  "hv:way/1373016928": [
+   "osm"
+  ],
+  "hv:way/1373016930": [
+   "osm"
+  ],
+  "hv:way/1373016931": [
+   "osm"
+  ],
+  "hv:way/1373016932": [
+   "osm"
+  ],
+  "hv:way/1373097457": [
+   "osm"
+  ],
+  "hv:way/1373097458": [
+   "osm"
+  ],
+  "hv:way/1373099343": [
+   "osm"
+  ],
+  "hv:way/1373103836": [
+   "osm"
+  ],
+  "hv:way/1373170310": [
+   "osm"
+  ],
+  "hv:way/1373174191": [
+   "osm"
+  ],
+  "hv:way/1373174191:p1": [
+   "osm"
+  ],
+  "hv:way/1373521127": [
+   "osm"
+  ],
+  "hv:way/1489283723+1": [
+   "osm"
+  ],
+  "hv:way/1489283724": [
+   "osm"
+  ],
+  "hv:way/1489283726": [
+   "osm"
+  ],
+  "hv:way/1489283727": [
+   "osm"
+  ],
+  "hv:way/1526359766": [
+   "osm"
+  ],
+  "hv:bridge:Crete 150 kV west - central gap (Rethymno - Heraklion side)": [
+   "model_assembly"
+  ],
+  "cpl:relation/18916482-400>osmhv:relation/18916482-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/251579391:1-400>osmhv:relation/3375589-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:virtual_way/727737636:0-400>osmhv:way/142066771-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/105184051-400>osmhv:way/105184051-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1256844098-400>osmhv:way/1256844098-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1321679684-400>osmhv:way/1321679684-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/1373020388-400>osmhv:way/96040682-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/140248148-400>osmhv:way/140248148-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/141220249-400>osmhv:way/141220249-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/149672244-400>osmhv:way/149672244-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/171506480-400>osmhv:way/171506480-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/249414224-400>osmhv:way/249414224-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/252077527-400>osmhv:way/252077527-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/253903008-400>osmhv:way/253903008-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/302950604-400>osmhv:way/302950604-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/51408420-400>osmhv:way/51408420-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/55099563-400>osmhv:way/55099563-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85518393-400>osmhv:way/85518393-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85526073-400>osmhv:way/85526073-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85585500-400>osmhv:way/85585500-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85612093-400>osmhv:way/85612093-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85646787-400>osmhv:way/85646787-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85682590-400>osmhv:way/85682590-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/85705637-400>osmhv:way/85705637-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/86577898-400>osmhv:way/86577898-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "cpl:way/93119207-400>osmhv:way/1265269317-150": [
+   "model_assembly",
+   "osm",
+   "pypsa_osm"
+  ],
+  "gsu:relation/18916482-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/1024249021:0-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/251579391:1-400": [
+   "model_assembly"
+  ],
+  "gsu:virtual_way/727737636:0-400": [
+   "model_assembly"
+  ],
+  "gsu:way/105184051-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1255385651-400": [
+   "model_assembly"
+  ],
+  "gsu:way/1321679684-400": [
+   "model_assembly"
+  ],
+  "gsu:way/140248148-400": [
+   "model_assembly"
+  ],
+  "gsu:way/141220249-400": [
+   "model_assembly"
+  ],
+  "gsu:way/253903008-400": [
+   "model_assembly"
+  ],
+  "gsu:way/32357326-400": [
+   "model_assembly"
+  ],
+  "gsu:way/55099563-400": [
+   "model_assembly"
+  ],
+  "gsu:way/85705637-400": [
+   "model_assembly"
+  ],
+  "gsu:way/93119207-400": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:37.92525,22.93094-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:tee:40.08408,21.45401-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/135234266-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/149026599-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/159435243-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/178234508-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/208158835-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/219975140-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/248906656-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/249407521-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/275303236-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/366930187-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/677142353-150": [
+   "model_assembly"
+  ],
+  "gsu:osmhv:way/860237027-150": [
+   "model_assembly"
+  ]
+ },
+ "generators": {
+  "Thissavros": [
+   "ppm"
+  ],
+  "Gek Terna Komotini": [
+   "ppm"
+  ],
+  "Ballaiika Solar Farm": [
+   "ppm"
+  ],
+  "Thiva Heron": [
+   "ppm"
+  ],
+  "Orycheio Solar Farm": [
+   "ppm"
+  ],
+  "Megalopoli": [
+   "ppm"
+  ],
+  "Kremasta": [
+   "ppm"
+  ],
+  "Kastraki": [
+   "ppm"
+  ],
+  "Amfilochia Georgios": [
+   "ppm"
+  ],
+  "Thisvi Elpedison": [
+   "ppm"
+  ],
+  "Bekrevenikos Mikri Petra Solar Farm": [
+   "ppm"
+  ],
+  "Kozani Elpe Solar Farm": [
+   "ppm"
+  ],
+  "Mandria Karamouzi Solar Farm": [
+   "ppm"
+  ],
+  "Ptolemaida Lignite Mine Orycheio Solar Farm": [
+   "ppm"
+  ],
+  "Solar Arrow Solar Farm": [
+   "ppm"
+  ],
+  "Korinthos": [
+   "ppm"
+  ],
+  "import Italy at way/140248148-400": [
+   "energy_charts"
+  ],
+  "Pigae Aoos": [
+   "ppm"
+  ],
+  "Pournari": [
+   "ppm"
+  ],
+  "Komotini": [
+   "ppm"
+  ],
+  "Alexandroupolis Industrial Area": [
+   "ppm"
+  ],
+  "Kilkis Xirolakkos Solar Farm": [
+   "ppm"
+  ],
+  "Neo Syrakio Solar Farm": [
+   "ppm"
+  ],
+  "Amydaio Orycheio Solar Farm": [
+   "ppm"
+  ],
+  "Protergia Cc": [
+   "ppm"
+  ],
+  "Agios Nikolaos": [
+   "ppm"
+  ],
+  "Aliveri": [
+   "ppm"
+  ],
+  "Thessaloniki": [
+   "ppm"
+  ],
+  "Lavrio": [
+   "ppm"
+  ],
+  "Atherinolakkos": [
+   "ppm"
+  ],
+  "Linoperamata": [
+   "ppm"
+  ],
+  "South Rhodes": [
+   "ppm"
+  ],
+  "Chania": [
+   "ppm"
+  ],
+  "Skopia Kallithea Solar Farm": [
+   "ppm"
+  ],
+  "Sfikia": [
+   "ppm"
+  ],
+  "Polyphyto": [
+   "ppm"
+  ],
+  "Drama Doxato Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:relation/18916482-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Alepotrypa Thisvis Solar": [
+   "ppm"
+  ],
+  "Boeotia Misonychi Solar": [
+   "ppm"
+  ],
+  "Boeotia Spitharthi Solar": [
+   "ppm"
+  ],
+  "Gkoureza Solar Farm": [
+   "ppm"
+  ],
+  "Poteisiona Solar Farm": [
+   "ppm"
+  ],
+  "Pournari Solar Farm": [
+   "ppm"
+  ],
+  "Thebes Mw Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:relation/3375589-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Corfu Paliabelo Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:relation/3824119-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Smailongosi Wind Farm": [
+   "ppm"
+  ],
+  "St Ioannes Vroucha Wind Farm": [
+   "ppm"
+  ],
+  "Daga Stin Megali Vrysi Wind Farm": [
+   "ppm"
+  ],
+  "Epanosiphi Wind Farm": [
+   "ppm"
+  ],
+  "Voskero Wind Farm": [
+   "ppm"
+  ],
+  "Ariadne HVDC infeed": [
+   "model_assembly"
+  ],
+  "Akoumia Wind Farm": [
+   "ppm"
+  ],
+  "Notiko Koprino Wind Farm": [
+   "ppm"
+  ],
+  "Xirokabi Solar Farm": [
+   "ppm"
+  ],
+  "Anoima Solar Farm": [
+   "ppm"
+  ],
+  "Krevvatas Solar Farm": [
+   "ppm"
+  ],
+  "Laconia Asteri Solar": [
+   "ppm"
+  ],
+  "Kokkinatses Solar Farm": [
+   "ppm"
+  ],
+  "Makrelakkoma Wind Farm": [
+   "ppm"
+  ],
+  "Prophetes Ilias Sagias Wind Farm": [
+   "ppm"
+  ],
+  "Sangias Wind Farm": [
+   "ppm"
+  ],
+  "Yipedo Kalyvion Solar": [
+   "ppm"
+  ],
+  "Zarkokalyva Solar Farm": [
+   "ppm"
+  ],
+  "Alogomandra Solar Farm": [
+   "ppm"
+  ],
+  "Xerodima Solar Farm": [
+   "ppm"
+  ],
+  "Panagaiika Solar Farm": [
+   "ppm"
+  ],
+  "Malavria Didimon Wind Farm": [
+   "ppm"
+  ],
+  "Argolis Karnezaiika Tracheias Solar": [
+   "ppm"
+  ],
+  "Dragouni Bastouna Solar Farm": [
+   "ppm"
+  ],
+  "Dragouni Bastouna Wind Farm": [
+   "ppm"
+  ],
+  "Parthenion Wind Farm": [
+   "ppm"
+  ],
+  "Prophetes Ilias Koukouras Neraidorache Wind Farm": [
+   "ppm"
+  ],
+  "Stavri Solar Farm": [
+   "ppm"
+  ],
+  "Vouvala Wind Farm": [
+   "ppm"
+  ],
+  "Argolis Choma Solar": [
+   "ppm"
+  ],
+  "Malia Gliata Arachnaio Wind Farm": [
+   "ppm"
+  ],
+  "Chlogos Wind Farm": [
+   "ppm"
+  ],
+  "Desmata Solar": [
+   "ppm"
+  ],
+  "Paliogalara Solar Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Enel Wind Farm": [
+   "ppm"
+  ],
+  "Stefani Solar Farm": [
+   "ppm"
+  ],
+  "Perthori Bogdani Oxy Solar Farm": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Prapa Rachi Solar Farm": [
+   "ppm"
+  ],
+  "Prophetes Ilias Polites Megalokorphe Wind Farm": [
+   "ppm"
+  ],
+  "Attica Gianiapa Solar": [
+   "ppm"
+  ],
+  "Attica Korakou Kamariza Solar": [
+   "ppm"
+  ],
+  "Attica Koulidas Solar": [
+   "ppm"
+  ],
+  "Attica Propharta Kalyvia Solar": [
+   "ppm"
+  ],
+  "Odos Ano Choras Poleme Solar": [
+   "ppm"
+  ],
+  "Agkinara Veli Solar Farm": [
+   "ppm"
+  ],
+  "Elis Gastounis Amoutsa Solar": [
+   "ppm"
+  ],
+  "Elis Leivadakia Solar": [
+   "ppm"
+  ],
+  "Klokeri Solar Farm": [
+   "ppm"
+  ],
+  "Olga Solar Farm": [
+   "ppm"
+  ],
+  "Stafidokabos Samara Solar Farm": [
+   "ppm"
+  ],
+  "Ayioi Theodoroi Motor Oil Ellas Solar": [
+   "ppm"
+  ],
+  "Corinth Refinery": [
+   "ppm"
+  ],
+  "Attica Dritsa Sterna Solar": [
+   "ppm"
+  ],
+  "Attica Kolata Solar": [
+   "ppm"
+  ],
+  "Attica Toutouli Solar": [
+   "ppm"
+  ],
+  "Attica Vlychada Solar": [
+   "ppm"
+  ],
+  "Megalo Vathychori Psathas Solar Farm": [
+   "ppm"
+  ],
+  "Gyphtomnimata Solar": [
+   "ppm"
+  ],
+  "Niforeika Solar": [
+   "ppm"
+  ],
+  "Spatholaka Achaia Solar": [
+   "ppm"
+  ],
+  "Attica Kyrillo Solar": [
+   "ppm"
+  ],
+  "Attica Lako Gkolemi Gkoritiza Solar": [
+   "ppm"
+  ],
+  "Attica Mavro Lithari Kurillo Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Attica Rykia Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Gkoritsa Sochores Solar Farm": [
+   "ppm"
+  ],
+  "Limnochori Solar Farm": [
+   "ppm"
+  ],
+  "Dimiri Solar Farm": [
+   "ppm"
+  ],
+  "Kopria Tzortzi Solar": [
+   "ppm"
+  ],
+  "Lakka Ryki Achaia Solar": [
+   "ppm"
+  ],
+  "Rikia Rikies Solar": [
+   "ppm"
+  ],
+  "Attica Lakko Kamaterou Solar": [
+   "ppm"
+  ],
+  "Attica Osios Loukas Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Attica Patima Ratheri Solar": [
+   "ppm"
+  ],
+  "Attica Skarpa Kamaterou Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Moungoulios Wind Farm": [
+   "ppm"
+  ],
+  "Krekeza Moungoulios Wind Farm": [
+   "ppm"
+  ],
+  "Aetos Airenergy Wind Farm": [
+   "ppm"
+  ],
+  "Boukaliona Wind Farm": [
+   "ppm"
+  ],
+  "Doera Psiloma Wind Farm": [
+   "ppm"
+  ],
+  "Megalo Vouno Energy Community Wind Farm": [
+   "ppm"
+  ],
+  "Megalo Vouno Magn Energy Wind Farm": [
+   "ppm"
+  ],
+  "Megalo Vouno Psiloma Wind Farm": [
+   "ppm"
+  ],
+  "Xirorema Wind Farm": [
+   "ppm"
+  ],
+  "Kephallonia Mavrogennada Solar": [
+   "ppm"
+  ],
+  "Evmorphia Wind Farm": [
+   "ppm"
+  ],
+  "Xeroliba Monolate Wind Farm": [
+   "ppm"
+  ],
+  "Mavrovouni Mavroplayia Panorama Wind Farm": [
+   "ppm"
+  ],
+  "Gouri Meles Kiapha Verme Wind Farm": [
+   "ppm"
+  ],
+  "Choundri Solar Farm": [
+   "ppm"
+  ],
+  "Darali Solar Farm": [
+   "ppm"
+  ],
+  "Dimosia Abelochoriou Solar Farm": [
+   "ppm"
+  ],
+  "Dromos Vylliotikos Solar Farm": [
+   "ppm"
+  ],
+  "Kithaironas Wind Farm": [
+   "ppm"
+  ],
+  "Konizos Megali Kotsikia Solar Farm": [
+   "ppm"
+  ],
+  "Mavroplagia Maurovouni Wind Farm": [
+   "ppm"
+  ],
+  "Platani Mw Solar Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Tou Orous Kithairona Wind Farm": [
+   "ppm"
+  ],
+  "Ayia Dynate Wind Farm": [
+   "ppm"
+  ],
+  "Kephallonia Myloi Solar": [
+   "ppm"
+  ],
+  "Kolona Daphne Wind Farm": [
+   "ppm"
+  ],
+  "Rachoula Paschalies Wind Farm": [
+   "ppm"
+  ],
+  "Kourmoutsi Kardara Wind Farm": [
+   "ppm"
+  ],
+  "Pyramida Chelona Wind Farm": [
+   "ppm"
+  ],
+  "Tsitome Paliopournara Wind Farm": [
+   "ppm"
+  ],
+  "Achladitsa Wind Farm": [
+   "ppm"
+  ],
+  "Boeotia Skineza Thespieon Solar": [
+   "ppm"
+  ],
+  "Dalamaki Wind Farm": [
+   "ppm"
+  ],
+  "Korobili Wind Farm": [
+   "ppm"
+  ],
+  "Livadostra Wind Farm": [
+   "ppm"
+  ],
+  "Mavro Spithari Wind Farm": [
+   "ppm"
+  ],
+  "Samara Solar Farm": [
+   "ppm"
+  ],
+  "Boeotia Laphystiou Karaxini Solar": [
+   "ppm"
+  ],
+  "Korphe Wind Farm": [
+   "ppm"
+  ],
+  "Anadasmos Solinariou Solar": [
+   "ppm"
+  ],
+  "Boeotia Koumari Solar": [
+   "ppm"
+  ],
+  "Boeotia Liosia Solar": [
+   "ppm"
+  ],
+  "Gddourorrachi Wind Farm": [
+   "ppm"
+  ],
+  "Grammene Plaka Rache Wind Farm": [
+   "ppm"
+  ],
+  "Karkaros Wind Farm": [
+   "ppm"
+  ],
+  "Phocis Koniskia Solar": [
+   "ppm"
+  ],
+  "Phocis Rachi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Etaireia Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Mavrikas Solar": [
+   "ppm"
+  ],
+  "Kanata Estate Solar Farm": [
+   "ppm"
+  ],
+  "Zachoules Solar": [
+   "ppm"
+  ],
+  "Erimia Phthiotidas Eremia Wind Farm": [
+   "ppm"
+  ],
+  "Karakogianni Korakogianni Solar": [
+   "ppm"
+  ],
+  "Kokkino Lithari Wind Farm": [
+   "ppm"
+  ],
+  "Koutroula Wind Farm": [
+   "ppm"
+  ],
+  "Livadi Wind Farm": [
+   "ppm"
+  ],
+  "Mytikas Anaptyxiake Wind Farm": [
+   "ppm"
+  ],
+  "Phthiotis Katounia Solar": [
+   "ppm"
+  ],
+  "Rachi Ginas Wind Farm": [
+   "ppm"
+  ],
+  "Makrechoria Amphilochias Solar Farm": [
+   "ppm"
+  ],
+  "Petalas Thyamon Oros Wind Farm": [
+   "ppm"
+  ],
+  "Savva Futeies Solar": [
+   "ppm"
+  ],
+  "Vromoneri Futeion Solar": [
+   "ppm"
+  ],
+  "Evrytania Petra Solar": [
+   "ppm"
+  ],
+  "Kastri Kokkalia Wind Farm": [
+   "ppm"
+  ],
+  "Pikrovouni Wind Farm": [
+   "ppm"
+  ],
+  "Tybano Tryperi Wind Farm": [
+   "ppm"
+  ],
+  "Phthiotis Ayia Eleni Solar": [
+   "ppm"
+  ],
+  "Phthiotis Trani Patlia Solar": [
+   "ppm"
+  ],
+  "Domokou Xyniadas Solar": [
+   "ppm"
+  ],
+  "Domokou Xyniadas Solar #2": [
+   "ppm"
+  ],
+  "Manolia Vataki Tk Aphratis Solar": [
+   "ppm"
+  ],
+  "Phthiotis Bourouni Kp Aphratis Solar": [
+   "ppm"
+  ],
+  "Labras Solar Farm": [
+   "ppm"
+  ],
+  "Arta Solar": [
+   "ppm"
+  ],
+  "Paliokklisi Solar Farm": [
+   "ppm"
+  ],
+  "Preveza Floros Tk Oropou Solar": [
+   "ppm"
+  ],
+  "Preveza Gura Loutsa Solar": [
+   "ppm"
+  ],
+  "Preveza Karvounes Solar": [
+   "ppm"
+  ],
+  "Dekaria Ekkaras Thessaliotidos Solar": [
+   "ppm"
+  ],
+  "Gephyria Solar Farm": [
+   "ppm"
+  ],
+  "Grammatikou Solar Farm": [
+   "ppm"
+  ],
+  "Karditsa Agr Solar": [
+   "ppm"
+  ],
+  "Karditsa Agr Solar #2": [
+   "ppm"
+  ],
+  "Karditsa Agrotemachio Agiou Vissariou Solar": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Agiouy Vissariou Solar": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #2": [
+   "ppm"
+  ],
+  "Sophadon Mavrachades Solar": [
+   "ppm"
+  ],
+  "Tsakarli Sophadon Solar": [
+   "ppm"
+  ],
+  "Tsakarli Sophadon Solar #2": [
+   "ppm"
+  ],
+  "Amvrakikou Arta Solar": [
+   "ppm"
+  ],
+  "Amvrakikou Solar": [
+   "ppm"
+  ],
+  "Marathia Kabis Solar Farm": [
+   "ppm"
+  ],
+  "Mousia Solar Farm": [
+   "ppm"
+  ],
+  "Paliorongo Stauroulidia Solar Farm": [
+   "ppm"
+  ],
+  "Stenolivada Kalyves Solar Farm": [
+   "ppm"
+  ],
+  "Aeras Wind Farm": [
+   "ppm"
+  ],
+  "Koulia Solar Farm": [
+   "ppm"
+  ],
+  "Preveza Agr Solar": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #2": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #3": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #4": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #5": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #6": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #7": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #8": [
+   "ppm"
+  ],
+  "Preveza Agr Solar #9": [
+   "ppm"
+  ],
+  "Preveza Gkonia Kai Klirotemachio Solar": [
+   "ppm"
+  ],
+  "Preveza Kastri Solar": [
+   "ppm"
+  ],
+  "Preveza Klirotemachio Solar": [
+   "ppm"
+  ],
+  "Preveza Klirotemachio Solar #2": [
+   "ppm"
+  ],
+  "Preveza Klirotemachio Solar #3": [
+   "ppm"
+  ],
+  "Preveza Koroni Solar": [
+   "ppm"
+  ],
+  "Preveza Melissa Solar": [
+   "ppm"
+  ],
+  "Preveza Ripi Solar": [
+   "ppm"
+  ],
+  "Preveza Stavrochori Solar": [
+   "ppm"
+  ],
+  "Preveza Themelo Solar": [
+   "ppm"
+  ],
+  "Preveza Themelo Solar #2": [
+   "ppm"
+  ],
+  "Thesprotia Tem Kousoula Solar": [
+   "ppm"
+  ],
+  "Magnesia Bilali Tk Agiou Georgiou Solar": [
+   "ppm"
+  ],
+  "Magnesia Geladistres Diminiou Solar": [
+   "ppm"
+  ],
+  "Magnesia Gournes Tk Kerasias Solar": [
+   "ppm"
+  ],
+  "Magnesia Kokkinogia Vava Rema Solar": [
+   "ppm"
+  ],
+  "Magnesia Ouvria Solar": [
+   "ppm"
+  ],
+  "Magnesia Pe Volou Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Ephta Mirasies Solar": [
+   "ppm"
+  ],
+  "Foniades Vathiones Solar": [
+   "ppm"
+  ],
+  "Halkiades Lorida Solar": [
+   "ppm"
+  ],
+  "Kileler Karatzi Solar": [
+   "ppm"
+  ],
+  "Kileler Karatzi Solar #2": [
+   "ppm"
+  ],
+  "Kileler Karatzi Solar #3": [
+   "ppm"
+  ],
+  "Kileler Karatzi Solar #4": [
+   "ppm"
+  ],
+  "Kritsilar Solar Farm": [
+   "ppm"
+  ],
+  "Larisa Agr Palaiochori Enistu Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #2": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #3": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #4": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #5": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #6": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #7": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #8": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #9": [
+   "ppm"
+  ],
+  "Larisa Aivali Solar": [
+   "ppm"
+  ],
+  "Larisa Aivali Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Aivalia Tem Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Oktaria Solar": [
+   "ppm"
+  ],
+  "Larisa Palatsia Tem Solar": [
+   "ppm"
+  ],
+  "Larisa Parasporia Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Parasporia Arg Solar #2": [
+   "ppm"
+  ],
+  "Larisa Petrolakes Aivali Solar": [
+   "ppm"
+  ],
+  "Larisa Platanorema Agr Solar": [
+   "ppm"
+  ],
+  "Larisa Pournari Agr Solar": [
+   "ppm"
+  ],
+  "Larisa Pournari Tem Agr Dilophou Solar": [
+   "ppm"
+  ],
+  "Larisa Zapeio Arg Solar": [
+   "ppm"
+  ],
+  "Megalo Monastiri Larisa Solar": [
+   "ppm"
+  ],
+  "Zournadia Solar Farm": [
+   "ppm"
+  ],
+  "Karagatsia Tem Solar": [
+   "ppm"
+  ],
+  "Trikala Agr Solar": [
+   "ppm"
+  ],
+  "Megala Kalyvia Solar Farm": [
+   "ppm"
+  ],
+  "Chasan Tatar Dodekaria Agr Solar": [
+   "ppm"
+  ],
+  "Chiliostremma Agr Solar": [
+   "ppm"
+  ],
+  "Dodekaria Agr Solar": [
+   "ppm"
+  ],
+  "Dodekaria Solar": [
+   "ppm"
+  ],
+  "Kalamaki Agr Solar": [
+   "ppm"
+  ],
+  "Kamtsiouli Solar": [
+   "ppm"
+  ],
+  "Karaeri Ayiou Georgiou Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Zappeiou Solar": [
+   "ppm"
+  ],
+  "Larisa Artasavo Leivadi Solar": [
+   "ppm"
+  ],
+  "Larisa Bouzanes Solar": [
+   "ppm"
+  ],
+  "Larisa Bouziana Kazania Solar": [
+   "ppm"
+  ],
+  "Larisa Ilistai Solar": [
+   "ppm"
+  ],
+  "Larisa Ilistai Solar #2": [
+   "ppm"
+  ],
+  "Larisa Ilistes Solar": [
+   "ppm"
+  ],
+  "Larisa Intzerli Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Intzerli Solar": [
+   "ppm"
+  ],
+  "Larisa Intzerli Sykia Solar": [
+   "ppm"
+  ],
+  "Larisa Karaeri Solar": [
+   "ppm"
+  ],
+  "Larisa Kavouras Isolar": [
+   "ppm"
+  ],
+  "Larisa Kazani Solar": [
+   "ppm"
+  ],
+  "Larisa Kazania Solar": [
+   "ppm"
+  ],
+  "Larisa Kileler Solar": [
+   "ppm"
+  ],
+  "Larisa Liaga Solar": [
+   "ppm"
+  ],
+  "Larisa Magoules Solar": [
+   "ppm"
+  ],
+  "Larisa Meterizi Solar": [
+   "ppm"
+  ],
+  "Larisa Periochi Solar": [
+   "ppm"
+  ],
+  "Larisa Petra Karantari Solar": [
+   "ppm"
+  ],
+  "Larisa Pigadoulia Liaga Solar": [
+   "ppm"
+  ],
+  "Larisa Pigadoulia Solar": [
+   "ppm"
+  ],
+  "Larisa Pigadoulia Solar #2": [
+   "ppm"
+  ],
+  "Larisa Samanliki Solar": [
+   "ppm"
+  ],
+  "Larisa Samanlouki Solar": [
+   "ppm"
+  ],
+  "Larisa Talania Solar": [
+   "ppm"
+  ],
+  "Larisa Talante Atalanti Solar": [
+   "ppm"
+  ],
+  "Larisa Tem Agroktima Doxara Solar": [
+   "ppm"
+  ],
+  "Larisa Vlachomnimata Solar": [
+   "ppm"
+  ],
+  "Larisa Ylistai Ilistes Solar": [
+   "ppm"
+  ],
+  "Barbarousa Agr Solar": [
+   "ppm"
+  ],
+  "Chontri Rachi Solar Farm": [
+   "ppm"
+  ],
+  "Dekaexaria Solar": [
+   "ppm"
+  ],
+  "Karatipe Agr Solar": [
+   "ppm"
+  ],
+  "Kilada Pempti Solar": [
+   "ppm"
+  ],
+  "Larisa Abelakia Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #10": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #11": [
+   "ppm"
+  ],
+  "Larisa Agrotemachio Tsairia Solar": [
+   "ppm"
+  ],
+  "Larisa Asprogia Koiladas Solar": [
+   "ppm"
+  ],
+  "Larisa Kalamia Solar": [
+   "ppm"
+  ],
+  "Larisa Maurogia Valtos Solar": [
+   "ppm"
+  ],
+  "Larisa Meterizi Agr Solar": [
+   "ppm"
+  ],
+  "Larisa Plagia Loutrou Solar": [
+   "ppm"
+  ],
+  "Larisa Siopiti Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Tsibagko Pigadi Solar": [
+   "ppm"
+  ],
+  "Larisa Tsibagko Solar": [
+   "ppm"
+  ],
+  "Lykou Mantri Larissa Solar": [
+   "ppm"
+  ],
+  "Ioannia Stravolakos Solar": [
+   "ppm"
+  ],
+  "Ioannina Agr Solar": [
+   "ppm"
+  ],
+  "Ioannina Solar": [
+   "ppm"
+  ],
+  "Corfu Kalopodi Solar": [
+   "ppm"
+  ],
+  "Kaminia Kolovoutselo Solar Farm": [
+   "ppm"
+  ],
+  "Daouslar Enel Green Solar Farm": [
+   "ppm"
+  ],
+  "Galanovrusi Paliabela Ar Tem Solar": [
+   "ppm"
+  ],
+  "Giannakos Vruotopou Solar": [
+   "ppm"
+  ],
+  "Kara Tsairi Solar": [
+   "ppm"
+  ],
+  "Karagianni Trikari Wind Farm": [
+   "ppm"
+  ],
+  "Kirgia Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #12": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #13": [
+   "ppm"
+  ],
+  "Larisa Agr Tsiayria Solar": [
+   "ppm"
+  ],
+  "Larisa Kasla Solar": [
+   "ppm"
+  ],
+  "Larisa Paloukia Solar": [
+   "ppm"
+  ],
+  "Larisa Rizo Sidirodromiki Grammi Solar": [
+   "ppm"
+  ],
+  "Larisaprosilia Vruotopou Solar": [
+   "ppm"
+  ],
+  "Mikrolithos Solar Farm": [
+   "ppm"
+  ],
+  "Pe Larisas Solar": [
+   "ppm"
+  ],
+  "Xirokabos Solar Farm": [
+   "ppm"
+  ],
+  "Larisa Vardari Solar": [
+   "ppm"
+  ],
+  "Kozani Agr Solar": [
+   "ppm"
+  ],
+  "Kozani Kamvounia Solar": [
+   "ppm"
+  ],
+  "Kozani Kamvounia Solar #2": [
+   "ppm"
+  ],
+  "Pyloron Farm Solar Farm": [
+   "ppm"
+  ],
+  "Ilarionas": [
+   "ppm"
+  ],
+  "Pieria Palaioporos Solar": [
+   "ppm"
+  ],
+  "Agroktima Karkara Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agr Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agr Solar #2": [
+   "ppm"
+  ],
+  "Chalkidiki Agr Solar #3": [
+   "ppm"
+  ],
+  "Chalkidiki At Solar": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #2": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #3": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #4": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Mesianis Solar": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Solar #3": [
+   "ppm"
+  ],
+  "Lefkes Kerasia Ellispontos Wind Farm": [
+   "ppm"
+  ],
+  "Mana Nerou Solar": [
+   "ppm"
+  ],
+  "Oinoi Greenera Solar Farm": [
+   "ppm"
+  ],
+  "Stournari Wind Farm": [
+   "ppm"
+  ],
+  "Kozani Agr Agroktimatos Petranon Solar": [
+   "ppm"
+  ],
+  "Kozani Agr Agroktimatos Petranon Solar #2": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #5": [
+   "ppm"
+  ],
+  "Kozani Miliadika Solar": [
+   "ppm"
+  ],
+  "Ptelea Solar Farm": [
+   "ppm"
+  ],
+  "Aetorachi Sideras Solar Farm": [
+   "ppm"
+  ],
+  "Askio Wind Farm": [
+   "ppm"
+  ],
+  "Ayios Ioannis Nea Nikopoli Solar Farm": [
+   "ppm"
+  ],
+  "Demetriou Epselante Solar Farm": [
+   "ppm"
+  ],
+  "Isoma Rothiane Solar Farm": [
+   "ppm"
+  ],
+  "Kerdoma Alonakia Solar Farm": [
+   "ppm"
+  ],
+  "Kokkinorachi Kalamia Clean Energy Solar Farm": [
+   "ppm"
+  ],
+  "Koukouli Grivas Wind Farm": [
+   "ppm"
+  ],
+  "Kouphopetra Mandria Solar Farm": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Solar #4": [
+   "ppm"
+  ],
+  "Kozani Ayios Minas Maurodendri Solar": [
+   "ppm"
+  ],
+  "Mandria Nea Kardia Solar Farm": [
+   "ppm"
+  ],
+  "Maurochoma Maurodendri Solar": [
+   "ppm"
+  ],
+  "Mellia Wind Farm": [
+   "ppm"
+  ],
+  "Perasma Solar Farm": [
+   "ppm"
+  ],
+  "Trano Phragma Solar Farm": [
+   "ppm"
+  ],
+  "Ypsoma Karoglou Solar Farm": [
+   "ppm"
+  ],
+  "Maurodendri Clean Energy Solar": [
+   "ppm"
+  ],
+  "Ayios Christophoros Solar Farm": [
+   "ppm"
+  ],
+  "Giona Bourika Wind Farm": [
+   "ppm"
+  ],
+  "Paliabela Western Solar Farm": [
+   "ppm"
+  ],
+  "Pteleonas Solar": [
+   "ppm"
+  ],
+  "Ayios Antonios Kerameia Allatini Solar Farm": [
+   "ppm"
+  ],
+  "Thessaloniki Chortiatis Solar Park": [
+   "ppm"
+  ],
+  "Philotas Solar": [
+   "ppm"
+  ],
+  "Rodonas Solar Farm": [
+   "ppm"
+  ],
+  "Agrotemachio Aiyos Athanasios Solar": [
+   "ppm"
+  ],
+  "Ayios Athanasios Solar": [
+   "ppm"
+  ],
+  "Ballaiika Limni Solar": [
+   "ppm"
+  ],
+  "Kallithea Agr Solar": [
+   "ppm"
+  ],
+  "Kallithea Mesimvrias Solar": [
+   "ppm"
+  ],
+  "Kallithea Solar": [
+   "ppm"
+  ],
+  "Kilkis Mauroneri Solar": [
+   "ppm"
+  ],
+  "Mesimvrias Solar": [
+   "ppm"
+  ],
+  "Mikrokabos Ar Solar": [
+   "ppm"
+  ],
+  "Pentalophou Land Plot Solar Farm": [
+   "ppm"
+  ],
+  "Xirochori Ayios Athanasios Solar": [
+   "ppm"
+  ],
+  "Xirochori Ayios Athanasios Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Agr Agroktimatos Gallikou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #3": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #4": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #5": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #6": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #7": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #8": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #9": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #10": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #11": [
+   "ppm"
+  ],
+  "Thessaloniki Dromos Karteron Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Drumou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Telez Ntiskina Solar": [
+   "ppm"
+  ],
+  "Evros Agr Solar": [
+   "ppm"
+  ],
+  "Evros Amygdalia Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Kastri Skalochoriou Wind Farm": [
+   "ppm"
+  ],
+  "Kavisos Solar": [
+   "ppm"
+  ],
+  "Sigri Wind Farm": [
+   "ppm"
+  ],
+  "Skamniouda Wind Farm": [
+   "ppm"
+  ],
+  "Chatzi Serres Solar": [
+   "ppm"
+  ],
+  "Melagkas Serres Solar": [
+   "ppm"
+  ],
+  "Rodolivous Serron Milangia Solar": [
+   "ppm"
+  ],
+  "Serres Agr Agroktima Neas Petras Solar": [
+   "ppm"
+  ],
+  "Serres Agr Lakkos Solar": [
+   "ppm"
+  ],
+  "Serres Agr Solar": [
+   "ppm"
+  ],
+  "Serres Angistas Solar": [
+   "ppm"
+  ],
+  "Serres Melagkas Sphelinou Solar": [
+   "ppm"
+  ],
+  "Serres Mesorrachis Lapatka Solar": [
+   "ppm"
+  ],
+  "Serres Neas Zichnis Tzirinos Solar": [
+   "ppm"
+  ],
+  "Serres Pano Dromoudia Solar": [
+   "ppm"
+  ],
+  "Serres Sphelinou Abelia Solar": [
+   "ppm"
+  ],
+  "Serres Sphelinou Ano Lapatka Neolaia Solar": [
+   "ppm"
+  ],
+  "Serres Sphelinou Askamnouda Bairi Tmimata Solar": [
+   "ppm"
+  ],
+  "Serres Sphelinou Chatziangeli Solar": [
+   "ppm"
+  ],
+  "Serres Sphelinou Vrusoudes Solar": [
+   "ppm"
+  ],
+  "Serres Tsoukla Solar": [
+   "ppm"
+  ],
+  "Sphelinos Solar": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Neas Komis Solar": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Gravounas Solar": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Neas Komis Solar #2": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Neas Komis Solar #3": [
+   "ppm"
+  ],
+  "Kavala Agr Solar": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #2": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #3": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #4": [
+   "ppm"
+  ],
+  "Kavala Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Kavala Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Kavala Erateinou Chrusoupolis Solar": [
+   "ppm"
+  ],
+  "Kavala Pe Kavalas Solar": [
+   "ppm"
+  ],
+  "Pernis Chrusoupolis Solar": [
+   "ppm"
+  ],
+  "Petropigis Chrusoupolis Solar": [
+   "ppm"
+  ],
+  "Petropigis Chrusoupolis Solar #2": [
+   "ppm"
+  ],
+  "Petropigis Chrusoupolis Solar #3": [
+   "ppm"
+  ],
+  "Pontolivadou Chrusoupolis Solar": [
+   "ppm"
+  ],
+  "Axiochori Solar Farm": [
+   "ppm"
+  ],
+  "Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Chorygio Solar": [
+   "ppm"
+  ],
+  "Iliolousto Aims Solar Farm": [
+   "ppm"
+  ],
+  "Kilkis Agr Asprou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #4": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #5": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #6": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #7": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #8": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #9": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Agr Chio Solar": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Agr Chio Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Agr Chio Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar #4": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar #5": [
+   "ppm"
+  ],
+  "Kilkis Chorugiou Tmima Solar": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #4": [
+   "ppm"
+  ],
+  "Kilkis Paionias Solar": [
+   "ppm"
+  ],
+  "Kilkis Tmima Solar": [
+   "ppm"
+  ],
+  "Kilkis Tmima Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Village Solar": [
+   "ppm"
+  ],
+  "Kilkis Xirolakkos Solar Farm #2": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #12": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #13": [
+   "ppm"
+  ],
+  "Anadasmos Tubanou Farm Solar": [
+   "ppm"
+  ],
+  "Avdira Pezoyla Solar Farm": [
+   "ppm"
+  ],
+  "Avdira Solar Farm": [
+   "ppm"
+  ],
+  "Avdiron Farm Solar Farm": [
+   "ppm"
+  ],
+  "Choirodasos Solar Farm": [
+   "ppm"
+  ],
+  "Genisea Solar Farm": [
+   "ppm"
+  ],
+  "Genitseas Solar Farm": [
+   "ppm"
+  ],
+  "Gkiona Solar Farm": [
+   "ppm"
+  ],
+  "Kossos Helioenergy Kossos Solar Farm": [
+   "ppm"
+  ],
+  "Magiko Solar Farm": [
+   "ppm"
+  ],
+  "Magikou Solar Farm": [
+   "ppm"
+  ],
+  "Pezoula Solar Farm": [
+   "ppm"
+  ],
+  "Topeiros Solar": [
+   "ppm"
+  ],
+  "Vanianou Exochis Solar Farm": [
+   "ppm"
+  ],
+  "Veloni Solar Farm": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #2": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #3": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #4": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #5": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #6": [
+   "ppm"
+  ],
+  "Xanthi Avdira Solar": [
+   "ppm"
+  ],
+  "Xanthi Avdira Solar #2": [
+   "ppm"
+  ],
+  "Xanthi Avdira Solar #3": [
+   "ppm"
+  ],
+  "Xanthi Gkiona Solar": [
+   "ppm"
+  ],
+  "Xanthi Pezoula Solar": [
+   "ppm"
+  ],
+  "Xanthi Solar": [
+   "ppm"
+  ],
+  "Xanthi Solar #2": [
+   "ppm"
+  ],
+  "Petrousas Farm Solar Farm": [
+   "ppm"
+  ],
+  "Chiropotamou Farm Solar Farm": [
+   "ppm"
+  ],
+  "Damaskinorema Solar": [
+   "ppm"
+  ],
+  "Dramas Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "Dramas Solar": [
+   "ppm"
+  ],
+  "Petrousas Farm Solar Farm #2": [
+   "ppm"
+  ],
+  "Petrousas Solar": [
+   "ppm"
+  ],
+  "Photolivos Plot Solar Farm": [
+   "ppm"
+  ],
+  "Grammatikaki Wind Farm": [
+   "ppm"
+  ],
+  "Kyrton Wind Farm": [
+   "ppm"
+  ],
+  "Milia Kapetanios Wind Farm": [
+   "ppm"
+  ],
+  "Monasteri Wind Farm": [
+   "ppm"
+  ],
+  "Phadaros Wind Farm": [
+   "ppm"
+  ],
+  "Phlabouro Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1005512890-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chylos Pherron Evrou Energy Wind Farm": [
+   "ppm"
+  ],
+  "Derveni Mikro Derveni Sliva Wind Farm": [
+   "ppm"
+  ],
+  "Alexandroupolis Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "Evros Agr Dorikou Solar": [
+   "ppm"
+  ],
+  "Glukychoma Dorikou Wind Farm": [
+   "ppm"
+  ],
+  "Xirovouni Alexandroupoli Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1005802936-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mytoula Kephali Wind Farm": [
+   "ppm"
+  ],
+  "Didemos Lophos Dichalo Wind Farm": [
+   "ppm"
+  ],
+  "Phoudoukia Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1005812374-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Alonia Ellinikou Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1030675968-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/105184051-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bali Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1144839139-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Katiphori Solar": [
+   "ppm"
+  ],
+  "Attica Loutsa Solar": [
+   "ppm"
+  ],
+  "Grava Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Megali Rachi Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/115027244-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Rodopi Agr Solar": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #2": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #3": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #4": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #5": [
+   "ppm"
+  ],
+  "Rodopi Mavrochoma Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/118901247-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Amaliada Pyrgou Patron Solar": [
+   "ppm"
+  ],
+  "Kypelissa Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/120740424-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Baltziki Solar": [
+   "ppm"
+  ],
+  "Bobaina Solar Farm": [
+   "ppm"
+  ],
+  "Daskalos Glunes Oinois Solar Farm": [
+   "ppm"
+  ],
+  "Elis Elitsa Solar": [
+   "ppm"
+  ],
+  "Kakavos Koufala Solar Farm": [
+   "ppm"
+  ],
+  "Katsarolakka Solar Farm": [
+   "ppm"
+  ],
+  "Koutsoupia Solar Farm": [
+   "ppm"
+  ],
+  "Phragkovruso Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/120913153-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aetopholia Wind Farm": [
+   "ppm"
+  ],
+  "Agrilios Agriliou Wind Farm": [
+   "ppm"
+  ],
+  "Asprochomata Wind Farm": [
+   "ppm"
+  ],
+  "Kedros Voiotias Kedros Wind Farm": [
+   "ppm"
+  ],
+  "Lithari Wind Farm": [
+   "ppm"
+  ],
+  "Longos Windbeam Wind Farm": [
+   "ppm"
+  ],
+  "Mandria Wind Farm": [
+   "ppm"
+  ],
+  "Megalo Rema Wind Farm": [
+   "ppm"
+  ],
+  "Skopies Aktina Lakonias Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1255381990-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/1256844049-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/1256844098-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Delphini Solar Farm": [
+   "ppm"
+  ],
+  "Drama Agr Solar": [
+   "ppm"
+  ],
+  "Drama Agrotemachia Solar": [
+   "ppm"
+  ],
+  "Drama Agrotemachia Solar #2": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Agroktima Chrusokephalou Solar": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #3": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #4": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #5": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #6": [
+   "ppm"
+  ],
+  "Drama Agrotemachio Solar #7": [
+   "ppm"
+  ],
+  "Drama Kn Solar": [
+   "ppm"
+  ],
+  "Panoramatos Farm Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1264624717-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Akrine Solar Farm": [
+   "ppm"
+  ],
+  "Kryoneri Vermiou Wind Farm": [
+   "ppm"
+  ],
+  "Pilalistra Solar Farm": [
+   "ppm"
+  ],
+  "Pyrgos Magoula Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1265269317-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Dyo Peyka Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1269324673-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Euboea Agr Solar": [
+   "ppm"
+  ],
+  "Euboea Ayia Paraskevi Solar": [
+   "ppm"
+  ],
+  "Euboea Gkliori Koumarias Solar": [
+   "ppm"
+  ],
+  "Euboea Leivadi Phlaphlouna Solar": [
+   "ppm"
+  ],
+  "Euboea Sterna Solar": [
+   "ppm"
+  ],
+  "Roumani Philogli Solar": [
+   "ppm"
+  ],
+  "Sentouki Kastellas Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/128088635-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Makrynoros Wind Farm": [
+   "ppm"
+  ],
+  "Trikorpho Edf Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/128342493-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chamolio Solar Farm": [
+   "ppm"
+  ],
+  "Elis Agrapidia Solar": [
+   "ppm"
+  ],
+  "Agioi Theodoroi Solar Farm": [
+   "ppm"
+  ],
+  "Aitofolia Solar Farm": [
+   "ppm"
+  ],
+  "Akakies Center Solar Farm": [
+   "ppm"
+  ],
+  "Andravidas Solar Farm": [
+   "ppm"
+  ],
+  "Baltachersa Agr Solar": [
+   "ppm"
+  ],
+  "Droseli Solar Farm": [
+   "ppm"
+  ],
+  "Elis Droseli Solar": [
+   "ppm"
+  ],
+  "Elis Gorgos Solar": [
+   "ppm"
+  ],
+  "Elis Ypsilo Dendro Solar": [
+   "ppm"
+  ],
+  "Livadi Agion Taxiarchon Solar": [
+   "ppm"
+  ],
+  "Phengia Solar Farm": [
+   "ppm"
+  ],
+  "Tsekouraiiko Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/128799211-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Philiaton Farm Solar Farm": [
+   "ppm"
+  ],
+  "Thesprotia Temachio Anadasmou Valtos Ragiou Thuamidos Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/128870336-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Dekaenniaria Solar": [
+   "ppm"
+  ],
+  "Eikosieptaria Solar": [
+   "ppm"
+  ],
+  "Kipiria Arg Solar": [
+   "ppm"
+  ],
+  "Kokkinogies Larissa Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #14": [
+   "ppm"
+  ],
+  "Larisa Agrotemachia Solar": [
+   "ppm"
+  ],
+  "Larisa Karagkioz Magoula Solar": [
+   "ppm"
+  ],
+  "Larisa Meriades Solar": [
+   "ppm"
+  ],
+  "Larisas Ayias Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Larissa Mw Solar Farm": [
+   "ppm"
+  ],
+  "Melissochoriou Farm Solar Farm": [
+   "ppm"
+  ],
+  "Triantaria Larissa Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/129452806-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gerenia Solar": [
+   "ppm"
+  ],
+  "Kasides Larisa Solar": [
+   "ppm"
+  ],
+  "Larisa Kavouras Solar": [
+   "ppm"
+  ],
+  "Larisa Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Larisa Vangelitses Tk Nikaias Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/129452812-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Tzoumes Ioannia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/129545263-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/1305933249-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pachi Attica Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/131412085-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Phokas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1321679684-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/132381638-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Larisa Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Pieria Agr Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1333726536-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/134396253-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/134630651-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pyrgari Dystyon Wind Farm": [
+   "ppm"
+  ],
+  "Tsouka Tsoungari Wind Farm": [
+   "ppm"
+  ],
+  "Agriachladia Wind Farm": [
+   "ppm"
+  ],
+  "Euboea Achladeris Solar": [
+   "ppm"
+  ],
+  "Euboea Genekari Solar": [
+   "ppm"
+  ],
+  "Euboea Klopitsari Solar": [
+   "ppm"
+  ],
+  "Euboea Kriezon Solar": [
+   "ppm"
+  ],
+  "Gathoumeno Vrachaki Wind Farm": [
+   "ppm"
+  ],
+  "Kakari Wind Farm": [
+   "ppm"
+  ],
+  "Kaminia Livadera Vousounous Solar": [
+   "ppm"
+  ],
+  "Koskina Lakka Wind Farm": [
+   "ppm"
+  ],
+  "Makrerache Mesochorion Wind Farm": [
+   "ppm"
+  ],
+  "Melanios Wind Farm": [
+   "ppm"
+  ],
+  "Mesokipi Wind Farm": [
+   "ppm"
+  ],
+  "Myti Wind Farm": [
+   "ppm"
+  ],
+  "Paralia Zarakes Wind Farm": [
+   "ppm"
+  ],
+  "Paralia Zarakes Wind Farm #2": [
+   "ppm"
+  ],
+  "Platy Vouno Wind Farm": [
+   "ppm"
+  ],
+  "Pouda Wind Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Ppc Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgari Terna Wind Farm": [
+   "ppm"
+  ],
+  "Servouni Kaloyeriki Rachi Wind Farm": [
+   "ppm"
+  ],
+  "Servouni Vorina Litharia Wind Farm": [
+   "ppm"
+  ],
+  "Tsikna Prinia Prophetes Ilias Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134685184-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Ayia Triada Solar": [
+   "ppm"
+  ],
+  "Attica Koutsi Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134685185-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lakka Wind Farm": [
+   "ppm"
+  ],
+  "Playia Pseloma Wind Farm": [
+   "ppm"
+  ],
+  "Psoriaris Solar Farm": [
+   "ppm"
+  ],
+  "Rokani Kapha Wind Farm": [
+   "ppm"
+  ],
+  "Xeronome Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134819995-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Chil Athinon Korinthou Epi Ktiriou Solar": [
+   "ppm"
+  ],
+  "Attica Chlm Peoath Epi Stegis Ktiriou Solar": [
+   "ppm"
+  ],
+  "Soures Vlycha Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134935126-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Boeotia Alogaki Solar": [
+   "ppm"
+  ],
+  "Boeotia Kiapha Solar": [
+   "ppm"
+  ],
+  "Paliovoros Sanida Lyste Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgari Rokas Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134949208-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ano Dendra Solar Farm": [
+   "ppm"
+  ],
+  "Ano Dendra Spes Solar": [
+   "ppm"
+  ],
+  "Boeotia Ayios Triadas Xinas Solar": [
+   "ppm"
+  ],
+  "Boeotia Laphystiou Karaxini Solar #2": [
+   "ppm"
+  ],
+  "Boeotia Pyli Dervenochorion Solar Projectayios Triadas Xinas": [
+   "ppm"
+  ],
+  "Melissi Wind Farm": [
+   "ppm"
+  ],
+  "Vouno Wind Farm": [
+   "ppm"
+  ],
+  "Zayaras Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134949209-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agroktima Orchomenou Voiotias Solar": [
+   "ppm"
+  ],
+  "Ayios Georgios Leukochorioy Solar Farm": [
+   "ppm"
+  ],
+  "Boeotia Plaka Solar": [
+   "ppm"
+  ],
+  "Boeotia Stathmos Levadia Solar": [
+   "ppm"
+  ],
+  "Loutsa Solar Farm": [
+   "ppm"
+  ],
+  "Yios Ioannis Ktiriou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134951363-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kalamitis Solar": [
+   "ppm"
+  ],
+  "Bitakos Solar Farm": [
+   "ppm"
+  ],
+  "Boeotia Chalko Raches Solar": [
+   "ppm"
+  ],
+  "Boeotia Mesovouni Solar": [
+   "ppm"
+  ],
+  "Boeotia Palia Sotira Solar": [
+   "ppm"
+  ],
+  "Boeotia Patima Mesovouni Solar": [
+   "ppm"
+  ],
+  "Dimou Thivaion Solar Farm": [
+   "ppm"
+  ],
+  "Kokkinovrachos Ai Lias Puriou Solar": [
+   "ppm"
+  ],
+  "Phloka Solar Farm": [
+   "ppm"
+  ],
+  "Soros Solar Farm": [
+   "ppm"
+  ],
+  "Tenteris Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/134952977-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Domokou Xyniadas Solar #3": [
+   "ppm"
+  ],
+  "Orophi Ktiriou Sto Chlm Neo Athinon Lamias Solar": [
+   "ppm"
+  ],
+  "Phthiotis Ano Petrochorapha Solar": [
+   "ppm"
+  ],
+  "Phthiotis Klarorachi Solar": [
+   "ppm"
+  ],
+  "Phthiotis Koromilas Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135177715-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Ag Ioannis Pe Aspropurgou Orofi Ktiriou Solar": [
+   "ppm"
+  ],
+  "Vipa Diylistirion Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135234266-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aspropyrgos Refinery": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Klephti Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Papanikola Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Tragana Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135266022-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Revenia Aurum Solar Farm": [
+   "ppm"
+  ],
+  "Abelia Platanakia Wind Farm": [
+   "ppm"
+  ],
+  "Ayios Ioannis Ypatou Solar Farm": [
+   "ppm"
+  ],
+  "Boeotia Cheromata Solar": [
+   "ppm"
+  ],
+  "Boeotia Chiliadou Solar": [
+   "ppm"
+  ],
+  "Bourneri Thisvis Solar": [
+   "ppm"
+  ],
+  "Gkoumourada Solar Farm": [
+   "ppm"
+  ],
+  "Kakanoulis Kp Mourikiou Solar": [
+   "ppm"
+  ],
+  "Kalyva Paliorrema Wind Farm": [
+   "ppm"
+  ],
+  "Kastro Lykovouni Wind Farm": [
+   "ppm"
+  ],
+  "Ptoon Pyrgos Wind Farm": [
+   "ppm"
+  ],
+  "Revenia Solar Xiv": [
+   "ppm"
+  ],
+  "Tsoukes Gadir Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135463990-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Eneninta Amphikleias Solar Farm": [
+   "ppm"
+  ],
+  "Isoma Stefani Solar Farm": [
+   "ppm"
+  ],
+  "Kato Psilo Aloni Solar": [
+   "ppm"
+  ],
+  "Mulos Tk Mendenitsa Solar": [
+   "ppm"
+  ],
+  "Ntivanes Tk Mendenitsas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Balalou Solar": [
+   "ppm"
+  ],
+  "Phthiotis Ities Solar": [
+   "ppm"
+  ],
+  "Phthiotis Maliaki Solar": [
+   "ppm"
+  ],
+  "Phthiotis Mauromantila Solar": [
+   "ppm"
+  ],
+  "Phthiotis Touba Karyas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Trimona Solar": [
+   "ppm"
+  ],
+  "Phthiotis Tsapournia Solar": [
+   "ppm"
+  ],
+  "Phthiotis Vatopouria Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135594682-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Asprokabos Solar": [
+   "ppm"
+  ],
+  "Ayios Ioannis Vamvakies Solar Farm": [
+   "ppm"
+  ],
+  "Kalogradiko Solar Farm": [
+   "ppm"
+  ],
+  "Koulia Lankada Solar": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #6": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #7": [
+   "ppm"
+  ],
+  "Kozani Chalikia Solar": [
+   "ppm"
+  ],
+  "Kozani Papagianni Solar": [
+   "ppm"
+  ],
+  "Rache Phlamouria Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/135706289-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chalkodonio Wind Farm": [
+   "ppm"
+  ],
+  "Kasidogianni Megalo Monastiri Solar": [
+   "ppm"
+  ],
+  "Krevatia Agrokipiou Solar Farm": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #15": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #16": [
+   "ppm"
+  ],
+  "Larisa Dekaria Solar": [
+   "ppm"
+  ],
+  "Larisa Kabos Solar": [
+   "ppm"
+  ],
+  "Larisa Lounes Solar": [
+   "ppm"
+  ],
+  "Larisa Palichoria Tem Solar": [
+   "ppm"
+  ],
+  "Larisa Triamina Solar": [
+   "ppm"
+  ],
+  "Larisa Venzinalotra Solar": [
+   "ppm"
+  ],
+  "Magnesia Agros Tk Rizomulou Solar": [
+   "ppm"
+  ],
+  "Magnesia Almyres Solar": [
+   "ppm"
+  ],
+  "Magnesia Almyres Xiraulakas Neo Keramidario Solar": [
+   "ppm"
+  ],
+  "Magnesia Chandakas Agr Solar": [
+   "ppm"
+  ],
+  "Magnesia Kabadika Solar": [
+   "ppm"
+  ],
+  "Megalo Monastiri Magnesia Solar": [
+   "ppm"
+  ],
+  "Megalo Monastiri Solar Farm": [
+   "ppm"
+  ],
+  "Mikro Perivolaki Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136369144-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agioi Theodoroi Aerinoy Solar Farm": [
+   "ppm"
+  ],
+  "Dimini Volou Solar": [
+   "ppm"
+  ],
+  "Magnesia Alataria Solar": [
+   "ppm"
+  ],
+  "Magnesia Ayios Mamas Solar": [
+   "ppm"
+  ],
+  "Magnesia Galatadika Aerinou Solar": [
+   "ppm"
+  ],
+  "Magnesia Giaslas Agr Solar": [
+   "ppm"
+  ],
+  "Magnesia Paliochoria Solar": [
+   "ppm"
+  ],
+  "Magnesia Petromagoulo Ennia Kagelou Aramis Solar": [
+   "ppm"
+  ],
+  "Megali Velanidia Solar": [
+   "ppm"
+  ],
+  "Sesklo Solar Farm": [
+   "ppm"
+  ],
+  "Volou Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136369149-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/136370140-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Magnesia Ai Lia Sykia Solar": [
+   "ppm"
+  ],
+  "Magnesia Dendro Melissatiko Solar": [
+   "ppm"
+  ],
+  "Magnesia Kavourdes Solar": [
+   "ppm"
+  ],
+  "Magnesia Kleitsa Kaluvi Kokkines Solar": [
+   "ppm"
+  ],
+  "Magnesia Melissatika Solar": [
+   "ppm"
+  ],
+  "Magnesia Metro Melissatikon Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136450393-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/136456617-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/136543639-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Almyros Solar": [
+   "ppm"
+  ],
+  "Ano Gentzeli Solar Farm": [
+   "ppm"
+  ],
+  "Bozalo Bisdeika Solar Farm": [
+   "ppm"
+  ],
+  "Gintzeli Euxeinoupolis Athamas Solar": [
+   "ppm"
+  ],
+  "Magnesia Agr Solar": [
+   "ppm"
+  ],
+  "Magnesia Agrot Solar": [
+   "ppm"
+  ],
+  "Magnesia Agrot Solar #2": [
+   "ppm"
+  ],
+  "Magnesia Anoigmata Agr Solar": [
+   "ppm"
+  ],
+  "Magnesia At Solar": [
+   "ppm"
+  ],
+  "Magnesia At Strevadia Solar": [
+   "ppm"
+  ],
+  "Magnesia Ayioi Anargyroi Solar": [
+   "ppm"
+  ],
+  "Magnesia Bozalo Solar": [
+   "ppm"
+  ],
+  "Magnesia Kratsi Kp Platanou Solar": [
+   "ppm"
+  ],
+  "Magnesia Makrurrachi Arg Solar": [
+   "ppm"
+  ],
+  "Magnesia Strivadia Solar": [
+   "ppm"
+  ],
+  "Magnesia Vozalo Solar": [
+   "ppm"
+  ],
+  "Mavroyeia Asproyeia Solar": [
+   "ppm"
+  ],
+  "Zarkadochori Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136543640-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Euboea Agriomilia Keramidogournes Solar": [
+   "ppm"
+  ],
+  "Euboea Alogomandra Solar": [
+   "ppm"
+  ],
+  "Euboea Braba Solar": [
+   "ppm"
+  ],
+  "Euboea Karutsa Solar": [
+   "ppm"
+  ],
+  "Euboea Leukidia Solar": [
+   "ppm"
+  ],
+  "Euboea Pherai Asminiou Solar": [
+   "ppm"
+  ],
+  "Maraventza Ayphantis Solar": [
+   "ppm"
+  ],
+  "Papadopoulou Mylos Oreon Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136549173-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kamari Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136549175-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Phthiotis Abelia Katavothra Solar": [
+   "ppm"
+  ],
+  "Phthiotis Birbitsi Leivadi Solar": [
+   "ppm"
+  ],
+  "Phthiotis Panagitsa Karuas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Panagitsa Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136549180-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Phthiotis Duo Remmata Solar": [
+   "ppm"
+  ],
+  "Phthiotis Gdarmena Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Phthiotis Itsia Tk Vathukoilou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/136549181-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Geraki Solar Farm": [
+   "ppm"
+  ],
+  "Koromelia Mazaraki Wind Farm": [
+   "ppm"
+  ],
+  "Longaria Solar Farm": [
+   "ppm"
+  ],
+  "Lykorachi Solar Farm": [
+   "ppm"
+  ],
+  "Tsilia Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1373016934-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/140248148-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kokkinochori Solar Farm": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #14": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140343651-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Megalovouni Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140465680-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kavala Agrotemachio Solar #3": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140505580-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agkavala Solar": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Gravounas Solar #2": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #5": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #6": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #7": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #8": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #9": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #10": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #11": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #12": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #13": [
+   "ppm"
+  ],
+  "Kavala Agr Solar #14": [
+   "ppm"
+  ],
+  "Kavala Agrotemachio Solar #4": [
+   "ppm"
+  ],
+  "Kavala Solar": [
+   "ppm"
+  ],
+  "Xanthi Agr Solar #7": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140637735-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mavropaidi Wind Farm": [
+   "ppm"
+  ],
+  "Polysitos Solar Farm": [
+   "ppm"
+  ],
+  "Xanthi Pe Xanthis Solar": [
+   "ppm"
+  ],
+  "Xanthi Pe Xanthis Solar #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140638157-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Iasmos Solar Farm": [
+   "ppm"
+  ],
+  "Komotinis Solar Farm": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #6": [
+   "ppm"
+  ],
+  "Selino Solar Farm": [
+   "ppm"
+  ],
+  "Sounio Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140724364-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Altinia Solar Farm": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Neas Komis Solar #4": [
+   "ppm"
+  ],
+  "Kavala Agr Agroktima Neas Komis Solar #5": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/140890157-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Phrouros Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141029834-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agios Sozon Nisos Limnos Wind Farm": [
+   "ppm"
+  ],
+  "Evros Agr Solar #2": [
+   "ppm"
+  ],
+  "Evros Agr Solar #3": [
+   "ppm"
+  ],
+  "Rachoula Plakas Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141113249-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mandra Wind Farm": [
+   "ppm"
+  ],
+  "Rodopi Agr Solar #7": [
+   "ppm"
+  ],
+  "Rodopi Elia Solar": [
+   "ppm"
+  ],
+  "Rodopi Sapon Lukeiou Ar Tem Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141220249-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aspre Petra Wind Farm": [
+   "ppm"
+  ],
+  "Geraki Enel Wind Farm": [
+   "ppm"
+  ],
+  "Kerveros Wind Farm": [
+   "ppm"
+  ],
+  "Sarakatsanaiika Wind Farm": [
+   "ppm"
+  ],
+  "Sitherovouni Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141220252-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Patriarches Wind Farm": [
+   "ppm"
+  ],
+  "Mikronoros Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141297725-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/141297727-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Oikismos Neas Magnisias Solar Farm": [
+   "ppm"
+  ],
+  "Thessaloniki Epi Stegis Ktiriou Fasi Pe Sindou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Kallithea Odos Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141514344-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Valtoudi Hellenic Energy Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141514346-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Evros Agr Boka Thurea Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141533837-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Devzos Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "Evros Agr Solar #4": [
+   "ppm"
+  ],
+  "Evros Agr Solar #5": [
+   "ppm"
+  ],
+  "Evros Agr Solar #6": [
+   "ppm"
+  ],
+  "Evros Agr Solar #7": [
+   "ppm"
+  ],
+  "Evros Agr Solar #8": [
+   "ppm"
+  ],
+  "Evros Agr Solar #9": [
+   "ppm"
+  ],
+  "Evros Agr Solar #10": [
+   "ppm"
+  ],
+  "Evros Almyres Solar": [
+   "ppm"
+  ],
+  "Karagatsoudi Solar": [
+   "ppm"
+  ],
+  "Milika Vrusi Megalo Rema Solar": [
+   "ppm"
+  ],
+  "Spilaio Solar Farm": [
+   "ppm"
+  ],
+  "Taplan Pigadi Solar Farm": [
+   "ppm"
+  ],
+  "Voskotopia Ketsia Ali Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141533838-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/141558060-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gianopouleika Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141758401-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Livas Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141764448-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/141764450-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Zakynthos Makria Rachi Solar": [
+   "ppm"
+  ],
+  "Zakynthos Neratzoules Mudralio Solar": [
+   "ppm"
+  ],
+  "Zakynthos Ntanali Laganas Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/141764452-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/142066771-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Arkadikos Helios Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/142066782-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/142066784-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Anadasmos Solar": [
+   "ppm"
+  ],
+  "Arcadia Mouchli Solar": [
+   "ppm"
+  ],
+  "Arcadia Paliopigado Solar": [
+   "ppm"
+  ],
+  "Arcadia Solar": [
+   "ppm"
+  ],
+  "Ayia Kyriaki Paliopigado Solar": [
+   "ppm"
+  ],
+  "Boziki Wind Farm": [
+   "ppm"
+  ],
+  "Kako Tsourmo Wind Farm": [
+   "ppm"
+  ],
+  "Koukoura Wind Farm": [
+   "ppm"
+  ],
+  "Lyrkeion Oros Wind Farm": [
+   "ppm"
+  ],
+  "Niakara Solar": [
+   "ppm"
+  ],
+  "Psele Rache Mesokorphe Wind Farm": [
+   "ppm"
+  ],
+  "Rachi Korythio Solar Farm": [
+   "ppm"
+  ],
+  "Tripolis Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/142068552-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Galanaika Ag Antonios Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/142174862-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Karyas Solar Farm": [
+   "ppm"
+  ],
+  "Lekana Solar Farm": [
+   "ppm"
+  ],
+  "Psilo Kotroni Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/142174863-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Prophetes Ilias Peloponnese Wind Energy Wind Farm": [
+   "ppm"
+  ],
+  "Pselo Lithari Kododiasela Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/142180032-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/142656551-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/143520210-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/143622720-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/148320053-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kavouras Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Agios Nikolaos Solar": [
+   "ppm"
+  ],
+  "Larisa Karalaria Solar": [
+   "ppm"
+  ],
+  "Larisa Koryphi Solar": [
+   "ppm"
+  ],
+  "Larisa Makamia Solar": [
+   "ppm"
+  ],
+  "Larisa Ogdontaria Solar": [
+   "ppm"
+  ],
+  "Larisa Samaria Potamias Solar": [
+   "ppm"
+  ],
+  "Larisa Tsairi Agr Solar": [
+   "ppm"
+  ],
+  "Larisa Varka Agr Solar": [
+   "ppm"
+  ],
+  "Livadi Paliomulos Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148881241-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Eressou Ypsoma Phourka Wind Farm": [
+   "ppm"
+  ],
+  "Imathia Agrotemachia Kai Solar": [
+   "ppm"
+  ],
+  "Panayia Soumela Wind Farm": [
+   "ppm"
+  ],
+  "Zoodochos Peye Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148899588-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agrotemachio Aiyos Athanasios Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #15": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #16": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148899590-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ayia Triada Katerini Solar": [
+   "ppm"
+  ],
+  "Ayia Triada Katerini Solar #2": [
+   "ppm"
+  ],
+  "Ayia Triada Katerini Solar #3": [
+   "ppm"
+  ],
+  "Katerini Karagatsakia Solar": [
+   "ppm"
+  ],
+  "Koukkou Solar Farm": [
+   "ppm"
+  ],
+  "Pieria Agr Solar #2": [
+   "ppm"
+  ],
+  "Pieria Agroktima Korinos Katerini Solar": [
+   "ppm"
+  ],
+  "Pieria Agrotemachio Katerini Solar": [
+   "ppm"
+  ],
+  "Pieria Agrotemachio Smardali Alepotrupes Agroktima Pudnas So": [
+   "ppm"
+  ],
+  "Pieria Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Pieria Dromos Trilophou Mikri Dexameni Solar": [
+   "ppm"
+  ],
+  "Pieria Karavida Katerini Solar": [
+   "ppm"
+  ],
+  "Pieria Karavida Sevastis Solar": [
+   "ppm"
+  ],
+  "Pieria Katerini Arg Solar": [
+   "ppm"
+  ],
+  "Pieria Katerini Solar": [
+   "ppm"
+  ],
+  "Pieria Katerini Solar #2": [
+   "ppm"
+  ],
+  "Pieria Katerini Xviii Solar": [
+   "ppm"
+  ],
+  "Pieria Katerini Xxiv Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148899591-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agroktima Ayioneriou Solar": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Solar": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Solar #2": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Solar #3": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Xii Solar": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Xiii Solar": [
+   "ppm"
+  ],
+  "Agroktima Vathylakkos Xv Solar": [
+   "ppm"
+  ],
+  "Ayios Athanasios Solar #2": [
+   "ppm"
+  ],
+  "Ayios Athanasios Solar #3": [
+   "ppm"
+  ],
+  "Ayios Athanasios Solar #4": [
+   "ppm"
+  ],
+  "Ayios Athanasios Solar #5": [
+   "ppm"
+  ],
+  "Ayios Athanasios Xxi Solar": [
+   "ppm"
+  ],
+  "Gephyras Aiyos Athanasios Solar": [
+   "ppm"
+  ],
+  "Kilkis Agioneriou Kai Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #10": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #11": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #12": [
+   "ppm"
+  ],
+  "Kilkis Agroktima Agioneriou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agroktima Agioneriou Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Anthophytou Solar": [
+   "ppm"
+  ],
+  "Kilkis Ayionerio Solar": [
+   "ppm"
+  ],
+  "Kilkis Solar": [
+   "ppm"
+  ],
+  "Kilkis Tmima Solar #3": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Agroktima Vathulakou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Prochoma Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #17": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #18": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Vathylakkou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Akropotamou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Agr Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Agr Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Agr Solar #3": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Agr Solar #4": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Ayios Athanasios Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Solar #3": [
+   "ppm"
+  ],
+  "Thessaloniki Prochoma Solar #4": [
+   "ppm"
+  ],
+  "Thessaloniki Tmima Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Vathulakkos Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Vathulakkos Solar #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148899595-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agia Kyriaki Solar Farm": [
+   "ppm"
+  ],
+  "Ayios Athanasiou Enel Solar Farm": [
+   "ppm"
+  ],
+  "Imathia Agr Solar": [
+   "ppm"
+  ],
+  "Kastania Solar": [
+   "ppm"
+  ],
+  "Pella Agr Solar": [
+   "ppm"
+  ],
+  "Pella Agr Solar #2": [
+   "ppm"
+  ],
+  "Pella Agr Solar #3": [
+   "ppm"
+  ],
+  "Pieria Agr Katacha Solar": [
+   "ppm"
+  ],
+  "Pieria Agr Nerotopos Solar": [
+   "ppm"
+  ],
+  "Pieria Agr Solar #3": [
+   "ppm"
+  ],
+  "Pieria Agr Solar #4": [
+   "ppm"
+  ],
+  "Pieria Agr Solar #5": [
+   "ppm"
+  ],
+  "Pieria Agr Solar #6": [
+   "ppm"
+  ],
+  "Pieria Agr Thesi Anilio Agroktimatos Katacha Solar": [
+   "ppm"
+  ],
+  "Pieria Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Pieria Kapsovati Agr Agroktima Aiginiou Solar": [
+   "ppm"
+  ],
+  "Pieria Tranos Lakkos Solar": [
+   "ppm"
+  ],
+  "Pieria Voultsista Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/148899598-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kalogiros Wind Farm": [
+   "ppm"
+  ],
+  "Koutsotroulis Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1489283728-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Papadies Solar Farm": [
+   "ppm"
+  ],
+  "Pella Agr Solar #4": [
+   "ppm"
+  ],
+  "Pella Agr Solar #5": [
+   "ppm"
+  ],
+  "Pella Agrotemachia Kai Agroktima Sotira Solar": [
+   "ppm"
+  ],
+  "Pella Tmima Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149026599-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agra": [
+   "ppm"
+  ],
+  "Edessaios": [
+   "ppm"
+  ],
+  "Achladochori Mw Solar Farm": [
+   "ppm"
+  ],
+  "Pella Agr Agroktima Agrosukias Solar": [
+   "ppm"
+  ],
+  "Pella Agr Agroktimatos Rachonas Solar": [
+   "ppm"
+  ],
+  "Pella Agr Solar #6": [
+   "ppm"
+  ],
+  "Pella Agr Solar #7": [
+   "ppm"
+  ],
+  "Pella Agr Solar #8": [
+   "ppm"
+  ],
+  "Pella Agr Solar #9": [
+   "ppm"
+  ],
+  "Pella Agroktima Agrosukias Solar": [
+   "ppm"
+  ],
+  "Pella Giannitsa Agr Solar": [
+   "ppm"
+  ],
+  "Pella Giannitsa Agr Solar #2": [
+   "ppm"
+  ],
+  "Pella Giannitsa Agr Solar #3": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149026603-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Imathia Agr Solar #2": [
+   "ppm"
+  ],
+  "Imathia Agrotemachio Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149069221-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Touba Anthovouni Wind Farm": [
+   "ppm"
+  ],
+  "Brego Leptokaryes Solar Farm": [
+   "ppm"
+  ],
+  "Florina Agr Solar": [
+   "ppm"
+  ],
+  "Florina Agr Solar #2": [
+   "ppm"
+  ],
+  "Florina Katigoria Tem Solar": [
+   "ppm"
+  ],
+  "Florina Kato Klines Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Florina Tem Solar": [
+   "ppm"
+  ],
+  "Giatsovo Florina Tem Solar": [
+   "ppm"
+  ],
+  "Iatsevo Kladorachis Solar": [
+   "ppm"
+  ],
+  "Leivadia Florina Tem Solar": [
+   "ppm"
+  ],
+  "Livadia Phalakron Wind Farm": [
+   "ppm"
+  ],
+  "Mousyite Florina Solar": [
+   "ppm"
+  ],
+  "Tsouka Agnadia Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149468818-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kastoria Ayia Kyriaki Solar": [
+   "ppm"
+  ],
+  "Kabos Lagoura Solar Farm": [
+   "ppm"
+  ],
+  "Kastoria Agr Solar": [
+   "ppm"
+  ],
+  "Kastoria Agrotemachio Kopatsi Solar": [
+   "ppm"
+  ],
+  "Kopatsi Solar Farm": [
+   "ppm"
+  ],
+  "Kryoneri Enel Green Solar Farm": [
+   "ppm"
+  ],
+  "Levkadiou Farm Solar Farm": [
+   "ppm"
+  ],
+  "Ypsomata Papathanasiou Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149481032-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Trikala Abelakia St George Solar": [
+   "ppm"
+  ],
+  "Trikala Agr Solar #2": [
+   "ppm"
+  ],
+  "Trikala Agr Solar #3": [
+   "ppm"
+  ],
+  "Trikala Ammouda Agr Solar": [
+   "ppm"
+  ],
+  "Trikala Phtuyliadika Pyrgetou Solar": [
+   "ppm"
+  ],
+  "Trikala Skaloubaga Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149672242-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Imeroklima Paliosamarinas Solar Farm": [
+   "ppm"
+  ],
+  "Karditsa Agr Solar #3": [
+   "ppm"
+  ],
+  "Larisa Monacho Abeli Solar": [
+   "ppm"
+  ],
+  "Larisa Praitori Kouphlis Solar": [
+   "ppm"
+  ],
+  "Larisa Stavros Mana Solar": [
+   "ppm"
+  ],
+  "Larisa Sukea Paliskiotis Solar": [
+   "ppm"
+  ],
+  "Lykorrema Solar Farm": [
+   "ppm"
+  ],
+  "Trikala Agr Solar #4": [
+   "ppm"
+  ],
+  "Trikala Ar Tmch Thesi Panagies Solar": [
+   "ppm"
+  ],
+  "Trikala Georganadon Solar": [
+   "ppm"
+  ],
+  "Trikala Imeroklima Agroktimatos Zileutis Solar": [
+   "ppm"
+  ],
+  "Trikala Kaek Solar": [
+   "ppm"
+  ],
+  "Trikala Magoulitsa Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149672244-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/149816570-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Argolis Ktiriou Kabos Avlonas Solar": [
+   "ppm"
+  ],
+  "Bigiareza Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149922042-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Apatheia Vrachaki Solar Farm": [
+   "ppm"
+  ],
+  "Astrapi Wind Farm": [
+   "ppm"
+  ],
+  "Psele Rache Labousa Wind Farm": [
+   "ppm"
+  ],
+  "Sabales Solar Farm": [
+   "ppm"
+  ],
+  "Sabales Wind Farm": [
+   "ppm"
+  ],
+  "Vromosekia Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/149922043-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aderes Wind Farm": [
+   "ppm"
+  ],
+  "Asprovouni Ellaktor Wind Farm": [
+   "ppm"
+  ],
+  "Longarakia Iliokastrou Solar Farm": [
+   "ppm"
+  ],
+  "Longarakia Wind Farm": [
+   "ppm"
+  ],
+  "Ortholithi Wind Farm": [
+   "ppm"
+  ],
+  "Spithari Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/1526359765-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kilkis Agr Agroktima Filurias Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/159413450-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kilkis Agr Solar #13": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #14": [
+   "ppm"
+  ],
+  "Kilkis Perasma Bougioukli Daoutli Solar": [
+   "ppm"
+  ],
+  "Lykotopos Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/159413451-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Cherso Vipe Kilkis Solar Farm": [
+   "ppm"
+  ],
+  "Kilkis Agr Akropotamias Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Chersou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Metalliko Solar": [
+   "ppm"
+  ],
+  "Kilkis Agr Metalliko Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #15": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #16": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #17": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #18": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #19": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #20": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #21": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #22": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #23": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #24": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #25": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #26": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #27": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #28": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #29": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #30": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #31": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #32": [
+   "ppm"
+  ],
+  "Kilkis Agr Solar #33": [
+   "ppm"
+  ],
+  "Kilkis Agr Staurochoriou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agroktima Amaranton Solar": [
+   "ppm"
+  ],
+  "Kilkis Agrotemachia Solar": [
+   "ppm"
+  ],
+  "Kilkis Agrotemachio Chersou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agrotemachio Metallikou Solar": [
+   "ppm"
+  ],
+  "Kilkis Agrotemachio Metallikou Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Agrotemachio Metallikou Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Chersou Solar": [
+   "ppm"
+  ],
+  "Kilkis Chersou Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Chersou Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Chorugi Solar #6": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Agr Chio Solar": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #5": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #6": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #7": [
+   "ppm"
+  ],
+  "Kilkis Kastanies Solar #8": [
+   "ppm"
+  ],
+  "Kilkis Megali Vrysi Solar": [
+   "ppm"
+  ],
+  "Kilkis Megali Vrysi Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Metalliko Agr Solar": [
+   "ppm"
+  ],
+  "Kilkis Metalliko Agr Solar #2": [
+   "ppm"
+  ],
+  "Kilkis Metalliko Agr Solar #3": [
+   "ppm"
+  ],
+  "Kilkis Metalliko Agr Solar #4": [
+   "ppm"
+  ],
+  "Kilkis Metalliko Solar": [
+   "ppm"
+  ],
+  "Kolchidas Solar Farm": [
+   "ppm"
+  ],
+  "Lophos Kylindrias Wind Farm": [
+   "ppm"
+  ],
+  "Megali Sterna Solar": [
+   "ppm"
+  ],
+  "Vaptistis Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/159413454-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pe Serron Solar": [
+   "ppm"
+  ],
+  "Serres Agr Agroktima Skopou Solar": [
+   "ppm"
+  ],
+  "Serres Agr Choumniko Solar": [
+   "ppm"
+  ],
+  "Serres Agr Solar #2": [
+   "ppm"
+  ],
+  "Toubes Pournari Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/159414165-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aetolia Acarnania Bazaka Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Betsi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Brousia Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Chaliki Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Geroporos Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Kabos Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Kabos Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Libes Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Libes Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Lybes Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Lybes Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Makrya Rachi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Manalopi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Paliabelo Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Perivoli Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Phataouleika Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Phataouleika Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Platriphia Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Xilomata Solar": [
+   "ppm"
+  ],
+  "Agrilaki Phephteion Solar": [
+   "ppm"
+  ],
+  "Agrilaki Phephteion Solar #2": [
+   "ppm"
+  ],
+  "Agrilaki Phephteion Solar #3": [
+   "ppm"
+  ],
+  "Akones Phphteion Solar": [
+   "ppm"
+  ],
+  "Ano Lybes Solar": [
+   "ppm"
+  ],
+  "Arna Libes Solar": [
+   "ppm"
+  ],
+  "Babinis Phoustines Solar": [
+   "ppm"
+  ],
+  "Chalia Papadopoules Solar": [
+   "ppm"
+  ],
+  "Desi Phyteion Solar": [
+   "ppm"
+  ],
+  "Foustines Babinis Solar": [
+   "ppm"
+  ],
+  "Fraxo Futeion Solar": [
+   "ppm"
+  ],
+  "Ftelidia Babinis Solar": [
+   "ppm"
+  ],
+  "Galanakia Babinis Solar": [
+   "ppm"
+  ],
+  "Galanakia Solar": [
+   "ppm"
+  ],
+  "Galanakia Xilomata Solar": [
+   "ppm"
+  ],
+  "Galanakiat Babinis Solar": [
+   "ppm"
+  ],
+  "Galanakiat Babinis Solar #2": [
+   "ppm"
+  ],
+  "Giophyria Kouvara Solar": [
+   "ppm"
+  ],
+  "Kabos Mylos Kato Pigadi Solar": [
+   "ppm"
+  ],
+  "Kabos Palialonia Abelaki Solar": [
+   "ppm"
+  ],
+  "Karalolaka Solar": [
+   "ppm"
+  ],
+  "Kato Lybes Solar": [
+   "ppm"
+  ],
+  "Klimati Futeion Solar": [
+   "ppm"
+  ],
+  "Kokkino Futeion Solar": [
+   "ppm"
+  ],
+  "Kozakas Futeion Solar": [
+   "ppm"
+  ],
+  "Kozakas Futeion Solar #2": [
+   "ppm"
+  ],
+  "Liaskou Solar": [
+   "ppm"
+  ],
+  "Ligoulakia Solar": [
+   "ppm"
+  ],
+  "Malliari Solar": [
+   "ppm"
+  ],
+  "Manesi Phyteion Solar": [
+   "ppm"
+  ],
+  "Maura Litharia Phyteion Solar": [
+   "ppm"
+  ],
+  "Maura Litharia Phyteion Solar #2": [
+   "ppm"
+  ],
+  "Melissomantri Patsala Solar": [
+   "ppm"
+  ],
+  "Miloula Phyteion Solar": [
+   "ppm"
+  ],
+  "Molpies Phyteion Solar": [
+   "ppm"
+  ],
+  "Orphanolagkado Phyteion Solar": [
+   "ppm"
+  ],
+  "Papadopoulo Solar": [
+   "ppm"
+  ],
+  "Paralagkado Solar": [
+   "ppm"
+  ],
+  "Phyteion Solar": [
+   "ppm"
+  ],
+  "Tragana Phyteion Solar": [
+   "ppm"
+  ],
+  "Trypa Skourtou Solar": [
+   "ppm"
+  ],
+  "Xiromerou Andritsades Xiromerou Solar": [
+   "ppm"
+  ],
+  "Xiromerou Barbantria Xiromerou Solar": [
+   "ppm"
+  ],
+  "Xiromerou Galanakia Solar": [
+   "ppm"
+  ],
+  "Xiromerou Rintzeri Solar": [
+   "ppm"
+  ],
+  "Xiromerou Skorpisto Solar": [
+   "ppm"
+  ],
+  "Zevgari Babinis Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/159435243-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Stratos": [
+   "ppm"
+  ],
+  "Mesokomou Farm Solar Farm": [
+   "ppm"
+  ],
+  "Ayios Prodromos Farm Solar": [
+   "ppm"
+  ],
+  "Ayios Prodromos Farm Solar #2": [
+   "ppm"
+  ],
+  "Ayios Prodromos Farm Solar #3": [
+   "ppm"
+  ],
+  "Ayios Prodromos Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agr Solar #4": [
+   "ppm"
+  ],
+  "Chalkidiki Agrotemachia Solar": [
+   "ppm"
+  ],
+  "Galatista Solar": [
+   "ppm"
+  ],
+  "Nanos Ayios Prodromos Solar": [
+   "ppm"
+  ],
+  "Poliyirou Land Plot Solar Farm": [
+   "ppm"
+  ],
+  "Polygyros Solar": [
+   "ppm"
+  ],
+  "Polygyros Solar #2": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #19": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/170599418-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Florina Agr Kaek Solar": [
+   "ppm"
+  ],
+  "Florina Agr Kaek Solar #2": [
+   "ppm"
+  ],
+  "Kozani Agrotemachio Kaek Solar": [
+   "ppm"
+  ],
+  "Orycheio Solar Farm #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/171506480-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/178234508-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Megalopoli #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/188687492-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/190884236-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Paklia Solar": [
+   "ppm"
+  ],
+  "Stathi Gianni Gkrikas Solar Farm": [
+   "ppm"
+  ],
+  "Thesprotia Agr Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/196753738-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/208158835-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Louros": [
+   "ppm"
+  ],
+  "Karditsa Agr Solar #4": [
+   "ppm"
+  ],
+  "Karditsa Alonia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/219975140-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Plastiras": [
+   "ppm"
+  ],
+  "Agrilia Baka Solar Farm": [
+   "ppm"
+  ],
+  "Agios Athanasis Wind Farm": [
+   "ppm"
+  ],
+  "Amygdalitsa Wind Farm": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Messenia Aphanolakka Solar": [
+   "ppm"
+  ],
+  "Messenia Arvanitsa Solar": [
+   "ppm"
+  ],
+  "Messenia Pente Chatzis Solar": [
+   "ppm"
+  ],
+  "Messenia Sitaria Lukissis Solar": [
+   "ppm"
+  ],
+  "Skopelakia Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/221615410-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/228134649-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vardia Platanias Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/245324275-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/245491254-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/245676793-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Alamana Solar Farm": [
+   "ppm"
+  ],
+  "Alatoucha Dk Roditsas Solar": [
+   "ppm"
+  ],
+  "Alogorache Wind Farm": [
+   "ppm"
+  ],
+  "Kapsala Solar": [
+   "ppm"
+  ],
+  "Lamias Anthili Solar": [
+   "ppm"
+  ],
+  "Lamias Anthili Solar #2": [
+   "ppm"
+  ],
+  "Lamias Anthili Solar #3": [
+   "ppm"
+  ],
+  "Lamias Anthili Solar #4": [
+   "ppm"
+  ],
+  "Luomena Nea Epektasi Solar": [
+   "ppm"
+  ],
+  "Ntaoulia Arg Solar": [
+   "ppm"
+  ],
+  "Ntaoulia No Solar": [
+   "ppm"
+  ],
+  "Phthiotis Anthili Solar": [
+   "ppm"
+  ],
+  "Phthiotis Anthili Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Anthili Solar #3": [
+   "ppm"
+  ],
+  "Phthiotis Anthili Solar #4": [
+   "ppm"
+  ],
+  "Phthiotis Anthili Solar #5": [
+   "ppm"
+  ],
+  "Phthiotis Bakras Solar": [
+   "ppm"
+  ],
+  "Phthiotis Gorgopotamos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Solar": [
+   "ppm"
+  ],
+  "Phthiotis Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Solar #3": [
+   "ppm"
+  ],
+  "Plagia Tk Ag Triadas Solar": [
+   "ppm"
+  ],
+  "Valtos Ayias Triados Solar": [
+   "ppm"
+  ],
+  "Zerma Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/248889404-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Karditsa Gorgovites Solar": [
+   "ppm"
+  ],
+  "Arnis Kypselis Solar": [
+   "ppm"
+  ],
+  "Karditsa Agr Metochi Solar": [
+   "ppm"
+  ],
+  "Karditsa Agr Solar #5": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #3": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #4": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #5": [
+   "ppm"
+  ],
+  "Palioures Solar Farm": [
+   "ppm"
+  ],
+  "Pe Karditsas Solar": [
+   "ppm"
+  ],
+  "Potamakia Abares Solar": [
+   "ppm"
+  ],
+  "Raches Arnis Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Sophadon Mascholouriou Solar": [
+   "ppm"
+  ],
+  "Vipe Karditsas Ot Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/248906650-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/248906656-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Smokovo": [
+   "ppm"
+  ],
+  "Panagia City Solar Hellas Solar Farm": [
+   "ppm"
+  ],
+  "Domokos Solar": [
+   "ppm"
+  ],
+  "Abelia Xyniados Solar": [
+   "ppm"
+  ],
+  "Amygdalia Solar Farm": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Ano Alchani Solar Farm": [
+   "ppm"
+  ],
+  "Daoukliotika Xynaida Solar": [
+   "ppm"
+  ],
+  "Domokos Solar #2": [
+   "ppm"
+  ],
+  "Domokos Solar #3": [
+   "ppm"
+  ],
+  "Domokou Aknas Solar Farm": [
+   "ppm"
+  ],
+  "Domokou Solar": [
+   "ppm"
+  ],
+  "Domokou Solar #2": [
+   "ppm"
+  ],
+  "Domokou Solar #3": [
+   "ppm"
+  ],
+  "Domokou Xii Solar": [
+   "ppm"
+  ],
+  "Domokou Xiii Solar": [
+   "ppm"
+  ],
+  "Domokou Xviii Solar": [
+   "ppm"
+  ],
+  "Domokou Xyniadas Solar #4": [
+   "ppm"
+  ],
+  "Domokou Xyniadas Solar #5": [
+   "ppm"
+  ],
+  "Ekta Domokou Solar Farm": [
+   "ppm"
+  ],
+  "Ekta Neas Makrisis Domokos Solar": [
+   "ppm"
+  ],
+  "Ekta Neas Makrisis Domokos Solar #2": [
+   "ppm"
+  ],
+  "Gekomadri Solar": [
+   "ppm"
+  ],
+  "Gkalnterimaki Solar Farm": [
+   "ppm"
+  ],
+  "Kalatzogourna Domokou Solar": [
+   "ppm"
+  ],
+  "Kalogiros Xyniados Solar": [
+   "ppm"
+  ],
+  "Kalyves Domokos Solar": [
+   "ppm"
+  ],
+  "Kanapitsa Domokos Solar": [
+   "ppm"
+  ],
+  "Kanapitsa Domokos Solar #2": [
+   "ppm"
+  ],
+  "Kanapitsa Domokos Solar #3": [
+   "ppm"
+  ],
+  "Kanapitsa Xynaida Solar": [
+   "ppm"
+  ],
+  "Kanapitsa Xynaida Solar #2": [
+   "ppm"
+  ],
+  "Karanikolos Domokou Solar": [
+   "ppm"
+  ],
+  "Karoutes Domokou Solar": [
+   "ppm"
+  ],
+  "Leuka Lamieon Solar": [
+   "ppm"
+  ],
+  "Longarakia Daoukliotika Solar": [
+   "ppm"
+  ],
+  "Longarakia Domokos Solar": [
+   "ppm"
+  ],
+  "Magoula Savva Magoula Solar": [
+   "ppm"
+  ],
+  "Makare Kipos Solar Farm": [
+   "ppm"
+  ],
+  "Miliokabos Bouteika Xyniados Solar": [
+   "ppm"
+  ],
+  "Miliokabos Prosilia Xyniados Solar": [
+   "ppm"
+  ],
+  "Miliokabos Xyniados Solar": [
+   "ppm"
+  ],
+  "Miliokabos Xyniados Solar #2": [
+   "ppm"
+  ],
+  "Miliokabos Xyniados Solar #3": [
+   "ppm"
+  ],
+  "Neas Makrisis Kanapitsa Solar": [
+   "ppm"
+  ],
+  "Neas Makrisis Trigona Zouka Solar": [
+   "ppm"
+  ],
+  "Ngioli Domokos Solar": [
+   "ppm"
+  ],
+  "Palaiochori Domokos Solar": [
+   "ppm"
+  ],
+  "Palaiochori Domokos Solar #2": [
+   "ppm"
+  ],
+  "Palioitia Xyniados Solar": [
+   "ppm"
+  ],
+  "Palioitia Xyniados Solar #2": [
+   "ppm"
+  ],
+  "Paliomantra Solar": [
+   "ppm"
+  ],
+  "Petroto Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Agr Solar": [
+   "ppm"
+  ],
+  "Phthiotis Agr Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Agr Solar #3": [
+   "ppm"
+  ],
+  "Phthiotis Agroktima Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Agroktima Domokos Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Agroktima Domokos Solar #3": [
+   "ppm"
+  ],
+  "Phthiotis Alyphantaros Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Ayiou Georgiou Agr Solar": [
+   "ppm"
+  ],
+  "Phthiotis Kazalia Solar": [
+   "ppm"
+  ],
+  "Phthiotis Koprisia Domokou Solar": [
+   "ppm"
+  ],
+  "Phthiotis Koprisia Domokou Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Koprisia Domokou Solar #3": [
+   "ppm"
+  ],
+  "Phthiotis Kourkoutas Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Krikessa Xyniados Solar": [
+   "ppm"
+  ],
+  "Phthiotis Kyritsi Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Kyritsi Magoula Solar": [
+   "ppm"
+  ],
+  "Phthiotis Longos Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Marmara Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Marmara Xyniados Solar": [
+   "ppm"
+  ],
+  "Phthiotis Metalleia Longarakia Solar": [
+   "ppm"
+  ],
+  "Phthiotis Meterizia Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Milies Xyniados Solar": [
+   "ppm"
+  ],
+  "Phthiotis Omvriakis Magoula Solar": [
+   "ppm"
+  ],
+  "Phthiotis Pardala Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Pournarorachi Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Protes Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Protes Domokos Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Protes Kyritsi Magoula Solar": [
+   "ppm"
+  ],
+  "Phthiotis Protes Vita Solar": [
+   "ppm"
+  ],
+  "Phthiotis Solar #4": [
+   "ppm"
+  ],
+  "Phthiotis Trigona Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Trigona Klima Solar": [
+   "ppm"
+  ],
+  "Phthiotis Vythismata Domokos Solar": [
+   "ppm"
+  ],
+  "Phthiotis Xuniadas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Xuniadas Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Xuyniadas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Xynaidas Ktiriou Solar": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #3": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #4": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #5": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #6": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #7": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #8": [
+   "ppm"
+  ],
+  "Phthiotis Xyniadas Solar #9": [
+   "ppm"
+  ],
+  "Phthiotis Zapanti Xyniados Solar": [
+   "ppm"
+  ],
+  "Phthiotis Zapanti Xyniados Solar #2": [
+   "ppm"
+  ],
+  "Phthiotis Zapanti Xyniados Solar #3": [
+   "ppm"
+  ],
+  "Platana Xyniados Solar": [
+   "ppm"
+  ],
+  "Polydendri Solar Farm": [
+   "ppm"
+  ],
+  "Simeio Solar": [
+   "ppm"
+  ],
+  "Tsikoutarla Domokos Solar": [
+   "ppm"
+  ],
+  "Xyniada Agr Solar": [
+   "ppm"
+  ],
+  "Xyniada Agr Solar #2": [
+   "ppm"
+  ],
+  "Xyniada Agr Solar #3": [
+   "ppm"
+  ],
+  "Xyniada Ci Solar": [
+   "ppm"
+  ],
+  "Xyniada Cii Solar": [
+   "ppm"
+  ],
+  "Xyniada Ciii Solar": [
+   "ppm"
+  ],
+  "Xyniada Liv Solar": [
+   "ppm"
+  ],
+  "Xyniada Lix Solar": [
+   "ppm"
+  ],
+  "Xyniada Lv Solar": [
+   "ppm"
+  ],
+  "Xyniada Lx Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxv Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxx Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxi Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxiv Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxvi Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxxii Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxxiv Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxxix Solar": [
+   "ppm"
+  ],
+  "Xyniada Lxxxv Solar": [
+   "ppm"
+  ],
+  "Xyniada Solar": [
+   "ppm"
+  ],
+  "Xyniada Solar #2": [
+   "ppm"
+  ],
+  "Xyniada Solar #3": [
+   "ppm"
+  ],
+  "Xyniada Xc Solar": [
+   "ppm"
+  ],
+  "Xyniada Xci Solar": [
+   "ppm"
+  ],
+  "Xyniada Xciii Solar": [
+   "ppm"
+  ],
+  "Xyniada Xcv Solar": [
+   "ppm"
+  ],
+  "Xyniada Xcvii Solar": [
+   "ppm"
+  ],
+  "Xyniada Xiii Solar": [
+   "ppm"
+  ],
+  "Xyniada Xl Solar": [
+   "ppm"
+  ],
+  "Xyniada Xli Solar": [
+   "ppm"
+  ],
+  "Xyniada Xlv Solar": [
+   "ppm"
+  ],
+  "Xyniada Xxv Solar": [
+   "ppm"
+  ],
+  "Xyniada Xxx Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/248906657-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Vamvakou Solar Farm": [
+   "ppm"
+  ],
+  "Astreches Solar": [
+   "ppm"
+  ],
+  "Bisdeli St Paraskevi Solar": [
+   "ppm"
+  ],
+  "Chatzibeotika Tem Agr Vamvakou Solar": [
+   "ppm"
+  ],
+  "Gidomantri Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Gotziam Lakka Solar": [
+   "ppm"
+  ],
+  "Goumaras Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Goumaras Tem Agr Skotousas Solar #2": [
+   "ppm"
+  ],
+  "Goumaras Tem Skotousas Solar": [
+   "ppm"
+  ],
+  "Kamara Retzikia Solar": [
+   "ppm"
+  ],
+  "Kapsales Solar Farm": [
+   "ppm"
+  ],
+  "Karagatsi Solar": [
+   "ppm"
+  ],
+  "Karakostaina Paliochora Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Karakostaina Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #6": [
+   "ppm"
+  ],
+  "Karditsa Sophadon Solar #7": [
+   "ppm"
+  ],
+  "Karditsa Trianta Solar": [
+   "ppm"
+  ],
+  "Katsaounia Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Katsaounia Tem Agr Skotousas Solar #2": [
+   "ppm"
+  ],
+  "Kileler Karatzi Solar #5": [
+   "ppm"
+  ],
+  "Kritiri Solar Farm": [
+   "ppm"
+  ],
+  "Kroustallo Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Krustallo Agr Solar": [
+   "ppm"
+  ],
+  "Krustallo Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Achilleiou Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Maurogia Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #17": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #18": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #19": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #20": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #21": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #22": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #23": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #24": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #25": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #26": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #27": [
+   "ppm"
+  ],
+  "Larisa Agrokt Psychikou Solar": [
+   "ppm"
+  ],
+  "Larisa Agrokt Psychikou Solar #2": [
+   "ppm"
+  ],
+  "Larisa Agrot Solar": [
+   "ppm"
+  ],
+  "Larisa Aivalia Solar": [
+   "ppm"
+  ],
+  "Larisa Almuroneria Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Goumaras Solar": [
+   "ppm"
+  ],
+  "Larisa Osman Vrysi Stathmos Solar": [
+   "ppm"
+  ],
+  "Larisa Paliochori Tem Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Periphereia Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Periphereia Arg Solar #2": [
+   "ppm"
+  ],
+  "Larisa Petrolakes Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Prosilia Solar": [
+   "ppm"
+  ],
+  "Larisa Retziki Solar": [
+   "ppm"
+  ],
+  "Larisa Retziki Solar #2": [
+   "ppm"
+  ],
+  "Larisa Rouvnies Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Larisa Tem Agroktima Psuchikou Solar": [
+   "ppm"
+  ],
+  "Larisa Tem Agroktima Psuchikou Solar #2": [
+   "ppm"
+  ],
+  "Larisa Vrysi Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Magoula Sophadon Solar": [
+   "ppm"
+  ],
+  "Meriades Tem Agr Skotousas Solar": [
+   "ppm"
+  ],
+  "Neraida Pharsalon Solar": [
+   "ppm"
+  ],
+  "Orfana Solar Farm": [
+   "ppm"
+  ],
+  "Paliochori Pharsalon Solar": [
+   "ppm"
+  ],
+  "Platanakos Sphaka Kolove Solar Farm": [
+   "ppm"
+  ],
+  "Riganes Solar Farm": [
+   "ppm"
+  ],
+  "Vouzi Dilopho Solar Farm": [
+   "ppm"
+  ],
+  "Vrysia Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/248921267-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aetolia Acarnania Korpi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Palianikola Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Phalangia Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Vourgiakas Solar": [
+   "ppm"
+  ],
+  "Amousa Solar": [
+   "ppm"
+  ],
+  "Karali Vonitsas Solar": [
+   "ppm"
+  ],
+  "Karyes Solar Farm": [
+   "ppm"
+  ],
+  "Koutspero Solar Farm": [
+   "ppm"
+  ],
+  "Leivadakia Anaktorio Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249108719-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Abelia Aetolia Acarnania Solar": [
+   "ppm"
+  ],
+  "Abrakiotisa Svoiri Solar": [
+   "ppm"
+  ],
+  "Achouria Babinis Solar": [
+   "ppm"
+  ],
+  "Achouria Varka Babinis Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Achouria Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Bougades Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Chaliki Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Gazi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Gazi Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Labres Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Makrylaki Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Miles Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Mygdala Babinis Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Aetolia Acarnania Platos Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Rachi Gerokosta Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Varka Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Voliades Solar": [
+   "ppm"
+  ],
+  "Ainanes Phephteion Solar": [
+   "ppm"
+  ],
+  "Ananes Solar": [
+   "ppm"
+  ],
+  "Apokephaloma Solar": [
+   "ppm"
+  ],
+  "Argurou Babinis Solar": [
+   "ppm"
+  ],
+  "Argurou Babinis Solar #2": [
+   "ppm"
+  ],
+  "Arkentini Solar": [
+   "ppm"
+  ],
+  "Ayia Anna Ai Nana Solar": [
+   "ppm"
+  ],
+  "Ayia Anna Phyteion Solar": [
+   "ppm"
+  ],
+  "Balkoto Solar": [
+   "ppm"
+  ],
+  "Fraxolakas Solar": [
+   "ppm"
+  ],
+  "Gazi Chavini Futeion Solar": [
+   "ppm"
+  ],
+  "Gazi Futeion Solar": [
+   "ppm"
+  ],
+  "Gazi Phyteion Solar": [
+   "ppm"
+  ],
+  "Gazi Phyteion Solar #2": [
+   "ppm"
+  ],
+  "Kabos Laousani Solar": [
+   "ppm"
+  ],
+  "Kapnistres Solar": [
+   "ppm"
+  ],
+  "Kapoti Wind Farm": [
+   "ppm"
+  ],
+  "Karvouno Solar": [
+   "ppm"
+  ],
+  "Katsaraki Futeion Solar": [
+   "ppm"
+  ],
+  "Kontopalioura Babinis Solar": [
+   "ppm"
+  ],
+  "Labres Abelia Babinis Solar": [
+   "ppm"
+  ],
+  "Lagkades Solar": [
+   "ppm"
+  ],
+  "Lagosani Laousani Varka Solar": [
+   "ppm"
+  ],
+  "Lakos Roza Futeion Solar": [
+   "ppm"
+  ],
+  "Lakos Tou Farmaki Solar": [
+   "ppm"
+  ],
+  "Lakos Tou Farmaki Solar #2": [
+   "ppm"
+  ],
+  "Longos Mountzouri Solar": [
+   "ppm"
+  ],
+  "Nisi Chaliki Velaora Solar": [
+   "ppm"
+  ],
+  "Paliostanis Poros Solar Farm": [
+   "ppm"
+  ],
+  "Papadopoules Babinis Solar": [
+   "ppm"
+  ],
+  "Patsales Kabos Margariti Solar": [
+   "ppm"
+  ],
+  "Pergade Wind Farm": [
+   "ppm"
+  ],
+  "Perivoli Phyteion Solar": [
+   "ppm"
+  ],
+  "Pigadi Katounas Solar Farm": [
+   "ppm"
+  ],
+  "Skylopnichtis Solar": [
+   "ppm"
+  ],
+  "Vakouphika Gazi Solar": [
+   "ppm"
+  ],
+  "Varka Achouria Babinis Solar": [
+   "ppm"
+  ],
+  "Varka Laousani Babinis Solar": [
+   "ppm"
+  ],
+  "Vlacha Kasimacha Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249115247-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249200396-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kephallonia Choida Vounaki Solar": [
+   "ppm"
+  ],
+  "Kephallonia Lakia Solar": [
+   "ppm"
+  ],
+  "Morou Kipouria Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249200397-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lefkada Paliochorafa Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249200398-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Hemerovigli Wind Farm": [
+   "ppm"
+  ],
+  "Kephallonia Arvanites Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249200399-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Lefkada Kontogianni Solar": [
+   "ppm"
+  ],
+  "Lefkada Risogia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249200400-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249320435-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249407518-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bourazeri Solar Farm": [
+   "ppm"
+  ],
+  "Preveza Tem Solar": [
+   "ppm"
+  ],
+  "Preveza Zavardoni Solar": [
+   "ppm"
+  ],
+  "Prevezas Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249407519-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Elis Lagos Solar": [
+   "ppm"
+  ],
+  "Kabos Olubias Energy Solar Farm": [
+   "ppm"
+  ],
+  "Palionaziro Solar Farm": [
+   "ppm"
+  ],
+  "Vasilaki Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249407521-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ladhon": [
+   "ppm"
+  ],
+  "Margariti Solar Farm": [
+   "ppm"
+  ],
+  "Potamia Thesprotia Solar": [
+   "ppm"
+  ],
+  "Preveza Tem Solar #2": [
+   "ppm"
+  ],
+  "Thesprotia Gardiki Solar": [
+   "ppm"
+  ],
+  "Thesprotia Gardiki Solar #2": [
+   "ppm"
+  ],
+  "Thesprotia Mandrotopos Solar": [
+   "ppm"
+  ],
+  "Thesprotia Prodromi Solar": [
+   "ppm"
+  ],
+  "Thesprotia Tsapella Agr Solar": [
+   "ppm"
+  ],
+  "Thesprotia Zervochori Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249407522-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249407528-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249407530-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Corfu Daveyia Solar": [
+   "ppm"
+  ],
+  "Corfu Goulos Agraphon Solar": [
+   "ppm"
+  ],
+  "Corfu Leivadi Ropa Solar": [
+   "ppm"
+  ],
+  "Corfu Santou Solar": [
+   "ppm"
+  ],
+  "Corfu Vlachou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249407531-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/249414224-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Gaidouri Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249627639-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Arkadia Wind Park": [
+   "ppm"
+  ],
+  "Kollia Rachi Solar Farm": [
+   "ppm"
+  ],
+  "Kotrona Klaraki Agios Georgios Solar Farm": [
+   "ppm"
+  ],
+  "Mega Isioma Solar Farm": [
+   "ppm"
+  ],
+  "Megavouni Koukouras Wind Farm": [
+   "ppm"
+  ],
+  "Skoupa Solar Farm": [
+   "ppm"
+  ],
+  "Tseberou Wind Farm": [
+   "ppm"
+  ],
+  "Tsouka Kalliste Energy Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/249627640-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Labrainas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/251087902-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Avloi Sterniza Wind Farm": [
+   "ppm"
+  ],
+  "Ayios Georgios Thisvis Solar": [
+   "ppm"
+  ],
+  "Boeotia Domvraina Solar": [
+   "ppm"
+  ],
+  "Boeotia Papachristos Thisvis Solar": [
+   "ppm"
+  ],
+  "Goritsa Wind Farm": [
+   "ppm"
+  ],
+  "Kalderimi Wind Farm": [
+   "ppm"
+  ],
+  "Kalyva Touba Wind Farm": [
+   "ppm"
+  ],
+  "Karamoudzi Wind Farm": [
+   "ppm"
+  ],
+  "Kokkithari Solar Farm": [
+   "ppm"
+  ],
+  "Laimos Wind Farm": [
+   "ppm"
+  ],
+  "Megale Loutsa Wind Farm": [
+   "ppm"
+  ],
+  "Megali Rachi Wind Farm": [
+   "ppm"
+  ],
+  "Palaiovouna Wind Farm": [
+   "ppm"
+  ],
+  "Pefkias Wind Farm": [
+   "ppm"
+  ],
+  "Perdikovouni Elikonos Wind Farm": [
+   "ppm"
+  ],
+  "Rache Loutses Zelitsa Wind Farm": [
+   "ppm"
+  ],
+  "Sparta Kakorema Wind Farm": [
+   "ppm"
+  ],
+  "Taratsa Wind Farm": [
+   "ppm"
+  ],
+  "Trepeza Domvrainas Solar": [
+   "ppm"
+  ],
+  "Trepeza Solar Farm": [
+   "ppm"
+  ],
+  "Tsiveri Paxivala Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/251907258-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Florinas Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "Agnadia Isoma Wind Farm": [
+   "ppm"
+  ],
+  "Dianomis Iteas Kato Klines Solar": [
+   "ppm"
+  ],
+  "Dromos Agiou Vartholomaiou Solar": [
+   "ppm"
+  ],
+  "Florina Agr Solar #3": [
+   "ppm"
+  ],
+  "Florina Agr Solar #4": [
+   "ppm"
+  ],
+  "Florina Agr Solar #5": [
+   "ppm"
+  ],
+  "Florina Agr Solar #6": [
+   "ppm"
+  ],
+  "Florina Agr Solar #7": [
+   "ppm"
+  ],
+  "Florina Agr Solar #8": [
+   "ppm"
+  ],
+  "Florina Agr Solar #9": [
+   "ppm"
+  ],
+  "Florina Agroktima Dianomis Iteas Solar": [
+   "ppm"
+  ],
+  "Florina Agroktima Dianomis Iteas Solar #2": [
+   "ppm"
+  ],
+  "Florina Agroktima Dianomis Iteas Solar #3": [
+   "ppm"
+  ],
+  "Florina Agroktima Melitis Solar": [
+   "ppm"
+  ],
+  "Florina Agroktima Solar": [
+   "ppm"
+  ],
+  "Florina Agroktima Solar #2": [
+   "ppm"
+  ],
+  "Florina Agroktima Solar #3": [
+   "ppm"
+  ],
+  "Florina Agroktima Solar #4": [
+   "ppm"
+  ],
+  "Florina Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Florina Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Florina Dendra Solar": [
+   "ppm"
+  ],
+  "Florina Kato Klines Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Florina Lakkes Solar": [
+   "ppm"
+  ],
+  "Gkolem Ntol Solar": [
+   "ppm"
+  ],
+  "Kleithi Solar Farm": [
+   "ppm"
+  ],
+  "Vysima Vedavel Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/252077527-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/253903008-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Arkoudi Kato Voskina Solar Farm": [
+   "ppm"
+  ],
+  "Beltekou Solar Farm": [
+   "ppm"
+  ],
+  "Sintovistra Agiou Andrea Solar Farm": [
+   "ppm"
+  ],
+  "Timenio Oros Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/253912195-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Tourla Kordeliza Wind Farm": [
+   "ppm"
+  ],
+  "Belecheri Wind Farm": [
+   "ppm"
+  ],
+  "Gropes Rache Gione Wind Farm": [
+   "ppm"
+  ],
+  "Kalogerovouni Wind Farm": [
+   "ppm"
+  ],
+  "Lefkes Belecheri Wind Farm": [
+   "ppm"
+  ],
+  "Loupounaria Wind Farm": [
+   "ppm"
+  ],
+  "Maradzaki Pyrgaki Wind Farm": [
+   "ppm"
+  ],
+  "Moutzouri Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgoudi Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/254057187-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mali Madi Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/254057189-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/254347424-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Godena Solar Farm": [
+   "ppm"
+  ],
+  "Lophos Liveri Paliabela Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/254371184-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Anemomylos Solar Farm": [
+   "ppm"
+  ],
+  "Bastouna Solar Farm": [
+   "ppm"
+  ],
+  "Kamarakia Pharidos Solar": [
+   "ppm"
+  ],
+  "Lykous Solar Farm": [
+   "ppm"
+  ],
+  "Potamia Solar Farm": [
+   "ppm"
+  ],
+  "Vrysika Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/254371220-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Asprochomatos Solar Farm": [
+   "ppm"
+  ],
+  "Meligalas Industrial Area Rokas Solar Farm": [
+   "ppm"
+  ],
+  "Messenia Mauromati Agr Solar": [
+   "ppm"
+  ],
+  "Messenia Pe Kalamatas Solar": [
+   "ppm"
+  ],
+  "Messenia Piperitsa Arg Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/254406007-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Stavrote Vigla Katavia Wind Farm": [
+   "ppm"
+  ],
+  "Chonos Wind Farm": [
+   "ppm"
+  ],
+  "Achladion Wind Park": [
+   "ppm"
+  ],
+  "Agrilida Veliras Wind Farm": [
+   "ppm"
+  ],
+  "Chalatas Wind Farm": [
+   "ppm"
+  ],
+  "Koutsoutes Wind Farm": [
+   "ppm"
+  ],
+  "Kouvas Wind Farm": [
+   "ppm"
+  ],
+  "Kratiri Nisou Ko Wind Farm": [
+   "ppm"
+  ],
+  "Kreon Wind Park": [
+   "ppm"
+  ],
+  "Memigkaria Wind Farm": [
+   "ppm"
+  ],
+  "Moni Toplou Wind Farm": [
+   "ppm"
+  ],
+  "Piskopianes Wind Farm": [
+   "ppm"
+  ],
+  "Pithanites Wind Farm": [
+   "ppm"
+  ],
+  "Platyvola Kryon Wind Farm": [
+   "ppm"
+  ],
+  "Vigli Wind Farm": [
+   "ppm"
+  ],
+  "Xirolimni Rokas Wind Farm": [
+   "ppm"
+  ],
+  "Xirolimni Wind Farm": [
+   "ppm"
+  ],
+  "Tilos": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/255599054-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chandras Wind Farm": [
+   "ppm"
+  ],
+  "Kaminakia Chordaki Wind Farm": [
+   "ppm"
+  ],
+  "Mare Periochi Zirou Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/255599059-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chionaki Wind Farm": [
+   "ppm"
+  ],
+  "Gavrovo Wind Farm": [
+   "ppm"
+  ],
+  "Gerabe Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/258215899-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/275303236-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Messochora": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/302161731-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Koula Solar Farm": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #20": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #21": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #22": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #23": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #24": [
+   "ppm"
+  ],
+  "Thessaloniki Assiros Agr Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Assiros Bournolakkos Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Assiros Rabota Bournolakkos Palia Abelia Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Assiros Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Assiros Tmima Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Chrusaugi Agr Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Chrusaugi Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Chrusaugis Lagkada Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Gkereni Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Irakleio Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Lagkadia Assiros Tmima Tou Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Lagkadia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/302950604-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/32126439-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bara Solar Farm": [
+   "ppm"
+  ],
+  "Pente Adelphia Juwi Hellas Solar Farm": [
+   "ppm"
+  ],
+  "Trikala Agr Solar #5": [
+   "ppm"
+  ],
+  "Trikala Isiomata Agiophyllou Solar": [
+   "ppm"
+  ],
+  "Trikala Karakoli Solar": [
+   "ppm"
+  ],
+  "Trikala Kokoreli Seltsma Ar Tem Solar": [
+   "ppm"
+  ],
+  "More Greece Bess": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/325208909-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Rovas Wind Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Papoura Wind Farm": [
+   "ppm"
+  ],
+  "Strongyli Koryphi Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/339977319-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Pieria Gualia Solar": [
+   "ppm"
+  ],
+  "Pieria Katerini Xxv Solar": [
+   "ppm"
+  ],
+  "Xylogephyro Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/345656987-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/366929712-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/366930187-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Platanovryssi": [
+   "ppm"
+  ],
+  "Perdikokorephe Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/369696423-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Achladies Solar": [
+   "ppm"
+  ],
+  "Agios Ioannis Chalkidiki Solar": [
+   "ppm"
+  ],
+  "Kabos Karua Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/371592851-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/376915180-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agroktima Ardaniou Kounies Solar": [
+   "ppm"
+  ],
+  "Agroktima Ardaniou Megalochorapha Solar": [
+   "ppm"
+  ],
+  "Agroktima Ardaniou Megalochorapha Solar #2": [
+   "ppm"
+  ],
+  "Agroktima Ardaniou Megalochorapha Solar #3": [
+   "ppm"
+  ],
+  "Agroktima Ardaniou Megalochorapha Solar #4": [
+   "ppm"
+  ],
+  "Agroktima Iteas Amygdalonas Kapsala Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Agroktima Iteas Amygdalones Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Agroktima Iteas Kabos Solar": [
+   "ppm"
+  ],
+  "Agroktima Iteas Palia Vrysi Solar": [
+   "ppm"
+  ],
+  "Agroktima Iteas Pyrovolika Solar": [
+   "ppm"
+  ],
+  "Agroktima Iteas Pyrovolika Solar #2": [
+   "ppm"
+  ],
+  "Agroktima Iteas Pyrovolika Tmimata Solar": [
+   "ppm"
+  ],
+  "Agroktima Iteas Solar": [
+   "ppm"
+  ],
+  "Agroktima Iteas Toubes Solar": [
+   "ppm"
+  ],
+  "Agroktima Mantheias Solar": [
+   "ppm"
+  ],
+  "Agroktima Triphylliou Solar": [
+   "ppm"
+  ],
+  "Agroktima Triphylliou Solar #2": [
+   "ppm"
+  ],
+  "Agroktima Vrysoulas Solar": [
+   "ppm"
+  ],
+  "Agroktima Vrysoulas Tsesme Solar": [
+   "ppm"
+  ],
+  "Ardanio Feron Solar": [
+   "ppm"
+  ],
+  "Evros Agr Kabos Keramaria Solar": [
+   "ppm"
+  ],
+  "Evros Agr Kainourgies Agros Solar": [
+   "ppm"
+  ],
+  "Evros Agr Kainourgies Solar": [
+   "ppm"
+  ],
+  "Evros Agr Kainourgies Solar #2": [
+   "ppm"
+  ],
+  "Evros Agr Megalos Kabos Solar": [
+   "ppm"
+  ],
+  "Evros Agr Solar #11": [
+   "ppm"
+  ],
+  "Evros Agr Solar #12": [
+   "ppm"
+  ],
+  "Evros Agr Solar #13": [
+   "ppm"
+  ],
+  "Evros Agr Solar #14": [
+   "ppm"
+  ],
+  "Evros Agr Solar #15": [
+   "ppm"
+  ],
+  "Evros Agr Solar #16": [
+   "ppm"
+  ],
+  "Evros Agr Solar #17": [
+   "ppm"
+  ],
+  "Evros Agr Solar #18": [
+   "ppm"
+  ],
+  "Evros Agr Solar #19": [
+   "ppm"
+  ],
+  "Evros Agr Solar #20": [
+   "ppm"
+  ],
+  "Evros Amygdalonas Solar": [
+   "model_assembly",
+   "ppm"
+  ],
+  "Evros Iteas Solar": [
+   "ppm"
+  ],
+  "Evros Iteas Solar #2": [
+   "ppm"
+  ],
+  "Evros Kainourgies Solar": [
+   "ppm"
+  ],
+  "Evros Kainourgies Solar #2": [
+   "ppm"
+  ],
+  "Evros Kaluves Solar": [
+   "ppm"
+  ],
+  "Evros Kapsala Solar": [
+   "ppm"
+  ],
+  "Evros Kounies Solar": [
+   "ppm"
+  ],
+  "Evros Kouslakiotika Solar": [
+   "ppm"
+  ],
+  "Evros Maurochomata Solar": [
+   "ppm"
+  ],
+  "Evros Purovolika Solar": [
+   "ppm"
+  ],
+  "Evros Toubes Solar": [
+   "ppm"
+  ],
+  "Feron Evros Solar": [
+   "ppm"
+  ],
+  "Feron Evros Solar #2": [
+   "ppm"
+  ],
+  "Kavisos Solar #2": [
+   "ppm"
+  ],
+  "Koltsides Solar": [
+   "ppm"
+  ],
+  "Kypon Farm Solar Farm": [
+   "ppm"
+  ],
+  "Tycherou Evros Solar": [
+   "ppm"
+  ],
+  "Tycherou Evros Xii Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/430277921-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/439364553-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agios Nikolaos Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Bringeli Solar Farm": [
+   "ppm"
+  ],
+  "Michalinas Kranoules Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/451982842-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Apouliana Solar": [
+   "ppm"
+  ],
+  "Arsena Abelia Solar": [
+   "ppm"
+  ],
+  "Arsenikio Agroktimatos Ierissou Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Pyrgos Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Stavros Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Vasilino Solar": [
+   "ppm"
+  ],
+  "Giouna Lakka Solar": [
+   "ppm"
+  ],
+  "Gomatiani Plana Solar": [
+   "ppm"
+  ],
+  "Gomatiani Plana Solar #2": [
+   "ppm"
+  ],
+  "Kaluva Samari Solar": [
+   "ppm"
+  ],
+  "Kokkinolakas Solar": [
+   "ppm"
+  ],
+  "Kosma Dentro Solar": [
+   "ppm"
+  ],
+  "Koumaria Solar": [
+   "ppm"
+  ],
+  "Liarigkovouno Solar": [
+   "ppm"
+  ],
+  "Martseli Platani Solar": [
+   "ppm"
+  ],
+  "Sara Barouda Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/492414876-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agia Triada Chalkidiki Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agr Thesi Valta Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/492809796-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Chalkidiki Agrotemachio Solar": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #25": [
+   "ppm"
+  ],
+  "Thessaloniki Agr Solar #26": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/492819859-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aetolia Acarnania Dokimia Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Skamnoula Solar": [
+   "ppm"
+  ],
+  "Koumasia Moutsiaroula Solar": [
+   "ppm"
+  ],
+  "Louzes Agkathaki Rigani Solar Farm": [
+   "ppm"
+  ],
+  "Louzes Angathaki Rigane Wind Farm": [
+   "ppm"
+  ],
+  "Skopia Terna Wind Farm": [
+   "ppm"
+  ],
+  "Xerovouni Platanou Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/493548152-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Nesida Ayios Georgios Wind Farm": [
+   "ppm"
+  ],
+  "Akrotiri Tragoudistis Wind Farm": [
+   "ppm"
+  ],
+  "Koutsounorrachi Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/506291001-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/51408420-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Katara Wind Farm": [
+   "ppm"
+  ],
+  "Variko Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/549736075-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/55099563-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Bakines Larissa Solar": [
+   "ppm"
+  ],
+  "Baraklar Larissa Solar": [
+   "ppm"
+  ],
+  "Chatzichalariotika Solar": [
+   "ppm"
+  ],
+  "Gkavanes Pera Kabou Solar": [
+   "ppm"
+  ],
+  "Kalabokia Dentro Solar": [
+   "ppm"
+  ],
+  "Kioski Larissa Solar": [
+   "ppm"
+  ],
+  "Kioski Mati Turnavou Tem Solar": [
+   "ppm"
+  ],
+  "Kommeni Gi Larissa Solar": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #28": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #29": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #30": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #31": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #32": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #33": [
+   "ppm"
+  ],
+  "Larisa Imeroia Solar": [
+   "ppm"
+  ],
+  "Larisa Kokkinoi Solar": [
+   "ppm"
+  ],
+  "Larisa Mikro Patoma Solar": [
+   "ppm"
+  ],
+  "Larisa Skalosia Ydragogeio Solar": [
+   "ppm"
+  ],
+  "Larisa Thesi Simaio Milia Solar": [
+   "ppm"
+  ],
+  "Larisa Triantapentaria Arg Solar": [
+   "ppm"
+  ],
+  "Larisa Vakouphia Dendron Solar": [
+   "ppm"
+  ],
+  "Larissa Mezourlo Neapolis Solar": [
+   "ppm"
+  ],
+  "Prochoma Tree Farm Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/586064500-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Prari Moustaki Orophi Ktiriou Solar": [
+   "ppm"
+  ],
+  "Mavri Ora Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/677142353-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ano Liosia": [
+   "ppm"
+  ],
+  "Kasidiaris Wind Farm": [
+   "ppm"
+  ],
+  "Kasidiaris Wind Farm #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/697504345-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Adiskari Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/703463329-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Thessaloniki Agr Solar #27": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/72180968-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Angistrou Farm Solar Farm": [
+   "ppm"
+  ],
+  "Didyma Wind Farm": [
+   "ppm"
+  ],
+  "Duo Petres Wind Farm": [
+   "ppm"
+  ],
+  "Korephe Siderokastrou Wind Farm": [
+   "ppm"
+  ],
+  "Mikri Touba Wind Farm": [
+   "ppm"
+  ],
+  "Stenolakkos Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/782257560-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Korphovouni Wind Farm": [
+   "ppm"
+  ],
+  "Magoula Kazakou Diplon Wind Farm": [
+   "ppm"
+  ],
+  "Orpheas Eptadendros Wind Farm": [
+   "ppm"
+  ],
+  "Prophetes Ilias Arinomario Wind Farm": [
+   "ppm"
+  ],
+  "Soros Enel Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/827171392-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agios Ioannis Wind Farm": [
+   "ppm"
+  ],
+  "Ypsoma Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85518393-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Mikrovouni Solar Farm": [
+   "ppm"
+  ],
+  "Alogomandria Mavrovouni Wind Farm": [
+   "ppm"
+  ],
+  "Dendri Ayios Athanasios Solar Farm": [
+   "ppm"
+  ],
+  "Elikona Solar Farm": [
+   "ppm"
+  ],
+  "Gatza Wind Farm": [
+   "ppm"
+  ],
+  "Kalamos Wind Farm": [
+   "ppm"
+  ],
+  "Kastro Solar Farm": [
+   "ppm"
+  ],
+  "Martino Solar Farm Greece": [
+   "ppm"
+  ],
+  "Megalo Vouno Anemomelos Wind Farm": [
+   "ppm"
+  ],
+  "Megalovouna Wind Farm": [
+   "ppm"
+  ],
+  "Mikrovouni Samothrakes Wind Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Enel Wind Farm #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85526073-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Diylistiria Mornou Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85585500-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Karakatsi Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85612093-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Kalibaki Anonumi Odos Opisthen Anatolika Aerodromiou": [
+   "ppm"
+  ],
+  "Attica Liopesi Solar": [
+   "ppm"
+  ],
+  "Attica Pyriza Solar": [
+   "ppm"
+  ],
+  "Attica Sotiriou Solar": [
+   "ppm"
+  ],
+  "Attica Tsalmeza Solar": [
+   "ppm"
+  ],
+  "Eleftherios Venizelos Aerolimenas Athinon Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85646787-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/85682590-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agios Pantes Wind Farm": [
+   "ppm"
+  ],
+  "Ammomaxi Wind Farm": [
+   "ppm"
+  ],
+  "Anephanides Kamares Wind Farm": [
+   "ppm"
+  ],
+  "Attica Dipseliza Solar": [
+   "ppm"
+  ],
+  "Attica Epi Ktiriou Megali Auli Kerateas Solar": [
+   "ppm"
+  ],
+  "Attica Gkires Solar": [
+   "ppm"
+  ],
+  "Attica Kontra Aiginiti Solar": [
+   "ppm"
+  ],
+  "Kalyvari Wind Farm": [
+   "ppm"
+  ],
+  "Kastri Wind Farm": [
+   "ppm"
+  ],
+  "Kokkinos Kavos Wind Farm": [
+   "ppm"
+  ],
+  "Lakakia Wind Farm": [
+   "ppm"
+  ],
+  "Marathokabos Wind Farm": [
+   "ppm"
+  ],
+  "Paliopergos Wind Farm": [
+   "ppm"
+  ],
+  "Phrangaki Greek Windpower Wind Farm": [
+   "ppm"
+  ],
+  "Prassa Kabos Polemou Wind Farm": [
+   "ppm"
+  ],
+  "Syringas Wind Farm": [
+   "ppm"
+  ],
+  "Tigani Wind Farm": [
+   "ppm"
+  ],
+  "Vrachos Stavraetou Wind Farm": [
+   "ppm"
+  ],
+  "Xirokabos Naxos Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/85705637-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/860237027-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Assomata": [
+   "ppm"
+  ],
+  "Moutsara Solar Farm": [
+   "ppm"
+  ],
+  "Imathia Agr Solar #3": [
+   "ppm"
+  ],
+  "Imathia Agrotemachio Solar #2": [
+   "ppm"
+  ],
+  "Konaki Solar Farm": [
+   "ppm"
+  ],
+  "Petraias Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "Voski Solar Farm": [
+   "ppm"
+  ],
+  "Xerovouni Vermio Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/860237724-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Agroktima Aphytou Solar": [
+   "ppm"
+  ],
+  "Agroktima Neas Phokaias Ar Kassandreias Solar": [
+   "ppm"
+  ],
+  "Agrosykia Vasila Solar": [
+   "ppm"
+  ],
+  "Agrotemachio Synolikis Ektasis Solar": [
+   "ppm"
+  ],
+  "Bountalas Kassandreias Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agroktima Kassandreias Solar": [
+   "ppm"
+  ],
+  "Chalkidiki Agroktimatos Valtas Kassandreias Solar": [
+   "ppm"
+  ],
+  "Kabos Agroktima Kassandreias Solar": [
+   "ppm"
+  ],
+  "Kabos Kassandreias Solar": [
+   "ppm"
+  ],
+  "Kalyvia Kassandreias Solar": [
+   "ppm"
+  ],
+  "Kassandreias Solar": [
+   "ppm"
+  ],
+  "Kassandreias Solar #2": [
+   "ppm"
+  ],
+  "Kremasi Solar": [
+   "ppm"
+  ],
+  "Metochaki Solar": [
+   "ppm"
+  ],
+  "Metochi Zographou Koutloumousiou Solar": [
+   "ppm"
+  ],
+  "Paliochora Goumenos Solar": [
+   "ppm"
+  ],
+  "Phava Lakes Agrotemachio Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/860343502-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kapsala Emv Energy Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/860345370-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Achladotopos Gkoura Loutsa Wind Farm": [
+   "ppm"
+  ],
+  "Aedoni Karestias Eevoias Wind Farm": [
+   "ppm"
+  ],
+  "Anatole Wind Farm": [
+   "ppm"
+  ],
+  "Antia Wind Farm": [
+   "ppm"
+  ],
+  "Antia Wind Farm #2": [
+   "ppm"
+  ],
+  "Bourlari Paradeisiou Wind Farm": [
+   "ppm"
+  ],
+  "Bourlari Spata Wind Farm": [
+   "ppm"
+  ],
+  "Chelona Wind Farm": [
+   "ppm"
+  ],
+  "Dexamenes Wind Farm": [
+   "ppm"
+  ],
+  "Diakophtes Wind Farm": [
+   "ppm"
+  ],
+  "Doungza Adias Wind Farm": [
+   "ppm"
+  ],
+  "Euboea Styra Solar": [
+   "ppm"
+  ],
+  "Exostes Wind Farm": [
+   "ppm"
+  ],
+  "Galosi Rikeza Wind Farm": [
+   "ppm"
+  ],
+  "Gerki Pyrgari Wind Farm": [
+   "ppm"
+  ],
+  "Iliolousti Vrethela Wind Farm": [
+   "ppm"
+  ],
+  "Kalamaki Terna Energy Wind Farm": [
+   "ppm"
+  ],
+  "Kalinousiza Karpastoni Wind Farm": [
+   "ppm"
+  ],
+  "Karabila Keme Wind Farm": [
+   "ppm"
+  ],
+  "Kathara Enel Wind Farm": [
+   "ppm"
+  ],
+  "Kerasia Enel Wind Farm": [
+   "ppm"
+  ],
+  "Korakovrachos Wind Farm": [
+   "ppm"
+  ],
+  "Korakovrachos Wind Farm #2": [
+   "ppm"
+  ],
+  "Melia Enel Wind Farm": [
+   "ppm"
+  ],
+  "Milza Wind Farm": [
+   "ppm"
+  ],
+  "Molizeza Wind Farm": [
+   "ppm"
+  ],
+  "Mouriza Petra Megale Wind Farm": [
+   "ppm"
+  ],
+  "Omalies Wind Farm": [
+   "ppm"
+  ],
+  "Platanistos Wind Farm": [
+   "ppm"
+  ],
+  "Platanos Enel Wind Farm": [
+   "ppm"
+  ],
+  "Polyrema Xeropousi Wind Farm": [
+   "ppm"
+  ],
+  "Portes Kokkinochoma Wind Farm": [
+   "ppm"
+  ],
+  "Profitis Ilias Karystias Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgari Dardiza Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgos Evia Pyrgos Wind Farm": [
+   "ppm"
+  ],
+  "Pyrgoulopsi Liazari Wind Farm": [
+   "ppm"
+  ],
+  "Stavros Jasper Energy Wind Farm": [
+   "ppm"
+  ],
+  "Tourla Karystos Wind Farm": [
+   "ppm"
+  ],
+  "Trikorpho Stouppaion Wind Farm": [
+   "ppm"
+  ],
+  "Tsouka Skoura Wind Farm": [
+   "ppm"
+  ],
+  "Vios Kalamaki Bathriza Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/86466243-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Graikia Solar Farm": [
+   "ppm"
+  ],
+  "Larisa Agr Solar #34": [
+   "ppm"
+  ],
+  "Nees Karues Solar": [
+   "ppm"
+  ],
+  "Nikaia Larisa Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/86577898-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Anatoliko Askio Magoula Wind Farm": [
+   "ppm"
+  ],
+  "Askio Wind Farm #2": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #8": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #9": [
+   "ppm"
+  ],
+  "Ptolemaida Liveron Solar Farm": [
+   "ppm"
+  ],
+  "Spelia Juwi Hellas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/866132649-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Phoinikia Valtos Solar Farm": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #2": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Makrylakas Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Mesi Zoni Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Paliophournoi Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Skales Solar": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Trypes Solar": [
+   "ppm"
+  ],
+  "Geroporos Solar": [
+   "ppm"
+  ],
+  "Gotsia Solar": [
+   "ppm"
+  ],
+  "Gyra Makri Solar": [
+   "ppm"
+  ],
+  "Kale Chitsa Wind Farm": [
+   "ppm"
+  ],
+  "Koutsobelia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/876010388-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Adirrio Wind Farm": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #3": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #4": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #5": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #6": [
+   "ppm"
+  ],
+  "Aetolia Acarnania Agr Solar #7": [
+   "ppm"
+  ],
+  "Despoina Solar": [
+   "ppm"
+  ],
+  "Eikonismata Solar": [
+   "ppm"
+  ],
+  "Ellinikon Wind Farm": [
+   "ppm"
+  ],
+  "Klokova Wind Farm": [
+   "ppm"
+  ],
+  "Kotrona Galaria Solar": [
+   "ppm"
+  ],
+  "Kouromandri Wind Farm": [
+   "ppm"
+  ],
+  "Litharoserma Wind Farm": [
+   "ppm"
+  ],
+  "Molykreio Solar": [
+   "ppm"
+  ],
+  "Palarrache Palioplatanos Wind Farm": [
+   "ppm"
+  ],
+  "Riganolakka Paliolimero Wind Farm": [
+   "ppm"
+  ],
+  "Tsoures Xynakes Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/885849049-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92321227-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92352843-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92367033-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Elpe Thes Nikis Industrial Area Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/92421826-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92508649-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92508651-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92611147-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/92611154-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Attica Kontra Kouke Dimos Kropias Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/92611161-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Boeotia Stegi Ktiriou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93061385-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Boeotia Patima Schimatariou Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93061390-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/93073613-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Euboea Gournes Phyllon Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93085785-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/93085804-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ayioi Anaryeroi Solar Farm": [
+   "ppm"
+  ],
+  "Kozani Agr Solar #10": [
+   "ppm"
+  ],
+  "Perdikkas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93368205-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Charauye Solar Farm": [
+   "ppm"
+  ],
+  "Exoche Solar Farm": [
+   "ppm"
+  ],
+  "Kardia Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93475851-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/93583004-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kallitheas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/93645374-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/93701820-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/93702884-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Euboea Megali Kanapitsa Solar": [
+   "ppm"
+  ],
+  "Kanapitsa Daphni Mantoudiou Solar": [
+   "ppm"
+  ],
+  "Levachi Palaiostrougka Agr Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/952332882-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Aetos Kakoraiika Wind Farm": [
+   "ppm"
+  ],
+  "Kokoraiika Solar Farm": [
+   "ppm"
+  ],
+  "Lithos Solar Farm": [
+   "ppm"
+  ],
+  "Lithos Wind Farm": [
+   "ppm"
+  ],
+  "Mikrovouno Wind Farm": [
+   "ppm"
+  ],
+  "Psaromyta Wind Farm": [
+   "ppm"
+  ],
+  "Rouskio Wind Farm": [
+   "ppm"
+  ],
+  "Tolofonas Solar Farm": [
+   "ppm"
+  ],
+  "Treis Vryses Kato Lakkomata Wind Farm": [
+   "ppm"
+  ],
+  "Tsamathorrache Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/95989793-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Menelou Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/96020492-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/96040682-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/96040696-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/96314284-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/96314286-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/96314289-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Panachaikou Wind Farm": [
+   "ppm"
+  ],
+  "Pano Vrysi Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/96327236-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Skotomenoi Vatheia Gonia Wind Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/963762450-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Magoula Achaia Solar": [
+   "ppm"
+  ],
+  "Merteki Chalandritsas Solar Farm": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/96759614-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Ioannia Psoroneri Solar": [
+   "ppm"
+  ],
+  "Ioannia Valtos Solar": [
+   "ppm"
+  ],
+  "Ioannina Agr Solar #2": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/972630278-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Corfu Ano Vlachero Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/972652089-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "embedded coal at osmhv:way/972652103-150": [
+   "energy_charts",
+   "geonames"
+  ],
+  "Kephallonia Vounous Simotaton Solar": [
+   "ppm"
+  ],
+  "Kopeloules Simotaton Solar": [
+   "ppm"
+  ],
+  "embedded coal at osmhv:way/973164276-150": [
+   "energy_charts",
+   "geonames"
+  ]
+ },
+ "demand": {
+  "4": [
+   "energy_charts"
+  ],
+  "17": [
+   "energy_charts"
+  ],
+  "21": [
+   "energy_charts",
+   "pypsa_osm"
+  ],
+  "26": [
+   "energy_charts"
+  ],
+  "31": [
+   "energy_charts"
+  ],
+  "41": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "42": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "43": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "80": [
+   "model_assembly"
+  ],
+  "179": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "180": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "181": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "182": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "183": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "184": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "185": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "186": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "187": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "188": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "189": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "190": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "191": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "192": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "193": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "194": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "195": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "196": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "197": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "198": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "199": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "200": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "201": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "202": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "203": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "204": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "205": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "206": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "207": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "208": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "209": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "210": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "211": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "212": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "213": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "214": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "215": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "216": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "217": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "218": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "219": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "220": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "221": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "222": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "223": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "224": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "225": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "226": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "227": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "228": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "229": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "230": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "231": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "232": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "233": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "234": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "235": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "236": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "237": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "238": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "239": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "240": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "241": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "242": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "243": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "244": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "245": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "246": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "247": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "248": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "249": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "250": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "251": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "252": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "253": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "254": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "255": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "256": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "257": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "258": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "259": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "260": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "261": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "262": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "263": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "264": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "265": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "266": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "267": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "268": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "269": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "270": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "271": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "272": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "273": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "274": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "275": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "276": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "277": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "278": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "279": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "280": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "281": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "282": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "283": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "284": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "285": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "286": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "287": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "288": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "289": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "290": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "291": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "292": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "293": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "294": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "295": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "296": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "297": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "298": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "299": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "300": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "301": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "302": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "303": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "304": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "305": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "306": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "307": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "308": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "309": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "310": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "311": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "312": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "313": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "314": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "315": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "316": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "317": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "318": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "319": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "320": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "321": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "322": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "323": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "324": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "325": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "326": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "327": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "328": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "329": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "330": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "331": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "332": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "333": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "334": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "335": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "336": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "337": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "338": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "339": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "340": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "341": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "342": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "343": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "344": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "345": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "346": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "347": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "348": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "349": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "350": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "351": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "352": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "353": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "354": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "355": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "356": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "357": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "358": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "359": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "360": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "361": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "362": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "363": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "364": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "365": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "366": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "367": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "368": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "369": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "370": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "371": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "372": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "373": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "374": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "375": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "376": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "377": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "378": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "379": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "380": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "381": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "382": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "383": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "384": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "385": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "386": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "387": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "388": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "389": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "390": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "391": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "392": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "393": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "394": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "395": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "396": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "397": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "398": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "399": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "400": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "401": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "402": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "403": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "404": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "405": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "406": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "407": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "408": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "409": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "410": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "411": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "412": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "413": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "414": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "415": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "416": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "417": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "418": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "419": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "420": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "421": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ],
+  "422": [
+   "energy_charts",
+   "geonames",
+   "ghsl"
+  ]
+ },
+ "shunts": {
+  "9": [
+   "model_assembly"
+  ],
+  "39": [
+   "model_assembly"
+  ],
+  "50": [
+   "model_assembly"
+  ],
+  "68": [
+   "model_assembly"
+  ],
+  "81": [
+   "model_assembly"
+  ],
+  "83": [
+   "model_assembly"
+  ],
+  "86": [
+   "model_assembly"
+  ],
+  "87": [
+   "model_assembly"
+  ],
+  "89": [
+   "model_assembly"
+  ],
+  "96": [
+   "model_assembly"
+  ],
+  "101": [
+   "model_assembly"
+  ],
+  "129": [
+   "model_assembly"
+  ],
+  "163": [
+   "model_assembly"
+  ],
+  "164": [
+   "model_assembly"
+  ],
+  "167": [
+   "model_assembly"
+  ],
+  "189": [
+   "model_assembly"
+  ],
+  "207": [
+   "model_assembly"
+  ],
+  "242": [
+   "model_assembly"
+  ],
+  "270": [
+   "model_assembly"
+  ],
+  "272": [
+   "model_assembly"
+  ],
+  "273": [
+   "model_assembly"
+  ],
+  "292": [
+   "model_assembly"
+  ],
+  "302": [
+   "model_assembly"
+  ],
+  "333": [
+   "model_assembly"
+  ],
+  "339": [
+   "model_assembly"
+  ],
+  "347": [
+   "model_assembly"
+  ],
+  "353": [
+   "model_assembly"
+  ],
+  "354": [
+   "model_assembly"
+  ],
+  "376": [
+   "model_assembly"
+  ],
+  "380": [
+   "model_assembly"
+  ],
+  "384": [
+   "model_assembly"
+  ],
+  "387": [
+   "model_assembly"
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+Italy Sardinian 380/220 kV transmission grid summer peak 2026-06-29 (UnvalidatedAtScale)
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
+approximation of the Italian transmission grid for one snapshot (29 June 2026 14:00-15:00 CEST, the
+Terna June 2026 peak, 57,434 MW), with allocated demand and register-based generation. Do not use it
+for planning, operation or investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- OpenStreetMap contributors (c), ODbL 1.0, openstreetmap.org/copyright: substations, lines,
+  circuits, lengths, names; via the PyPSA-Eur prebuilt network v0.7 (Zenodo record 18619025,
+  ODbL 1.0, PyPSA-Eur contributors) and the Overpass API.
+- powerplantmatching (PyPSA / FIAS), CC BY 4.0: power plant list.
+- Fraunhofer ISE, energy-charts.info, CC BY 4.0: generation by type and cross-border flows.
+- Terna S.p.A., Rapporto Mensile sul Sistema Elettrico, Giugno 2026: peak demand and thermal output.
+- Eurostat, CC BY 4.0: population by NUTS 3 region; GISCO NUTS label points (c) EuroGeographics.
+- openpolis geojson-italy (ISTAT boundaries), CC BY 4.0: the 20 regions in geography.json.
+- Natural Earth (public domain): Italy outline in geography.json. Made with Natural Earth.

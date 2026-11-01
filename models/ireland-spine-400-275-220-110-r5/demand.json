@@ -1,0 +1,1784 @@
+[
+  {
+    "name": "Gort 110 kV Substation 110kV",
+    "bus": 180,
+    "pMw": 22.703232413365164,
+    "qMvar": 5.689966391976721
+  },
+  {
+    "name": "Drumquin 110 kV Substation 110kV",
+    "bus": 181,
+    "pMw": 8.916445370687391,
+    "qMvar": 2.23467185515138
+  },
+  {
+    "name": "Dromore 110 kV Substation 110kV",
+    "bus": 182,
+    "pMw": 12.2756666886999,
+    "qMvar": 3.0765720768771105
+  },
+  {
+    "name": "Barnageeragh 110kV Substation 110kV",
+    "bus": 183,
+    "pMw": 41.64966605570593,
+    "qMvar": 10.438390259992651
+  },
+  {
+    "name": "Knockanure 220kV Substation 110kV",
+    "bus": 184,
+    "pMw": 2.676113204934704,
+    "qMvar": 0.6706971906009119
+  },
+  {
+    "name": "Ballyragget 110 kV Substation 110kV",
+    "bus": 185,
+    "pMw": 23.987587774613683,
+    "qMvar": 6.011856187570634
+  },
+  {
+    "name": "Glengormley 110kV Substation 110kV",
+    "bus": 186,
+    "pMw": 83.1408794207217,
+    "qMvar": 20.83706853235598
+  },
+  {
+    "name": "Newtownards 110 kV Substation 110kV",
+    "bus": 187,
+    "pMw": 70.44116334787319,
+    "qMvar": 17.654219661918685
+  },
+  {
+    "name": "Knockraha 220kV Substation 110kV",
+    "bus": 188,
+    "pMw": 26.542300375516838,
+    "qMvar": 6.652127518790459
+  },
+  {
+    "name": "Aghada 220kV Substation 110kV",
+    "bus": 189,
+    "pMw": 8.055740967029006,
+    "qMvar": 2.018958998009525
+  },
+  {
+    "name": "Kilcumber 110kV Substation 110kV",
+    "bus": 190,
+    "pMw": 2.1505458800465833,
+    "qMvar": 0.5389776027956943
+  },
+  {
+    "name": "Carrigdangan 110 kV Substation 110kV",
+    "bus": 191,
+    "pMw": 3.9164243350656944,
+    "qMvar": 0.9815484613602873
+  },
+  {
+    "name": "Clutterland 110 kV Substation 110kV",
+    "bus": 192,
+    "pMw": 0.13439791927689584,
+    "qMvar": 0.03368329363474053
+  },
+  {
+    "name": "Cloghan 110kV Substation 110kV",
+    "bus": 193,
+    "pMw": 4.379864062682813,
+    "qMvar": 1.097697405565074
+  },
+  {
+    "name": "Knockalough Substation 110kV",
+    "bus": 194,
+    "pMw": 10.271977188900863,
+    "qMvar": 2.5744001523584874
+  },
+  {
+    "name": "Deenes 110 kV Substation 110kV",
+    "bus": 195,
+    "pMw": 10.78890232505135,
+    "qMvar": 2.7039538034999326
+  },
+  {
+    "name": "Rosspile 110 kV Substation 110kV",
+    "bus": 196,
+    "pMw": 20.71453789966343,
+    "qMvar": 5.191552565220935
+  },
+  {
+    "name": "Ballymacarney 110 kV Substation 110kV",
+    "bus": 197,
+    "pMw": 4.7645322376040795,
+    "qMvar": 1.1941043377372758
+  },
+  {
+    "name": "Athlone 110 kV Substation 110kV",
+    "bus": 198,
+    "pMw": 55.132066095045694,
+    "qMvar": 13.81739822283533
+  },
+  {
+    "name": "Newry 110kV Substation 110kV",
+    "bus": 199,
+    "pMw": 130.20570011718985,
+    "qMvar": 32.632624474850964
+  },
+  {
+    "name": "OSM way/1148491510 110kV",
+    "bus": 200,
+    "pMw": 0.43023600472733353,
+    "qMvar": 0.10782730683212034
+  },
+  {
+    "name": "Inchicore Central 110 kV Substation 110kV",
+    "bus": 201,
+    "pMw": 45.71509119132342,
+    "qMvar": 11.457281842018798
+  },
+  {
+    "name": "Timahoe 110 kV Station 110kV",
+    "bus": 202,
+    "pMw": 5.893968775077977,
+    "qMvar": 1.4771678162362158
+  },
+  {
+    "name": "Lenalea 110 kV Substation 110kV",
+    "bus": 203,
+    "pMw": 5.587321570401091,
+    "qMvar": 1.4003147824022348
+  },
+  {
+    "name": "Philipstown 110 kV Substation 110kV",
+    "bus": 204,
+    "pMw": 3.5844516458070332,
+    "qMvar": 0.8983482627919139
+  },
+  {
+    "name": "OSM way/1236458789 110kV",
+    "bus": 205,
+    "pMw": 4.463166674777925,
+    "qMvar": 1.118575008126462
+  },
+  {
+    "name": "Sligo 110kV Substation 110kV",
+    "bus": 206,
+    "pMw": 41.571226464033444,
+    "qMvar": 10.418731445234886
+  },
+  {
+    "name": "Mallow 110kV Substation 110kV",
+    "bus": 207,
+    "pMw": 45.93695782930436,
+    "qMvar": 11.512886862952701
+  },
+  {
+    "name": "OSM way/1342550216 110kV",
+    "bus": 208,
+    "pMw": 4.403088134138792,
+    "qMvar": 1.1035179065256153
+  },
+  {
+    "name": "Whitebank 110 kV substation 110kV",
+    "bus": 209,
+    "pMw": 2.5739448277638504,
+    "qMvar": 0.6450913816200404
+  },
+  {
+    "name": "OSM way/1368482074 110kV",
+    "bus": 210,
+    "pMw": 0.30202374735351745,
+    "qMvar": 0.07569428620255483
+  },
+  {
+    "name": "Kells 275kV Substation 110kV",
+    "bus": 211,
+    "pMw": 12.584155338150525,
+    "qMvar": 3.1538866202743328
+  },
+  {
+    "name": "Ballywater 110kV Substation 110kV",
+    "bus": 212,
+    "pMw": 7.531514571888562,
+    "qMvar": 1.8875754788776733
+  },
+  {
+    "name": "Athy 110kV Substation 110kV",
+    "bus": 213,
+    "pMw": 35.73166583673705,
+    "qMvar": 8.95519959619005
+  },
+  {
+    "name": "Ballybeg 110kV Substation 110kV",
+    "bus": 214,
+    "pMw": 39.897267349816445,
+    "qMvar": 9.999197745010301
+  },
+  {
+    "name": "Coolderrig 110 kV Substation 110kV",
+    "bus": 215,
+    "pMw": 6.340409758399909,
+    "qMvar": 1.5890564735362849
+  },
+  {
+    "name": "Salthill 110kV Substation 110kV",
+    "bus": 216,
+    "pMw": 59.62330975297364,
+    "qMvar": 14.943009986239762
+  },
+  {
+    "name": "Arklow 220kV Substation 110kV",
+    "bus": 217,
+    "pMw": 9.453327789491167,
+    "qMvar": 2.369227272803639
+  },
+  {
+    "name": "Castlereagh 275kV Substation 110kV",
+    "bus": 218,
+    "pMw": 73.49167118736334,
+    "qMvar": 18.418748992770375
+  },
+  {
+    "name": "Rathnaskilloge 110 kV Substation 110kV",
+    "bus": 219,
+    "pMw": 7.288377085891744,
+    "qMvar": 1.82663948092096
+  },
+  {
+    "name": "OSM way/1495745140 110kV",
+    "bus": 220,
+    "pMw": 2.3960037467781574,
+    "qMvar": 0.600495142982032
+  },
+  {
+    "name": "Cullenagh 220 kV Substation 110kV",
+    "bus": 221,
+    "pMw": 14.024743835677022,
+    "qMvar": 3.5149321307263413
+  },
+  {
+    "name": "Kilkenny 110kV Substation 110kV",
+    "bus": 222,
+    "pMw": 73.31143043119201,
+    "qMvar": 18.373576401202506
+  },
+  {
+    "name": "Thurles 110kV Substation 110kV",
+    "bus": 223,
+    "pMw": 30.65144621281955,
+    "qMvar": 7.681976541532232
+  },
+  {
+    "name": "Richmond 110kV Substation 110kV",
+    "bus": 224,
+    "pMw": 35.46753910336752,
+    "qMvar": 8.889003196984337
+  },
+  {
+    "name": "Arva 220kV Substation 110kV",
+    "bus": 225,
+    "pMw": 25.530889811352008,
+    "qMvar": 6.398644137490082
+  },
+  {
+    "name": "Shankill 110 kV Substation 110kV",
+    "bus": 226,
+    "pMw": 36.91192417767484,
+    "qMvar": 9.251000219269292
+  },
+  {
+    "name": "Ratrussan 110kV Substation 110kV",
+    "bus": 227,
+    "pMw": 35.52752609287733,
+    "qMvar": 8.90403735370934
+  },
+  {
+    "name": "OSM way/1532860616 110kV",
+    "bus": 228,
+    "pMw": 7.968335697041312,
+    "qMvar": 1.9970531724576157
+  },
+  {
+    "name": "Castleview 110kV Substation 110kV",
+    "bus": 229,
+    "pMw": 25.530613595031078,
+    "qMvar": 6.3985749111546255
+  },
+  {
+    "name": "Ikerrin 110kV Substation 110kV",
+    "bus": 230,
+    "pMw": 21.077408684115735,
+    "qMvar": 5.282496556392357
+  },
+  {
+    "name": "Galway 110kV Substation 110kV",
+    "bus": 231,
+    "pMw": 55.12717615965745,
+    "qMvar": 13.816172689505475
+  },
+  {
+    "name": "Hannahstown 275kV Substation 110kV",
+    "bus": 232,
+    "pMw": 41.854161784635366,
+    "qMvar": 10.489641720741751
+  },
+  {
+    "name": "Larne 110kV Substation 110kV",
+    "bus": 233,
+    "pMw": 27.6511471002248,
+    "qMvar": 6.930030703789241
+  },
+  {
+    "name": "Finaghy 110kV Substation 110kV",
+    "bus": 234,
+    "pMw": 177.98685450990916,
+    "qMvar": 44.60771056454693
+  },
+  {
+    "name": "Eden 110kV Substation 110kV",
+    "bus": 235,
+    "pMw": 41.861931169326006,
+    "qMvar": 10.491588912091917
+  },
+  {
+    "name": "Lisburn 110kV Substation 110kV",
+    "bus": 236,
+    "pMw": 90.94370416365548,
+    "qMvar": 22.79264074962496
+  },
+  {
+    "name": "Rosebank 110kV Substation 110kV",
+    "bus": 237,
+    "pMw": 159.6861220856573,
+    "qMvar": 40.02111467605789
+  },
+  {
+    "name": "Rathgael 110kV Substation 110kV",
+    "bus": 238,
+    "pMw": 90.41548352735583,
+    "qMvar": 22.66025617929725
+  },
+  {
+    "name": "Ballynahinch Main 110 kV Substation 110kV",
+    "bus": 239,
+    "pMw": 99.81723965810728,
+    "qMvar": 25.016558376073622
+  },
+  {
+    "name": "Carnmoney 110kV Substation 110kV",
+    "bus": 240,
+    "pMw": 69.92386419170688,
+    "qMvar": 17.524572272525294
+  },
+  {
+    "name": "Kinnegad 110kV 110kV",
+    "bus": 241,
+    "pMw": 20.206727722033243,
+    "qMvar": 5.064283338019679
+  },
+  {
+    "name": "Carlow 110kV Substation 110kV",
+    "bus": 242,
+    "pMw": 46.145835178183745,
+    "qMvar": 11.565236461174196
+  },
+  {
+    "name": "Stratford 110kV Substation 110kV",
+    "bus": 243,
+    "pMw": 17.819113582593435,
+    "qMvar": 4.465890828835685
+  },
+  {
+    "name": "Ballydine 110kV Substation 110kV",
+    "bus": 244,
+    "pMw": 20.066559318756696,
+    "qMvar": 5.029153824770671
+  },
+  {
+    "name": "Thornsberry 110kV Substation 110kV",
+    "bus": 245,
+    "pMw": 42.18167971023799,
+    "qMvar": 10.57172545029701
+  },
+  {
+    "name": "Glanlee 110kV Substation 110kV",
+    "bus": 246,
+    "pMw": 0.8007878984067152,
+    "qMvar": 0.2006963654370881
+  },
+  {
+    "name": "Coomagearlahy Substation 110kV",
+    "bus": 247,
+    "pMw": 0.0023340889699583313,
+    "qMvar": 0.0005849778372144111
+  },
+  {
+    "name": "Clonkeen 110kV Substation 110kV",
+    "bus": 248,
+    "pMw": 1.6773574861668132,
+    "qMvar": 0.4203854125195497
+  },
+  {
+    "name": "Carrowbeg 110 kV Substation 110kV",
+    "bus": 249,
+    "pMw": 25.14404022284959,
+    "qMvar": 6.301690491539959
+  },
+  {
+    "name": "Cunghill 110kV Substation 110kV",
+    "bus": 250,
+    "pMw": 15.375685293854337,
+    "qMvar": 3.8535099752640996
+  },
+  {
+    "name": "Carrigadrohid 110kV Substation 110kV",
+    "bus": 251,
+    "pMw": 4.985315629836309,
+    "qMvar": 1.2494378716955705
+  },
+  {
+    "name": "Killonan 220kV Substation 110kV",
+    "bus": 252,
+    "pMw": 11.698612015927363,
+    "qMvar": 2.9319485433367527
+  },
+  {
+    "name": "Glenree 110 kV Substation 110kV",
+    "bus": 253,
+    "pMw": 13.033008470282441,
+    "qMvar": 3.26637981905164
+  },
+  {
+    "name": "Somerset 110kV Substation 110kV",
+    "bus": 254,
+    "pMw": 21.580706691184382,
+    "qMvar": 5.408634927053779
+  },
+  {
+    "name": "Golagh 110kV Substation 110kV",
+    "bus": 255,
+    "pMw": 0.5357015198263834,
+    "qMvar": 0.13425945647054968
+  },
+  {
+    "name": "Drumkeen 110kV Substation 110kV",
+    "bus": 256,
+    "pMw": 18.31362971208148,
+    "qMvar": 4.5898282535092285
+  },
+  {
+    "name": "Meentycat 110kV Substation 110kV",
+    "bus": 257,
+    "pMw": 2.2521465130717564,
+    "qMvar": 0.5644411216810699
+  },
+  {
+    "name": "Corduff 220kV Substation 110kV",
+    "bus": 258,
+    "pMw": 1.108962025186117,
+    "qMvar": 0.2779320820225071
+  },
+  {
+    "name": "Cliff 110kV Substation 110kV",
+    "bus": 259,
+    "pMw": 2.4981756112866917,
+    "qMvar": 0.6261018259721124
+  },
+  {
+    "name": "Cathleen's Fall 110kV Substation 110kV",
+    "bus": 260,
+    "pMw": 13.750287666613604,
+    "qMvar": 3.446146930909499
+  },
+  {
+    "name": "Lodgewood 220kV Substation 110kV",
+    "bus": 261,
+    "pMw": 21.000196373972397,
+    "qMvar": 5.2631453273795294
+  },
+  {
+    "name": "Crane 110kV Substation 110kV",
+    "bus": 262,
+    "pMw": 30.277711032600212,
+    "qMvar": 7.588309676117265
+  },
+  {
+    "name": "Banoge 110kV 110kV",
+    "bus": 263,
+    "pMw": 31.27297920758275,
+    "qMvar": 7.837747393335051
+  },
+  {
+    "name": "Srananagh 220kV Substation 110kV",
+    "bus": 264,
+    "pMw": 8.191842828913792,
+    "qMvar": 2.053069339916345
+  },
+  {
+    "name": "Bandon 110kV Substation 110kV",
+    "bus": 265,
+    "pMw": 24.26339602484358,
+    "qMvar": 6.080980250869839
+  },
+  {
+    "name": "Boggeragh 110kV Substation 110kV",
+    "bus": 266,
+    "pMw": 4.418677016475254,
+    "qMvar": 1.1074248487163991
+  },
+  {
+    "name": "Clashavoon 220 kV Substation 110kV",
+    "bus": 267,
+    "pMw": 5.8769385829301894,
+    "qMvar": 1.4728996477567013
+  },
+  {
+    "name": "Corderry 110kV Substation 110kV",
+    "bus": 268,
+    "pMw": 7.4043099095501255,
+    "qMvar": 1.8556949853677551
+  },
+  {
+    "name": "Cow Cross 110kV Substation 110kV",
+    "bus": 269,
+    "pMw": 15.977802689424802,
+    "qMvar": 4.0044148192282405
+  },
+  {
+    "name": "Loguestown 110kV Substation 110kV",
+    "bus": 270,
+    "pMw": 55.97020690968678,
+    "qMvar": 14.027456111519248
+  },
+  {
+    "name": "Binbane 110 kV Substation 110kV",
+    "bus": 271,
+    "pMw": 15.161733814494445,
+    "qMvar": 3.7998886800711373
+  },
+  {
+    "name": "Flagford 220kV Substation 110kV",
+    "bus": 272,
+    "pMw": 5.332778044367291,
+    "qMvar": 1.3365201613519326
+  },
+  {
+    "name": "OSM way/194791260 110kV",
+    "bus": 273,
+    "pMw": 25.190270563971552,
+    "qMvar": 6.313276907187042
+  },
+  {
+    "name": "Enniskillen 110kV Substation 110kV",
+    "bus": 274,
+    "pMw": 25.316631536697006,
+    "qMvar": 6.344945952148325
+  },
+  {
+    "name": "Omagh 110kV Substation 110kV",
+    "bus": 275,
+    "pMw": 39.9884832130046,
+    "qMvar": 10.022058595241047
+  },
+  {
+    "name": "Carrick-on-Shannon 110kV Substation 110kV",
+    "bus": 276,
+    "pMw": 12.614369853434786,
+    "qMvar": 3.1614590916029575
+  },
+  {
+    "name": "Shannonbridge 220/110kV 110kV",
+    "bus": 277,
+    "pMw": 1.7127497194902226,
+    "qMvar": 0.42925554230902613
+  },
+  {
+    "name": "Cloon 110 kV Substation 110kV",
+    "bus": 278,
+    "pMw": 49.715987707682245,
+    "qMvar": 12.460001027611813
+  },
+  {
+    "name": "Corraclassy 110kV Substation 110kV",
+    "bus": 279,
+    "pMw": 6.228134575404375,
+    "qMvar": 1.5609176602489951
+  },
+  {
+    "name": "Gortawee 110kV Station 110kV",
+    "bus": 280,
+    "pMw": 9.667904337253693,
+    "qMvar": 2.423005224905139
+  },
+  {
+    "name": "Castlebar 110 kV Substation 110kV",
+    "bus": 281,
+    "pMw": 33.09076439307972,
+    "qMvar": 8.293327304820345
+  },
+  {
+    "name": "Agannygal 110kV Substation 110kV",
+    "bus": 282,
+    "pMw": 16.72546729439855,
+    "qMvar": 4.191797232327565
+  },
+  {
+    "name": "Moy 110 kV Substation 110kV",
+    "bus": 283,
+    "pMw": 23.69482396767592,
+    "qMvar": 5.938482661196372
+  },
+  {
+    "name": "Ardnacrusha 110kV Substation 110kV",
+    "bus": 284,
+    "pMw": 28.56184960876312,
+    "qMvar": 7.1582742671869095
+  },
+  {
+    "name": "Sorne Hill 110kV Substation 110kV",
+    "bus": 285,
+    "pMw": 27.989684851173728,
+    "qMvar": 7.014876261912533
+  },
+  {
+    "name": "Carhoon 110kV Substation 110kV",
+    "bus": 286,
+    "pMw": 21.094837860128173,
+    "qMvar": 5.286864719654089
+  },
+  {
+    "name": "Dalton 110kV Substation 110kV",
+    "bus": 287,
+    "pMw": 39.047089488182436,
+    "qMvar": 9.786123087982505
+  },
+  {
+    "name": "Trillick 110kV Substation 110kV",
+    "bus": 288,
+    "pMw": 28.790040217703783,
+    "qMvar": 7.2154642246430445
+  },
+  {
+    "name": "Tipperary 110kV Substation 110kV",
+    "bus": 289,
+    "pMw": 26.88907335721927,
+    "qMvar": 6.739037020292582
+  },
+  {
+    "name": "Bellacorick 110 kV Substation 110kV",
+    "bus": 290,
+    "pMw": 13.255139356182042,
+    "qMvar": 3.3220510667566447
+  },
+  {
+    "name": "Moneypoint 400kV Station 110kV",
+    "bus": 291,
+    "pMw": 0.6937358889459817,
+    "qMvar": 0.1738666028317173
+  },
+  {
+    "name": "Drumline 110kV Substation 110kV",
+    "bus": 292,
+    "pMw": 27.591830494224393,
+    "qMvar": 6.915164561009072
+  },
+  {
+    "name": "Tarbert 220kV Substation 110kV",
+    "bus": 293,
+    "pMw": 0.2996405960285239,
+    "qMvar": 0.07509701218010219
+  },
+  {
+    "name": "Ahane 110kV Substation 110kV",
+    "bus": 294,
+    "pMw": 23.384182133901703,
+    "qMvar": 5.86062847894007
+  },
+  {
+    "name": "Moneteen 110kV Substation 110kV",
+    "bus": 295,
+    "pMw": 12.150452923821884,
+    "qMvar": 3.045190549304439
+  },
+  {
+    "name": "Clahane 110kV Substation 110kV",
+    "bus": 296,
+    "pMw": 11.621651559015554,
+    "qMvar": 2.912660434693616
+  },
+  {
+    "name": "Rathkeale 110kV Substation 110kV",
+    "bus": 297,
+    "pMw": 21.32323143406293,
+    "qMvar": 5.34410554493266
+  },
+  {
+    "name": "Aughinish 110kV Substation 110kV",
+    "bus": 298,
+    "pMw": 4.652620883453732,
+    "qMvar": 1.166056708553811
+  },
+  {
+    "name": "Booltiagh 110 kV Substation 110kV",
+    "bus": 299,
+    "pMw": 5.286370485145246,
+    "qMvar": 1.3248893306623053
+  },
+  {
+    "name": "Oughtragh 110kV Substation 110kV",
+    "bus": 300,
+    "pMw": 38.63482679271485,
+    "qMvar": 9.682800317058687
+  },
+  {
+    "name": "Gilra 110kV Substation 110kV",
+    "bus": 301,
+    "pMw": 10.281827247328268,
+    "qMvar": 2.576868809701657
+  },
+  {
+    "name": "Garrow 110kV Substation 110kV",
+    "bus": 302,
+    "pMw": 3.2046558845975097,
+    "qMvar": 0.8031624726034986
+  },
+  {
+    "name": "Reamore 110kV Substation 110kV",
+    "bus": 303,
+    "pMw": 6.373840232538978,
+    "qMvar": 1.5974349401288732
+  },
+  {
+    "name": "Tullabrack 110kV Substation 110kV",
+    "bus": 304,
+    "pMw": 10.146027829168256,
+    "qMvar": 2.5428342673373026
+  },
+  {
+    "name": "Tonroe 110kV Substation 110kV",
+    "bus": 305,
+    "pMw": 26.576468947624747,
+    "qMvar": 6.660690970171125
+  },
+  {
+    "name": "Cushaling 110kV Substation 110kV",
+    "bus": 306,
+    "pMw": 6.053738550478038,
+    "qMvar": 1.517209896409119
+  },
+  {
+    "name": "Derryiron 110 kV Substation 110kV",
+    "bus": 307,
+    "pMw": 7.411717547472588,
+    "qMvar": 1.8575515144317807
+  },
+  {
+    "name": "Singland 110kV Substation 110kV",
+    "bus": 308,
+    "pMw": 41.41760797193533,
+    "qMvar": 10.380231021977544
+  },
+  {
+    "name": "Slieve Kirk 110 kV Substation 110kV",
+    "bus": 309,
+    "pMw": 12.198749155274196,
+    "qMvar": 3.0572947258736316
+  },
+  {
+    "name": "Tandragee 275kV Substation 110kV",
+    "bus": 310,
+    "pMw": 34.97652043752771,
+    "qMvar": 8.76594231932636
+  },
+  {
+    "name": "Tamnamore 275kV Substation 110kV",
+    "bus": 311,
+    "pMw": 41.97816757926761,
+    "qMvar": 10.520720502433317
+  },
+  {
+    "name": "Waringstown 110kV Substation 110kV",
+    "bus": 312,
+    "pMw": 86.40893605808445,
+    "qMvar": 21.65612073140424
+  },
+  {
+    "name": "Wexford 110kV Substation 110kV",
+    "bus": 313,
+    "pMw": 57.299919506727285,
+    "qMvar": 14.360713501938003
+  },
+  {
+    "name": "Ryebrook 110kV Substation 110kV",
+    "bus": 314,
+    "pMw": 13.105539580663233,
+    "qMvar": 3.2845578288136554
+  },
+  {
+    "name": "Platin 110 kV Substation 110kV",
+    "bus": 315,
+    "pMw": 30.514692763560376,
+    "qMvar": 7.64770289643606
+  },
+  {
+    "name": "Butlerstown 110kV Substation 110kV",
+    "bus": 316,
+    "pMw": 20.76621065654154,
+    "qMvar": 5.204502978830061
+  },
+  {
+    "name": "Killoteran 110kV Substation 110kV",
+    "bus": 317,
+    "pMw": 8.282309000663503,
+    "qMvar": 2.075742299761641
+  },
+  {
+    "name": "Macroom 110kV Substation 110kV",
+    "bus": 318,
+    "pMw": 5.527368565618059,
+    "qMvar": 1.3852891430526306
+  },
+  {
+    "name": "Anner 110kV Substation 110kV",
+    "bus": 319,
+    "pMw": 7.730006184907222,
+    "qMvar": 1.937322166336176
+  },
+  {
+    "name": "Trien 110kV Substation 110kV",
+    "bus": 320,
+    "pMw": 9.24537124824129,
+    "qMvar": 2.3171084507275834
+  },
+  {
+    "name": "Dunmanway 110kV Station 110kV",
+    "bus": 321,
+    "pMw": 29.678724883501165,
+    "qMvar": 7.438189596492535
+  },
+  {
+    "name": "Brinny 110kV Substation 110kV",
+    "bus": 322,
+    "pMw": 17.954998723820704,
+    "qMvar": 4.499946855425847
+  },
+  {
+    "name": "Knockearagh 110kV Substation 110kV",
+    "bus": 323,
+    "pMw": 26.935990251473964,
+    "qMvar": 6.750795502374101
+  },
+  {
+    "name": "Cauteen 110 kV Substation 110kV",
+    "bus": 324,
+    "pMw": 23.46269314421479,
+    "qMvar": 5.8803051928963885
+  },
+  {
+    "name": "Ballylickey 110kV Substation 110kV",
+    "bus": 325,
+    "pMw": 34.29571856740485,
+    "qMvar": 8.595317287169548
+  },
+  {
+    "name": "Charleville 110kV Substation 110kV",
+    "bus": 326,
+    "pMw": 32.62405456660396,
+    "qMvar": 8.17635879658761
+  },
+  {
+    "name": "Midleton 110kV Substation 110kV",
+    "bus": 327,
+    "pMw": 41.504606371573715,
+    "qMvar": 10.402034876207868
+  },
+  {
+    "name": "Dungarvan 110kV Substation 110kV",
+    "bus": 328,
+    "pMw": 19.48800794441748,
+    "qMvar": 4.8841551824590965
+  },
+  {
+    "name": "Great Island 110kV Substation 110kV",
+    "bus": 329,
+    "pMw": 5.548529768783468,
+    "qMvar": 1.3905926404856255
+  },
+  {
+    "name": "Antrim 110kV Substation 110kV",
+    "bus": 330,
+    "pMw": 61.03124797187193,
+    "qMvar": 15.295872565525817
+  },
+  {
+    "name": "Screeb 110kV Substation 110kV",
+    "bus": 331,
+    "pMw": 21.864570654139897,
+    "qMvar": 5.479777942273029
+  },
+  {
+    "name": "Griffinrath 110kV Substation 110kV",
+    "bus": 332,
+    "pMw": 20.357164824104856,
+    "qMvar": 5.101986429778099
+  },
+  {
+    "name": "Kilteel 110kV Substation 110kV",
+    "bus": 333,
+    "pMw": 8.644936473657717,
+    "qMvar": 2.1666253113335903
+  },
+  {
+    "name": "Drumnakelly 110kV Substation 110kV",
+    "bus": 334,
+    "pMw": 75.95869053845895,
+    "qMvar": 19.0370423238921
+  },
+  {
+    "name": "Louth 275 kV Substation 110kV",
+    "bus": 335,
+    "pMw": 23.56413179706035,
+    "qMvar": 5.905728115722077
+  },
+  {
+    "name": "Gorman 220kV Substation 110kV",
+    "bus": 336,
+    "pMw": 8.628659143960094,
+    "qMvar": 2.162545827969976
+  },
+  {
+    "name": "Newbridge 110kV Substation 110kV",
+    "bus": 337,
+    "pMw": 32.484592350515605,
+    "qMvar": 8.14140627053118
+  },
+  {
+    "name": "Blake 110 kV Substation 110kV",
+    "bus": 338,
+    "pMw": 14.055538541211243,
+    "qMvar": 3.5226500114382255
+  },
+  {
+    "name": "Port Laoise 110kV Substation 110kV",
+    "bus": 339,
+    "pMw": 67.51400737868232,
+    "qMvar": 16.92060522387218
+  },
+  {
+    "name": "Mullagharlin 110kV Substation 110kV",
+    "bus": 340,
+    "pMw": 34.28803325439118,
+    "qMvar": 8.593391166167772
+  },
+  {
+    "name": "Navan 110kV Substation 110kV",
+    "bus": 341,
+    "pMw": 20.18599841418405,
+    "qMvar": 5.0590880837561745
+  },
+  {
+    "name": "Drybridge 110kV Substation 110kV",
+    "bus": 342,
+    "pMw": 64.43416972501699,
+    "qMvar": 16.148725148690293
+  },
+  {
+    "name": "Pollaphuca 110kV Substation 110kV",
+    "bus": 343,
+    "pMw": 14.786398658710537,
+    "qMvar": 3.7058208229813006
+  },
+  {
+    "name": "Baltrasna 110kV Substation 110kV",
+    "bus": 344,
+    "pMw": 46.61367761975362,
+    "qMvar": 11.682488829506813
+  },
+  {
+    "name": "Dundalk 110kV Substation 110kV",
+    "bus": 345,
+    "pMw": 38.333631027844035,
+    "qMvar": 9.60731354282685
+  },
+  {
+    "name": "Meath Hill 110kV Substation 110kV",
+    "bus": 346,
+    "pMw": 32.802990974176495,
+    "qMvar": 8.221204487582229
+  },
+  {
+    "name": "Dunfierth 110kV Substation 110kV",
+    "bus": 347,
+    "pMw": 22.157732416627464,
+    "qMvar": 5.553251205709514
+  },
+  {
+    "name": "Mullingar 110kV Substation 110kV",
+    "bus": 348,
+    "pMw": 52.10289848050085,
+    "qMvar": 13.05821725650395
+  },
+  {
+    "name": "Lisdrum 110 kV Substation 110kV",
+    "bus": 349,
+    "pMw": 46.23458345528758,
+    "qMvar": 11.587478876037084
+  },
+  {
+    "name": "Glasmore 110kV Substation 110kV",
+    "bus": 350,
+    "pMw": 87.91806555159776,
+    "qMvar": 22.03434423468726
+  },
+  {
+    "name": "Finglas 220 kV Substation 110kV",
+    "bus": 351,
+    "pMw": 20.065009705222817,
+    "qMvar": 5.028765455010463
+  },
+  {
+    "name": "Inchicore 220kV GIS Substation 110kV",
+    "bus": 352,
+    "pMw": 10.839406433298247,
+    "qMvar": 2.71661132615351
+  },
+  {
+    "name": "Inchicore 110kV GIS Substation 110kV",
+    "bus": 353,
+    "pMw": 33.7707834182389,
+    "qMvar": 8.46375613753505
+  },
+  {
+    "name": "Killymallaght 110 kV Substation 110kV",
+    "bus": 354,
+    "pMw": 5.707318389602708,
+    "qMvar": 1.430388820141432
+  },
+  {
+    "name": "Magherakeel 110kV Substation 110kV",
+    "bus": 355,
+    "pMw": 12.85092118604943,
+    "qMvar": 3.2207444439284822
+  },
+  {
+    "name": "110kV Kilbarry Electrical Substation 110kV",
+    "bus": 356,
+    "pMw": 37.713255522132414,
+    "qMvar": 9.451832785125287
+  },
+  {
+    "name": "Inchincoosh Wind Farm Substation 110kV",
+    "bus": 357,
+    "pMw": 0.43575127780132744,
+    "qMvar": 0.1092095645592238
+  },
+  {
+    "name": "Kilgarvan Wind Farm substation 110kV",
+    "bus": 358,
+    "pMw": 0.06698432869966335,
+    "qMvar": 0.016787855233593687
+  },
+  {
+    "name": "Banbridge 110kV Substation 110kV",
+    "bus": 359,
+    "pMw": 53.168508840702216,
+    "qMvar": 13.325284387126223
+  },
+  {
+    "name": "Rinawade 110kV",
+    "bus": 360,
+    "pMw": 14.13828175674926,
+    "qMvar": 3.5433874160070236
+  },
+  {
+    "name": "Lanesborough 110kV Substation 110kV",
+    "bus": 361,
+    "pMw": 24.448089951949612,
+    "qMvar": 6.127268912277228
+  },
+  {
+    "name": "Shannonbridge 110kV Substation 110kV",
+    "bus": 362,
+    "pMw": 0.17675583425422245,
+    "qMvar": 0.04429918780641419
+  },
+  {
+    "name": "Carrickmines 220 kV Substation 110kV",
+    "bus": 363,
+    "pMw": 51.45823819580759,
+    "qMvar": 12.896650159477387
+  },
+  {
+    "name": "Cherrywood 110kV Substation 110kV",
+    "bus": 364,
+    "pMw": 32.19021183702081,
+    "qMvar": 8.06762755930008
+  },
+  {
+    "name": "Ringsend 110kV Substation 110kV",
+    "bus": 365,
+    "pMw": 28.943314213824483,
+    "qMvar": 7.253878309069953
+  },
+  {
+    "name": "Knockumber (1) 110kV Substation 110kV",
+    "bus": 366,
+    "pMw": 72.29813573404971,
+    "qMvar": 18.119620811666554
+  },
+  {
+    "name": "Ballymena 110 kV Substation 110kV",
+    "bus": 367,
+    "pMw": 80.70290184837378,
+    "qMvar": 20.226053757081672
+  },
+  {
+    "name": "Blackrock 110kV Substation 110kV",
+    "bus": 368,
+    "pMw": 63.798016105157046,
+    "qMvar": 15.989290022835414
+  },
+  {
+    "name": "Coolroe 110kV Substation 110kV",
+    "bus": 369,
+    "pMw": 31.527679433852466,
+    "qMvar": 7.901581287166415
+  },
+  {
+    "name": "Inniscarra 110kV Substation 110kV",
+    "bus": 370,
+    "pMw": 15.024906379370744,
+    "qMvar": 3.765596492369446
+  },
+  {
+    "name": "Mungret 110kV",
+    "bus": 371,
+    "pMw": 8.260224287070095,
+    "qMvar": 2.0702073487980526
+  },
+  {
+    "name": "Tarbert 110kV Substation 110kV",
+    "bus": 372,
+    "pMw": 3.266017481954088,
+    "qMvar": 0.8185411385291225
+  },
+  {
+    "name": "Nenagh 110kV Substation 110kV",
+    "bus": 373,
+    "pMw": 32.683717273661024,
+    "qMvar": 8.19131168046899
+  },
+  {
+    "name": "Sealrock 110 kV Substation 110kV",
+    "bus": 374,
+    "pMw": 2.5312747973994463,
+    "qMvar": 0.634397263958841
+  },
+  {
+    "name": "OSM way/374583113 110kV",
+    "bus": 375,
+    "pMw": 17.058096787397464,
+    "qMvar": 4.27516204142981
+  },
+  {
+    "name": "Glenlara 110kV Substation 110kV",
+    "bus": 376,
+    "pMw": 12.150305083029455,
+    "qMvar": 3.0451534969092133
+  },
+  {
+    "name": "Cahir 110kV Substation 110kV",
+    "bus": 377,
+    "pMw": 21.479033926698698,
+    "qMvar": 5.38315333032034
+  },
+  {
+    "name": "Doon 110kV Substation 110kV",
+    "bus": 378,
+    "pMw": 27.194550918721973,
+    "qMvar": 6.815596913915048
+  },
+  {
+    "name": "Old Court 110 kV Substation 110kV",
+    "bus": 379,
+    "pMw": 10.69104186496646,
+    "qMvar": 2.6794276603125593
+  },
+  {
+    "name": "Cabra 110 kV Substation 110kV",
+    "bus": 380,
+    "pMw": 74.36574021530453,
+    "qMvar": 18.63781134048811
+  },
+  {
+    "name": "Lisheen 110kV Substation 110kV",
+    "bus": 381,
+    "pMw": 12.621533144677294,
+    "qMvar": 3.1632543816164542
+  },
+  {
+    "name": "Arigna 110kV Substation 110kV",
+    "bus": 382,
+    "pMw": 6.205626984829505,
+    "qMvar": 1.5552767263236573
+  },
+  {
+    "name": "Strabane 110kV Substation 110kV",
+    "bus": 383,
+    "pMw": 31.909586258337505,
+    "qMvar": 7.99729615968418
+  },
+  {
+    "name": "Limavady 110 kV Substation 110kV",
+    "bus": 384,
+    "pMw": 34.28524027566244,
+    "qMvar": 8.592691179716033
+  },
+  {
+    "name": "Coleraine 110kV Substation 110kV",
+    "bus": 385,
+    "pMw": 30.925781293847983,
+    "qMvar": 7.7507313938268805
+  },
+  {
+    "name": "Lisaghmore 110kV Substation 110kV",
+    "bus": 386,
+    "pMw": 46.62488424141602,
+    "qMvar": 11.685297473644603
+  },
+  {
+    "name": "Whitegate 110kV Substation 110kV",
+    "bus": 387,
+    "pMw": 3.245439402749415,
+    "qMvar": 0.8133837857366146
+  },
+  {
+    "name": "OSM way/374934264 110kV",
+    "bus": 388,
+    "pMw": 23.679313882946836,
+    "qMvar": 5.93459546754754
+  },
+  {
+    "name": "Macetown 110kV Substation 110kV",
+    "bus": 389,
+    "pMw": 60.19526673056164,
+    "qMvar": 15.086355916937123
+  },
+  {
+    "name": "Tyrrelstown 110kV Substation 110kV",
+    "bus": 390,
+    "pMw": 24.961070411499,
+    "qMvar": 6.255833934272004
+  },
+  {
+    "name": "Ballyvallagh 110 kV Substation 110kV",
+    "bus": 391,
+    "pMw": 6.260171406610151,
+    "qMvar": 1.568946846998587
+  },
+  {
+    "name": "Ballylumford 110kV Substation 110kV",
+    "bus": 392,
+    "pMw": 5.885522190554528,
+    "qMvar": 1.475050902609541
+  },
+  {
+    "name": "Dungannon 110 kV Substation 110kV",
+    "bus": 393,
+    "pMw": 80.07788559670463,
+    "qMvar": 20.069409918808528
+  },
+  {
+    "name": "Shelton Abbey 110kV Substation 110kV",
+    "bus": 394,
+    "pMw": 24.750091226410763,
+    "qMvar": 6.202957566242048
+  },
+  {
+    "name": "Coolkeeragh 275 kV Substation 110kV",
+    "bus": 395,
+    "pMw": 18.832048055530954,
+    "qMvar": 4.719756137675857
+  },
+  {
+    "name": "Waterford 110kV Substation 110kV",
+    "bus": 396,
+    "pMw": 58.587687762597994,
+    "qMvar": 14.683458649551664
+  },
+  {
+    "name": "Cashla 220 kV Substation 110kV",
+    "bus": 397,
+    "pMw": 42.20877260908307,
+    "qMvar": 10.578515570799807
+  },
+  {
+    "name": "Kilmahud 110kV Substation 110kV",
+    "bus": 398,
+    "pMw": 0.1481289471621282,
+    "qMvar": 0.03712461360943601
+  },
+  {
+    "name": "Aghada 110kV Substation 110kV",
+    "bus": 399,
+    "pMw": 0.9157086176833389,
+    "qMvar": 0.22949821261550304
+  },
+  {
+    "name": "Trabeg 110kV Substation 110kV",
+    "bus": 400,
+    "pMw": 59.435029926883665,
+    "qMvar": 14.89582261383245
+  },
+  {
+    "name": "Ringaskiddy 110 kV Substation 110kV",
+    "bus": 401,
+    "pMw": 1.3212932380700309,
+    "qMvar": 0.3311473001588415
+  },
+  {
+    "name": "Adamstown 110kV Substation 110kV",
+    "bus": 402,
+    "pMw": 12.871330139556806,
+    "qMvar": 3.2258594098257625
+  },
+  {
+    "name": "Milltown 110kV Substation 110kV",
+    "bus": 403,
+    "pMw": 122.08401656346022,
+    "qMvar": 30.597138706763285
+  },
+  {
+    "name": "Springtown 110kV Substation 110kV",
+    "bus": 404,
+    "pMw": 52.546310754615334,
+    "qMvar": 13.169346847725336
+  },
+  {
+    "name": "Dromada 110kV Substation 110kV",
+    "bus": 405,
+    "pMw": 11.229010742364784,
+    "qMvar": 2.8142553701554944
+  },
+  {
+    "name": "Francis Street 110kV Substation 110kV",
+    "bus": 406,
+    "pMw": 52.99535596081492,
+    "qMvar": 13.281888184801627
+  },
+  {
+    "name": "McDermott 110kV Substation 110kV",
+    "bus": 407,
+    "pMw": 99.67032887781892,
+    "qMvar": 24.979739063861153
+  },
+  {
+    "name": "Stephenstown 110kV Substation 110kV",
+    "bus": 408,
+    "pMw": 71.86650052606646,
+    "qMvar": 18.01144283144323
+  },
+  {
+    "name": "Pottery Road 110-kV Substation 110kV",
+    "bus": 409,
+    "pMw": 57.28005257594283,
+    "qMvar": 14.355734379740023
+  },
+  {
+    "name": "Poolbeg 220kV Substation 110kV",
+    "bus": 410,
+    "pMw": 4.8299111332972435,
+    "qMvar": 1.2104898335321237
+  },
+  {
+    "name": "Poppintree 110kV Substation 110kV",
+    "bus": 411,
+    "pMw": 41.90513575794143,
+    "qMvar": 10.502417002679415
+  },
+  {
+    "name": "Great Island 110/38 kV Substation 110kV",
+    "bus": 412,
+    "pMw": 2.8308823813577413,
+    "qMvar": 0.709486002534255
+  },
+  {
+    "name": "OSM way/444664540 110kV",
+    "bus": 413,
+    "pMw": 6.426774064810731,
+    "qMvar": 1.6107014090237386
+  },
+  {
+    "name": "OSM way/444664904 110kV",
+    "bus": 414,
+    "pMw": 14.645445376464867,
+    "qMvar": 3.670494600520373
+  },
+  {
+    "name": "Artane 110kV Substation 110kV",
+    "bus": 415,
+    "pMw": 87.17613559051597,
+    "qMvar": 21.848399058824512
+  },
+  {
+    "name": "Heuston Square 110kV Substation 110kV",
+    "bus": 416,
+    "pMw": 41.28834671979906,
+    "qMvar": 10.347835098478683
+  },
+  {
+    "name": "Fortunestown 110kV Substation 110kV",
+    "bus": 417,
+    "pMw": 28.78631253482051,
+    "qMvar": 7.214529979248398
+  },
+  {
+    "name": "Nangor 110kV Substation 110kV",
+    "bus": 418,
+    "pMw": 12.18536750112302,
+    "qMvar": 3.053940967210419
+  },
+  {
+    "name": "Baroda 110kV Substation 110kV",
+    "bus": 419,
+    "pMw": 36.30451190769678,
+    "qMvar": 9.098768354690622
+  },
+  {
+    "name": "Dardistown 110 kV Substation 110kV",
+    "bus": 421,
+    "pMw": 9.115795389458684,
+    "qMvar": 2.2846336793707738
+  },
+  {
+    "name": "Rasharkin 110kV Substation 110kV",
+    "bus": 422,
+    "pMw": 45.7339070513785,
+    "qMvar": 11.46199754106113
+  },
+  {
+    "name": "Fassaroe 110kV Substation 110kV",
+    "bus": 423,
+    "pMw": 82.2355673979409,
+    "qMvar": 20.61017595203588
+  },
+  {
+    "name": "Aghyoule 110kV Substation 110kV",
+    "bus": 424,
+    "pMw": 16.400054256559777,
+    "qMvar": 4.11024103737254
+  },
+  {
+    "name": "Cloghboola 110kV Substation 110kV",
+    "bus": 425,
+    "pMw": 2.8311205058074997,
+    "qMvar": 0.7095456821469006
+  },
+  {
+    "name": "Mount Lucas 110kV Substation 110kV",
+    "bus": 426,
+    "pMw": 22.298425820563832,
+    "qMvar": 5.588512296526673
+  },
+  {
+    "name": "Woodhouse 110kV Substation 110kV",
+    "bus": 427,
+    "pMw": 26.846125271081014,
+    "qMvar": 6.728273215285566
+  },
+  {
+    "name": "Garvagh Glebe 110kV Substation Extension 110kV",
+    "bus": 428,
+    "pMw": 2.6364302677217486,
+    "qMvar": 0.66075170905161
+  },
+  {
+    "name": "Knockacummer 110kV Substation 110kV",
+    "bus": 429,
+    "pMw": 5.382625578404731,
+    "qMvar": 1.3490131309974787
+  },
+  {
+    "name": "Dallow 110kV Substation 110kV",
+    "bus": 431,
+    "pMw": 15.82026562141118,
+    "qMvar": 3.9649323082726475
+  },
+  {
+    "name": "Kilpaddoge 220kV Substation 110kV",
+    "bus": 432,
+    "pMw": 3.2218465180926703,
+    "qMvar": 0.8074708514749879
+  },
+  {
+    "name": "Liberty Street 110kV Substation 110kV",
+    "bus": 433,
+    "pMw": 59.26799137514724,
+    "qMvar": 14.853958806589514
+  },
+  {
+    "name": "Ennis 110kV Substation 110kV",
+    "bus": 434,
+    "pMw": 49.42706857488664,
+    "qMvar": 12.387591067405518
+  },
+  {
+    "name": "Knockduff 110 kV Substation 110kV",
+    "bus": 435,
+    "pMw": 2.6863182118275484,
+    "qMvar": 0.6732548064149487
+  },
+  {
+    "name": "Mulreavy 110kV Substation 110kV",
+    "bus": 436,
+    "pMw": 2.2494771036651726,
+    "qMvar": 0.5637721046207086
+  },
+  {
+    "name": "Ballyvouskill 220kV Substation 110kV",
+    "bus": 437,
+    "pMw": 4.852135772846914,
+    "qMvar": 1.2160598532460116
+  },
+  {
+    "name": "Uggool 110kV Substation 110kV",
+    "bus": 438,
+    "pMw": 2.1477339505741746,
+    "qMvar": 0.5382728668398928
+  },
+  {
+    "name": "Barnakyle 110 kV Substation 110kV",
+    "bus": 439,
+    "pMw": 0.19577850010216638,
+    "qMvar": 0.04906671726609085
+  },
+  {
+    "name": "Tawnaghmore 110kV Substation 110kV",
+    "bus": 440,
+    "pMw": 8.238057553714576,
+    "qMvar": 2.0646518417444155
+  },
+  {
+    "name": "Harolds Cross 110kV Station 110kV",
+    "bus": 441,
+    "pMw": 60.511347455502445,
+    "qMvar": 15.165573213810058
+  },
+  {
+    "name": "Letterkenny 110kV Station 110kV",
+    "bus": 442,
+    "pMw": 55.70672280532121,
+    "qMvar": 13.961420770323622
+  },
+  {
+    "name": "Knockranny 110kV Substation 110kV",
+    "bus": 443,
+    "pMw": 13.399417966221026,
+    "qMvar": 3.3582106949212958
+  },
+  {
+    "name": "Cloghran 110kV Substation 110kV",
+    "bus": 445,
+    "pMw": 10.81620778972507,
+    "qMvar": 2.710797198021116
+  },
+  {
+    "name": "Brockaghboy 110kV Substation 110kV",
+    "bus": 446,
+    "pMw": 46.28769966348019,
+    "qMvar": 11.60079105264623
+  },
+  {
+    "name": "Coomataggart 110 kV Substation 110kV",
+    "bus": 447,
+    "pMw": 5.866772944757357,
+    "qMvar": 1.47035189867396
+  },
+  {
+    "name": "Darndale 110kV Substation 110kV",
+    "bus": 448,
+    "pMw": 0.49030800604557034,
+    "qMvar": 0.12288276952466319
+  },
+  {
+    "name": "Kilmore 110kV Substation 110kV",
+    "bus": 449,
+    "pMw": 14.747281724936819,
+    "qMvar": 3.6960171952653367
+  },
+  {
+    "name": "Airton 110kV Substation 110kV",
+    "bus": 450,
+    "pMw": 86.77271812385459,
+    "qMvar": 21.747293111202342
+  },
+  {
+    "name": "Tievebrack 110kV Substation 110kV",
+    "bus": 451,
+    "pMw": 5.036389728413361,
+    "qMvar": 1.2622382473915377
+  },
+  {
+    "name": "Ardnagappary 110kV Substation 110kV",
+    "bus": 452,
+    "pMw": 21.419909155236127,
+    "qMvar": 5.36833526580732
+  },
+  {
+    "name": "Moneypoint Wind Farm Switching House 110kV",
+    "bus": 453,
+    "pMw": 1.6531920880340025,
+    "qMvar": 0.41432899285556013
+  },
+  {
+    "name": "Clogher 110kV Substation 110kV",
+    "bus": 454,
+    "pMw": 6.379999236648661,
+    "qMvar": 1.59897853206125
+  },
+  {
+    "name": "Belcamp 220kV Substation 110kV",
+    "bus": 456,
+    "pMw": 81.30782361934196,
+    "qMvar": 20.377661443772034
+  },
+  {
+    "name": "Marina 110kV Substation 110kV",
+    "bus": 457,
+    "pMw": 8.912710765361265,
+    "qMvar": 2.2337358748290166
+  },
+  {
+    "name": "Sliabh Bawn 110 kV Substation 110kV",
+    "bus": 458,
+    "pMw": 10.338264337070076,
+    "qMvar": 2.591013277680711
+  },
+  {
+    "name": "Barnahely 110 kV Substation 110kV",
+    "bus": 459,
+    "pMw": 2.795422429530796,
+    "qMvar": 0.7005989008879866
+  },
+  {
+    "name": "Raffeen 220 kV Substation 110kV",
+    "bus": 460,
+    "pMw": 8.565303351248993,
+    "qMvar": 2.1466673695769325
+  },
+  {
+    "name": "Kilathmoy Substation 110kV",
+    "bus": 461,
+    "pMw": 5.6264678529174725,
+    "qMvar": 1.4101257656064552
+  },
+  {
+    "name": "Cordal 110kV Substation 110kV",
+    "bus": 462,
+    "pMw": 3.0498414284621216,
+    "qMvar": 0.7643623125045366
+  },
+  {
+    "name": "Ballynahulla 220kV Substation 110kV",
+    "bus": 463,
+    "pMw": 6.255120725133562,
+    "qMvar": 1.5676810269014694
+  },
+  {
+    "name": "Slievecallan 110 kV Substation 110kV",
+    "bus": 464,
+    "pMw": 15.913847864898061,
+    "qMvar": 3.988386229310459
+  },
+  {
+    "name": "Cromcastle 110kV Substation 110kV",
+    "bus": 465,
+    "pMw": 14.256145223400038,
+    "qMvar": 3.5729267851979056
+  },
+  {
+    "name": "Monread 110kV Substation 110kV",
+    "bus": 466,
+    "pMw": 54.550130178848214,
+    "qMvar": 13.671551334376462
+  },
+  {
+    "name": "Maynooth 220kV Substation 110kV",
+    "bus": 467,
+    "pMw": 26.57414517390076,
+    "qMvar": 6.660108577578242
+  },
+  {
+    "name": "Kellystown 220 kV Substation 110kV",
+    "bus": 468,
+    "pMw": 7.9566494452199725,
+    "qMvar": 1.994124321671044
+  },
+  {
+    "name": "Kellis 220kV Substation 110kV",
+    "bus": 469,
+    "pMw": 28.955592815291592,
+    "qMvar": 7.256955616671632
+  },
+  {
+    "name": "Tralee 110kV Substation 110kV",
+    "bus": 470,
+    "pMw": 46.32932488837623,
+    "qMvar": 11.611223317374204
+  },
+  {
+    "name": "Derrycarney 110kV Substation 110kV",
+    "bus": 471,
+    "pMw": 10.447107859586488,
+    "qMvar": 2.6182920357811725
+  },
+  {
+    "name": "Aungierstown 110 kV Substation 110kV",
+    "bus": 472,
+    "pMw": 4.632667460262669,
+    "qMvar": 1.1610559093154083
+  },
+  {
+    "name": "Great Island 220kV Substation 110kV",
+    "bus": 473,
+    "pMw": 21.24794405040863,
+    "qMvar": 5.325236747973129
+  },
+  {
+    "name": "Limerick 110kV Substation 110kV",
+    "bus": 474,
+    "pMw": 24.93878235527152,
+    "qMvar": 6.250248020840479
+  },
+  {
+    "name": "Castlefarm 110kV Substation 110kV",
+    "bus": 475,
+    "pMw": 0.06762586646389304,
+    "qMvar": 0.016948639753224554
+  },
+  {
+    "name": "Cookstown 110kV Substation 110kV",
+    "bus": 476,
+    "pMw": 43.524123074843544,
+    "qMvar": 10.90817347182372
+  },
+  {
+    "name": "Citywest 110kV Substation 110kV",
+    "bus": 477,
+    "pMw": 14.947644948427405,
+    "qMvar": 3.746232952523691
+  },
+  {
+    "name": "Grange Castle East 110kV Cable Compound 110kV",
+    "bus": 478,
+    "pMw": 59.57089303088536,
+    "qMvar": 14.929873117373267
+  },
+  {
+    "name": "Grange Castle West 110kV Cable Compound 110kV",
+    "bus": 479,
+    "pMw": 0.10372964878517855,
+    "qMvar": 0.025997100531453814
+  },
+  {
+    "name": "Grange Castle 110kV Substation 110kV",
+    "bus": 480,
+    "pMw": 16.704765943979453,
+    "qMvar": 4.18660898485652
+  }
+]

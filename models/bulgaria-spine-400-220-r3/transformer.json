@@ -1,0 +1,452 @@
+[
+  {
+    "name": "virtual_way/450516948:0-400-220",
+    "from": 68,
+    "to": 118,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "virtual_way/478457842:1-400-220",
+    "from": 70,
+    "to": 104,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/1287693974-400-220",
+    "from": 75,
+    "to": 125,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/144787750-400-220",
+    "from": 77,
+    "to": 126,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/157471230-400-220",
+    "from": 79,
+    "to": 129,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/157660797-400-220",
+    "from": 80,
+    "to": 130,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/179323117-400-220",
+    "from": 83,
+    "to": 132,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/200516868-400-220",
+    "from": 84,
+    "to": 134,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/220458404-400-220",
+    "from": 20,
+    "to": 136,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/253597954-400-220",
+    "from": 88,
+    "to": 139,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/37031322-400-220",
+    "from": 90,
+    "to": 144,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/37031469-400-220",
+    "from": 91,
+    "to": 117,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "way/96974919-400-220",
+    "from": 93,
+    "to": 152,
+    "rPu": 0.000375,
+    "xPu": 0.015,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 800.0
+  },
+  {
+    "name": "gsu:virtual_way/1170367700:1-400",
+    "from": 154,
+    "to": 6,
+    "rPu": 0.012732438016528924,
+    "xPu": 0.509297520661157,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 28.470588235294116
+  },
+  {
+    "name": "gsu:virtual_way/1389549722:0-400",
+    "from": 155,
+    "to": 20,
+    "rPu": 0.0004890873015873015,
+    "xPu": 0.01956349206349206,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 741.1764705882354
+  },
+  {
+    "name": "gsu:virtual_way/196574335:1-400",
+    "from": 156,
+    "to": 43,
+    "rPu": 0.03950320512820513,
+    "xPu": 1.580128205128205,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9.176470588235293
+  },
+  {
+    "name": "gsu:virtual_way/196574344:0-400",
+    "from": 157,
+    "to": 46,
+    "rPu": 0.08803571428571426,
+    "xPu": 3.5214285714285705,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 4.11764705882353
+  },
+  {
+    "name": "gsu:virtual_way/196574366:b:1-400",
+    "from": 158,
+    "to": 47,
+    "rPu": 0.03851562499999999,
+    "xPu": 1.5406249999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 9.411764705882353
+  },
+  {
+    "name": "gsu:virtual_way/37028934:1-400",
+    "from": 159,
+    "to": 65,
+    "rPu": 0.002934523809523809,
+    "xPu": 0.11738095238095236,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 123.52941176470588
+  },
+  {
+    "name": "gsu:virtual_way/484167693:1-400",
+    "from": 160,
+    "to": 71,
+    "rPu": 0.0015801282051282049,
+    "xPu": 0.06320512820512819,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 229.41176470588238
+  },
+  {
+    "name": "gsu:virtual_way/484337873:0-400",
+    "from": 161,
+    "to": 72,
+    "rPu": 0.0013396739130434778,
+    "xPu": 0.053586956521739115,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 270.5882352941177
+  },
+  {
+    "name": "gsu:way/157471230-400",
+    "from": 162,
+    "to": 79,
+    "rPu": 0.00014813701923076922,
+    "xPu": 0.005925480769230769,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 2447.0588235294117
+  },
+  {
+    "name": "gsu:way/157660797-400",
+    "from": 163,
+    "to": 80,
+    "rPu": 0.0003393447136563876,
+    "xPu": 0.013573788546255504,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1068.235294117647
+  },
+  {
+    "name": "gsu:way/176754569-400",
+    "from": 164,
+    "to": 82,
+    "rPu": 0.0014265046296296296,
+    "xPu": 0.05706018518518518,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 254.11764705882354
+  },
+  {
+    "name": "gsu:way/235044638-400",
+    "from": 165,
+    "to": 85,
+    "rPu": 0.002937321258341277,
+    "xPu": 0.11749285033365107,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 123.41176470588236
+  },
+  {
+    "name": "gsu:way/243752614-400",
+    "from": 166,
+    "to": 86,
+    "rPu": 0.002567708333333333,
+    "xPu": 0.10270833333333332,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 141.1764705882353
+  },
+  {
+    "name": "gsu:way/253244460-400",
+    "from": 167,
+    "to": 87,
+    "rPu": 0.00031765463917525765,
+    "xPu": 0.012706185567010307,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1141.1764705882354
+  },
+  {
+    "name": "gsu:way/253597954-400",
+    "from": 168,
+    "to": 88,
+    "rPu": 9.616885143570535e-05,
+    "xPu": 0.003846754057428214,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 3769.4117647058824
+  },
+  {
+    "name": "gsu:way/743374599-400",
+    "from": 169,
+    "to": 92,
+    "rPu": 0.0008216666666666665,
+    "xPu": 0.03286666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 441.1764705882353
+  },
+  {
+    "name": "gsu:way/96974919-400",
+    "from": 170,
+    "to": 93,
+    "rPu": 0.006162499999999999,
+    "xPu": 0.24649999999999994,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 58.82352941176471
+  },
+  {
+    "name": "gsu:virtual_way/1023909999:0-220",
+    "from": 171,
+    "to": 96,
+    "rPu": 0.030090332031249993,
+    "xPu": 1.2036132812499998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 12.047058823529412
+  },
+  {
+    "name": "gsu:virtual_way/190339730:1-220",
+    "from": 172,
+    "to": 105,
+    "rPu": 0.007165697674418605,
+    "xPu": 0.2866279069767442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 50.588235294117645
+  },
+  {
+    "name": "gsu:virtual_way/246439630:1-220",
+    "from": 173,
+    "to": 110,
+    "rPu": 0.005135416666666666,
+    "xPu": 0.20541666666666664,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 70.58823529411765
+  },
+  {
+    "name": "gsu:virtual_way/262545229:a:1-220",
+    "from": 174,
+    "to": 114,
+    "rPu": 0.04401785714285713,
+    "xPu": 1.7607142857142852,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 8.23529411764706
+  },
+  {
+    "name": "gsu:virtual_way/286439823:0-220",
+    "from": 175,
+    "to": 116,
+    "rPu": 0.0019257812499999995,
+    "xPu": 0.07703124999999998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 188.23529411764707
+  },
+  {
+    "name": "gsu:way/1256110252-220",
+    "from": 176,
+    "to": 124,
+    "rPu": 0.0012838541666666664,
+    "xPu": 0.05135416666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 282.3529411764706
+  },
+  {
+    "name": "gsu:way/1457230346-220",
+    "from": 177,
+    "to": 127,
+    "rPu": 0.005135416666666666,
+    "xPu": 0.20541666666666664,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 70.58823529411765
+  },
+  {
+    "name": "gsu:way/147907110-220",
+    "from": 178,
+    "to": 128,
+    "rPu": 0.004108333333333333,
+    "xPu": 0.1643333333333333,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 88.23529411764706
+  },
+  {
+    "name": "gsu:way/200514079-220",
+    "from": 179,
+    "to": 133,
+    "rPu": 0.0007703124999999998,
+    "xPu": 0.030812499999999993,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 470.5882352941177
+  },
+  {
+    "name": "gsu:way/261495737-220",
+    "from": 180,
+    "to": 141,
+    "rPu": 0.0014672619047619046,
+    "xPu": 0.05869047619047618,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 247.05882352941177
+  },
+  {
+    "name": "gsu:way/285893870-220",
+    "from": 181,
+    "to": 143,
+    "rPu": 0.0011760496183206106,
+    "xPu": 0.04704198473282442,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 308.2352941176471
+  },
+  {
+    "name": "gsu:way/37376386-220",
+    "from": 182,
+    "to": 145,
+    "rPu": 0.0013980263157894733,
+    "xPu": 0.055921052631578934,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 259.29411764705884
+  },
+  {
+    "name": "gsu:way/751225324-220",
+    "from": 183,
+    "to": 150,
+    "rPu": 0.0016929945054945054,
+    "xPu": 0.06771978021978022,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 214.11764705882354
+  },
+  {
+    "name": "gsu:way/85721962-220",
+    "from": 184,
+    "to": 151,
+    "rPu": 0.013755580357142855,
+    "xPu": 0.5502232142857142,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 26.352941176470587
+  },
+  {
+    "name": "gsu:way/98755129-220",
+    "from": 185,
+    "to": 153,
+    "rPu": 0.0043397887323943654,
+    "xPu": 0.1735915492957746,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 83.52941176470588
+  }
+]

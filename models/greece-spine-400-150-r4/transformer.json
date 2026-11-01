@@ -1,0 +1,542 @@
+[
+  {
+    "name": "cpl:relation/18916482-400>osmhv:relation/18916482-150",
+    "from": 1,
+    "to": 41,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:virtual_way/251579391:1-400>osmhv:relation/3375589-150",
+    "from": 8,
+    "to": 42,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:virtual_way/727737636:0-400>osmhv:way/142066771-150",
+    "from": 9,
+    "to": 258,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/105184051-400>osmhv:way/105184051-150",
+    "from": 15,
+    "to": 183,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/1256844098-400>osmhv:way/1256844098-150",
+    "from": 17,
+    "to": 191,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/1321679684-400>osmhv:way/1321679684-150",
+    "from": 18,
+    "to": 204,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/1373020388-400>osmhv:way/96040682-150",
+    "from": 19,
+    "to": 411,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/140248148-400>osmhv:way/140248148-150",
+    "from": 20,
+    "to": 235,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/141220249-400>osmhv:way/141220249-150",
+    "from": 21,
+    "to": 245,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/149672244-400>osmhv:way/149672244-150",
+    "from": 23,
+    "to": 282,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/171506480-400>osmhv:way/171506480-150",
+    "from": 24,
+    "to": 293,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/249414224-400>osmhv:way/249414224-150",
+    "from": 25,
+    "to": 325,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/252077527-400>osmhv:way/252077527-150",
+    "from": 26,
+    "to": 330,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/253903008-400>osmhv:way/253903008-150",
+    "from": 27,
+    "to": 331,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/302950604-400>osmhv:way/302950604-150",
+    "from": 28,
+    "to": 344,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/51408420-400>osmhv:way/51408420-150",
+    "from": 30,
+    "to": 362,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/55099563-400>osmhv:way/55099563-150",
+    "from": 31,
+    "to": 364,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85518393-400>osmhv:way/85518393-150",
+    "from": 32,
+    "to": 372,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85526073-400>osmhv:way/85526073-150",
+    "from": 33,
+    "to": 373,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85585500-400>osmhv:way/85585500-150",
+    "from": 34,
+    "to": 374,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85612093-400>osmhv:way/85612093-150",
+    "from": 35,
+    "to": 375,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85646787-400>osmhv:way/85646787-150",
+    "from": 36,
+    "to": 376,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85682590-400>osmhv:way/85682590-150",
+    "from": 37,
+    "to": 377,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/85705637-400>osmhv:way/85705637-150",
+    "from": 38,
+    "to": 378,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/86577898-400>osmhv:way/86577898-150",
+    "from": 39,
+    "to": 384,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "cpl:way/93119207-400>osmhv:way/1265269317-150",
+    "from": 40,
+    "to": 193,
+    "rPu": 0.0006000000000000001,
+    "xPu": 0.024,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 500.0
+  },
+  {
+    "name": "gsu:relation/18916482-400",
+    "from": 423,
+    "to": 1,
+    "rPu": 0.0008024088541666667,
+    "xPu": 0.03209635416666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 451.7647058823529
+  },
+  {
+    "name": "gsu:virtual_way/1024249021:0-400",
+    "from": 424,
+    "to": 4,
+    "rPu": 0.000351339794754846,
+    "xPu": 0.014053591790193842,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1031.764705882353
+  },
+  {
+    "name": "gsu:virtual_way/251579391:1-400",
+    "from": 425,
+    "to": 8,
+    "rPu": 0.0005294243986254295,
+    "xPu": 0.02117697594501718,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 684.7058823529412
+  },
+  {
+    "name": "gsu:virtual_way/727737636:0-400",
+    "from": 426,
+    "to": 9,
+    "rPu": 0.00037993218249075214,
+    "xPu": 0.015197287299630085,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 954.1176470588235
+  },
+  {
+    "name": "gsu:way/105184051-400",
+    "from": 427,
+    "to": 15,
+    "rPu": 0.00021442240779401527,
+    "xPu": 0.008576896311760611,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1690.5882352941176
+  },
+  {
+    "name": "gsu:way/1255385651-400",
+    "from": 428,
+    "to": 16,
+    "rPu": 0.0007336309523809523,
+    "xPu": 0.02934523809523809,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 494.11764705882354
+  },
+  {
+    "name": "gsu:way/1321679684-400",
+    "from": 429,
+    "to": 18,
+    "rPu": 0.0007057375171781949,
+    "xPu": 0.028229500687127797,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 513.6470588235295
+  },
+  {
+    "name": "gsu:way/140248148-400",
+    "from": 430,
+    "to": 20,
+    "rPu": 0.0006041666666666666,
+    "xPu": 0.024166666666666663,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 600.0
+  },
+  {
+    "name": "gsu:way/141220249-400",
+    "from": 431,
+    "to": 21,
+    "rPu": 0.00036681547619047615,
+    "xPu": 0.014672619047619045,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 988.2352941176471
+  },
+  {
+    "name": "gsu:way/253903008-400",
+    "from": 432,
+    "to": 27,
+    "rPu": 0.00019209788029925186,
+    "xPu": 0.007683915211970074,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1887.0588235294117
+  },
+  {
+    "name": "gsu:way/32357326-400",
+    "from": 433,
+    "to": 29,
+    "rPu": 0.0007389088729016786,
+    "xPu": 0.029556354916067142,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 490.5882352941177
+  },
+  {
+    "name": "gsu:way/55099563-400",
+    "from": 434,
+    "to": 31,
+    "rPu": 0.0007336309523809523,
+    "xPu": 0.02934523809523809,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 494.11764705882354
+  },
+  {
+    "name": "gsu:way/85705637-400",
+    "from": 435,
+    "to": 38,
+    "rPu": 0.00033711706783369803,
+    "xPu": 0.01348468271334792,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 1075.2941176470588
+  },
+  {
+    "name": "gsu:way/93119207-400",
+    "from": 436,
+    "to": 40,
+    "rPu": 0.0008216666666666665,
+    "xPu": 0.03286666666666666,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 441.1764705882353
+  },
+  {
+    "name": "gsu:osmhv:tee:37.92525,22.93094-150",
+    "from": 437,
+    "to": 73,
+    "rPu": 0.0036249999999999998,
+    "xPu": 0.145,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 100.0
+  },
+  {
+    "name": "gsu:osmhv:tee:40.08408,21.45401-150",
+    "from": 438,
+    "to": 135,
+    "rPu": 0.002000811688311688,
+    "xPu": 0.08003246753246752,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 181.1764705882353
+  },
+  {
+    "name": "gsu:osmhv:way/135234266-150",
+    "from": 439,
+    "to": 218,
+    "rPu": 0.005706018518518518,
+    "xPu": 0.22824074074074072,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 63.529411764705884
+  },
+  {
+    "name": "gsu:osmhv:way/149026599-150",
+    "from": 440,
+    "to": 276,
+    "rPu": 0.004465579710144926,
+    "xPu": 0.17862318840579705,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 81.1764705882353
+  },
+  {
+    "name": "gsu:osmhv:way/159435243-150",
+    "from": 441,
+    "to": 291,
+    "rPu": 0.0020541666666666664,
+    "xPu": 0.08216666666666665,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 176.47058823529412
+  },
+  {
+    "name": "gsu:osmhv:way/178234508-150",
+    "from": 442,
+    "to": 294,
+    "rPu": 0.008803571428571428,
+    "xPu": 0.3521428571428571,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 41.1764705882353
+  },
+  {
+    "name": "gsu:osmhv:way/208158835-150",
+    "from": 443,
+    "to": 298,
+    "rPu": 0.029915048543689315,
+    "xPu": 1.1966019417475726,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 12.11764705882353
+  },
+  {
+    "name": "gsu:osmhv:way/219975140-150",
+    "from": 444,
+    "to": 299,
+    "rPu": 0.0023701923076923075,
+    "xPu": 0.0948076923076923,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 152.94117647058823
+  },
+  {
+    "name": "gsu:osmhv:way/248906656-150",
+    "from": 445,
+    "to": 307,
+    "rPu": 0.030812499999999993,
+    "xPu": 1.2324999999999997,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 11.764705882352942
+  },
+  {
+    "name": "gsu:osmhv:way/249407521-150",
+    "from": 446,
+    "to": 320,
+    "rPu": 0.004401785714285714,
+    "xPu": 0.17607142857142855,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 82.3529411764706
+  },
+  {
+    "name": "gsu:osmhv:way/275303236-150",
+    "from": 447,
+    "to": 342,
+    "rPu": 0.0019020061728395057,
+    "xPu": 0.07608024691358023,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 190.58823529411765
+  },
+  {
+    "name": "gsu:osmhv:way/366930187-150",
+    "from": 448,
+    "to": 350,
+    "rPu": 0.0026562499999999998,
+    "xPu": 0.10624999999999998,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 136.47058823529412
+  },
+  {
+    "name": "gsu:osmhv:way/677142353-150",
+    "from": 449,
+    "to": 366,
+    "rPu": 0.012838541666666667,
+    "xPu": 0.5135416666666667,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 28.235294117647058
+  },
+  {
+    "name": "gsu:osmhv:way/860237027-150",
+    "from": 450,
+    "to": 379,
+    "rPu": 0.002853009259259259,
+    "xPu": 0.11412037037037036,
+    "tapRatio": 1.0,
+    "phaseShiftDeg": 0.0,
+    "ratingMva": 127.05882352941177
+  }
+]

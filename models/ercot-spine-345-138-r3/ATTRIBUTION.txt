@@ -1,0 +1,34 @@
+ERCOT transmission 345/138 kV 2025 peak hour 2025-08-18 17:00 CDT (UnvalidatedAtScale, r3)
+
+LICENCE
+-------
+This model is an open database released under the Open Database Licence (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
+credit below in anything you publish from it; a derived database must also be offered under the
+ODbL. You are responsible for complying with each source's terms and each nation's data
+obligations where you use it. General-purpose fidelity only: never planning grade.
+
+LICENCE POSITION
+----------------
+Every input is open. No Critical Energy Infrastructure Information (CEII) was used: ERCOT's
+planning cases (SSWG / RPG base cases) were not sought, used or referenced.
+- The network topology (345 / 138 kV lines, substations, positions, circuit counts) is derived
+  from OpenStreetMap. OpenStreetMap data is (c) OpenStreetMap contributors and available under the
+  Open Database License (ODbL 1.0), openstreetmap.org/copyright. A published copy of this case is a
+  derived database: it must carry this attribution and be offered under the ODbL.
+- Generator, demand and boundary data are US federal government works (public domain).
+
+UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
+approximation of the ERCOT 345/138 kV grid for one snapshot (2025-08-18 17:00 CDT, the 2025 peak
+hour on EIA-930), with estimated line parameters, allocated demand and dispatched fleet. Do not use
+it for planning, operation or investment decisions.
+
+SOURCES AND CREDITS
+-------------------
+- OpenStreetMap contributors (via the Geofabrik Texas extract of 2026-10-30): power lines,
+  substations and DC-tie converter sites. ODbL 1.0.
+- U.S. Energy Information Administration: EIA-860M (September 2026) generator inventory and
+  EIA-930 hourly grid monitor data (July-December 2025). Public domain.
+- U.S. Census Bureau: Vintage 2024 county population estimates. Public domain.
+- geoBoundaries (www.geoboundaries.org), source US Census MAF/TIGER: Texas outline and counties
+  in geography.json. Public domain.

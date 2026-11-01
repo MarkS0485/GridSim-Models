@@ -1,0 +1,4170 @@
+{
+ "format": "eu-osm-batch-evidence-tags/1",
+ "mapping": {
+  "attested": "Recorded",
+  "derived": "DerivedFromRecorded",
+  "estimated": "CuratedPlaceholder",
+  "synthetic": "Synthetic"
+ },
+ "rule": "CuratedPlaceholder notes carry [VERIFY]; UnvalidatedAtScale is never an element tag",
+ "buses": {
+  "1": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) way/256339597-400 Alytaus LitPol link nuolatines sroves intarpas (Alytus County (LT-LT-AL)); position from OSM"
+  },
+  "2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/11980722-330 Valmiera (Valmieras novads (LV-LV-113)); position from OSM"
+  },
+  "3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/12048419-330 Kauno TP (Kaunas County (LT-LT-KU)); position from OSM"
+  },
+  "4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/12970096-330 Rigas HES (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/13530288-330 Aizkraukle (Aizkraukles novads (LV-LV-002)); position from OSM"
+  },
+  "6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) relation/18986190-330 Pussi alajaam (Ida-Viru maakond (EE-EE-44)); position from OSM"
+  },
+  "7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/6495601-330 Rigas TEC-2 (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station relation/8034395-330 Kruonio HAE skirstykla (Kaunas County (LT-LT-KU)); position from OSM"
+  },
+  "9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_relation/8711899:a:1-330 OSM virtual_relation/8711899:a:1 (Klaipeda County (LT-LT-KL)); position from OSM"
+  },
+  "10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_relation/9352340:0-330 OSM virtual_relation/9352340:0 (Riga (LV-LV-RIX)); position from OSM"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/1213611601:1-330 OSM virtual_way/1213611601:1 (Marupes novads (LV-LV-062)); position from OSM"
+  },
+  "12": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/152614333:0-330 OSM virtual_way/152614333:0 (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/152614333:1-330 OSM virtual_way/152614333:1 (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "14": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/172394894:0-330 OSM virtual_way/172394894:0 (Vilnius County (LT-LT-VL)); position from OSM"
+  },
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/262191428:1-330 OSM virtual_way/262191428:1 (Harju maakond (EE-EE-37)); position from OSM"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/34920722:0-330 OSM virtual_way/34920722:0 (Harju maakond (EE-EE-37)); position from OSM"
+  },
+  "17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/552905484:1-330 OSM virtual_way/552905484:1 (Klaipeda County (LT-LT-KL)); position from OSM"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/868802309:1-330 OSM virtual_way/868802309:1 (Riga (LV-LV-RIX)); position from OSM"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/945621137:1-330 OSM virtual_way/945621137:1 (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/948692672:1-330 OSM virtual_way/948692672:1 (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_way/99207899:1-330 OSM virtual_way/99207899:1 (Taurage County (LT-LT-TA)); position from OSM"
+  },
+  "22": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/115788081-330 Daugavpils (Daugavpils (LV-LV-DGV)); position from OSM"
+  },
+  "23": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1182807118-330 Darbenu skirstykla (Klaipeda County (LT-LT-KL)); position from OSM"
+  },
+  "24": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1233470023-330 Tytuvenu SP (Siauliai County (LT-LT-SA)); position from OSM"
+  },
+  "25": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1239120856-330 Piktupenu VE TP (Taurage County (LT-LT-TA)); position from OSM"
+  },
+  "26": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1302167069-330 Pieliu VE TP (Telsiai County (LT-LT-TE)); position from OSM"
+  },
+  "27": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1317034700-330 Kruopiu VE TP (Siauliai County (LT-LT-SA)); position from OSM"
+  },
+  "28": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1328993407-330 Mustvee 330 kV (Jogeva maakond (EE-EE-49)); position from OSM"
+  },
+  "29": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1340185230-330 Utenos TP (Utena County (LT-LT-UT)); position from OSM"
+  },
+  "30": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1377236428-330 Imanta (Riga (LV-LV-RIX)); position from OSM"
+  },
+  "31": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/1379260309-330 Lietuvos E 330 kV skirstykla (Vilnius County (LT-LT-VL)); position from OSM"
+  },
+  "32": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/156541987-330 Broceni 330 (Saldus novads (LV-LV-088)); position from OSM"
+  },
+  "33": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/158505202-330 Vilniaus TP (Vilnius County (LT-LT-VL)); position from OSM"
+  },
+  "34": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/172286289-330 Liksna (Augsdaugavas novads (LV-LV-111)); position from OSM"
+  },
+  "35": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/183128353-330 Viskali (Jelgavas (LV-LV-JEL)); position from OSM"
+  },
+  "36": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/183386421-330 Tume (Tukuma novads (LV-LV-099)); position from OSM"
+  },
+  "37": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/184063224-330 Grobina (Dienvidkurzemes novads (LV-LV-112)); position from OSM"
+  },
+  "38": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/192764283-330 Panevezio TP (Panevezys County (LT-LT-PN)); position from OSM"
+  },
+  "39": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/204914596-330 Arukula alajaam (Harju maakond (EE-EE-37)); position from OSM"
+  },
+  "40": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/210457037-330 Telsiu TP (Telsiai County (LT-LT-TE)); position from OSM"
+  },
+  "41": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/220065689-330 Jonavos TP (Kaunas County (LT-LT-KU)); position from OSM"
+  },
+  "42": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/256339597-330 Alytaus LitPol link nuolatines sroves intarpas (Alytus County (LT-LT-AL)); position from OSM"
+  },
+  "43": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/25698690-330 Neries TP (Vilnius County (LT-LT-VL)); position from OSM"
+  },
+  "44": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/258321412-330 Jurbarko TP (Taurage County (LT-LT-TA)); position from OSM"
+  },
+  "45": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/266535277-330 Ignalinos AE TP (Utena County (LT-LT-UT)); position from OSM"
+  },
+  "46": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/268781050-330 Bitenu TP (Taurage County (LT-LT-TA)); position from OSM"
+  },
+  "47": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/27296443-330 Ventspils (Ventspils (LV-LV-VEN)); position from OSM"
+  },
+  "48": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34682059-330 Balti EJ alajaam (Ida-Viru maakond (EE-EE-44)); position from OSM"
+  },
+  "49": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34682089-330 Tartu alajaam (Tartu maakond (EE-EE-78)); position from OSM"
+  },
+  "50": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34685101-330 Viru alajaam (Ida-Viru maakond (EE-EE-44)); position from OSM"
+  },
+  "51": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34685113-330 Tsinguliina alajaam (Valga maakond (EE-EE-82)); position from OSM"
+  },
+  "52": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34920699-330 Rakvere alajaam (Laane-Viru maakond (EE-EE-59)); position from OSM"
+  },
+  "53": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/34935436-330 Kiisa alajaam (Harju maakond (EE-EE-37)); position from OSM"
+  },
+  "54": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) way/34968224-330 Harku alajaam (Harju maakond (EE-EE-37)); position from OSM"
+  },
+  "55": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/35343343-330 Paide alajaam (Jarva maakond (EE-EE-51)); position from OSM"
+  },
+  "56": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/35450930-330 Sindi alajaam (Parnu maakond (EE-EE-67)); position from OSM"
+  },
+  "57": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/41683954-330 Rezekne (Rezeknes (LV-LV-REZ)); position from OSM"
+  },
+  "58": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/514772639-330 Krustpils (Jekabpils novads (LV-LV-042)); position from OSM"
+  },
+  "59": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/626451207-330 Sysos VE TP (Klaipeda County (LT-LT-KL)); position from OSM"
+  },
+  "60": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/626451210-330 Siauliu TP (Siauliai County (LT-LT-SA)); position from OSM"
+  },
+  "61": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/743155118-330 Sopi alajaam (Parnu maakond (EE-EE-67)); position from OSM"
+  },
+  "62": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/768781614-330 Kilingi-Nomme 330 kV alajaam (Parnu maakond (EE-EE-67)); position from OSM"
+  },
+  "63": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/81243950-330 Bisuciems (Riga (LV-LV-RIX)); position from OSM"
+  },
+  "64": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/816676940-330 Rigas TEC-1 (Riga (LV-LV-RIX)); position from OSM"
+  },
+  "65": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/89088068-330 Salaspils (Salaspils novads (LV-LV-087)); position from OSM"
+  },
+  "66": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station (boundary point) way/90098783-330 Klaipedos TP (Klaipeda County (LT-LT-KL)); position from OSM"
+  },
+  "67": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "station way/971483945-330 Musos SP (Siauliai County (LT-LT-SA)); position from OSM"
+  },
+  "68": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_relation/5950641:0-220 OSM virtual_relation/5950641:0 (Ida-Viru maakond (EE-EE-44)); position from OSM"
+  },
+  "69": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] station virtual_relation/5950641:1-220 OSM virtual_relation/5950641:1 (Laane-Viru maakond (EE-EE-59)); position from OSM"
+  },
+  "70": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at relation/12048419-330"
+  },
+  "71": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at relation/12970096-330"
+  },
+  "72": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at relation/13530288-330"
+  },
+  "73": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at relation/6495601-330"
+  },
+  "74": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at relation/8034395-330"
+  },
+  "75": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/1377236428-330"
+  },
+  "76": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/1379260309-330"
+  },
+  "77": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/158505202-330"
+  },
+  "78": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/183128353-330"
+  },
+  "79": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/192764283-330"
+  },
+  "80": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/204914596-330"
+  },
+  "81": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/220065689-330"
+  },
+  "82": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/34935436-330"
+  },
+  "83": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/34968224-330"
+  },
+  "84": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/35450930-330"
+  },
+  "85": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/816676940-330"
+  },
+  "86": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/89088068-330"
+  },
+  "87": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "generator terminal bus at way/90098783-330"
+  }
+ },
+ "branches": {
+  "merged_relation/5946099-330+16": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 173.5 km x 1: PyPSA-Eur OSM line merged_relation/5946099-330+16, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/1219766212-330+1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 330 kV cable 2.7 km x 1: PyPSA-Eur OSM line merged_way/1219766212-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s)"
+  },
+  "merged_way/131542604-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 105.0 km x 1: PyPSA-Eur OSM line merged_way/131542604-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/1328993408-330+2": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 84.3 km x 1: PyPSA-Eur OSM line merged_way/1328993408-330+2, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/152614336-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 2.9 km x 1: PyPSA-Eur OSM line merged_way/152614336-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/172286298-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 50.7 km x 1: PyPSA-Eur OSM line merged_way/172286298-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/264955493-330+8": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 115.2 km x 1: PyPSA-Eur OSM line merged_way/264955493-330+8, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/34682052-330+9": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 167.8 km x 1: PyPSA-Eur OSM line merged_way/34682052-330+9, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/396751274-330+5": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 46.9 km x 1: PyPSA-Eur OSM line merged_way/396751274-330+5, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/67508461-330+6": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 132.1 km x 1: PyPSA-Eur OSM line merged_way/67508461-330+6, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/67508480-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 59.9 km x 1: PyPSA-Eur OSM line merged_way/67508480-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/67596994-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 111.2 km x 1: PyPSA-Eur OSM line merged_way/67596994-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/682956983-330+2": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 11.9 km x 1: PyPSA-Eur OSM line merged_way/682956983-330+2, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/692649166-330+5": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 16.3 km x 1: PyPSA-Eur OSM line merged_way/692649166-330+5, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/723852301-330+7": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 56.3 km x 1: PyPSA-Eur OSM line merged_way/723852301-330+7, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/729390017-330+9": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 134.6 km x 1: PyPSA-Eur OSM line merged_way/729390017-330+9, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/808198742-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 3.5 km x 1: PyPSA-Eur OSM line merged_way/808198742-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/976643905-330+8": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 185.8 km x 1: PyPSA-Eur OSM line merged_way/976643905-330+8, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/99049805-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 126.7 km x 1: PyPSA-Eur OSM line merged_way/99049805-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/99057162-330+1": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 60.8 km x 1: PyPSA-Eur OSM line merged_way/99057162-330+1, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "merged_way/99207899-330+2": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 171.7 km x 1: PyPSA-Eur OSM line merged_way/99207899-330+2, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/10460907-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 66.2 km x 1: PyPSA-Eur OSM line relation/10460907-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5941413-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 70.2 km x 1: PyPSA-Eur OSM line relation/5941413-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5941415:b-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 28.6 km x 1: PyPSA-Eur OSM line relation/5941415:b-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5942607-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 107.7 km x 1: PyPSA-Eur OSM line relation/5942607-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5942608-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 56.5 km x 1: PyPSA-Eur OSM line relation/5942608-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5942635-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 57.4 km x 1: PyPSA-Eur OSM line relation/5942635-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5942639-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 168.6 km x 1: PyPSA-Eur OSM line relation/5942639-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5948395-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 67.9 km x 1: PyPSA-Eur OSM line relation/5948395-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/5950641-220": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "220 kV overhead 72.9 km x 1: PyPSA-Eur OSM line relation/5950641-220, type Al/St 240/40 2-bundle 220.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8705261:a-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 116.9 km x 1: PyPSA-Eur OSM line relation/8705261:a-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8705262-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 89.2 km x 1: PyPSA-Eur OSM line relation/8705262-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8705263-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 67.4 km x 1: PyPSA-Eur OSM line relation/8705263-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711899:a-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 11.9 km x 1: PyPSA-Eur OSM line relation/8711899:a-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711899:b-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 50.2 km x 1: PyPSA-Eur OSM line relation/8711899:b-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711900:a-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 21.2 km x 1: PyPSA-Eur OSM line relation/8711900:a-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711901-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 89.1 km x 1: PyPSA-Eur OSM line relation/8711901-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711903-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 44.6 km x 1: PyPSA-Eur OSM line relation/8711903-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/8711904-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 14.7 km x 1: PyPSA-Eur OSM line relation/8711904-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/9176020-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 52.6 km x 1: PyPSA-Eur OSM line relation/9176020-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/9176021-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 76.7 km x 1: PyPSA-Eur OSM line relation/9176021-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/9352340-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 330 kV cable 3.5 km x 1: PyPSA-Eur OSM line relation/9352340-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s)"
+  },
+  "way/1005083766-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 4.3 km x 2: PyPSA-Eur OSM line way/1005083766-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/100783016-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 45.5 km x 1: PyPSA-Eur OSM line way/100783016-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1253886387-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 5.2 km x 1: PyPSA-Eur OSM line way/1253886387-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1278357607-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 11.1 km x 1: PyPSA-Eur OSM line way/1278357607-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1278357608-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 4.4 km x 1: PyPSA-Eur OSM line way/1278357608-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1393155434-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 9.2 km x 2: PyPSA-Eur OSM line way/1393155434-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1393155458-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 39.5 km x 1: PyPSA-Eur OSM line way/1393155458-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/141554665-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 13.3 km x 1: PyPSA-Eur OSM line way/141554665-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/1429133003-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 9.0 km x 1: PyPSA-Eur OSM line way/1429133003-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/148748128-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 86.4 km x 1: PyPSA-Eur OSM line way/148748128-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/152614333-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 1.3 km x 1: PyPSA-Eur OSM line way/152614333-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/155690040-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 61.5 km x 1: PyPSA-Eur OSM line way/155690040-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172286283-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 72.8 km x 1: PyPSA-Eur OSM line way/172286283-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172286301-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 12.1 km x 1: PyPSA-Eur OSM line way/172286301-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172394894-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 39.6 km x 2: PyPSA-Eur OSM line way/172394894-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172394895-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 62.0 km x 1: PyPSA-Eur OSM line way/172394895-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172394914-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 69.5 km x 1: PyPSA-Eur OSM line way/172394914-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/172590052-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 29.6 km x 2: PyPSA-Eur OSM line way/172590052-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/192764281-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 100.2 km x 1: PyPSA-Eur OSM line way/192764281-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/192764286-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 80.7 km x 1: PyPSA-Eur OSM line way/192764286-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/199536393-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 87.6 km x 1: PyPSA-Eur OSM line way/199536393-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/240596353-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 66.5 km x 1: PyPSA-Eur OSM line way/240596353-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/257999110-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 15.2 km x 1: PyPSA-Eur OSM line way/257999110-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/258320720-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 38.6 km x 2: PyPSA-Eur OSM line way/258320720-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/262191428-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 18.7 km x 1: PyPSA-Eur OSM line way/262191428-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/262215666-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 16.2 km x 2: PyPSA-Eur OSM line way/262215666-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/264184261-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 21.6 km x 2: PyPSA-Eur OSM line way/264184261-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/266399608-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 83.1 km x 1: PyPSA-Eur OSM line way/266399608-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/299051887-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 28.2 km x 2: PyPSA-Eur OSM line way/299051887-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/34685084-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 158.8 km x 1: PyPSA-Eur OSM line way/34685084-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/34920722-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 11.5 km x 2: PyPSA-Eur OSM line way/34920722-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/34935443-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 197.0 km x 1: PyPSA-Eur OSM line way/34935443-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/396145425-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 2.4 km x 2: PyPSA-Eur OSM line way/396145425-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/481285437-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 58.9 km x 1: PyPSA-Eur OSM line way/481285437-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/552905484-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 47.4 km x 2: PyPSA-Eur OSM line way/552905484-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/580385013-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 56.2 km x 2: PyPSA-Eur OSM line way/580385013-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/65080454-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 95.2 km x 1: PyPSA-Eur OSM line way/65080454-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/73600834-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 16.6 km x 1: PyPSA-Eur OSM line way/73600834-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/802302816-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 80.5 km x 1: PyPSA-Eur OSM line way/802302816-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/868802309-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 330 kV cable 2.2 km x 1: PyPSA-Eur OSM line way/868802309-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s)"
+  },
+  "way/91968589-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 64.3 km x 1: PyPSA-Eur OSM line way/91968589-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/945621137-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 5.3 km x 2: PyPSA-Eur OSM line way/945621137-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/948692674-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 330 kV cable 1.2 km x 1: PyPSA-Eur OSM line way/948692674-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s)"
+  },
+  "way/971483946-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 37.8 km x 1: PyPSA-Eur OSM line way/971483946-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/971483948-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 29.3 km x 1: PyPSA-Eur OSM line way/971483948-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/997803612-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 1.7 km x 1: PyPSA-Eur OSM line way/997803612-330, type Al/St 240/40 3-bundle 300.0, 1 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "way/997803613-330": {
+   "evidence": "derived",
+   "tag": "DerivedFromRecorded",
+   "note": "330 kV overhead 1.7 km x 2: PyPSA-Eur OSM line way/997803613-330, type Al/St 240/40 3-bundle 300.0, 2 circuit(s); rating x 1.1034 seasonal (derived)"
+  },
+  "relation/18986190-330-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] PyPSA-Eur OSM transformer relation/18986190-330-220 (existence; PyPSA s_nom 3319 not used); 2 x 400 MVA, x 12 % typical"
+  },
+  "way/256339597-400-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] PyPSA-Eur OSM transformer way/256339597-400-330 (existence; PyPSA s_nom 3319 not used); 2 x 400 MVA, x 12 % typical"
+  },
+  "gsu:relation/12048419-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 147 MVA, x 14.5 % own rating, 2 unit row(s)"
+  },
+  "gsu:relation/12970096-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 473 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:relation/13530288-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 1052 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:relation/6495601-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 1036 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:relation/8034395-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 1059 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/1377236428-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 56 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/1379260309-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 1229 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/158505202-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 118 MVA, x 14.5 % own rating, 2 unit row(s)"
+  },
+  "gsu:way/183128353-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 27 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/192764283-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 41 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/204914596-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 298 MVA, x 14.5 % own rating, 2 unit row(s)"
+  },
+  "gsu:way/220065689-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 80 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/34935436-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 295 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/34968224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 12 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/35450930-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 28 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/816676940-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 186 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/89088068-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 282 MVA, x 14.5 % own rating, 1 unit row(s)"
+  },
+  "gsu:way/90098783-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] lumped generator step-up transformer 24 MVA, x 14.5 % own rating, 1 unit row(s)"
+  }
+ },
+ "generators": {
+  "Silavoto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.8 MW; placement: nearest bus, 25.1 km"
+  },
+  "Aloves Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.4 MW solar; dispatch 0.7 MW; placement: nearest bus, 15.4 km"
+  },
+  "Alytaus Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "19.7 MW solar; dispatch 4.3 MW; placement: nearest bus, 3.8 km"
+  },
+  "Alytus County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.4 MW; placement: nearest bus, 5.8 km"
+  },
+  "Varenos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.1 MW solar; dispatch 1.3 MW; placement: nearest bus, 34.3 km"
+  },
+  "embedded other at way/256339597-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.8 MW other; dispatch 2.6 MW; placement: with demand (population share)"
+  },
+  "import Poland at way/256339597-400": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 149.2 MW interconnector; dispatch 149.2 MW; placement: ac merged_way/352126763-400+1, share 1.00 by rating"
+  },
+  "Alojas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 43.0 km"
+  },
+  "Brengulu Pagasts Valmieras Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.4 MW solar; dispatch 1.0 MW; placement: nearest bus, 1.5 km"
+  },
+  "Jeru Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.4 MW solar; dispatch 0.2 MW; placement: nearest bus, 36.3 km"
+  },
+  "Kocenu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 7.4 km"
+  },
+  "Matisi Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "54.0 MW solar; dispatch 3.2 MW; placement: nearest bus, 25.5 km"
+  },
+  "Priekulu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.7 MW solar; dispatch 0.8 MW; placement: nearest bus, 26.5 km"
+  },
+  "Smiltenes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.9 MW solar; dispatch 1.0 MW; placement: nearest bus, 26.2 km"
+  },
+  "Valmiera Ventus": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW battery; dispatch 0.0 MW; placement: nearest bus, 3.1 km"
+  },
+  "embedded biomass at relation/11980722-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW biomass; dispatch 1.3 MW; placement: with demand (population share)"
+  },
+  "embedded other at relation/11980722-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.1 MW other; dispatch 2.0 MW; placement: with demand (population share)"
+  },
+  "Babtu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "14.1 MW solar; dispatch 3.1 MW; placement: nearest bus, 16.1 km"
+  },
+  "Vilkijos Apylinkiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.7 MW solar; dispatch 2.1 MW; placement: nearest bus, 25.6 km"
+  },
+  "Karmelavos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.7 MW solar; dispatch 4.5 MW; placement: nearest bus, 2.7 km"
+  },
+  "Kaunas Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.6 MW; placement: nearest bus, 4.3 km"
+  },
+  "Vandziogalos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.8 MW; placement: nearest bus, 19.1 km"
+  },
+  "Vilkijos Apylinkiu Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.3 MW; placement: nearest bus, 26.1 km"
+  },
+  "Zapyskio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.5 MW; placement: nearest bus, 20.4 km"
+  },
+  "embedded other at relation/12048419-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.4 MW other; dispatch 11.8 MW; placement: with demand (population share)"
+  },
+  "Kaunas Algirdas Brazauskas": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "101.0 MW hydro; dispatch 73.7 MW; placement: nearest bus, 6.8 km"
+  },
+  "Kaunas Cogeneration": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "24.0 MW biomass; dispatch 16.6 MW; placement: nearest bus, 0.4 km"
+  },
+  "Iecavas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.9 MW solar; dispatch 0.3 MW; placement: nearest bus, 25.3 km"
+  },
+  "Kekava Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 5.4 km"
+  },
+  "embedded biomass at relation/12970096-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW biomass; dispatch 0.2 MW; placement: with demand (population share)"
+  },
+  "embedded other at relation/12970096-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW other; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "Riga": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "402.0 MW hydro; dispatch 0.0 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.3 km"
+  },
+  "Aizkraukles Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 3.0 km"
+  },
+  "Aizkraukles Pagasts Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.5 MW solar; dispatch 0.5 MW; placement: nearest bus, 5.8 km"
+  },
+  "Birzgales Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 27.2 km"
+  },
+  "Kokneses Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 10.3 km"
+  },
+  "Ogres Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 28.7 km"
+  },
+  "Parovejos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.1 MW solar; dispatch 2.4 MW; placement: nearest bus, 46.3 km"
+  },
+  "Saukas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 41.9 km"
+  },
+  "Serenes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.5 MW solar; dispatch 0.2 MW; placement: nearest bus, 1.7 km"
+  },
+  "Stelpe Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "145.0 MW solar; dispatch 8.6 MW; placement: nearest bus, 41.3 km"
+  },
+  "embedded biomass at relation/13530288-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded other at relation/13530288-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.7 MW other; dispatch 0.7 MW; placement: with demand (population share)"
+  },
+  "Plavinas": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "894.0 MW hydro; dispatch 459.0 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.7 km"
+  },
+  "Ida Viru County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.6 MW solar; dispatch 0.2 MW; placement: nearest bus, 20.8 km"
+  },
+  "Ida Viru County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 8.7 km"
+  },
+  "Ida Viru County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.2 MW solar; dispatch 0.2 MW; placement: nearest bus, 27.2 km"
+  },
+  "Ida Viru Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 11.8 km"
+  },
+  "Auvere Bess": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "26.5 MW battery; dispatch 0.0 MW; placement: nearest bus, 30.6 km"
+  },
+  "embedded hydro at relation/18986190-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at relation/18986190-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW biomass; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "embedded oil at relation/18986190-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 15.6 MW oil; dispatch 14.8 MW; placement: with demand (population share)"
+  },
+  "Stopinu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 2.0 km"
+  },
+  "embedded biomass at relation/6495601-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW biomass; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "embedded other at relation/6495601-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.7 MW other; dispatch 0.6 MW; placement: with demand (population share)"
+  },
+  "Riga #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "881.0 MW gas; dispatch 680.0 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.4 km"
+  },
+  "Kruonio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 4.9 km"
+  },
+  "Prienu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.5 MW; placement: nearest bus, 24.4 km"
+  },
+  "Rumsiskiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.7 MW solar; dispatch 0.8 MW; placement: nearest bus, 6.4 km"
+  },
+  "Taurakiemio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.6 MW solar; dispatch 2.5 MW; placement: nearest bus, 10.2 km"
+  },
+  "Ziezmariu Apylinkes Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 11.2 km"
+  },
+  "embedded other at relation/8034395-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW other; dispatch 0.8 MW; placement: with demand (population share)"
+  },
+  "Kruonis": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "900.0 MW pumped_storage; dispatch 0.0 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.5 km"
+  },
+  "Priekules Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.3 MW solar; dispatch 1.2 MW; placement: nearest bus, 9.8 km"
+  },
+  "Mockiai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.0 MW wind_onshore; dispatch 5.3 MW; placement: nearest bus, 19.6 km"
+  },
+  "Ciuteliai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "39.0 MW wind_onshore; dispatch 17.3 MW; placement: nearest bus, 16.6 km"
+  },
+  "Agluonenu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.1 MW solar; dispatch 1.3 MW; placement: nearest bus, 11.0 km"
+  },
+  "Priekules Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.6 MW; placement: nearest bus, 12.8 km"
+  },
+  "embedded other at virtual_relation/8711899:a:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW other; dispatch 1.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_relation/9352340:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_relation/9352340:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW other; dispatch 1.4 MW; placement: with demand (population share)"
+  },
+  "Jurmala Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 8.4 km"
+  },
+  "Jurmala Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.8 MW solar; dispatch 0.2 MW; placement: nearest bus, 1.9 km"
+  },
+  "embedded biomass at virtual_way/1213611601:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/1213611601:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.7 MW other; dispatch 0.7 MW; placement: with demand (population share)"
+  },
+  "Incukalna Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.2 MW; placement: nearest bus, 30.9 km"
+  },
+  "Ropazu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 12.5 km"
+  },
+  "embedded biomass at virtual_way/152614333:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW biomass; dispatch 0.3 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/152614333:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW other; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/152614333:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW biomass; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/152614333:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW other; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "Elektrenu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.6 MW solar; dispatch 1.4 MW; placement: nearest bus, 0.7 km"
+  },
+  "Ziezmariu Apylinkes Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.5 MW solar; dispatch 1.2 MW; placement: nearest bus, 10.6 km"
+  },
+  "embedded other at virtual_way/172394894:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW other; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "Harju Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "14.9 MW solar; dispatch 0.4 MW; placement: nearest bus, 3.0 km"
+  },
+  "embedded hydro at virtual_way/262191428:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/262191428:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW biomass; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "embedded oil at virtual_way/262191428:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.2 MW oil; dispatch 4.9 MW; placement: with demand (population share)"
+  },
+  "Harju County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 14.5 km"
+  },
+  "Harju County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 13.0 km"
+  },
+  "embedded hydro at virtual_way/34920722:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/34920722:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW biomass; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "embedded oil at virtual_way/34920722:0-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.4 MW oil; dispatch 5.2 MW; placement: with demand (population share)"
+  },
+  "Dauparu Kvietiniu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 13.1 km"
+  },
+  "Dovilu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.7 MW solar; dispatch 2.8 MW; placement: nearest bus, 0.3 km"
+  },
+  "Gargzdu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW solar; dispatch 0.5 MW; placement: nearest bus, 4.0 km"
+  },
+  "embedded other at virtual_way/552905484:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW other; dispatch 1.2 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/868802309:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW biomass; dispatch 1.3 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/868802309:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.0 MW other; dispatch 1.9 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/945621137:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW biomass; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/945621137:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW other; dispatch 0.1 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_way/948692672:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW biomass; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at virtual_way/948692672:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW other; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "Jurbarkas Green Genius Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "80.0 MW wind_onshore; dispatch 35.5 MW; placement: nearest bus, 1.8 km"
+  },
+  "embedded other at virtual_way/99207899:1-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW other; dispatch 0.6 MW; placement: with demand (population share)"
+  },
+  "Daugavpils Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.9 MW solar; dispatch 0.4 MW; placement: nearest bus, 0.9 km"
+  },
+  "Kalkunes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW solar; dispatch 0.6 MW; placement: nearest bus, 7.6 km"
+  },
+  "Tabores Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.4 MW solar; dispatch 0.2 MW; placement: nearest bus, 8.8 km"
+  },
+  "Hybrid Bess Pv Kraslava": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.4 MW battery; dispatch 0.0 MW; placement: nearest bus, 38.5 km"
+  },
+  "embedded biomass at way/115788081-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW biomass; dispatch 1.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/115788081-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.5 MW other; dispatch 1.5 MW; placement: with demand (population share)"
+  },
+  "Laukzeme Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.0 MW wind_onshore; dispatch 7.1 MW; placement: nearest bus, 0.4 km"
+  },
+  "Vydmantai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "30.0 MW wind_onshore; dispatch 13.3 MW; placement: nearest bus, 19.9 km"
+  },
+  "Benaiciai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "48.0 MW wind_onshore; dispatch 21.3 MW; placement: nearest bus, 2.3 km"
+  },
+  "Darbenu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.6 MW; placement: nearest bus, 0.5 km"
+  },
+  "embedded other at way/1182807118-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.6 MW other; dispatch 1.5 MW; placement: with demand (population share)"
+  },
+  "Baisogalos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.1 MW solar; dispatch 1.6 MW; placement: nearest bus, 34.6 km"
+  },
+  "Kelme Enefit Green Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "481.0 MW wind_onshore; dispatch 213.7 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 11.2 km"
+  },
+  "embedded other at way/1233470023-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.2 MW other; dispatch 2.1 MW; placement: with demand (population share)"
+  },
+  "Taurage Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "25.0 MW wind_onshore; dispatch 11.1 MW; placement: nearest bus, 8.7 km"
+  },
+  "Kreivenai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW wind_onshore; dispatch 8.9 MW; placement: nearest bus, 8.0 km"
+  },
+  "Lauksargiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.3 MW; placement: nearest bus, 12.1 km"
+  },
+  "Mazonu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 26.0 km"
+  },
+  "Mazonu Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 32.3 km"
+  },
+  "Pagegiai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "74.0 MW wind_onshore; dispatch 32.9 MW; placement: nearest bus, 5.0 km"
+  },
+  "Taurage Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "22.0 MW solar; dispatch 4.8 MW; placement: nearest bus, 8.8 km"
+  },
+  "Taurages Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.4 MW; placement: nearest bus, 16.9 km"
+  },
+  "embedded other at way/1239120856-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW other; dispatch 0.6 MW; placement: with demand (population share)"
+  },
+  "Mazeikiai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "63.0 MW wind_onshore; dispatch 28.0 MW; placement: nearest bus, 32.6 km"
+  },
+  "Mazeikiu Apylinkes Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.4 MW; placement: nearest bus, 25.7 km"
+  },
+  "Papiles Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.5 MW; placement: nearest bus, 15.3 km"
+  },
+  "Tryskiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 11.9 km"
+  },
+  "embedded other at way/1302167069-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW other; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "Vejo": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1308.0 MW wind_onshore; dispatch 581.0 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 6.9 km"
+  },
+  "Akmene Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "75.0 MW wind_onshore; dispatch 33.3 MW; placement: nearest bus, 9.7 km"
+  },
+  "Dobeles Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 26.7 km"
+  },
+  "Mazeikiu Apylinkes Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 32.9 km"
+  },
+  "embedded other at way/1317034700-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW other; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "Jogeva County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 16.5 km"
+  },
+  "Jogeva County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 19.4 km"
+  },
+  "Jogeva County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 35.1 km"
+  },
+  "Jogeva County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 41.5 km"
+  },
+  "Jogeva Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 24.4 km"
+  },
+  "Jogeva Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.2 MW solar; dispatch 0.2 MW; placement: nearest bus, 2.9 km"
+  },
+  "Tartu County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 31.0 km"
+  },
+  "embedded hydro at way/1328993407-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/1328993407-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/1328993407-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.6 MW oil; dispatch 6.3 MW; placement: with demand (population share)"
+  },
+  "Anyksciai Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "65.0 MW solar; dispatch 14.2 MW; placement: nearest bus, 32.6 km"
+  },
+  "Balninku Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.6 MW; placement: nearest bus, 41.7 km"
+  },
+  "Moletai Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "100.0 MW solar; dispatch 21.9 MW; placement: nearest bus, 38.3 km"
+  },
+  "Rokiskio Kaimiskoji Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 48.7 km"
+  },
+  "Suginciai Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.4 MW; placement: nearest bus, 21.6 km"
+  },
+  "Utenos Miesto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.6 MW solar; dispatch 0.8 MW; placement: nearest bus, 5.2 km"
+  },
+  "Anyksciai": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "25.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 33.7 km"
+  },
+  "embedded other at way/1340185230-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.7 MW other; dispatch 3.5 MW; placement: with demand (population share)"
+  },
+  "Riga Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.6 MW solar; dispatch 0.2 MW; placement: nearest bus, 5.9 km"
+  },
+  "embedded biomass at way/1377236428-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW biomass; dispatch 1.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/1377236428-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.6 MW other; dispatch 1.6 MW; placement: with demand (population share)"
+  },
+  "Imanta": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "48.0 MW gas; dispatch 37.0 MW; placement: nearest bus, 0.9 km"
+  },
+  "Elektrenu Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.8 MW solar; dispatch 1.9 MW; placement: nearest bus, 4.9 km"
+  },
+  "Vievio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.7 MW solar; dispatch 1.5 MW; placement: nearest bus, 8.6 km"
+  },
+  "embedded other at way/1379260309-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW other; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "Lietuvos": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1045.0 MW gas; dispatch 523.8 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.2 km"
+  },
+  "Kabaldiku Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "45.0 MW wind_onshore; dispatch 20.0 MW; placement: nearest bus, 35.8 km"
+  },
+  "Ranku Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.8 MW solar; dispatch 0.3 MW; placement: nearest bus, 34.1 km"
+  },
+  "Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 48.1 km"
+  },
+  "Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.8 MW solar; dispatch 0.3 MW; placement: nearest bus, 2.3 km"
+  },
+  "Varme Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "94.0 MW solar; dispatch 5.6 MW; placement: nearest bus, 31.0 km"
+  },
+  "embedded biomass at way/156541987-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/156541987-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW other; dispatch 0.8 MW; placement: with demand (population share)"
+  },
+  "Matuizu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.8 MW solar; dispatch 1.9 MW; placement: nearest bus, 45.1 km"
+  },
+  "Baltoji Voke Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 16.8 km"
+  },
+  "Lentvaris Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.3 MW; placement: nearest bus, 11.8 km"
+  },
+  "Rudamina Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.6 MW; placement: nearest bus, 14.3 km"
+  },
+  "Rukainiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 29.9 km"
+  },
+  "Senuju Traku Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "17.7 MW solar; dispatch 3.9 MW; placement: nearest bus, 6.8 km"
+  },
+  "Traku Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.5 MW; placement: nearest bus, 16.8 km"
+  },
+  "Vilnius County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.4 MW; placement: nearest bus, 7.4 km"
+  },
+  "Vilnius Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.5 MW; placement: nearest bus, 17.0 km"
+  },
+  "Vilnius Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.1 MW solar; dispatch 0.7 MW; placement: nearest bus, 5.0 km"
+  },
+  "Zujunai Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.4 MW solar; dispatch 0.7 MW; placement: nearest bus, 13.5 km"
+  },
+  "embedded other at way/158505202-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 17.4 MW other; dispatch 16.5 MW; placement: with demand (population share)"
+  },
+  "Vilniaus Kogeneracine": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "80.0 MW biomass; dispatch 55.4 MW; placement: nearest bus, 6.6 km"
+  },
+  "Vilniaus Kogeneracine #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW biomass; dispatch 13.8 MW; placement: nearest bus, 6.6 km"
+  },
+  "Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.0 MW solar; dispatch 0.4 MW; placement: nearest bus, 9.3 km"
+  },
+  "embedded biomass at way/172286289-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW biomass; dispatch 0.3 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/172286289-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW other; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "Berzes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.2 MW solar; dispatch 0.5 MW; placement: nearest bus, 25.6 km"
+  },
+  "Codes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 30.0 km"
+  },
+  "Codes Pagasts Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 36.0 km"
+  },
+  "Elejas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.2 MW solar; dispatch 0.2 MW; placement: nearest bus, 25.8 km"
+  },
+  "Gludas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 16.4 km"
+  },
+  "Iecavas Pagasts Bauskas Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.2 MW solar; dispatch 0.4 MW; placement: nearest bus, 25.3 km"
+  },
+  "Jelgava Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 4.4 km"
+  },
+  "Jelgavas Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 9.0 km"
+  },
+  "Mezotnes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 28.7 km"
+  },
+  "Platones Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.2 MW solar; dispatch 0.4 MW; placement: nearest bus, 4.8 km"
+  },
+  "Svetes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.2 MW; placement: nearest bus, 6.7 km"
+  },
+  "Tervetes Pagasts Dobeles Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.3 MW solar; dispatch 0.2 MW; placement: nearest bus, 27.2 km"
+  },
+  "embedded biomass at way/183128353-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW biomass; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/183128353-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW other; dispatch 1.7 MW; placement: with demand (population share)"
+  },
+  "Gren Jelgava": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "23.0 MW biomass; dispatch 23.0 MW; placement: nearest bus, 1.4 km"
+  },
+  "Bikstu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 25.7 km"
+  },
+  "Kandavas Pagasts Tukuma Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.6 MW solar; dispatch 0.4 MW; placement: nearest bus, 20.6 km"
+  },
+  "Libagu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.2 MW solar; dispatch 0.4 MW; placement: nearest bus, 37.5 km"
+  },
+  "Smardes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.3 MW solar; dispatch 0.2 MW; placement: nearest bus, 11.7 km"
+  },
+  "Talsu Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.7 MW solar; dispatch 0.3 MW; placement: nearest bus, 57.5 km"
+  },
+  "Tume Bess": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 1.7 km"
+  },
+  "embedded biomass at way/183386421-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW biomass; dispatch 0.6 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/183386421-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.0 MW other; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "Grobina Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW wind_onshore; dispatch 8.2 MW; placement: nearest bus, 2.5 km"
+  },
+  "Nicas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.2 MW solar; dispatch 1.0 MW; placement: nearest bus, 14.8 km"
+  },
+  "Priekules Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.8 MW solar; dispatch 0.4 MW; placement: nearest bus, 24.3 km"
+  },
+  "embedded biomass at way/184063224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/184063224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.4 MW other; dispatch 1.3 MW; placement: with demand (population share)"
+  },
+  "Baisogalos Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.6 MW; placement: nearest bus, 35.1 km"
+  },
+  "Kupiskis Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.9 MW; placement: nearest bus, 34.8 km"
+  },
+  "Naujamiescio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.4 MW; placement: nearest bus, 5.6 km"
+  },
+  "Panevezys Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.5 MW solar; dispatch 4.5 MW; placement: nearest bus, 1.0 km"
+  },
+  "Panevezys Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.3 MW; placement: nearest bus, 7.2 km"
+  },
+  "Pusalotas Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.9 MW; placement: nearest bus, 17.6 km"
+  },
+  "Rokiskis Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "66.0 MW wind_onshore; dispatch 29.3 MW; placement: nearest bus, 33.2 km"
+  },
+  "Sirvenos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.3 MW; placement: nearest bus, 54.1 km"
+  },
+  "Subacius Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.8 MW solar; dispatch 0.6 MW; placement: nearest bus, 29.3 km"
+  },
+  "Upytes Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.4 MW; placement: nearest bus, 9.0 km"
+  },
+  "embedded other at way/192764283-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.4 MW other; dispatch 6.1 MW; placement: with demand (population share)"
+  },
+  "Panevezys": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "35.0 MW gas; dispatch 0.0 MW; placement: nearest bus, 5.1 km"
+  },
+  "Harju County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 24.6 km"
+  },
+  "Harju County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 14.6 km"
+  },
+  "Harju County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.0 MW solar; dispatch 0.3 MW; placement: nearest bus, 11.7 km"
+  },
+  "Harju County Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 9.8 km"
+  },
+  "Harju Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 10.9 km"
+  },
+  "Harju Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 9.5 km"
+  },
+  "Pihlaka Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "53.0 MW solar; dispatch 1.3 MW; placement: nearest bus, 11.1 km"
+  },
+  "embedded hydro at way/204914596-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW hydro; dispatch 0.1 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/204914596-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.0 MW biomass; dispatch 4.8 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/204914596-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 65.2 MW oil; dispatch 61.9 MW; placement: with demand (population share)"
+  },
+  "Iru Elektrijaam": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "207.0 MW gas; dispatch 58.0 MW; placement: nearest bus, 12.0 km"
+  },
+  "Vao": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "46.0 MW biomass; dispatch 46.0 MW; placement: nearest bus, 11.6 km"
+  },
+  "Mazeikiu Apylinkes Seniunija Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.9 MW solar; dispatch 2.8 MW; placement: nearest bus, 34.2 km"
+  },
+  "Degaiciu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 2.5 km"
+  },
+  "Ryskenu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.9 MW solar; dispatch 1.1 MW; placement: nearest bus, 12.2 km"
+  },
+  "Sedos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 20.5 km"
+  },
+  "Telsiai Encavis Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "69.0 MW wind_onshore; dispatch 30.6 MW; placement: nearest bus, 8.6 km"
+  },
+  "Zidiku Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.8 MW solar; dispatch 0.6 MW; placement: nearest bus, 34.0 km"
+  },
+  "embedded other at way/210457037-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.3 MW other; dispatch 3.1 MW; placement: with demand (population share)"
+  },
+  "Zeimiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.4 MW solar; dispatch 1.0 MW; placement: nearest bus, 10.7 km"
+  },
+  "Ukmerges Miesto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.9 MW solar; dispatch 0.9 MW; placement: nearest bus, 36.5 km"
+  },
+  "Kedainiu Miesto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "15.5 MW solar; dispatch 3.4 MW; placement: nearest bus, 31.0 km"
+  },
+  "Anyksciai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "50.0 MW wind_onshore; dispatch 22.2 MW; placement: nearest bus, 46.4 km"
+  },
+  "Bukoniu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.2 MW solar; dispatch 1.1 MW; placement: nearest bus, 15.1 km"
+  },
+  "Jonava Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "70.0 MW wind_onshore; dispatch 31.1 MW; placement: nearest bus, 21.2 km"
+  },
+  "Jonavos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.7 MW solar; dispatch 1.0 MW; placement: nearest bus, 2.3 km"
+  },
+  "Kedainiu Miesto Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.6 MW; placement: nearest bus, 29.4 km"
+  },
+  "Truskavos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.8 MW solar; dispatch 1.1 MW; placement: nearest bus, 34.7 km"
+  },
+  "Ukmerges Miesto Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.5 MW; placement: nearest bus, 33.8 km"
+  },
+  "Litgrid Vulinius": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 45.1 km"
+  },
+  "embedded other at way/220065689-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 3.6 MW other; dispatch 3.4 MW; placement: with demand (population share)"
+  },
+  "Jonavos Achema": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "68.0 MW gas; dispatch 0.0 MW; placement: nearest bus, 2.8 km"
+  },
+  "Gizu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.6 MW; placement: nearest bus, 52.0 km"
+  },
+  "Igliaukos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.1 MW solar; dispatch 2.9 MW; placement: nearest bus, 24.1 km"
+  },
+  "Lazdijai Eldership Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "19.3 MW solar; dispatch 4.2 MW; placement: nearest bus, 35.1 km"
+  },
+  "Lazdijai Eldership Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.4 MW; placement: nearest bus, 36.0 km"
+  },
+  "Leipalingio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 36.9 km"
+  },
+  "Sasnavos Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.3 MW; placement: nearest bus, 38.8 km"
+  },
+  "Simno Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.2 MW solar; dispatch 1.8 MW; placement: nearest bus, 20.5 km"
+  },
+  "Suwalki County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 55.5 km"
+  },
+  "embedded other at way/256339597-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.1 MW other; dispatch 3.9 MW; placement: with demand (population share)"
+  },
+  "Lavoriskiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.3 MW; placement: nearest bus, 20.7 km"
+  },
+  "Masionys Avizieniu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.5 MW; placement: nearest bus, 15.6 km"
+  },
+  "Svencionys Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "80.0 MW solar; dispatch 17.5 MW; placement: nearest bus, 56.1 km"
+  },
+  "embedded other at way/25698690-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 6.6 MW other; dispatch 6.2 MW; placement: with demand (population share)"
+  },
+  "Jurbarkas Ignitis Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "24.0 MW wind_onshore; dispatch 10.7 MW; placement: nearest bus, 6.3 km"
+  },
+  "Jurbarku Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "19.4 MW solar; dispatch 4.3 MW; placement: nearest bus, 3.2 km"
+  },
+  "Otada Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.0 MW wind_onshore; dispatch 8.0 MW; placement: nearest bus, 25.5 km"
+  },
+  "Sakiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.4 MW; placement: nearest bus, 21.6 km"
+  },
+  "embedded other at way/258321412-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.3 MW other; dispatch 2.2 MW; placement: with demand (population share)"
+  },
+  "Salako Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.9 MW; placement: nearest bus, 26.8 km"
+  },
+  "Kazitiskio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "25.1 MW solar; dispatch 5.5 MW; placement: nearest bus, 26.9 km"
+  },
+  "embedded other at way/266535277-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.5 MW other; dispatch 1.4 MW; placement: with demand (population share)"
+  },
+  "Strepeikiu Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "50.0 MW wind_onshore; dispatch 22.2 MW; placement: nearest bus, 5.9 km"
+  },
+  "embedded other at way/268781050-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.4 MW other; dispatch 0.4 MW; placement: with demand (population share)"
+  },
+  "Targale Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "59.0 MW wind_onshore; dispatch 24.2 MW; placement: nearest bus, 6.8 km"
+  },
+  "Pope Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_onshore; dispatch 8.6 MW; placement: nearest bus, 14.3 km"
+  },
+  "Dundagas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 45.1 km"
+  },
+  "Targales Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 4.5 km"
+  },
+  "Hybrid Bess Pv Ventspils": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 3.3 km"
+  },
+  "Targale": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 6.9 km"
+  },
+  "embedded biomass at way/27296443-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/27296443-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW other; dispatch 0.7 MW; placement: with demand (population share)"
+  },
+  "Narva Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "39.0 MW wind_onshore; dispatch 5.1 MW; placement: nearest bus, 4.1 km"
+  },
+  "Narva Ida Viru Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "14.0 MW solar; dispatch 0.3 MW; placement: nearest bus, 1.2 km"
+  },
+  "Udria Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "40.0 MW wind_onshore; dispatch 5.2 MW; placement: nearest bus, 12.1 km"
+  },
+  "embedded hydro at way/34682059-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34682059-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.6 MW biomass; dispatch 1.5 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34682059-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 20.2 MW oil; dispatch 19.2 MW; placement: with demand (population share)"
+  },
+  "Estiko Raadi Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "100.0 MW solar; dispatch 2.4 MW; placement: nearest bus, 8.3 km"
+  },
+  "Jogeva County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 30.1 km"
+  },
+  "Jogeva County Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 27.7 km"
+  },
+  "Polva Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.5 MW solar; dispatch 0.3 MW; placement: nearest bus, 51.5 km"
+  },
+  "Polva Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 43.7 km"
+  },
+  "Polva Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.2 MW solar; dispatch 0.2 MW; placement: nearest bus, 25.4 km"
+  },
+  "Tartu": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "29.0 MW solar; dispatch 0.7 MW; placement: nearest bus, 5.5 km"
+  },
+  "Tartu County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 10.7 km"
+  },
+  "Tartu County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 33.5 km"
+  },
+  "Tartu County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 27.1 km"
+  },
+  "Tartu County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 25.6 km"
+  },
+  "Tartu County Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 32.2 km"
+  },
+  "Tartu County Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "14.6 MW solar; dispatch 0.4 MW; placement: nearest bus, 5.7 km"
+  },
+  "Tartu County Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 22.6 km"
+  },
+  "Tartu County Solar Xii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 8.3 km"
+  },
+  "Tartu County Solar Xiv": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 21.1 km"
+  },
+  "Tartu County Solar Xv": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 14.3 km"
+  },
+  "Tartu County Solar Xvi": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 14.8 km"
+  },
+  "Tartu Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 22.7 km"
+  },
+  "Tartu Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.9 MW solar; dispatch 0.0 MW; placement: nearest bus, 19.0 km"
+  },
+  "Tartu Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 4.8 km"
+  },
+  "Tartu Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 8.7 km"
+  },
+  "Tartu Maakond Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.7 MW solar; dispatch 0.2 MW; placement: nearest bus, 19.5 km"
+  },
+  "Viljandi Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.6 MW solar; dispatch 0.2 MW; placement: nearest bus, 41.8 km"
+  },
+  "Voru County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 71.8 km"
+  },
+  "embedded hydro at way/34682089-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW hydro; dispatch 0.1 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34682089-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.4 MW biomass; dispatch 4.2 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34682089-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 57.4 MW oil; dispatch 54.6 MW; placement: with demand (population share)"
+  },
+  "Aidu Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "102.0 MW wind_onshore; dispatch 13.3 MW; placement: nearest bus, 13.8 km"
+  },
+  "Ida Viru County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 22.8 km"
+  },
+  "embedded hydro at way/34685101-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34685101-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW biomass; dispatch 0.3 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34685101-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.2 MW oil; dispatch 4.0 MW; placement: with demand (population share)"
+  },
+  "Polva County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.0 MW; placement: nearest bus, 37.5 km"
+  },
+  "Polva County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 44.6 km"
+  },
+  "Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 14.8 km"
+  },
+  "Tartu County Solar #9": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 31.6 km"
+  },
+  "Tartu County Solar Xvii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.0 MW; placement: nearest bus, 28.4 km"
+  },
+  "Valga County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 28.0 km"
+  },
+  "Valga County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.9 MW solar; dispatch 0.0 MW; placement: nearest bus, 24.4 km"
+  },
+  "Valga County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 30.7 km"
+  },
+  "Valga Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 27.7 km"
+  },
+  "Valga Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "15.5 MW solar; dispatch 0.4 MW; placement: nearest bus, 0.7 km"
+  },
+  "Viljandi County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 49.5 km"
+  },
+  "Viljandi County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 42.9 km"
+  },
+  "Voru County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.0 MW; placement: nearest bus, 44.8 km"
+  },
+  "Voru County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 35.0 km"
+  },
+  "Voru County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 24.9 km"
+  },
+  "Voru County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 42.0 km"
+  },
+  "Voru Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 18.2 km"
+  },
+  "Voru Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 35.8 km"
+  },
+  "Voru Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.9 MW solar; dispatch 0.2 MW; placement: nearest bus, 38.7 km"
+  },
+  "embedded hydro at way/34685113-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34685113-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.5 MW biomass; dispatch 1.4 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34685113-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 19.8 MW oil; dispatch 18.8 MW; placement: with demand (population share)"
+  },
+  "Laane Viru County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 2.0 km"
+  },
+  "Laane Viru County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.8 MW solar; dispatch 0.4 MW; placement: nearest bus, 13.8 km"
+  },
+  "Laane Viru County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 2.7 km"
+  },
+  "Laane Viru County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.9 MW solar; dispatch 0.2 MW; placement: nearest bus, 4.6 km"
+  },
+  "Laane Viru County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 8.7 km"
+  },
+  "Laane Viru County Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 12.5 km"
+  },
+  "Laane Viru County Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 20.0 km"
+  },
+  "Laane Viru County Solar Xii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 9.1 km"
+  },
+  "Laane Viru Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 9.6 km"
+  },
+  "Laane Viru Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 13.4 km"
+  },
+  "Laane Viru Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 18.3 km"
+  },
+  "Laane Viru Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.9 MW solar; dispatch 0.0 MW; placement: nearest bus, 19.8 km"
+  },
+  "Laane Viru Maakond Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.2 MW solar; dispatch 0.4 MW; placement: nearest bus, 24.7 km"
+  },
+  "Laane Viru Maakond Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 3.2 km"
+  },
+  "embedded hydro at way/34920699-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34920699-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34920699-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.7 MW oil; dispatch 11.1 MW; placement: with demand (population share)"
+  },
+  "Harju Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 18.4 km"
+  },
+  "Laane County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 64.3 km"
+  },
+  "Laane Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 74.5 km"
+  },
+  "Rapla County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.0 MW; placement: nearest bus, 26.2 km"
+  },
+  "Rapla County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 19.9 km"
+  },
+  "Rapla County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 38.2 km"
+  },
+  "Rapla Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 30.3 km"
+  },
+  "Rapla Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.5 MW solar; dispatch 0.2 MW; placement: nearest bus, 4.7 km"
+  },
+  "Risti Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "244.0 MW solar; dispatch 6.0 MW; placement: nearest bus, 45.6 km"
+  },
+  "Kiisa Hertz": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "100.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 1.2 km"
+  },
+  "embedded hydro at way/34935436-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34935436-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW biomass; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34935436-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 15.5 MW oil; dispatch 14.7 MW; placement: with demand (population share)"
+  },
+  "Kiisa Erpp": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "251.1 MW oil; dispatch 251.1 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 0.5 km"
+  },
+  "Aulepa Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "39.0 MW wind_onshore; dispatch 5.1 MW; placement: nearest bus, 63.9 km"
+  },
+  "Paldiski Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "62.0 MW wind_onshore; dispatch 8.1 MW; placement: nearest bus, 28.2 km"
+  },
+  "Vanakula": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.0 MW wind_onshore; dispatch 1.2 MW; placement: nearest bus, 63.6 km"
+  },
+  "Pakri": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.4 MW wind_onshore; dispatch 2.4 MW; placement: nearest bus, 28.5 km"
+  },
+  "Harju County Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 26.0 km"
+  },
+  "Harju County Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 9.8 km"
+  },
+  "Harju Maakond Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.1 MW solar; dispatch 0.4 MW; placement: nearest bus, 27.1 km"
+  },
+  "Harju Maakond Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 8.6 km"
+  },
+  "Harju Maakond Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 30.3 km"
+  },
+  "Harju Maakond Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 14.9 km"
+  },
+  "Hiiu County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 111.8 km"
+  },
+  "Hiiu Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 111.0 km"
+  },
+  "Laane County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.0 MW; placement: nearest bus, 64.6 km"
+  },
+  "Rummu Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW solar; dispatch 0.5 MW; placement: nearest bus, 27.5 km"
+  },
+  "Tallinn Harju County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.1 MW solar; dispatch 0.0 MW; placement: nearest bus, 12.1 km"
+  },
+  "Rummu": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 26.6 km"
+  },
+  "embedded hydro at way/34968224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.3 MW hydro; dispatch 0.2 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/34968224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 10.6 MW biomass; dispatch 10.0 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/34968224-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 137.4 MW oil; dispatch 130.5 MW; placement: with demand (population share)"
+  },
+  "Mustamae": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.0 MW biomass; dispatch 10.0 MW; placement: nearest bus, 5.7 km"
+  },
+  "Jarva County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 18.4 km"
+  },
+  "Jarva County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.6 MW solar; dispatch 0.0 MW; placement: nearest bus, 8.2 km"
+  },
+  "Jarva County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 18.4 km"
+  },
+  "Jarva County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.0 MW; placement: nearest bus, 6.5 km"
+  },
+  "Jarva Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 20.3 km"
+  },
+  "Jarva Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 5.1 km"
+  },
+  "Jarva Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 7.3 km"
+  },
+  "Jogeva County Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 35.1 km"
+  },
+  "Viljandi County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.4 MW solar; dispatch 0.2 MW; placement: nearest bus, 27.9 km"
+  },
+  "Viljandi County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.3 MW solar; dispatch 0.0 MW; placement: nearest bus, 47.3 km"
+  },
+  "Viljandi County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "11.7 MW solar; dispatch 0.3 MW; placement: nearest bus, 39.4 km"
+  },
+  "Viljandi Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 43.6 km"
+  },
+  "Viljandi Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.6 MW solar; dispatch 0.2 MW; placement: nearest bus, 36.7 km"
+  },
+  "embedded hydro at way/35343343-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/35343343-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/35343343-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 11.8 MW oil; dispatch 11.2 MW; placement: with demand (population share)"
+  },
+  "Tooma Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.0 MW wind_onshore; dispatch 2.1 MW; placement: nearest bus, 69.2 km"
+  },
+  "Tamba Mali Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.0 MW wind_onshore; dispatch 2.4 MW; placement: nearest bus, 54.0 km"
+  },
+  "Esivere Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.0 MW wind_onshore; dispatch 1.6 MW; placement: nearest bus, 70.2 km"
+  },
+  "Virtsu": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.4 MW wind_onshore; dispatch 2.1 MW; placement: nearest bus, 68.5 km"
+  },
+  "Tamba": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.0 MW wind_onshore; dispatch 0.8 MW; placement: nearest bus, 57.7 km"
+  },
+  "Laaneranna Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "70.0 MW solar; dispatch 1.7 MW; placement: nearest bus, 47.7 km"
+  },
+  "Parnu County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.0 MW; placement: nearest bus, 32.8 km"
+  },
+  "Parnu County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 1.7 km"
+  },
+  "Parnu Linn Parnu Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "16.9 MW solar; dispatch 0.4 MW; placement: nearest bus, 8.6 km"
+  },
+  "Parnu Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.6 MW solar; dispatch 0.2 MW; placement: nearest bus, 0.6 km"
+  },
+  "Parnu Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 20.4 km"
+  },
+  "Parnu Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.8 MW solar; dispatch 0.2 MW; placement: nearest bus, 12.3 km"
+  },
+  "Parnu Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 41.9 km"
+  },
+  "Parnu Maakond Solar Xiii": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.9 MW solar; dispatch 0.1 MW; placement: nearest bus, 7.6 km"
+  },
+  "Raba Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "45.0 MW solar; dispatch 1.1 MW; placement: nearest bus, 23.6 km"
+  },
+  "Saare County Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 76.6 km"
+  },
+  "Saare County Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 132.8 km"
+  },
+  "Saare County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 115.9 km"
+  },
+  "Saare Maakond Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.1 MW; placement: nearest bus, 75.7 km"
+  },
+  "Saare Maakond Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 85.3 km"
+  },
+  "embedded hydro at way/35450930-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.1 MW hydro; dispatch 0.1 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/35450930-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.7 MW biomass; dispatch 2.5 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/35450930-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 34.9 MW oil; dispatch 33.2 MW; placement: with demand (population share)"
+  },
+  "Parnu": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "24.0 MW biomass; dispatch 24.0 MW; placement: nearest bus, 8.1 km"
+  },
+  "Zalesjes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.2 MW solar; dispatch 0.2 MW; placement: nearest bus, 50.3 km"
+  },
+  "Dagda Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "90.0 MW solar; dispatch 5.3 MW; placement: nearest bus, 48.0 km"
+  },
+  "Lendzu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 13.8 km"
+  },
+  "Ozolmuizas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.1 MW; placement: nearest bus, 2.8 km"
+  },
+  "Veremu Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 4.0 km"
+  },
+  "Rezekne Bess": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "60.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 0.9 km"
+  },
+  "embedded biomass at way/41683954-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW biomass; dispatch 1.2 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/41683954-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.9 MW other; dispatch 1.8 MW; placement: with demand (population share)"
+  },
+  "Aiviekstes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 12.7 km"
+  },
+  "Barkava Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "81.0 MW solar; dispatch 4.8 MW; placement: nearest bus, 44.8 km"
+  },
+  "Kuku Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 5.3 km"
+  },
+  "Selpils Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 12.4 km"
+  },
+  "Selpils Pagasts Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.3 MW solar; dispatch 0.5 MW; placement: nearest bus, 18.8 km"
+  },
+  "Hybrid Bess Pv Livani": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.4 MW battery; dispatch 0.0 MW; placement: nearest bus, 22.0 km"
+  },
+  "embedded biomass at way/514772639-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW biomass; dispatch 0.7 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/514772639-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW other; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "Silute Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "60.0 MW wind_onshore; dispatch 26.7 MW; placement: nearest bus, 10.2 km"
+  },
+  "Didsiliai Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_onshore; dispatch 9.3 MW; placement: nearest bus, 18.5 km"
+  },
+  "Pajurio Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.7 MW solar; dispatch 0.4 MW; placement: nearest bus, 24.9 km"
+  },
+  "Silale Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "57.0 MW wind_onshore; dispatch 25.3 MW; placement: nearest bus, 40.8 km"
+  },
+  "embedded other at way/626451207-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.7 MW other; dispatch 1.6 MW; placement: with demand (population share)"
+  },
+  "Siauliu Kaimiskoji Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.0 MW solar; dispatch 2.8 MW; placement: nearest bus, 7.2 km"
+  },
+  "Kursenu Miesto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.6 MW solar; dispatch 1.2 MW; placement: nearest bus, 21.6 km"
+  },
+  "Bubiu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 7.8 km"
+  },
+  "Ginkunu Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.4 MW solar; dispatch 0.5 MW; placement: nearest bus, 6.6 km"
+  },
+  "Seduvos Miesto Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "17.7 MW solar; dispatch 3.9 MW; placement: nearest bus, 32.7 km"
+  },
+  "Siauliai Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.4 MW solar; dispatch 0.3 MW; placement: nearest bus, 4.0 km"
+  },
+  "Siauliai Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "18.9 MW solar; dispatch 4.1 MW; placement: nearest bus, 2.9 km"
+  },
+  "Siauliu Kaimiskoji Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.6 MW; placement: nearest bus, 10.3 km"
+  },
+  "Grid Battery": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "200.0 MW battery; dispatch 0.0 MW; placement: nearest bus, 1.9 km"
+  },
+  "embedded other at way/626451210-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 4.6 MW other; dispatch 4.3 MW; placement: with demand (population share)"
+  },
+  "Kirikmae Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "77.0 MW solar; dispatch 1.9 MW; placement: nearest bus, 57.3 km"
+  },
+  "Parnu County Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.1 MW solar; dispatch 0.2 MW; placement: nearest bus, 16.1 km"
+  },
+  "Parnu Maakond Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.9 MW solar; dispatch 0.2 MW; placement: nearest bus, 15.8 km"
+  },
+  "Parnu Maakond Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "9.7 MW solar; dispatch 0.2 MW; placement: nearest bus, 54.6 km"
+  },
+  "Rapla County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.9 MW solar; dispatch 0.0 MW; placement: nearest bus, 34.9 km"
+  },
+  "Rapla County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.7 MW solar; dispatch 0.1 MW; placement: nearest bus, 30.9 km"
+  },
+  "Rapla Maakond Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 38.7 km"
+  },
+  "Sopi Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "73.9 MW solar; dispatch 1.8 MW; placement: nearest bus, 2.2 km"
+  },
+  "Sopi Tootsi Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "255.0 MW wind_onshore; dispatch 33.3 MW; placement: nearest 400 kV bus (next EHV class if none within 40 km), 21.4 km"
+  },
+  "embedded hydro at way/743155118-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/743155118-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW biomass; dispatch 0.6 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/743155118-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 8.2 MW oil; dispatch 7.8 MW; placement: with demand (population share)"
+  },
+  "Parnu County Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.2 MW solar; dispatch 0.0 MW; placement: nearest bus, 11.7 km"
+  },
+  "Parnu County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.4 MW solar; dispatch 0.1 MW; placement: nearest bus, 0.8 km"
+  },
+  "Saarde Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "39.0 MW wind_onshore; dispatch 5.1 MW; placement: nearest bus, 10.1 km"
+  },
+  "Viljandi County Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.2 MW solar; dispatch 0.3 MW; placement: nearest bus, 23.3 km"
+  },
+  "Viljandi County Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 46.7 km"
+  },
+  "Viljandi Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.8 MW solar; dispatch 0.2 MW; placement: nearest bus, 12.8 km"
+  },
+  "Viljandi Maakond Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 43.9 km"
+  },
+  "Viljandi Maakond Solar #6": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "8.8 MW solar; dispatch 0.2 MW; placement: nearest bus, 35.2 km"
+  },
+  "Viljandi Maakond Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "13.7 MW solar; dispatch 0.3 MW; placement: nearest bus, 39.3 km"
+  },
+  "Viljandi Maakond Solar Xv": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.3 MW solar; dispatch 0.1 MW; placement: nearest bus, 23.0 km"
+  },
+  "embedded hydro at way/768781614-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at way/768781614-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.9 MW biomass; dispatch 0.9 MW; placement: with demand (population share)"
+  },
+  "embedded oil at way/768781614-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 12.0 MW oil; dispatch 11.4 MW; placement: with demand (population share)"
+  },
+  "Olaines Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "6.0 MW solar; dispatch 0.4 MW; placement: nearest bus, 16.2 km"
+  },
+  "Olaines Pagasts Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.0 MW solar; dispatch 0.2 MW; placement: nearest bus, 17.0 km"
+  },
+  "embedded biomass at way/81243950-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.2 MW biomass; dispatch 1.1 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/81243950-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.8 MW other; dispatch 1.7 MW; placement: with demand (population share)"
+  },
+  "Carnikavas Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.9 MW solar; dispatch 0.8 MW; placement: nearest bus, 15.9 km"
+  },
+  "Riga Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "10.4 MW solar; dispatch 0.6 MW; placement: nearest bus, 4.5 km"
+  },
+  "Skultes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 42.9 km"
+  },
+  "embedded biomass at way/816676940-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.1 MW biomass; dispatch 1.0 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/816676940-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.6 MW other; dispatch 1.5 MW; placement: with demand (population share)"
+  },
+  "Riga #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "158.0 MW gas; dispatch 122.0 MW; placement: nearest bus, 0.3 km"
+  },
+  "Barbeles Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "12.4 MW solar; dispatch 0.7 MW; placement: nearest bus, 39.9 km"
+  },
+  "Ogresgala Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.9 MW solar; dispatch 0.2 MW; placement: nearest bus, 22.7 km"
+  },
+  "Salaspils Novads Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.7 MW solar; dispatch 0.3 MW; placement: nearest bus, 1.6 km"
+  },
+  "Salaspils Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "15.6 MW solar; dispatch 0.9 MW; placement: nearest bus, 1.6 km"
+  },
+  "Tomes Pagasts Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.3 MW solar; dispatch 0.3 MW; placement: nearest bus, 20.3 km"
+  },
+  "embedded biomass at way/89088068-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.5 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded other at way/89088068-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.8 MW other; dispatch 0.7 MW; placement: with demand (population share)"
+  },
+  "Kegums": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "240.0 MW hydro; dispatch 0.0 MW; placement: nearest bus, 24.2 km"
+  },
+  "Dovilu Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.3 MW solar; dispatch 1.2 MW; placement: nearest bus, 4.1 km"
+  },
+  "Dovilu Seniunija Solar #3": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.8 MW solar; dispatch 0.4 MW; placement: nearest bus, 2.2 km"
+  },
+  "Sendvario Seniunija Solar": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.0 MW solar; dispatch 1.5 MW; placement: nearest bus, 3.0 km"
+  },
+  "Sendvario Seniunija Solar #2": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "7.8 MW solar; dispatch 1.7 MW; placement: nearest bus, 11.2 km"
+  },
+  "embedded other at way/90098783-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 5.1 MW other; dispatch 4.8 MW; placement: with demand (population share)"
+  },
+  "import Sweden at way/90098783-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 732.0 MW interconnector; dispatch 732.0 MW; placement: hvdc relation/8185455-300-DC, share 1.00 by rating"
+  },
+  "Klaipeda": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "20.0 MW biomass; dispatch 13.8 MW; placement: nearest bus, 3.4 km"
+  },
+  "Ramonaiciai Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "52.0 MW solar; dispatch 11.4 MW; placement: nearest bus, 20.9 km"
+  },
+  "embedded other at way/971483945-330": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 1.3 MW other; dispatch 1.2 MW; placement: with demand (population share)"
+  },
+  "Viru Nigula Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_onshore; dispatch 2.7 MW; placement: nearest bus, 18.9 km"
+  },
+  "Aseriaru Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "24.0 MW wind_onshore; dispatch 3.1 MW; placement: nearest bus, 16.8 km"
+  },
+  "Purtse Wind Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "21.0 MW wind_onshore; dispatch 2.7 MW; placement: nearest bus, 7.4 km"
+  },
+  "Ida Viru County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "1.0 MW solar; dispatch 0.0 MW; placement: nearest bus, 4.3 km"
+  },
+  "Laane Viru County Solar #8": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "5.5 MW solar; dispatch 0.1 MW; placement: nearest bus, 15.6 km"
+  },
+  "Purtse Solar Farm": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "32.0 MW solar; dispatch 0.8 MW; placement: nearest bus, 7.1 km"
+  },
+  "embedded hydro at virtual_relation/5950641:0-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_relation/5950641:0-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.2 MW biomass; dispatch 0.2 MW; placement: with demand (population share)"
+  },
+  "embedded oil at virtual_relation/5950641:0-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 2.8 MW oil; dispatch 2.7 MW; placement: with demand (population share)"
+  },
+  "Jarva County Solar #5": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.1 MW solar; dispatch 0.1 MW; placement: nearest bus, 16.7 km"
+  },
+  "Jarva Maakond Solar #4": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "2.2 MW solar; dispatch 0.1 MW; placement: nearest bus, 16.1 km"
+  },
+  "Laane Viru County Solar #9": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "4.0 MW solar; dispatch 0.1 MW; placement: nearest bus, 8.8 km"
+  },
+  "Laane Viru Maakond Solar #7": {
+   "evidence": "attested",
+   "tag": "Recorded",
+   "note": "3.6 MW solar; dispatch 0.1 MW; placement: nearest bus, 5.2 km"
+  },
+  "embedded hydro at virtual_relation/5950641:1-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.0 MW hydro; dispatch 0.0 MW; placement: with demand (population share)"
+  },
+  "embedded biomass at virtual_relation/5950641:1-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 0.6 MW biomass; dispatch 0.5 MW; placement: with demand (population share)"
+  },
+  "embedded oil at virtual_relation/5950641:1-220": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] 7.4 MW oil; dispatch 7.0 MW; placement: with demand (population share)"
+  }
+ },
+ "demand": {
+  "6": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 3.5375 % (cells / places nearest this bus); boundary_export: energy-charts 2026-01-30T08:00:00+00:00, EE - Finland: hvdc relation/6886400-450-DC, share 0.65 by rating"
+  },
+  "68": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 0.6382 % (cells / places nearest this bus)"
+  },
+  "69": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 1.6679 % (cells / places nearest this bus)"
+  },
+  "15": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 1.1676 % (cells / places nearest this bus)"
+  },
+  "16": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 1.2349 % (cells / places nearest this bus)"
+  },
+  "28": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 1.4921 % (cells / places nearest this bus)"
+  },
+  "39": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 14.7662 % (cells / places nearest this bus)"
+  },
+  "48": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 4.5708 % (cells / places nearest this bus)"
+  },
+  "49": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 13.0175 % (cells / places nearest this bus)"
+  },
+  "50": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 0.9541 % (cells / places nearest this bus)"
+  },
+  "51": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 4.4883 % (cells / places nearest this bus)"
+  },
+  "52": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 2.6451 % (cells / places nearest this bus)"
+  },
+  "53": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 3.5024 % (cells / places nearest this bus)"
+  },
+  "54": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 31.1435 % (cells / places nearest this bus); boundary_export: energy-charts 2026-01-30T08:00:00+00:00, EE - Finland: hvdc relation/8184630-150-DC, share 0.35 by rating"
+  },
+  "55": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 2.6692 % (cells / places nearest this bus)"
+  },
+  "56": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 7.9090 % (cells / places nearest this bus)"
+  },
+  "61": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 1.8671 % (cells / places nearest this bus)"
+  },
+  "62": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand EE 1529 MW x (1 - 0.015) x GHSL 2020 grid population share 2.7286 % (cells / places nearest this bus)"
+  },
+  "2": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 8.4277 % (cells / places nearest this bus)"
+  },
+  "4": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 1.4891 % (cells / places nearest this bus)"
+  },
+  "5": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 2.9075 % (cells / places nearest this bus)"
+  },
+  "7": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 2.5777 % (cells / places nearest this bus)"
+  },
+  "10": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 5.6335 % (cells / places nearest this bus)"
+  },
+  "11": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 2.9455 % (cells / places nearest this bus)"
+  },
+  "12": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 1.9657 % (cells / places nearest this bus)"
+  },
+  "13": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 0.0806 % (cells / places nearest this bus)"
+  },
+  "18": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 8.0486 % (cells / places nearest this bus)"
+  },
+  "19": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 0.2628 % (cells / places nearest this bus)"
+  },
+  "20": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 0.1550 % (cells / places nearest this bus)"
+  },
+  "22": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 6.0956 % (cells / places nearest this bus)"
+  },
+  "30": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 6.4925 % (cells / places nearest this bus)"
+  },
+  "32": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 3.2909 % (cells / places nearest this bus)"
+  },
+  "34": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 1.5849 % (cells / places nearest this bus)"
+  },
+  "35": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 7.0161 % (cells / places nearest this bus)"
+  },
+  "36": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 3.7792 % (cells / places nearest this bus)"
+  },
+  "37": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 5.5756 % (cells / places nearest this bus)"
+  },
+  "47": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 3.1087 % (cells / places nearest this bus)"
+  },
+  "57": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 7.5299 % (cells / places nearest this bus)"
+  },
+  "58": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 4.4568 % (cells / places nearest this bus)"
+  },
+  "63": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 7.1341 % (cells / places nearest this bus)"
+  },
+  "64": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 6.3797 % (cells / places nearest this bus)"
+  },
+  "65": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LV 1290 MW x (1 - 0.015) x GHSL 2020 grid population share 3.0623 % (cells / places nearest this bus)"
+  },
+  "3": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 14.0037 % (cells / places nearest this bus)"
+  },
+  "8": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 0.9476 % (cells / places nearest this bus)"
+  },
+  "9": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.1797 % (cells / places nearest this bus)"
+  },
+  "14": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 0.6132 % (cells / places nearest this bus)"
+  },
+  "17": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.4168 % (cells / places nearest this bus)"
+  },
+  "21": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 0.6610 % (cells / places nearest this bus)"
+  },
+  "23": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.8135 % (cells / places nearest this bus)"
+  },
+  "24": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 2.4763 % (cells / places nearest this bus)"
+  },
+  "25": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 0.7142 % (cells / places nearest this bus)"
+  },
+  "26": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.1154 % (cells / places nearest this bus)"
+  },
+  "27": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.0803 % (cells / places nearest this bus)"
+  },
+  "29": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 4.1723 % (cells / places nearest this bus)"
+  },
+  "31": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.2771 % (cells / places nearest this bus)"
+  },
+  "33": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 19.5591 % (cells / places nearest this bus)"
+  },
+  "38": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 7.2020 % (cells / places nearest this bus)"
+  },
+  "40": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 3.6700 % (cells / places nearest this bus)"
+  },
+  "41": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 4.0350 % (cells / places nearest this bus)"
+  },
+  "42": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 4.6366 % (cells / places nearest this bus)"
+  },
+  "1": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 3.1227 % (cells / places nearest this bus)"
+  },
+  "43": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 7.3786 % (cells / places nearest this bus)"
+  },
+  "44": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 2.5993 % (cells / places nearest this bus)"
+  },
+  "45": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.6516 % (cells / places nearest this bus)"
+  },
+  "46": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 0.4972 % (cells / places nearest this bus)"
+  },
+  "59": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.8785 % (cells / places nearest this bus)"
+  },
+  "60": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 5.1510 % (cells / places nearest this bus)"
+  },
+  "66": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 5.6857 % (cells / places nearest this bus)"
+  },
+  "67": {
+   "evidence": "estimated",
+   "tag": "CuratedPlaceholder",
+   "note": "[VERIFY] demand: energy-charts demand LT 2555 MW x (1 - 0.015) x GHSL 2020 grid population share 1.4613 % (cells / places nearest this bus)"
+  }
+ },
+ "shunts": {
+  "33": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 120 MVAr"
+  },
+  "8": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -110 MVAr"
+  },
+  "50": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -90 MVAr"
+  },
+  "54": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 90 MVAr"
+  },
+  "3": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 90 MVAr"
+  },
+  "65": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -70 MVAr"
+  },
+  "17": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -70 MVAr"
+  },
+  "48": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -70 MVAr"
+  },
+  "5": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -60 MVAr"
+  },
+  "55": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -60 MVAr"
+  },
+  "51": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -40 MVAr"
+  },
+  "47": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -30 MVAr"
+  },
+  "21": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -30 MVAr"
+  },
+  "62": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -30 MVAr"
+  },
+  "60": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 30 MVAr"
+  },
+  "37": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -20 MVAr"
+  },
+  "52": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -20 MVAr"
+  },
+  "64": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 20 MVAr"
+  },
+  "15": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -20 MVAr"
+  },
+  "1": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair 20 MVAr"
+  },
+  "9": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -10 MVAr"
+  },
+  "45": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -10 MVAr"
+  },
+  "22": {
+   "evidence": "synthetic",
+   "tag": "Synthetic",
+   "note": "fixed shunt repair -10 MVAr"
+  }
+ }
+}
