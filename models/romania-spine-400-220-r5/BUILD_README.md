@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): TEL lines, tie-lines, transformers (R, X, B, Imax) and its publication map (JAO S.A. on behalf of the Core TSOs (TEL for Romania)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap substations of 110 kV and more in Romania (Overpass API, 2026-11-01): names and positions (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries ROU ADM1 (gbOpen): region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Romania
 
@@ -34,16 +33,17 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 - geo/gb_meta.json: https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/ROU/ADM1/geoBoundaries-ROU-ADM1-metaData.json, 2026-11-01T00:42:42Z, 861 bytes, SHA-256 ffbe05c013dabcff41f69c0691e9dbd9e8468b331244d6d67dd139b8ec7298fd; geoBoundaries gbOpen (licence per gb_meta.json)
 
 Shared inputs read by path (not copied), SHA-256 checked in the code:
-- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, NO redistribution; every case built from it is PRIVATE. Rows with TSO 'TEL' (and other TSOs' tie rows ending in Romania).
+- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, redistribution requires permission. Rows with TSO 'TEL' (and other TSOs' tie rows ending in Romania).
 - the source record SHA-256 ceccce02edd33813216a264fe6c8e3281ce2249435a259c1b1a1b729ce4f3d78: powerplantmatching (https://github.com/PyPSA/powerplantmatching), CC BY 4.0; rows Country == 'Romania'.
 - the source record (f50c75ea0339f5578ae383b47a1c0564b371c5d0d60fd4181ed626c7f3a5a523) and lines.csv (d3ee4f45a0d9889eee9e27376cb9cfc877514964f77ba406bea3b6eb336531cb): PyPSA-Eur prebuilt OSM network v0.7 (Zenodo 18619025), ODbL 1.0.
 - the source record SHA-256 239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255: Natural Earth, public domain.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + PyPSA-Eur OSM + GHSL.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + PyPSA-Eur OSM + GHSL.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -74,7 +74,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r1: first build (build-first batch); reactive repair by fixed bus shunts only.
 - r5: SEASONAL RATINGS: JAO line / tie-line Imax is now the TSO's calendar period covering the snapshot date (2025-11-19; JAO Core SGM 9th release Handbook Annex 1: MAVIR Period 4 = 1 Sep - 30 Nov, PSE Period 4 = 1 Oct - 31 Dec, Transelectrica Period 2 = Mar - May / Sep - Nov), else the row's Fixed, else the largest period [VERIFY]. Earlier rounds took the largest period (the winter value). Applied to EVERY JAO row by the same rule; OSM-added corridors take the per-km median of the re-rated JAO rows. No other change from the previous round.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Best case: `out/romania-spine-400-220-r1` (build-first round; refinement later)
 
@@ -150,6 +151,8 @@ Best cases now: belgium r4, austria r4, czechia r3, poland r3, slovakia r4, hung
 romania r4. Open: Belgium Ardennes 220 kV 1.069 pu (repair stops at pass 7 with one bus, ); Czechia Prague
 (C. Stred 400/220 kV 143.8 %: JAO lists one C. Stred unit; Prague 110 kV supply points not in the model); Poland
 Kozienice 400/220 kV 139.8 %; Austria St. Peter - Pleinting 114.5 % and the Inn valley 220 kV (Thaur - Vill 109.6 %).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

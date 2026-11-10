@@ -1,4 +1,4 @@
-# MODEL CARD: ERCOT transmission 345/138 kV 2025 peak hour 2025-08-18 17:00 CDT (UnvalidatedAtScale, r3)
+# ERCOT transmission 345/138 kV 2025 peak hour 2025-08-18 17:00 CDT (UnvalidatedAtScale, r3)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

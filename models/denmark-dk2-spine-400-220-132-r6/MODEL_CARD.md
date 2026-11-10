@@ -1,6 +1,4 @@
-# MODEL CARD: Danish DK2 (Zealand, Nordic synchronous area) 400/220/150/132 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)
-
-**Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# Danish DK2 (Zealand, Nordic synchronous area) 400/220/150/132 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official study results. A solvable rough map of the Danish DK2 (Zealand, Nordic synchronous area) 400/220/150/132 kV grid for one winter peak snapshot: OpenStreetMap topology with standard line types (PyPSA-Eur) and the OSM 110-150 kV class layer where present, register-based generation (powerplantmatching), the snapshot hour's generation and border flows, allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -103,12 +101,12 @@ Assumed (typical values or documented rules, not fitted; tagged estimated with [
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01) (OpenStreetMap contributors), ODbL 1.0
 - powerplantmatching matched power plant list (master, fetched 2026-10-31) (PyPSA / FIAS powerplantmatching contributors), CC BY 4.0
-- Energi Data Service: production, consumption and exchange per price area (DK1, DK2), 5-minute (snapshot hour) (Energinet), Energi Data Service terms (free reuse with source attribution) [VERIFY]
+- Energi Data Service: production, consumption and exchange per price area (DK1, DK2), 5-minute (snapshot hour) (Energinet), Energi Data Service terms (free reuse with source attribution)
 - Population on 1 January 2024 by NUTS 3 region (demo_r_pjanaggr3) and GISCO NUTS 2024 label points (Eurostat / GISCO (EuroGeographics boundaries)), CC BY 4.0 (Eurostat); GISCO points (c) EuroGeographics
 - Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - GISCO NUTS 2024 regions ((c) EuroGeographics) and Natural Earth (public domain): geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

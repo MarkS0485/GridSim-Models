@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Nettanlegg utbygd (transmission and regional overhead lines, sea cables, transformer stations), ArcGIS service Nettanlegg5, fetched 2026-10-31 (Norges vassdrags- og energidirektorat (NVE)), Norsk lisens for offentlige data (NLOD) 1.0
 - Vannkraftverk (hydropower plants: position, type, maximum output), service Vannkraft1 (NVE), NLOD 1.0
@@ -22,7 +20,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Norway / nve
 
@@ -102,11 +101,12 @@ licence for Open Government data (NLOD) distributed by NVE".
   8ff6988e8e6b6c552c4b627d22df603b1e58b9c7d52b8e70f63cd339c0fbc29a). Downloaded 2026-10-31 from
   https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NOR/ADM1/geoBoundaries-NOR-ADM1_simplified.geojson
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: NVE registers (NLOD 1.0 / 2.0), energy-charts / GeoNames / geoBoundaries (CC BY 4.0), pandapower line types (BSD-3), Natural Earth (PD).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: NVE registers (NLOD 1.0 / 2.0), energy-charts / GeoNames / geoBoundaries (CC BY 4.0), pandapower line types (BSD-3), Natural Earth (PD).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -159,7 +159,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - Found: (1) code bug - the synthetic Swedish equivalent's SE_PARALLEL = 4 never reached the case (the lines table carried it only as a 'circuits' column that a build step does not use), so the stand-in ran as ONE 420 kV circuit; (2) NVE draws parallel circuits as separate objects with identical geometry and a circuit number in the name ('...-1' / '-2', 'L1' / 'L2'), and r1-r4 dropped them as duplicates.
 - r5 changes: APPLY_PARALLEL (an n-circuit edge is one equivalent branch, R and X / n, B and rating x n) and NVE_PARALLEL (circuit count = distinct circuit numbers in the names of an identical-geometry group: 15 lines at 132 kV now run as double circuits). Both are corrections to what the data and the earlier rounds' documentation say, not values tuned to the solve.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds (exact figures from gridsim.exe 2.1.000+f85f6e7, published binary)
 
@@ -203,6 +204,8 @@ is conservative. Per line: `ambient_ratings.json` (1,608 lines).
 r5 -> r6 (flows identical: flat 8 it, losses 737.799 MW, V 0.9499-1.0492): >100 % 20 -> 13, >120 % 11 -> 10; Solum
 132 kV 233.6 -> 194.9 %, Dokka - By 171.9 -> 143.4 %. PASS. Best case: r6. The remaining 132 kV overloads (Solum /
 Klosterfoss, Kykkelsrud - Vammafossen) stay the named gaps: NVE has no circuit-count field and no cable layer.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

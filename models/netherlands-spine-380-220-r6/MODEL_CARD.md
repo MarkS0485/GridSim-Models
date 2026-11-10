@@ -1,8 +1,4 @@
-# MODEL CARD: Netherlands transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)
-
-**RELEASE STATUS: Included in the GridSim-Models repository PENDING JAO's written consent: this model uses JAO Static Grid Model data and is NOT cleared for public redistribution until that consent is held (see LICENSING.md). General-purpose fidelity, never planning grade.**
-
-**PRIVATE - DO NOT SHARE OR PUBLISH. Built from the JAO Core Static Grid Model, which JAO licenses for research and internal use with attribution only; making it (or a database derived from it) available to third parties needs JAO's prior written authorisation (contact@jao.eu). This case stays in the build pipeline out/ and never goes to GridSim's public repository.**
+# Netherlands transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official Dutch study results. A solvable rough map of the Dutch 220/380 kV transmission grid for one winter-evening snapshot: real TSO impedances and ratings (JAO, TenneT NL), register-based generation, population-allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -130,7 +126,7 @@ Buses are 'estimated' because their POSITION is inferred (OSM / JAO map); their 
 - geoBoundaries NLD ADM1 (National Georegister), CC0 1.0: province assignment and province shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: Netherlands outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

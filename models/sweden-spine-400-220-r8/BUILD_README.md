@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - powerplantmatching matched power plant list (master, fetched 2026-10-31) (PyPSA / FIAS powerplantmatching contributors), CC BY 4.0
@@ -16,9 +14,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - GISCO NUTS 2024 regions ((c) EuroGeographics) and Natural Earth (public domain): geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Sweden / pypsa_osm
 
@@ -141,11 +140,12 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 - Licence: (c) EuroGeographics for the administrative boundaries; GISCO, free re-use with attribution
 - What: NUTS 2024 level-3 region polygons, 1:20 million (first-level regions and bus / plant regions).
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: Open sources plus eSett zonal production / consumption and SvK flows (CC BY 4.0) for the snapshot balance.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: Open sources plus eSett zonal production / consumption and SvK flows (CC BY 4.0) for the snapshot balance.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -189,7 +189,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r7: no new repair or assumption items (a data or rating change only; see the round notes)
 - r8: no new repair or assumption items (a data or rating change only; see the round notes)
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Refinement rounds (2026-11-01, r2 onwards)
 
@@ -232,6 +233,8 @@ the line to build on (owner rule), Finland's round budget (r6) is used up.
 Fetch stages added: a build step (neighbours' own energy-charts series for the
 border-sign check), a build step, a build step. a build step checks
 1-19 cover the copies and every fix above that has a pure function (18: seasonal factors; 19: rule D).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

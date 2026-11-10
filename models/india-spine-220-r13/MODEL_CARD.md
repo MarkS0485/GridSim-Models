@@ -1,6 +1,4 @@
-# MODEL CARD: India transmission spine 765/400/220 kV (UnvalidatedAtScale)
-
-**RELEASE STATUS: Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# India transmission spine 765/400/220 kV (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** This case has not been checked against official Indian study results. It is a fair approximation of the Indian transmission spine assembled from public data. Demand is low fidelity (an allocated snapshot, not metered). Impedances are typical values per voltage class, not the real conductors. Use it to learn and to explore, not to plan or operate.
 

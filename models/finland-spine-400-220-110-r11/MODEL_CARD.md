@@ -1,4 +1,4 @@
-# MODEL CARD: Finnish 400/220/110 kV transmission grid winter peak 2026-01-08 (UnvalidatedAtScale)
+# Finnish 400/220/110 kV transmission grid winter peak 2026-01-08 (UnvalidatedAtScale)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

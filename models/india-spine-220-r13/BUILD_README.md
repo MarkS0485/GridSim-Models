@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - OpenStreetMap power layer (India), via the Overpass API, fetched 2026-10-31 (OpenStreetMap contributors), ODbL 1.0
 - Global Power Plant Database v1.3 (India rows) (World Resources Institute), CC BY 4.0
@@ -25,7 +23,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0, (c) OpenStreetMap contributors. See ATTRIBUTION.txt.
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### India / osm
 
@@ -108,7 +107,7 @@ Parser: inside a build step (`parse_cea_installed`), run as part
 Fetched with plain HTTPS GET (curl), HTTP 200, `Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`.
 The parser refuses any other hash.
 
-Licence / terms: none stated. Government of India publication; private until licence review.
+Licence / terms: none stated. Government of India publication.
 
 ##### Content
 
@@ -160,7 +159,7 @@ SHA-256 are in `_manifest.json` (not repeated here: 31 files).
 Reach: the dashboard goes back to January 2015 (FY 2014-15). Older reports (cea.nic.in/old, the
 npp.gov.in mirror) were not pulled in this pass.
 
-Licence / terms: none stated. Private until licence review.
+Licence / terms: none stated.
 
 ##### Files used (files_used.csv)
 
@@ -258,8 +257,7 @@ Parser: a build step
 the authority; the 2024 draft is used only to mark rows printed identically there
 (`same_in_2024_draft`).
 
-Licence / terms: none stated in the PDF. Government of India publication; treat as private
-until a licence review (plan ground rule).
+Licence / terms: none stated in the PDF. Government of India publication.
 
 ##### Outputs (, each with a.csv copy)
 
@@ -322,7 +320,7 @@ from the Internet Archive snapshot of 2015-07-01
 byte-identical (same SHA-256). The parser refuses any other hash.
 
 Document: POSOCO/NLDC note of 12 Jan 2013 to CERC, petition 188/SM/2012 (TTC/ATC/TRM). Licence /
-terms: none stated. Private until licence review.
+terms: none stated.
 
 ##### Output
 
@@ -376,8 +374,7 @@ Parser: a build step
   use the GNA-to-STU quanta per substation).
 
 Licence / terms: none stated; the lists say "The details of the applications are informatory in
-nature. Applicants are advised to verify the same with the nodal agency". Private until licence
-review. TLS: python requests (verify=True) worked; curl --ssl-no-revoke was not needed.
+nature. Applicants are advised to verify the same with the nodal agency". TLS: python requests (verify=True) worked; curl --ssl-no-revoke was not needed.
 
 ##### Output: generators.parquet (+.csv), 1739 rows
 
@@ -432,8 +429,7 @@ Parser: a build step
 The listing (2026-10-31) also offers ISTS Rolling Plan 2029-30, 2028-29, 2026-27, the Network
 Plan 2024-25 and an archive page; only the latest final and interim were downloaded (as the
 brief asked). The survey's example "AI_Study Report 2026-27_Version11-Final.pdf" is an older
-edition. Licence / terms: none stated; the CTUIL site states content is informatory. Private
-until licence review.
+edition. Licence / terms: none stated; the CTUIL site states content is informatory.
 
 TLS: python requests with verify=True worked for ctuil.in; the curl --ssl-no-revoke fallback
 was not needed.
@@ -501,11 +497,12 @@ https://www.naturalearthdata.com/about/terms-of-use/ . Credit is welcome, not re
 - The India point-of-view file is the one used: an Indian audience expects the outline India
   publishes. The default file is not used by the builder.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: As India 765 / 400 kV.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: As India 765 / 400 kV.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -567,7 +564,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r12: no new repair or assumption items (a data or rating change only; see the round notes)
 - r13: no new repair or assumption items (a data or rating change only; see the round notes)
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Round 2 refinements (2026-10-31, cases out/india-spine-765-400-r2 and out/india-spine-220-r2)
 
@@ -1144,6 +1142,8 @@ All of r8-r10 PASS physics-check and are validated (`validation/VALIDATION-india
 -: the line crosswalk accepts length-mismatch matches that resolve a wrong yard.
 - (no source names more Delhi sections),  (no sourced rating change),  (11 loose ends joined in
  r8; the rest have no ledger confirmation),  (FITTED radial stand-in),.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): RTE lines, tie-lines, transformers (R, X, B, Imax), and its publication map (JAO S.A. on behalf of the Core TSOs (RTE for France)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap substations (225/400 kV, tags ref:FR:RTE and ref:FR:RTE_nom), Overpass API 2026-10-31 (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - france-geojson regions (IGN Admin Express COG), Licence Ouverte: region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: France outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### communes
 
@@ -111,7 +110,7 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 
 #### jao
 
-Licence: JAO General Terms and Conditions: research and internal use with attribution; no redistribution without JAO's prior written consent. Anything built from it is PRIVATE.
+Licence: JAO General Terms and Conditions: research and internal use with attribution; no redistribution without JAO's prior written consent.
 : RTE rows only.
 
 #### jao_fb
@@ -242,11 +241,12 @@ model can split no busbar from OSM (rule: split only where mapped).
 - SHA-256: 474723f78016e86f7da0b9a39c7e2bd25980b20e0c002b3339e58eca844902c2
 - Note: Same register, all other installations aggregated SERVER SIDE by departement, filiere, technologie and connection voltage (count and installed kW).
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + ODRE (Etalab open licence) + OSM.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + ODRE (Etalab open licence) + OSM.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated

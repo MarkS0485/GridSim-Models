@@ -2,11 +2,8 @@ Baltic states (Estonia, Latvia, Lithuania; Continental Europe synchronous area s
 
 LICENCE
 -------
-This model is an open database released under the Open Database Licence (ODbL) 1.0
-(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
-credit below in anything you publish from it; a derived database must also be offered under the
-ODbL. You are responsible for complying with each source's terms and each nation's data
-obligations where you use it. General-purpose fidelity only: never planning grade.
+Database: ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/).
+Retain the credits below and follow the applicable source terms.
 
 UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
 approximation of the Baltic states (Estonia, Latvia, Lithuania; Continental Europe synchronous area since 9 February 2025) 400/330/220 kV grid for one snapshot (2026-01-30T08:00:00+00:00), with allocated demand and register-based

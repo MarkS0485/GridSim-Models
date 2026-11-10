@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01) (OpenStreetMap contributors), ODbL 1.0
@@ -20,7 +18,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Spain / pypsa_osm
 
@@ -215,11 +214,12 @@ Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 - Licence: (c) EuroGeographics for the administrative boundaries; GISCO, free re-use with attribution
 - What: NUTS 2024 level-3 region polygons, 1:20 million (first-level regions and bus / plant regions).
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: OSM via PyPSA-Eur and Geofabrik (ODbL), powerplantmatching / energy-charts / Eurostat-GISCO (CC BY 4.0), Natural Earth (PD).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: OSM via PyPSA-Eur and Geofabrik (ODbL), powerplantmatching / energy-charts / Eurostat-GISCO (CC BY 4.0), Natural Earth (PD).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -268,7 +268,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
   - seasonal overhead-line ratings (tightened rule rung 2, evidence derived): snapshot season winter; factor = median over six JAO Core TSOs (MAVIR, PSE, TEL, TransnetBW, TenneT NL, RTE) of each TSO's median winter/summer seasonal Imax ratio (JAO Core Static Grid Model 9th release (2026-03), Lines + Tielines): 380 kV class 1.047, 220 kV class (and 110-150 kV, [VERIFY]) 1.199; static base = EN 50182 summer design rating (35 C, 900 W/m2, 0.6 m/s); cables static: 4019 overhead lines (every one), 116 cables kept static; per line in ambient_ratings.json
 - r9: no new repair or assumption items (a data or rating change only; see the round notes)
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Refinement rounds (2026-11-01, r2 onwards)
 
@@ -311,6 +312,8 @@ the line to build on (owner rule), Finland's round budget (r6) is used up.
 Fetch stages added: a build step (neighbours' own energy-charts series for the
 border-sign check), a build step, a build step. a build step checks
 1-19 cover the copies and every fix above that has a pure function (18: seasonal factors; 19: rule D).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

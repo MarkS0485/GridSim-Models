@@ -1,4 +1,4 @@
-# MODEL CARD: Italy Sardinian 380/220 kV transmission grid summer peak 2026-06-29 (UnvalidatedAtScale)
+# Italy Sardinian 380/220 kV transmission grid summer peak 2026-06-29 (UnvalidatedAtScale)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

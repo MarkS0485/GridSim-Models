@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): PSE lines, tie-lines, transformers (R, X, B, Imax) and its publication map (JAO S.A. on behalf of the Core TSOs (PSE for Poland)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap substations of 110 kV and more in Poland (Overpass API, 2026-11-01): names and positions (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries POL ADM1 (gbOpen): region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Poland / osm_transformers
 
@@ -39,16 +38,17 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 - geo/gb_meta.json: https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/POL/ADM1/geoBoundaries-POL-ADM1-metaData.json, 2026-11-01T00:41:42Z, 855 bytes, SHA-256 2536fd2af57d8f4935f013dc3ce5a385ed758d02a44ef7a7a191173dcc504e5c; geoBoundaries gbOpen (licence per gb_meta.json)
 
 Shared inputs read by path (not copied), SHA-256 checked in the code:
-- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, NO redistribution; every case built from it is PRIVATE. Rows with TSO 'PSE' (and other TSOs' tie rows ending in Poland).
+- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, redistribution requires permission. Rows with TSO 'PSE' (and other TSOs' tie rows ending in Poland).
 - the source record SHA-256 ceccce02edd33813216a264fe6c8e3281ce2249435a259c1b1a1b729ce4f3d78: powerplantmatching (https://github.com/PyPSA/powerplantmatching), CC BY 4.0; rows Country == 'Poland'.
 - the source record (f50c75ea0339f5578ae383b47a1c0564b371c5d0d60fd4181ed626c7f3a5a523) and lines.csv (d3ee4f45a0d9889eee9e27376cb9cfc877514964f77ba406bea3b6eb336531cb): PyPSA-Eur prebuilt OSM network v0.7 (Zenodo 18619025), ODbL 1.0.
 - the source record SHA-256 239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255: Natural Earth, public domain.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + PyPSA-Eur OSM.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + PyPSA-Eur OSM.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -79,7 +79,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r1: first build (build-first batch); reactive repair by fixed bus shunts only.
 - r5: Kozienice (r4: 400/220 kV AT-2 139.7 %): the powerplantmatching row of units 1-10 (2,919 MW) sat on the 400 kV bus. OSM maps 8 generator transformers at 220 kV and 3 at 400 kV in the Kozienice station (Overpass 2026-11-01, the source record): the row is split into 1,120 MW at 400 kV (units 9, 10 at 560 MW [VERIFY]) and 1,799 MW at 220 kV (units 1-8); unit 11 (1,075 MW, its own row) stays at 400 kV. Placement only; the JAO transformer (one 500 MVA unit, as OSM's AT-2) is unchanged. Repair: weak-bus cap.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Best case: `out/poland-spine-400-220-r1` (build-first round; refinement later)
 
@@ -155,6 +156,8 @@ Best cases now: belgium r4, austria r4, czechia r3, poland r3, slovakia r4, hung
 romania r4. Open: Belgium Ardennes 220 kV 1.069 pu (repair stops at pass 7 with one bus, ); Czechia Prague
 (C. Stred 400/220 kV 143.8 %: JAO lists one C. Stred unit; Prague 110 kV supply points not in the model); Poland
 Kozienice 400/220 kV 139.8 %; Austria St. Peter - Pleinting 114.5 % and the Inn valley 220 kV (Thaur - Vill 109.6 %).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

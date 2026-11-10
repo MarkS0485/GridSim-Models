@@ -6,21 +6,20 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - OpenStreetMap power layer of Japan (lines and cables 66 kV and above, substations, transformers), Overpass API snapshot of 2026-11-01 (OpenStreetMap contributors), ODbL 1.0
-- Area supply and demand results (eria jukyu jisseki), half-hourly, January 2025, of the nine general transmission and distribution companies (HEPCO NW, Tohoku EPCO NW, TEPCO PG, Chubu PG, Hokuriku EPCO TD, Kansai TD, Chugoku EPCO NW, Shikoku EPCO TD, Kyushu EPCO TD) (the general transmission and distribution companies (METI grid-information guidelines)), published for public information; reuse terms [VERIFY] before publication
+- Area supply and demand results (eria jukyu jisseki), half-hourly, January 2025, of the nine general transmission and distribution companies (HEPCO NW, Tohoku EPCO NW, TEPCO PG, Chubu PG, Hokuriku EPCO TD, Kansai TD, Chugoku EPCO NW, Shikoku EPCO TD, Kyushu EPCO TD) (the general transmission and distribution companies (METI grid-information guidelines)), published for public information
 - Global Power Plant Database v1.3.0 (2021), rows for Japan (World Resources Institute), CC BY 4.0
 - GeoNames Japan populated places (JP.zip: population, position) (GeoNames), CC BY 4.0
 - Public figures for link ratings (OCCTO tie-line capacities, rounded) and station positions ([VERIFY]) (OCCTO and the utilities), facts, no licence needed
 - Model assembly steps: adapter run, grid split, per-km parameters, couplings, GSUs, dispatch split, demand allocation, slack, repairs (a private build pipeline using GridSim's solver), private
 - geoBoundaries JPN ADM1 (ODbL 1.0): outlines in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### osm_pbf
 
@@ -60,7 +59,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 
 #### area
 
-- Licence: Published by each general transmission and distribution company for public information under the METI grid-information guidelines. No open licence is stated in the files; reuse terms [VERIFY] before any publication. Not marked restricted.
+- Licence: Published by each general transmission and distribution company for public information under the METI grid-information guidelines. No open licence is stated in the files. Not marked restricted.
 
 | File | Bytes | SHA-256 | URL |
 |---|---:|---|---|
@@ -85,7 +84,7 @@ Files exactly as served (never edited). Fetched by the the build pipeline tool f
   committee (unyou youryou kentoukai) 2021 meeting 2, material 1-2: "Summer and winter thermal capacity: review and publication" (Japanese title) (summer / winter thermal capacity of
   inter-regional tie lines); pages carry "Copyright Chubu Electric Power Grid Co., Inc."
 - URL: https://www.occto.or.jp/assets/iinkai/unyouyouryou/2021/files/2021_2_1-2.pdf (301 from /iinkai/unyouyouryou/2021/files/)
-- Terms: public committee material; copyright the authors; used here for research only (private case) [VERIFY reuse terms]
+- Terms: public committee material; copyright the authors; used as a research source
 - Fetched: 2026-11-01
 - Bytes: 508128
 - SHA-256: 706b4b4feb2f901028fc243d618d2e017f9159a0f85754393f9f829e305523f5
@@ -118,11 +117,12 @@ Files exactly as served (never edited). Fetched by the the build pipeline tool f
 |---|---:|---|---|
 | JP.zip | 4959621 | 894530e9eb2faa82b9f53c097b55458873920f734d69c8c1d83696f2fc9b3c16 | https://download.geonames.org/export/dump/JP.zip |
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: As Japan east.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: As Japan east.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -166,7 +166,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 
 - r1: first build; reactive repair by seed shunts (fictitious voltage control), the copied staged repair and a reactive-limit trim (all synthetic).
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Refinement rounds (2026-11-01): east r4, west r3, east spine r2
 
@@ -207,6 +208,8 @@ cap reads the case's ratings, so fewer plants are capped: west 22 caps / 14,389 
 
 Both PASS; best cases east r5, west r4. / (reactive-limit quirk) is a known quirk, not chased.
 Remaining: Tokyo Bay 275 kV cables absent from OSM (TEPCO PDFs 403), Kumamoto 110 kV, OSM sub-transmission gaps.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

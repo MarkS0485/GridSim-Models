@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01) (OpenStreetMap contributors), ODbL 1.0
@@ -21,7 +19,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Ireland / pypsa_osm
 
@@ -187,11 +186,12 @@ Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 - Licence: Creative Commons Attribution 4.0 International (CC BY 4.0) (geoBoundaries gbOpen; source Eurostat- European Commission)
 - What: geoBoundaries gbOpen GBR ADM1 (Country, 2021) simplified polygons: first-level regions, home test and geography.json.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: OSM via PyPSA-Eur and Geofabrik (ODbL), powerplantmatching / energy-charts / GeoNames / GHSL / geoBoundaries (CC BY 4.0), Natural Earth (PD). EirGrid TYTFS (all rights reserved) NOT used.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: OSM via PyPSA-Eur and Geofabrik (ODbL), powerplantmatching / energy-charts / GeoNames / GHSL / geoBoundaries (CC BY 4.0), Natural Earth (PD). EirGrid TYTFS (all rights reserved) NOT used.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -238,7 +238,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r5: Seasonal ratings: every overhead line x the TSO-practice seasonal factor for the snapshot month; cables static.
 - r5: EHV transformer sizes from OSM power=transformer elements: units within 0.6 km of the PyPSA site whose voltage:primary / secondary match its classes, rating tags summed (untagged = 400 MVA typical). Woodland 400/220 kV: 3 OSM units (EirGrid, 400000/220000) -> 1,200 MVA (was the 2 x 400 MVA rule; r4 loading 230.5 %); Moneypoint 2 x 500 MVA tagged -> 1,000 MVA; Oldstreet 1 unit -> 400 MVA; a 275/220 kV site 1 unit tagged 600 MVA. Dunstown 2 units unchanged. Applied to every site by the same rule.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds after r1 (2026-11-01)
 
@@ -281,6 +282,8 @@ relations not read by a build step), bulgaria r3, baltics r3, wbalkans r2.
 Open: Ireland Woodland 400/220 kV transformer 230.5 % (PyPSA marks the site; the 2 x 400 MVA unit rule is a typical
 value); Greece couplings (substation relations), Bulgaria / Baltics PyPSA virtual bus ids (match by position to OSM
 substations from a Geofabrik extract: not done).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

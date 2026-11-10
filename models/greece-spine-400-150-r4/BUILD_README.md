@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - OpenStreetMap: names of the substations behind the PyPSA buses; 100-170 kV lines and substations (Overpass API, 2026-11-01) (OpenStreetMap contributors), ODbL 1.0
@@ -21,7 +19,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Greece / pypsa_osm
 
@@ -179,11 +178,12 @@ Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 - Licence: Creative Commons Attribution 4.0 International (CC BY 4.0) (geoBoundaries gbOpen; source EuroGeoGraphics, Regional IM Working Group - Europe)
 - What: geoBoundaries gbOpen GRC ADM1 (Decentralized administration, 2016) simplified polygons: first-level regions, home test and geography.json.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: As Ireland (same batch and source types).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: As Ireland (same batch and source types).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -231,7 +231,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r4: The uncoupled components left out were diagnosed one by one (topology_summary.json 'uncoupled_components'): they are OSM line gaps, not substation outlines: Crete centre / east (15 buses, 360.1 km; bridged, see below), the Dodecanese (8 buses, 133.5 km: Rhodes / Kos are autonomous island systems, correctly left out), South Evia (8 buses, 88.0 km, 21.1 km from the kept grid), and 5 small pockets (84.3 km).
 - r4: Crete 150 kV gap bridge: one 150 kV circuit, straight line, between the west and centre parts of Crete's one 150 kV system, so the Ariadne converter side (Damasta) joins the case.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds after r1 (2026-11-01)
 
@@ -274,6 +275,8 @@ relations not read by a build step), bulgaria r3, baltics r3, wbalkans r2.
 Open: Ireland Woodland 400/220 kV transformer 230.5 % (PyPSA marks the site; the 2 x 400 MVA unit rule is a typical
 value); Greece couplings (substation relations), Bulgaria / Baltics PyPSA virtual bus ids (match by position to OSM
 substations from a Geofabrik extract: not done).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

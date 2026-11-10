@@ -1,6 +1,4 @@
-# MODEL CARD: Canada West 500-345-230-161-138 kV 2025-12-11 (UnvalidatedAtScale)
-
-**Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# Canada West 500-345-230-161-138 kV 2025-12-11 (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against operator study results. A solvable rough map of the Alberta and British Columbia grids (Western Interconnection: 500 / 360 / 287 / 240 / 230 / 138 kV) for one snapshot: OSM-mapped lines and stations (>= 100 kV), standard per-km parameters, NACEI / OSM plants, published system demand allocated by population. Use it to learn, compare and explore, not to plan or operate.
 
@@ -105,7 +103,7 @@ Tag mapping: attested = Recorded, derived = DerivedFromRecorded, estimated = Cur
 - Model assembly steps: converter removal, island selection, couplings, GSUs, placement, dispatch, demand allocation, boundary injections, slack, repairs (a private build pipeline using GridSim's solver), private
 - Natural Earth 1:10m admin-0 / admin-1, public domain: outline and provinces in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

@@ -1,4 +1,4 @@
-# MODEL CARD: Bulgarian 400/220 kV grid winter peak 2026-01-21 (UnvalidatedAtScale)
+# Bulgarian 400/220 kV grid winter peak 2026-01-21 (UnvalidatedAtScale)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

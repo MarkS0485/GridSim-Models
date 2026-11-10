@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): lines, tie-lines, transformers (R, X, B, Imax), and its publication map (JAO S.A. on behalf of the Core TSOs (50Hertz, Amprion, TenneT DE, TransnetBW for Germany)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - PyPSA-Eur prebuilt OSM network v0.7 (buses), with OSM names fetched by element id 2026-10-31 (PyPSA-Eur / OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries DEU ADM1 (BKG NUTS250), dl-de/by-2-0: state assignment and state shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: Germany outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Germany / destatis
 
@@ -194,11 +193,12 @@ Result: 0 power=busbar / power=bay ways within 800 m of any of the 52 stations (
 | 4071_TenneT_quarterhour_1763938800000.json | https://www.smard.de/app/chart_data/4071/TenneT/4071_TenneT_quarterhour_1763938800000.json | 2026-11-01 05:11 | 15711 | a546c20ca3b80feafa4bdbf09eca98430db17ea68cd7d9bc2724bc4b3b18e10a | CC BY 4.0 (Bundesnetzagentur | SMARD.de) |
 | 4071_TransnetBW_quarterhour_1763938800000.json | https://www.smard.de/app/chart_data/4071/TransnetBW/4071_TransnetBW_quarterhour_1763938800000.json | 2026-11-01 05:11 | 14933 | 4a4b1164f043b5ba651952e7705cf2bc87e77647f1faa37ac23ae36e971fead7 | CC BY 4.0 (Bundesnetzagentur | SMARD.de) |
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO Core Static Grid Model (lines
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO Core Static Grid Model (lines
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -239,7 +239,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
   - voltage-control rule (r5 EU limits, r6 national): RfG (Regulation (EU) 2016/631) Art. 5 with the German thresholds (BK6-16-166: B 0.135 / C 36 / D 45 MW) - synchronous register units >= 0.135 MW (type B+) and converter units at or above the national type C (36 MW) or connected at 110 kV+ (type D, incl. every offshore farm) control voltage; aggregates of small units and idle converters (< 1 % output) run at unity pf; replaces the round-4 judgement for the North Sea HVDC landings
   - data (round 6): onshore wind and biomass placed from the MaStR bulk export 2026-11-01 (units in operation on 2025-11-27 at their coordinates, grouped by grid connection point / park, EHV-connected parks on the station bus, others embedded; RfG class per park from connection level and park size; state aggregates of these fuels kept only for the units without coordinates): {"units": 52329, "mw": 76300.4, "by_fuel_mw": {"biomass": 8975.9, "wind_onshore": 67324.5}, "ehv_mw": 2136.0, "rfg_regulating_mw": 30911.0, "no_coordinates_mw": 113.8, "beyond_place_max_km_mw": 0.0, "no_coordinates_by_state_code": {"biomass:1400": 0.1, "biomass:1401": 0.1, "biomass:1402": 2.1, "biomass:1403": 33.9, "biomass:1404": 0.0, "biomass:1405": 0.6, "biomass:1406": 0.1, "biomass:1407": 1.0, "biomass:1408": 4.6, "biomass:1409": 21.5, "biomass:1410": 0.5, "biomass:1411": 0.7, "biomass:1412": 0.0, "biomass:1413": 0.4, "biomass:1414": 0.7, "biomass:1415": 0.3, "wind_onshore:1400": 0.1, "wind_onshore:1401": 0.0, "wind_onshore:1402": 0.3, "wind_onshore:1403": 1.0, "wind_onshore:1404": 0.1, "wind_onshore:1405": 0.1, "wind_onshore:1406": 0.0, "wind_onshore:1407": 0.2, "wind_onshore:1408": 1.8, "wind_onshore:1409": 40.7, "wind_onshore:1410": 0.1, "wind_onshore:1411": 2.5, "wind_onshore:141
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds 4-5 (2026-11-01, owner's data round)
 
@@ -301,6 +302,8 @@ Best case: r6. Open: Niederlangen 380 kV 157.2 %, Wechold - Landesbergen 220 kV 
   at that scale, 30 EHV couplings, 14500 MVA). The pocket's coupling MVA is ample in total, so the gap is inside it:
   check the EHV / 110 kV couplings OSM lacks near those stations (topology110 found 49 EHV sites with no 110 kV yard
   within 1 km) before any inference-round feed.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

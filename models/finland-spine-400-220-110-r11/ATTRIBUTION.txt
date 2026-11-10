@@ -2,11 +2,8 @@ Finnish 400/220/110 kV transmission grid winter peak 2026-01-08 (UnvalidatedAtSc
 
 LICENCE
 -------
-This model is an open database released under the Open Database Licence (ODbL) 1.0
-(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
-credit below in anything you publish from it; a derived database must also be offered under the
-ODbL. You are responsible for complying with each source's terms and each nation's data
-obligations where you use it. General-purpose fidelity only: never planning grade.
+Database: ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/).
+Retain the credits below and follow the applicable source terms.
 
 UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
 approximation of the Finnish 400/220/110 kV transmission grid for one snapshot (2026-01-08T15:00:00+00:00), with allocated demand and register-based

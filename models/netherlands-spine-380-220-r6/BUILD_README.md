@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): TenneT NL lines, tie-lines, transformers (R, X, B, Imax) and its publication map (JAO S.A. on behalf of the Core TSOs (TenneT TSO B.V. for the Netherlands)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap 220/380 kV substations (Overpass API, 2026-10-31): station and converter positions (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries NLD ADM1 (National Georegister), CC0 1.0: province assignment and province shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: Netherlands outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Netherlands / energy_charts
 
@@ -68,7 +67,7 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 - Contents used: the External xlsx (sheets Lines, Tielines, Transformers; rows with TSO 'TENNET NL') and the
   publication map html (polyline end points by EIC, read as text; nothing executed).
 - Licence: JAO General Terms and Conditions: research / internal use with attribution; making the data available to
-  third parties needs JAO's prior written authorisation. NOT open. Every case built from it is PRIVATE.
+  third parties needs JAO's prior written authorisation. NOT open.
 - Parsed by a build step into {lines_raw, tielines_raw, transformers_raw,
   element_coords}.parquet.
 
@@ -100,11 +99,12 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
   Dodewaard): route length and circuit count (estimated).
 - lines.csv quotes its geometry with single quotes: read with quotechar="'".
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + OSM.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + OSM.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -147,7 +147,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r2 solve: pf 6 iterations flat, V 0.9567-1.0200 pu, losses 321.879 MW, angle spread 40.886 deg, 2 branches over 100 % (Delesto - Weiwerd 220 kV W and Z, 100.0 %), 30 synthetic capacitors 2870 MVAr (no landing-bus setpoint fights left; the rest spread over the 220 kV north and the east), IEC 60909 380 kV Ik'' max 67.94 kA (Krimpen), median 45.98 kA.
 - r3 change: station export cap (plant at one station <= 85 % of the summed rating of its branches; the excess moves to the same fuel's other committed units). Only Delesto binds.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### r4 status (2026-11-01)
 
@@ -155,6 +156,8 @@ r4 is the best NL case (0 overloads). Krimpen 380 kV Ik'' is 65.76 kA, above 63 
 inside the Krimpen a/d IJssel substations (Overpass, 2026-11-01), and no current TenneT per-station short-circuit
 table was found in open data. No busbar split is possible, so no round was added. The assumed EHV/HV units for the
 embedded plant (2+ x 500 MVA, 12 %) are now listed in the r4 MODEL_CARD's fitted / assumed section.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

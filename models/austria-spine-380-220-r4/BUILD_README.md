@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): APG lines, tie-lines, transformers (R, X, B, Imax) and its publication map (JAO S.A. on behalf of the Core TSOs (APG for Austria)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap substations of 110 kV and more in Austria (Overpass API, 2026-11-01): names and positions (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries AUT ADM1 (gbOpen): region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Austria
 
@@ -34,16 +33,17 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 - geo/gb_meta.json: https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AUT/ADM1/geoBoundaries-AUT-ADM1-metaData.json, 2026-11-01T00:40:12Z, 924 bytes, SHA-256 6e82d5ebbf04c393b74368e1c3addc35ad20280cb590df5ef6697d1ca8d1458f; geoBoundaries gbOpen (licence per gb_meta.json)
 
 Shared inputs read by path (not copied), SHA-256 checked in the code:
-- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, NO redistribution; every case built from it is PRIVATE. Rows with TSO 'APG' (and other TSOs' tie rows ending in Austria).
+- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, redistribution requires permission. Rows with TSO 'APG' (and other TSOs' tie rows ending in Austria).
 - the source record SHA-256 ceccce02edd33813216a264fe6c8e3281ce2249435a259c1b1a1b729ce4f3d78: powerplantmatching (https://github.com/PyPSA/powerplantmatching), CC BY 4.0; rows Country == 'Austria'.
 - the source record (f50c75ea0339f5578ae383b47a1c0564b371c5d0d60fd4181ed626c7f3a5a523) and lines.csv (d3ee4f45a0d9889eee9e27376cb9cfc877514964f77ba406bea3b6eb336531cb): PyPSA-Eur prebuilt OSM network v0.7 (Zenodo 18619025), ODbL 1.0.
 - the source record SHA-256 239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255: Natural Earth, public domain.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + PyPSA-Eur OSM.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + PyPSA-Eur OSM.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -74,7 +74,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r4: RfG voltage control with the NATIONAL type B / C thresholds: before this round every unit below the 300 MW EHV placement size and every converter unit ran at unity pf whatever its size (no RfG rule at all). Now a committed register UNIT of type B or more (synchronous) or type C or more (converter, running) regulates voltage on its embedded bus (synchronous Q -0.30..+0.62 x MW, converter +/- 0.33 x MW); smaller units and register-gap aggregates stay pq at Q = 0; idle converters never regulate.
 - r4: Demand shares from the WorldPop 2020 1 km population grid (CC BY 4.0, doi:10.5258/SOTON/WP00647; a build step) instead of GeoNames points: every populated cell goes to its nearest demand station (Voronoi catchment), so a big city is shared by every station around it instead of landing on the station nearest its single GeoNames point (Vienna on Kledering, Prague on Malesice). The demand total (energy-charts balance) is unchanged; only its spread. GeoNames PPLX sections no longer used.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Best case: `out/austria-spine-380-220-r1` (build-first round; refinement later)
 
@@ -152,6 +153,8 @@ Best cases now: belgium r4, austria r4, czechia r3, poland r3, slovakia r4, hung
 romania r4. Open: Belgium Ardennes 220 kV 1.069 pu (repair stops at pass 7 with one bus, ); Czechia Prague
 (C. Stred 400/220 kV 143.8 %: JAO lists one C. Stred unit; Prague 110 kV supply points not in the model); Poland
 Kozienice 400/220 kV 139.8 %; Austria St. Peter - Pleinting 114.5 % and the Inn valley 220 kV (Thaur - Vill 109.6 %).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

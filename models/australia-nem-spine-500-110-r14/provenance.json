@@ -15,7 +15,7 @@
    "title": "NEM Generation Information, July 2025 (existing units: site, fuel, nameplate MW, status)",
    "publisher": "Australian Energy Market Operator (AEMO)",
    "url": "https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
-   "licence": "AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)",
+   "licence": "AEMO copyright permissions: reuse with attribution",
    "published": true
   },
   {
@@ -23,7 +23,7 @@
    "title": "Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025",
    "publisher": "Australian Energy Market Operator (AEMO)",
    "url": "https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data",
-   "licence": "AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)",
+   "licence": "AEMO copyright permissions: reuse with attribution",
    "published": true
   },
   {
@@ -31,7 +31,7 @@
    "title": "WEM operational demand / generation data (AEMO WA)",
    "publisher": "Australian Energy Market Operator (AEMO)",
    "url": "https://data.wa.aemo.com.au/",
-   "licence": "AEMO copyright permissions: reuse with attribution ([VERIFY])",
+   "licence": "AEMO copyright permissions: reuse with attribution",
    "published": true
   },
   {

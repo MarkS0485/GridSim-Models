@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Core Static Grid Model, 9th release (2026-03): ELIA lines, tie-lines, transformers (R, X, B, Imax) and its publication map (JAO S.A. on behalf of the Core TSOs (ELIA for Belgium)), JAO General Terms and Conditions: research / internal use with attribution; no redistribution without JAO's prior written consent
 - OpenStreetMap substations of 110 kV and more in Belgium (Overpass API, 2026-11-01): names and positions (OpenStreetMap contributors), ODbL 1.0
@@ -20,9 +18,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - geoBoundaries BEL ADM1 (gbOpen): region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Belgium
 
@@ -34,16 +33,17 @@ Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
 - geo/gb_meta.json: https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BEL/ADM1/geoBoundaries-BEL-ADM1-metaData.json, 2026-11-01T00:27:52Z, 882 bytes, SHA-256 8d98e0ca05b8b316817e2204e4cfed80912377a528b8770bbd67736f0ef7a35a; geoBoundaries gbOpen (licence per gb_meta.json)
 
 Shared inputs read by path (not copied), SHA-256 checked in the code:
-- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, NO redistribution; every case built from it is PRIVATE. Rows with TSO 'ELIA' (and other TSOs' tie rows ending in Belgium).
+- the source record SHA-256 e3becdb02f51450e3ef2ab7f5a1fe7b35341873b3e156bd580ac67c0eeba4f39: JAO Core Static Grid Model 9th release (https://www.jao.eu/static-grid-model); JAO terms: research / internal use with attribution, redistribution requires permission. Rows with TSO 'ELIA' (and other TSOs' tie rows ending in Belgium).
 - the source record SHA-256 ceccce02edd33813216a264fe6c8e3281ce2249435a259c1b1a1b729ce4f3d78: powerplantmatching (https://github.com/PyPSA/powerplantmatching), CC BY 4.0; rows Country == 'Belgium'.
 - the source record (f50c75ea0339f5578ae383b47a1c0564b371c5d0d60fd4181ed626c7f3a5a523) and lines.csv (d3ee4f45a0d9889eee9e27376cb9cfc877514964f77ba406bea3b6eb336531cb): PyPSA-Eur prebuilt OSM network v0.7 (Zenodo 18619025), ODbL 1.0.
 - the source record SHA-256 239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255: Natural Earth, public domain.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: JAO SGM + OSM.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: JAO SGM + OSM.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -74,7 +74,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r1: first build (build-first batch); reactive repair by fixed bus shunts only.
 - r5: Reactive repair. Belgium r4 stopped at pass 7: the largest ask was 'St-Mard 220kV embedded bus' (a small embedded plant behind its lumped supply equivalent), and a -10 MVAr minimum step there alone took the no-limit solve to 0.597 pu, so all 7 damped retries failed and the Ardennes 220 kV group stayed at 1.065-1.069 pu. Repair algorithm only: no network, dispatch or demand value changed. Model tables as rebuilt at 06:58 with the JAO period-of-date rule; Belgium ratings compared in the README).
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Belgium round 1
 
@@ -151,6 +152,8 @@ Best cases now: belgium r4, austria r4, czechia r3, poland r3, slovakia r4, hung
 romania r4. Open: Belgium Ardennes 220 kV 1.069 pu (repair stops at pass 7 with one bus, ); Czechia Prague
 (C. Stred 400/220 kV 143.8 %: JAO lists one C. Stred unit; Prague 110 kV supply points not in the model); Poland
 Kozienice 400/220 kV 139.8 %; Austria St. Peter - Pleinting 114.5 % and the Inn valley 220 kV (Thaur - Vill 109.6 %).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

@@ -1,4 +1,4 @@
-# MODEL CARD: Western Balkans (Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo) 400/220 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)
+# Western Balkans (Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo) 400/220 kV grid winter peak 2026-01-12 (UnvalidatedAtScale)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

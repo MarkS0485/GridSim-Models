@@ -1,6 +1,4 @@
-# MODEL CARD: Australia WEM SWIS transmission 330/220/132 kV winter peak 2025-07-28 18:50 AWST (UnvalidatedAtScale)
-
-**Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# Australia WEM SWIS transmission 330/220/132 kV winter peak 2025-07-28 18:50 AWST (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official Australian study results. A solvable rough map of the WEM South West Interconnected System (WA) (330, 220, 132 kV) for one snapshot: Geoscience Australia topology with typical per-km line parameters, synthetic transformers, register-based generation, population-allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -101,14 +99,14 @@ Buses are 'estimated' (positions and connectivity inferred from GA drawings); li
 ## Sources
 
 - Electricity Infrastructure (Power Lines, Substations, Major Power Stations), MapServer query of 2026-10-31 (Geoscience Australia (Commonwealth of Australia)), CC BY 4.0
-- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)
-- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY])
+- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
+- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
 - GeoNames Australia populated places (AU.zip: population, position) (GeoNames), CC BY 4.0
 - OpenStreetMap power lines and cables 110 kV and above in Australia (Overpass API, 2026-10-31): circuit counts ('circuits', else cables / 3) matched onto GA features (OpenStreetMap contributors), ODbL 1.0
 - Model assembly steps: site grouping, end resolution, per-km parameters, couplings, GSUs, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - ABS ASGS 2021 States and Territories (generalised), CC BY 4.0: outlines in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

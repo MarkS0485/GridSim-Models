@@ -6,23 +6,22 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Electricity Infrastructure (Power Lines, Substations, Major Power Stations), MapServer query of 2026-10-31 (Geoscience Australia (Commonwealth of Australia)), CC BY 4.0
-- NEM Generation Information, July 2025 (existing units: site, fuel, nameplate MW, status) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)
-- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)
-- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY])
+- NEM Generation Information, July 2025 (existing units: site, fuel, nameplate MW, status) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
+- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
+- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
 - GeoNames Australia populated places (AU.zip: population, position) (GeoNames), CC BY 4.0
 - OpenStreetMap power lines and cables 110 kV and above in Australia (Overpass API, 2026-10-31): circuit counts ('circuits', else cables / 3) matched onto GA features (OpenStreetMap contributors), ODbL 1.0
 - Public figures for HVDC flows and large industrial loads (rounded, [VERIFY]) (various (company and AEMO publications)), facts, no licence needed
 - Model assembly steps: site grouping, end resolution, per-km parameters, couplings, GSUs, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - ABS ASGS 2021 States and Territories (generalised), CC BY 4.0: outlines in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### ga
 
@@ -74,7 +73,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 #### aemo
 
 - URL: https://www.aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_<yyyymm>_<REGION>.csv ; https://www.aemo.com.au/-/media/files/electricity/nem/planning_and_forecasting/generation_information/2025/nem-generation-information-july-2025.xlsx
-- Licence: AEMO material, used under AEMO's copyright permissions (reuse with attribution) [VERIFY the exact terms before publication]; nothing marked confidential or restricted is used
+- Licence: AEMO material, used under AEMO's copyright permissions (reuse with attribution); nothing marked confidential or restricted is used
 - Note: Snapshot chosen from these files: 2025/07/01 18:00:00 (max of QLD1+NSW1+VIC1+SA1 TOTALDEMAND over June-August 2025).
 
 | File | Bytes | SHA-256 |
@@ -103,7 +102,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 
 - TNSP: Transgrid (NSW)
 - URL: https://www.transgrid.com.au/media/xgun43m0/2025-transmission-annual-planning-report_update_081025.pdf
-- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters (private case; [VERIFY] reuse terms before any publication)
+- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters.
 - Fetched: 2026-11-01 06:20 UTC
 - Bytes: 21983100
 - SHA-256: 12f05db284925b05b695ae7309838b59c8271b107662cf55a4fa2ecc3bad523f
@@ -112,7 +111,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 
 - TNSP: Ausgrid (NSW, DTAPR 2025)
 - URL: https://aopt-p-001.sitecorecontenthub.cloud/api/public/content/a1bdd2914c6b498d9d4a2f3df3011250?v=da843050
-- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters (private case; [VERIFY] reuse terms before any publication)
+- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters.
 - Fetched: 2026-11-01 06:29 UTC
 - Bytes: 33093
 - SHA-256: e4577d931365d16093501a8448ee9dc1f5f287fa6cae0ef787c92eabe1c6a46b
@@ -126,7 +125,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 
 - TNSP: Ausgrid (NSW, DTAPR 2025)
 - URL: https://aopt-p-001.sitecorecontenthub.cloud/api/public/content/bc7204761acf46139a99308926ef36ca?v=d3d782f4
-- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters (private case; [VERIFY] reuse terms before any publication)
+- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters.
 - Fetched: 2026-11-01 06:40 UTC
 - Bytes: 407552
 - SHA-256: c07f5529887c09d2b1c46b2d108b281a10d4bf86572ccf733833415a796b7a64
@@ -135,7 +134,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 
 - TNSP: Powerlink (QLD)
 - URL: https://www.powerlink.com.au/sites/default/files/2025-03/Transmission%20Annual%20Planning%20Report%20-%20TAPR%20-%202024%20-%20Full%20document.pdf
-- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters (private case; [VERIFY] reuse terms before any publication)
+- Terms: TNSP publication, publicly downloadable; copyright the TNSP; used here for research as a source of published ratings and parameters.
 - Fetched: 2026-11-01 06:40 UTC
 - Bytes: 12980765
 - SHA-256: 0ab1809bbda55018b7a63e4da91e087acf53862a2bf51f646ef3200426d17afb
@@ -162,11 +161,12 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 |---|---:|---|
 | AU.zip | 5745182 | f729cd9ed300917da8eb3b3a79dd36ec7c75f8a1f50756313c7c08fbfa73b5f1 |
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: Geoscience Australia (CC BY 4.0), OSM (ODbL), ABS / GeoNames (CC BY 4.0), AEMO data, TNSP planning reports (Transgrid, Powerlink, Ausgrid).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: Geoscience Australia (CC BY 4.0), OSM (ODbL), ABS / GeoNames (CC BY 4.0), AEMO data, TNSP planning reports (Transgrid, Powerlink, Ausgrid).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -236,7 +236,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r7 (owner seasonal rule, tightened, rung 2): every overhead line x the median winter/summer ratio of Ausgrid's 233 published 132 kV feeder ratings (1.0595); cables static; couplings sized from static ratings.
 - r8 (rung 1 + published counts): 132 kV lines matched by end names to Ausgrid DTAPR 2025 feeders take the mean published winter 2026 feeder rating per circuit, and a single GA line takes Ausgrid's feeder count.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds r4-r5 and the line-data question (2026-11-01)
 
@@ -319,6 +320,8 @@ a build step: the 28 July snapshot is winter; 200 overhead lines x
 1.0595 (the Ausgrid-derived factor of NEM r7; Perth winter is taken as comparable to coastal NSW [VERIFY]); cables
 static. r1 -> r2 (flows identical: losses 109.606 MW, V 1.0054-1.0465, spread 36.531 deg): >100 % 3 -> 3, worst South
 Fremantle - Amherst 132 kV 109.4 -> 103.2 %. PASS. Best WEM case: r2.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - OpenStreetMap power layer, Geofabrik Texas extract texas-261030 (2026-10-30): 345 / 138 kV lines, substations, DC-tie converter sites (OpenStreetMap contributors (via Geofabrik GmbH)), ODbL 1.0
 - EIA-860M Preliminary Monthly Electric Generator Inventory, September 2026 (Operating sheet): ERCO units, plant coordinates, capacity, technology; BA of plants near Texas (U.S. Energy Information Administration), public domain (US federal government work)
@@ -19,7 +17,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### OSM / ERCOT
 
@@ -142,11 +141,12 @@ Use: Texas counties POPESTIMATE2024, joined by name to geoBoundaries ADM2 -> tex
 
 Use: Texas outline (land in geography.json), Texas counties (demand allocation, approximate weather zones).
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: OSM Geofabrik Texas extract (ODbL), EIA-860M / EIA-930 / Census / TIGER (US public domain). No CEII; ERCOT planning cases never used.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: OSM Geofabrik Texas extract (ODbL), EIA-860M / EIA-930 / Census / TIGER (US public domain). No CEII; ERCOT planning cases never used.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -178,7 +178,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r2 attempts without (5) stopped at 0.80 x snapshot (no folder written. (5) converter voltage control by the cited ERCOT rule (Nodal Protocols 3.15 VSS): wind / solar plants over 20 MVA at >= 10 % of nameplate are pv (+/- 0.95 pf of nameplate), all other converters and every battery at fixed pf; r1 made EVERY converter pv, idle ones included. (6) reactive repair _place = the copy from the JAO batch.
 - r3: SEASONAL RATINGS (owner rule 2026-11-01): every overhead line's ASTM 25 C-ambient rating x 0.9439 (= JAO median summer / interseason ratio, the build rules) for the August snapshot; derived, [VERIFY]. No other change.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds
 
@@ -203,6 +204,8 @@ Intermittent Renewable Resources need not below 10 % of nameplate; storage only 
 
 Best case: r2. Open: north Dallas 138 kV (0.8678 pu), Houston east 345 kV thin in OSM (Greens Bayou), fault-level
 sampling of r2 not yet run.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

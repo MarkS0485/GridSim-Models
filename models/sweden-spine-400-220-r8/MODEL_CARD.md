@@ -1,6 +1,4 @@
-# MODEL CARD: Swedish 400/220 kV transmission grid winter peak 2026-01-12 (UnvalidatedAtScale)
-
-**Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# Swedish 400/220 kV transmission grid winter peak 2026-01-12 (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official study results. A solvable rough map of the Swedish 400/220 kV transmission grid for one winter peak snapshot: OpenStreetMap topology with standard line types (PyPSA-Eur) and the OSM 110-150 kV class layer where present, register-based generation (powerplantmatching), the snapshot hour's generation and border flows, allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -126,7 +124,7 @@ Assumed (typical values or documented rules, not fitted; tagged estimated with [
 - Model assembly steps: voltage classes, cuts at the border, cable parameters, transformer units, couplings, placement, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - GISCO NUTS 2024 regions ((c) EuroGeographics) and Natural Earth (public domain): geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

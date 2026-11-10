@@ -1,4 +1,4 @@
-# MODEL CARD: Irish all-island (Ireland + Northern Ireland) 400/275/220/110 kV grid winter peak 2026-01-05 (UnvalidatedAtScale)
+# Irish all-island (Ireland + Northern Ireland) 400/275/220/110 kV grid winter peak 2026-01-05 (UnvalidatedAtScale)
 
 **Released as an open database under the Open Database Licence (ODbL) 1.0 in the GridSim-Models repository; credits in ATTRIBUTION.txt. General-purpose fidelity, never planning grade.**
 

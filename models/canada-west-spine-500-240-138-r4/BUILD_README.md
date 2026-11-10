@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - OpenStreetMap power layer (lines, substations, plants >= 100 kV), Geofabrik provincial extracts 2026-10-30, via the shared the build pipeline OSM ingest and adapt_osm (OpenStreetMap contributors), ODbL 1.0
 - Power Plants, 100 MW or more, North America (2017-08) (North American Cooperation on Energy Information (Natural Resources Canada)), Open Government Licence - Canada
@@ -18,9 +16,10 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 - Model assembly steps: converter removal, island selection, couplings, GSUs, placement, dispatch, demand allocation, boundary injections, slack, repairs (a private build pipeline using GridSim's solver), private
 - Natural Earth 1:10m admin-0 / admin-1, public domain: outline and provinces in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Canada
 
@@ -183,11 +182,12 @@ makes the extracts, the data is OpenStreetMap's).
 Route km is the length along each way, summed over ways; parallel circuits
 drawn on one set of towers as one way count once.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: OSM (ODbL), NACEI (OGL Canada), AESO and BC Hydro public data (website terms of use).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: OSM (ODbL), NACEI (OGL Canada), AESO and BC Hydro public data (website terms of use).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -225,7 +225,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r3 (West only): the r2 attempt did not converge (folder kept as canada-west-spine-500-240-138-r2): with 4 % less demand the first full-snapshot solve converged onto a poor state (Vmin 0.7851, Vmax 1.2978 pu), the one-stage repair stalled at pass 3 and the staged route never ran.: on a one-stage stall the shunts are discarded and the staged route runs (procedure only; same loss accounting as r2).
 - SEASONAL RATINGS (owner rule 2026-11-01): every overhead line's ASTM 25 C-ambient rating x the JAO median seasonal ratio for the snapshot month: Quebec (Feb) and West (Dec) winter x 1.0415, Ontario (Jun) summer x 0.9439; derived, [VERIFY]. No other change.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds 2-3 (2026-11-01)
 
@@ -246,6 +247,8 @@ Best: Quebec r2, West r3. Open: Montreal 315 kV outlets (Bout-de-l'Ile 218.4 %),
 735 kV corridor; series compensation and SVCs are fitted, in the fit register), Calgary 138 kV teed lines
 (510.5 %).: a build step was not re-run; when rebuilt, check the shared converter split against this
 folder's own converter-bus removal and record which is kept.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

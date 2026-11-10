@@ -6,21 +6,20 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Electricity Infrastructure (Power Lines, Substations, Major Power Stations), MapServer query of 2026-10-31 (Geoscience Australia (Commonwealth of Australia)), CC BY 4.0
-- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY] before publication)
-- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution ([VERIFY])
+- Aggregated price and demand data, 5-minute TOTALDEMAND per NEM region, June-August 2025 (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
+- WEM operational demand / generation data (AEMO WA) (Australian Energy Market Operator (AEMO)), AEMO copyright permissions: reuse with attribution
 - GeoNames Australia populated places (AU.zip: population, position) (GeoNames), CC BY 4.0
 - OpenStreetMap power lines and cables 110 kV and above in Australia (Overpass API, 2026-10-31): circuit counts ('circuits', else cables / 3) matched onto GA features (OpenStreetMap contributors), ODbL 1.0
 - Model assembly steps: site grouping, end resolution, per-km parameters, couplings, GSUs, demand allocation, dispatch, slack, repairs (a private build pipeline using GridSim's solver), private
 - ABS ASGS 2021 States and Territories (generalised), CC BY 4.0: outlines in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### ga
 
@@ -72,7 +71,7 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 #### aemo_wa
 
 - URL: https://data.wa.aemo.com.au/public/public-data/datafiles/{post-facilities/facilities.csv, operational-demand-withdrawal-csv/OperationalDemandWithdrawal-2025.csv, facility-scada-csv/FacilityScada-2025-07.csv}
-- Licence: AEMO material, used under AEMO's copyright permissions (reuse with attribution) [VERIFY the exact terms before publication]; public data, nothing confidential
+- Licence: AEMO material, used under AEMO's copyright permissions (reuse with attribution); public data, nothing confidential
 - Note: Snapshot: 28/07/2025 18:50:00 AWST, the maximum Operational Demand of June-August 2025 (4016.35 MW). SCADA 'Average MWh' per 5-minute interval x 12 = MW.
 
 | File | Bytes | SHA-256 |
@@ -99,11 +98,12 @@ Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
 |---|---:|---|
 | AU.zip | 5745182 | f729cd9ed300917da8eb3b3a79dd36ec7c75f8a1f50756313c7c08fbfa73b5f1 |
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: Geoscience Australia (CC BY 4.0), OSM (ODbL), AEMO WA SCADA data; seasonal factor derived from Ausgrid ratings.
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: Geoscience Australia (CC BY 4.0), OSM (ODbL), AEMO WA SCADA data; seasonal factor derived from Ausgrid ratings.
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -137,7 +137,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r2 solve (NEM): pf flat 12 iterations, warm 9, physics-check PASS; V 0.9694-1.0470 pu, losses 1242.775 MW, angle spread 83.472 deg, 17 branches over 100 % (worst Millbrook - Para 132 kV 214.7 %, Vineyard - Rouse Hill 200.0 %, Potts Hill - Rookwood Road 196.0 %).
 - r3 changes (NO FITTING rule from here on): r2's two unsourced changes WITHDRAWN (the 10 couplings sized to r1 flow; the 250 / 200 MVA cable ratings): back to the r1 assumptions. Demand: each metropolitan total spread over its GeoNames suburbs (PPLX, by population) instead of in equal parts over every bus within reach (a topology / demand-placement fix). The reactive-limit trim stays (synthetic repair).
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds r4-r5 and the line-data question (2026-11-01)
 
@@ -220,6 +221,8 @@ a build step: the 28 July snapshot is winter; 200 overhead lines x
 1.0595 (the Ausgrid-derived factor of NEM r7; Perth winter is taken as comparable to coastal NSW [VERIFY]); cables
 static. r1 -> r2 (flows identical: losses 109.606 MW, V 1.0054-1.0465, spread 36.531 deg): >100 % 3 -> 3, worst South
 Fremantle - Amherst 132 kV 109.4 -> 103.2 %. PASS. Best WEM case: r2.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

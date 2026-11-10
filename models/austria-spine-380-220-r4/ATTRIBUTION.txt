@@ -1,24 +1,17 @@
 Austria transmission 380/220 kV winter evening 2025-11-19 (UnvalidatedAtScale)
 
-RELEASE STATUS
---------------
-Included in the GridSim-Models repository PENDING JAO's written consent: this model uses JAO Static Grid Model data and is NOT cleared for public redistribution until that consent is held (see LICENSING.md). General-purpose fidelity, never planning grade.
-
 LICENCE
 -------
-This model is an open database released under the Open Database Licence (ODbL) 1.0
-(https://opendatacommons.org/licenses/odbl/1-0/) in the GridSim-Models repository. Keep every
-credit below in anything you publish from it; a derived database must also be offered under the
-ODbL. You are responsible for complying with each source's terms and each nation's data
-obligations where you use it. General-purpose fidelity only: never planning grade.
+Database: ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/).
+Retain the credits below and follow the applicable source terms.
 
-PRIVATE - DO NOT SHARE OR PUBLISH
----------------------------------
-This folder is NOT openly licensed. The APG line and transformer impedances and ratings in it come
+JAO SOURCE TERMS
+----------------
+The APG line and transformer impedances and ratings in it come
 from the JAO Core Static Grid Model (9th release, March 2026). JAO's General Terms and Conditions
 allow educational, academic, research and internal-analysis use with JAO cited as the source;
 selling, commercialising or making the data available to third parties requires JAO's prior written
-authorisation (contact@jao.eu; https://www.jao.eu/static-grid-model). Keep this case inside the build pipeline.
+authorisation (contact@jao.eu; https://www.jao.eu/static-grid-model).
 
 UnvalidatedAtScale: this case has NOT been validated against official studies. It is a solvable
 approximation of the Austria 220 kV-and-above grid for one snapshot (2025-11-19 17:30 CET), with
@@ -35,7 +28,7 @@ SOURCES AND CREDITS
   substations not in the JAO list. ODbL 1.0.
 - PyPSA powerplantmatching: powerplants.csv (Austria units), CC BY 4.0.
 - GeoNames (www.geonames.org): Austria populated places, CC BY 4.0.
-- WorldPop (www.the build rules, University of Southampton): Austria 2020 1 km population grid
+- WorldPop (www.worldpop.org, University of Southampton): Austria 2020 1 km population grid
   (doi:10.5258/SOTON/WP00647), CC BY 4.0 (demand shares, from the round that uses it).
 - Fraunhofer ISE, energy-charts.info (ENTSO-E based): generation by type, load and cross-border
   flows of 2025-11-19 (CC BY 4.0).

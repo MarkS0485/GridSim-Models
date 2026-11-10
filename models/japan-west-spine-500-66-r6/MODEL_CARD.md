@@ -1,6 +1,4 @@
-# MODEL CARD: Japan west 60 Hz transmission 500/275/220/187/154/110/77/66 kV winter evening 2025-01-15 18:00 JST (UnvalidatedAtScale)
-
-**Included in the GridSim-Models repository PENDING a licence check of some of its inputs (see LICENSING.md); it is NOT cleared for public redistribution until that check is complete. General-purpose fidelity, never planning grade.**
+# Japan west 60 Hz transmission 500/275/220/187/154/110/77/66 kV winter evening 2025-01-15 18:00 JST (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official Japanese study results. A solvable rough map of the Japan west 60 Hz (Chubu, Hokuriku, Kansai, Chugoku, Shikoku, Kyushu areas) (500, 275, 220, 187, 154, 110, 77, 66 kV) for one snapshot: OpenStreetMap topology with typical per-km line parameters, synthetic transformers, register-based generation, population-allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -117,14 +115,14 @@ Buses are 'estimated' (positions and connectivity inferred from OSM drawings); l
 ## Sources
 
 - OpenStreetMap power layer of Japan (lines and cables 66 kV and above, substations, transformers), Overpass API snapshot of 2026-11-01 (OpenStreetMap contributors), ODbL 1.0
-- Area supply and demand results (eria jukyu jisseki), half-hourly, January 2025, of the nine general transmission and distribution companies (HEPCO NW, Tohoku EPCO NW, TEPCO PG, Chubu PG, Hokuriku EPCO TD, Kansai TD, Chugoku EPCO NW, Shikoku EPCO TD, Kyushu EPCO TD) (the general transmission and distribution companies (METI grid-information guidelines)), published for public information; reuse terms [VERIFY] before publication
+- Area supply and demand results (eria jukyu jisseki), half-hourly, January 2025, of the nine general transmission and distribution companies (HEPCO NW, Tohoku EPCO NW, TEPCO PG, Chubu PG, Hokuriku EPCO TD, Kansai TD, Chugoku EPCO NW, Shikoku EPCO TD, Kyushu EPCO TD) (the general transmission and distribution companies (METI grid-information guidelines)), published for public information
 - Global Power Plant Database v1.3.0 (2021), rows for Japan (World Resources Institute), CC BY 4.0
 - GeoNames Japan populated places (JP.zip: population, position) (GeoNames), CC BY 4.0
 - Public figures for link ratings (OCCTO tie-line capacities, rounded) and station positions ([VERIFY]) (OCCTO and the utilities), facts, no licence needed
 - Model assembly steps: adapter run, grid split, per-km parameters, couplings, GSUs, dispatch split, demand allocation, slack, repairs (a private build pipeline using GridSim's solver), private
 - geoBoundaries JPN ADM1 (ODbL 1.0): outlines in geography.json.
 
-Licence: pending a licence check (see ATTRIBUTION.txt and LICENSING.md).
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

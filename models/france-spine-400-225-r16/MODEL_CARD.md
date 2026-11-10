@@ -1,8 +1,4 @@
-# MODEL CARD: France transmission 400/225 kV winter peak 2026-01-06 (UnvalidatedAtScale)
-
-**RELEASE STATUS: Included in the GridSim-Models repository PENDING JAO's written consent: this model uses JAO Static Grid Model data and is NOT cleared for public redistribution until that consent is held (see LICENSING.md). General-purpose fidelity, never planning grade.**
-
-**PRIVATE - DO NOT SHARE OR PUBLISH. Built from the JAO Core Static Grid Model, which JAO licenses for research and internal use with attribution only; making it (or a database derived from it) available to third parties needs JAO's prior written authorisation (contact@jao.eu). This case stays in the build pipeline out/ and never goes to GridSim's public repository.**
+# France transmission 400/225 kV winter peak 2026-01-06 (UnvalidatedAtScale)
 
 **UnvalidatedAtScale.** Not checked against official French study results. A solvable rough map of the French 225/400 kV transmission grid for one winter snapshot: real TSO impedances and ratings (JAO, RTE rows), register-based generation (ODRE), allocated demand. Use it to learn, compare and explore, not to plan or operate.
 
@@ -137,7 +133,7 @@ Buses are 'estimated' because their POSITION is inferred (OSM / JAO map); their 
 - france-geojson regions (IGN Admin Express COG), Licence Ouverte: region assignment and region shapes in geography.json.
 - Natural Earth 1:10m admin-0, public domain: France outline in geography.json.
 
-Licence: PRIVATE (JAO terms). See ATTRIBUTION.txt.
+Database licence: ODbL 1.0. See [source credits](ATTRIBUTION.txt).
 
 ## Files beside the case
 

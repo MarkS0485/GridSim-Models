@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - powerplantmatching matched power plant list (master, fetched 2026-10-31) (PyPSA / FIAS powerplantmatching contributors), CC BY 4.0
@@ -20,7 +18,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Bulgaria / pypsa_osm
 
@@ -148,11 +147,12 @@ Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 - Licence: Public Domain (geoBoundaries gbOpen; source geoBoundaries, Wikimedia)
 - What: geoBoundaries gbOpen BGR ADM1 (Province, 2019) simplified polygons: first-level regions, home test and geography.json.
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: As Ireland; Bulgarian regions from geoBoundaries (public domain).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: As Ireland; Bulgarian regions from geoBoundaries (public domain).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -186,7 +186,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - r3: RfG with NATIONAL thresholds instead of the EU Table 1 limits; synchronous units below type B at unity pf.
 - r3: Seasonal ratings: every overhead line x the TSO-practice seasonal factor for the snapshot month; cables static.
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds after r1 (2026-11-01)
 
@@ -229,6 +230,8 @@ relations not read by a build step), bulgaria r3, baltics r3, wbalkans r2.
 Open: Ireland Woodland 400/220 kV transformer 230.5 % (PyPSA marks the site; the 2 x 400 MVA unit rule is a typical
 value); Greece couplings (substation relations), Bulgaria / Baltics PyPSA virtual bus ids (match by position to OSM
 substations from a Geofabrik extract: not done).
+
+</details>
 
 ### Repairs (every change made so the case solves)
 

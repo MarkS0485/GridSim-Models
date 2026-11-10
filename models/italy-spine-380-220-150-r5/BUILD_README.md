@@ -6,9 +6,7 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 ## 1. Sources
 
-### As listed in the model card
-
-#### Sources
+### Source overview
 
 - Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data v0.7 (Zenodo 18619025, 2026-02-12): Italian buses, lines (OSM length, circuits; PyPSA standard line types), transformers, HVDC links (PyPSA-Eur contributors / OpenStreetMap contributors), ODbL 1.0
 - OpenStreetMap: names of the substations behind the PyPSA buses; 120-160 kV lines and substations (Overpass API, 2026-10-31) (OpenStreetMap contributors), ODbL 1.0
@@ -21,7 +19,8 @@ General-purpose fidelity only. This is a solvable approximation for one snapshot
 
 Licence: ODbL 1.0 (see ATTRIBUTION.txt).
 
-### Source records (URL, download date, SHA-256 and licence as recorded at download)
+<details>
+<summary>Source records and checksums</summary>
 
 #### Italy / pypsa_osm
 
@@ -210,11 +209,12 @@ Used by: a build step (regions), a build step.
 - Licence: public domain (Natural Earth)
 - What: Natural Earth 1:10m admin-0 countries; local copy of the source record (same file, SHA-256 checked).
 
+</details>
+
 ## 2. Licences applied
 
-- The model as a whole is a database released under the Open Database Licence (ODbL) 1.0, because its topology is derived from OpenStreetMap (or an equivalent open register) and ODbL share-alike applies.
-- Each source keeps its own terms; every source's credit is in ATTRIBUTION.txt and must be kept.
-- Licence position recorded for this grid: OSM via PyPSA-Eur (ODbL), powerplantmatching / energy-charts / Eurostat / openpolis (CC BY 4.0), Terna monthly report facts (reuse with attribution), Natural Earth (PD).
+- Database: ODbL 1.0. Retain the [source credits](ATTRIBUTION.txt) and follow the applicable source terms.
+- Principal inputs: OSM via PyPSA-Eur (ODbL), powerplantmatching / energy-charts / Eurostat / openpolis (CC BY 4.0), Terna monthly report facts (reuse with attribution), Natural Earth (PD).
 - You are responsible for complying with each nation's data obligations where you use this model.
 
 ## 3. How it was constructed and iterated
@@ -265,7 +265,8 @@ Method in brief: a snapshot build. The data the map needs was fetched once; the 
 - The remaining 132 kV fault level comes from the meshed Milan / Varese 132 kV network. Terna runs it sectionalised,
   but the normal open points are not published. Couplings stay ASSUMED at 2 x 250 MVA, x 12 % [VERIFY].
 
-### Round notes (before / after numbers as recorded at each round; some rows cover sister grids built in the same batch)
+<details>
+<summary>Detailed round notes</summary>
 
 #### Rounds (mainland + Sicily; stopped at r3 on the owner's instruction, breadth first)
 
@@ -305,6 +306,8 @@ construction). A rating BELOW the design value on a hotter-than-35 C afternoon w
 CIGRE TB 601 calculation), which the rule allows only where the TSO itself runs dynamic ratings; no source for Terna's
 operational use of dynamic line rating is held, so rung 3 is not applied. Result: identical ratings; r5 stays best.
 ###46 (Cislago 132 kV 81.59 kA) stays open: Terna's 132 kV sectionalising is unpublished.
+
+</details>
 
 ### Repairs (every change made so the case solves)
 
